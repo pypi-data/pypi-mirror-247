@@ -1,0 +1,6 @@
+README.md
+setup.py
+consoldiatepy.egg-info/PKG-INFO
+consoldiatepy.egg-info/SOURCES.txt
+consoldiatepy.egg-info/dependency_links.txt
+consoldiatepy.egg-info/top_level.txt
