@@ -1,0 +1,3 @@
+[console_scripts]
+automation_fw_setup = automation_fw_setup.__main__:main
+
