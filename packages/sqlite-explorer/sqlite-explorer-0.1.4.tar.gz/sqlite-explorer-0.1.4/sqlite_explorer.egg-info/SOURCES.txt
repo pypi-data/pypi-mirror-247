@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sqlite_explorer/__init__.py
+sqlite_explorer/cli.py
+sqlite_explorer/functions.py
+sqlite_explorer/main.py
+sqlite_explorer.egg-info/PKG-INFO
+sqlite_explorer.egg-info/SOURCES.txt
+sqlite_explorer.egg-info/dependency_links.txt
+sqlite_explorer.egg-info/entry_points.txt
+sqlite_explorer.egg-info/requires.txt
+sqlite_explorer.egg-info/top_level.txt
+test/test.py

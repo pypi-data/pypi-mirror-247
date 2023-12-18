@@ -1,0 +1,3 @@
+[console_scripts]
+sqlexp = sqlite_explorer.main:cli
+
