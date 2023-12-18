@@ -1,0 +1,9 @@
+README.md
+setup.py
+MVVLive/MVVLive.py
+MVVLive/__init__.py
+MVVLive.egg-info/PKG-INFO
+MVVLive.egg-info/SOURCES.txt
+MVVLive.egg-info/dependency_links.txt
+MVVLive.egg-info/requires.txt
+MVVLive.egg-info/top_level.txt
