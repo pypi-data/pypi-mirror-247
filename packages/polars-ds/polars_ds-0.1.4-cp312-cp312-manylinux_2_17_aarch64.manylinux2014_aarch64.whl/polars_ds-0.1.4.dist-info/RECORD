@@ -1,0 +1,11 @@
+polars_ds-0.1.4.dist-info/METADATA,sha256=cIis3BDtccsxSGDDkLYPgbAYSVaGnV6hoeNXsiTzHsA,3334
+polars_ds-0.1.4.dist-info/WHEEL,sha256=dWXUYbPPSaQ84YXLQLZ6vKhtfEhVYs75RHR_7kRECAg,131
+polars_ds-0.1.4.dist-info/license_files/LICENSE.txt,sha256=CQ0WEokIss5KNGCRIGlGkphL_1J7_cpiuoJsvuOQyP0,1063
+polars_ds/type_alias.py,sha256=3IvjYXmunlrLsARWGbjdtkMv6UR21Tuah2OqQo_ai7o,375
+polars_ds/stats_ext.py,sha256=1SxpCQ_iSijBZti3deK_MnVul3WT8l1rvluNyP7H0Hg,13816
+polars_ds/str_ext.py,sha256=aZjlJ_R4YXGjNRxA7vPRw88dPn-5Pzj3LgGKuYCUma0,26975
+polars_ds/num_ext.py,sha256=e-OozKWFJMpclpz_Qnzt0M_0AeMT8swQjVE-1a3pshY,20582
+polars_ds/__init__.py,sha256=Z0vBD_72KkRpzfoJBYi-hmYYhyGUtvYiitZOlRtjvOw,293
+polars_ds/complex_ext.py,sha256=6muA7-HcUAQsiqzCi-gUPN6YFJR_6z8O-QMMGcTb6nQ,7704
+polars_ds/_polars_ds.cpython-312-aarch64-linux-gnu.so,sha256=rHfE4wzsmeDDqNP5_YuaXOvxYINGYSVfx0VpKWhk_7g,29817208
+polars_ds-0.1.4.dist-info/RECORD,,
