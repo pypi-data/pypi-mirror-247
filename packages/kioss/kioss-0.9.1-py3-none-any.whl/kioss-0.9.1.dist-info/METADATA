@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kioss
+Version: 0.9.1
+Summary: Keep I/O Simple and Stupid: Ease the development of ETL/EL/ReverseETL scripts.
+Home-page: http://github.com/bonnal-enzo/kioss
+Author: bonnal-enzo
+Author-email: bonnal.enzo.dev@gmail.com
+License: Apache 2.
+License-File: LICENSE
+
