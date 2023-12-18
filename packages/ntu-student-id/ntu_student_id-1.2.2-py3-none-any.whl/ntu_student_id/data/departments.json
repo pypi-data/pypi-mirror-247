@@ -1,0 +1,1572 @@
+{
+    "0020": {
+        "full": "體育室",
+        "short": "",
+        "additional": ""
+    },
+    "0030": {
+        "full": "軍訓室",
+        "short": "",
+        "additional": ""
+    },
+    "0040": {
+        "full": "外語教學暨資源中心",
+        "short": "",
+        "additional": ""
+    },
+    "0050": {
+        "full": "學務處課外活動組",
+        "short": "課活組",
+        "additional": "課外活動組"
+    },
+    "1000": {
+        "full": "文學院",
+        "short": "",
+        "additional": ""
+    },
+    "1010": {
+        "full": "中國文學系",
+        "short": "中文系",
+        "additional": ""
+    },
+    "1011": {
+        "full": "中國文學系國際學生學士班",
+        "short": "中文系國際生",
+        "additional": ""
+    },
+    "1020": {
+        "full": "外國語文學系",
+        "short": "外文系",
+        "additional": ""
+    },
+    "1030": {
+        "full": "歷史學系",
+        "short": "歷史系",
+        "additional": ""
+    },
+    "1040": {
+        "full": "哲學系",
+        "short": "哲學系",
+        "additional": ""
+    },
+    "1050": {
+        "full": "人類學系",
+        "short": "人類系",
+        "additional": ""
+    },
+    "1060": {
+        "full": "圖書資訊學系",
+        "short": "圖資系",
+        "additional": ""
+    },
+    "1070": {
+        "full": "日本語文學系",
+        "short": "日文系",
+        "additional": ""
+    },
+    "1080": {
+        "full": "應用英語學系",
+        "short": "",
+        "additional": ""
+    },
+    "1090": {
+        "full": "戲劇學系",
+        "short": "戲劇系",
+        "additional": ""
+    },
+    "1210": {
+        "full": "中國文學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1220": {
+        "full": "外國語文學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1230": {
+        "full": "歷史學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1240": {
+        "full": "哲學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1250": {
+        "full": "人類學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1260": {
+        "full": "圖書資訊學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1270": {
+        "full": "日本語文學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1290": {
+        "full": "戲劇學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1410": {
+        "full": "藝術史研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1420": {
+        "full": "語言學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1440": {
+        "full": "音樂學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1450": {
+        "full": "臺灣文學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "1460": {
+        "full": "華語教學碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "1470": {
+        "full": "翻譯碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "2000": {
+        "full": "理學院",
+        "short": "",
+        "additional": ""
+    },
+    "2010": {
+        "full": "數學系",
+        "short": "數學系",
+        "additional": ""
+    },
+    "2020": {
+        "full": "物理學系",
+        "short": "物理系",
+        "additional": ""
+    },
+    "2030": {
+        "full": "化學系",
+        "short": "化學系",
+        "additional": ""
+    },
+    "2040": {
+        "full": "地質科學系",
+        "short": "地質系",
+        "additional": ""
+    },
+    "2051": {
+        "full": "動物生物組",
+        "short": "",
+        "additional": ""
+    },
+    "2052": {
+        "full": "漁業生物組",
+        "short": "",
+        "additional": ""
+    },
+    "2060": {
+        "full": "植物學系",
+        "short": "",
+        "additional": ""
+    },
+    "2070": {
+        "full": "心理學系",
+        "short": "心理系",
+        "additional": ""
+    },
+    "2080": {
+        "full": "地理環境資源學系",
+        "short": "地理系",
+        "additional": ""
+    },
+    "2090": {
+        "full": "大氣科學系",
+        "short": "大氣系",
+        "additional": ""
+    },
+    "2210": {
+        "full": "數學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2220": {
+        "full": "物理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2230": {
+        "full": "化學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2231": {
+        "full": "化學所化學組",
+        "short": "",
+        "additional": ""
+    },
+    "2232": {
+        "full": "化學所化學生物學組",
+        "short": "",
+        "additional": ""
+    },
+    "2240": {
+        "full": "地質科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2241": {
+        "full": "地質組",
+        "short": "",
+        "additional": ""
+    },
+    "2242": {
+        "full": "應用地質組",
+        "short": "",
+        "additional": ""
+    },
+    "2250": {
+        "full": "動物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2260": {
+        "full": "植物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2270": {
+        "full": "心理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2271": {
+        "full": "一般心理學組",
+        "short": "",
+        "additional": ""
+    },
+    "2272": {
+        "full": "臨床心理學組",
+        "short": "",
+        "additional": ""
+    },
+    "2280": {
+        "full": "地理環境資源學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2290": {
+        "full": "大氣科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2410": {
+        "full": "海洋研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2411": {
+        "full": "海洋物理組",
+        "short": "",
+        "additional": ""
+    },
+    "2412": {
+        "full": "海洋生物及漁業組",
+        "short": "",
+        "additional": ""
+    },
+    "2413": {
+        "full": "海洋地質及地球物理",
+        "short": "",
+        "additional": ""
+    },
+    "2414": {
+        "full": "海洋化學組",
+        "short": "",
+        "additional": ""
+    },
+    "2440": {
+        "full": "天文物理研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2450": {
+        "full": "應用物理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2460": {
+        "full": "應用數學科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "2470": {
+        "full": "氣候變遷與永續發展國際學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "2490": {
+        "full": "地球系統科學國際研究生博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "2500": {
+        "full": "統計與數據科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3000": {
+        "full": "社會科學院",
+        "short": "社科院",
+        "additional": ""
+    },
+    "3020": {
+        "full": "政治學系",
+        "short": "政治系",
+        "additional": ""
+    },
+    "3021": {
+        "full": "政治理論組",
+        "short": "政治系政論組",
+        "additional": ""
+    },
+    "3022": {
+        "full": "國際關係組",
+        "short": "政治系國關組",
+        "additional": ""
+    },
+    "3023": {
+        "full": "公共行政組",
+        "short": "政治系公行組",
+        "additional": ""
+    },
+    "3030": {
+        "full": "經濟學系",
+        "short": "經濟系",
+        "additional": ""
+    },
+    "3050": {
+        "full": "社會學系",
+        "short": "社會系",
+        "additional": ""
+    },
+    "3051": {
+        "full": "社會學組",
+        "short": "",
+        "additional": ""
+    },
+    "3052": {
+        "full": "社會工作組",
+        "short": "",
+        "additional": ""
+    },
+    "3100": {
+        "full": "社會工作學系",
+        "short": "社工系",
+        "additional": ""
+    },
+    "3220": {
+        "full": "政治學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3230": {
+        "full": "經濟學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3250": {
+        "full": "社會學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3300": {
+        "full": "社會工作學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3410": {
+        "full": "國家發展研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3420": {
+        "full": "新聞研究所",
+        "short": "",
+        "additional": ""
+    },
+    "3430": {
+        "full": "公共事務研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4000": {
+        "full": "醫學院",
+        "short": "",
+        "additional": ""
+    },
+    "4010": {
+        "full": "醫學系",
+        "short": "醫學系",
+        "additional": ""
+    },
+    "4020": {
+        "full": "牙醫學系",
+        "short": "牙醫系",
+        "additional": ""
+    },
+    "4030": {
+        "full": "藥學系",
+        "short": "藥學系",
+        "additional": ""
+    },
+    "4031": {
+        "full": "藥學系六年制",
+        "short": "",
+        "additional": ""
+    },
+    "4040": {
+        "full": "醫學檢驗暨生物技術學系",
+        "short": "醫技系",
+        "additional": ""
+    },
+    "4060": {
+        "full": "護理學系",
+        "short": "護理系",
+        "additional": ""
+    },
+    "4080": {
+        "full": "物理治療學系(四年制)",
+        "short": "物治系",
+        "additional": ""
+    },
+    "4081": {
+        "full": "物治系六年制",
+        "short": "",
+        "additional": ""
+    },
+    "4090": {
+        "full": "職能治療學系",
+        "short": "職治系",
+        "additional": ""
+    },
+    "4120": {
+        "full": "學士後護理學系",
+        "short": "",
+        "additional": ""
+    },
+    "4200": {
+        "full": "醫學院暨公共衛生學院共同課程",
+        "short": "",
+        "additional": ""
+    },
+    "4210": {
+        "full": "臨床醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4213": {
+        "full": "臨床醫學研究所臨床醫學研究組",
+        "short": "",
+        "additional": ""
+    },
+    "4214": {
+        "full": "臨床醫學研究所臨床試驗組",
+        "short": "",
+        "additional": ""
+    },
+    "4220": {
+        "full": "臨床牙醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4230": {
+        "full": "藥學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4231": {
+        "full": "藥學系博士班藥物科技組",
+        "short": "",
+        "additional": ""
+    },
+    "4232": {
+        "full": "藥學系博士班分子醫藥組",
+        "short": "",
+        "additional": ""
+    },
+    "4240": {
+        "full": "醫學檢驗暨生物技術學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4260": {
+        "full": "護理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4280": {
+        "full": "物理治療學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4290": {
+        "full": "職能治療學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4410": {
+        "full": "生理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4420": {
+        "full": "生物化學暨分子生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4430": {
+        "full": "藥理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4440": {
+        "full": "病理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4450": {
+        "full": "微生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4451": {
+        "full": "微生物及免疫學組",
+        "short": "",
+        "additional": ""
+    },
+    "4452": {
+        "full": "寄生蟲組",
+        "short": "",
+        "additional": ""
+    },
+    "4453": {
+        "full": "微生物學研究所熱帶醫學暨寄生蟲學組",
+        "short": "",
+        "additional": ""
+    },
+    "4460": {
+        "full": "解剖學暨細胞生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4470": {
+        "full": "毒理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4480": {
+        "full": "分子醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4490": {
+        "full": "免疫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4500": {
+        "full": "口腔生物科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4510": {
+        "full": "臨床藥學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4520": {
+        "full": "法醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4530": {
+        "full": "腫瘤醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4540": {
+        "full": "腦與心智科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4550": {
+        "full": "基因體暨蛋白體醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4560": {
+        "full": "轉譯醫學博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "4570": {
+        "full": "醫學教育暨生醫倫理研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4580": {
+        "full": "醫療器材與醫學影像研究所",
+        "short": "",
+        "additional": ""
+    },
+    "4590": {
+        "full": "國際三校農業生技與健康醫療碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "5000": {
+        "full": "工學院",
+        "short": "",
+        "additional": ""
+    },
+    "5010": {
+        "full": "土木工程學系",
+        "short": "土木系",
+        "additional": ""
+    },
+    "5020": {
+        "full": "機械工程學系",
+        "short": "機械系",
+        "additional": ""
+    },
+    "5040": {
+        "full": "化學工程學系",
+        "short": "化工系",
+        "additional": ""
+    },
+    "5050": {
+        "full": "工程科學及海洋工程學系",
+        "short": "工科海洋系",
+        "additional": ""
+    },
+    "5070": {
+        "full": "材料科學與工程學系",
+        "short": "材料系",
+        "additional": ""
+    },
+    "5080": {
+        "full": "醫學工程學系",
+        "short": "醫工系",
+        "additional": ""
+    },
+    "5210": {
+        "full": "土木工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5211": {
+        "full": "大地工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5212": {
+        "full": "結構工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5213": {
+        "full": "水利工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5215": {
+        "full": "交通工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5216": {
+        "full": "電腦輔助工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5217": {
+        "full": "營建工程與管理組",
+        "short": "",
+        "additional": ""
+    },
+    "5218": {
+        "full": "測量及空間資訊組",
+        "short": "",
+        "additional": ""
+    },
+    "5220": {
+        "full": "機械工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5221": {
+        "full": "流體力學組",
+        "short": "",
+        "additional": ""
+    },
+    "5223": {
+        "full": "熱學組",
+        "short": "",
+        "additional": ""
+    },
+    "5224": {
+        "full": "航空工程組",
+        "short": "",
+        "additional": ""
+    },
+    "5225": {
+        "full": "固體力學組",
+        "short": "",
+        "additional": ""
+    },
+    "5226": {
+        "full": "設計組",
+        "short": "",
+        "additional": ""
+    },
+    "5227": {
+        "full": "製造組",
+        "short": "",
+        "additional": ""
+    },
+    "5228": {
+        "full": "系統控制組",
+        "short": "",
+        "additional": ""
+    },
+    "5240": {
+        "full": "化學工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5250": {
+        "full": "工程科學及海洋工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5270": {
+        "full": "材料科學與工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "527A": {
+        "full": "材料科學與工程學研究所國際應用材料工程碩",
+        "short": "",
+        "additional": ""
+    },
+    "5280": {
+        "full": "醫學工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5410": {
+        "full": "環境工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5430": {
+        "full": "應用力學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5440": {
+        "full": "建築與城鄉研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5460": {
+        "full": "工業工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5480": {
+        "full": "醫學工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5490": {
+        "full": "高分子科學與工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "5500": {
+        "full": "綠色永續材料與精密元件博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "5510": {
+        "full": "分子科學與技術國際研究生博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "5520": {
+        "full": "永續化學科技國際研究生博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "6000": {
+        "full": "生物資源暨農學院",
+        "short": "生農院",
+        "additional": ""
+    },
+    "6010": {
+        "full": "農藝學系",
+        "short": "農藝系",
+        "additional": ""
+    },
+    "6020": {
+        "full": "生物環境系統工程學系",
+        "short": "生工系",
+        "additional": ""
+    },
+    "6030": {
+        "full": "農業化學系",
+        "short": "農化系",
+        "additional": ""
+    },
+    "6031": {
+        "full": "土壤肥料組",
+        "short": "",
+        "additional": ""
+    },
+    "6032": {
+        "full": "農產製造組",
+        "short": "",
+        "additional": ""
+    },
+    "6040": {
+        "full": "植物病蟲害學系",
+        "short": "",
+        "additional": ""
+    },
+    "6050": {
+        "full": "森林環境暨資源學系",
+        "short": "森林環資系",
+        "additional": ""
+    },
+    "6051": {
+        "full": "育林組",
+        "short": "",
+        "additional": ""
+    },
+    "6052": {
+        "full": "資源管理組",
+        "short": "",
+        "additional": ""
+    },
+    "6053": {
+        "full": "森林工業組",
+        "short": "",
+        "additional": ""
+    },
+    "6054": {
+        "full": "森林資源保育組",
+        "short": "",
+        "additional": ""
+    },
+    "6060": {
+        "full": "動物科學技術學系",
+        "short": "動科系",
+        "additional": "動物科技系"
+    },
+    "6070": {
+        "full": "農業經濟學系",
+        "short": "農經系",
+        "additional": ""
+    },
+    "6080": {
+        "full": "園藝暨景觀學系",
+        "short": "園藝系",
+        "additional": ""
+    },
+    "6090": {
+        "full": "獸醫學系",
+        "short": "獸醫系",
+        "additional": ""
+    },
+    "6100": {
+        "full": "生物產業傳播暨發展學系",
+        "short": "生傳系",
+        "additional": "生傳發展系"
+    },
+    "6101": {
+        "full": "推廣教育組",
+        "short": "",
+        "additional": ""
+    },
+    "6102": {
+        "full": "鄉村社會組",
+        "short": "",
+        "additional": ""
+    },
+    "6110": {
+        "full": "生物機電工程學系",
+        "short": "生物機電系",
+        "additional": ""
+    },
+    "6120": {
+        "full": "昆蟲學系",
+        "short": "昆蟲系",
+        "additional": ""
+    },
+    "6130": {
+        "full": "植物病理與微生物學系",
+        "short": "植微系",
+        "additional": ""
+    },
+    "6210": {
+        "full": "農藝學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6211": {
+        "full": "作物科學組",
+        "short": "",
+        "additional": ""
+    },
+    "6212": {
+        "full": "生物統計學組",
+        "short": "",
+        "additional": ""
+    },
+    "6220": {
+        "full": "生物環境系統工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6230": {
+        "full": "農業化學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6234": {
+        "full": "土壤環境與植物營養組",
+        "short": "",
+        "additional": ""
+    },
+    "6235": {
+        "full": "生物工業化學組",
+        "short": "",
+        "additional": ""
+    },
+    "6236": {
+        "full": "生物化學組",
+        "short": "",
+        "additional": ""
+    },
+    "6237": {
+        "full": "營養科學組",
+        "short": "",
+        "additional": ""
+    },
+    "6238": {
+        "full": "微生物學組",
+        "short": "",
+        "additional": ""
+    },
+    "6250": {
+        "full": "森林環境暨資源學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6260": {
+        "full": "動物科學技術學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6270": {
+        "full": "農業經濟學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6280": {
+        "full": "園藝暨景觀學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6281": {
+        "full": "園藝作物組",
+        "short": "",
+        "additional": ""
+    },
+    "6282": {
+        "full": "園產品處理及利用組",
+        "short": "",
+        "additional": ""
+    },
+    "6283": {
+        "full": "景觀暨休憩組",
+        "short": "",
+        "additional": ""
+    },
+    "6290": {
+        "full": "獸醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6300": {
+        "full": "生物產業傳播暨發展學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6310": {
+        "full": "生物產業機電工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6320": {
+        "full": "昆蟲學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6330": {
+        "full": "植物病理與微生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6410": {
+        "full": "食品科技研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6420": {
+        "full": "生物科技研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6430": {
+        "full": "臨床動物醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6440": {
+        "full": "分子暨比較病理生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "6450": {
+        "full": "植物醫學碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "7000": {
+        "full": "管理學院",
+        "short": "管理院",
+        "additional": ""
+    },
+    "7010": {
+        "full": "工商管理學系",
+        "short": "工管系",
+        "additional": ""
+    },
+    "7011": {
+        "full": "企業管理組",
+        "short": "工管系企管組",
+        "additional": ""
+    },
+    "7012": {
+        "full": "科技管理組",
+        "short": "工管系科管組",
+        "additional": ""
+    },
+    "7013": {
+        "full": "工商管理系企業管理組英文專班",
+        "short": "",
+        "additional": ""
+    },
+    "7020": {
+        "full": "會計學系",
+        "short": "會計系",
+        "additional": ""
+    },
+    "7030": {
+        "full": "財務金融學系",
+        "short": "財金系",
+        "additional": ""
+    },
+    "7040": {
+        "full": "國際企業學系",
+        "short": "國企系",
+        "additional": ""
+    },
+    "7050": {
+        "full": "資訊管理學系",
+        "short": "資管系",
+        "additional": ""
+    },
+    "7060": {
+        "full": "企業管理學系",
+        "short": "",
+        "additional": ""
+    },
+    "7220": {
+        "full": "會計學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "7230": {
+        "full": "財務金融學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "7240": {
+        "full": "國際企業學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "7250": {
+        "full": "資訊管理學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "7400": {
+        "full": "高階管理碩士專班(EMBA)",
+        "short": "",
+        "additional": ""
+    },
+    "7410": {
+        "full": "商學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "7420": {
+        "full": "管院知識管理組",
+        "short": "",
+        "additional": ""
+    },
+    "7430": {
+        "full": "管理學院高階公共管理組",
+        "short": "",
+        "additional": ""
+    },
+    "7440": {
+        "full": "管理學院會計與管理決策組",
+        "short": "",
+        "additional": ""
+    },
+    "7450": {
+        "full": "管理學院財務金融組",
+        "short": "",
+        "additional": ""
+    },
+    "7460": {
+        "full": "管理學院國際企業管理組",
+        "short": "",
+        "additional": ""
+    },
+    "7470": {
+        "full": "管理學院資訊管理組",
+        "short": "",
+        "additional": ""
+    },
+    "7480": {
+        "full": "管理學院商學組",
+        "short": "",
+        "additional": ""
+    },
+    "7490": {
+        "full": "管理學院企業管理碩士專班(GMBA)",
+        "short": "",
+        "additional": ""
+    },
+    "7500": {
+        "full": "臺大復旦EMBA",
+        "short": "",
+        "additional": ""
+    },
+    "7510": {
+        "full": "創業創新管理碩士在職專班",
+        "short": "",
+        "additional": ""
+    },
+    "8000": {
+        "full": "公共衛生學院",
+        "short": "公衛院",
+        "additional": ""
+    },
+    "8010": {
+        "full": "公共衛生學系",
+        "short": "公衛系",
+        "additional": ""
+    },
+    "8410": {
+        "full": "職業醫學與工業衛生研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8420": {
+        "full": "流行病學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8430": {
+        "full": "醫療機構管理研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8440": {
+        "full": "環境衛生研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8450": {
+        "full": "衛生政策與管理研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8470": {
+        "full": "公共衛生碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "8480": {
+        "full": "健康政策與管理研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8481": {
+        "full": "健康促進組",
+        "short": "",
+        "additional": ""
+    },
+    "8482": {
+        "full": "健康服務與產業組",
+        "short": "",
+        "additional": ""
+    },
+    "8490": {
+        "full": "流行病學與預防醫學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8491": {
+        "full": "流預所流行病學組",
+        "short": "",
+        "additional": ""
+    },
+    "8492": {
+        "full": "流預所生物醫學統計組",
+        "short": "",
+        "additional": ""
+    },
+    "8493": {
+        "full": "流預所預防醫學組",
+        "short": "",
+        "additional": ""
+    },
+    "8500": {
+        "full": "健康行為與社區科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8510": {
+        "full": "食品安全與健康研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8520": {
+        "full": "環境與職業健康科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "8530": {
+        "full": "全球衛生碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "8540": {
+        "full": "全球衛生博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "9000": {
+        "full": "電機資訊學院",
+        "short": "電資院",
+        "additional": ""
+    },
+    "9010": {
+        "full": "電機工程學系",
+        "short": "電機系",
+        "additional": ""
+    },
+    "9020": {
+        "full": "資訊工程學系",
+        "short": "資工系",
+        "additional": ""
+    },
+    "9210": {
+        "full": "電機工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9220": {
+        "full": "資訊工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9410": {
+        "full": "光電工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9420": {
+        "full": "電信工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9430": {
+        "full": "電子工程學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9440": {
+        "full": "資訊網路與多媒體研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9450": {
+        "full": "生醫電子與資訊學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "9460": {
+        "full": "資料科學學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "9470": {
+        "full": "生物資訊學國際研究生學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "9480": {
+        "full": "資料科學博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "A000": {
+        "full": "法律學院",
+        "short": "法律院",
+        "additional": ""
+    },
+    "A010": {
+        "full": "法律學系",
+        "short": "法律系",
+        "additional": ""
+    },
+    "A011": {
+        "full": "法學組",
+        "short": "法律系法學組",
+        "additional": ""
+    },
+    "A012": {
+        "full": "司法組",
+        "short": "法律系司法組",
+        "additional": ""
+    },
+    "A013": {
+        "full": "財法組",
+        "short": "法律系財法組",
+        "additional": ""
+    },
+    "A210": {
+        "full": "法律研究所",
+        "short": "",
+        "additional": ""
+    },
+    "A408": {
+        "full": "教學發展中心",
+        "short": "",
+        "additional": ""
+    },
+    "A410": {
+        "full": "科際整合法律學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B000": {
+        "full": "生命科學院",
+        "short": "生科院",
+        "additional": ""
+    },
+    "B010": {
+        "full": "生命科學系",
+        "short": "生科系",
+        "additional": ""
+    },
+    "B020": {
+        "full": "生化科技學系",
+        "short": "生技系",
+        "additional": ""
+    },
+    "B210": {
+        "full": "生命科學所",
+        "short": "",
+        "additional": ""
+    },
+    "B220": {
+        "full": "生化科技研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B420": {
+        "full": "植物科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B430": {
+        "full": "分子與細胞生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B440": {
+        "full": "生態學與演化生物學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B450": {
+        "full": "漁業科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B460": {
+        "full": "生化科學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B470": {
+        "full": "微生物與生化學研究所",
+        "short": "",
+        "additional": ""
+    },
+    "B471": {
+        "full": "生物工業組",
+        "short": "",
+        "additional": ""
+    },
+    "B472": {
+        "full": "生物化學組",
+        "short": "",
+        "additional": ""
+    },
+    "B473": {
+        "full": "營養科學組",
+        "short": "",
+        "additional": ""
+    },
+    "B474": {
+        "full": "微生物學組",
+        "short": "",
+        "additional": ""
+    },
+    "B480": {
+        "full": "基因體與系統生物學學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "B490": {
+        "full": "跨領域神經科學國際研究生博士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "H000": {
+        "full": "共同教育中心",
+        "short": "",
+        "additional": ""
+    },
+    "H010": {
+        "full": "通識教育組",
+        "short": "",
+        "additional": ""
+    },
+    "H020": {
+        "full": "共同教育組",
+        "short": "",
+        "additional": ""
+    },
+    "H410": {
+        "full": "統計碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "H420": {
+        "full": "運動設施與健康管理碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "H430": {
+        "full": "全球農業科技與基因體科學碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "H440": {
+        "full": "生物多樣性國際碩士學位學程",
+        "short": "",
+        "additional": ""
+    },
+    "J000": {
+        "full": "產業研發碩士專班",
+        "short": "",
+        "additional": ""
+    },
+    "J100": {
+        "full": "電機電信電子產業研發碩士專班",
+        "short": "",
+        "additional": ""
+    },
+    "J110": {
+        "full": "資訊產業研發碩士專班",
+        "short": "",
+        "additional": ""
+    },
+    "K000": {
+        "full": "三校聯盟",
+        "short": "",
+        "additional": ""
+    },
+    "K010": {
+        "full": "國立臺灣師範大學",
+        "short": "",
+        "additional": ""
+    },
+    "K020": {
+        "full": "國立臺灣科技大學",
+        "short": "",
+        "additional": ""
+    },
+    "K030": {
+        "full": "國立臺北教育大學",
+        "short": "",
+        "additional": ""
+    },
+    "Z000": {
+        "full": "創新設計學院",
+        "short": "",
+        "additional": ""
+    },
+    "Z010": {
+        "full": "創新領域學士學位學程",
+        "short": "",
+        "additional": ""
+    }
+}
