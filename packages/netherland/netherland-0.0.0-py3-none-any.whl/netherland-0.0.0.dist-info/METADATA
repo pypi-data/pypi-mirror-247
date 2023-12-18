@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: netherland
+Version: 0.0.0
+Summary: Model salt marsh sedimentation, underground biomass production and decomposition.
+Home-page: https://github.com/JohnRushKucharski/netherland
+Author: JohnRushKucharski
+Author-email: johnkucharski@gmail.com
+License: GNU GPLv3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+# netherland
+Models salt marsh sedimentation and below ground biomass production and decomposition in dynamic simulations.
