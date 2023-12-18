@@ -1,0 +1,53 @@
+Timer unit: 1e-09 s
+
+Total time: 0.495626 s
+File: /code/datajunction_server/internal/nodes.py
+Function: get_cube_revision_metadata at line 1188
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+  1188                                           @profile
+  1189                                           def get_cube_revision_metadata(session: Session, name: str):
+  1190                                               """
+  1191                                               Returns cube revision metadata for cube named `name`.
+  1192                                               """
+  1193         1         83.0     83.0      0.0      statement = (
+  1194         1      39958.0  39958.0      0.0          select(Node)
+  1195         1      63459.0  63459.0      0.0          .where(Node.name == name)
+  1196         1      11958.0  11958.0      0.0          .options(
+  1197         1      88583.0  88583.0      0.0              joinedload(Node.current).options(
+  1198         1      11125.0  11125.0      0.0                  joinedload(NodeRevision.availability),
+  1199         1      22083.0  22083.0      0.0                  joinedload(NodeRevision.materializations).joinedload(Materialization.backfills),
+  1200         1      19459.0  19459.0      0.0                  joinedload(NodeRevision.cube_elements).joinedload(Column.node_revisions),
+  1201         1       9542.0   9542.0      0.0                  joinedload(NodeRevision.columns),
+  1202                                                       ),
+  1203                                                   )
+  1204                                               )
+  1205         1  490175458.0 490175458.0     98.9      cube = session.exec(statement).unique().one()
+  1206                                           
+  1207         1    2369417.0 2369417.0      0.5      return CubeRevisionMetadata(
+  1208         1       8125.0   8125.0      0.0          id=cube.current.id,
+  1209         1       1209.0   1209.0      0.0          node_id=cube.current.node_id,
+  1210         1       1334.0   1334.0      0.0          type=cube.current.type,
+  1211         1       1333.0   1333.0      0.0          name=cube.current.name,
+  1212         1       1375.0   1375.0      0.0          display_name=cube.current.display_name,
+  1213         1       1583.0   1583.0      0.0          version=cube.current.version,
+  1214         1       1500.0   1500.0      0.0          description=cube.current.description,
+  1215         1       1667.0   1667.0      0.0          availability=cube.current.availability,
+  1216         1       1084.0   1084.0      0.0          cube_elements=cube.current.cube_elements,
+  1217         1       1417.0   1417.0      0.0          query=cube.current.query,
+  1218         1    2789708.0 2789708.0      0.6          columns=[
+  1219                                                       CubeColumnOutput(
+  1220                                                           name=col.name,
+  1221                                                           display_name=col.display_name,
+  1222                                                           type=str(col.type),
+  1223                                                           attributes=col.attributes,
+  1224                                                           dimension=col.dimension,
+  1225                                                           partition=col.partition,
+  1226                                                       )
+  1227         1       1083.0   1083.0      0.0              for col in cube.current.columns
+  1228                                                   ],
+  1229         1       2667.0   2667.0      0.0          updated_at=cube.current.updated_at,
+  1230         1       1083.0   1083.0      0.0          materializations=cube.current.materializations,
+  1231                                               )
+
