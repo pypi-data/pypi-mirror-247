@@ -1,0 +1,87 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-http-api"
+version = "0.0.2"
+authors = [
+  {name="Alex Kwiatkowski", email="alex+python@fremantle.io"},
+]
+description = "HTTP API for LLM with OpenAI compatibility"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">= 3.11"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "llm >=0.0.12",
+  "fastapi >=0.104.0",
+  "pydantic >=2.5.0",
+  "pydantic-settings >=2.1.0",
+  "pyhamcrest >=2.1.0",
+  "pyinstaller >=6.2.0",
+  "uvicorn >=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/rupurt/llm-http-api"
+Issues = "https://github.com/rupurt/llm-http-api/issues"
+
+[project.entry-points.llm]
+llm_http_api = "llm_http_api"
+
+[project.optional-dependencies]
+test = [
+  "build >=1.0.3",
+  "httpx >=0.25.2",
+  "llm-clip >=0.1",
+  "llm-embed-jina >=0.1.2",
+  "llm-gpt4all >=0.2",
+  "llama-cpp-python >=0.2.23",
+  "llm-llama-cpp >=0.3",
+  "llm-mlc >=0.5",
+  "llm-sentence-transformers >=0.1.2",
+  "pytest ~=7.4.0",
+  "pytest-cov ~=4.1.0",
+  "ruff ~=0.1.0",
+  "twine >=4.0.2",
+]
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "venv",
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  "ignore:.*Pydantic V1 style `@validator` validators are deprecated.*:DeprecationWarning",
+  "ignore:.*Support for class-based `config` is deprecated.*:DeprecationWarning",
+  "ignore:.*pkg_resources is deprecated as an API.*:DeprecationWarning",
+]
