@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/ntu_student_id.egg-info/PKG-INFO
+src/ntu_student_id.egg-info/SOURCES.txt
+src/ntu_student_id.egg-info/dependency_links.txt
+src/ntu_student_id.egg-info/top_level.txt
+tests/test_main.py
