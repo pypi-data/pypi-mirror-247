@@ -1,0 +1,52 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gmKriger/__init__.py
+gmKriger/core.py
+gmKriger/gmKriger.py
+gmKriger/helpers.py
+gmKriger/reader.py
+gmKriger.egg-info/PKG-INFO
+gmKriger.egg-info/SOURCES.txt
+gmKriger.egg-info/dependency_links.txt
+gmKriger.egg-info/requires.txt
+gmKriger.egg-info/top_level.txt
+gmKriger/Data/1968 M8.2 Tokachi-Oki.json
+gmKriger/Data/1971 M6.6 San Fernando.json
+gmKriger/Data/1978 M7.7 Miyagiken-Oki.json
+gmKriger/Data/1979 M6.5 Imperial Valley.json
+gmKriger/Data/1980 M6.3 Victoria.json
+gmKriger/Data/1981 M5.9 Westmorland.json
+gmKriger/Data/1983 M6.8 Nihonkai-Chubu.json
+gmKriger/Data/1983 M7.7 Nihonkai-Chubu.json
+gmKriger/Data/1987 M6.5 Superstition Hills.json
+gmKriger/Data/1989 M6.9 Loma Prieta.json
+gmKriger/Data/1993 M7.6 Kushiro-Oki Hokkaido.json
+gmKriger/Data/1994 M6.7 Northridge.json
+gmKriger/Data/1994 M8.3 Toho-Oki Hokkaido.json
+gmKriger/Data/1995 M6.9 Kobe.json
+gmKriger/Data/1999 M7.5 Kocaeli.json
+gmKriger/Data/1999 M7.6 Chi-Chi.json
+gmKriger/Data/2000 M6.6 Tottori.json
+gmKriger/Data/2002 M5.0 Au Sable Forks.json
+gmKriger/Data/2003 M8.3 Tokachi.json
+gmKriger/Data/2007 M6.8 Chuetsu-oki.json
+gmKriger/Data/2010 M7.0 Darfield.json
+gmKriger/Data/2010 M7.2 El Mayor-Cucapah.json
+gmKriger/Data/2010 M8.8 Maule.json
+gmKriger/Data/2011 M5.0 Christchurch.json
+gmKriger/Data/2011 M5.9 Lyttleton.json
+gmKriger/Data/2011 M6.0 Christchurch.json
+gmKriger/Data/2011 M6.2 Christchurch.json
+gmKriger/Data/2011 M9.1 Tohoku-Oki.json
+gmKriger/Data/2012 M6.0 Emilia.json
+gmKriger/Data/2012 M6.1 Emilia.json
+gmKriger/Data/2020 M7.0 Samos.json
+gmKriger/Data/2023 M6.3 Yayladagi.json
+gmKriger/Data/2023 M6.8 Nurdagi.json
+gmKriger/Data/2023 M7.7 Kahramanmaras.json
+gmKriger/Data/2023 M7.8 Pazarcik.json
+gmKriger/Data/models.csv
