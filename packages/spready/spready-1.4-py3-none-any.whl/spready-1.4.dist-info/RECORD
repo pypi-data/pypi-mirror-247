@@ -1,0 +1,15 @@
+spready/__init__.py,sha256=ZlWwrk2ckOkv3yyflouw2mCC1Pmg7YBV5Gc8U8yGJqM,105
+spready/app.py,sha256=8FNPh-2T0S6jZ3gvYQe_gkTEA1mgisWdXKcUdzgOYPg,1331
+spready/cli.py,sha256=_lUTeJBn_dtAiTbpcReY0LAkxOgPTSFgcBP24Oht2Lw,1148
+spready/config.py,sha256=prMRDrEhUjGqqSm71AhSNe0zEVOlG36B0AXPlv-d630,145
+spready/decor.py,sha256=oAf5o9Bl4cqDINGGLLxpcyIRlOA1hDmGm8GasmX5zEk,572
+spready/dto.py,sha256=SiLm-IY_WnlkNsDb4LT1O5Ri1Y8FJEVgAlTOvh69fb4,258
+spready/job.py,sha256=ab1LJlYyZ8pKeo1isyMgsVZMGrzGfSSYamQSadr-RSA,960
+spready/parser.py,sha256=IVvo0PGFGvpWJocYhYJ2c0e1EOs-k0MDhuJZfk0VbJc,2046
+spready/jobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spready/jobs/myjob.py,sha256=1sDCE2HQIlBX1Ar0onhy2_cV5_8SGsqGdXM8f3OK8FE,148
+spready-1.4.dist-info/METADATA,sha256=JkETjGvwrChhtyVAoP3rwEZ38iO_T6O6lnTr5IGziQk,189
+spready-1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+spready-1.4.dist-info/entry_points.txt,sha256=cu92bN25e1dohMNkl6lucjXEmqtbBYeux80GWn_BYmA,43
+spready-1.4.dist-info/top_level.txt,sha256=x8kr6Bla9PqNdhT_3eohqm4R-87Pf_yOWcVIxI3tqFs,8
+spready-1.4.dist-info/RECORD,,
