@@ -1,0 +1,9 @@
+ysql/__init__.py,sha256=BGAsbBglSq9fAmSbWvXl72XmdqKp01ihrhLS1z0hXyg,145
+ysql/dao.py,sha256=mcni_dKDgCMll49YpBqZhljtP91NYDxD7ZuWVur82qo,14599
+ysql/database.py,sha256=BZsc6MA7YidJnlEkhAtxM9sxXuBN7460Vld4eNR2a5M,4837
+ysql/entity.py,sha256=_V7A76EDSksiricTSoUYapfHWLMyHRbo65lx1FURnuE,14345
+ysql-1.3.15.dist-info/LICENSE.txt,sha256=sJvdIVe0GijaW0Cv9UoAQuhJ6segAa49aO9ezJM0A7w,1099
+ysql-1.3.15.dist-info/METADATA,sha256=YUUk4iUmlf6oaEoHMFJgQuaee_J6qCxDFsD4_ZELDEU,6716
+ysql-1.3.15.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ysql-1.3.15.dist-info/top_level.txt,sha256=WCEHdmcxnfMMVKugOfw_T5av_xGNgs01pdWpKxfikgw,5
+ysql-1.3.15.dist-info/RECORD,,
