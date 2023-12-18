@@ -1,0 +1,15 @@
+README.md
+setup.py
+repo2file4gpt/__init__.py
+repo2file4gpt/__main__.py
+repo2file4gpt/config.py
+repo2file4gpt/gh_api_wrapper.py
+repo2file4gpt/markdown_exporter.py
+repo2file4gpt/repo_scrapper.py
+repo2file4gpt.egg-info/PKG-INFO
+repo2file4gpt.egg-info/SOURCES.txt
+repo2file4gpt.egg-info/dependency_links.txt
+repo2file4gpt.egg-info/requires.txt
+repo2file4gpt.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
