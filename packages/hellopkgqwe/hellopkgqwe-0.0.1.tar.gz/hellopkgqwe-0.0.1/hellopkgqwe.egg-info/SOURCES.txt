@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellopkgqwe.egg-info/PKG-INFO
+hellopkgqwe.egg-info/SOURCES.txt
+hellopkgqwe.egg-info/dependency_links.txt
+hellopkgqwe.egg-info/top_level.txt
+rcpcnnlib/__init__.py
+rcpcnnlib/hello.py
