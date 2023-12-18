@@ -1,0 +1,7 @@
+from enum import Enum
+
+
+class SearchField(Enum):
+    SEARCH_FIELD_FEATURE_NAME = 1
+    SEARCH_FIELD_FEATURE_DESCRIPTION = 2
+    SEARCH_FIELD_FEATURE_TAG = 3
