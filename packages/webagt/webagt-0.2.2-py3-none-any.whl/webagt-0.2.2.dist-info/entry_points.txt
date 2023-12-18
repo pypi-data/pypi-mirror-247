@@ -1,0 +1,3 @@
+[console_scripts]
+webagt=web.__main__:main
+
