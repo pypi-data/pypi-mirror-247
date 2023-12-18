@@ -1,0 +1,11 @@
+websockets>=10.3
+typing-extensions>=4.6.1
+
+[dev]
+black==23.3.0
+isort==5.12.0
+pyright==1.1.314
+twine==4.0.2
+
+[test]
+pytest
