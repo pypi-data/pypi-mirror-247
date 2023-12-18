@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ParendumLib
+Version: 0.0.1
+Summary: Parendum Official Library
+Author: Parendum
+Author-email: info@parendum.com
+Keywords: logger
+Requires-Dist: requests
+Requires-Dist: hashlib
+Requires-Dist: hmac
+
