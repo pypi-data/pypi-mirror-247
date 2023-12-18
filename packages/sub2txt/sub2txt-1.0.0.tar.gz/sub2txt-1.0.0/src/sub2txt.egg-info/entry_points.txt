@@ -1,0 +1,2 @@
+[console_scripts]
+sub2txt = sub2txt.cli:entry

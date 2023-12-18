@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/sub2txt/cli.py
+src/sub2txt.egg-info/PKG-INFO
+src/sub2txt.egg-info/SOURCES.txt
+src/sub2txt.egg-info/dependency_links.txt
+src/sub2txt.egg-info/entry_points.txt
+src/sub2txt.egg-info/requires.txt
+src/sub2txt.egg-info/top_level.txt
