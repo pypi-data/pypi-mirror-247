@@ -1,0 +1,6 @@
+maturin[patchelf]
+polars
+numpy
+pytest
+scikit-learn
+scipy
