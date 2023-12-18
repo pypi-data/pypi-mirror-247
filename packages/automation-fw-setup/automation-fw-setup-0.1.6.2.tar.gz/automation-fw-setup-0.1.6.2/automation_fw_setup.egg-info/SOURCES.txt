@@ -1,0 +1,17 @@
+README.md
+setup.py
+automation_fw_setup/__init__.py
+automation_fw_setup/__main__.py
+automation_fw_setup/ask_target_platform.py
+automation_fw_setup/ask_test_framework.py
+automation_fw_setup/check_installations.py
+automation_fw_setup/clone_repository.py
+automation_fw_setup/create_project_folder.py
+automation_fw_setup/create_virtual_env.py
+automation_fw_setup/requirements_install.py
+automation_fw_setup.egg-info/PKG-INFO
+automation_fw_setup.egg-info/SOURCES.txt
+automation_fw_setup.egg-info/dependency_links.txt
+automation_fw_setup.egg-info/entry_points.txt
+automation_fw_setup.egg-info/requires.txt
+automation_fw_setup.egg-info/top_level.txt
