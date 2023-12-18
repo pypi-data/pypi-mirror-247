@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cassandra-reaper-api
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/evolution-gaming/cassandra-reaper-api#readme
+Project-URL: Issues, https://github.com/evolution-gaming/cassandra-reaper-api/issues
+Project-URL: Source, https://github.com/evolution-gaming/cassandra-reaper-api
+Author-email: Timur Isanov <tisanov@evolution.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: API,Cassandra,Reaper
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: requests~=2.26
+Description-Content-Type: text/markdown
+
+# Cassandra Reaper API
+
+[![PyPI - Version](https://img.shields.io/pypi/v/cassandra-reaper-api.svg)](https://pypi.org/project/cassandra-reaper-api)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cassandra-reaper-api.svg)](https://pypi.org/project/cassandra-reaper-api)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cassandra-reaper-api
+```
+
+## License
+
+`cassandra-reaper-api` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
