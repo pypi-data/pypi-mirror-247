@@ -1,0 +1,9 @@
+README.md
+setup.py
+Ocrversion1/__init__.py
+Ocrversion1/main.py
+Ocrversion1.egg-info/PKG-INFO
+Ocrversion1.egg-info/SOURCES.txt
+Ocrversion1.egg-info/dependency_links.txt
+Ocrversion1.egg-info/requires.txt
+Ocrversion1.egg-info/top_level.txt
