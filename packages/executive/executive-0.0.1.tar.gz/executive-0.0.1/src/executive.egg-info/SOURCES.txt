@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/executive/__init__.py
+src/executive/after.py
+src/executive/before.py
+src/executive/groupby.py
+src/executive/trim.py
+src/executive.egg-info/PKG-INFO
+src/executive.egg-info/SOURCES.txt
+src/executive.egg-info/dependency_links.txt
+src/executive.egg-info/entry_points.txt
+src/executive.egg-info/requires.txt
+src/executive.egg-info/top_level.txt
+tests/test_before_and_after.py
+tests/test_groupby.py
+tests/test_trim.py

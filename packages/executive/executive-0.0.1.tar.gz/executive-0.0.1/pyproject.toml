@@ -1,0 +1,22 @@
+[project]
+name = "executive"
+version = "0.0.1"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "An ode to the exec system call."
+dependencies = [
+    "pytest",
+    "pandas",
+    "signalhandlers",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/executive"
+download = "https://pypi.org/project/executive/#files"
+
+[project.scripts]
+trim    = "executive.trim:main"
+after   = "executive.after:main"
+before  = "executive.before:main"
+groupby = "executive.groupby:main"
