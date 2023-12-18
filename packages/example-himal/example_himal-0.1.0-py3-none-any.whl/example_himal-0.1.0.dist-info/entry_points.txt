@@ -1,0 +1,2 @@
+[console_scripts]
+example-himal = example_himal.cli:example_himal
