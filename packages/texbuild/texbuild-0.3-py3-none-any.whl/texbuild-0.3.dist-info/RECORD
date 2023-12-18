@@ -1,0 +1,8 @@
+texbuild/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texbuild/build.py,sha256=aH6CWqS4ZaqnSM5LL6iAU4fv3sFyLlH6N2xA6WFbHmw,9413
+texbuild-0.3.dist-info/LICENSE,sha256=koXA3d5MwKzk8EKSG_VsumQqtdfLSaOhChXO-5sRc0A,1075
+texbuild-0.3.dist-info/METADATA,sha256=A8-6BR4bas_Jv3L5L0hXDQbAD2O-Vxd1XLkt-HJEt70,3291
+texbuild-0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+texbuild-0.3.dist-info/entry_points.txt,sha256=j7lcfgAF15u64ZwLhCTHNcPJgLyNnMIvYsU0v-0qezI,49
+texbuild-0.3.dist-info/top_level.txt,sha256=MzyVVVUSbBrWgqP60vsuHrjDGwIm0CE1T3rRCwlPvJI,9
+texbuild-0.3.dist-info/RECORD,,
