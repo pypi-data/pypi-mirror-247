@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ctcloudsdkecs
+Version: 0.0.1b0
+Summary: ECS
+Home-page: https://github.com/ctcloud/ctcloud-sdk-python-v3
+Author: CtCloud SDK
+Author-email: ctcloud.ct@gmail.com
+License: Apache LICENSE 2.0
+Keywords: ctcloud,sdk,ECS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ctcloudsdkcore >=0.0.1-beta
+
+See detailed information in [ctcloud-sdk-python](https://github.com/ctcloud-sdk/ctcloud-sdk-python).
