@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tacimeicalc/README.MD
+tacimeicalc/__init__.py
+tacimeicalc/requirements.txt
+tacimeicalc/thirdparty.json
+tacimeicalc.egg-info/PKG-INFO
+tacimeicalc.egg-info/SOURCES.txt
+tacimeicalc.egg-info/dependency_links.txt
+tacimeicalc.egg-info/top_level.txt

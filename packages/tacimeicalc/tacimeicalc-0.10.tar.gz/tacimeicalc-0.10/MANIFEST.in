@@ -1,0 +1,3 @@
+include tacimeicalc/requirements.txt
+include tacimeicalc/thirdparty.json
+include tacimeicalc/README.MD
