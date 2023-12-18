@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oknrerun
+Version: 1.0.1
+Summary: Python program to rerun eye health diagnostic group's recording data
+Author-email: Zaw Lin Tun <zawlintun1511@gmail.com>
+Project-URL: Homepage, https://github.com/ZawLinTun16925410/oknrerun
+Project-URL: Bug Tracker, https://github.com/ZawLinTun16925410/oknrerun/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools >=61.0
+Requires-Dist: numpy
+Requires-Dist: commentjson
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: ehdg-tools
+Requires-Dist: ehdg-pupil-detector
+Requires-Dist: okntool
+Requires-Dist: opencv-python
+
+# oknrerun
+Python program to rerun eye health diagnostic group's recording data
