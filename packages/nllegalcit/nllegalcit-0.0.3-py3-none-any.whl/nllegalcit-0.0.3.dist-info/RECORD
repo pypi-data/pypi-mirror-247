@@ -1,0 +1,14 @@
+nllegalcit/__init__.py,sha256=cffxKiUMeJUkH28MIc-M4VuX24RMw4FiTLqtMdFEPyA,988
+nllegalcit/citations.py,sha256=HYFe7fR7K3AD6w_iRJvP7PrmIeP_foBTlfbFZ9sTzGw,4079
+nllegalcit/errors.py,sha256=QDavYKyd2_jtawVnbWN3gGpSxzyiUEqtO28g7hKhjkk,309
+nllegalcit/parser.py,sha256=Zga2WqkpEoAVxorbtGhZwSGwbbTO9qFZkiUjqpLkV2o,1724
+nllegalcit/utils.py,sha256=Co1ZiEueuWOIZWddh2MG8xzl9coV8AboFb2B_LLmEy0,830
+nllegalcit/visitors.py,sha256=obKkgYe5UgDenaUmzk3buVeympkF08KI_euc5bE6R2w,8597
+nllegalcit/grammars/caselaw.lark,sha256=t_rmSQghCtP4-Ursxzi7r4k9rQEipTR-f2rnhLRPC-4,2077
+nllegalcit/grammars/citations.lark,sha256=U_N-LnwKI4EvrAzu4OFZdPin0YSzdkOFTzMut_CtswM,783
+nllegalcit/grammars/kamerstukken.lark,sha256=f7Ip2ViB1MAAsbPj1mM74CnY7e5SGKwx2kWVFhhT4VM,2612
+nllegalcit-0.0.3.dist-info/LICENSE,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+nllegalcit-0.0.3.dist-info/METADATA,sha256=d1a-wHgPeq2GHw988RdLjn5aisRvZxSXHdA8M6LVqCQ,3159
+nllegalcit-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nllegalcit-0.0.3.dist-info/top_level.txt,sha256=0A3HA-X5OiLP_BBQbEh9MLWCW2uoiCS-n54Z3I3Z_xA,11
+nllegalcit-0.0.3.dist-info/RECORD,,
