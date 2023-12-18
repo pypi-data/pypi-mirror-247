@@ -1,0 +1,3 @@
+[console_scripts]
+s5pp=hacku.proxy:main
+
