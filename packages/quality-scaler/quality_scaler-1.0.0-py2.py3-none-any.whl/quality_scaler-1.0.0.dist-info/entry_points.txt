@@ -1,0 +1,2 @@
+[console_scripts]
+qualityscaler = quality_scaler.cli:main
