@@ -1,0 +1,3 @@
+from ..signal import filter as filter, plot as plot
+
+def main() -> None: ...
