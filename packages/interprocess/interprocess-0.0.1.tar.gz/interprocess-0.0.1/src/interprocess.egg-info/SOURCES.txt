@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+bin/xc
+src/interprocess/__init__.py
+src/interprocess/ipython.py
+src/interprocess.egg-info/PKG-INFO
+src/interprocess.egg-info/SOURCES.txt
+src/interprocess.egg-info/dependency_links.txt
+src/interprocess.egg-info/requires.txt
+src/interprocess.egg-info/top_level.txt
+tests/test_copy_paste.py

@@ -1,0 +1,25 @@
+[project]
+name = "interprocess"
+version = "0.0.1"
+authors = [
+    { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Interprocess communication"
+dependencies = [
+    "build",
+    "pytest",
+    "IPython",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/interprocess"
+download = "https://pypi.org/project/interprocess/#files"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+script-files = [
+    "bin/xc",
+]

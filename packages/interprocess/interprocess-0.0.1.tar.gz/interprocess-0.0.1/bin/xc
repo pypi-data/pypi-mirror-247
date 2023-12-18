@@ -1,0 +1,60 @@
+#!/bin/bash
+
+if [[ $OSTYPE =~ darwin ]]; then
+    cat <&0 | gsed -z 's@\n$@@g' | pbcopy
+    exit 0
+fi
+
+# The 'dumb' value seems to be set when we run this from a script that
+# gets called via a desktop environment defined keyboard shortcut.
+if [[ $TERM =~ xterm* ]] || [[ $TERM =~ dumb ]]; then
+
+    if [[ -z "$1" ]]; then
+        input="$(cat <&0)" # possibly more portable than /dev/stdin
+        echo -n "$input" | xclip -selection p &&
+        echo -n "$input" | xclip -selection c
+    else
+        # If we were passed arguments, echo them and recursively call ourselves in a pipe ;)
+        # This lets us type "xc some long command" to copy "some long command" to the clipboard
+        echo "$@" | $(basename $0)
+    fi
+
+    exit 0
+
+elif [[ $TERM == linux ]]; then
+
+    clipboard="/tmp/clipboard"
+
+    # Note: This still doesn't work how we'd ideally like it to
+    # We don't want it to be the output of a command.
+    # We want to be able to paste *onto* a command line without
+    # hitting return. Only if we can do that will we be really
+    # emulating the full helpfulness of copy/paste in a tty.
+    # 
+    # Closest I've gotten to making this work 100% properly is
+    # by hiding the following line in a bash_completion.
+    # cat /tmp/clipboard | sed -r -z 's@\n+$@@' > /dev/tty1
+    # The only problem there is that:
+    # (1) The echoing onto the terminal is triggered by TAB, not xc -p,
+    # and
+    # (2) It's a bash completion, so we obviously first have to 
+    # *type the name* of whatever random command we hid the code
+    # below inside the bash completion of, which is obviously less
+    # than ideal (though we could maybe make it work now that I think of it...)
+    if [[ "$1" == '-p' ]] && [[ -z "$2" ]]; then
+        if [[ -f "$clipboard" ]]; then
+            cat "$clipboard" > $(tty)
+        fi
+        exit 0
+    fi
+
+    input="$(cat /dev/stdin)" &&
+    echo "TERM is linux. Copying input to ${clipboard}." 1>&2
+    echo "$input" > "$clipboard"
+    exit 0
+
+else
+    echo "$(basename $0) can't determine what type of TTY you're using."
+    exit 1
+fi
+exit 0
