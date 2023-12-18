@@ -1,0 +1,84 @@
+[project]
+name = "styled-prose"
+version = "1.0.0"
+description = "Generate images and thumbnails based on bitmap transformations of rendered prose"
+authors = [
+    { name = "thearchitector", email = "me@eliasfgabriel.com" },
+]
+readme = "README.md"
+keywords = [
+    "prose",
+    "text",
+    "writing",
+    "pdf",
+    "typography",
+    "fonts",
+    "art",
+    "image",
+    "render",
+    "pillow",
+    "pdf2image",
+    "tgf",
+    "the-glass-files",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "reportlab>=4.0.0",
+    "tomli>=2.0.0 ; python_version<'3.11'",
+    "pydantic>=2.0.0",
+    "httpx[http2]>=0.25.2",
+    "pdf2image>=1.16.3",
+    "Pillow>=10.1.0",
+]
+
+[project.license]
+text = "BSD-3-Clause"
+
+[project.urls]
+homepage = "https://styledprose.thearchitector.dev"
+documentation = "https://styledprose.thearchitector.dev"
+changelog = "https://github.com/thearchitector/styled-prose/blob/main/CHANGELOG.md"
+repository = "https://github.com/thearchitector/styled-prose"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "mypy>=1.7.1",
+    "types-Pillow>=10.1.0",
+    "pytest-mock>=3.12.0",
+    "respx>=0.20.2",
+    "pdoc>=14.2.0",
+]
+
+[tool.pdm.scripts]
+docs = "pdoc -t templates -o docs --no-search --no-show-source --no-include-undocumented styled_prose"
+
+[tool.ruff]
+target-version = "py38"
+extend-select = [
+    "I",
+    "B",
+]
+
+[tool.mypy]
+python_version = "3.8"
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "reportlab.*",
+    "tomllib.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-ra -svv"
+testpaths = [
+    "tests",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
