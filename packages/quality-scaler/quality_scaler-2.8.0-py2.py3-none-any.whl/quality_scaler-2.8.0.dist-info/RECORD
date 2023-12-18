@@ -1,0 +1,10 @@
+quality_scaler/QualityScaler.py,sha256=BRWHqqKKa7uUxeqsuTK-XlEKPydN7ZmI4dcgP8lwXrw,84889
+quality_scaler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quality_scaler/cli.py,sha256=1dTBq4bo3mu0rx5hOFI6QI8cBSGjmuFspFTuFCu4DBg,346
+quality_scaler-2.8.0.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+quality_scaler-2.8.0.dist-info/LICENSE.txt,sha256=eqQFt9v2_AhLuOcOeYCy88eQS_bqBMr0TcG_FZpNw-8,2262
+quality_scaler-2.8.0.dist-info/METADATA,sha256=WatSfmJ4BZlr9eX_k-Qkp9jy0rjGMqmtx9q21p5CHgo,633
+quality_scaler-2.8.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+quality_scaler-2.8.0.dist-info/entry_points.txt,sha256=jXC1jMJyULFqZsSdwFcu9u_V3L_k0Y-dLZnEf3WsAJg,57
+quality_scaler-2.8.0.dist-info/top_level.txt,sha256=wlH9-DtchsJWca3rORdpZG8TGwT365mk7rwThWOFYQI,15
+quality_scaler-2.8.0.dist-info/RECORD,,
