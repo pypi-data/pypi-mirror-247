@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: hypermea-core
+Version: 0.9.22
+Summary: The core library used by hypermea APIs.
+Home-page: https://github.com/pointw-dev/hypermea
+Author: Michael Ottoson
+Author-email: michael@pointw.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# hypermea-core
+**The fastest way to build production-ready Hypermedia APIs.**
+
+
+
+![](https://github.com/pointw-dev/hypermea/blob/main/img/hypermea-letterhead.png?raw=True)
+
+
+
+> **Please note**:  although we currently use this toolkit to create production-ready APIs, the toolkit is still under development.  Use at your own risk.  This doc is under a heavy rewrite.  Information here is mostly correct, but there are gaps and it's messy.
+
+
+
+## Introduction
+
+This library is not intended to be used directly (though if you know what you are doing, you could).
+
+Instead, please see [hypermea](https://github.com/pointw-dev/hypermea) for the full toolkit and documentation.
