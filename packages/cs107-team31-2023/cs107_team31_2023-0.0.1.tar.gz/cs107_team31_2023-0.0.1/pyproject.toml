@@ -1,0 +1,34 @@
+[project]
+name = "cs107_team31_2023"
+version = "0.0.1"
+authors = [
+  { name="Austin Schwartz", email="aschwartz@college.harvard.edu" },
+  { name="Yilin Wang", email="yilin_wang@fas.harvard.edu"},
+  { name="Kejun Ying", email="kying@g.harvard.edu"},
+  { name="Azim Raheem", email="azimraheem@college.harvard.edu"},
+  { name="Zhengduan Du", email="zdu@g.harvard.edu"},
+]
+description = "An API for interfacing with the Sloan Digital Sky Survey"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "astropy",
+    "astroML",
+    "astroquery",
+    "matplotlib",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "statsmodels",
+    "ipywidgets"
+]
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team31_2023"

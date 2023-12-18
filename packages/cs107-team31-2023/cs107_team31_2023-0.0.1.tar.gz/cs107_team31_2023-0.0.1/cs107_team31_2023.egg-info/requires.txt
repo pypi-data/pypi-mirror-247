@@ -1,0 +1,11 @@
+pandas
+numpy
+astropy
+astroML
+astroquery
+matplotlib
+requests
+scikit-learn
+scipy
+statsmodels
+ipywidgets
