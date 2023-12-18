@@ -1,0 +1,6 @@
+*.csv
+*.json
+*.zip
+/api/
+
+!_static/lhcb-logo.svg
