@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mxy/__init__.py
+mxy/mxy_test.py
+mxy.egg-info/PKG-INFO
+mxy.egg-info/SOURCES.txt
+mxy.egg-info/dependency_links.txt
+mxy.egg-info/requires.txt
+mxy.egg-info/top_level.txt
