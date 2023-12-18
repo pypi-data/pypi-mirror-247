@@ -1,0 +1,3 @@
+[console_scripts]
+aws_sam_get_stack_output_value = aws_sam_utils.cli:get_stack_output_value
+aws_sam_template = aws_sam_utils.cli:aws_sam_template
