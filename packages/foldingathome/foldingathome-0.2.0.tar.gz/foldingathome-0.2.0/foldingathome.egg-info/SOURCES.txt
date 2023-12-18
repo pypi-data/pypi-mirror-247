@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+foldingathome/__init__.py
+foldingathome/donor.py
+foldingathome/monthly.py
+foldingathome/team.py
+foldingathome.egg-info/PKG-INFO
+foldingathome.egg-info/SOURCES.txt
+foldingathome.egg-info/dependency_links.txt
+foldingathome.egg-info/top_level.txt
