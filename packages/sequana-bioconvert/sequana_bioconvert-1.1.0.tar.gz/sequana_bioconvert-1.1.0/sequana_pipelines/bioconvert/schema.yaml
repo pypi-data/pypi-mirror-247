@@ -1,0 +1,39 @@
+# Schema validator for the quality_control
+# author: Thomas Cokelaer
+
+type: map
+mapping:
+    "sequana_wrappers":
+        type: str
+        required: true
+    "input_directory":
+        type: str
+        required: False
+    "input_readtag":
+        type: str
+        required: False
+    "input_pattern":
+        type: str
+        required: False
+
+    "apptainers":
+        type: any
+
+    "bioconvert":
+        type: map
+        mapping:
+            "method":
+                type: str
+            "command":
+                type: str
+            "input_extension":
+                type: str
+            "output_extension":
+                type: str
+            "resources":
+                 type: map
+                 mapping:
+                     "mem":
+                        type: str
+
+

@@ -1,0 +1,34 @@
+# ============================================================================
+# Config file for Sequana bioconvert
+# ==========================================[ Sections for the users ]========
+#
+# One of input_directory, input_pattern and input_samples must be provided
+# If input_directory provided, use it otherwise if input_pattern provided,
+# use it, otherwise use input_samples.
+# ============================================================================
+sequana_wrappers: v23.12.5
+
+
+input_directory: /home/cokelaer/Work/github/sequana_bioconvert
+input_pattern: '*fastq.gz'
+
+# ======================================= [apptainers] ======================
+#
+apptainers:
+  bioconvert: "https://zenodo.org/record/7704649/files/bioconvert_1.0.0.img"
+  graphviz: "https://zenodo.org/record/7928262/files/graphviz_7.0.5.img"
+
+##############################################################################
+# Your section
+#
+# :Parameters:
+#
+# - options: string with any valid FastQC options
+bioconvert:
+    command: fastq2fasta
+    input_extension: fastq.gz
+    output_extension: fasta.gz
+    method: ''
+    resources:
+        mem: 4G
+
