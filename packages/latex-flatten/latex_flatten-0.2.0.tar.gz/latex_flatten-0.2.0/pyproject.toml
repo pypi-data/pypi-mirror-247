@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "latex-flatten"
+version = "0.2.0"
+description = "Flatten your LaTeX document"
+authors = ["Yann Büchau <nobodyinperson@posteo.de>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+reuse = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+latex-flatten = 'latex_flatten.__main__:cli'
