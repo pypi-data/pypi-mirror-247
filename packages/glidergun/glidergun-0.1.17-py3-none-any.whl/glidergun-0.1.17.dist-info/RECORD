@@ -1,0 +1,9 @@
+glidergun/__init__.py,sha256=x0NPO35r21epbTUocEx9NKVLeYaVZ24L9cyZju5wDNM,240
+glidergun/core.py,sha256=r7ysAdWpxHYRSRRxOYsqceNt3tSZuGToyDw-g4q5dNk,23035
+glidergun/ipython.py,sha256=j1bVVYDL-GzTHputWjrC9_iTi-bc5jSruq2H2pzWjkc,1096
+glidergun/literals.py,sha256=weg5Wv-hhlDZKCHbuPhLvWqbXJYS7kJsX71zlAOo4Lc,1367
+glidergun/stats.py,sha256=btXLqXApihmP6Xz2vMfcOmjSq92Pl9nnTJ4yJIEXtgI,1730
+glidergun-0.1.17.dist-info/METADATA,sha256=4i3rGXoczez7dN0PRbkka8Smc63x4ATyafL1iKu6elA,618
+glidergun-0.1.17.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+glidergun-0.1.17.dist-info/top_level.txt,sha256=G-FZXZgOeWxicU4QRFJP0KntDGDbTgJJ-tdwRlpmFi4,10
+glidergun-0.1.17.dist-info/RECORD,,
