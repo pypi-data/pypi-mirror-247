@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Claude2Api/__init__.py
+Claude2Api/claude_2_api.py
+claude_2_api.egg-info/PKG-INFO
+claude_2_api.egg-info/SOURCES.txt
+claude_2_api.egg-info/dependency_links.txt
+claude_2_api.egg-info/top_level.txt

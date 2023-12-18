@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: claude-2-api
+Version: 1.0.0
+Summary: Claude api with the new 2.1 model referring to a non-working repo: https://github.com/KoushikNavuluri/Claude-API
+Home-page: https://github.com/aleksfolt/claude-2-api
+Author: __token__
+Author-email: aleksfolt@ya.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
