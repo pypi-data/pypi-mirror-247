@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sub2txt
+Version: 1.0.0
+Summary: Convert subtitle file(vtt) to text
+Author-email: Bryt <bryt.xin.li@gmail.com>
+Project-URL: Homepage, https://github.com/xin-at-marathon/pypi
+Project-URL: Issues, https://github.com/xin-at-marathon/pypi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: vtt2text
+
+# Convert subtitle file(vtt) to text
+
+
