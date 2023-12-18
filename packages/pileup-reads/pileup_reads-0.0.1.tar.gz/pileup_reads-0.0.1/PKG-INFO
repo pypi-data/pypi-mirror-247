@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pileup_reads
+Version: 0.0.1
+Summary: Pileup reads from ChIP/ATAC/RNA-seq to make bedgraph/wig/bigwig
+Project-URL: Homepage, https://github.com/ajgouhier/pileup_reads
+Author-email: Arthur Gouhier <ajgouhier@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pileup_reads
+
+Pileup reads from ChIP/ATAC/RNA-seq to make bedgraph/wig/bigwig
