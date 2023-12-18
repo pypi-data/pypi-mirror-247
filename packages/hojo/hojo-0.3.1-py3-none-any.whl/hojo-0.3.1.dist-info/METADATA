@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: hojo
+Version: 0.3.1
+Summary: Hojo: An ORM built on top of SQL Alchemy
+License: MIT
+Author: Rafael Izidoro
+Author-email: izidoro.me@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: SQLAlchemy (>=2.0.23,<3.0.0)
+Requires-Dist: alembic (>=1.13.0,<2.0.0)
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: cattrs (>=23.2.3,<24.0.0)
+Requires-Dist: pendulum (>=3.0.0,<4.0.0)
+Requires-Dist: pg8000 (>=1.30.3,<2.0.0)
+Requires-Dist: pluralizer (>=1.2.0,<2.0.0)
+Requires-Dist: sqlalchemy-utils (>=0.41.1,<0.42.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
+Requires-Dist: uuid6 (>=2023.5.2,<2024.0.0)
+Description-Content-Type: text/markdown
+
+# Hojo - An Opinionated ORM on Top of SQL Alchemy
+![hojo](https://github.com/rizidoro/hojo/assets/13101/369da95d-3d5c-470b-aaf3-46f133ae056d)
+
+Hojo is a library that simplifies the usage of SQL Alchemy, providing an interface that is familiar to Django users. While it is not an exact replication of the Django ORM API, it strives to be reminiscent of it, making it easier for Django developers to work with SQL Alchemy.
+
+**Please note that this library is currently in Alpha version and is not yet ready for production use.**
+
+## Installation
+
+You can install Hojo using pip:
+
+```bash
+pip install hojo
+```
+
+## Basic Usage
+Here's a basic example of how to use Hojo:
+
+
+```python
+# file: models.py
+from hojo import automap, model
+
+@model
+class Soldier:
+    name: str
+    weapon: str
+    level: int
+
+# Create the mappers automatically
+automap()
+
+
+# file: query.py
+
+# Insert the hero into the 'soldiers' table
+hero = Soldier.objects.create(name='Cloud Strife', weapon='Buster Sword', level=50)
+
+# Insert the antagonist into the 'soldiers' table
+antagonist = Soldier.objects.create(name='Sephiroth', weapon='Masamune', level=99)
+
+# Retrieve a Soldier with the name 'Cloud' from the 'soldiers' table
+soldier = Soldier.objects.filter(name='Cloud Strife')
+
+# Retrieve a Soldier filtering by the weapon
+soldier = Soldier.objects.filter(weapon__startswith='Buster')
+
+# Retrieve a list of Soldiers filtering by level greater than 10
+soldiers = Soldier.objects.filter(level__gt=10)
+```
+
+## Schema usage
+Hojo provides a BaseSchema class, that you can use with attrs @define and get some abstractions over it:
+
+```python
+from hojo import schema
+from enum import StrEnum
+
+class MateriaType(StrEnum):
+    MAGIC = 'magic'
+    SUPPORT = 'support'
+    SUMMON = 'summon'
+    COMMAND = 'command'
+
+@schema
+class Materia:
+    name: str
+    materia_type: MateriaType
+    
+
+ifrit = Materia.load({'name': 'Ifrit', 'materia_type': 'summon'})
+
+print(ifrit) # => Materia(name='Ifrit', materia_type=<MateriaType.SUMMON: 'summon'>)
+
+print(ifrit.dump()) # => {'name': 'Ifrit', 'materia_type': 'summon'}
+
+print(ifrit.dump(only=['name'])) # => {'name': 'Ifrit'}
+
+print(ifrit.dump(exclude=['name'])) # => {'materia_type': 'summon'}
+
+```
