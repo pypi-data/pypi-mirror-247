@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+vmjuggler/__init__.py
+vmjuggler/base_objects.py
+vmjuggler/exceptions.py
+vmjuggler/helpers.py
+vmjuggler.egg-info/PKG-INFO
+vmjuggler.egg-info/SOURCES.txt
+vmjuggler.egg-info/dependency_links.txt
+vmjuggler.egg-info/requires.txt
+vmjuggler.egg-info/top_level.txt
