@@ -1,0 +1,9 @@
+vmjuggler/__init__.py,sha256=sUSMhCnWfjqF0W1p3Zw_H423gNxhD42XvnbzNyHIoUA,1988
+vmjuggler/base_objects.py,sha256=gny8hgiTQ2USkoyy-GeYcqIHmhULJ2mWaMKYUp7hRcI,33933
+vmjuggler/exceptions.py,sha256=JN-YdSJSchlU912nSVV-vk3Yk82PD0F7qDzePB0mtXA,1372
+vmjuggler/helpers.py,sha256=CTdWoF2N3TH2L-dpWfy7Uk0iG2Vx00fD4Mg_Y9N_Avo,3176
+vmjuggler-0.1.1.dist-info/LICENSE,sha256=vrtL7KziST-dWrpAzo_l8fD8WEk9SwFfnHQj2vjr7JQ,1092
+vmjuggler-0.1.1.dist-info/METADATA,sha256=iPxlYP84Dd4rWfHrs4noFnFsPSMQz_57WDHca10oiMU,2343
+vmjuggler-0.1.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+vmjuggler-0.1.1.dist-info/top_level.txt,sha256=xXR9Q0v7rLZC57wi9wVQZ0BNlMtZGlLdLgRcO7w9xGI,10
+vmjuggler-0.1.1.dist-info/RECORD,,
