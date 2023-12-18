@@ -1,0 +1,13 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/teams_channel/__init__.py
+src/teams_channel/example.py
+src/teams_channel/scripts.py
+src/teams_channel/send_message_to_teams.py
+src/teams_channel.egg-info/PKG-INFO
+src/teams_channel.egg-info/SOURCES.txt
+src/teams_channel.egg-info/dependency_links.txt
+src/teams_channel.egg-info/entry_points.txt
+src/teams_channel.egg-info/requires.txt
+src/teams_channel.egg-info/top_level.txt

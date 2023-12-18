@@ -1,0 +1,4 @@
+click
+pymsteams
+build
+twine

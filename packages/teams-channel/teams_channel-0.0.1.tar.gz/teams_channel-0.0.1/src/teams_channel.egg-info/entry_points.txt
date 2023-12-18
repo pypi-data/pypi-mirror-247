@@ -1,0 +1,2 @@
+[console_scripts]
+teams_channel = teams_channel.scripts:teams_channel
