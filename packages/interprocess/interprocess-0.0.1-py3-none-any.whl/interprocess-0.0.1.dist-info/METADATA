@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: interprocess
+Version: 0.0.1
+Summary: Interprocess communication
+Author-email: Jason Wilkes <notarealdeveloper@gmail.com>
+Project-URL: source, https://github.com/notarealdeveloper/interprocess
+Project-URL: download, https://pypi.org/project/interprocess/#files
+Requires-Dist: build
+Requires-Dist: pytest
+Requires-Dist: IPython
+
