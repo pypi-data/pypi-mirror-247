@@ -1,0 +1,2 @@
+[console_scripts]
+aktemplates = dsa_actionkit.aktemplates:serve_templates
