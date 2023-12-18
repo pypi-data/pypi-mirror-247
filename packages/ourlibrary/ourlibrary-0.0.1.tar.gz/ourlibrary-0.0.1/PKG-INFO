@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ourlibrary
+Version: 0.0.1
+Summary: Team 12 package
+Home-page: https://code.harvard.edu/CS107/team12_2023.git
+Author: Labdhi Gandhi
+Author-email: Labdhi Gandhi <labdhigandhi@g.harvard.edu>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# team12_2023
+COMPSCI 107 Project
+
+![GitHub Actions Status](https://code.harvard.edu/CS107/team12_2023/actions/workflows/CI.yml/badge.svg)
+
