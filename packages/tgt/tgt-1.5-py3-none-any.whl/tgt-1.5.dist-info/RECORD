@@ -1,0 +1,15 @@
+tgt/__init__.py,sha256=dMJYknyI9AWv5wf903mfwTRJj_TjzAvLtxhj_CKafWU,1421
+tgt/agreement.py,sha256=IWXUnE6SunvsiUC-e9z591KcxdM_kK2ouqMy36CvYwc,7289
+tgt/core.py,sha256=_d6aK9uukGv0EYR6FHyw8g-Ldd4dvV6qQRqS19YSMF0,27644
+tgt/io.py,sha256=-JRG279KBWntkrNiAwpMWsEULrIM0BTb5up3SnqGdWU,17959
+tgt/io3.py,sha256=dl7SLAJ7eROfqak3tSzhn2MPx9vS8v9F946FPnKgfek,18007
+tgt/util.py,sha256=YtXBofRFQfVFaYlCSvqsVtNHgag-xtF_roqliVABBaw,13492
+tgt-1.5.data/scripts/tgt-concatenate-textgrids.py,sha256=dVjBGuYIvrdndmY1-ytfQtM-Y3q3mP7TBnmUqJdbemw,2625
+tgt-1.5.data/scripts/tgt-extract-part.py,sha256=EPA8trbYjAH52rky3jPJCnvDM4_PdD2wTU-MjDn2oLY,2728
+tgt-1.5.data/scripts/tgt-print-tiernames.py,sha256=SExIIKrzE3e1WRut753vcKY6RFxsbrQjm_0ldJqcusI,1897
+tgt-1.5.data/scripts/tgt-shift-boundaries.py,sha256=hvdtFOeVp03mB-49p6LsMlAm3L7PC7OKGGynPw-1O0c,2454
+tgt-1.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+tgt-1.5.dist-info/METADATA,sha256=lbuKooS-sEuZbk52KgxhD_ylTQuUIepTcNmtAqiB_YA,764
+tgt-1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tgt-1.5.dist-info/top_level.txt,sha256=CunKWz-G0hdo5FMnT9TnfPHysQDqG0q3pMlqyK3P53I,4
+tgt-1.5.dist-info/RECORD,,
