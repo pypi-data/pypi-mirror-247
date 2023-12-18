@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sosap
+Version: 0.0.1
+Summary: Python binding for Phonetisaurus
+Author-email: Seanghay Yath <seanghay.dev@gmail.com>
+Project-URL: repository, https://github.com/seanghay/sosap
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+## 🗣️ sosap / សូរសព្ទ
+
+Python binding for Phonetisaurus
+
+### Install
+
+```shell
+# pypi
+pip install sosap
+
+# GitHub
+pip install git+https://github.com/seanghay/sosap.git
+```
+
+### Usage
+
+```python
+from sosap import Model
+
+model = Model("g2p.fst")
+
+model.phoneticize("hello")
+```
+
+
+### License
+
+MIT
