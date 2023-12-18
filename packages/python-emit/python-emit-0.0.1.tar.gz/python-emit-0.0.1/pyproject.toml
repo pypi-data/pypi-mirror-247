@@ -1,0 +1,55 @@
+# pyproject.toml
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata
+# https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "python-emit"
+description = "__emit__: all-in-one logging, tracing and auditing"
+authors = [
+	{name = "Estelle Poulin", email = "dev@inspiredby.es"},
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "GPLv3"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version", "dependencies"]
+
+
+[project.urls]
+repository = "https://gitlab.com/inspiredbyes/emit"
+changelog = "https://gitlab.com/inspiredbyes/emit/-/blob/main/CHANGELOG.md"
+
+
+[tool.setuptools]
+packages = ["emit"]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "emit.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+
+[tool.black]
+line-length = 100
+
+
+[tool.isort]
+profile = "black"
+
+
+[tool.vulture]
+ignore_names = ["self", "cls"]
+
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+
+[tool.pyright]

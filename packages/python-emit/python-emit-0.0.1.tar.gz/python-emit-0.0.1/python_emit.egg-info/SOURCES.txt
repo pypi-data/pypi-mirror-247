@@ -1,0 +1,14 @@
+.gitignore
+README.md
+pyproject.toml
+.github/workflows/build-and-publish.yml
+emit/__init__.py
+emit/constants.py
+emit/context.py
+emit/log.py
+emit/span.py
+emit/utils.py
+python_emit.egg-info/PKG-INFO
+python_emit.egg-info/SOURCES.txt
+python_emit.egg-info/dependency_links.txt
+python_emit.egg-info/top_level.txt
