@@ -1,0 +1,23 @@
+site_name: vai-toolkit
+theme: 
+  name: readthedocs
+  logo : "./img/favicon.ico"
+docs_dir: md
+site_dir: ../build
+use_directory_urls: False
+extra:
+  version: 0.0.67
+extra_css:
+  - style.css
+plugins:
+  - search
+  - mkdocstrings
+nav:
+  - QUICKSTART: index.md
+  - 1. Overview: overview.md
+  - 2. Pipeline: pipeline.md
+  - 3. Bulk Actions: organization.md
+  - Python Guide: python-guide.md
+  - REST API: rest-guide.md
+  # - Python & Rest Api Guide: python-rest-api-guide.md
+  

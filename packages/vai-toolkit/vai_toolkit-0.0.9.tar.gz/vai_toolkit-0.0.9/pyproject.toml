@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vai_toolkit"
+version = "0.0.9"
+authors = [
+  { name="VirtuousAI", email="info@virtuousai.com" },
+]
+description = "VAI toolkit, to add data in our platform"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
