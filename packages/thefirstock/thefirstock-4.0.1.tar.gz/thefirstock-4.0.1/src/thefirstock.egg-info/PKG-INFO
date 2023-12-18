@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: thefirstock
+Version: 4.0.1
+Author: Firstock
+Author-email: technology@thefirstock.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: websockets
+Requires-Dist: asyncio
+
+# The Firstock Connect API Python Client - v4
