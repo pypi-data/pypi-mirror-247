@@ -1,0 +1,7 @@
+README.md
+setup.py
+CERMatch.egg-info/PKG-INFO
+CERMatch.egg-info/SOURCES.txt
+CERMatch.egg-info/dependency_links.txt
+CERMatch.egg-info/requires.txt
+CERMatch.egg-info/top_level.txt
