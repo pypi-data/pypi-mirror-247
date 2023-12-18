@@ -1,0 +1,5 @@
+[console_scripts]
+after = executive.after:main
+before = executive.before:main
+groupby = executive.groupby:main
+trim = executive.trim:main
