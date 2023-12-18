@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sgGWR
+Version: 0.1.0a0
+Author-email: Hayato Nishi <hnishiua@gmail.com>
+Project-URL: Homepage, https://github.com/hayato-n/sgGWR
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm>=4.60.0
+Requires-Dist: scipy>=1.6.2
+Requires-Dist: numpy>=1.19.2
+Provides-Extra: jax
+Requires-Dist: optax>=0.0.9; extra == "jax"
+Requires-Dist: jax>=0.2.12; extra == "jax"
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# sgGWR
+
+## Installation
+We recommend installing [JAX](https://github.com/google/jax)] package for efficient computation.
+To install sgGWR with JAX, please execute the following on your terminal.
+
+```
+pip install sgGWR[jax]
+```
+
+If you cannot install JAX (e.g., Windows users), you can omit `[jax]` option.
+
+```
+pip install sgGWR
+```
+
+
