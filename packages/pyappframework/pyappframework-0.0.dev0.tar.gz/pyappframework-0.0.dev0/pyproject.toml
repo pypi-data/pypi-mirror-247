@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyappframework"
+authors = [
+    { name="kms1212", email="kms1212g@gmail.com" },
+]
+description = "A small example package"
+readme = {file = "README.md", content-type="text/markdown"}
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+keywords = ["gui", "application", "framework", "wxwidgets", "wxpython"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Framework :: Matplotlib",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Software Development :: Widget Sets",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+dependencies = [
+    "wxPython>=4.1.0",
+    "typing_extensions>=4.0.0",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/kms1212/pyApplicationFramework"
+Issues = "https://github.com/kms1212/pyApplicationFramework/issues"
+
+[project.optional-dependencies]
+opengl = ["PyOpenGL"]
+matplotlib = ["matplotlib"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pyappframework.__version__"}
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "test/*"
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "@(abc\\.)?abstractmethod",
+    "def func_wrapper",
+    "except ImportError",
+]
+
+[tool.coverage.paths]
+source = [
+    "pyappframework/*"
+]

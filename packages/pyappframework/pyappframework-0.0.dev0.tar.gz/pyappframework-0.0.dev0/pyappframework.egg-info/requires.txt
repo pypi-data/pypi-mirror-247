@@ -1,0 +1,8 @@
+wxPython>=4.1.0
+typing_extensions>=4.0.0
+
+[matplotlib]
+matplotlib
+
+[opengl]
+PyOpenGL

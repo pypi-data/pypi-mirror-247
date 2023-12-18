@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: pyappframework
+Version: 0.0.dev0
+Summary: A small example package
+Author-email: kms1212 <kms1212g@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2023, Minsu Kwon (kms1212)
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/kms1212/pyApplicationFramework
+Project-URL: Issues, https://github.com/kms1212/pyApplicationFramework/issues
+Keywords: gui,application,framework,wxwidgets,wxpython
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Framework :: Matplotlib
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Widget Sets
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wxPython>=4.1.0
+Requires-Dist: typing_extensions>=4.0.0
+Provides-Extra: opengl
+Requires-Dist: PyOpenGL; extra == "opengl"
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib; extra == "matplotlib"
+
+# PyApplicationFramework
+
+## Introduction
+The PyApplicationFramework is a set of library wrappers related to application development in Python.
+This framework allows developers to write a GUI application more simply, with a programming paradigm similar to SwiftUI.
+The declarative syntax of User Interface markup, inspired by SwiftUI, is one of the critical functionalities in this project.
+
+## A Basic "Hello, World!" Code with Explanation
+```python
+import wx
+
+class HelloWorldFrame(wx.Frame):
+    def __init__(self, parent):
+        wx.Frame.__init__(self, parent)
+        self.SetTitle("HelloWorldWindow")
+        panel = wx.Panel(self)
+        sizer = wx.BoxSizer(wx.VERTICAL)
+        text = wx.StaticText(panel, label="Hello, World!")
+        sizer.Add(text)
+        panel.SetSizer(sizer)
+
+if __name__ == "__main__":
+    app = wx.App()
+    frame = HelloWorldFrame(None)
+    frame.Show()
+    app.MainLoop()
+```
+The code above creates a simple window with an text "Hello, World!" at the top-left corner of it as shown as the image below:
+![helloworld](doc/images/helloworld.png)
+
+The code below written with PyApplicationFramework is a code which shows the same result:
+```python
+import wx
+from pyappframework.ui import Window
+from pyappframework.ui.controls import Panel, StaticText
+
+class HelloWorldWindow(Window):
+    def __init__(self, *args, **kw):
+        super().__init__(*args, **kw)
+        self.SetTitle("HelloWorldWindow")
+
+    def body(self) -> Panel:
+        return (
+            Panel(wx.BoxSizer(wx.VERTICAL))
+                .body [[
+                StaticText(label="Hello, World!")
+            ]]
+        )
+
+if __name__ == "__main__":
+    app = wx.App()
+    frame = HelloWorldWindow()
+    frame.Show()
+    app.MainLoop()
+```
+
+As you can see, you can recognize the hierarchical structures of the UI, without using external markup language (like [XRC](https://docs.wxpython.org/wx.xrc.1moduleindex.html)), which is still needed to instantiate every single control defined inside of it.
+
+## Mutable Values
+Mutations of a variable or an attribute defined by `class Mutable[]()` can be observed by adding an event handler or synchronized to one or more attributes of the views or controls.
+
+```python
+import wx
+import pyappframework as pyaf
+from pyappframework import ui
+from pyappframework.ui import controls as ctl
+
+class MutableWindow(ui.Window):
+    def __init__(self, *args, **kw):
+        self.textbox_value = pyaf.Mutable[str]("Initial value")
+        super().__init__(*args, **kw)
+        self.SetTitle("MutableWindow")
+
+    def body(self) -> ctl.Panel:
+        return (
+            ctl.ScrollablePanel(wx.BoxSizer(wx.VERTICAL))
+            .body [[
+                ctl.StaticText(label=self.textbox_value)
+                    .sizer(wx.SizerFlags().Border(wx.TOP | wx.LEFT)),
+                ctl.TextCtrl(value=self.textbox_value)
+                    .sizer(proportion=0, flag=wx.EXPAND),
+                ctl.SearchCtrl(value=self.textbox_value)
+                    .sizer(proportion=0, flag=wx.EXPAND),
+            ]]
+        )
+
+if __name__ == "__main__":
+    app = wx.App()
+    frame = MutableWindow()
+    frame.Show()
+    app.MainLoop()
+```
+![mutable](doc/images/mutable.gif)
+
+## Default Controls
+- Button
+- CheckBox
+- Choice
+- CollapsiblePanel
+- Control
+- DataViewCtrl
+- Gauge
+- InfoBar
+- ListBox
+- Notebook
+- Panel
+- Plot
+- ScrollablePanel
+- SearchCtrl
+- SplitterWindow
+- StaticBitmap
+- StaticBox
+- StaticLine
+- StaticText
+- TextCtrl
+- ToolBar
+- TreeCtrl
+- WebView
+
+## Controls with Additional Requirements
+- GLCanvas (PyOpenGL)
+- Plot (matplotlib)
