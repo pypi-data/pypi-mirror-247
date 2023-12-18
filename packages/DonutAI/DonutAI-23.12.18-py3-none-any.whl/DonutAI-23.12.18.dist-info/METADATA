@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: DonutAI
+Version: 23.12.18
+Summary: An AI assistant for your PC
+Home-page: http://github.com/gauthamnair2005/DonutAI
+Author: Gautham Nair
+Author-email: gautham.nair.2005@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DonutAI
+DonutAI Assistant Preview V2
+## DonutAI GUI
+Latest : `v23.12.18`
+### What's New in `v23.12.18`?
+* Now based on DonutLLM NxT, based on Google Gemini Pro.
+* Updated and still more fine-tuned and trained Model.
+* Fixed few bugs
+### What was New in `v23.12.16`?
+* Added Code Snippet Box for code generations
+* Added a Copy button to copy the generated code snippet
+* Now Based on Google Gemini Pro
+## DonutAI CLI
+Latest : `v23.12.12`
+### Ending support for DonutAI CLI
+We are ending support for the CLI version of DonutAI.
+* DonutAICLI, will work after support ends, but will still use Google Gemini Pro, with no further updates, even if a newer model is released.
