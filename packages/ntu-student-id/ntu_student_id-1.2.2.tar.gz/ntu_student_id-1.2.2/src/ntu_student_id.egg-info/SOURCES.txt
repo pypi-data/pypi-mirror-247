@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ntu_student_id/__init__.py
+src/ntu_student_id/main.py
+src/ntu_student_id.egg-info/PKG-INFO
+src/ntu_student_id.egg-info/SOURCES.txt
+src/ntu_student_id.egg-info/dependency_links.txt
+src/ntu_student_id.egg-info/top_level.txt
+src/ntu_student_id/data/departments.json
