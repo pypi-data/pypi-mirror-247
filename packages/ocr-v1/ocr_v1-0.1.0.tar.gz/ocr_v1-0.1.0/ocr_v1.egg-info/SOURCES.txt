@@ -1,0 +1,8 @@
+setup.py
+Ocrversion1/__init__.py
+Ocrversion1/main.py
+ocr_v1.egg-info/PKG-INFO
+ocr_v1.egg-info/SOURCES.txt
+ocr_v1.egg-info/dependency_links.txt
+ocr_v1.egg-info/requires.txt
+ocr_v1.egg-info/top_level.txt
