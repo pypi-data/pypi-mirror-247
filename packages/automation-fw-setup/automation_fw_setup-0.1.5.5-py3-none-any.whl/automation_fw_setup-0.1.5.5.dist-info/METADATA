@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: automation-fw-setup
+Version: 0.1.5.5
+Summary: A tool for setting up a test automation project with various frameworks and platforms.
+Home-page: https://github.com/cccarv82/autotool
+Author: Carlos Carvalho
+Author-email: cccarv82@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: colorama
+Requires-Dist: gitpython
+Requires-Dist: inquirer
+
+UNKNOWN
+
