@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Spectralanalysis
+Version: 0.1.4
+Summary: A package for spectral analysis
+Home-page: https://code.harvard.edu/CS107/team22_2023.git
+Author: Olivia Berreby
+Author-email: oliviaberreby@college.harvard.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+﻿# team22_2023
+
+![Tests](https://code.harvard.edu/CS107/team22_2023/main/.github/workflows/test.yml/badge.svg)
+![Code Coverage](https://code.harvard.edu/CS107/team22_2023/main/.github/workflows/code-coverage.yml/badge.svg)
