@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mysql:8.0.34
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PWD}
+    ports:
+      - "${MYSQL_TCP_PORT}:3306"
+#    volumes:
+#      - ./tests/db:/docker-entrypoint-initdb.d/:ro

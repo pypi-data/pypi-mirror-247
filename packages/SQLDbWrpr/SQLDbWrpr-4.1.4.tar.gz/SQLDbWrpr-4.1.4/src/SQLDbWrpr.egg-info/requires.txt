@@ -1,0 +1,14 @@
+beetools
+csvwrpr
+displayfx
+fixdate
+pyodbc
+mysql.connector
+
+[dev]
+git-it
+codecov
+docutils
+pytest
+pytest-cov
+rstcheck

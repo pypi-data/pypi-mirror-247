@@ -1,0 +1,4 @@
+SurnameName;IDNr;Country;PassportNr;Race;Picture;ActiveStatus;OrgId;OrgName;RegFee;OpenTrading;BirthYear
+Carlsen,Magnus;A123456781;NOR;AB12CD34;White;NULL;1;6;Ice Cold Chess Club;20;08:00:00;1990
+Ding,Liren;B123456791;;CD56EF78;Asian;NULL;1;;St Louis Chess Club;100;09:00:00;2000
+Nakamura,Hikaru;C123456793;USA;EF90GH12;White;NULL;0;3;St Louis Chess Club;100;09:00:00;1980
