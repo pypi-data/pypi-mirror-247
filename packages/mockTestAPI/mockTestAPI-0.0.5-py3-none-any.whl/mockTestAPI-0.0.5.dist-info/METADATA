@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mockTestAPI
+Version: 0.0.5
+Summary: Geração de dados falsos com Json
+Author: Victor Augusto do Carmo
+Author-email: Victoraugustodocarmo32@gmail.com
+License: MIT License
+Keywords: Dados mocks
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pydantic
+Requires-Dist: faker
+Requires-Dist: typing
+Requires-Dist: stuptools
+
