@@ -1,0 +1,12 @@
+datacenter/__init__.py,sha256=jc6z1Ut_m4yUBf8ameWIV0Fgy_lFLWB8-MgfTtyG-mI,20
+datacenter/api.py,sha256=tZq3_I2_FrslarjGlKB22JDgZ_nK3vTs3JBdr33jtzA,2014
+datacenter/config.py,sha256=JSuJ968oo17L5bsmDKezxeKJT1rzlo-BIa4HxWW5ffI,1130
+datacenter/io_util.py,sha256=fcH9zPVKdGIo508-a-ygIiTA_izFAtkZBcK90qDX2TI,1978
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test2.py,sha256=i2MCaELnPjrzrkgqJAX8jyFV7W6afWL6I-gh80DrOro,780
+tests/testProperty.py,sha256=dzX34hA0rEj4e-Ujqx36r-JxFYETWkEKxfQt2G9wYcA,328
+tests/testapi.py,sha256=avPQYApDp9Nwr5Kks8Ye2TlUBcEf3heNq_HgxmHrIro,573
+inf_datacenter_sdk-0.1.0.dist-info/METADATA,sha256=VD7mhY5gaqVUl9lRi6tJ8_aZPGrD92eTipwFtwrPH_M,123
+inf_datacenter_sdk-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+inf_datacenter_sdk-0.1.0.dist-info/top_level.txt,sha256=mQFwgSLm8qFgasz9RDE2RvwNIxbrUnKBmCzq_gnrpMs,17
+inf_datacenter_sdk-0.1.0.dist-info/RECORD,,
