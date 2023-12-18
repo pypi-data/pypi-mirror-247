@@ -1,0 +1,4 @@
+setuptools
+python-dotenv
+termcolor
+boto3
