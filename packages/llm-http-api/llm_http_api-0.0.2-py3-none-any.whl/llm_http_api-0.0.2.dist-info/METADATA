@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: llm-http-api
+Version: 0.0.2
+Summary: HTTP API for LLM with OpenAI compatibility
+Author-email: Alex Kwiatkowski <alex+python@fremantle.io>
+License: MIT
+Project-URL: Homepage, https://github.com/rupurt/llm-http-api
+Project-URL: Issues, https://github.com/rupurt/llm-http-api/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: llm >=0.0.12
+Requires-Dist: fastapi >=0.104.0
+Requires-Dist: pydantic >=2.5.0
+Requires-Dist: pydantic-settings >=2.1.0
+Requires-Dist: pyhamcrest >=2.1.0
+Requires-Dist: pyinstaller >=6.2.0
+Requires-Dist: uvicorn >=0.24.0
+Provides-Extra: test
+Requires-Dist: build >=1.0.3 ; extra == 'test'
+Requires-Dist: httpx >=0.25.2 ; extra == 'test'
+Requires-Dist: llm-clip >=0.1 ; extra == 'test'
+Requires-Dist: llm-embed-jina >=0.1.2 ; extra == 'test'
+Requires-Dist: llm-gpt4all >=0.2 ; extra == 'test'
+Requires-Dist: llama-cpp-python >=0.2.23 ; extra == 'test'
+Requires-Dist: llm-llama-cpp >=0.3 ; extra == 'test'
+Requires-Dist: llm-mlc >=0.5 ; extra == 'test'
+Requires-Dist: llm-sentence-transformers >=0.1.2 ; extra == 'test'
+Requires-Dist: pytest ~=7.4.0 ; extra == 'test'
+Requires-Dist: pytest-cov ~=4.1.0 ; extra == 'test'
+Requires-Dist: ruff ~=0.1.0 ; extra == 'test'
+Requires-Dist: twine >=4.0.2 ; extra == 'test'
+
+# llm-http-api
+
+HTTP API for [LLM](https://github.com/simonw/llm) with OpenAI compatibility
+
+## Usage
+
+```shell
+> llm http-api --help
+Usage: llm http-api [OPTIONS]
+
+  Run a FastAPI HTTP server with OpenAI compatibility
+
+Options:
+  -h, --host TEXT       [default: 0.0.0.0]
+  -p, --port INTEGER    [default: 8080]
+  -l, --log-level TEXT  [default: info]
+  --help                Show this message and exit.
+```
+
+```shell
+> curl http://localhost:8080/v1/embeddings -X POST -H "Content-Type: application/json" -d '{
+  "input": "Hello world",
+  "model": "jina-embeddings-v2-small-en"
+}'
+{"object":"embedding","embedding":[-0.47561466693878174,-0.4471365511417389,...],"index":0}
+```
+
+## Supported OpenAI Endpoints
+
+### Models
+
+- [x] [`GET /v1/models`](./docs/endpoints/MODELS.md)
+- [x] [`GET /v1/models/{model}`](./docs/endpoints/MODELS.md)
+- [ ] [`DELETE /v1/models/{model}`](./docs/endpoints/MODELS.md)
+
+### Embeddings
+
+- [x] [`POST /v1/embeddings`](./docs/endpoints/EMBEDDINGS.md)
+
+## Unsupported OpenAI Endpoints
+
+A detailed list of unimplemented OpenAI endpoints can be found [here](./docs/endpoints/UNIMPLEMENTED.md)
+
+## Development
+
+This repository manages the dev environment as a Nix flake and requires [Nix to be installed](https://github.com/DeterminateSystems/nix-installer)
+
+```shell
+nix develop -c $SHELL
+```
+
+```shell
+make deps.install
+make deps.install/test
+```
+
+```shell
+make test
+```
+
+```shell
+make coverage
+```
+
+```shell
+make lint
+```
+
+```shell
+make format
+```
