@@ -1,0 +1,3 @@
+LICENSES
+docs
+mkdocs_git_latest_changes_plugin
