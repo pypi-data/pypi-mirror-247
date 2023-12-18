@@ -1,0 +1,8 @@
+setup.py
+spinOps/spinOps.c
+spinOps.egg-info/PKG-INFO
+spinOps.egg-info/SOURCES.txt
+spinOps.egg-info/dependency_links.txt
+spinOps.egg-info/top_level.txt
+spinOps/c_code/spatial.c
+spinOps/c_code/spin.c
