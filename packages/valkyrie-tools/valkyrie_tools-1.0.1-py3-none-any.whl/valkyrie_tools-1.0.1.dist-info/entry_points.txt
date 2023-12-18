@@ -1,0 +1,6 @@
+[console_scripts]
+ipcheck=valkyrie_tools.ipcheck:cli
+urlcheck=valkyrie_tools.urlcheck:cli
+valkyrie=valkyrie_tools.valkyrie:cli
+whobe=valkyrie_tools.whobe:cli
+
