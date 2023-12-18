@@ -1,0 +1,3 @@
+[console_scripts]
+latex-flatten=latex_flatten.__main__:cli
+
