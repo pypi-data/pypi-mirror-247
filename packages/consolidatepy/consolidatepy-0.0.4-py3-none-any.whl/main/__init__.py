@@ -1,0 +1,1 @@
+from consolidatepy import generate
