@@ -1,0 +1,8 @@
+llama_cpp_openai/__init__.py,sha256=fJvgKk8UrOrvA9927v8nwsmhZAQp6iyiUfo0g1ywSFQ,114
+llama_cpp_openai/_api_server.py,sha256=Phgquq2BBLYyjMAblO7hT1s_MYhhpZ2LLwJY1WK1m9Y,10420
+llama_cpp_openai/_llama_2_functionary_chat_handler.py,sha256=P8Bw_YiPx5JH146VraliiF8SwaltDzgNCgUN9jlUJzU,8284
+llama_cpp_openai-0.1.1.dist-info/LICENSE,sha256=Sa73AcxOcVUuCfzKf62Fu6hK2T7keXrLoEPQPTErZTY,11336
+llama_cpp_openai-0.1.1.dist-info/METADATA,sha256=PGht4CqpTIMPujKrIKhB0_Bf075j2QhOlNuCZCueJX8,2876
+llama_cpp_openai-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_cpp_openai-0.1.1.dist-info/entry_points.txt,sha256=vX5o1a-UDtBy2eu1iK32BzmzlzfrMwpYfF-A83BPkOI,76
+llama_cpp_openai-0.1.1.dist-info/RECORD,,

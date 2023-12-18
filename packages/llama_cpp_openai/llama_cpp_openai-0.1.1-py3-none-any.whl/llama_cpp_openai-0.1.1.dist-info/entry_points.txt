@@ -1,0 +1,3 @@
+[console_scripts]
+generate-openai-model=scripts.generate_openai_model:main
+
