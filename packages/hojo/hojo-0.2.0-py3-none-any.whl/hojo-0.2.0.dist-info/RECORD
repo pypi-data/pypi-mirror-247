@@ -1,0 +1,14 @@
+hojo/__init__.py,sha256=gt_wCzBRRlG39Etn-phJGEPMh38fvYqGVmZ3XaQhl90,386
+hojo/base.py,sha256=WwoXpho3xBJsNfG0YEb_9mpzt2KugRSkRFtVEFPIdX4,1943
+hojo/config.py,sha256=uoLCnpY7FrbEar080BuhYICmBhFyEMxYiEc481Iaeug,494
+hojo/connection.py,sha256=F7YrR4Li3dYv1F0eV1UVTdzYF4H6lyakH077fEexBUc,1409
+hojo/converter.py,sha256=SOkadWj9YNm0mI2UkrQpo0NvVIFzJlquldiel6Xzrhc,1810
+hojo/errors.py,sha256=qbIEq2O_pcpNHR9pYViIJvmxgwikuxDRKEGvMnP-qDY,66
+hojo/orm/manager.py,sha256=EvX3xjgOWohbj2l03B02o1X4zASSQDMRfiCgqkIvs_o,3182
+hojo/orm/mapper.py,sha256=uUWxDqN-g3eBKdAFM-rJHHBO9g9DjyN0rPCOUDPjMOY,4196
+hojo/orm/queryset.py,sha256=6255FIdpOg7S74KwNQlELUcBaCZTmZkm4hS2ddo7QkI,5658
+hojo/schema.py,sha256=uodsxhz3vUYIq11CKVxDhtN_GJZtd91VdgJoi2FsB28,977
+hojo-0.2.0.dist-info/LICENSE,sha256=qDGjMvNNAnTUjj6mrtrrxF7Qul2mN7B5eIJBEzEAovU,1070
+hojo-0.2.0.dist-info/METADATA,sha256=kWflMxAXkUCGQH-4Hy9iXvqAGHa-SztYbd1R1NCjBWU,3061
+hojo-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+hojo-0.2.0.dist-info/RECORD,,
