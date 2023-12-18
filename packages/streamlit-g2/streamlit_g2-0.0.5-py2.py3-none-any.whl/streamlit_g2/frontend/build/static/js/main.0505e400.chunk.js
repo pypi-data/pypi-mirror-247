@@ -1,0 +1,2 @@
+(this["webpackJsonpstreamlit-g2"]=this["webpackJsonpstreamlit-g2"]||[]).push([[0],{85:function(t,e,s){"use strict";s.r(e);var n=s(16),c=s(53),o=s.n(c),r=s(49),i=s(124),a=s(37);const b=Object(r.b)((t=>{const{style:e,options:s}=t.args;return Object(n.useEffect)((()=>{r.a.setFrameHeight()}),[]),Object(a.jsx)(i.a,{style:{width:"100%",height:400,...e},options:s})}));o.a.render(Object(a.jsx)(b,{}),document.getElementById("root"))}},[[85,1,2]]]);
+//# sourceMappingURL=main.0505e400.chunk.js.map
