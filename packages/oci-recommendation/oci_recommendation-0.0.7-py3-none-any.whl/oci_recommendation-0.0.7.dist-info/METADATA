@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: oci-recommendation
+Version: 0.0.7
+Summary: provides oci recommendations
+Author-email: "dheeraj.banodha" <dheerajmbanodha@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# oci_recommendation
+
+oci_recommendation package gives recommendations for oracle cloud
+
+Release Notes
+
+# v0.0.7
+1. Bug Fixes
+
+# v0.0.5
+1. Added recommendation for 'review and use life cycle management for storage objects if storage cost is more than 20% of the overall cost'
+2. Added recommendation for 'review compute instances and right size those and consider discount options like reserved instances, saving plans etc. if compute cost is more than 50% of the overall cost'
+3. Added recommendation for 'shutdown under utilized virtual machines during offline hours if compute cost is more than 75% of the over all cost if compute cost is more than 75% of the over all cost'
+
+# v0.0.4
+1. Added 'Improve fault tolerance' with method improve_fault_tolerance()
+2. Minor bug fixes
+
+# v0.0.3 
+1. Minor bug fixes
+
+# v0.0.2
+1. Multi compartments now supported
+2. Bug fixes
+
+
+# v0.0.1 - Initial Release
+This release contains the following methods
+1. del_idle_instances()
+2. purge_unattached_boot_volume()
+3. purge_unattached_volume()
+4. enable_monitoring_for_instances()
+5. enable_olm = fn.enable_olm()
+6. enable_performance_auto_tuning_for_boot_vol()
+7. enable_performance_auto_tuning_for_block_vol()
+8. get_recommendations()
