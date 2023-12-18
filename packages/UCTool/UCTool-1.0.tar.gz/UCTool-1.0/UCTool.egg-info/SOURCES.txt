@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+UCTool/_init_.py
+UCTool/main.py
+UCTool/upload.py
+UCTool.egg-info/PKG-INFO
+UCTool.egg-info/SOURCES.txt
+UCTool.egg-info/dependency_links.txt
+UCTool.egg-info/top_level.txt
