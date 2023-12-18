@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+oci_recommendation/__init__.py
+oci_recommendation/functions.py
+oci_recommendation/oci_client.py
+oci_recommendation/utils.py
+oci_recommendation.egg-info/PKG-INFO
+oci_recommendation.egg-info/SOURCES.txt
+oci_recommendation.egg-info/dependency_links.txt
+oci_recommendation.egg-info/top_level.txt
