@@ -1,0 +1,7 @@
+.pypirc
+__pycache__
+dist
+build
+*.egg*
+release.sh
+release.py
