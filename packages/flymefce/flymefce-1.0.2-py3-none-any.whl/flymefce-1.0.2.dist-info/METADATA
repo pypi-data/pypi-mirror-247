@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flymefce
+Version: 1.0.2
+Summary: FOS SDK for python based on Flymeyun Cloud Engine
+Home-page: https://yun.flyme.com/#/product/fos/index
+Author: qi.sun
+Author-email: qi.sun@xjmz.com
+License: Apache License 2.0
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, <4
+Requires-Dist: pycryptodome (>=3.8.0)
+Requires-Dist: future (>=0.6.0)
+Requires-Dist: six (>=1.4.0)
+
