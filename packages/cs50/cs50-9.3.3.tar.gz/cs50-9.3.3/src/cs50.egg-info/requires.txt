@@ -1,0 +1,6 @@
+Flask>=1.0
+packaging
+SQLAlchemy<3
+sqlparse
+termcolor
+wheel
