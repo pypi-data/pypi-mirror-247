@@ -1,0 +1,9 @@
+teams_channel/__init__.py,sha256=Go7x3CUw13wVIGvym--sNHcmkm_C-cNZBYWUaxoMFOk,178
+teams_channel/example.py,sha256=rr0bv2gYE-LuxWM-l9oFl0bc2MQr1DXPIS9uQf1QdwQ,151
+teams_channel/scripts.py,sha256=J0nTg3RgNk7Z9njgCyJrFrcDbWr3yIBNpclLL3qpmtI,472
+teams_channel/send_message_to_teams.py,sha256=QDorOW5GZ4kVm6gU59VfsrSnWfBRRMFDKgn0Uqu35Dg,182
+teams_channel-0.0.1.dist-info/METADATA,sha256=UdcgUioRSG4PlVhkLaBXdhcK68WNGWchmmiTJw-jfjI,242
+teams_channel-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+teams_channel-0.0.1.dist-info/entry_points.txt,sha256=soTjwOrKz6cxMbGffk4fSxYuQSGi909-fkq5xARfXDk,70
+teams_channel-0.0.1.dist-info/top_level.txt,sha256=ZjX0FAhzJThp8iT6T-zlB0jwAtOxPwSlB0-hX_g3bVA,14
+teams_channel-0.0.1.dist-info/RECORD,,

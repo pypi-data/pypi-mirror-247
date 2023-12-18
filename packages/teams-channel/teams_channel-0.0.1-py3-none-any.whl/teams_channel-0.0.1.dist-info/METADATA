@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: teams-channel
+Version: 0.0.1
+Author: Jin Hwen Ko
+Author-email: jinhwen.ko@cj.net
+License: MIT License
+Requires-Python: >=3.9
+Requires-Dist: click
+Requires-Dist: pymsteams
+Requires-Dist: build
+Requires-Dist: twine
+
