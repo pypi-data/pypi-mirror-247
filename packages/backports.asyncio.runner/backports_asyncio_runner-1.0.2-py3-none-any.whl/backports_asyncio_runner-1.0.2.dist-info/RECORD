@@ -1,0 +1,9 @@
+backports/asyncio/runner/__init__.py,sha256=8_njfH1AS0HN8_IHfVQ61xf8xX_iGEp3QxS0afTmhew,1499
+backports/asyncio/runner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backports/asyncio/runner/runner.py,sha256=yz-KUXG93-f8hDNyTM7_jQa7j8CAxh7S6xcsnfGDU9Q,8354
+backports/asyncio/runner/runner.pyi,sha256=FHGU7tgdDrHqQ7W1cOUFyZhdJVk1ZrJDKgV2tPx4_7A,767
+backports/asyncio/runner/tasks.py,sha256=ELnfCwKpWmGQzVhFYA__fdrR77e8JlAbFMkUAj32-Ls,3666
+backports_asyncio_runner-1.0.2.dist-info/METADATA,sha256=UUJIW1LbLcb3tZlSvmaQ_klipQXwgML-GeJqzrvlHGM,6916
+backports_asyncio_runner-1.0.2.dist-info/WHEEL,sha256=rKV0FgtKSxe-Q3jTBlmgn27qdhTm0_K1YKwPwAPskZ0,87
+backports_asyncio_runner-1.0.2.dist-info/licenses/LICENSE.md,sha256=Qtx6vv87VIhgojdzr7ZJV4X9nehr1sHBbjv-dnFbePA,2339
+backports_asyncio_runner-1.0.2.dist-info/RECORD,,
