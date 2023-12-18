@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: searchagent
+Version: 0.0.2
+Summary: A library of prompts for GenAI
+Project-URL: Homepage, https://github.com/ctava/searchagent
+Project-URL: Documentation, https://ctava.github.io/searchagent/
+Project-URL: Changelog, https://github.com/ctava/searchagent/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/ctava/searchagent
+Author-email: Chris Tava <chris1tava@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE.txt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Provides-Extra: dev
+Requires-Dist: atomicwrites==1.2.1; extra == 'dev'
+Requires-Dist: attrs==19.2.0; extra == 'dev'
+Requires-Dist: coverage==6.5.0; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: invoke==1.7.3; extra == 'dev'
+Requires-Dist: more-itertools==4.3.0; extra == 'dev'
+Requires-Dist: pbr==4.3.0; extra == 'dev'
+Requires-Dist: pluggy==1.0.0; extra == 'dev'
+Requires-Dist: py==1.11.0; extra == 'dev'
+Requires-Dist: pytest-cov==4.0.0; extra == 'dev'
+Requires-Dist: pytest-timeout==2.1.0; extra == 'dev'
+Requires-Dist: pytest==7.2.0; extra == 'dev'
+Requires-Dist: pyyaml==5.1; extra == 'dev'
+Description-Content-Type: text/x-rst
+
+==================
+searchagent
+==================
+
+searchagent is an Apache2 licensed library for storing prompts for summarization, question and answer tasks with large language models.
+
+.. _here: https://ctava.github.io/searchagent/
+
+Why?
+----
+
+- For production, once you ship your binary, how are you going to maintain the prompts? 
+- As a team, is there a centralized place to store prompts for re-use?
+- Because some other libraries are heavy weight.
+
+How to Use
+-----------
+
+.. code-block:: bash
+
+    $ pip install searchagent
+
+.. code-block:: python
+
+    from searchagent.prompts import Prompts
+    def someMethod():
+        prompts = Prompts().get_data()
+        print(prompts["system"])
