@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyAutoPort
+Version: 1.0.0
+Summary: A tool automating UART and ADB interaction
+Home-page: UNKNOWN
+Author: Yu GU
+Author-email: yu.gu@sony.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
