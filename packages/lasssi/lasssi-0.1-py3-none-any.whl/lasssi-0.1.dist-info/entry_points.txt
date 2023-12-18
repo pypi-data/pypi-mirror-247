@@ -1,0 +1,2 @@
+[console_scripts]
+lasssi = lasssi.main:main

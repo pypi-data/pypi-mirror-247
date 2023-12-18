@@ -1,0 +1,10 @@
+lasssi/__init__.py,sha256=MigXIT7A1M9YZuH2MyjKReSziFwzbZX2boVYsLosR6s,22
+lasssi/main.py,sha256=z7OOZ3vBlaLtmZ90LN6i571JKSuBP_QTwQeNsUdPD68,937
+lasssi/assets/lasssi_audio.mp3,sha256=7fyiUaejTZXqHhh01H-AEdmSD8IlmVlFkf0sPN4DpFw,432918
+lasssi/assets/lasssi_video.mp4,sha256=4letI_AeFybmbZbpTw4fS1nzS3w_NbU8uLkJ7u1jSvQ,2790699
+lasssi-0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+lasssi-0.1.dist-info/METADATA,sha256=SkfZcyryMPPmVI5uQ0Br2gbZym7FI6Wtnjwd-8BTlms,256
+lasssi-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lasssi-0.1.dist-info/entry_points.txt,sha256=Dv41gkLRohORNWYQ6Pi2TVG4omP01B0EKv0G2CIUxD8,44
+lasssi-0.1.dist-info/top_level.txt,sha256=jwSTNC5T2F0hMeNKdajg0BHmIfvRF0fS-ILawjmVpCM,7
+lasssi-0.1.dist-info/RECORD,,
