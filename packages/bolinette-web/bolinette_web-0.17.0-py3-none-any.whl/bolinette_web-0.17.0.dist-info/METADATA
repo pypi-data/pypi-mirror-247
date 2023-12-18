@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bolinette-web
+Version: 0.17.0
+Summary: The Bolinette web package, an async Http and Websocket framework, based on bolinette and aiohttp
+Home-page: https://bolinette.org
+License: MIT
+Keywords: Bolinette,Framework,Http,Websocket
+Author: Pierre Chat
+Author-email: pierrechat@outlook.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: bolinette (>=0.17.0,<0.18.0)
+Project-URL: Documentation, https://bolinette.org/docs
+Project-URL: Repository, https://github.com/bolinette/bolinette
+Description-Content-Type: text/markdown
+
+# Bolinette
+
+This is the Bolinette monorepo.
+It contains the sources of the Bolinette `core` package and the `data`, `web` and `api` extensions.
+

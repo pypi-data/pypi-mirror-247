@@ -1,0 +1,17 @@
+bolinette/web/README.md,sha256=kMfYw9fUhsIkeoml0UZBruwUHHR0jTu-shqSQLbvPKU,68
+bolinette/web/__init__.py,sha256=Ff7DlzUn-nPvFLKdf0VgwOaeP6XXiEFdJzCS9cJZsDo,541
+bolinette/web/controller.py,sha256=Z0g4JflOz74yfK6itvYkCXe8QjL0L9vIIr5GaRxubqc,589
+bolinette/web/defaults/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bolinette/web/defaults/commands.py,sha256=EJzirMO1FE59EiX9rJvEpkQLbF-aCS8nPySi11Q_pgc,551
+bolinette/web/exceptions.py,sha256=Tyx-pvrmcHkV9ArlQiUcxvdp2QWZSbM19wHpxW_xW74,3608
+bolinette/web/extension.py,sha256=saa3BRfdI9ozeomGQODnUtwPi7O722sGnLersX8HiyM,638
+bolinette/web/middleware.py,sha256=2PjoiCcCnFDmRZdGk8-FoAtpmXvmT2-XxsSWlryaFWc,1762
+bolinette/web/payload.py,sha256=Ls6W8bOICLTJ2eZpMDvOnvbxH7ZsMjfqQhpis0RoVaQ,60
+bolinette/web/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bolinette/web/pyproject.toml,sha256=01PTdkvR8KvUS3RGNdtsBko9TdXcnWX0YwAXMJvJfps,818
+bolinette/web/resources.py,sha256=EroESA9L-dUe3DJMHTds1AyArM86697z5pEjN08P60s,12409
+bolinette/web/route.py,sha256=yEXtU-4bOMKbtbJ-frjCRz9Y_evlliddSfHjFJf4iJY,2637
+bolinette_web-0.17.0.dist-info/LICENSE.txt,sha256=bIQC3UiOQIqXmMQpd1JIfyqIAA1Vk0mruZeDqjmAtFw,1073
+bolinette_web-0.17.0.dist-info/METADATA,sha256=4gxxyiMTxJugN4_i49iQttuTESA5CzYxFKMXGDqQC7w,1025
+bolinette_web-0.17.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bolinette_web-0.17.0.dist-info/RECORD,,
