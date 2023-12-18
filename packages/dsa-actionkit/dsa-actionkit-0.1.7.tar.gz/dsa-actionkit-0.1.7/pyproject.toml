@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsa-actionkit"
+version = "0.1.7"
+authors = [
+    { name = "DSA NTC", email = "ntc@dsacommittees.org" },
+    { name = "Schuyler Duveen", email = "opensource@moveon.org" },
+]
+description = "actionkit-templates allows you to view your ActionKit templates locally testing different configurations for each page type.  It also documents by-code many context variables for each page"
+dependencies = [
+    "django==3.2.6",
+    "requests>=2.22.0",
+    "django_extensions",
+    "build",
+]
+keywords = ["actionkit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+# Django 3.6 depends on distutils, which is deprecated in 3.12
+requires-python = "<3.12"
+
+[project.scripts]
+aktemplates = "dsa_actionkit.aktemplates:serve_templates"
+
+[project.optional-dependencies]
+test = ["selenium>=3.8.0", "pyvirtualdisplay"]
+
+[tool.setuptools.package-data]
+"dsa_actionkit" = ["contexts/*.csv", "templates/*.html"]
