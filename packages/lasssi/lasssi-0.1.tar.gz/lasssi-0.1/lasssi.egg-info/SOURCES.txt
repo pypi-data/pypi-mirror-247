@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+lasssi/__init__.py
+lasssi/main.py
+lasssi.egg-info/PKG-INFO
+lasssi.egg-info/SOURCES.txt
+lasssi.egg-info/dependency_links.txt
+lasssi.egg-info/entry_points.txt
+lasssi.egg-info/requires.txt
+lasssi.egg-info/top_level.txt
+lasssi/assets/lasssi_audio.mp3
+lasssi/assets/lasssi_video.mp4

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lasssi
+Version: 0.1
+Summary: nhi bataunga
+Author: nhi bataunga
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lasssi
+`
+pip install lasssi && lasssi
+`
