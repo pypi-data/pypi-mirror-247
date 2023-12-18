@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: googleaistudio
+Version: 0.0.4
+Summary: A simple chat bot built on Google Gemini Pro and prompt toolkit. An integrated tool, developed in LetMeDoIt AI project.
+Home-page: https://letmedoit.ai
+Author: Eliran Wong
+Author-email: support@letmedoit.ai
+License: GNU General Public License (GPL)
+Project-URL: Source, https://github.com/eliranwong/googleaistudio
+Project-URL: Tracker, https://github.com/eliranwong/googleaistudio/issues
+Project-URL: Documentation, https://github.com/eliranwong/googleaistudio/wiki
+Project-URL: Funding, https://www.paypal.me/MarvelBible
+Keywords: ai google gemini pro vertex api multimodal vision
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: google-cloud-aiplatform
+Requires-Dist: prompt-toolkit
+
+# Google AI Studio
+
+A collection of AI tools built on Google Vertex AI APIs.
+
+Current available features:
+
+* a simple chat bot built on Google Gemini Pro
+
+plan: vision and other features
+
+It is part of integrated tools, developed in our [LetMeDoIt AI project](https://github.com/eliranwong/letmedoit).
+
+# Install
+
+> pip install --upgrade googleaistudio
+
+# Google API Setup
+
+Save a copy of your API key JSON file as "\~/credentials_googleaistudio.json", where "\~" denotes your home directory.
+
+Read https://github.com/eliranwong/letmedoit/wiki/Google-API-Setup for setting up Google API.
+
+# Usage
+
+Run in terminal:
+
+> geminipro
+
+# Documentation for Developers
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/overview
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/sdk-for-llm/llm-sdk-overview
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/function-calling
+
+https://spec.openapis.org/oas/v3.0.3#schema
+
