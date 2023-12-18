@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: systembridgemodels
+Version: 4.0.0.dev0
+Summary: System Bridge Models
+Home-page: https://github.com/timmo001/system-bridge-models
+Author: Aidan Timson (Timmo)
+Author-email: aidan@timmo.dev
+License: MIT
+Keywords: system-bridge
+License-File: LICENSE
+Requires-Dist: incremental ==22.10.0
+
