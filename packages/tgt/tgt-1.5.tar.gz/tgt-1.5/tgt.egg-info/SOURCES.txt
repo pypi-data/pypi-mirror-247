@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+scripts/tgt-concatenate-textgrids.py
+scripts/tgt-extract-part.py
+scripts/tgt-print-tiernames.py
+scripts/tgt-shift-boundaries.py
+tgt/__init__.py
+tgt/agreement.py
+tgt/core.py
+tgt/io.py
+tgt/io3.py
+tgt/util.py
+tgt.egg-info/PKG-INFO
+tgt.egg-info/SOURCES.txt
+tgt.egg-info/dependency_links.txt
+tgt.egg-info/top_level.txt
