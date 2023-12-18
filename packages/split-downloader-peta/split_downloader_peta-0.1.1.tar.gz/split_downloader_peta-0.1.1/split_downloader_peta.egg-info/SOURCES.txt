@@ -1,0 +1,7 @@
+setup.py
+split_downloader_peta.egg-info/PKG-INFO
+split_downloader_peta.egg-info/SOURCES.txt
+split_downloader_peta.egg-info/dependency_links.txt
+split_downloader_peta.egg-info/entry_points.txt
+split_downloader_peta.egg-info/requires.txt
+split_downloader_peta.egg-info/top_level.txt
