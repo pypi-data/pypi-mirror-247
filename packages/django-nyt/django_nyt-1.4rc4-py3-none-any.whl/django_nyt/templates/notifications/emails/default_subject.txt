@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans %} You have new notifications from {{ domain }} (type: {{ digest }}){% endblocktrans %}
