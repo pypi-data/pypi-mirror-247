@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: taleteller
+Version: 0.0.0.1
+Summary: Send file to every node
+Author: AX
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

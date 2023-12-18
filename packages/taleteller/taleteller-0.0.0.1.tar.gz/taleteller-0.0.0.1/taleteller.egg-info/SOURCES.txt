@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+taleteller/__init__.py
+taleteller/main.py
+taleteller.egg-info/PKG-INFO
+taleteller.egg-info/SOURCES.txt
+taleteller.egg-info/dependency_links.txt
+taleteller.egg-info/entry_points.txt
+taleteller.egg-info/requires.txt
+taleteller.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+taleteller = taleteller.main:main
