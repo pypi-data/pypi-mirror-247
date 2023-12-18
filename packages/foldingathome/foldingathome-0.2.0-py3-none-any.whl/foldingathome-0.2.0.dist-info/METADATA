@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: foldingathome
+Version: 0.2.0
+Summary: API wrapper around Folding@Home's statistics api.
+Author-email: Ben Harris <benharris2514@gmail.com>
+Project-URL: Homepage, https://github.com/leet-hakker/foldingathome
+Project-URL: Issues, https://github.com/leet-hakker/foldingathome/issues
+Keywords: API wrapper,Python,Folding@Home
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# folding-at-home-api-python-wrapper
+
+[![Downloads](https://pepy.tech/badge/jokeapi)](https://pepy.tech/downloads/foldingathome)
+
+This is a Python wrapper for Folding@Home's statistics APIs.
+
+With this wrapper, you can access team and donor information.
