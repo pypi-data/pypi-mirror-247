@@ -1,0 +1,14 @@
+black
+build
+coverage
+coveralls
+mypy
+pydocstyle
+pytest
+pytest-cov
+ruff
+rstcheck
+setuptools
+Sphinx
+tox
+wheel
