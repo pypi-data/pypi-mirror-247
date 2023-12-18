@@ -1,0 +1,3 @@
+[console_scripts]
+jqtrade = jqtrade.__main__:main
+
