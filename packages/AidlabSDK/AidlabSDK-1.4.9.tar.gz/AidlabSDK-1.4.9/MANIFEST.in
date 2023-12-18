@@ -1,0 +1,5 @@
+include aidlab/aidlabsdk-linux-gnu.so
+include aidlab/aidlabsdk-linux-gnueabihf.so
+include aidlab/aidlabsdk.dylib
+include aidlab/aidlabsdk.dll
+include aidlab/libmingw64/*
