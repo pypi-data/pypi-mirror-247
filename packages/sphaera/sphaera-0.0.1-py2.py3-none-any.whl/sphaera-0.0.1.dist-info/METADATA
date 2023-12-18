@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sphaera
+Version: 0.0.1
+Summary: sphaera is a math toolkit for spherical data processing
+Home-page: https://github.com/mountain/sphaera
+Author: Mingli Yuan
+Author-email: mingli.yuan@gmail.com
+Project-URL: Documentation, https://github.com/mountain/sphaera
+Project-URL: Source, https://github.com/mountain/sphaera
+Project-URL: Tracker, https://github.com/mountain/sphaera/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cached-property
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: vtk
+Requires-Dist: pyvista
+Requires-Dist: netcdf4
+Requires-Dist: h5netcdf
+Requires-Dist: xarray
+
+# sphaera
+
+sphaera - a math toolkit for spherical data processing
+
+![wind velocity](wind-velocity.png)
+
+How to release
+---------------
+
+```bash
+python3 setup.py sdist bdist_wheel
+python3 -m twine upload dist/*
+
+git tag va.b.c master
+git push origin va.b.c
+```
