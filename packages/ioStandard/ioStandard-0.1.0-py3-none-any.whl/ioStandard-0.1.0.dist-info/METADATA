@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ioStandard
+Version: 0.1.0
+Author: Austin Gilchrist-Thomas
+Requires-Dist: pygame
+
