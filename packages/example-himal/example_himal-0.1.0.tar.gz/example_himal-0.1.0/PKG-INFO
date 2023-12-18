@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: example-himal
+Version: 0.1.0
+Project-URL: Documentation, https://github.com/unknown/example-himal#readme
+Project-URL: Issues, https://github.com/unknown/example-himal/issues
+Project-URL: Source, https://github.com/unknown/example-himal
+Author-email: Himal Shrestha <himal.shrestha@unimelb.edu.au>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: click
+Description-Content-Type: text/markdown
+
+# example_himal
+
+[![PyPI - Version](https://img.shields.io/pypi/v/example-himal.svg)](https://pypi.org/project/example-himal)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/example-himal.svg)](https://pypi.org/project/example-himal)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install example-himal
+```
+
+## License
+
+`example-himal` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
