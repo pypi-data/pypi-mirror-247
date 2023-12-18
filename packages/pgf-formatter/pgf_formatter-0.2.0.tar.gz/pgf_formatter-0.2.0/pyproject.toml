@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pgf-formatter"
+dynamic = ["version"]
+description = "Embedding PDF images in Jupyter notebooks"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [{ name = "daizutabi", email = "daizutabi@gmail.com" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["matplotlib", "ipython"]
+
+[project.urls]
+Documentation = "https://github.com/daizutabi/pgf-formatter#readme"
+Issues = "https://github.com/daizutabi/pgf-formatter/issues"
+Source = "https://github.com/daizutabi/pgf-formatter"
+
+[tool.hatch.version]
+path = "src/pgf_formatter/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = ["coverage[toml]>=6.5", "pytest"]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = ["- coverage combine", "coverage report"]
+cov = ["test-cov", "cov-report"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = ["mypy>=1.0.0"]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/pgf_formatter tests}"
+
+[tool.coverage.run]
+source_pkgs = ["pgf_formatter", "tests"]
+branch = true
+parallel = true
+omit = ["src/pgf_formatter/__about__.py"]
+
+[tool.coverage.paths]
+pgf_formatter = ["src/pgf_formatter", "*/pgf-formatter/src/pgf_formatter"]
+tests = ["tests", "*/pgf-formatter/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+select = ["E", "F", "I"]
+
+[tool.ruff.isort]
+known-first-party = ["pgf_formatter"]
+
+[tool.ruff.lint]
+unfixable = [
+  "RUF100", # Don't touch noqa lines
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github", "/docs"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pgf_formatter"]
