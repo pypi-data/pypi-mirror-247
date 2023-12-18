@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: split_downloader_peta
+Version: 0.1.2
+Summary: A simple multi-threaded download manager
+Author: Manoj Kumar Reddy Peta
+Author-email: manojpeta30@gmail.com
+Requires-Python: >=3.6

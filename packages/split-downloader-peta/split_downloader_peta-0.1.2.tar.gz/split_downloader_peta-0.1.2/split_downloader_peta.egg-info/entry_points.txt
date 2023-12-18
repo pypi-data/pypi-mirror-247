@@ -1,0 +1,2 @@
+[console_scripts]
+split_downloader_peta = split_downloader.code:main
