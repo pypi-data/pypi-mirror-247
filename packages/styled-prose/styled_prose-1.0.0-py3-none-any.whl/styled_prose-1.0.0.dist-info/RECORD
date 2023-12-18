@@ -1,0 +1,12 @@
+styled_prose-1.0.0.dist-info/METADATA,sha256=G_o5Bn12bT2ooOi0pelbGWg0G_2kyfD7DEPhh40SgBE,2794
+styled_prose-1.0.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+styled_prose-1.0.0.dist-info/licenses/LICENSE,sha256=PcH_jqVUe7vqdxas0lIXnq1ycM7N-led2ynQGuHOlWM,1472
+styled_prose/__init__.py,sha256=3Kcx5zHz-adKOeGmnpIgwHaGJ1gUiZJB3ZVAqRQUYE4,335
+styled_prose/config.py,sha256=RXS-ex6kvrL6ZcKGpCGChMPa3Brd3FNuokZ1Z3jpeZo,706
+styled_prose/creation.py,sha256=wem590MHPHiDB-4prfUo89n2XNZs4eM5bx_DImArSPo,5978
+styled_prose/exceptions.py,sha256=rsArr_eTiF94WswUb7HsriPE_uXk0MfsBpCDKHM72QM,377
+styled_prose/fonts.py,sha256=X-37q21oDxuTfxXQl2fhRwbhFMZ_fJIbDen3ym6ZN64,7717
+styled_prose/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+styled_prose/stylesheet.py,sha256=pxRzIVvvz3h96mVUol9Kn2iF8oAFEYXOh1iYG238H6c,7053
+styled_prose/util.py,sha256=FNK5Q2z0xaipwkuguPjGuKIYUUAwkyC-dcqW4gbVdrw,3351
+styled_prose-1.0.0.dist-info/RECORD,,
