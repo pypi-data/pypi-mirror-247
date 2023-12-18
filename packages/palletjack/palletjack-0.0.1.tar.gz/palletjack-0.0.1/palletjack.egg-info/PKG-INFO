@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: palletjack
+Version: 0.0.1
+Summary: Faster parquet metadata reading
+Author-email: Marcin Krystianc <marcin.krystianc@gmail.com>
+Project-URL: Homepage, https://github.com/marcin-krystianc/PalletJack
+Project-URL: Issues, https://github.com/marcin-krystianc/PalletJack/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyarrow>=6
+
+### TBD
