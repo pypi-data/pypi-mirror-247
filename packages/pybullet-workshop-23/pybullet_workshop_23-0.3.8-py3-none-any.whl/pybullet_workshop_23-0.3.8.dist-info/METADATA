@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pybullet-workshop-23
+Version: 0.3.8
+Summary: A OpenAI Gym Env for pybullet and vision
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+
+This is a custom gym environment for winter camp 23 IIT Varanasi
