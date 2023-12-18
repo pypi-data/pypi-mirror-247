@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spark-metabase-api
+Version: 0.1.2
+Summary: A Python wrapper for the Metabase API developed by the ⭐️ Spark Tech team
+Home-page: https://github.com/Spark-Data-Team/spark_metabase_api
+Author: Larry Page
+Author-email: tech@spark.do
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+## In construction
