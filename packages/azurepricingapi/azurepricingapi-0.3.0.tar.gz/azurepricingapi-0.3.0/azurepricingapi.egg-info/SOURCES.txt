@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+azurepricingapi/__init__.py
+azurepricingapi/index.py
+azurepricingapi.egg-info/PKG-INFO
+azurepricingapi.egg-info/SOURCES.txt
+azurepricingapi.egg-info/dependency_links.txt
+azurepricingapi.egg-info/requires.txt
+azurepricingapi.egg-info/top_level.txt

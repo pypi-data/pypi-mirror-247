@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: azurepricingapi
+Version: 0.3.0
+Summary: Python SDK to leverage Azure Pricing API
+Home-page: https://github.com/ravi-ck/azure-pricing-api-python
+Author: Ravi Rana
+Author-email: ravi.rana@tothenew.com
+License: Apache-2.0 license
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
