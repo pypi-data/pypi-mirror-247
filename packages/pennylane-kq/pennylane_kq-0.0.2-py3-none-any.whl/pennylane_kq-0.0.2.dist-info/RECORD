@@ -1,0 +1,11 @@
+pennylane_kq/__init__.py,sha256=Aax6RIUg5R8Riw1_fUE_hlCBLR_HMqkm8ORSm4X5Ax4,240
+pennylane_kq/_version.py,sha256=u63MO01QEKZtmdnWodzmMmldr179Vgk2Ay858DA7DyA,97
+pennylane_kq/kq_emulator.py,sha256=wcodUAoAysfzhrchIrgDyF5tHcUe0erI4mDMTyFWL4w,3431
+pennylane_kq/kq_hardware.py,sha256=AV3esYh0O4kDkeQ6HYvwq54RSq1RtaqjNAsnxvgZtWA,3431
+pennylane_kq/kq_local_emulator.py,sha256=k8dzaFofp5N0xGiG_2_RoookyyL6-3loCw8XjEcR6Yo,2164
+pennylane_kq-0.0.2.dist-info/LICENSE,sha256=kXgG7r2G0DMyCGpDLPNvCCbY_Dy5LiHfPibofPPpMp0,1335
+pennylane_kq-0.0.2.dist-info/METADATA,sha256=S8Cv43bHK5JvLQvBKn2eXDRJPb7vynx9dRmLZz_loCE,325
+pennylane_kq-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pennylane_kq-0.0.2.dist-info/entry_points.txt,sha256=jxe7vuzzO-waaKhUk8oauJnzD4I2jmz1qijuGs9sQz8,175
+pennylane_kq-0.0.2.dist-info/top_level.txt,sha256=PcSCZL0JUex69kH6lmHIfrAWtOpQWz44Wv8qLkbNzN0,13
+pennylane_kq-0.0.2.dist-info/RECORD,,
