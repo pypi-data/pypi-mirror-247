@@ -1,0 +1,3 @@
+[console_scripts]
+import_digikey_parts=inventree_digikey_integration.__main__:main
+
