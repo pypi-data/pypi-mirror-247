@@ -1,0 +1,4 @@
+PySide2
+Pillow
+pythontk==0.7.10
+uitk==1.0.6
