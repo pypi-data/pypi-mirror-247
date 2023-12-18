@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: smartlink-local
+Version: 0.0.1
+Summary: PyPI Package for Circles smart link Python
+Home-page: https://github.com/circles-zone/smartlink-local-python-package
+Author: Circles
+Author-email: info@circlez.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: logger-local>=0.0.51
+Requires-Dist: database-without-orm-local>=0.0.59
+Requires-Dist: message-local
+
+PyPI Package for Circles smart link Python
