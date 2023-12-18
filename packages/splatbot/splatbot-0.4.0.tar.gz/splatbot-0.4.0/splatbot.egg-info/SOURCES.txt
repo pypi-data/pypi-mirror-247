@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+splatbot.egg-info/PKG-INFO
+splatbot.egg-info/SOURCES.txt
+splatbot.egg-info/dependency_links.txt
+splatbot.egg-info/entry_points.txt
+splatbot.egg-info/requires.txt
+splatbot.egg-info/top_level.txt
+src/splatbot/__init__.py
+src/splatbot/cli.py
+src/splatbot/controller.py
+src/splatbot/macro.py
+src/splatbot/simulation.py
+src/splatbot/start.py
+src/splatbot/version.py
+tests/test_macro.py
