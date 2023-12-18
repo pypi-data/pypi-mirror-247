@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: noisedestroyer
+Version: 0.0.1
+Summary: Remove background noise from your video and audio files quickly
+Author: Hans
+Author-email: hans@dreamgenerator.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
