@@ -1,0 +1,16 @@
+doubledate/__init__.py,sha256=IZ-Tu40GZ5_M9i444_yP4OV5b9AL4uFRO_on2rHPPDA,640
+doubledate/calendar.py,sha256=3vwQC-12FpZBM7D-psYZe7GsQZG8Tj4rceM_eR6A3T4,54838
+doubledate/constants.py,sha256=JBbY1gTBJUR6TNV88deEdJC4p-qA37O1Yt_feVMIey8,2434
+doubledate/diem.py,sha256=ZVZgn5DuwWgnNg75wv0CCk5ZrREKblAPHShfsv_FQ38,9915
+doubledate/utils.py,sha256=tzIMoq8ls2eUfPhkbZ9YxflJIDX9DaOz9JNieG40u0g,36253
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/calendar.py,sha256=smwM5oYEM0i_gkYdmq1zK2D-HBNC1RkA5_-rj7cy4Pc,16805
+tests/collection.py,sha256=kIwMzr8yPoVO520IC20mvmgBmdeMiE4DQlmMZc8zQxU,216
+tests/conftest.py,sha256=gWisFMQgQ2s-5v7Rsq-0gzpeyRXKXRD7g7R0QVyNCzY,1305
+tests/diem.py,sha256=7HDFQzMZ-QJ_Qb5635y3Re_aP3uWmFdh6P4svKOMwKo,5469
+tests/utils.py,sha256=7XLS-TB6Mot2GrlN-rVVJWgXsPLyQOUAQwdsagtH_6g,14267
+doubledate-0.0.13.dist-info/LICENCE,sha256=uF-phKTg-OT3AAI0as4EuhR2hWrkkQo6jNxppUP3xFU,1097
+doubledate-0.0.13.dist-info/METADATA,sha256=RYZ2hOHO-oU40JA6bTAHtRxavhEsCN-qa_I129VItJI,1683
+doubledate-0.0.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+doubledate-0.0.13.dist-info/top_level.txt,sha256=CId8y4C02Ghn_x5SjtwOop3_wEXIB3xTeFQisgaJfbU,17
+doubledate-0.0.13.dist-info/RECORD,,
