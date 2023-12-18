@@ -1,0 +1,8 @@
+mkdocs>=1.5
+GitPython
+
+[dev]
+pre-commit
+reuse
+mypy
+ruff
