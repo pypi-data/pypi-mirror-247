@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nightray/__init__.py
+nightray/main.py
+nightray.egg-info/PKG-INFO
+nightray.egg-info/SOURCES.txt
+nightray.egg-info/dependency_links.txt
+nightray.egg-info/entry_points.txt
+nightray.egg-info/top_level.txt

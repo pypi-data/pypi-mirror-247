@@ -1,0 +1,2 @@
+[console_scripts]
+nightray = nightray.main:main

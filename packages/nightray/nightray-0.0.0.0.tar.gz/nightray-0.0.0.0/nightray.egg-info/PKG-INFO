@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nightray
+Version: 0.0.0.0
+Summary: Find keywords in files
+Author: AX
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
