@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: devrevthirtyone
+Version: 4.0.1
+Author: team31
+Requires-Dist: numpy
+Requires-Dist: litellm
+Requires-Dist: tiktoken
+
