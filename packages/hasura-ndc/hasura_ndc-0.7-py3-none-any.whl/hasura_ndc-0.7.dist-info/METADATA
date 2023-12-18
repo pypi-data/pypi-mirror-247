@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: hasura-ndc
+Version: 0.7
+Summary: A Hasura Data Connector SDK
+Author: Tristen Harr
+Author-email: tristen.harr@hasura.io
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: annotated-types (==0.6.0)
+Requires-Dist: anyio (==3.7.1)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: fastapi (==0.105.0)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: idna (==3.6)
+Requires-Dist: pydantic (==2.5.2)
+Requires-Dist: pydantic-core (==2.14.5)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: starlette (==0.27.0)
+Requires-Dist: typing-extensions (==4.9.0)
+Requires-Dist: uvicorn (==0.24.0.post1)
+
+Hasura Python SDK
+
+pip3 install hasura_ndc
+
+Work in progress
+
+python3 main.py serve --configuration config.json --port 8101 --service-token-secret secret
+
+python3 main.py configuration serve --port 9101
+
+
+Upload to pypi:
+
+python3 setup.py sdist
+
+python3 setup.py bdist_wheel
+
+twine upload dist/*             
