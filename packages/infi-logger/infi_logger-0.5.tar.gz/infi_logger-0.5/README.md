@@ -1,0 +1,86 @@
+# infinity-elastic-logs
+
+This project is a Python logging library that integrates with Elasticsearch for centralized logging. It provides a simple and convenient way to send logs to Elasticsearch with different log levels.
+
+## Installation
+
+ [The binary installation file](dist/infi_logger-1.0-py3-none-any.whl) attached to this repository should be taken,
+Attach to the project where it will be used
+and install with:
+
+```bash
+pip install path_to_this_project/dist/infi_logger-1.0-py3-none-any.whl
+```
+
+Alternatively, you can move in cmd to this project and just write in
+
+```bash
+pip install .
+```
+
+Replace path_to_this_project with the path where the file is located in your project.
+
+## Usage
+
+To use the logging library, follow these steps:
+
+1. Import the `ElasticLogger` class:
+
+    ```python
+   from infi_logger.elastic_logger import ElasticLogger
+    ```
+
+2. Create an instance of the ElasticLogger class, providing a service name, host, cert_fingerprint, name and password:
+   
+   ```python
+    HOST = "${Ip:Port}"
+    CERT_FINGERPRINT = "${fingerprint}"
+    NAME = "${Username}" 
+    PASSWORD = "${Password}"
+    INDEX = "${IndexName}"  # Replace with the index you want to work with
+
+    # logger = ElasticLogger("my-service")
+    logger = ElasticLogger("elastic-service", HOST, CERT_FINGERPRINT, NAME, PASSWORD, INDEX)
+
+    ```
+   Alternatively, you can create an instance of the ElasticLogger class that will not connect Elastic, providing a service name only:
+
+    ```python
+    logger = ElasticLogger("my-service")
+    ```
+   
+
+3. Use the different log levels to send logs:
+
+   ```python
+    logger.debug("This is a debug log")
+    logger.info("This is an info log")
+    logger.warning("This is a warning log")
+    logger.error("This is an error log")
+    logger.critical("This is a critical log")
+    ```
+
+## Configuration
+
+
+1. **Elasticsearch Connection**
+
+    The ElasticsearchConnection class handles the connection to Elasticsearch. Ensure that the environment variables mentioned above are correctly set before running the project. The connect_elasticsearch method establishes a connection to Elasticsearch using the provided credentials. If the connection fails, an exception will be raised.
+
+2. **Log Format**
+
+   The logs sent to Elasticsearch have the following format:
+
+   ```json
+   {
+    "timestamp": "<current_timestamp>",
+    "message": "<log_message>",
+    "level": "<log_level>",
+    "service": "<service_name>"
+    }
+    ```
+
+3. **Environment Variables**
+
+    You can set the location of log files in case Elastic failed/not connected by setting global environment of "LOG_FILE".
+    If not chosen, it will default to "logs/log.log" in your current directory
