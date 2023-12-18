@@ -1,0 +1,13 @@
+automation_fw_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_fw_setup/__main__.py,sha256=jIhgJQCg3L4IvR2jbMK2-_vFx_Fga3-KiQ8_hPfeG3Q,1076
+automation_fw_setup/ask_target_platform.py,sha256=bGRYNpc9FQu0EOdAD9q47jZWYZCTA5bAhD-JEK7t4zU,386
+automation_fw_setup/ask_test_framework.py,sha256=yz0M9RyBxaYTyTmI66JJhMBcpyqZknqIFcCUls8EzVc,385
+automation_fw_setup/check_installations.py,sha256=Qk0vYtBryXk-X6_DfXIDyB1zscmJOUASLMUo_6YJKcE,1597
+automation_fw_setup/clone_repository.py,sha256=wyy3FgDyF4dQiG1CHk0Qw-pOtEQWvUUPFzBMvkWEKs0,947
+automation_fw_setup/create_project_folder.py,sha256=fA2oZF-O_iEjo-gwA_yrhtPxFiHVL5UywtWw8FdBN58,394
+automation_fw_setup/create_virtual_env.py,sha256=_2P4-WhL4JEGRgGvdsVOgyHqJhyRTUEIM5KGy8melNQ,617
+automation_fw_setup-0.1.5.1.dist-info/METADATA,sha256=Va0GE6ruWy-ummDAKK9fgHpLFLWs5nbjl3g1MDheCpE,533
+automation_fw_setup-0.1.5.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+automation_fw_setup-0.1.5.1.dist-info/entry_points.txt,sha256=EL4_9_PP7IhHG3n-yya8sLXXtzhFGv472-0yuS9b1hk,75
+automation_fw_setup-0.1.5.1.dist-info/top_level.txt,sha256=rxwIGUdxwYSSt4SrBahtJFAEzgsGLIyJLEMJU-HGk5A,20
+automation_fw_setup-0.1.5.1.dist-info/RECORD,,
