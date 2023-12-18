@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: wisenutDTA
+Version: 0.0.1
+Summary: Wisenut Data Division Text Analyzer
+Home-page: https://gitlab.wisenut.kr/sangminpark/INTERNAL_ANALYZER
+Download-URL: https://gitlab.wisenut.kr/sangminpark/INTERNAL_ANALYZER/-/archive/0.1/INTERNAL_ANALYZER-0.1.tar.gz
+Author: Yujin Kim, Sangmin Park, Wooseok Choi, Yiso Kim
+Author-email: sangminpark@wisenut.co.kr
+Keywords: WisenutDT,TextAnalyzer
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: konlpy
+Requires-Dist: kiwipiepy
+Requires-Dist: gensim
+Requires-Dist: scikit-learn
+
+# DATA사업부 텍스트 데이터 분석기(텍분기)
+텍분기는 DATA사업부 내 텍스트 분석 결과를 직관적으로 시각화할 수 있는 내부 플랫폼입니다.
+# 기능
+- 게시글 분석
+- 키워드 분석
+- 네트워크 분석
+- 토픽 분석
+- 감성 분석
+- 종합 리포트
+# 시스템 환경
+## H/W
+- O/S: CentOS 7.9
+- RAM: 256Gb
+- GPU: NVIDIA® Tesla™ T4 16GB
+## S/W
+- Writen for Python 3.9+
+- Core Library
+	- [Pymogo](https://pymongo.readthedocs.io/en/stable/) : 4.5.0
+	- [Numpy](https://numpy.org/): 1.23.1 
+	- [Pandas](https://pandas.pydata.org/docs/index.html): 1.4.3
+	- [Konlpy](https://konlpy.org/ko/latest/index.html): 0.6.0
+	- [Kiwipiepy](https://bab2min.github.io/kiwipiepy/v0.16.0/kr/): 0.15.2
+    - [Gensim](https://radimrehurek.com/gensim/): 4.3.2
+    - [scikit-learn](https://scikit-learn.org/stable/): 1.1.2
+    - [PyTorch](https://pytorch.org/): 2.0.1
+    
+# 문의 사항
+
+메뉴얼 사용 중 문의 및 피드백 사항이 있을 경우, 아래 Contributors에게 문의해주세요.
+
+<h2 align='center'>💫 Contributor 💫</h3>
+
+<table align='center'>
+    <tbody>
+        <tr>
+            <td align="center" valign="center" width="14.28%"><a href="mailto:yjkkim@wisenut.co.kr"><img src="https://gitlab.wisenut.kr/uploads/-/system/user/avatar/462/avatar.png?width=96" width="100px;"/><br/><sub><b>김유진</b></sub></a><br/></td>
+            <td align="center" valign="" width="14.28%"><a href="mailto:sanminpark@wisenut.co.kr"><img src="https://secure.gravatar.com/avatar/33a0c94636917f188fb0635bb38a6477?s=80&d=identicon" width="100px;"/><br/><sub><b>박상민</b></sub></a><br/></td>
+            <td align="center" valign="" width="14.28%"><a href="mailto:wsc9150@wisenut.co.kr"><img src="https://secure.gravatar.com/avatar/d5ffb9e47011056155303eb085215646?s=192&d=identicon" width="100px;"/><br/><sub><b>최우석</b></sub></a><br/></td>
+            <td align="center" valign="" width="14.28%"><a href="mailto:kys@wisenut.co.kr"><img src="https://secure.gravatar.com/avatar/d6d45c8ad3c4a13ce3c39961f0b2e10e?s=192&d=identicon" width="100px;"/><br/><sub><b>김이소</b></sub></a><br/></td>
+            <td align="center" valign="" width="14.28%"><a href="mailto:fbthsla@gmail.com"><img src="https://secure.gravatar.com/avatar/07489895da4a15477c28b83ef1a7a7fe?s=192&d=identicon" width="100px;"/><br/><sub><b>류소현</b></sub></a><br/></td>
+        </tr>
+    </tbody>
+</table>
