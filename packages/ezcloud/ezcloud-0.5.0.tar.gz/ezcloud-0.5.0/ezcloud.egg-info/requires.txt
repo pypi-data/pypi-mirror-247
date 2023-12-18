@@ -1,0 +1,11 @@
+aiohttp
+colorama
+aiosqlite
+python-dotenv
+
+[dev]
+pre-commit
+pytest
+pytest-asyncio
+
+[docs]
