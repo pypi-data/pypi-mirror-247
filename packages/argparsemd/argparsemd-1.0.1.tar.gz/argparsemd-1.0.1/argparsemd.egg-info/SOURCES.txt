@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+argparsemd/__init__.py
+argparsemd.egg-info/PKG-INFO
+argparsemd.egg-info/SOURCES.txt
+argparsemd.egg-info/dependency_links.txt
+argparsemd.egg-info/not-zip-safe
+argparsemd.egg-info/top_level.txt
