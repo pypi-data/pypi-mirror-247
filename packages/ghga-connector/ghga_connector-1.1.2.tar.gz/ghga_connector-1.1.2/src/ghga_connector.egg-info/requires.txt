@@ -1,0 +1,4 @@
+typer~=0.9.0
+crypt4gh<2,>=1.6
+ghga-service-commons[api,crypt]~=1.1.0
+hexkit~=1.0.0
