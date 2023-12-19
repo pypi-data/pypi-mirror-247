@@ -1,0 +1,3 @@
+[console_scripts]
+codegen=fragment.codegen.__main__:app
+
