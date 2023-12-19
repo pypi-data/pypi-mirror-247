@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: py-jutil
+Version: 0.0.2
+Summary: JUtil is a collection of useful functions, values, and classes for Python.
+Author: Noah Wilhoite
+Author-email: notnoah349@gmail.com
+Description-Content-Type: text/markdown
+
+
+# JUtil
+
+## Description:
+JUtil is a collection of useful functions, values, and classes for Python.
+
+## Dependencies:
+- None yet
+
+## Note:
+- This module is a work in progress.
+
+
+___
+v0.0.2, developed by Noah Wilhoite
+Last updated: Dec 18th, 2023
