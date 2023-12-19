@@ -1,0 +1,15 @@
+data_file_utils/__init__.py,sha256=JldRakeDHZOa5Jq2nk-sJpUp_5Y97_O0xcIyYlCPpH8,140
+data_file_utils/analyze_record_tuples.py,sha256=dhmqkCsbxoVnPiSentEM4SP8H-b8SBm0_seceA7LFFg,12638
+data_file_utils/cli.py,sha256=z8seDBkgN8fj6rimD59uqobFnUm-3iZyOBSiFCpYIvA,423
+data_file_utils/compare_tab_files.py,sha256=7zG_QH2OcmzfJYKOAPggtiMMBmA4yfVM7SdEEB4r9zo,11868
+data_file_utils/data_file_utils.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+data_file_utils/jsonl2json.py,sha256=kwGWiJnX04XwbGzJcKBhVviwFMrv0FmkSXQF1GKBp-w,4495
+data_file_utils/tsv2json.py,sha256=XUK709Dp56GSx1o9zf08k1UXbKjcyiTNNCnBJxr56X0,7811
+data_file_utils/conf/config.yaml,sha256=9S1xEQPVCkN4MMb7zQT7S6tJoPgvbSbRx5HG6EiN0JA,4
+data_file_utils-0.2.0.dist-info/AUTHORS.rst,sha256=BNf09knwYhZGXZ1ASoAy9UFWJFFxswfH0p-CzAext5s,163
+data_file_utils-0.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+data_file_utils-0.2.0.dist-info/METADATA,sha256=9ZJh-2psID0sC_QBmvHuS2OegwYvQ7fc7EidFbRqAiQ,1279
+data_file_utils-0.2.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+data_file_utils-0.2.0.dist-info/entry_points.txt,sha256=elHmi7X0q1oGQ0TTElpOPmfcZJaGjdvx9eUDc02QVaY,230
+data_file_utils-0.2.0.dist-info/top_level.txt,sha256=hRTfnzzpVRJJ3O2FsTAqZeGQzMOu5uRbPXcRAjCEj-Q,16
+data_file_utils-0.2.0.dist-info/RECORD,,
