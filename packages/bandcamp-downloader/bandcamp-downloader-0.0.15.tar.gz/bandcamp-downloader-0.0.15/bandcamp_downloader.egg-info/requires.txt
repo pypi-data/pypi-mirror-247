@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.2
+demjson3==3.0.6
+docopt-ng==0.8.1
+mutagen==1.46.0
+requests[socks]==2.31.0
+unicode-slugify==0.1.5
+chardet==5.1.0

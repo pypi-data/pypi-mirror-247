@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bandcamp-downloader"
+dynamic= ["version", "readme"]
+authors = [
+    { name="Iheanyi Ekechukwu", email="iekechukwu@gmail.com" },
+    { name="Anthony Forsberg", email="forsberganthony@yahoo.com" }
+]
+license = {file = "LICENSE"}
+description = "Download audio from Bandcamp"
+requires-python = ">=3.4"
+dependencies = [
+    "beautifulsoup4==4.11.2",
+    "demjson3==3.0.6",
+    "docopt-ng==0.8.1",
+    "mutagen==1.46.0",
+    "requests[socks]==2.31.0",
+    "unicode-slugify==0.1.5",
+    "chardet==5.1.0"
+]
+keywords = ['bandcamp', 'downloader', 'music', 'cli', 'albums', 'dl']
+classifiers = [
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: End Users/Desktop',
+        'Topic :: Multimedia :: Sound/Audio',
+        'License :: Public Domain',
+        'Programming Language :: Python :: 3 :: Only',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/iheanyi/bandcamp-dl"
+"Bug Tracker" = "https://github.com/iheanyi/bandcamp-dl/issues"
+
+[project.scripts]
+bandcamp-dl = "bandcamp_dl.__main__:main"
