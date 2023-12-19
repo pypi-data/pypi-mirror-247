@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LCDToolbox"
+version = "0.0.10"
+authors = [
+  { name="Thomas Hegelund", email="s211899@dtu.dk" },
+  { name="Long van Ngo", email="s214606@dtu.dk" },
+  { name="Peter Bonvang", email="s214658@dtu.dk" },
+]
+description = "Toolbox for the DTU course: Linear control design - 34721 (Fall 2023)"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy",
+    "sympy",
+    "control"
+]
+
+[project.urls]
+Homepage = "https://github.com/SygesteKIDsPaaBlokken/34721-Toolbox"
+Issues = "https://github.com/SygesteKIDsPaaBlokken/34721-Toolbox/issues"
+
+[tool.bumpver]
+current_version = "0.0.10"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/lcdtoolbox/__init__.py" = ["{version}"]

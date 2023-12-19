@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: LCDToolbox
+Version: 0.0.10
+Summary: Toolbox for the DTU course: Linear control design - 34721 (Fall 2023)
+Author-email: Thomas Hegelund <s211899@dtu.dk>, Long van Ngo <s214606@dtu.dk>, Peter Bonvang <s214658@dtu.dk>
+License: MIT License
+        
+        Copyright (c) 2023 SygesteKIDsPaaBlokken
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/SygesteKIDsPaaBlokken/34721-Toolbox
+Project-URL: Issues, https://github.com/SygesteKIDsPaaBlokken/34721-Toolbox/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: sympy
+Requires-Dist: control
+
+# How to use
+
+**Requirements:**  
+Requirements for the ExamTool is installed by running the following command from the `ExamTools` directory: 
+- `conda env create -f environment.yml`
+
+**For the exam:**
+1. Open `ExamTools/exam.ipynb`
+2. Select the conda environment: `34721`
+3. Start answering questions
+   - To use the functions of the tool, simply import the functions like:  
+   `from Tools.CATEGORY import FUNC`
+# Testing
+
+**Running tests:**
+- From the `ExamTools` directory
+- Run `python -m pytest`
