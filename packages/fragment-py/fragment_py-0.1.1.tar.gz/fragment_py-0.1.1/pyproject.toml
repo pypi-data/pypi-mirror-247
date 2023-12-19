@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "fragment-py"
+version = "0.1.1"
+description = "Python SDK for working with the Fragment API"
+authors = ["Vignesh <vignesh@fragment.dev>"]
+readme = "README.md"
+packages = [{include = "fragment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.13"
+typer = "^0.9.0"
+rich = "^13.7.0"
+strenum = "^0.4.15"
+
+[tool.poetry.scripts]
+codegen = "fragment.codegen.__main__:app"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^2.2.1"
+coverage = "^7.3.2"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+mypy = "^1.7.1"
+black = "^23.11.0"
+isort = "^5.13.1"
+pre-commit = "^3.6.0"
+
+[tool.autoflake]
+remove-all-unused-imports = true
+recursive = true
+in-place = true
+
+[tool.isort]
+profile = "black"
+skip_glob = ["tests/codegen/fixtures/*"]
+
+[tool.black]
+extend-exclude = "tests/codegen/fixtures"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+python_version = "3.10"
+
+[tool.coverage.run]
+branch = true
+command_line = "-m pytest"
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
