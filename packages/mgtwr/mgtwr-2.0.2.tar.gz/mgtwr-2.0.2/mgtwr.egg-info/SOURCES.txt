@@ -1,0 +1,5 @@
+setup.py
+mgtwr.egg-info/PKG-INFO
+mgtwr.egg-info/SOURCES.txt
+mgtwr.egg-info/dependency_links.txt
+mgtwr.egg-info/top_level.txt
