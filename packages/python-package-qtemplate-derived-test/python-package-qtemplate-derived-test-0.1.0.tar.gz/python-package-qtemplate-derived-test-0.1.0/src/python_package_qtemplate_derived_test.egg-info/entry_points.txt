@@ -1,0 +1,2 @@
+[console_scripts]
+python_package_template_derived_test = python_package_template_derived_test.cli:main

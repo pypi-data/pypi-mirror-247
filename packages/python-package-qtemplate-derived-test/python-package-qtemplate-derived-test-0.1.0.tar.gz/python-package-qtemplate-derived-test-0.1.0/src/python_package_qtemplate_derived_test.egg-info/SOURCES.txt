@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/python_package_qtemplate_derived_test.egg-info/PKG-INFO
+src/python_package_qtemplate_derived_test.egg-info/SOURCES.txt
+src/python_package_qtemplate_derived_test.egg-info/dependency_links.txt
+src/python_package_qtemplate_derived_test.egg-info/entry_points.txt
+src/python_package_qtemplate_derived_test.egg-info/requires.txt
+src/python_package_qtemplate_derived_test.egg-info/top_level.txt
+src/python_package_template_derived_test/__init__.py
+src/python_package_template_derived_test/py.typed
+src/python_package_template_derived_test/cli/__init__.py
+src/python_package_template_derived_test/cli/main.py
+tests/test_testing.py

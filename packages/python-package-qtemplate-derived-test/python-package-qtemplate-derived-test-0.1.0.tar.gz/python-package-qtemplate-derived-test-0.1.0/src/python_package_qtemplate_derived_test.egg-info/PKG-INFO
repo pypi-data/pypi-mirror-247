@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: python-package-qtemplate-derived-test
+Version: 0.1.0
+Summary: Python package
+Author-email: Quinten Roets <qdr2104@columbia.edu>
+License: MIT
+Project-URL: Source Code, https://github.com/quintenroets/python-package-template-derived-test
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# Python Package Template Derived Test
+[![PyPI version](https://badge.fury.io/py/python-package-qtemplate-derived-test.svg)](https://badge.fury.io/py/python-package-qtemplate-derived-test)
+## Usage
+Run
+```shell
+python_package_template_derived_test
+```
+## Installation
+```shell
+pip install python-package-qtemplate-derived-test
+```
+make sure to use Python 3.10+
