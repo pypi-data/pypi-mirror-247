@@ -1,0 +1,55 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "wagtail-indexnow"
+description = "A Wagtail package to automatically submit published pages for search engine indexing"
+authors = [
+    {name = "Jake Howard"},
+]
+dynamic = ["version"]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved",
+    "License :: OSI Approved :: BSD License",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 4",
+    "Framework :: Wagtail :: 5",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development",
+    "Typing :: Typed"
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "wagtail>=4.1",
+    "Django>=3.2"
+]
+
+[project.urls]
+Source = "https://github.com/RealOrangeOne/wagtail-indexnow"
+Issues = "https://github.com/RealOrangeOne/wagtail-indexnow/issues"
+Changelog = "https://github.com/RealOrangeOne/wagtail-indexnow/releases"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "black",
+    "requests-mock"
+]
+
+
+[tool.ruff]
+select = ["E", "F", "I", "W", "N", "B", "A", "C4"]
+ignore = ["E501"]
