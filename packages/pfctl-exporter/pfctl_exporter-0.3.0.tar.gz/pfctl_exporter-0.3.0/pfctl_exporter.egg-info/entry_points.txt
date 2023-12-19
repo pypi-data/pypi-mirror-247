@@ -1,0 +1,2 @@
+[console_scripts]
+pfctl-exporter = pfctl_exporter:main
