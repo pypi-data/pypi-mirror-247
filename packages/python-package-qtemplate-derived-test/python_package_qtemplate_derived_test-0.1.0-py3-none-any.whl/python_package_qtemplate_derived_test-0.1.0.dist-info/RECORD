@@ -1,0 +1,10 @@
+python_package_template_derived_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_package_template_derived_test/py.typed,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+python_package_template_derived_test/cli/__init__.py,sha256=-bBNFYOq80A2Egtpo5V5zWJtYOxQfRZFQ_feve5lkFU,23
+python_package_template_derived_test/cli/main.py,sha256=Orv_m5qegN2QTb5ZkEY0lgMWSu2LjIKUa2TXXtRXrQM,50
+python_package_qtemplate_derived_test-0.1.0.dist-info/LICENSE,sha256=ENpNaBSvIV7ifD7iNz_-lBhImbiYowqPzBc5V5R8IhM,1070
+python_package_qtemplate_derived_test-0.1.0.dist-info/METADATA,sha256=iuzLTKsZ2_EbMXxWcBxqUJCQV9QL9o2E5aNn9Fbdrbo,940
+python_package_qtemplate_derived_test-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+python_package_qtemplate_derived_test-0.1.0.dist-info/entry_points.txt,sha256=UL0EbARDFy0Nx_le9bM6R-qr1JPcZ9j4oXb0-XC1aqY,103
+python_package_qtemplate_derived_test-0.1.0.dist-info/top_level.txt,sha256=8UT3YjXJRStcgXRNsN1o9oTyrrEUSil7F8lTC0_uFR0,37
+python_package_qtemplate_derived_test-0.1.0.dist-info/RECORD,,
