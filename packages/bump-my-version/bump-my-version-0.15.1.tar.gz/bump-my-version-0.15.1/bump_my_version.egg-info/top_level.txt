@@ -1,0 +1,6 @@
+build
+bumpversion
+dist
+requirements
+test-reports
+tools
