@@ -1,0 +1,13 @@
+ecsmanage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecsmanage/apps.py,sha256=LxIS84fpWi1Ls3cMenMk4cc48aha_PFoCCG6NRQKB6s,125
+ecsmanage/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecsmanage/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecsmanage/management/commands/ecsmanage.py,sha256=wQSMszIgJMDtt6XHWywFxbkY9gcg4b3lFqSvrRAWAEU,7533
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings_test.py,sha256=tkTedbVh6EgDLL6w7_HX-xpI2Ho2ujAeA8Ac4scjR6Y,70
+tests/test_configuration.py,sha256=ht2K8Khq8IySI2IBsDGey9ijqXkruWK_iSVUxZFIIgU,3328
+django_ecsmanage-3.0.0.dist-info/LICENSE,sha256=M_opgkwkgPlQTGYKUNVqctuDTYxA85UEpvf0_PbRwlk,11342
+django_ecsmanage-3.0.0.dist-info/METADATA,sha256=nvxZ7H9QWhM9S3VvvvbIIgKowSzEKz8Uah8tKQsogL0,8337
+django_ecsmanage-3.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_ecsmanage-3.0.0.dist-info/top_level.txt,sha256=bS8tBUHFiz3YTNiTXvi32mmXPB8kH3KVHeEN_c1HQTI,16
+django_ecsmanage-3.0.0.dist-info/RECORD,,
