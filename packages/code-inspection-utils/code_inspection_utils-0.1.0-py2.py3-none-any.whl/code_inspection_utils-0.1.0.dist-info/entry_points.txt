@@ -1,0 +1,2 @@
+[console_scripts]
+inject-trace-statements = code_inspection_utils.inject_trace_statements:main
