@@ -1,0 +1,9 @@
+classdiff/__init__.py,sha256=Z1GGAgZowOAkP4JmNrBQ1PkuCYTmFCJ9JWDDIgkyTLM,59
+classdiff/classdiff.py,sha256=_wUdUhcwJDIvU0Iqwc2OFEqPZwEhOKHMwkHk5xOBZzU,11912
+classdiff/diff_object.py,sha256=4miyRLfVM0o0ISARTbLV8Tr1HiZ8pTVeviFPOnwgvcI,2452
+classdiff/examples/classdiff.py,sha256=OpMkzUNjo9PzsEB2YOReNcRmaLxS1DVIzmLmifYrZGU,4302
+classdiff/utils.py,sha256=diC-yR5AN6C23kMOWSgGi0FyFxXq0ge7vvFNUo-TwwI,702
+classdiff-0.3.0.dist-info/METADATA,sha256=lI-987HsD5cZH8jbqXBtTA290Mpec36KE8BUKWYHRDs,2872
+classdiff-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+classdiff-0.3.0.dist-info/entry_points.txt,sha256=dulk_h7q-275aaabrbBpX7DYzCYnHQZn7UM_rrQRMtQ,61
+classdiff-0.3.0.dist-info/RECORD,,
