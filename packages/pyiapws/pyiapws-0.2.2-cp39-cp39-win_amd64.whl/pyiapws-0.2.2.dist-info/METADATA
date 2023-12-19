@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyiapws
+Version: 0.2.2
+Summary: pyiapws: IAPWS for python.
+Author-email: Milan Skocic <milan.skocic@icloud.com>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Documentation, https://milanskocic.github.io/iapws/index.html
+Project-URL: Source, https://github.com/MilanSkocic/iapws
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Description
+============
+
+ .. readme_inclusion_start
+
+Python wrapper around the
+`Fortran iapws library <https://milanskocic.github.io/iapws/index.html>`_.
+The Fortran library does not need to be installed, the python wrapper embeds all needed dependencies.
+On linux, you might have to install `libgfortran` if it is not distributed with your linux distribution. 
+
+All functions that operate on arrays, more precisely on objects with the buffer protocol, return memory views
+in order to avoid compilation dependencies on 3rd party packages.
+
+.. readme_inclusion_end 
+
+
+Installation
+===================
+See  ``INSTALL.txt``.
+
+Dependencies
+================
+
+See ``requirements.txt``.
+
+
+License information
+===========================
+See ``LICENSE.txt``.
