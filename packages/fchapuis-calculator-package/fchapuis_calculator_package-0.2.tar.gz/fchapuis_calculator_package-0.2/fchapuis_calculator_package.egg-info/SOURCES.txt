@@ -1,0 +1,9 @@
+setup.py
+calculator_pckg/__init__.py
+calculator_pckg/calculator.py
+fchapuis_calculator_package.egg-info/PKG-INFO
+fchapuis_calculator_package.egg-info/SOURCES.txt
+fchapuis_calculator_package.egg-info/dependency_links.txt
+fchapuis_calculator_package.egg-info/top_level.txt
+tests/__init__.py
+tests/test_calculator.py
