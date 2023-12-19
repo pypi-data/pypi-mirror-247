@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+tracker-client/__init__.py
+tracker-client/tracker.py
+tracker_client.egg-info/PKG-INFO
+tracker_client.egg-info/SOURCES.txt
+tracker_client.egg-info/dependency_links.txt
+tracker_client.egg-info/not-zip-safe
+tracker_client.egg-info/top_level.txt
