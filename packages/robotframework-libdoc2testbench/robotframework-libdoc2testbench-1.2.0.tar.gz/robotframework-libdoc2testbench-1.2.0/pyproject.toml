@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+python_version = "3.8"
+ignore_missing_imports = true
+no_implicit_optional = true
+strict_optional = true
+warn_return_any = true
+warn_no_return = true
+warn_unreachable = true
+pretty = true
+exclude = ["test_libraries/"]
+
+[tool.black]
+target-version = ['py38']
+line-length = 100
+include_trailing_comma = false
+skip-string-normalization = true
+
+[tool.ruff]
+line-length = 100
+unfixable = [
+    "UP007"
+]
+exclude = [
+  "__pycache__",
+  "config.py",
+  "model.py",
+  "tests",
+  "itb_project_export.py"
+]
+ignore = [
+  "T201",
+  "B008", # Todo: fix later
+  "PLR0913", # Todo: fix later
+]
+target-version = "py38"
+select = [
+  "E",
+  "F",
+  "W",
+  "C90",
+  "I",
+  "N",
+  "B",
+  "PYI",
+  "PL",
+  "PTH",
+  "UP",
+  "A",
+  "C4",
+  "DTZ",
+  "ISC",
+  "ICN",
+  "INP",
+  "PIE",
+  "T20",
+  "PYI",
+  "PT",
+  "RSE",
+  "RET",
+  "SIM",
+  "RUF"
+]

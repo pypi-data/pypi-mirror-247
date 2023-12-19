@@ -1,0 +1,15 @@
+*** Import List ***
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\element_details.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\element_tree_keyboard_navigation.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\floating_verdict_bar.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\test_elements_section.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\update_verdict_dialog.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\main_page\verdict_checks.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\User_Settings\display.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\User_Settings\evaluation.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\User_Settings\general.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\User_Settings\sections.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\itorx_header.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\report.resource
+E:\Projekte\imbus_GitLab\tb-robot-framework\web-itorx_keywords\web-itorx_navigation.resource
+
