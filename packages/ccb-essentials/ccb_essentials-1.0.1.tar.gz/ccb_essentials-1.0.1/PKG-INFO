@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ccb-essentials
+Version: 1.0.1
+Summary: Essential tools for Python 3.
+Home-page: https://github.com/clydecbrown/ccb-essentials
+License: MIT
+Keywords: utilities,file,path,subprocess,argparse,sqlite3
+Author: Clyde C Brown
+Author-email: clyde.c.brown@pm.me
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/clydecbrown/ccb-essentials
+Description-Content-Type: text/markdown
+
+# Python Essentials
+
+General-purpose tools for Python 3.
+
+## Development Environment
+
+First, [install Poetry](https://python-poetry.org/docs/).
+
+### Set up
+    poetry install --sync
+    poetry check
+    poetry show
+
+## Maintenance
+
+### Code test
+    poetry run pytest
+
+### Code lint
+    poetry run bin/lint.sh
+
+### Build artifacts
+    poetry build
+
+### Publish
+    poetry version [major|minor|patch]
+    V=v`poetry version -s` && git add pyproject.toml && git commit -m $V && git tag -a -m $V $V
+    poetry publish --build
+
