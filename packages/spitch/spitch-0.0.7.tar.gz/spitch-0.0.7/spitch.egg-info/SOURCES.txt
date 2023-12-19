@@ -1,0 +1,8 @@
+README.md
+setup.py
+dialog/__init__.py
+dialog/app.py
+spitch.egg-info/PKG-INFO
+spitch.egg-info/SOURCES.txt
+spitch.egg-info/dependency_links.txt
+spitch.egg-info/top_level.txt
