@@ -1,0 +1,9 @@
+README.md
+setup.py
+azfuncextbase-fastapi/__init__.py
+azfuncextbase-fastapi/web.py
+azfuncextbase_fastapi.egg-info/PKG-INFO
+azfuncextbase_fastapi.egg-info/SOURCES.txt
+azfuncextbase_fastapi.egg-info/dependency_links.txt
+azfuncextbase_fastapi.egg-info/requires.txt
+azfuncextbase_fastapi.egg-info/top_level.txt
