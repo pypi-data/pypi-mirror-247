@@ -1,0 +1,12 @@
+pandas
+openpyxl
+numpy
+matplotlib
+PIL
+glob
+tkinter
+hashlib
+base64
+tabula
+AH22CS174
+subprocess
