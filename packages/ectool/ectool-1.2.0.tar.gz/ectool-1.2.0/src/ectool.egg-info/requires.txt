@@ -1,0 +1,9 @@
+cstruct
+pyserial
+py7zr
+
+[dev]
+check-manifest
+
+[test]
+coverage
