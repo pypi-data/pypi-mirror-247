@@ -1,0 +1,6 @@
+---
+file_extension_list:
+  - vcf
+  - vcf.gz
+  - bam
+  - bam.gz
