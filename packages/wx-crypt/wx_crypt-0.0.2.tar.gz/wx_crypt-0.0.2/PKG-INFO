@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wx-crypt
+Version: 0.0.2
+Summary: WeCom Bot Callback Server Simple Framework
+Project-URL: Homepage, https://github.com/easy-wx/wx-crypt
+Project-URL: Issues, https://github.com/easy-wx/wx-crypt/issues
+Author-email: panzhongxian <panzhongxian0532@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pycryptodome>=3.10.0
