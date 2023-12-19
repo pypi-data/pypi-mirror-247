@@ -1,0 +1,2 @@
+[console_scripts]
+fluxy-fastapi-startproject = fluxy.fluxy_fastapi:startproject
