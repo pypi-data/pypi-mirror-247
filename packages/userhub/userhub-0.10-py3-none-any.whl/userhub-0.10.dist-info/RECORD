@@ -1,0 +1,9 @@
+userhub/__init__.py,sha256=QNMTj7nswFxUInASoyS8Ax_wbENuTEady1hWAsXsnTo,219
+userhub/_req.py,sha256=9nJBO6bJjEsxt6cp17KAYdAjHyujqXDq3e-Bxqa6TP0,338
+userhub/auth.py,sha256=C2mZpaRYg8wY5EGKzERsOH5HNXlAcUcJfSv5wAyGuu8,2428
+userhub/users.py,sha256=v2z95z2n7auEpME6LE-zLSwQ5TjDJWgxkTEa5Bl8XKk,413
+userhub-0.10.dist-info/LICENSE,sha256=M0rwJUUsaSoBVIPtSHvMfEiR5EF7EHgGM67D9dkw44k,1069
+userhub-0.10.dist-info/METADATA,sha256=e60UXK-xNz9W03W31RZHi_ZrZn8DxN9nHe-ITRvHKP8,973
+userhub-0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+userhub-0.10.dist-info/top_level.txt,sha256=qmO9Wplj-BVXidLG_3KHAv8DIOsvAjX9UIM_ublqKXk,8
+userhub-0.10.dist-info/RECORD,,
