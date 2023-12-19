@@ -1,0 +1,4 @@
+[console_scripts]
+fastapi-jet=fastapi_jet.cli:app
+fastjet=fastapi_jet.cli:app
+
