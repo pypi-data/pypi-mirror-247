@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pygam2
+Version: 0.9.0
+Summary: Generalized Additive Models in Python, with modern python support (<= 3.11)
+Keywords: machine-learning,data-science,scientific-computing
+Author-email: MikeHLee <leemichael289@gmail.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
