@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: FenceChallenge
+Version: 0.0.1
+Author: Miguel OMalley
+Author-email: miguelomalley9@gmail.com
+Requires-Dist: importlib-metadata; python_version > "3.7"
+Requires-Dist: numpy
+Requires-Dist: pandas
