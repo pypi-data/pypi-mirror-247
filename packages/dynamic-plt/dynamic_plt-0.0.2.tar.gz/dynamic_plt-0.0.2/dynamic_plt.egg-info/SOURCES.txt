@@ -1,0 +1,17 @@
+README.md
+setup.py
+Plt/Plot.py
+Plt/__init__.py
+Plt/Core/Axes.py
+Plt/Core/Color.py
+Plt/Core/DraggablePlot.py
+Plt/Core/Utils.py
+Plt/Core/Window.py
+Plt/Core/__init__.py
+Plt/test/__init__.py
+Plt/test/test.py
+dynamic_plt.egg-info/PKG-INFO
+dynamic_plt.egg-info/SOURCES.txt
+dynamic_plt.egg-info/dependency_links.txt
+dynamic_plt.egg-info/requires.txt
+dynamic_plt.egg-info/top_level.txt
