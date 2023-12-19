@@ -1,0 +1,2 @@
+[console_scripts]
+ihatepyc = ihatepyc.cli:main
