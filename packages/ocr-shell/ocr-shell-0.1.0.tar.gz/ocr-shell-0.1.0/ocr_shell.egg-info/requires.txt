@@ -1,0 +1,9 @@
+docopt
+Pillow
+pytesseract
+
+[:platform_system == "Darwin"]
+pyobjc-framework-Quartz
+
+[:platform_system == "Windows"]
+pywin32
