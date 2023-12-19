@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+khmerphonemizer/__init__.py
+khmerphonemizer/g2p.fst
+khmerphonemizer/km_lexicon.tsv
+khmerphonemizer.egg-info/PKG-INFO
+khmerphonemizer.egg-info/SOURCES.txt
+khmerphonemizer.egg-info/dependency_links.txt
+khmerphonemizer.egg-info/requires.txt
+khmerphonemizer.egg-info/top_level.txt
