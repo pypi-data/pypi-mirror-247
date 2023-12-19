@@ -1,0 +1,8 @@
+torch
+torchaudio
+numpy
+fairseq
+cached-path
+click
+pytorch-lightning
+gradio
