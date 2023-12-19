@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: pgapi
+Version: 0.0.1a1
+Summary: CLI tool and Python library for manipulating Postgres databases
+Home-page: https://github.com/Florents-Tselai/pgAPI
+Author: Florents Tselai
+Author-email: florents@tselai.com
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://pgAPI.tselai.com/en/stable/
+Project-URL: Changelog, https://pgAPI.tselai.com/en/stable/changelog.html
+Project-URL: Source code, https://github.com/Florents-Tselai/pgAPI
+Project-URL: Issues, https://github.com/Florents-Tselai/pgAPI/issues
+Project-URL: CI, https://github.com/Florents-Tselai/pgAPI/actions
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Database
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg[binary,pool]
+Requires-Dist: sqlite-fts4
+Requires-Dist: click
+Requires-Dist: click-default-group>=1.2.3
+Requires-Dist: tabulate
+Requires-Dist: python-dateutil
+Requires-Dist: pluggy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: black; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+Requires-Dist: cogapp; extra == "test"
+Provides-Extra: docs
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: sphinx-autobuild; extra == "docs"
+Requires-Dist: codespell; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: beanbag-docutils>=2.0; extra == "docs"
+Requires-Dist: pygments-csv-lexer; extra == "docs"
+Provides-Extra: mypy
+Requires-Dist: mypy; extra == "mypy"
+Requires-Dist: types-click; extra == "mypy"
+Requires-Dist: types-tabulate; extra == "mypy"
+Requires-Dist: types-python-dateutil; extra == "mypy"
+Requires-Dist: types-pluggy; extra == "mypy"
+Requires-Dist: data-science-types; extra == "mypy"
+Provides-Extra: flake8
+Requires-Dist: flake8; extra == "flake8"
+Provides-Extra: tui
+Requires-Dist: trogon; extra == "tui"
+
+<p align="center">
+
+<p align="center">
+   <img width="50%" height="40%" src="https://tselai.com/data/babar-1.png" alt="Logo">
+  </p>
+
+  <h1 align="center">pgAPI</h1>
+  <p align="center">
+  <strong>CLI tool and Python library for manipulating Postgres databases</strong>
+    <br> <br />
+    <a href="#inspiration"><strong> Inspiration </strong></a> |
+    <a href="#installation"><strong> Installation </strong></a> |
+    <a href="#usage"><strong> Usage </strong></a> |
+    <a href="#roadmap"><strong> Roadmap </strong></a>
+
+
+   </p>
+<p align="center">
+
+<p align="center">
+<a href="https://pypi.org/project/pgapi/"><img src="https://img.shields.io/pypi/v/pgapi?label=PyPI"></a>
+<a href="https://github.com/Florents-Tselai/pgAPI/actions/workflows/test.yml?branch=pgapi"><img src="https://github.com/Florents-Tselai/pgAPI/actions/workflows/test.yml/badge.svg"></a>
+<a href="https://codecov.io/gh/Florents-Tselai/pgAPI"><img src="https://codecov.io/gh/Florents-Tselai/pgAPI/branch/pgapi/graph/badge.svg"></a>  
+<a href="https://opensource.org/licenses/Apache Software License 2.0"><img src="https://img.shields.io/badge/Apache Software License 2.0.0-blue.svg"></a>
+<a href="https://github.com/Florents-Tselai/pgAPI/releases"><img src="https://img.shields.io/github/v/release/Florents-Tselai/pgAPI?include_prereleases&label=changelog"></a>
+
+## Inspiration
+
+[sqlite-utils](https://github.com/simonw/sqlite-utils) provides a beautiful
+Pythonic [API](https://sqlite-utils.datasette.io/en/stable/reference.html) on
+top of `SQLite` databases.
+**pgAPI** is an attempt to lift-and-shift that API and replicate it on top of
+Postgres instead.
+
+## Installation
+
+```bash
+pip install pgAPI
+```
+
+## Usage
+
+### Development
+
+```bash
+pip install -e '.[test]'
+pytest
+```
+
+## Roadmap
+
+### v0.1.0
+
+* MVP around `pgapi.Database` to have basic interaction with Postgres,
+and be able to run queries returned in Pythonic formats.
+* Tests should pass even if that means minimal coverage
+* CLI should be disabled
+* docs should be disabled or
