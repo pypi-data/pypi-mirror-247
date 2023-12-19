@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: agnostica
+Version: 0.0.2
+Summary: A platform-agnostic library for creating multi-platform chat bots with ease.
+Home-page: https://github.com/reapimus/agnostica
+Author: reapimus
+License: MIT
+Project-URL: Documentation, https://github.com/Reapimus/agnostica
+Project-URL: Issue tracker, https://github.com/Reapimus/agnostica/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+Agnostica is a platform-agnostic library to make the creation of chat bots that function on multiple platforms more simple and streamlined.
+
+## Documentation
+
+Documentation is currently a work in progress.
+
+## Support
+
+There is currently not yet a support server for the library.
+
+<!-- [![shield](https://shields.yoki-labs.xyz/shields/vanity/agnostica)](https://guilded.gg/agnostica) -->
+
