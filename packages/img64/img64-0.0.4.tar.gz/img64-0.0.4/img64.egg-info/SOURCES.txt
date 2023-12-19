@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+img64/__init__.py
+img64/convert.py
+img64.egg-info/PKG-INFO
+img64.egg-info/SOURCES.txt
+img64.egg-info/dependency_links.txt
+img64.egg-info/not-zip-safe
+img64.egg-info/requires.txt
+img64.egg-info/top_level.txt
