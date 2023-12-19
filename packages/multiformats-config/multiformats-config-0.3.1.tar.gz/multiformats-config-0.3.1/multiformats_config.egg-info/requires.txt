@@ -1,0 +1,7 @@
+multiformats
+
+[dev]
+mypy
+pylint
+pytest
+pytest-cov
