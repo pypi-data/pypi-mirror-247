@@ -1,0 +1,6 @@
+setup.py
+Faizur_WAF.egg-info/PKG-INFO
+Faizur_WAF.egg-info/SOURCES.txt
+Faizur_WAF.egg-info/dependency_links.txt
+Faizur_WAF.egg-info/requires.txt
+Faizur_WAF.egg-info/top_level.txt
