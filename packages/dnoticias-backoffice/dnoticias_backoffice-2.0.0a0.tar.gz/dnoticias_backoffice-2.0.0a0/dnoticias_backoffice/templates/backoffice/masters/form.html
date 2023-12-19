@@ -1,0 +1,23 @@
+{% extends 'backoffice/masters/main.html' %}
+{% load i18n static widget_tweaks base %}
+{% block title %}dnoticias | Assinaturas | Backoffice{% endblock title %}
+{% block description %}Latest updates and statistic charts{% endblock description %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body p-lg-17">
+        <form method="POST" class="kt-form kt-form--label-right" {% block form_attrs %}{% endblock form_attrs %}>
+            {% csrf_token %}
+            <!-- Form body -->
+            {% block form_body %}{% endblock %}
+            <!-- End form body -->
+            <!-- Form footer -->
+            {% block form_footer %}{% endblock %}
+            <!-- End form footer -->
+        </form>
+    </div>
+</div>
+{% block pos_content %}
+{% endblock pos_content %}
+<!-- end:: Content -->
+{% endblock content %}
