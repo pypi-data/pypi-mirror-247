@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Mensajes-Panchob28
+Version: 5.0
+Home-page: https://www.linkedin.com/in/francisco-burchardt/
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ==1.26.2
+
+# Menasajes
+
+El paquete de mensajeria para pruebas de Francisco Burchardt
