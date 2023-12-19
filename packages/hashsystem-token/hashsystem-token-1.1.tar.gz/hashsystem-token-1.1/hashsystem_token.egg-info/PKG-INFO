@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hashsystem-token
+Version: 1.1
+Summary: hashsystem helps developers generate hash passwords and generate token and decode token,that can be used in jwt ,apitokens,any kind of encription and decription process.
+Home-page: UNKNOWN
+Author: Rajat Mishra
+Author-email: rajatsmishra@aol.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# UseCases Docs
+```python 
+# generating password hash and validating it
+from hashsystem.hash.package import HashMachenism
+
+# HashMachenism takes seeds as params for password salt
+seeds=[{"seeds":[1,2,1,2]}]
+
+```
+
+
