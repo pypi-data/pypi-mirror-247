@@ -1,0 +1,14 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filters.py,sha256=jQ6wlv6TcuLHRPXCeYBSKzR8Re2dimd6NWeOqOINL8E,368
+helper.py,sha256=dZzG-rVi7DpJ4aoTaW--AaVTThAvBG86AzhXE_lJi2s,344
+mixins.py,sha256=ZlCATMycHBIVLav1kusTCzXlZrm4fJ5xGdX_b9GhQ0g,1794
+pagination.py,sha256=VP9YcFiF28zCL72i7s6KqE9Hb8zS5NlbjlG3Bx-kdfw,898
+renderer.py,sha256=vMmoHRdvM23_XonaT8CG5jbosKEDWINoDfX-6a5DKkg,2496
+serializers.py,sha256=NhnY1bD0StS22Y-Z9o7b53DNA1uvJdCYo0t9fgtZx_A,4121
+setup.py,sha256=4rfOX3GqIIjhregN6J2WL4bTjru6EsbZ1F4_IHy15Lw,1219
+views.py,sha256=R1LGoycHJAWUYnZ9aHDU6mznmtmh6bYedQ-gbNwOYyE,2728
+dj_rest_kit-0.0.1.dev1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dj_rest_kit-0.0.1.dev1.dist-info/METADATA,sha256=rnEIcVv2ELrlre568KE4evfnlDez02vBJ1tZwEbb4w4,1499
+dj_rest_kit-0.0.1.dev1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dj_rest_kit-0.0.1.dev1.dist-info/top_level.txt,sha256=kOFZm18MCUt_hhBBb6OVZDrdFPxETrSkX1j9adYEApw,75
+dj_rest_kit-0.0.1.dev1.dist-info/RECORD,,
