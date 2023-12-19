@@ -1,0 +1,9 @@
+README.md
+setup.py
+mslang/__init__.py
+mslang/mslang.py
+mslang.egg-info/PKG-INFO
+mslang.egg-info/SOURCES.txt
+mslang.egg-info/dependency_links.txt
+mslang.egg-info/not-zip-safe
+mslang.egg-info/top_level.txt
