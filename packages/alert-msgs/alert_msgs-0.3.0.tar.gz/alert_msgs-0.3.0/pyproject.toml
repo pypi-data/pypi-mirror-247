@@ -1,0 +1,37 @@
+[project]
+name = "alert_msgs"
+version = "0.3.0"
+description = "Easily construct and send formatted emails and Slack alerts."
+authors = [{ name = "Dan Kelleher", email = "kelleherjdan@gmail.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["alert", "message", "notification", "slack", "email"]
+
+readme = "README.md"
+
+dependencies = [
+    "premailer",
+    "dominate",
+    "requests",
+    "ezloggers",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "slack-bolt",
+    "tabulate",
+    "toolz",
+]
+
+[project.optional-dependencies]
+dev = ["black"]
+test = ["pytest"]
+
+[project.scripts]
+text_alert = 'alert_msgs.alerts:text_alert_cmd'
+
+[build-system]
+requires = ["setuptools>=43.0.0", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"

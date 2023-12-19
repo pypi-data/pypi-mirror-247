@@ -1,0 +1,15 @@
+premailer
+dominate
+requests
+ezloggers
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+slack-bolt
+tabulate
+toolz
+
+[dev]
+black
+
+[test]
+pytest
