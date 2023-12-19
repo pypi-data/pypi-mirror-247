@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gradient_descent/__init__.py
+gradient_descent/points/__init__.py
+gradient_descent_edf1101.egg-info/PKG-INFO
+gradient_descent_edf1101.egg-info/SOURCES.txt
+gradient_descent_edf1101.egg-info/dependency_links.txt
+gradient_descent_edf1101.egg-info/requires.txt
+gradient_descent_edf1101.egg-info/top_level.txt
