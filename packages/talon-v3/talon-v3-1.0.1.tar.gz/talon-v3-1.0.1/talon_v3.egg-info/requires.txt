@@ -1,0 +1,11 @@
+lxml
+regex
+numpy
+scipy
+scikit-learn>=1.0.0
+chardet
+faust-cchardet
+cssselect
+six
+html5lib
+joblib
