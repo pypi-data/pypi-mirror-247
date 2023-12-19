@@ -1,0 +1,9 @@
+homogeneous_segmentation/__init__.py,sha256=4Cz6NAggKg3NMfMIMr4CRCPrxaj5KPz5d6kh3dtFKlw,139
+homogeneous_segmentation/_cumulative_p.py,sha256=vBHGYIq0UWvU0nTHULNXvfxkPRYBzian4JGtKlX4xW4,1566
+homogeneous_segmentation/_cumulative_q.py,sha256=29AZ8mKz7PxHOkH7gR7w00mVftVSwZ7ntEpw-Z8jF58,2625
+homogeneous_segmentation/_optimal_bisections.py,sha256=pICQttL2dWxG1OCwK04YzJ50CQHoW7Foi0m0Fu6T4Lc,4064
+homogeneous_segmentation/_seg_mcv.py,sha256=aVj4TnnHiWuCg7pYT8IiD-5tj4s9cOyTxBPDdyHGGh4,5517
+homogeneous_segmentation/_seg_shs.py,sha256=TD17bI0thWWYuimkVo2Sq-aa7IIAAJadRSSTRlK11Mc,6725
+homogeneous_segmentation-2.1.0.dist-info/METADATA,sha256=o9yVufq8emzsMdqSF7cp2dBqbycuTNugRQahmHIHdk0,7021
+homogeneous_segmentation-2.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+homogeneous_segmentation-2.1.0.dist-info/RECORD,,
