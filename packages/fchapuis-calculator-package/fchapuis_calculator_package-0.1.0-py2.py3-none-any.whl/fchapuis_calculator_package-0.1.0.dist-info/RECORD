@@ -1,0 +1,11 @@
+fchapuis_calculator_package/__init__.py,sha256=uOVEb_H8A5Qfiv7ESYYFXEjT7nAPyxBoQ-aclqgyOC0,217
+fchapuis_calculator_package/setup.py,sha256=6oZkEgysp-t52z8z2DBgrWFG9OQnF0ZRBHJl6EfFLmM,331
+fchapuis_calculator_package/calculator_pckg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fchapuis_calculator_package/calculator_pckg/calculator.py,sha256=neliPULkXAAn-X-097hJ9KVJvrRTtQYurnRRjOvSAi8,1599
+fchapuis_calculator_package/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fchapuis_calculator_package/tests/requirements.txt,sha256=bV8ZMxfuDKpCxRY2CQ8PjCPQ7_xoFIUnu7v8TkBOoDk,14
+fchapuis_calculator_package/tests/test_calculator.py,sha256=MPb-I0aaGhmy3aU-GAEpCU6z13pQsITMKk5IF6i0JwI,1085
+fchapuis_calculator_package-0.1.0.dist-info/LICENSE,sha256=U-44CLMKRC6ylbcwZaoBaiYR-s9AP3s4SydSS-ftur8,1082
+fchapuis_calculator_package-0.1.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+fchapuis_calculator_package-0.1.0.dist-info/METADATA,sha256=jg8K70JYeG0HloeQXpZ02rAqkkVP6IBKpjQc7L6pK18,1280
+fchapuis_calculator_package-0.1.0.dist-info/RECORD,,
