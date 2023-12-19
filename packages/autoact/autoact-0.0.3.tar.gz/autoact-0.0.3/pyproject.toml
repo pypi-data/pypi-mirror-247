@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "autoact"
+version = "0.0.3"
+dependencies = [
+  "requests",
+]
+authors = [
+  {name = "zhou yongqiang", email = "zhouyongqiang2706@gmail.com"},
+]
+requires-python = ">=2.0"
+description = "The  SDK of AutoAct"
+license = {file = "LICENSE"}
+keywords = ["AutoAct"]
+[project.urls]
+Homepage = "http://szhypercasual.com"
