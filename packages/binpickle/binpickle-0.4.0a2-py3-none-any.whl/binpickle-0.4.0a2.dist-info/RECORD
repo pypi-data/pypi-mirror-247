@@ -1,0 +1,13 @@
+binpickle/__init__.py,sha256=wpwS_FN-N8kTcTRfLtlpgnsqZTUxpuYTQrmchNBgWRw,385
+binpickle/_util.py,sha256=RWyhABH_lTh7BmzuwECOIm-FZZW91MQiDjKzi78CM78,633
+binpickle/encode.py,sha256=FieEwpQ1lNCErJYB-cZIUxrBWCYr1tKFRcQAPQYLecA,1378
+binpickle/errors.py,sha256=iP6uRxRAFf4rkXg_bZOVQZdbYMhxbMNhVv_NR5s8sh0,444
+binpickle/format.py,sha256=Bl48-xX8P-1nR7Z7NEKwvE22rnqutyl_P2pQGew41gg,5184
+binpickle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binpickle/read.py,sha256=He60sg5VfJoyiMocC_6irnL5JCLxg5yfWO1E5e5Y8PU,8313
+binpickle/write.py,sha256=JARE_xruNy5I-TQSo-nr0sNqpUW7dFNX7SnseoDaDuM,7879
+binpickle-0.4.0a2.dist-info/LICENSE.md,sha256=ZRs0y9VyTfpFNbIHcsfo1dMoj2ldRWU1zv0DkXf9wrY,1113
+binpickle-0.4.0a2.dist-info/METADATA,sha256=zHGoGivekjaKdYDZ3xzUmssA_rgz7E0xVLjGXZXEEdQ,4768
+binpickle-0.4.0a2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+binpickle-0.4.0a2.dist-info/top_level.txt,sha256=P1EizyEj-t9n6fwcwj7Ax-xqtcr-R76DJzi0eEAWzg4,10
+binpickle-0.4.0a2.dist-info/RECORD,,
