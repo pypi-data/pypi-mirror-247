@@ -1,0 +1,17 @@
+xolo/__about__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+xolo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xolo/hooks.py,sha256=TkWNGycut13LmPdQK0UQpeMptyPq7PZVhhkX2JFRTTk,6550
+xolo/iterators.py,sha256=iqhZlq1_fHPPUui9mZKemD-4zBA5lkX-TSJv3HvROpo,4502
+xolo/moving_average.py,sha256=ahL_1pyN3dLtSbpsivRnYc6UotsQ50ZElb9keDQkiZg,3648
+xolo/regex.py,sha256=70nR69csTEw91ueU8wVEp6cHM05MJZuOX3I-Vp23Rmc,10395
+xolo/schemas.py,sha256=GQ26wdsaB8T-PcbgalhCb7-vp5OfX9HWzST7xkSilTs,14320
+xolo/spans.py,sha256=NrBMBqveNom7-ZEqBqL2LSbBaj6m3c6JGbxVqSwLZzc,4766
+xolo/symbols.py,sha256=Ef_-mPoG8_I7jDkZyBPDzMPXPiVuWkiQvuFOzxPazNo,5890
+xolo/tokens.py,sha256=gShxMGyixBa4mj9XfGe0ium7Bkv7tpjHW0tai9K-C_w,49293
+xolo/torch.py,sha256=gTIVqOCtrBFTR6LcEjV4ouMacclcfNUFav5FvxpDJh4,27034
+xolo/typing.py,sha256=fDohOuy5uqk9IswKiVe_e2tZtRjWvj8ypkfhmyc3yqk,2213
+xolo/utils.py,sha256=-pH3Q4zJxXOClyVpP3zX6VIEKXYuI-AVyQPeP8Xz6ok,4079
+xolo-0.0.1.dist-info/METADATA,sha256=llHmtu4yIUlVC6uTWCSXmjNodiYdnCkKGv9V0oSNb2Q,851
+xolo-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+xolo-0.0.1.dist-info/licenses/LICENSE,sha256=zs1ajMk6S367ah71VXOYMkchVziBHexcg6GQj8HamLk,1092
+xolo-0.0.1.dist-info/RECORD,,
