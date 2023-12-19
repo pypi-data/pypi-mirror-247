@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ustrid.py,sha256=hXuanOTroWfIlLnMFGdlR-94G6ui50BwRWqcMYxuNJg,499
+ustrid/__init__.py,sha256=FmDA2hASgTLACukFp7kp-IHXvSnKlstVylcNasgjYqw,478
+ustrid/__main__.py,sha256=V31N56pKM40dwZVrQ1fFv2f3QY_VlWGGgpBES796WAI,766
+ustrid-0.0.2.dist-info/LICENSE,sha256=36GJlqO_5eXCVwbXITg4b8u7z8TMLl3T24zRm1Cz3tg,1076
+ustrid-0.0.2.dist-info/METADATA,sha256=8sqaMN5bIpp55WbBI1gFtltHrMjUjZ9uyEaPKYkNWAA,1254
+ustrid-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ustrid-0.0.2.dist-info/entry_points.txt,sha256=muYahiujoQrJdJ3owERI54pJxTtQpkD7mMCd4YHC-iM,49
+ustrid-0.0.2.dist-info/top_level.txt,sha256=k64rOaRZP5FHofCQv855f-69GKT_YqIfNdNKdHvWNfU,13
+ustrid-0.0.2.dist-info/RECORD,,
