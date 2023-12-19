@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: telesco_utils
+Version: 0.4
+Summary: This package provides general-purpose functionality
+Home-page: https://github.com/rhubenni/telesco-utils
+Author: Rhubenni Telesco
+License: CC0-1.0
+License-File: LICENSE
