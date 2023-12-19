@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+bibliotecaTest/__init__.py
+bibliotecaTest/helloTest.py
+hello_worldVictorAugusto.egg-info/PKG-INFO
+hello_worldVictorAugusto.egg-info/SOURCES.txt
+hello_worldVictorAugusto.egg-info/dependency_links.txt
+hello_worldVictorAugusto.egg-info/top_level.txt
