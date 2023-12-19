@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hashsystem-token
+Version: 1.10
+Summary: hashsystem helps developers generate hash passwords and generate token and decode token,that can be used in jwt ,apitokens,any kind of encription and decription process.
+Home-page: UNKNOWN
+Author: Rajat Mishra
+Author-email: rajatsmishra@aol.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# UseCases Docs
+```python 
+# generating password hash and validating it
+from hashsystem.hash.package import HashMachenism
+
+# HashMachenism takes seeds as params for password salt
+seeds={"seeds":[1,2,1,2]}
+obj=HashMachenism(seeds)
+dummypassword="testingtestpassword"
+password_hash=obj.hasspass(dummypassword)
+# output '$RMA-b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0b@1c#2i(8a~0a~0'
+# verifying pasword hash
+obj.verify_password(password_hash) # returns True if verified
+
+```
+### Generating token and and decoding it 
+```python 
+# imports for token generation
+from hashsystem.hash.package import TokenGenerator
+from datetime import datetime
+# common vars
+payload=dict(email="test@test.com",exp=datetime.now())
+seeds=[1000,"%",20]
+obj=TokenGenerator(payload,seeds)
+token_hash=obj.get_token_pairs()
+
+# decode token 
+
+decoded=obj.get_formetted_token(token_hash['access_token'])
+
+# please checkout documentaion for further implementation for token related features
+
+```
+
+
+
