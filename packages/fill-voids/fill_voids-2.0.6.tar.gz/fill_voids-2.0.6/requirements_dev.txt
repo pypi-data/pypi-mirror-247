@@ -1,0 +1,5 @@
+pytest
+scipy
+tqdm
+tox
+crackle-codec
