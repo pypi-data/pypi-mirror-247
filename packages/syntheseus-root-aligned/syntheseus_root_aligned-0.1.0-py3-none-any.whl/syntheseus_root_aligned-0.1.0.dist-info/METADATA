@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: syntheseus-root-aligned
+Version: 0.1.0
+Summary: Fork of RootAligned for use in the syntheseus library
+Project-URL: Repository, https://github.com/kmaziarz/RootAligned
+License-File: LICENSE
+Requires-Dist: OpenNMT-py ==2.2.0
+Requires-Dist: textdistance ==4.6.0
+
