@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: symfem
+Version: 2023.12.6
+Summary: a symbolic finite element definition library
+Author-email: Matthew Scroggs <symfem@mscroggs.co.uk>
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: sympy>=1.10
+Requires-Dist: appdirs
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: sphinx-autoapi ; extra == "docs"
+Requires-Dist: CairoSVG>=2.6.0 ; extra == "optional"
+Requires-Dist: ruff ; extra == "style"
+Requires-Dist: flake8 ; extra == "style"
+Requires-Dist: mypy ; extra == "style"
+Requires-Dist: isort ; extra == "style"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: symfem[optional] ; extra == "test"
+Requires-Dist: numpy ; extra == "test"
+Project-URL: documentation, https://symfem.readthedocs.io/en/latest/
+Project-URL: homepage, https://github.com/mscroggs/symfem
+Project-URL: repository, https://github.com/mscroggs/symfem
+Provides-Extra: docs
+Provides-Extra: optional
+Provides-Extra: style
+Provides-Extra: test
+
+![Symfemhttps://raw.githubusercontent.com/mscroggs/symfem/main/ppppppppppppppppppphttps://raw.githubusercontent.com/mscroggs/symfem/main/ppphttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/pphttps://raw.githubusercontent.com/mscroggs/symfem/main/ppppppphttps://raw.githubusercontent.com/mscroggs/symfem/main/pphttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/phttps://raw.githubusercontent.com/mscroggs/symfem/main/p
