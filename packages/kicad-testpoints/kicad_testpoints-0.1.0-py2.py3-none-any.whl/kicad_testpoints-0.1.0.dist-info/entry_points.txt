@@ -1,0 +1,4 @@
+[console_scripts]
+dataframe-to-openscad = kicad_testpoints.cli:dataframe_to_openscad
+kicad_testpoints = kicad_testpoints.cli:main
+
