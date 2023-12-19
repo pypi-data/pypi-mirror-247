@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.pyc
+fingerscan.egg-info/PKG-INFO
+fingerscan.egg-info/SOURCES.txt
+fingerscan.egg-info/dependency_links.txt
+fingerscan.egg-info/entry_points.txt
+fingerscan.egg-info/requires.txt
+fingerscan.egg-info/top_level.txt
