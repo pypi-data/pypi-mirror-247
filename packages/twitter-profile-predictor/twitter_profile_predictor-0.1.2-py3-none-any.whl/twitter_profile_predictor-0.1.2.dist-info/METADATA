@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: twitter-profile-predictor
+Version: 0.1.2
+Summary: A python module that extract information (language, profession...) from X[ex-Twitter] profile bios
+Home-page: https://github.com/TimFaverjon/twitter_profile_predictor
+Author: Tim Faverjon
+Author-email: tim.faverjon@sciencespo.fr
+Description-Content-Type: text/markdown
+Requires-Dist: nltk (==3.7)
+Requires-Dist: pandas (==2.1.4)
+Requires-Dist: asttokens (==2.0.5)
+Requires-Dist: openpyxl (==3.0.10)
+
