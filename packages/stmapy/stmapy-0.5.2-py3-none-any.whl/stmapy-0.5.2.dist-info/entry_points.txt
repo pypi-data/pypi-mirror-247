@@ -1,0 +1,2 @@
+[console_scripts]
+stmapy = stmapy.main:main
