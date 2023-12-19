@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: utils-gap
+Version: 0.0.4
+Summary: Utilidades para GAP-PNA-ASA
+Home-page: https://example.com
+Author: gsabatino
+Author-email: gsabatino@example.com
+Project-URL: Docs, https://docs.example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PNA py-pna-gap-bigdata-analytics
+
+![Build Status](https://aeroterrasa.visualstudio.com/Prefectura%20Naval%20Argentina/_apis/build/status/py-pna-gap-bigdata-analytics?branchName=main) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+
+```sh
+docker build -f ./Dockerfile -t "gap_pipeline:latest" .
+```
+
+```sh
+docker-compose up
+```
+
+```sh
+docker-compose down
+```
