@@ -1,0 +1,11 @@
+tracescopio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracescopio/scopio.py,sha256=TMSyS1vCQ7ALeYaBxCTYyd4QJajLilWRbTJjp-wThzI,501
+tracescopio/decorators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracescopio/decorators/traceme.py,sha256=RSgJH4ZoJZbCwSIdJS4Kh48LyuK3B_a-zU3ECF1oTI8,1047
+tracescopio/middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracescopio/middleware/telemetria.py,sha256=feOcxBw7ik-bczdLiP6D8GDv6tZvpwinP6RGnOFxiUI,1185
+tracescopio-2.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tracescopio-2.0.1.dist-info/METADATA,sha256=ej42D0ZIabWxdG9pyb6XIpY4U8RZNg7eyoYmhZDcl3I,2002
+tracescopio-2.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tracescopio-2.0.1.dist-info/top_level.txt,sha256=tyxCsoe-3fw7BteaoMaFF4v9ZbatuZ-Y4dIBW-wJnl4,12
+tracescopio-2.0.1.dist-info/RECORD,,
