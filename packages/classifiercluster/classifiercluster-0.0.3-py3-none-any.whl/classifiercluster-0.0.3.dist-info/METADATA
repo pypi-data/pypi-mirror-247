@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: classifiercluster
+Version: 0.0.3
+Summary: Python classifier cluster.
+Author: GaoangLau
+Author-email: GaoangLau@gmail.com
+Requires-Dist: codefast
+
