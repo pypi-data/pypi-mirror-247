@@ -1,0 +1,8 @@
+dnsdump2.py
+setup.py
+dnsdump2.egg-info/PKG-INFO
+dnsdump2.egg-info/SOURCES.txt
+dnsdump2.egg-info/dependency_links.txt
+dnsdump2.egg-info/entry_points.txt
+dnsdump2.egg-info/requires.txt
+dnsdump2.egg-info/top_level.txt
