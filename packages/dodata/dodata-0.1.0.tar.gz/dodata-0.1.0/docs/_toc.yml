@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Spirals
+    chapters:
+      - file: loss
+        sections:
+          - file: notebooks/spirals/1_generate_layout
+          - file: notebooks/spirals/2_generate_measurement_data
+          - file: notebooks/spirals/3_upload_measurements
+          - file: notebooks/spirals/4_download_data
+          - file: notebooks/spirals/5_delete
+  - caption: Rings
+    chapters:
+      - file: rings
+        sections:
+          - file: notebooks/rings/1_generate_layout
+          - file: notebooks/rings/2_generate_measurement_data
+          - file: notebooks/rings/3_upload_measurements
+          - file: notebooks/rings/4_download_data
+          - file: notebooks/rings/5_delete
+  - caption: Resistance
+    chapters:
+      - file: resistance
+        sections:
+          - file: notebooks/resistance/1_generate_layout.ipynb
+          - file: notebooks/resistance/2_generate_measurement_data
+          - file: notebooks/resistance/3_upload_measurements
+          - file: notebooks/resistance/4_download_data
+          - file: notebooks/resistance/5_delete
+  - caption: Reference
+    chapters:
+      - file: api
+      - file: changelog
