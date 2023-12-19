@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: akash_calculator
+Version: 0.0.2
+Summary: A very basic calculator
+Home-page: 
+Author: Akash Singh
+Author-email: akash.singh@proteustech.in
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+License-File: LICENSE.txt
+
+A very basic calculator package.
