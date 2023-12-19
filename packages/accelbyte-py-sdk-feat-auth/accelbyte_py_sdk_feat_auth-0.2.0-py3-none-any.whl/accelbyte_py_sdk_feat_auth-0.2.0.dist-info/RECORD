@@ -1,0 +1,8 @@
+accelbyte_py_sdk/services/auth/__init__.py,sha256=ZIzN7Q2c66eJ1Z6z_xZgZOOyVL30cz9zqVOw2W45I2s,1056
+accelbyte_py_sdk/services/auth/_jwt.py,sha256=3AJhlHRW0FBzP2_I8yDCsGEKxpjAuACEssSpzPTBA3Y,4971
+accelbyte_py_sdk/services/auth/_login.py,sha256=5Ts0YIJB7_7A6X8o-MIKdkBNF_AfCEVD0wht8Gl93q0,25733
+accelbyte_py_sdk/services/auth/_utils.py,sha256=5Rx3NTlU9rYMTlIjPupdpA0QdKgjKemHPY0MeqFSlhA,2690
+accelbyte_py_sdk_feat_auth-0.2.0.dist-info/METADATA,sha256=jm4cNLzJq3BTE07DT7ZGtb2z7CjCqP0NpArp046QOUs,1046
+accelbyte_py_sdk_feat_auth-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+accelbyte_py_sdk_feat_auth-0.2.0.dist-info/top_level.txt,sha256=xpcTNUkWjCbXneKx-x68mq1_ug_UIlscA9Tq9iHsQ6g,17
+accelbyte_py_sdk_feat_auth-0.2.0.dist-info/RECORD,,
