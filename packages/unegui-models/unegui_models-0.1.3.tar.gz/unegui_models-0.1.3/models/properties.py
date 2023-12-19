@@ -1,0 +1,40 @@
+from sqlalchemy import Column, Integer, String, Float, ForeignKey, Text
+from sqlalchemy.orm import relationship
+from .base import Base
+
+
+class Properties(Base):
+    __tablename__ = "properties"
+    id = Column(Integer, primary_key=True)
+    rooms = Column('rooms', Integer)
+    garage = Column('garage', String)
+    balcony_number = Column('balconyNumber', Integer)
+    area = Column('area', Float)
+    location = Column('location', String)
+    door = Column('door', String)
+    window = Column('window', String)
+    floor = Column('floor', String)
+    window_number = Column('windowNumber', Integer)
+    building_floor = Column('buildingFloor', Integer)
+    which_floor = Column('whichFloor', Integer)
+    commission_year = Column('commissionYear', Integer)
+    leasing = Column('leasing', String)
+    progress = Column('progress', String)
+    price = Column('price', Float)
+    province = Column('province', String)
+    district = Column('district', String)
+    khoroo = Column('khoroo', String)
+    property_type = Column('propertyType', String)
+    sell_type = Column('sellType', String)
+
+
+    images = relationship("PropertyImage", back_populates="property")
+
+class PropertyImage(Base):
+    __tablename__ = 'property_images'
+
+    id = Column(Integer, primary_key=True)
+    property_id = Column(Integer, ForeignKey('properties.id'))
+    img_url = Column(Text)
+
+    property = relationship("Properties", back_populates="images")
