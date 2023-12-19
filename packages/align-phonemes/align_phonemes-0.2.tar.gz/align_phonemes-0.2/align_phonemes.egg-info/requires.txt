@@ -1,0 +1,8 @@
+librosa>=0.10.1
+soundfile>=0.12.1
+docker>=7.0.0
+jiwer>=3.0.3
+scipy>=1.11.3
+numpy>=1.26.1
+torch>=2.1.0
+transformers>=4.34.1
