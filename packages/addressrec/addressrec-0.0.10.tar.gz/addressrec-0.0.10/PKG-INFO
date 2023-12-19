@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: addressrec
+Version: 0.0.10
+Summary: 字符串只能解析，解析省市区、姓名、电话
+Author-email: zhichao wang <wzc570738205@gmail.com>
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: jionlp
+Requires-Dist: jieba
+Requires-Dist: Levenshtein
+Requires-Dist: paddlepaddle==2.4.2
