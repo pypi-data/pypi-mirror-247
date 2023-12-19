@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+pyproject.toml
+setup.py
+Cbloxflip.egg-info/PKG-INFO
+Cbloxflip.egg-info/SOURCES.txt
+Cbloxflip.egg-info/dependency_links.txt
+Cbloxflip.egg-info/requires.txt
+Cbloxflip.egg-info/top_level.txt
+bloxflip/__init__.py
