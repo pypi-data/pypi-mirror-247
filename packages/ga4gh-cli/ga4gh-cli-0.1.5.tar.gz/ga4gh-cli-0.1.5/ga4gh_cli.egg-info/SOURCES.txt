@@ -1,0 +1,9 @@
+LICENSE
+README.md
+ga4gh_cli.py
+setup.py
+ga4gh_cli.egg-info/PKG-INFO
+ga4gh_cli.egg-info/SOURCES.txt
+ga4gh_cli.egg-info/dependency_links.txt
+ga4gh_cli.egg-info/entry_points.txt
+ga4gh_cli.egg-info/top_level.txt
