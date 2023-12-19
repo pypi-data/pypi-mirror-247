@@ -1,0 +1,8 @@
+django_cacheable_model/__init__.py,sha256=ZpEQOUyeoQzxCh70wBeDPgdb_bZFSJ1_OxZTUgZ99Yw,50
+django_cacheable_model/models.py,sha256=TyAuzJnAcAzwDkW4tD1CrJPSGazcVIZ51DsSdMk9zT4,2498
+django_cacheable_model/utils.py,sha256=R3mDSvHja74xjL6RQby0E5-olXd0CbREnOqplTQ2_9M,4691
+django_cacheable_model-1.1.1.dist-info/LICENSE,sha256=seL8ilL6NZb7aPkHa5LGpucpEUZQV9_EJslBpkmdezU,568
+django_cacheable_model-1.1.1.dist-info/METADATA,sha256=wtPK9Poe3tAlgUl47NDydED2JSoHEgQbSM2vR5eVjzw,2903
+django_cacheable_model-1.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_cacheable_model-1.1.1.dist-info/top_level.txt,sha256=FhnHWhTVxrU5gJUxN32i0cWvrZf8zFdtv7BqCIS9OqA,23
+django_cacheable_model-1.1.1.dist-info/RECORD,,
