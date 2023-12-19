@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+standalone001pyarmor.egg-info/PKG-INFO
+standalone001pyarmor.egg-info/SOURCES.txt
+standalone001pyarmor.egg-info/dependency_links.txt
+standalone001pyarmor.egg-info/requires.txt
+standalone001pyarmor.egg-info/top_level.txt
