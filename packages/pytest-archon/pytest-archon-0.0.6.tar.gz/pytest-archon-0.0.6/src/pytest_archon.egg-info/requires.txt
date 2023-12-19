@@ -1,0 +1,10 @@
+pytest>=7.2
+
+[dev]
+coverage
+flake8
+black
+mypy
+check-manifest
+check-wheel-contents
+pyroma
