@@ -1,0 +1,9 @@
+passosh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+passosh/fields.py,sha256=H0rb65aRSR7nH35C_LY0ktyKYIlcIDrezoYZ27YJgtQ,3414
+passosh/pesso.py,sha256=o_zXewsrqW8dBEEl_bT0wFbcz6yGCMomKJaSJ5CaB3o,2166
+passosh/signature.py,sha256=3c_r8dhhpsTtZlHmB06xT20gBl0z6yl4de5TDtzdzmM,2025
+passosh/zip.py,sha256=bQ55MmGAAPeFZvGrZqMaxleH7ZBBRjGh7i6klVC7khY,202
+passosh-0.0.2.dist-info/METADATA,sha256=o4yOtST8Xq0e938xTaS2vyudgl-kK1INLesYab1AG6w,2562
+passosh-0.0.2.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+passosh-0.0.2.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+passosh-0.0.2.dist-info/RECORD,,
