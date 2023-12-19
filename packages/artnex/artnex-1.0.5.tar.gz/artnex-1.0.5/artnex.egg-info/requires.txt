@@ -1,0 +1,10 @@
+numpy
+cupy-cuda12x
+cupy-cuda11x
+matplotlib
+requests
+onnx
+onnxruntime
+Pillow
+librosa
+tqdm
