@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slack-qna"
+version = "0.1.1"
+description = "An easy plug-and-use library for developing Slack BOT that serves a Q&A-like use case."
+authors = ["lokwkin <lokwkin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+slack-sdk = "^3.26.0"
+slack-bolt = "^1.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
