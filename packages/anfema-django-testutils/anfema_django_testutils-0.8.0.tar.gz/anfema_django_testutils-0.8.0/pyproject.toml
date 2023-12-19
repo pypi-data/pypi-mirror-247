@@ -1,0 +1,76 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "anfema-django-testutils"
+description = "Testrunner for django which covers html report and code coverage"
+readme = "README.md"
+keywords = [
+    "django",
+    "tests",
+    "coverage",
+    "testrunner",
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.9"
+dynamic = ["version"]
+dependencies = [
+    "django>=3.2",
+    "django-mathfilters",
+    "coverage[toml]",
+    "snapshottest",
+]
+
+[tool.setuptools.package-data]
+anfema_django_testutils = ["templates/**", "static/**"]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx~=5.1",
+    "sphinx-autodoc-typehints",
+    "sphinx_rtd_theme",
+    "sphinx-copybutton",
+    "m2r2",
+]
+tests = [
+    "parametrize",
+]
+
+[project.urls]
+Source = "https://github.com/anfema/anfema-django-testutils"
+Documentation = "https://anfema.github.io/anfema-django-testutils"
+
+[tool.flit.sdist]
+exclude = [
+    "docs/",
+    "tests/",
+    "tox.ini"
+]
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+extend_exclude = ".*/test_settings_.*.py"
+
+[tool.isort]
+line_length = 120
+profile = "black"
+known_django = "django"
+sections = ["FUTURE", "STDLIB", "DJANGO", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+lines_after_imports = 2
+skip_glob = ["**/test_settings_*.py"]
+
+[tool.flakeheaven]
+max_line_length = 120
+exclude = ["**/test_settings_*.py"]

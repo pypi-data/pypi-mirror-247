@@ -1,0 +1,20 @@
+# IDE
+.idea/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Sphinx documentation
+docs/build/
+
+# pyenv
+.python-version
+
+# Byte-compiled
+__pycache__/
+*.py*.py[cod]
+
+# Unit test / coverage reports
+.tox/
+.flakeheaven_cache/
