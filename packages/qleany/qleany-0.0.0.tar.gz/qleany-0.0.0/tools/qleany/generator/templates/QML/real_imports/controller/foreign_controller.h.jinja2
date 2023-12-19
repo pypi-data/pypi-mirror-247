@@ -1,0 +1,103 @@
+// This file was generated automatically by Qleany's generator, edit at your own risk! 
+// If you do, be careful to not overwrite it when you run the generator again.
+#pragma once
+#include "{{ controller.feature_snake_name }}/{{ controller.feature_snake_name }}_controller.h"
+#include <QCoroQml>
+#include <QCoroQmlTask>
+#include <QQmlEngine>
+
+using namespace {{ application_cpp_domain_name }}::Controller::{{ controller.feature_pascal_name }};
+
+class Foreign{{ controller.feature_pascal_name }}Controller
+{
+    Q_OBJECT
+    QML_SINGLETON
+    QML_NAMED_ELEMENT({{ controller.feature_pascal_name }}Controller)
+
+public:
+
+    ForeignCarController(QObject *parent = nullptr) : QObject(parent)
+    {
+        s_controllerInstance = {{ controller.feature_pascal_name }}Controller::instance();
+    }
+
+{% if feature.crud.enabled %}
+    {%if feature.crud.get %}
+    Q_INVOKABLE QCoro::QmlTask get(int id) const
+    {
+        return s_controllerInstance->get(id);
+    }
+    {% endif %}
+
+    {%if feature.crud.get_with_details %}
+    Q_INVOKABLE QCoro::QmlTask getWithDetails(int id) const
+    {
+        return s_controllerInstance->get(id);
+    }
+    {% endif %}
+
+    {%if feature.crud.get_all %}
+    Q_INVOKABLE QCoro::QmlTask getAll() const
+    {
+        return s_controllerInstance->getAll();
+    }
+    {% endif %}
+
+    {%if feature.crud.create %}
+    Q_INVOKABLE CreateCarDTO getCreateDTO()
+    {
+        return s_controllerInstance->getCreateDTO();
+    }
+    {% endif %}
+
+    {%if feature.crud.update %}
+    Q_INVOKABLE UpdateCarDTO getUpdateDTO()
+    {
+        return s_controllerInstance->getUpdateDTO();
+    }
+    {% endif %}
+{% endif %}
+
+    {% for query in feature.custom_queries %}
+    Q_INVOKABLE QCoro::QmlTask {{ query.name }}({% if query.dto_in_enabled %}{{ query.dto_in }}DTO dto{% endif %}) const
+    {
+        return s_controllerInstance->{{ query.name }}({% if query.dto_in_enabled %}dto{% endif %});
+    }
+    {% endfor %}
+
+{% if feature.crud.enabled %}
+    {% if feature.crud.create %}
+
+    Q_INVOKABLE QCoro::QmlTask create(const CreateCarDTO &dto)
+    {
+        return s_controllerInstance->create(dto);
+    }
+    {% endif %}
+
+    {% if feature.crud.update %}
+    Q_INVOKABLE QCoro::QmlTask update(const UpdateCarDTO &dto)
+    {
+        return s_controllerInstance->update(dto);
+    }
+    {% endif %}
+
+    {%if feature.crud.remove %}
+    Q_INVOKABLE QCoro::QmlTask remove(int id)
+    {
+        return s_controllerInstance->remove(id);
+    }
+    {% endif %}
+{% endif %}
+
+    {% for command in feature.custom_commands %}
+    Q_INVOKABLE QCoro::QmlTask {{ command.name }}({% if command.dto_in_enabled %}{{ command.dto_in }}DTO dto{% endif %})
+    {
+        return s_controllerInstance->{{ command.name }}({% if command.dto_in_enabled %}dto{% endif %});
+    }
+    {% endfor %}
+
+
+private:
+
+    {{ controller.feature_pascal_name }}Controller *s_controllerInstance = nullptr;
+};
