@@ -1,0 +1,6 @@
+ipywidgets>=7.7
+ipyreact>=0.3.0
+voila>=0.5.0
+
+[test]
+solara[pytest]
