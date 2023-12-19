@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+BhashaFusion/PhoneticMap.py
+BhashaFusion/__init__.py
+BhashaFusion/iast-token.db
+BhashaFusion.egg-info/PKG-INFO
+BhashaFusion.egg-info/SOURCES.txt
+BhashaFusion.egg-info/dependency_links.txt
+BhashaFusion.egg-info/requires.txt
+BhashaFusion.egg-info/top_level.txt
