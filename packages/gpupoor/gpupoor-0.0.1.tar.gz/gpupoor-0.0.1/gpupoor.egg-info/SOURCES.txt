@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gpupoor/nvidia_smi.py
+gpupoor.egg-info/PKG-INFO
+gpupoor.egg-info/SOURCES.txt
+gpupoor.egg-info/dependency_links.txt
+gpupoor.egg-info/entry_points.txt
+gpupoor.egg-info/top_level.txt
