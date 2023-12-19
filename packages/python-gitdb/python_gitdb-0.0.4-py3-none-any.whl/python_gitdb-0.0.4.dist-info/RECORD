@@ -1,0 +1,13 @@
+gitdb/__init__.py,sha256=v7DUPAdDlHUTVfQLwmVr-cJcbXEa0f-j7YmIvR-uMXQ,47
+gitdb/exceptions.py,sha256=UsFqGu7ynXgNEnt27S-Xi8OID_EsVKIRAtq8YgUJndU,70
+gitdb/gitdb.py,sha256=mrtIwsFfak5whheg8KjyVAR8x8YvQXtrKMmZE3CbAvA,12168
+gitdb/serializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitdb/serializers/baseserializer.py,sha256=BE1Hghn8EHxlfYsh9J2BiF01c_ll_SlegwVbUeor6MI,348
+gitdb/serializers/bjsonserializer.py,sha256=3sFKcgnn0vOFINktoJzwDOhSH88d1T_YE2FGmW4PL3Q,303
+gitdb/serializers/jsonserializer.py,sha256=prZi0PIQV4h7W1mh8_84It-jAu8p8WYnPIvHEITK0rs,298
+gitdb/serializers/msgpackserializer.py,sha256=whS_7H2vLT77E6FG2EpJDNoDI9Ck2rscNpgvxKG-KqQ,275
+gitdb/serializers/yamlserializer.py,sha256=_4ht8lb6bNynkih2Ea6giwC9dckrJFsZ19vFynrWQ4Q,307
+python_gitdb-0.0.4.dist-info/LICENSE.txt,sha256=GFG5lLlI716JpqlcsFXjERN1lppNCG_VlEGNupe9ccg,1071
+python_gitdb-0.0.4.dist-info/METADATA,sha256=xQnjykbA-HRclZm4PyfhojuUMU97FWw05vdvY38UCZs,1703
+python_gitdb-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_gitdb-0.0.4.dist-info/RECORD,,
