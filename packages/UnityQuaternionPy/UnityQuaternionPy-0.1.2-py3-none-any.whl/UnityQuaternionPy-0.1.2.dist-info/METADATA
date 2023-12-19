@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: UnityQuaternionPy
+Version: 0.1.2
+Summary: Immitation of UnityEngine.Quaternion in Python
+Home-page: https://github.com/konbraphat51/UnityQuaternionPy
+Author: konbraphat51
+Author-email: konbraphat51@gmail.com
+License: MIT License
+Keywords: fromscratch,math,quaternion,geometry,rotation,3d,game,Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Unity Quaternion.js
+
+This is full-scratch immitation of UnityEngine.Quaternion
+
+[![codecov](https://codecov.io/gh/konbraphat51/UnityQuaternionPy/graph/badge.svg?token=B1Q2BY9UP6)](https://codecov.io/gh/konbraphat51/UnityQuaternionPy) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/47beb37864094743ad7bd34b55df5716)](https://app.codacy.com/gh/konbraphat51/UnityQuaternionPy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![unit-test](https://github.com/konbraphat51/UnityQuaternionPy/actions/workflows/tester.yml/badge.svg)](https://github.com/konbraphat51/UnityQuaternionPy/actions/workflows/tester.yml)
+
+## How to use
+
+Install by:
+
+```
+pip install UnityQuaternionPy
+```
+
+And use `Quaternion` class. All interfaces are same as [Unity document](https://docs.unity3d.com/2023.3/Documentation/ScriptReference/Quaternion.html)
+
+`Vector3` in Unity is represented by `tuple[float, float, float]`
+
+## Trivials
+
+This is using Left-handed coordinate system.
+
+Euler rotation is ZXY order.
+
+All same as UnityEngine.Quaternion
