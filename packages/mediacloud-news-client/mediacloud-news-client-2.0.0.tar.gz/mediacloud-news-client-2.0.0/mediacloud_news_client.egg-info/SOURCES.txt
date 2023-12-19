@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mcnews/__init__.py
+mcnews/searchapi.py
+mcnews/util.py
+mediacloud_news_client.egg-info/PKG-INFO
+mediacloud_news_client.egg-info/SOURCES.txt
+mediacloud_news_client.egg-info/dependency_links.txt
+mediacloud_news_client.egg-info/requires.txt
+mediacloud_news_client.egg-info/top_level.txt
