@@ -1,0 +1,5 @@
+setup.py
+dzwl.egg-info/PKG-INFO
+dzwl.egg-info/SOURCES.txt
+dzwl.egg-info/dependency_links.txt
+dzwl.egg-info/top_level.txt
