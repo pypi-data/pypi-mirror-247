@@ -1,0 +1,9 @@
+LICENSE
+README.md
+index.py
+pyproject.toml
+addressRec.egg-info/PKG-INFO
+addressRec.egg-info/SOURCES.txt
+addressRec.egg-info/dependency_links.txt
+addressRec.egg-info/requires.txt
+addressRec.egg-info/top_level.txt
