@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: UMNN
+Version: 1.70
+Summary: Unconstrained Monotonic Neural Networks and Autoregressive Monotonic Flows on cpu/cuda/mps.
+Home-page: 
+Author: awehenkel
+Author-email: antoine.wehenkel@gmail.com
+License: MIT License
+
