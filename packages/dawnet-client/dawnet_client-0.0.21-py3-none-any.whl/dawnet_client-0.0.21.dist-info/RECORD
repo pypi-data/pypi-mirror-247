@@ -1,0 +1,15 @@
+dawnet_client/__init__.py,sha256=V1rlEBEXhmLg_qoEFmtED9YpHsstMs7jpwHBxs4F7xQ,449
+dawnet_client/audio_utils.py,sha256=VvbE4XlcG2xOPqz7udqankMdlsztDqmoo__2QJmDDcY,2488
+dawnet_client/config.py,sha256=HX8ImvhwDCZ8UlHyJHjWUFKYhS-ybAsNVAB1xdRcs74,414
+dawnet_client/core.py,sha256=BlV6MgGBxPstZG0h13MT8YmM2h-G-SpG9cF0et5aKbA,19696
+dawnet_client/dn_tracer.py,sha256=dVbchCog2ZbLki20QKdyDzKgFiLUTd9NAcRGHcTtlrw,4256
+dawnet_client/file_uploader.py,sha256=juzBAo1pjNIT3dbZUnhrmm0Ra8UikwDynqQ-oX4Vr5M,1288
+dawnet_client/results_handler.py,sha256=B6YXVR5SXkqwx0py5s79SLZtcli_roueSv4GDS3mbCM,2161
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_audio_utils.py,sha256=Dnt_1D5KHIQe9SUhIM6YTZ3FuiW-oWx8_tNdKZJs6JI,4099
+tests/test_core.py,sha256=jBrvy4y7U6aYtLnE9vKy2JK_isBWpKXdEZ4AA9u5X9Y,6770
+dawnet_client-0.0.21.dist-info/METADATA,sha256=4A3IlGCTAItRfEuWNW0Nj2R6SDbSXuiKTkE4UIrCZe0,4896
+dawnet_client-0.0.21.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dawnet_client-0.0.21.dist-info/entry_points.txt,sha256=fHjMMSr-vC3g2rHwHLU8Xd_hvUYPGWPiqjvEILJaaGE,59
+dawnet_client-0.0.21.dist-info/top_level.txt,sha256=MX3umJNVLqkrrPBetrgA3l6oG1UcSaQFP_SLkeDfDrQ,20
+dawnet_client-0.0.21.dist-info/RECORD,,
