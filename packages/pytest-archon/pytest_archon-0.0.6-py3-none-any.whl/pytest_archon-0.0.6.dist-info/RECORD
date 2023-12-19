@@ -1,0 +1,17 @@
+pytest_archon/__init__.py,sha256=Runh09pjDN8Dk1ZCWra71KX6U4BweIunrquSHiERJ8w,64
+pytest_archon/collect.py,sha256=NSZG0m_0fy8K92f3BioB_NJBLD4694WbVJCE4CznaJw,8307
+pytest_archon/core_modules.py,sha256=JRPS-1X2O8uEYA_PAoWVRYiOIB0UzN2LFNL1oqjAhUg,1061
+pytest_archon/failure.py,sha256=_R76_bpl8OSent6_wBcJScHLkVU75y3EajPsE8Q8kX8,648
+pytest_archon/plugin.py,sha256=UbLI8aF76J3S_k5hAx_2wATlZTtgL4rOxfNcOI-enG8,1507
+pytest_archon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_archon/rule.py,sha256=8KnVT2TQUlXIBk28Ms7VqLcc9ephTwDHArWy0WvwIZc,10049
+pytest_archon/assets/core-module-lists/3.6.txt,sha256=BOuj7PmTcDqztWTE5kXTmOdOCFPhrl8ZZoHS7dkSfOM,34003
+pytest_archon/assets/core-module-lists/3.7.txt,sha256=2CX5VSnCgkvvwcSWy81ydO5hZMKI3wgMh0-ggUAxF0I,35238
+pytest_archon/assets/core-module-lists/3.8.txt,sha256=OouOVHDMrjXCD1Vc7xBQpABUJtZQgz0enDUgHA5DAQw,36209
+pytest_archon/assets/core-module-lists/3.9.txt,sha256=C_bDiMPjeQ9_nQ1Fx2KM4MM5_PfqbFoCT_rTwuMFgj0,16244
+pytest_archon-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_archon-0.0.6.dist-info/METADATA,sha256=ZrsrvZyQ_5I3PujstVxCNh5vzB9YoBAYngFdX05oZXI,6932
+pytest_archon-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_archon-0.0.6.dist-info/entry_points.txt,sha256=0P5j4Sqbi2oNDf7a_kP7GsanhALSyrvMpvJjf0vfkp4,39
+pytest_archon-0.0.6.dist-info/top_level.txt,sha256=EcDPKYuMubweQ-SwLCPiYtiCeGx4QMx0Wq2UkN4db6A,14
+pytest_archon-0.0.6.dist-info/RECORD,,
