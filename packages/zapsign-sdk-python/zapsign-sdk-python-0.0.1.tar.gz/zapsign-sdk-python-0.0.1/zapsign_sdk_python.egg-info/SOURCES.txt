@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+zapsign_sdk_python.egg-info/PKG-INFO
+zapsign_sdk_python.egg-info/SOURCES.txt
+zapsign_sdk_python.egg-info/dependency_links.txt
+zapsign_sdk_python.egg-info/top_level.txt
