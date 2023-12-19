@@ -1,0 +1,5 @@
+[console_scripts]
+copy_dataset_files = profile_data_directory.copy_dataset_files:main
+find-last-directory = profile_data_directory.find_last_directory:main
+find-last-file = profile_data_directory.find_last_file:main
+survey_dataset_directory = profile_data_directory.survey_dataset_directory:main
