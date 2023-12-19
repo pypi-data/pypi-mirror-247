@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mslang
+Version: 1.0
+Summary: it's very hard code
+Home-page: https://github.com/sejin0104/morse_code
+Author: Sejinjin
+Author-email: sejinjin1101@gmail.com
+License: MIT
+Keywords: sejinjin,language,funny
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+GitHub : https://github.com/sejin0104/morse_code
