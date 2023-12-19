@@ -1,0 +1,2 @@
+[console_scripts]
+pgapi = pgapi.cli:cli

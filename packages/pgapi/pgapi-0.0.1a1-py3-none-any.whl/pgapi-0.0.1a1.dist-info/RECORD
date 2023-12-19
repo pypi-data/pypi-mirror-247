@@ -1,0 +1,15 @@
+pgapi/__init__.py,sha256=eyDK-5KOo-ARS3i0JcuxGiJmk5T-58Z1p_bhACbBrGc,201
+pgapi/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+pgapi/cli.py,sha256=JjFTx5kC56lszS5DEdTmHpdM5WPu6YJlNAUWiIdLqSg,89278
+pgapi/db.py,sha256=zLEydNZJ98GE0JEOs1QIiySxhO-4g0JHk-rYfO25Oa4,150838
+pgapi/hookspecs.py,sha256=NFA0BFZ8WUhnI_NRz4oFVDcomQYlguuAgUCBKAN792o,395
+pgapi/plugins.py,sha256=V5nXD4r0o1wSbIHHOAiUBBV66ZOfKVnywKfZzCUqdsA,771
+pgapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgapi/recipes.py,sha256=_npzti0nPV6XxvMj69Ca4QF-pXwZZQp_f_VY3i7pQDs,1687
+pgapi/utils.py,sha256=jvlsGQ5F_Z7-bAiP7gw4hmov_58PrVMvY_5UZ3nXfAg,17136
+pgapi-0.0.1a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pgapi-0.0.1a1.dist-info/METADATA,sha256=cyC_qPmNAl0HPqnGo1M8Stm4Hx5aNZZHzLUs6qWPp4I,4433
+pgapi-0.0.1a1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pgapi-0.0.1a1.dist-info/entry_points.txt,sha256=FZBm-KlP86467EaQFxqu6nVuIbN2nDcJXpGoVthK6Is,40
+pgapi-0.0.1a1.dist-info/top_level.txt,sha256=llCyLagc1DC1NLCVX_Wb4G3id3_J_4EEed1A2qsrqnE,6
+pgapi-0.0.1a1.dist-info/RECORD,,
