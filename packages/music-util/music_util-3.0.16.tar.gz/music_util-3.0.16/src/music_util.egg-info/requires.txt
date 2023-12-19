@@ -1,0 +1,9 @@
+sv-ttk>=2.5.5
+
+[crepe]
+torchcrepe>=0.0.22
+librosa>=0.9.1
+pandas>=2.0.0
+
+[demucs]
+demucs>=4.0.1

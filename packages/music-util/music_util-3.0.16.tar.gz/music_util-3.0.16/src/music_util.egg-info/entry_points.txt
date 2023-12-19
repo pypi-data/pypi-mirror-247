@@ -1,0 +1,2 @@
+[console_scripts]
+musutil = music_util:main

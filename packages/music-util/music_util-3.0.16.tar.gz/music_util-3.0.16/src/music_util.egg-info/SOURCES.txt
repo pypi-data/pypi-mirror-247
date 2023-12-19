@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+src/music_util/__init__.py
+src/music_util/icon.png
+src/music_util/main.py
+src/music_util/pipe.py
+src/music_util/transcr.py
+src/music_util/utils.py
+src/music_util/voc_rem.py
+src/music_util.egg-info/PKG-INFO
+src/music_util.egg-info/SOURCES.txt
+src/music_util.egg-info/dependency_links.txt
+src/music_util.egg-info/entry_points.txt
+src/music_util.egg-info/requires.txt
+src/music_util.egg-info/top_level.txt

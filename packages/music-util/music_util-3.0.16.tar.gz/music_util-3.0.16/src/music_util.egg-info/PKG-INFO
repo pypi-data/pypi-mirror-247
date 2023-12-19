@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: music-util
+Version: 3.0.16
+Summary: Collection of utilities for musicians
+Author-email: Maoserr <maoserr@gmail.com>
+License: MIT
+Project-URL: Bug Reports, https://github.com/maoserr/music-util/issues
+Project-URL: Source, https://github.com/maoserr/music-util
+Keywords: music, utility
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sv-ttk>=2.5.5
+Provides-Extra: demucs
+Requires-Dist: demucs>=4.0.1; extra == "demucs"
+Provides-Extra: crepe
+Requires-Dist: torchcrepe>=0.0.22; extra == "crepe"
+Requires-Dist: librosa>=0.9.1; extra == "crepe"
+Requires-Dist: pandas>=2.0.0; extra == "crepe"
+
+# Musician Utilities
+
+A collection of tools for musicians.
+
+
+## Vocal remover
+
+Splits MP3 file into vocal and background, using demucs as default.
+
+You can also split out guitar, bass, drums, etc if you remove the two-stem argument.
+
+[Demucs](https://github.com/facebookresearch/demucs)
+
+![Voc](https://raw.githubusercontent.com/maoserr/music-util/develop/doc/voc_remover.png?raw=true "Vocals")
+
+## Transcription
+
+Attempts to generate note graph using MP3 file. 
+This only works if there's one note per time, and not on chords.
+
+[Crepe](https://github.com/marl/crepe)
+
+![Tra](https://raw.githubusercontent.com/maoserr/music-util/develop/doc/trans.png?raw=true "Transcription")
