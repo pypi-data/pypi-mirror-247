@@ -1,0 +1,9 @@
+fin-trade-package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fin-trade-package/indicators.py,sha256=nX04v2iN2TVu2TFE0v_xFlF3_za3AMPxhOpk4ADvipc,4295
+fin-trade-package/stats.py,sha256=nnOGpBIHAI_8YqC4oM4tj6pyKQ33flcbbiOO5U9epa8,3598
+fin-trade-package/stock_data.py,sha256=Qb2G1CQ9k0Z4_kEC_MS8myWOtd61jUaLcAaqmABvySE,295
+fin_trade-0.0.1.dist-info/LICENSE,sha256=eWL4ERzsVzgf5e9ZBn2hqvifPIWhcmqaOBqWVWFSRXc,1085
+fin_trade-0.0.1.dist-info/METADATA,sha256=T5OBbMhL7XfgCwJ4jXa7Ff71ZaQ7DoWVv-wnboo7H1M,631
+fin_trade-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fin_trade-0.0.1.dist-info/top_level.txt,sha256=XnyqNYnOibWmtnjYc2xzRw5ZH-TJvSMFuVZFvnGndQ4,18
+fin_trade-0.0.1.dist-info/RECORD,,

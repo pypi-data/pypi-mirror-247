@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fin-trade
+Version: 0.0.1
+Summary: Python-Finance
+Author: Poonam Deshmukh
+Author-email: poonamdeshmukh616@gmail.com
+Keywords: python,finance,algorithmic trading,technical indicators,poonam
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Powerful toolkit for analyzing and visualizing financial time-series data
