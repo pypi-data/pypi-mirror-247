@@ -1,0 +1,8 @@
+psutil
+
+[dev]
+pre-commit
+
+[test]
+pytest
+hypothesis
