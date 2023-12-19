@@ -1,0 +1,14 @@
+license.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pyopensky/__init__.py,sha256=2qM__ZR738Vs22oK_FbkQlfdmKCUhvh7pyGMPGQKNnY,75
+pyopensky/api.py,sha256=27hZ4OW8mid3W1eTANA0VKuDFECaci1Ieg-kk0fgiMM,2383
+pyopensky/config.py,sha256=jkItZYWh7vwW3J_0_kVMkPsY_SA9w1xSg8HZfwG9McI,6548
+pyopensky/impala.py,sha256=oVhLsVU5B-bzEfEQVUs-c8f_-DV2hnpz25SR2dS5h0E,54784
+pyopensky/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopensky/rest.py,sha256=7ZHy3Jvcc7r90OShCg6w5Ch2e7rLZtUghZFSn0Of3sg,14927
+pyopensky/s3.py,sha256=kR39Ysh354g7m0M423CHdY9wYOTy9FPThI4Lgv4w75k,4497
+pyopensky/schema.py,sha256=S1SsBns4cw1sQWyj-SOzqIF3TRPPQxziNjVShcpONvk,15012
+pyopensky/time.py,sha256=NFOIYnV7qjoA855z-EqWJCySqJtac3rAQRPCbZEPcPo,1314
+pyopensky/trino.py,sha256=FnIk6Si7H3oOl2_6wyVqIu717o1bvxXrfStXizI5jY4,30924
+pyopensky-2.2.dist-info/METADATA,sha256=t7HsX5gWmD9sOhjlCwumFcB4KCKnKWfZwjcvELLyXoA,3334
+pyopensky-2.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyopensky-2.2.dist-info/RECORD,,
