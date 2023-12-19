@@ -1,0 +1,3 @@
+[console_scripts]
+nixtract=nixtract.cli:cli
+
