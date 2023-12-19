@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "numpydoc_decorator"
+version = "2.2.0"
+description = ""
+authors = ["Alistair Miles <alimanfoo@googlemail.com>"]
+readme = "README.md"
+packages = [{include = "numpydoc_decorator"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+typing_extensions = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-xdist = "*"
+testfixtures = "*"
+numpy = "*"
+numpydoc = "*"
+mypy = "*"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
