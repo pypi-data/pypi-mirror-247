@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyjeb
+Version: 0.1.7
+Summary: A lightweight library to check and variabilize your configuration files
+Home-page: https://github.com/CSharplie/pyjeb/
+Download-URL: https://pypi.org/project/pyjeb/
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/CSharplie/pyjeb/issues
+Project-URL: CI, https://github.com/CSharplie/pyjeb/actions
+Project-URL: Documentation, https://github.com/CSharplie/pyjeb
+Project-URL: Source Code, https://github.com/CSharplie/pyjeb
+Platform: Any
+Requires-Python: >=3.6
+
+PyJeb is a lightweight library to check and variabilize your configuration files.
+The main features of pyjeb are:
+
+* Control the structure of a configuration file
+* Add default value for missing fields
+* Setup variable values (system or user defined)
+* Allow to add executable functions in configuration
+
+        
