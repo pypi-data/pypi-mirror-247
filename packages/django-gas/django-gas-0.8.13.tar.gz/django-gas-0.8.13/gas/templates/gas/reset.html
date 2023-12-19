@@ -1,0 +1,20 @@
+{% load i18n static form_tags %}<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{{ gas_title }} {% trans "Login" %}</title>
+        {% for cssfile in css %}
+            <link href="{% static cssfile %}" rel="stylesheet" type="text/css" />
+        {% endfor %}
+    </head>
+    <body id="login">
+        <p>{% translate 'Forgotten your password? Enter your email address below, and we’ll email instructions for setting a new one.' %}</p>
+        <form action="." method="POST">{% csrf_token %}
+            {% form_errors form %}
+            {% form_field form.email %}
+            <input type="hidden" name="next" value="{{ next }}">
+            <button type="submit">{% trans "Reset my password" %}</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{% load i18n static form_tags %}<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{{ gas_title }} {% trans "Login" %}</title>
+        {% for cssfile in css %}
+            <link href="{% static cssfile %}" rel="stylesheet" type="text/css" />
+        {% endfor %}
+    </head>
+    <body id="login">
+        <p>{% translate 'Your password was changed.' %}</p>
+    </body>
+</html>

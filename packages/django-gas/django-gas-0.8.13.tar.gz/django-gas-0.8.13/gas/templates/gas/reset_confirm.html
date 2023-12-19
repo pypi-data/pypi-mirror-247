@@ -1,0 +1,26 @@
+{% load i18n static form_tags %}<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{{ gas_title }} {% trans "Login" %}</title>
+        {% for cssfile in css %}
+            <link href="{% static cssfile %}" rel="stylesheet" type="text/css" />
+        {% endfor %}
+    </head>
+    <body id="login">
+        {% if validlink %}
+            <p>{% translate "Please enter your new password twice so we can verify you typed it in correctly." %}</p>
+            <form action="." method="POST">{% csrf_token %}
+                <input class="hidden" autocomplete="username" value="{{ form.user.get_username }}">
+                {% form_errors form %}
+                {% form_field form.new_password1 %}
+                {% form_field form.new_password2 %}
+                <input type="hidden" name="next" value="{{ next }}">
+                <button type="submit">{% trans "Change my password" %}</button>
+            </form>
+        {% else %}
+            <p>{% translate "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset." %}</p>
+        {% endif %}
+    </body>
+</html>
