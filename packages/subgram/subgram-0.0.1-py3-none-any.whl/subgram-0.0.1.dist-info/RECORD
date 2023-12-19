@@ -1,0 +1,8 @@
+subgram/__init__.py,sha256=TbES-pAsG0eEMO8PgYpQ2AVnfuLkqCoC3uH5mqEW_jQ,27
+subgram/client.py,sha256=PYY6aNKB3BF523nVfHdw_sY1kXjabSfUEL4_mS-PVZM,2007
+subgram/constants.py,sha256=6MvEM69FzOzCs_sAgfvUpfoOpNSFX7hzqgQn_GOP718,318
+subgram/schemas.py,sha256=oz46FN6Sa1ZcsJATlqB5642zK5I6SFDA6i6W2RxV1Nw,865
+subgram-0.0.1.dist-info/METADATA,sha256=2TgH7tLI8l3HwBg6AA2iutZJzg3Vk9vqIMNv6XLeGMg,1102
+subgram-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+subgram-0.0.1.dist-info/licenses/LICENSE,sha256=KROqsuYi-nOCV3jLrUFrS0SlZbXzNgNwMBZiVrLDkKg,1064
+subgram-0.0.1.dist-info/RECORD,,
