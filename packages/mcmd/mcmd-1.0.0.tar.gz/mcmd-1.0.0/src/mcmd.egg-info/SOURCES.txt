@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/mcmd.py
+src/mcmd.egg-info/PKG-INFO
+src/mcmd.egg-info/SOURCES.txt
+src/mcmd.egg-info/dependency_links.txt
+src/mcmd.egg-info/requires.txt
+src/mcmd.egg-info/top_level.txt
