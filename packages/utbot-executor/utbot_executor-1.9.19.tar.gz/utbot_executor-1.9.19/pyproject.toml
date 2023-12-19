@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "utbot-executor"
+version = "1.9.19"
+description = ""
+authors = ["Vyacheslav Tamarin <vyacheslav.tamarin@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "utbot_executor"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+utbot-executor = "utbot_executor:utbot_executor"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+log_cli_format = "%(asctime)s [%(levelname)6s] (%(filename)s:%(lineno)s) %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
