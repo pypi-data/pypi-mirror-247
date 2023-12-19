@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+nanozero/__init__.py
+nanozero/alphazero.py
+nanozero/utils.py
+nanozero.egg-info/PKG-INFO
+nanozero.egg-info/SOURCES.txt
+nanozero.egg-info/dependency_links.txt
+nanozero.egg-info/requires.txt
+nanozero.egg-info/top_level.txt

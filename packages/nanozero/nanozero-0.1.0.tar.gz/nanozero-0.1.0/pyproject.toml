@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanozero"
+version = "0.1.0"
+description = "NanoZero: An elegant single-file AlphaZero implementation scaling to thousands of parallel self-plays."
+authors = [
+    { name="Sotetsu KOYAMADA", email="sotetsu.koyamada@gmail.com" },
+]
+readme = "README.md"
+keywords = ["alphazero"]
+dependencies = [
+    "pgx >= 2.0.0",
+    "flax",
+]
+
+[project.urls]
+Home = "https://github.com/sotetsuk/nanozero"
+Documentation = "https://github.com/sotetsuk/nanozero/README.md"
