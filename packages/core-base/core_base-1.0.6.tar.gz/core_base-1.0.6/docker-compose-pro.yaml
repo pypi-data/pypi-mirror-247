@@ -1,0 +1,70 @@
+version: "3"
+
+volumes: # 自定义数据卷，位于宿主机/var/lib/docker/volumes内
+  so_db_vol: # 定义数据卷同步容器内mysql数据
+  so_redis_vol: # 定义数据卷同步redis容器内数据
+  so_media_vol: # 定义数据卷同步sobase media文件夹数据
+  so_uwsgi_log_vol: # 定义数据卷同步sobase uwsgi log文件夹数据
+
+services:
+
+  portainer:
+    image: portainer/portainer
+    container_name: soportainer
+    network_mode: host
+    restart: always # always表容器运行发生错误时一直重启
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+  mysql:
+    image: mysql
+    container_name: mysql
+    network_mode: host
+    environment:
+      - MYSQL_ROOT_PASSWORD=p@ssw0rdWcx # 数据库密码
+      - MYSQL_DATABASE=core_base # 数据库名称
+      - MYSQL_ROOT_USER=root # 数据库用户名
+      - MYSQL_PASSWORD=p@ssw0rdWcx # 用户密码
+    volumes:
+      - so_db_vol:/var/lib/mysql:rw # 挂载数据库数据, 可读可写
+      - /corebase/compose/mysql/conf/my.cnf:/etc/mysql/my.cnf # 挂载配置文件
+      - /corebase/compose/mysql/init:/docker-entrypoint-initdb.d/ # 挂载数据初始化sql脚本
+    restart: always
+
+  redis:
+    image: redis
+    container_name: redis
+    command: redis-server /etc/redis/redis.conf --requirepass tsa7Zaq # 容器启动后启动redis服务器
+    network_mode: host
+    volumes:
+      - so_redis_vol:/data # 通过挂载给redis数据备份
+      - /corebase/compose/redis/redis.conf:/etc/redis/redis.conf # 挂载redis配置文件
+    restart: always # always表容器运行发生错误时一直重启
+
+  sobase:
+    image: sobase_sobase
+    container_name: sobase
+    #privileged: true #设置容器的权限为root
+    network_mode: host
+    volumes:
+      - /opt/teamnas/media/:/netopspro/tsa/media # 以数据卷挂载容器内用户上传媒体文件
+      - /opt/teamnas/logs/:/tmp # 挂载uwsgi日志
+    environment:
+      - DEBUG=False
+      - TZ=Asia/Shanghai
+      - privileged=true
+      - ENV=pro
+    restart: always
+    tty: true
+    stdin_open: true
+
+  nginx:
+    image: nginx
+    container_name: newnginx
+    volumes:
+      - /opt/teamnas/media/:/usr/share/nginx/html/media/ # 挂载用户上传媒体文件
+      - /corebase/compose/nginx/default.conf:/etc/nginx/conf.d/
+    network_mode: host
+    depends_on:
+      - sobase
+    restart: always
