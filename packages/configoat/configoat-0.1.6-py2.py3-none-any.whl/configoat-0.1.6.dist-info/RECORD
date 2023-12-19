@@ -1,0 +1,16 @@
+configoat/__init__.py,sha256=95F_jh39V8e__p76l92ceGzZ7mJ53LSRKsiq43_bla8,265
+configoat/cli.py,sha256=Nj_ihkImW44qqXnSOHxor3jmUWinZY_sXxJkHtOpOU0,2770
+configoat/configoat.py,sha256=zBFLv_TAMQ5PgnTxNINZ6lCHERod36t0wrhRFHpb-vU,8865
+configoat/templates/config.yaml,sha256=QIHsxtSSgPrmfw_iUUEWBPyxyP8jHn0gAeZkUFMhk6s,858
+configoat/templates/main.yaml,sha256=JE8RdY7nN6TEfFlv0JV66Wu6pCuEY0zhj1gf6yQwBAo,1598
+configoat/templates/main_nested.yaml,sha256=xhQFM7m5qcPaMAgFsDz1Kd3NVA79WzE2pxsHS4S_pIk,1926
+configoat/templates/main_nested_script.yaml,sha256=t_HFLF1b3LQXikJSpefmgenhjQC_nOY2T3CwosjA4rU,2230
+configoat/templates/nested.yaml,sha256=xRrwOvmA_Q7NISiY4sOVwFDeSK4rjeoGO6DvWqcJLfM,1008
+configoat/templates/script.py,sha256=CeAVz-jttbJEzhblGi8qiHxTaZq8a8tfUJvlZElmBJw,437
+configoat-0.1.6.dist-info/AUTHORS.rst,sha256=ESl-2X9sdx6T56OkF3cEQSjtmg7BF0aTT1XrtNxC6pk,215
+configoat-0.1.6.dist-info/LICENSE,sha256=zfZSLCnHS9m1v8BmJNWycleRKYSgwIrOwC3ZwNocmwE,1093
+configoat-0.1.6.dist-info/METADATA,sha256=cYwUR0ip4S1Vc29iSsa8nQin0stwwKXXoyNRBjitW5U,15221
+configoat-0.1.6.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+configoat-0.1.6.dist-info/entry_points.txt,sha256=OBJBWcxWGcc6kw0t8Bg-F0CnjwV8tONg6Qs0w_rz-2M,49
+configoat-0.1.6.dist-info/top_level.txt,sha256=roqVHAgdOUbehEp9tErlAUBl5_8v0oKSrkghoXws2QI,10
+configoat-0.1.6.dist-info/RECORD,,
