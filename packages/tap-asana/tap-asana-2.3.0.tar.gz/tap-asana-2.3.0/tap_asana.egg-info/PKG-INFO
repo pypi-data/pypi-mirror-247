@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tap-asana
+Version: 2.3.0
+Summary: Singer.io tap for extracting Asana data
+Home-page: http://github.com/singer-io/tap-asana
+Author: Stitch
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: asana==3.1.0
+Requires-Dist: singer-python==5.13.0
+Provides-Extra: test
+Requires-Dist: pylint; extra == "test"
+Requires-Dist: requests==2.20.0; extra == "test"
+Requires-Dist: nose; extra == "test"
+Provides-Extra: dev
+Requires-Dist: ipdb; extra == "dev"
