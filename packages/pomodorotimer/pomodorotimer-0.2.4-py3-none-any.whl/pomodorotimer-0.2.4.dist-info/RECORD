@@ -1,0 +1,14 @@
+pomodorotimer/__init__.py,sha256=zPnAqcNUbUys5pplaWwhIyC2mSFGkf8BXIbQv7usQM4,270
+pomodorotimer/graph_statistic.py,sha256=VGVO_hHt7fCQ2f5nhRFPWZoO6iuEIpNfr6WSuESPaPY,3921
+pomodorotimer/pomodorotimer.py,sha256=w7ilc99sPJFuUN09dljU2koIToU2esShJguCaG9gSQg,9383
+pomodorotimer/sound.py,sha256=68dhbohTf-ie0sei8a8m4Aatr9JrxSzPqUB2ZAANn8M,1167
+pomodorotimer/statistics_db.py,sha256=SMscvV4QTmjAxwwJ6RYWonl9Gk3Ld_rjkI71CtL_xB0,3543
+pomodorotimer/stats.html,sha256=sUkPd894QsXWKcj5w4TvxcRsyqzqyfjaJuoACafmRzI,399
+pomodorotimer/tic-tic.wav,sha256=0vpsGqZ5YzIBeQMA8M27zEzK3rynP-kvXEcK2lLDh_0,539402
+pomodorotimer-0.2.4.dist-info/AUTHORS,sha256=WGM8v7AkoTBRIfgGljILEjKjSCevuyb4v8npX5Zhtlg,184
+pomodorotimer-0.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pomodorotimer-0.2.4.dist-info/METADATA,sha256=xAxRLkmLCkFJ8uRe04fdA5B98upmpTraKlT7BfWmp_w,5844
+pomodorotimer-0.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pomodorotimer-0.2.4.dist-info/entry_points.txt,sha256=ANlMa-octkf89Vh8dvqBF_eHusSNPFnAbaHjvO_7FrQ,71
+pomodorotimer-0.2.4.dist-info/top_level.txt,sha256=kNMSKAjXlxfbiJzxVxnEJBVqgjZYtS6UBOmE7s4Ia9U,14
+pomodorotimer-0.2.4.dist-info/RECORD,,
