@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ihatepyc/__init__.py
+src/ihatepyc/cli.py
+src/ihatepyc/pycisbad.py
+src/ihatepyc.egg-info/PKG-INFO
+src/ihatepyc.egg-info/SOURCES.txt
+src/ihatepyc.egg-info/dependency_links.txt
+src/ihatepyc.egg-info/entry_points.txt
+src/ihatepyc.egg-info/top_level.txt
