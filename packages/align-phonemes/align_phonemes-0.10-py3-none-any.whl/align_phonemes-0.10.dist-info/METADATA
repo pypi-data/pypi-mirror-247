@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: align-phonemes
+Version: 0.10
+Summary: A short description of your project
+Home-page: https://github.itap.purdue.edu/kumar603/align_phonemes
+Author: Will Stonebridge, Tyler Dierckman, Alex De Bruyn
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: librosa >=0.10.1
+Requires-Dist: soundfile >=0.12.1
+Requires-Dist: docker >=7.0.0
+Requires-Dist: jiwer >=3.0.3
+Requires-Dist: scipy >=1.11.3
+Requires-Dist: numpy >=1.26.1
+Requires-Dist: torch >=2.1.0
+Requires-Dist: transformers >=4.34.1
+
+Alex, add readme
