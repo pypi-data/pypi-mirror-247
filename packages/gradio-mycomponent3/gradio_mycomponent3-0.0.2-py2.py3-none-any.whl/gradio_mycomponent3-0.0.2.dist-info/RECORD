@@ -1,0 +1,10 @@
+gradio_mycomponent3/__init__.py,sha256=6KUBVCOTpEGHaGFDYlfSrN8Is5b16cosR4Q8mM7ganE,68
+gradio_mycomponent3/mycomponent3.py,sha256=JhuQZbn8__nRoEJGAkLis8F_Nd5xleK5sAirjXo7WuA,6553
+gradio_mycomponent3/mycomponent3.pyi,sha256=SW1_1wtFLqgD4VJKYSEYSL_BD41CkkXKHqQkBSJ_TuM,35164
+gradio_mycomponent3/templates/component/index.js,sha256=hcsV_7t4MXcbPIYHZzoWHIsHfOeLSux43lEUL24ljeY,80286
+gradio_mycomponent3/templates/component/style.css,sha256=eKzoOYP5sK1RbGL9DeNq0mm5bqm9hiKCUZFoZaOf65A,14443
+gradio_mycomponent3/templates/example/index.js,sha256=vKgMmbIEBmZxlXWrxChS_uoaen6GfNSP3VK3K94Hzvs,2223
+gradio_mycomponent3/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_mycomponent3-0.0.2.dist-info/METADATA,sha256=yMkNcVXwIOzcakCIzMTtHi1_HYUXHPn9qdv3_QzKhp4,1167
+gradio_mycomponent3-0.0.2.dist-info/WHEEL,sha256=VYAwk8D_V6zmIA2XKK-k7Fem_KAtVk3hugaRru3yjGc,105
+gradio_mycomponent3-0.0.2.dist-info/RECORD,,
