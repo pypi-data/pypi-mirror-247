@@ -1,0 +1,13 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+separability_index/__init__.py
+separability_index/separability_index.py
+separability_index.egg-info/PKG-INFO
+separability_index.egg-info/SOURCES.txt
+separability_index.egg-info/dependency_links.txt
+separability_index.egg-info/requires.txt
+separability_index.egg-info/top_level.txt
