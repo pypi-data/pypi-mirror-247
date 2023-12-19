@@ -1,0 +1,8 @@
+fluxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluxy/fluxy_fastapi.py,sha256=1rZVjErp6rlqWHJoz3YwBgbQFS2aYK61HXs1lmSrmBk,5241
+fluxy/validate.py,sha256=2w2Jq942mAwxL3W-RbSYsPbiaQJor3j1Sl7cDuzdopI,861
+fluxy-0.1.13.dist-info/METADATA,sha256=cF7GZdqypRnWEbEWWnffLiBMDrxygNLQKv5bWycu5Vk,118
+fluxy-0.1.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fluxy-0.1.13.dist-info/entry_points.txt,sha256=uzH9Uo0nv_-Q_IoXJ33eaeaRACCfFin9M4KlRjSOYZw,80
+fluxy-0.1.13.dist-info/top_level.txt,sha256=t49C7vsJV6jV72qNcmTauc-4L2BM8ZELIb1_YbeuV78,6
+fluxy-0.1.13.dist-info/RECORD,,
