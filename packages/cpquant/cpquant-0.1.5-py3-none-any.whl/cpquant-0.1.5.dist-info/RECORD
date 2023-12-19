@@ -1,0 +1,9 @@
+cpquant/__init__.py,sha256=hk0JufxNCZY6MPPLpAfebAYnpOt2te1u8sifhq7ZaGY,109
+cpquant/cpquant.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpquant/data.py,sha256=AXTrkeNraN6o_Dq4JhipQbKArlwEVj_UO6Tn9amzw4k,18763
+cpquant/stats.py,sha256=zPXuz-_bqT3pTgEbUSQ0PktCVEKhRMRopQVb3Wtq3ak,2316
+cpquant/trade.py,sha256=yNruKZxlMVQyR4rEZ8dfoq4iWaSc-fe7qzKeKZ3CeBA,489
+cpquant-0.1.5.dist-info/LICENSE,sha256=HC4DF3hUQ-i86nwwH4RJ6PIWEBdiE9fLthOLgdNFNHk,1070
+cpquant-0.1.5.dist-info/METADATA,sha256=lL2YKL9cuq3A6KOL9R3sLB1Vr8Behh-NihvObCu1l_E,3835
+cpquant-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cpquant-0.1.5.dist-info/RECORD,,
