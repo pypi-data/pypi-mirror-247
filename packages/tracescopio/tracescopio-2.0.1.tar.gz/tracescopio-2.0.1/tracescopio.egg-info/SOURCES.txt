@@ -1,0 +1,13 @@
+README.md
+setup.py
+tracescopio/__init__.py
+tracescopio/scopio.py
+tracescopio.egg-info/PKG-INFO
+tracescopio.egg-info/SOURCES.txt
+tracescopio.egg-info/dependency_links.txt
+tracescopio.egg-info/requires.txt
+tracescopio.egg-info/top_level.txt
+tracescopio/decorators/__init__.py
+tracescopio/decorators/traceme.py
+tracescopio/middleware/__init__.py
+tracescopio/middleware/telemetria.py
