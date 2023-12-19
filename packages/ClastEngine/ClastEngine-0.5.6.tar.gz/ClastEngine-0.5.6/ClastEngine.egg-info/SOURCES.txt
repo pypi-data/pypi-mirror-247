@@ -1,0 +1,12 @@
+LICENSE
+setup.cfg
+setup.py
+ClastEngine/__init__.py
+ClastEngine/main.py
+ClastEngine/test_game.py
+ClastEngine.egg-info/PKG-INFO
+ClastEngine.egg-info/SOURCES.txt
+ClastEngine.egg-info/dependency_links.txt
+ClastEngine.egg-info/not-zip-safe
+ClastEngine.egg-info/requires.txt
+ClastEngine.egg-info/top_level.txt
