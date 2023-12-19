@@ -1,0 +1,2 @@
+[console_scripts]
+roman-converter = roman_converter.app:main

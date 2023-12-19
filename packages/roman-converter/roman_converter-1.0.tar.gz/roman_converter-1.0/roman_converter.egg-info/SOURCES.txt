@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+roman_converter/__init__.py
+roman_converter/app.py
+roman_converter.egg-info/PKG-INFO
+roman_converter.egg-info/SOURCES.txt
+roman_converter.egg-info/dependency_links.txt
+roman_converter.egg-info/entry_points.txt
+roman_converter.egg-info/requires.txt
+roman_converter.egg-info/top_level.txt
+tests/test_converter.py
