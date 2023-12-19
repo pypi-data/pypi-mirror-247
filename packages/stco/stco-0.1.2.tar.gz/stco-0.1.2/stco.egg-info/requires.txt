@@ -1,0 +1,13 @@
+esda
+geopandas
+numba
+numpy
+pandas
+shapely
+tqdm
+
+[dev]
+black
+flake8
+isort
+pre_commit

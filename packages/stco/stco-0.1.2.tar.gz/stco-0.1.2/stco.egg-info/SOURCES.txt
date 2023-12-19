@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+stco/__init__.py
+stco/clustering.py
+stco/overlay.py
+stco.egg-info/PKG-INFO
+stco.egg-info/SOURCES.txt
+stco.egg-info/dependency_links.txt
+stco.egg-info/requires.txt
+stco.egg-info/top_level.txt
+stco/tests/test_clustering.py
+stco/tests/test_overlay.py

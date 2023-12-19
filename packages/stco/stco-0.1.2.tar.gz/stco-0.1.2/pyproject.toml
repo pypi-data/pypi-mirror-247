@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stco"
+version = "0.1.2"
+description = "Algorithms for analyzing the stability of spatial clusters over time"
+readme = "README.md"
+authors = [{ name = "Luke Zaruba", email = "lukeazaruba@gmail.com" }]
+license = { file = "LICENSE" }
+requires-python = '>=3.9'
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering"
+]
+keywords = ["GIS", "geospatial", "spatiotemporal", "spatialdatascience"]
+dependencies = [
+    "esda",
+    "geopandas",
+    "numba",
+    "numpy",
+    "pandas",
+    "shapely",
+    "tqdm"
+]
+
+[project.urls]
+Repository = "https://github.com/lukezaruba/stco"
+Issues = "https://github.com/lukezaruba/stco/issues"
+
+[project.optional-dependencies]
+dev = ["black", "flake8", "isort", "pre_commit"]
