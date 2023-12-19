@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+<record id="picking_category_canvas_out" model="picking_type_category">
+    <field name="name">Canvas Out</field>
+    <field name="code">CVO</field>
+    <field name="direction">internal</field>
+    <field
+                name="default_source_location_type_id"
+                ref="ssi_stock.location_type_main_stock"
+            />
+    <field name="default_destination_location_type_id" ref="location_type_canvas" />
+    <field
+                name="allowed_source_location_type_ids"
+                eval="[(6, 0, [ref('ssi_stock.location_type_main_stock'),ref('ssi_stock.location_type_stock')])]"
+            />
+    <field
+                name="allowed_destination_location_type_ids"
+                eval="[(6, 0, [ref('location_type_canvas')])]"
+            />
+</record>
+
+<record id="picking_category_canvas_in" model="picking_type_category">
+    <field name="name">Canvas In</field>
+    <field name="code">CVI</field>
+    <field name="direction">internal</field>
+    <field name="default_source_location_type_id" ref="location_type_canvas" />
+    <field
+                name="default_destination_location_type_id"
+                ref="ssi_stock.location_type_main_stock"
+            />
+    <field
+                name="allowed_source_location_type_ids"
+                eval="[(6, 0, [ref('location_type_canvas')])]"
+            />
+    <field
+                name="allowed_destination_location_type_ids"
+                eval="[(6, 0, [ref('ssi_stock.location_type_main_stock'),ref('ssi_stock.location_type_stock')])]"
+            />
+</record>
+
+<record id="picking_category_sale_canvas" model="picking_type_category">
+    <field name="name">Sale Canvas</field>
+    <field name="code">SCV</field>
+    <field name="direction">outgoing</field>
+    <field name="default_source_location_type_id" ref="location_type_canvas" />
+    <field
+                name="default_destination_location_type_id"
+                ref="ssi_stock.location_type_customer"
+            />
+    <field
+                name="allowed_source_location_type_ids"
+                eval="[(6, 0, [ref('location_type_canvas')])]"
+            />
+    <field
+                name="allowed_destination_location_type_ids"
+                eval="[(6, 0, [ref('ssi_stock.location_type_customer')])]"
+            />
+</record>
+
+
+</data>
+</odoo>
