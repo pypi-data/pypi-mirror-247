@@ -1,0 +1,15 @@
+automation_fw_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_fw_setup/__main__.py,sha256=1nYxXfTQErXVYHHDQID11t9lHfA2eRpsH541vsRLX2g,2436
+automation_fw_setup/ask_target_platform.py,sha256=bGRYNpc9FQu0EOdAD9q47jZWYZCTA5bAhD-JEK7t4zU,386
+automation_fw_setup/ask_test_framework.py,sha256=yz0M9RyBxaYTyTmI66JJhMBcpyqZknqIFcCUls8EzVc,385
+automation_fw_setup/check_for_updates.py,sha256=X0QHHpSDkilgU4A9NZNvfsis3zm1oUag5EgDMl-bD58,1156
+automation_fw_setup/check_installations.py,sha256=5_B0D5mra5j5xrFA0rLFHYdsXKrHGp52JowOjhg58WE,1442
+automation_fw_setup/clone_repository.py,sha256=GpUjCU_jvQc5JoglCVyN47TK78DPXBaFW4wDJu7VRXs,1339
+automation_fw_setup/create_project_folder.py,sha256=fA2oZF-O_iEjo-gwA_yrhtPxFiHVL5UywtWw8FdBN58,394
+automation_fw_setup/create_virtual_env.py,sha256=E13cNF_DbsDGvSpkJxn6pG_7W3EZLI8pXy0V-6xU7Ag,828
+automation_fw_setup/requirements_install.py,sha256=Pdx9zSf35a0mfzY5gy--EYp3j87kgEeWWC2qrzlc-bk,715
+automation_fw_setup-0.1.7.2.dist-info/METADATA,sha256=SqU2xgeOmUGSYNvLdfeZK76Fl1_FN-coTdKwVw2Yky4,533
+automation_fw_setup-0.1.7.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+automation_fw_setup-0.1.7.2.dist-info/entry_points.txt,sha256=EL4_9_PP7IhHG3n-yya8sLXXtzhFGv472-0yuS9b1hk,75
+automation_fw_setup-0.1.7.2.dist-info/top_level.txt,sha256=rxwIGUdxwYSSt4SrBahtJFAEzgsGLIyJLEMJU-HGk5A,20
+automation_fw_setup-0.1.7.2.dist-info/RECORD,,
