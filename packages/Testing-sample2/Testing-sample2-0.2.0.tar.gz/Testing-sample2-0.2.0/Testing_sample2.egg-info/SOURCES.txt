@@ -1,0 +1,8 @@
+README.md
+setup.py
+Testing_sample2.egg-info/PKG-INFO
+Testing_sample2.egg-info/SOURCES.txt
+Testing_sample2.egg-info/dependency_links.txt
+Testing_sample2.egg-info/requires.txt
+Testing_sample2.egg-info/top_level.txt
+testing/__init__.py
