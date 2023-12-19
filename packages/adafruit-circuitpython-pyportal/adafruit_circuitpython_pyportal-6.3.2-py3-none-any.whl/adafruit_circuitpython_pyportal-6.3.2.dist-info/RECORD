@@ -1,0 +1,9 @@
+adafruit_pyportal/__init__.py,sha256=uwWZdLRJaL6bwflIBcL5YEd-6PPXvKBru-t_1zIUnoc,14547
+adafruit_pyportal/graphics.py,sha256=OqFQxmy9teo3Lw-1LXd7R81fcSE_Et_DSYrkQFPrzZw,2451
+adafruit_pyportal/network.py,sha256=vdsrsbBpKLcZ_0GxYo0bYrIQfqCdglY2khG-L43s4L0,8188
+adafruit_pyportal/peripherals.py,sha256=MEjeCxXYD2XPIA0yAYyAhjA2IPEN945VwXVuMK_bfXA,6067
+adafruit_circuitpython_pyportal-6.3.2.dist-info/LICENSE,sha256=ql5UE2yEDtLjM_ZdQ_7LxsDo__Yuuuzk_ygc0qZnIIg,1115
+adafruit_circuitpython_pyportal-6.3.2.dist-info/METADATA,sha256=CK0bALbe8x1RxOZyTg9MYWGNfPtevWywnMCugXrVmaI,3040
+adafruit_circuitpython_pyportal-6.3.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+adafruit_circuitpython_pyportal-6.3.2.dist-info/top_level.txt,sha256=U9xofrLbNBAqsfVxag6qyH_bEvTfKlfQmH3uCouvI5Y,18
+adafruit_circuitpython_pyportal-6.3.2.dist-info/RECORD,,
