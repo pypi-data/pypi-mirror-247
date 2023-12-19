@@ -1,0 +1,6 @@
+setup.py
+Ebay_scraper_api.egg-info/PKG-INFO
+Ebay_scraper_api.egg-info/SOURCES.txt
+Ebay_scraper_api.egg-info/dependency_links.txt
+Ebay_scraper_api.egg-info/not-zip-safe
+Ebay_scraper_api.egg-info/top_level.txt
