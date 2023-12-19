@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask-session-custom
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.rst
+Requires-Dist: flask (>=2.2)
+Requires-Dist: cachelib
+Requires-Dist: itsdangerous
+Requires-Dist: Werkzeug
+
+UNKNOWN
+
