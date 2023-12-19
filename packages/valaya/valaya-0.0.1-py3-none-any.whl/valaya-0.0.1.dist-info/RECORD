@@ -1,0 +1,10 @@
+valaya/__init__.py,sha256=9gt7gA1OUHuP4wj4Aes3G1iKm0ECt6MFkBqB6-Ea1V0,21
+valaya/config.yaml,sha256=z_j-kLuFJpD29jfWBL_phJSP9oN0LCMLgC0CCgdYRKg,32
+valaya/valaya.py,sha256=Un46nx97eBghUvkFxsW6hOL2iZ34168BKkuc0Y-D33A,12835
+valaya/valaya_cli.py,sha256=9A8Wg0NTTXoNt1qW3Z-MdDEE0_BFn8kmvlSRsGjJzfA,6579
+valaya-0.0.1.dist-info/LICENSE,sha256=X11WEMy0DNJjrPqU2gvaPY0M33phrGaYh-7hENqQfng,1068
+valaya-0.0.1.dist-info/METADATA,sha256=LNvN_IP33dvT7O_xlwnwYw0aGBR5Y6lkFJ625pdGP7Q,8495
+valaya-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+valaya-0.0.1.dist-info/entry_points.txt,sha256=lQ4cOsUURPFzLmd4l2mWhoo9KHCuGOAdkSjxxgWVfs4,50
+valaya-0.0.1.dist-info/top_level.txt,sha256=AQPD96ZQ_DV-k6CE-Tu3uVChyhgg4QRgipgH0HAjEIw,7
+valaya-0.0.1.dist-info/RECORD,,
