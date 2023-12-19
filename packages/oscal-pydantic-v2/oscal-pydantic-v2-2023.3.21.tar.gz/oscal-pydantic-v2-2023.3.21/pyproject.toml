@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oscal-pydantic-v2"
+version = "2023.3.21"
+description = "A set of Pydantic models generated from the OSCAL specification."
+readme = "README.md"
+authors = [
+    { name = "Robert Sherwood", email = "robert.sherwood@credentive.com" },
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "annotated-types",
+    "dnspython>=2.3",
+    "email-validator>=2",
+    "idna>=3.4",
+    "pydantic>=2",
+    "pydantic_core>=2",
+    "typing_extensions",
+]
+keywords = ["oscal", "OSCAL", "pydantic"]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/RS-Credentive/oscal-pydantic"
+
+[tool.bumpver]
+current_version = "2023.3.21"
+version_pattern = "YYYY.MM.DD"
+commit_message = "Bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/oscal_pydantic/__init__.py" = ["{version}"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.pytest.ini_options]
+    pythonpath = "src"
