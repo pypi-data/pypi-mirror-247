@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: py-oculus-touch
+Version: 0.0.2
+Summary: An API to interface with your Oculus Touch controllers.
+Home-page: https://github.com/eliasbenb/py_oculus_touch
+Author: Elias Benbourenane
+Author-email: eliasbenbourenane@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py_oculus_touch
+
+## What is it?
+
+This is a python library that allows you to interface with your Oculus Touch controllers and headset. It is a wrapper for the [auto_oculus_touch](https://github.com/rajetic/auto_oculus_touch/) project.
+
+With it, you can read the current state of the controllers and headset, send button presses to the controller, or move the thumbsticks.
+
+### Installation
+
+```bash
+pip install py_oculus_touch
+```
+
+### API Reference (Under Construction)
+
+### Example Usage
+
+Below is a short program that will vibrate both controllers for 1 second whenever the X button is pressed while the headset is being worn.
+
+```python
+from py_oculus_touch import OculusTouch, OculusTouchButtonEnum
+
+# Initialize the OculusTouch object
+oculus = OculusTouch()
+
+while True:
+    isWearing = oculus.Wearing()
+    isXButtonDown = oculus.IsDown(OculusTouchButtonEnum.X)
+
+    if isWearing and isXButtonDown:
+        oculus.Vibrate(0, 1, 128, 1)
+        oculus.Vibrate(1, 1, 128, 1)
+
+    oculus.PollAndSleep()
+```
