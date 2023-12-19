@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+iscontain/__init__.py
+iscontain/iscontain.py
+iscontain.egg-info/PKG-INFO
+iscontain.egg-info/SOURCES.txt
+iscontain.egg-info/dependency_links.txt
+iscontain.egg-info/top_level.txt
