@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pynetcat
+Version: 0.0.4
+Summary: A python based netcat utility with shell emulation for windows
+Project-URL: Homepage, https://github.com/rai68/pynetcat
+Project-URL: Issues, https://github.com/rai68/pynetcat/issues
+Author-email: rai68 <1234561567b@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+
+# Python based netcat utility
+
+A really simple tool for CTFs, just import and run with no fuss.
+
+## Install
+`pip install --upgrade pynetcat`
+
+## Examples
+### Import as module
+```
+from pynetcat import pynetcat
+nc = pynetcat()
+host = 'example.host'
+port = 9999
+nc.connect(host,port)
+print(nc.receive(8192).decode())
+nc.sendLine(b"Message Here")
+```
+### Run as netcat CLI tool for windows
+`python -m pynetcat`
