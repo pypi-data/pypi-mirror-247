@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fastui-chat
+Version: 0.0.1
+Summary: Minimalistic chatbot ui using fastapi, fastui and langchain.
+Author-email: Shroominic <contact@shroominic.com>
+License-Expression: MIT
+Requires-Python: >=3.11
+Requires-Dist: fastui[fastapi]
+Requires-Dist: langchain[openai]>=0.0.350
+Requires-Dist: uvicorn>=0.24.0.post1
+Description-Content-Type: text/markdown
+
+# fastui-chat
+
+A minimalistic ChatBot Interface in pure python.
+
+## How to use
+
+```bash
+> git clone https://github.com/shroominic/fastui-chat.git && cd fastui-chat
+
+> ./dev-install.sh
+
+> startapp
+```
+
+## TODO
+
+- [ ] Stream AI Message
+
+- [ ] Add model selection
+
+- [ ] Store previous chats
+
+- [ ] Use scrollview for chat
+
+- [ ] ... add more todos

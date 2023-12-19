@@ -1,0 +1,2 @@
+[console_scripts]
+startapp = fastui_chat.app:start

@@ -1,0 +1,9 @@
+fastui_chat/__init__.py,sha256=GQccYHyFr-oFr4TmaAS1ThUblDTm6tW6qxzCsQ-zl68,79
+fastui_chat/app.py,sha256=6tD1zI4LY2J4_EChVDvk7w-NF1k7l2c5x1VODfiOOcs,600
+fastui_chat/chat.py,sha256=GusRewAlHZ6HWP1lC9jJqssRXhkWBouS9skAmJIN-7U,2844
+fastui_chat/components.py,sha256=Zc_SG_kvMj3lhkjhyjSiglrhBiGNYUjPeiWhGdcs7ao,1711
+fastui_chat/session.py,sha256=ciHIuJHKAetgqD2OK__C7x7OIf-_gj_Bj4RKGy9NJdo,2095
+fastui_chat-0.0.1.dist-info/METADATA,sha256=fSGVV7tBNhonK7eKr95GXp4_fq62WGHFFj8T8FC9Ihk,720
+fastui_chat-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+fastui_chat-0.0.1.dist-info/entry_points.txt,sha256=1sLm5Hx67tVawlovGR1fvttVAgwLOUQJO6Yh2pkHFmo,51
+fastui_chat-0.0.1.dist-info/RECORD,,
