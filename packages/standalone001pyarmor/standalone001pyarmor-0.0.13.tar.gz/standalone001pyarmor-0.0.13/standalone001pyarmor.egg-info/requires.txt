@@ -1,0 +1,9 @@
+altgraph==0.17.4
+importlib-metadata==7.0.0
+macholib==1.16.3
+packaging==23.2
+pyarmor==7.7.4
+pyinstaller==6.3.0
+pyinstaller-hooks-contrib==2023.10
+standalone001pyarmor==0.0.12
+zipp==3.17.0
