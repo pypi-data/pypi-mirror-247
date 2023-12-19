@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: mkdocs-asciinema-player
+Version: 0.4.1
+Summary: A Mkdocs Plugin to include asciinema player in your documentation.
+Project-URL: Homepage, https://github.com/pa-decarvalho/mkdocs-asciinema-player
+Project-URL: Bug Reports, https://github.com/pa-decarvalho/mkdocs-asciinema-player/issues
+Project-URL: Source, https://github.com/pa-decarvalho/mkdocs-asciinema-player
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mkdocs >=1.5.3
+Provides-Extra: dev
+Requires-Dist: asciinema ==2.4.0 ; extra == 'dev'
+Requires-Dist: commitizen ==3.13.0 ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: bandit ==1.7.5 ; extra == 'lint'
+Requires-Dist: djlint ==1.34.0 ; extra == 'lint'
+Requires-Dist: flake8 ==6.0.0 ; extra == 'lint'
+Requires-Dist: mypy ==1.7.1 ; extra == 'lint'
+Requires-Dist: pylint ==3.0.2 ; extra == 'lint'
+Requires-Dist: yamllint ==1.32.0 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ==7.4.0 ; extra == 'test'
+
+# mkdocs-asciinema-player
+
+[![documentation](https://img.shields.io/badge/docs-mkdocs--asciinema--player-blue.svg?style=flat)](https://pa-decarvalho.github.io/mkdocs-asciinema-player/)
+[![test](https://github.com/pa-decarvalho/mkdocs-asciinema-player/workflows/test/badge.svg)](https://github.com/pa-decarvalho/mkdocs-asciinema-player/actions)
+[![pypi](https://img.shields.io/pypi/v/mkdocs-asciinema-player.svg)](https://pypi.org/project/mkdocs-asciinema-player/)
+[![downloads](https://img.shields.io/pypi/dm/mkdocs-asciinema-player.svg)](https://pypi.org/project/mkdocs-asciinema-player/)
+
+A Mkdocs Plugin to include asciinema player in your documentation.
+
+## Quick Setup
+
+### Installation
+
+Install the plugin via pip :
+
+```sh
+pip install mkdocs-asciinema-player
+```
+
+### Configure
+
+In your `mkdocs.yml`, add `asciinema-player` to the `plugins` section :
+
+```yaml
+plugins:
+  - search
+  - asciinema-player
+```
+
+### Usage
+
+In your MkDocs docs folder, add any [asciinema](https://asciinema.org/) `.cast` file and add this to any markdown page :
+
+````markdown
+```asciinema-player
+{
+    "cast_file_path": "assets/asciinema/bootstrap.cast"
+}
+```
+````
+
+### More
+
+For more information on the plugin, you can visit the the following [website](https://pa-decarvalho.github.io/mkdocs-asciinema-player/)
+
+You will find the complete documentation of the plugin, examples of use, installation and configuration instructions.
