@@ -1,0 +1,2 @@
+[console_scripts]
+bedhost = bedhost.__main__:main
