@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: syntheseus-megan
+Version: 0.1.0
+Summary: Fork of MEGAN for use in the syntheseus library
+Project-URL: Repository, https://github.com/kmaziarz/megan
+License-File: LICENSE
+Requires-Dist: gin-config==0.3.0
+Requires-Dist: gitpython
+Requires-Dist: tensorflow==2.13.0
+Requires-Dist: torchtext
+Requires-Dist: scipy

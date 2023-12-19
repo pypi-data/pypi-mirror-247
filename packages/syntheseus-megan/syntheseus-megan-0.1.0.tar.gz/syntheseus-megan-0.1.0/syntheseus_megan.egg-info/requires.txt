@@ -1,0 +1,5 @@
+gin-config==0.3.0
+gitpython
+tensorflow==2.13.0
+torchtext
+scipy
