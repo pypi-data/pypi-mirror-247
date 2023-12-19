@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: passosh
+Version: 0.0.1
+Summary: Generate passes (.pkpass) files for Apple Wallet
+Project-URL: Homepage, https://github.com/bersegosx/passosh
+Project-URL: Issues, https://github.com/bersegosx/passosh/issues
+Author-email: bersegosx <bersegosx@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: cryptography==41.0.7
+Provides-Extra: dev
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Passosh
+Generate passes (.pkpass) files for Apple Wallet
