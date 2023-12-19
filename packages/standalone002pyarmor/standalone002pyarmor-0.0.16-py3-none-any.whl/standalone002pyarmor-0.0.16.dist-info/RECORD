@@ -1,0 +1,10 @@
+my_package/__init__.py,sha256=rVgXlXxhUc6_kHLG4nzr03a5SypEQLBJpSp7s-_wEdM,5
+my_package/exfn001add.py,sha256=oHx6--x1aXjVUBM0Z10Vf9Dlqdj3NNVX6384eqVKKoI,102
+my_package/exfn001add_release.py,sha256=xQi9Fg5m_exqI7jt_1KOgSYHCw1UlErXlF2Ozlf-dOs,15325
+my_package/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+my_package/pytransform/_pytransform.dylib,sha256=Gq3W3z1jarmNdC5bqfykhikfBEUDJesrx1COTKXB7Tc,1499392
+standalone002pyarmor-0.0.16.dist-info/LICENSE,sha256=y_rM7-tvYpvpPAPDNoEODXrYPz0DsrQt82JqyWeW2es,1069
+standalone002pyarmor-0.0.16.dist-info/METADATA,sha256=5HzzBHGdknfT57BXLnmiJQVW4Mi5UKwh6nq-nUSWX6s,591
+standalone002pyarmor-0.0.16.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+standalone002pyarmor-0.0.16.dist-info/top_level.txt,sha256=4OyEe7aVmevjXrMpt_mY6srrUUjZGHyUPvlu5sUpLn4,11
+standalone002pyarmor-0.0.16.dist-info/RECORD,,
