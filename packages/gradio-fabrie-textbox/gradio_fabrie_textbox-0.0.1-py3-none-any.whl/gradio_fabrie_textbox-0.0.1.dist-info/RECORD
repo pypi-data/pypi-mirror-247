@@ -1,0 +1,10 @@
+gradio_fabrie_textbox/__init__.py,sha256=nRhPvxbVB950sv4n0OIF08Obd9JVRsaT04YwiCYdiuY,74
+gradio_fabrie_textbox/fabrie_textbox.py,sha256=aSa6bxLkhgwrDF3k86Dr3tK4ZMPc45fVSlsIAuqnpLk,6555
+gradio_fabrie_textbox/fabrie_textbox.pyi,sha256=DNtG1NQWd4wQXLlTBXRhvSrS5DxHLxOUqpzLsbPjEt8,35166
+gradio_fabrie_textbox/templates/component/index.js,sha256=2VqQXG_S6mBVIqX84nE_4tJ1M_G0TBkD4js7WYWHz2E,80260
+gradio_fabrie_textbox/templates/component/style.css,sha256=eKzoOYP5sK1RbGL9DeNq0mm5bqm9hiKCUZFoZaOf65A,14443
+gradio_fabrie_textbox/templates/example/index.js,sha256=vKgMmbIEBmZxlXWrxChS_uoaen6GfNSP3VK3K94Hzvs,2223
+gradio_fabrie_textbox/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_fabrie_textbox-0.0.1.dist-info/METADATA,sha256=4CzAPjeJXPxvatmFCy5tjWTi0eqN6tETqD-r8--1i7M,1233
+gradio_fabrie_textbox-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+gradio_fabrie_textbox-0.0.1.dist-info/RECORD,,
