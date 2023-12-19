@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py_oculus_touch
+Version: 0.0.1
+Summary: An API to interface with your Oculus Touch controllers.
+Home-page: https://github.com/eliasbenb/py_oculus_touch
+Author: Elias Benbourenane
+Author-email: eliasbenbourenane@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py_oculus_touch
