@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: syntheseus-PySMILESutils
+Version: 1.1.0
+Summary: Fork of PySMILESutils for use in the syntheseus library
+Home-page: https://github.com/kmaziarz/pysmilesutils
+License: Apache 2.0
+License-File: LICENSE
