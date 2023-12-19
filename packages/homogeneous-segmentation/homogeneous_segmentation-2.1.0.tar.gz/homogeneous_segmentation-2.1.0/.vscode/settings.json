@@ -1,0 +1,21 @@
+{
+    "editor.rulers": [
+        120
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "analyzing",
+        "dropna",
+        "Peng",
+        "Qindong",
+        "Yongze"
+    ]
+}
