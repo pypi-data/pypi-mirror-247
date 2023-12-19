@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: botnoi_dev_platform
+Version: 0.0.1
+Summary: A programatical alternative to the visual chatbot builder provided by https://botnoi.ai . It can be used to build and train chatbots for various platforms such as Facebook Messenger and LINE.
+Author: Jira Pit @ BOTNOI GROUP
+Author-email: <jira.p@botnoigroup.com>
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+Botnoi Dev Platform is a programatical alternative to the visual chatbot builder provided by https://botnoi.ai . It can be used to build and train chatbots for various platforms such as Facebook Messenger and LINE.
+
+This official library provides a Python implementation of Botnoi Dev Platform's API in order to simplify the process of building chatbots. It also provides various data types related to chatbots such as 'Intent', 'ImageObject', 'DialogueObject' and lots of helper functions to work with them.
+
+This suits best for developers who want to build chatbots programmatically or to automate the process of chatbot training when an action is performed by the users.
