@@ -1,0 +1,9 @@
+README.md
+setup.py
+UnityQuaternion/Quaternion.py
+UnityQuaternion/__init__.py
+UnityQuaternionPy.egg-info/PKG-INFO
+UnityQuaternionPy.egg-info/SOURCES.txt
+UnityQuaternionPy.egg-info/dependency_links.txt
+UnityQuaternionPy.egg-info/not-zip-safe
+UnityQuaternionPy.egg-info/top_level.txt
