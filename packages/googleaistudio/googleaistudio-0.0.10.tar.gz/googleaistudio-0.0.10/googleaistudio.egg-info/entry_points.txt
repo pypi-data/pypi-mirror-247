@@ -1,0 +1,3 @@
+[console_scripts]
+geminipro = googleaistudio.geminipro:main
+palm2 = googleaistudio.palm2:main
