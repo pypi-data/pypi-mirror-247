@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "python-gitdb"
+version = "0.0.4"
+description = "Simple Python module to use git as key-value database."
+authors = ["Ansgar Kellner <keans@gmx.de>"]
+license = "MIT"
+readme = "README.rst"
+packages = [
+    {include = "gitdb"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygit2 = "^1.13.3"
+
+
+[tool.poetry.group.yaml.dependencies]
+pyyaml = "^6.0.1"
+
+
+[tool.poetry.group.msgpack.dependencies]
+msgpack = "^1.0.7"
+
+
+[tool.poetry.group.bjson.dependencies]
+bjson = "^0.2.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
