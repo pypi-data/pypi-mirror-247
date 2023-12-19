@@ -1,0 +1,8 @@
+app_store_scrapr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app_store_scrapr/reviews.py,sha256=nQapXZFqzlHW-v12Hy2duwiSgJU0XXg_rIEhtrHf8K4,2138
+app_store_scrapr/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app_store_scrapr/utils/requests.py,sha256=yEvzSJQ2UajluAE6Bl2FxM8TcOzuyYYpqAEAXK5gp2Q,250
+app_store_scrapr-0.1.0.dist-info/LICENSE,sha256=uunjAJIYcddhMbPDQh1EVNtA6AkRGHdYRTk6LAB6eP0,1073
+app_store_scrapr-0.1.0.dist-info/METADATA,sha256=XuRZF1QuQjv3OJ3Pjth2oQ0-IWAIOnKYyKLBT5D470w,2603
+app_store_scrapr-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+app_store_scrapr-0.1.0.dist-info/RECORD,,
