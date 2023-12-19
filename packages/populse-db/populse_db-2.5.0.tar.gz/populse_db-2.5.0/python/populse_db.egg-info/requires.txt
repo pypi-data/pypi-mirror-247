@@ -1,0 +1,9 @@
+python-dateutil
+lark
+
+[doc]
+sphinx>=1.0
+psycopg2-binary
+
+[postgres]
+psycopg2-binary
