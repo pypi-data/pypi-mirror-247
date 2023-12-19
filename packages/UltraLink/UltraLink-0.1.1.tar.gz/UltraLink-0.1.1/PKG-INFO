@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: UltraLink
+Version: 0.1.1
+Summary: A container for my python modules.
+Author: Noah Wilhoite
+Author-email: notnoah349@gmail.com
+Description-Content-Type: text/markdown
+
+
+This is a container for my python modules.
+It's whole purpose is to allow me to access my own modules from anywhere without having to make a whole now package on PyPi.
