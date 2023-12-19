@@ -1,0 +1,14 @@
+promoter_calculator/__init__.py,sha256=QqHxjQc7DzrbvEWfQcltK5Gcwj0aFutZ7voNkeFWln8,75
+promoter_calculator/cli.py,sha256=HArH4DPnWIVCaA5BiGXEMP9eUUeTOmQ_BMb69qyXglM,3310
+promoter_calculator/free_energy_coeffs.npy,sha256=_d8Ws4vyl5lIHopFiQtmkRHhbPLjRI6Z0ZNNGajwuOk,2872
+promoter_calculator/model_intercept.npy,sha256=98ZqjYONpxprKrF5Ns1v8lZORGr4wGdvupXeIRbpmns,136
+promoter_calculator/original.py,sha256=iF9o9y6bWKh1LQC5KilNcEuS7Lk_7-ei0ZC75NAkFz4,17228
+promoter_calculator/promoter_calculator.py,sha256=SLDnlfEUHoJq_oa-ILK2BPfQza8b86_fS2BBxWabogQ,23695
+promoter_calculator/util.py,sha256=qQTs7YrsCf0bvVo3sbLlIt7_czQ9tE_DMGhYorzdhqk,8380
+promoter_calculator/wrapper.py,sha256=AM-SBd7nwBBIFqZnp3hrVTKjBzXMKLOXjK7Qz5oWlbw,10173
+promotercalculator-1.2.2.dist-info/LICENSE,sha256=RdJfNP6CbSfTRBdb1iLL89Ncv1O9mT0TUNRO5wZXH_0,724
+promotercalculator-1.2.2.dist-info/METADATA,sha256=fTdAlp-idnAqtqNWWtyohR0jKIjZG6fGBoOhmtEZ6rw,679
+promotercalculator-1.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+promotercalculator-1.2.2.dist-info/entry_points.txt,sha256=b-XB3hcc6Ea_YuDNcCo1fg2R7B9BYDb_MJufhAWgTME,69
+promotercalculator-1.2.2.dist-info/top_level.txt,sha256=TAXvNhomJ-IjE2591zYzXREptb6wt_EVfUQSu2bgFj0,20
+promotercalculator-1.2.2.dist-info/RECORD,,
