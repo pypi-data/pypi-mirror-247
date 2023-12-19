@@ -1,0 +1,4 @@
+colorama
+gitpython
+inquirer
+requests
