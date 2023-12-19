@@ -1,0 +1,8 @@
+requests>=2.25.1
+googlesearch
+fake_useragent>=1.4.0
+beautifulsoup4
+textblob
+googletrans
+nltk
+matplotlib

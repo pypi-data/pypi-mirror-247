@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+package-web-Analyze/__init__.py
+package-web-Analyze/data.py
+package-web-Analyze/function.py
+package_web_Analyze.egg-info/PKG-INFO
+package_web_Analyze.egg-info/SOURCES.txt
+package_web_Analyze.egg-info/dependency_links.txt
+package_web_Analyze.egg-info/requires.txt
+package_web_Analyze.egg-info/top_level.txt

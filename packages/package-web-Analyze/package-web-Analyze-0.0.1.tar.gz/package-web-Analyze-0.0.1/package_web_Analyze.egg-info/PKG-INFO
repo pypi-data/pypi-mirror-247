@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: package-web-Analyze
+Version: 0.0.1
+Summary: Analyze_web_source.
+Home-page: https://github.com/MaixRock/WebAnalyze/tree/master
+Author: maixrock
+Author-email: maixrock3@gmail.com
+Project-URL: GitHub, https://github.com/MaixRock/WebAnalyze/tree/master
+Keywords: Web Analyze
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: googlesearch
+Requires-Dist: fake_useragent>=1.4.0
+Requires-Dist: beautifulsoup4
+Requires-Dist: textblob
+Requires-Dist: googletrans
+Requires-Dist: nltk
+Requires-Dist: matplotlib
+
+## License
+
+MIT
+
+**Free Software, webAnalyze!**
