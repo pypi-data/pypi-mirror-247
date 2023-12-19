@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/ireiat/__init__.py
+src/ireiat/config.py
+src/ireiat/run.py
+src/ireiat.egg-info/PKG-INFO
+src/ireiat.egg-info/SOURCES.txt
+src/ireiat.egg-info/dependency_links.txt
+src/ireiat.egg-info/entry_points.txt
+src/ireiat.egg-info/requires.txt
+src/ireiat.egg-info/top_level.txt
+src/ireiat/util/__init__.py
+src/ireiat/util/http.py
+src/ireiat/util/logging_.py
+tests/test_main.py
