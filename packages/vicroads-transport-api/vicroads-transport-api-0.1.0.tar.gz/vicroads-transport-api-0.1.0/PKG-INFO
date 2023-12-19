@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vicroads-transport-api
+Version: 0.1.0
+Summary: 
+Author: saikumarmk
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.9.1,<4.0.0)
+Requires-Dist: gtfs-realtime-bindings (>=1.0.0,<2.0.0)
+Requires-Dist: protobuf (>=4.25.1,<5.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
