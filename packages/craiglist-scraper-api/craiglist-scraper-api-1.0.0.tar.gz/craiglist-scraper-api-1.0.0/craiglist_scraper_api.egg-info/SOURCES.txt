@@ -1,0 +1,6 @@
+setup.py
+craiglist_scraper_api.egg-info/PKG-INFO
+craiglist_scraper_api.egg-info/SOURCES.txt
+craiglist_scraper_api.egg-info/dependency_links.txt
+craiglist_scraper_api.egg-info/not-zip-safe
+craiglist_scraper_api.egg-info/top_level.txt
