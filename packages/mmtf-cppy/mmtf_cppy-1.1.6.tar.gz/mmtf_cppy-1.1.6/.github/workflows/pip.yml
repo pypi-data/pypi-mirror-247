@@ -1,0 +1,39 @@
+---
+name: Pip
+'on':
+  workflow_dispatch: null
+  pull_request: null
+  push:
+    branches:
+      - master
+concurrency:
+  group: '${{ github.workflow }}-${{ github.ref }}'
+  cancel-in-progress: true
+jobs:
+  build:
+    name: Build with Pip
+    runs-on: '${{ matrix.platform }}'
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - windows-latest
+          - macos-latest
+          - ubuntu-latest
+        python-version:
+          - '3.8'
+          - '3.11'
+          - '3.12'
+          - pypy-3.8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '${{ matrix.python-version }}'
+      - name: Build and install
+        run: pip install --verbose .
+      - name: Test
+        run: python src/python/tests/tests.py

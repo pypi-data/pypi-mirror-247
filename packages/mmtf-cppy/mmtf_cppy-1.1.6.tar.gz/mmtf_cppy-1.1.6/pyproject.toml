@@ -1,0 +1,91 @@
+[project]
+name = "mmtf_cppy"
+description="Toolkit for handling MMTF formatted macromolecular data"
+readme = "README.md"
+url = "https://github.com/rcsb/mmtf-cpp"
+authors = [
+  { name = "Danny Farrell", email = "16297104+danpf@users.noreply.github.com" },
+]
+
+requires-python = ">=3.8"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+  "numpy",
+  "msgpack"
+]
+dynamic = ["version"]
+
+[build-system]
+requires = ["scikit-build-core>=0.3.3", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+wheel.expand-macos-universal-tags = true
+cmake.minimum-version = "3.15"
+cmake.build-type = "Release"
+# cmake.build-type = "Debug"
+cmake.source-dir = "."
+wheel.packages = ["src/python/mmtf_cppy"]
+# Uncomment during development
+build-dir = "build/{wheel_tag}"
+metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
+sdist.include = ["src/python/mmtf_cppy/_version.py"]
+
+[tool.scikit-build.cmake.define]
+build_py = "ON"
+MSGPACK_USE_BOOST = "OFF"
+
+[tool.setuptools_scm]
+write_to = "src/python/mmtf_cppy/_version.py"
+
+[tool.cibuildwheel]
+test-command = "python {project}/src/python/tests/tests.py"
+test-skip = ["*universal2:arm64"]
+skip = "*-win32 pp*win* *musllinux*"
+build-verbosity = 1
+
+
+[tool.ruff]
+src = ["src/python"]
+
+[tool.ruff.lint]
+extend-select = [
+  "B",      # flake8-bugbear
+  "I",      # isort
+  "ARG",    # flake8-unused-arguments
+  "C4",     # flake8-comprehensions
+  "EM",     # flake8-errmsg
+  "ICN",    # flake8-import-conventions
+  "G",      # flake8-logging-format
+  "PGH",    # pygrep-hooks
+  "PIE",    # flake8-pie
+  "PL",     # pylint
+  "PTH",    # flake8-use-pathlib
+  "RET",    # flake8-return
+  "RUF",    # Ruff-specific
+  "SIM",    # flake8-simplify
+  "T20",    # flake8-print
+  "UP",     # pyupgrade
+  "YTT",    # flake8-2020
+  "EXE",    # flake8-executable
+  "NPY",    # NumPy specific rules
+  "PD",     # pandas-vet
+]
+ignore = [
+  "PLR",    # Design related pylint codes
+  "PT",     # flake8-pytest-style
+]
+isort.required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.per-file-ignores]
+"src/python/tests/**" = ["T20"]
+

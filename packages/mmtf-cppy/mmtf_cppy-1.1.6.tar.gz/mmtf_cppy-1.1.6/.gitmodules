@@ -1,0 +1,3 @@
+[submodule "submodules/mmtf_spec"]
+	path = submodules/mmtf_spec
+	url = https://github.com/rcsb/mmtf.git

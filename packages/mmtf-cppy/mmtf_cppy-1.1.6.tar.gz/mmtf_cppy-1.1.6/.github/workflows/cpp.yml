@@ -1,0 +1,62 @@
+---
+name: cpp
+'on':
+  workflow_dispatch: null
+  pull_request: null
+  push:
+    branches:
+      - master
+concurrency:
+  group: '${{ github.workflow }}-${{ github.ref }}'
+  cancel-in-progress: true
+jobs:
+  build:
+    name: Build and test cpp
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            cc: gcc
+            cxx: g++
+          - os: ubuntu-22.04
+            cc: gcc
+            cxx: g++
+            env_list: EMSCRIPTEN=ON
+          - os: ubuntu-22.04
+            cc: clang
+            cxx: clang++
+          - os: ubuntu-22.04
+            cc: gcc
+            cxx: g++
+            cmake_args: "-DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS='-march=native'"
+          - os: macos-latest
+            cc: clang
+            cxx: clang++
+          - os: windows-latest
+            cc: ''
+            cxx: ''
+    runs-on: '${{ matrix.os }}'
+    env:
+      CC: '${{ matrix.cc }}'
+      CXX: '${{ matrix.cxx }}'
+      CMAKE_ARGS: '${{ matrix.cmake_args }}'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      - name: Set environment list variables
+        run: |
+          env_vars="${{ matrix.env_list }}"
+          for var in $env_vars; do
+            echo "$var" >> $GITHUB_ENV
+          done
+        if: matrix.os != 'windows-latest'
+      - name: Setup cmake
+        uses: jwlawson/actions-setup-cmake@v1.13
+        with:
+          cmake-version: 3.16.x
+      - uses: seanmiddleditch/gha-setup-ninja@master
+      - name: build and test
+        run: ./ci/build_and_run_tests.sh
