@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: httpx_kerberos
+Version: 0.1.0
+Summary: Kerberos authentication for HTTPX.
+Project-URL: Changelog, https://github.com/hyprxa/httpx_kerberos/blob/master/CHANGELOG.md
+Project-URL: Homepage, https://github.com/hyprxa/httpx_kerberos
+Project-URL: Source, https://github.com/hyprxa/httpx_kerberos
+Author-email: Chris Newville <christopher.newville@hyprxa.io>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <4.0,>=3.8
+Requires-Dist: cryptography
+Requires-Dist: httpx
+Requires-Dist: pyspnego
