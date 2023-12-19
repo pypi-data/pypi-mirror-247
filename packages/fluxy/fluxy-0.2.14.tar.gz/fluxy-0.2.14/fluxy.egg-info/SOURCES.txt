@@ -1,0 +1,10 @@
+setup.py
+fluxy/__init__.py
+fluxy/fluxy_fastapi.py
+fluxy/validate.py
+fluxy.egg-info/PKG-INFO
+fluxy.egg-info/SOURCES.txt
+fluxy.egg-info/dependency_links.txt
+fluxy.egg-info/entry_points.txt
+fluxy.egg-info/requires.txt
+fluxy.egg-info/top_level.txt
