@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: indicatortest
+Version: 1.0.10
+Summary: Application indicator to test indicator functionality.
+Author-email: Bernard Giannetti <thebernmeister@hotmail.com>
+Maintainer-email: Bernard Giannetti <thebernmeister@hotmail.com>
+Project-URL: homepage, https://pypi.org/project/indicatortest
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.8
+Requires-Dist: PyGObject
