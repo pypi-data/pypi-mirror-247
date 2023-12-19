@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+<record id="location_type_customer_rent" model="location_type">
+    <field name="name">Customer Rent</field>
+    <field name="code">CR</field>
+    <field name="usage">customer</field>
+</record>
+
+<record id="location_type_supplier_rent" model="location_type">
+    <field name="name">Supplier Rent</field>
+    <field name="code">SR</field>
+    <field name="usage">supplier</field>
+</record>
+</data>
+</odoo>

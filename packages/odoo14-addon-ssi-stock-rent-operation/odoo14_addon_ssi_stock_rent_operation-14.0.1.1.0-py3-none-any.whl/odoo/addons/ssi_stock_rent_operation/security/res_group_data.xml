@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="customer_rent_out_viewer_group" model="res.groups">
+    <field name="name">Viewer</field>
+    <field name="category_id" ref="customer_rent_out_workflow_module_category" />
+</record>
+
+<record id="customer_rent_out_user_group" model="res.groups">
+    <field name="name">User</field>
+    <field name="category_id" ref="customer_rent_out_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_out_viewer_group'))]" />
+</record>
+
+<record id="customer_rent_out_validator_group" model="res.groups">
+    <field name="name">Validator</field>
+    <field name="category_id" ref="customer_rent_out_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_out_user_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<record id="customer_rent_in_viewer_group" model="res.groups">
+    <field name="name">Viewer</field>
+    <field name="category_id" ref="customer_rent_in_workflow_module_category" />
+</record>
+
+<record id="customer_rent_in_user_group" model="res.groups">
+    <field name="name">User</field>
+    <field name="category_id" ref="customer_rent_in_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_in_viewer_group'))]" />
+</record>
+
+<record id="customer_rent_in_validator_group" model="res.groups">
+    <field name="name">Validator</field>
+    <field name="category_id" ref="customer_rent_in_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_in_user_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Data Ownership customer_rent_out -->
+<record id="customer_rent_out_company_group" model="res.groups">
+    <field name="name">Company</field>
+    <field name="category_id" ref="customer_rent_out_data_ownership_module_category" />
+</record>
+
+<record id="customer_rent_out_company_child_group" model="res.groups">
+    <field name="name">Company and All Child Companies</field>
+    <field name="category_id" ref="customer_rent_out_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_out_company_group'))]" />
+</record>
+
+<record id="customer_rent_out_all_group" model="res.groups">
+    <field name="name">All</field>
+    <field name="category_id" ref="customer_rent_out_data_ownership_module_category" />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('customer_rent_out_company_child_group'))]"
+        />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Data Ownership customer_rent_in -->
+<record id="customer_rent_in_company_group" model="res.groups">
+    <field name="name">Company</field>
+    <field name="category_id" ref="customer_rent_in_data_ownership_module_category" />
+</record>
+
+<record id="customer_rent_in_company_child_group" model="res.groups">
+    <field name="name">Company and All Child Companies</field>
+    <field name="category_id" ref="customer_rent_in_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('customer_rent_in_company_group'))]" />
+</record>
+
+<record id="customer_rent_in_all_group" model="res.groups">
+    <field name="name">All</field>
+    <field name="category_id" ref="customer_rent_in_data_ownership_module_category" />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('customer_rent_in_company_child_group'))]"
+        />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<record id="supplier_rent_out_viewer_group" model="res.groups">
+    <field name="name">Viewer</field>
+    <field name="category_id" ref="supplier_rent_out_workflow_module_category" />
+</record>
+
+<record id="supplier_rent_out_user_group" model="res.groups">
+    <field name="name">User</field>
+    <field name="category_id" ref="supplier_rent_out_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_out_viewer_group'))]" />
+</record>
+
+<record id="supplier_rent_out_validator_group" model="res.groups">
+    <field name="name">Validator</field>
+    <field name="category_id" ref="supplier_rent_out_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_out_user_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<record id="supplier_rent_in_viewer_group" model="res.groups">
+    <field name="name">Viewer</field>
+    <field name="category_id" ref="supplier_rent_in_workflow_module_category" />
+</record>
+
+<record id="supplier_rent_in_user_group" model="res.groups">
+    <field name="name">User</field>
+    <field name="category_id" ref="supplier_rent_in_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_in_viewer_group'))]" />
+</record>
+
+<record id="supplier_rent_in_validator_group" model="res.groups">
+    <field name="name">Validator</field>
+    <field name="category_id" ref="supplier_rent_in_workflow_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_in_user_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Data Ownership supplier_rent_out -->
+<record id="supplier_rent_out_company_group" model="res.groups">
+    <field name="name">Company</field>
+    <field name="category_id" ref="supplier_rent_out_data_ownership_module_category" />
+</record>
+
+<record id="supplier_rent_out_company_child_group" model="res.groups">
+    <field name="name">Company and All Child Companies</field>
+    <field name="category_id" ref="supplier_rent_out_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_out_company_group'))]" />
+</record>
+
+<record id="supplier_rent_out_all_group" model="res.groups">
+    <field name="name">All</field>
+    <field name="category_id" ref="supplier_rent_out_data_ownership_module_category" />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('supplier_rent_out_company_child_group'))]"
+        />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<!-- Data Ownership supplier_rent_in -->
+<record id="supplier_rent_in_company_group" model="res.groups">
+    <field name="name">Company</field>
+    <field name="category_id" ref="supplier_rent_in_data_ownership_module_category" />
+</record>
+
+<record id="supplier_rent_in_company_child_group" model="res.groups">
+    <field name="name">Company and All Child Companies</field>
+    <field name="category_id" ref="supplier_rent_in_data_ownership_module_category" />
+    <field name="implied_ids" eval="[(4, ref('supplier_rent_in_company_group'))]" />
+</record>
+
+<record id="supplier_rent_in_all_group" model="res.groups">
+    <field name="name">All</field>
+    <field name="category_id" ref="supplier_rent_in_data_ownership_module_category" />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('supplier_rent_in_company_child_group'))]"
+        />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+</odoo>
