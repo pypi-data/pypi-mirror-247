@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs-gamestate
+Version: 0.0.1
+Summary: Counter-Strike Game State Integration for Python
+Home-page: https://github.com/iksnagreb/cs-gamestate
+Author: Christoph Berganski
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask~=3.0.0
+
+# cs-gamestate
+Counter-Strike Game State Integration for Python
