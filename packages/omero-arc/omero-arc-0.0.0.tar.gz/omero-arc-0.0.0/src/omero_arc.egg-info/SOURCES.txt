@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/omero_arc/__init__.py
+src/omero_arc/arc_mapping.py
+src/omero_arc/arc_packer.py
+src/omero_arc.egg-info/PKG-INFO
+src/omero_arc.egg-info/SOURCES.txt
+src/omero_arc.egg-info/dependency_links.txt
+src/omero_arc.egg-info/entry_points.txt
+src/omero_arc.egg-info/requires.txt
+src/omero_arc.egg-info/top_level.txt
+test/test_arc_packer.py
+test/test_arc_transfer.py
+test/test_isa_assay_mapper.py
+test/test_isa_investigation_mapper.py
+test/test_isa_study_mapper.py

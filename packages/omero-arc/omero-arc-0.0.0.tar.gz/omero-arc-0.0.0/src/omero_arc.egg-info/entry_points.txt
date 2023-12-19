@@ -1,0 +1,2 @@
+[omero_cli_transfer.pack.plugin]
+arc = omero_arc:pack_arc
