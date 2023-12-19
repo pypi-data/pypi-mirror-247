@@ -1,0 +1,5 @@
+ostir
+rhotermpredict
+promotercalculator
+plotly
+bokeh
