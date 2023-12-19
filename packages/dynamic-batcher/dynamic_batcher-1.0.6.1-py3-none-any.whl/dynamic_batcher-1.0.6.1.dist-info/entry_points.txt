@@ -1,0 +1,2 @@
+[console_scripts]
+dynamic_batch_processor = dynamic_batcher.__main__:run_batch_processor
