@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+holaMundoWilliamPlayer/__init__.py
+holaMundoWilliamPlayer/lala.py
+holaMundoWilliamPlayer/player.py
+holamundoWilliamplayer.egg-info/PKG-INFO
+holamundoWilliamplayer.egg-info/SOURCES.txt
+holamundoWilliamplayer.egg-info/dependency_links.txt
+holamundoWilliamplayer.egg-info/top_level.txt
