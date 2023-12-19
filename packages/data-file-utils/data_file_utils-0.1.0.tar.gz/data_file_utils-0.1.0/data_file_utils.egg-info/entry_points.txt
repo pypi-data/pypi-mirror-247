@@ -1,0 +1,5 @@
+[console_scripts]
+analyze-record-tuples = data_file_utils.analyze_record_tuples:main
+compare-tab-files = data_file_utils.compare_tab_files:main
+jsonl2json = data_file_utils.jsonl2json:main
+tsv2json = data_file_utils.tsv2json:main
