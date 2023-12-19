@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "modderload"
+version = "0.0.0"
+description = ""
+authors = ["Maximillian Strand <maxi@millian.se>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
