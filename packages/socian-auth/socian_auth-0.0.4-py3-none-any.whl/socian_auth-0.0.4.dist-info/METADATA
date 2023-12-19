@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: socian-auth
+Version: 0.0.4
+Summary: Example PyPI (Python Package Index) Package
+Home-page: https://github.com/socian/socian_auth_sdk_python
+Author: Socian Ltd.
+Author-email: admin@socian.ai
+Project-URL: Documentation, https://github.com/tomchen/example_pypi_package
+Project-URL: Bug Reports, https://github.com/tomchen/example_pypi_package/issues
+Project-URL: Source Code, https://github.com/tomchen/example_pypi_package
+Keywords: example,pypi,package
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+WM4HAa&Z@w3S#cu
