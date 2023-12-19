@@ -1,0 +1,14 @@
+[project]
+name = "address-parse"
+version = "0.0.6"
+authors = [
+    {name = "zhichao wang", email = "wzc570738205@gmail.com"},
+]
+description = "字符串只能解析，解析省市区、姓名、电话"
+requires-python = ">=3.8"
+dependencies = [
+    "jionlp",
+    "jieba",
+    "Levenshtein",
+    "paddlepaddle==2.4.2"
+]

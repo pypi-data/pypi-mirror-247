@@ -1,0 +1,9 @@
+LICENSE
+README.md
+index.py
+pyproject.toml
+address_parse.egg-info/PKG-INFO
+address_parse.egg-info/SOURCES.txt
+address_parse.egg-info/dependency_links.txt
+address_parse.egg-info/requires.txt
+address_parse.egg-info/top_level.txt
