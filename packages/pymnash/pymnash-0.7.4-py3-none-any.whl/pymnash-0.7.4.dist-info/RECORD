@@ -1,0 +1,9 @@
+pymnash/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+pymnash/game.py,sha256=Ibyz3UEZxXiM99mGyLVi3XyZ_E-7EzaJ0YQrDpZjYNM,25785
+pymnash/negadd.py,sha256=OQc-tKY2AsKh6kmDBJGnWKjG7yKyIBXASdYuhl5iNvI,636
+pymnash/sample_games.py,sha256=kM9AoUdYMziqqdFdyKxqrxB4h_mZi2xJd2JGhrx11sI,9690
+pymnash/util.py,sha256=-xbet5qa0cKRY6fvL32Lyd4mhRIjcNNVQw6OqvIgY4s,5571
+pymnash-0.7.4.dist-info/METADATA,sha256=O6pOYNtIk66lHhzxECwJLbRsr_d6gbZYqMu9xkuXorY,2520
+pymnash-0.7.4.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pymnash-0.7.4.dist-info/licenses/LICENSE,sha256=ECYipVmrNaiyJLibF4-Es8XPk7m_HbaWIOisa_WRqvo,1503
+pymnash-0.7.4.dist-info/RECORD,,
