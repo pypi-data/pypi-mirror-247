@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pypackdemo/__init__.py
+pypackdemo/common.py
+pypackdemo/pypackdemo.py
+pypackdemo.egg-info/PKG-INFO
+pypackdemo.egg-info/SOURCES.txt
+pypackdemo.egg-info/dependency_links.txt
+pypackdemo.egg-info/not-zip-safe
+pypackdemo.egg-info/top_level.txt
+tests/test_pypackdemo.py

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pypackdemo
+Version: 0.0.1
+Summary: A python package for interractive mapping.
+Home-page: https://github.com/yuusuf4real/pypackdemo
+Author: Yusuf Ariyibi
+Author-email: yuusuf4real@yahoo.com
+License: MIT license
+Keywords: pypackdemo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypackdemo
+
+
+[![image](https://img.shields.io/pypi/v/pypackdemo.svg)](https://pypi.python.org/pypi/pypackdemo)
+[![image](https://img.shields.io/conda/vn/conda-forge/pypackdemo.svg)](https://anaconda.org/conda-forge/pypackdemo)
+
+
+**A python package for interractive mapping.**
+
+
+-   Free software: MIT license
+-   Documentation: https://yuusuf4real.github.io/pypackdemo
+    
+
+## Features
+
+-   TODO
