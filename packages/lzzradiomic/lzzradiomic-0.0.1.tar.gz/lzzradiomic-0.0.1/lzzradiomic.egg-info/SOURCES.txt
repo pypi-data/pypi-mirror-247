@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lzzradiomic.egg-info/PKG-INFO
+lzzradiomic.egg-info/SOURCES.txt
+lzzradiomic.egg-info/dependency_links.txt
+lzzradiomic.egg-info/requires.txt
+lzzradiomic.egg-info/top_level.txt
