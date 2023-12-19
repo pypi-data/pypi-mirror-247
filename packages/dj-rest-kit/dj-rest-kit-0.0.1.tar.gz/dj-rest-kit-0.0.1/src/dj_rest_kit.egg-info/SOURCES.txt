@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/filters.py
+src/helper.py
+src/mixins.py
+src/pagination.py
+src/renderer.py
+src/serializers.py
+src/setup.py
+src/views.py
+src/dj_rest_kit.egg-info/PKG-INFO
+src/dj_rest_kit.egg-info/SOURCES.txt
+src/dj_rest_kit.egg-info/dependency_links.txt
+src/dj_rest_kit.egg-info/requires.txt
+src/dj_rest_kit.egg-info/top_level.txt
