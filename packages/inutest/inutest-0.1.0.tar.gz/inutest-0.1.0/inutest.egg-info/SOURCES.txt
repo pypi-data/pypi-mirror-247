@@ -1,0 +1,8 @@
+README.md
+setup.py
+inutest/__init__.py
+inutest/test.py
+inutest.egg-info/PKG-INFO
+inutest.egg-info/SOURCES.txt
+inutest.egg-info/dependency_links.txt
+inutest.egg-info/top_level.txt
