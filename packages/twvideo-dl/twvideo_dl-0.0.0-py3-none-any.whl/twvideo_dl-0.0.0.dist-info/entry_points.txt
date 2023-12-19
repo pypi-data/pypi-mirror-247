@@ -1,0 +1,3 @@
+[console_scripts]
+twvideo-dl=twvideo_dl.main:main
+

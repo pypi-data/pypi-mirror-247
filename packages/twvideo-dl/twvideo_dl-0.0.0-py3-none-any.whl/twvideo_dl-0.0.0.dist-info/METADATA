@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: twvideo-dl
+Version: 0.0.0
+Summary: A Simple CLI for downloading Videos from X, formaly Twitter
+License: MIT
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# twvideo-dl
+
+A Simple CLI for downloading Videos from X, formaly Twitter.
+
+## Install
+
+```bash
+pip install twvideo-dl
+```
+
+## How to use
+
+```shellsession
+$ twvideo-dl https://twitter.com/YouTube/status/988453821851619330
+```
+
