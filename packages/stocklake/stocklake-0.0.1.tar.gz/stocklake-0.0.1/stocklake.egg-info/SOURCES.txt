@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+stocklake.egg-info/PKG-INFO
+stocklake.egg-info/SOURCES.txt
+stocklake.egg-info/dependency_links.txt
+stocklake.egg-info/entry_points.txt
+stocklake.egg-info/requires.txt
+stocklake.egg-info/top_level.txt
