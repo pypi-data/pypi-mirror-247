@@ -1,0 +1,17 @@
+marcuslion/__init__.py,sha256=lWIyL5lIkSv13ZYxjQFmdNdhpzflhC-1irqkcdQpHRM,1396
+marcuslion/config.py,sha256=M0VL1Vp78FfSAS5DmMEP5eoZhl5iAJhgoh76QLglxNU,207
+marcuslion/dataframes.py,sha256=j_q2WvtVWf8jGc75yL_ovus7quZ1E3xyJiLW-coCDM4,864
+marcuslion/dataproviders.py,sha256=BMh702vboPL-jTvq2DdKBhaK3Gb1eKQsTQwKYzacITM,881
+marcuslion/datasets.py,sha256=cSlaN1P7UFtqQ149M_W2ksZktfcQgHfeeNDR5uvNA0E,1106
+marcuslion/documents.py,sha256=PS2vssioAa8zbVFgdfz3raEUNsJhEy8hgoOvrBpCffM,1375
+marcuslion/indicators.py,sha256=XRAlQguB_bcjDIPLoSj2jiwiPiufz17E5UQZfkqOo7I,908
+marcuslion/models.py,sha256=eCFlKrJyCJgQxYVaVUUkeEtI0SA80FHIHZKo6813BhE,944
+marcuslion/providers.py,sha256=hnVM46zbWRmeUqBAhtOTfDHTcL9mW4kykrveFWPxJ14,891
+marcuslion/restcontroller.py,sha256=p405qwZEOh044b5O61ZUPjupiCoCQSqqMRZFm0gEA8c,2144
+marcuslion/support.py,sha256=XKhvU6c8Bti3I0S9e0bhb9ZBabQcGjFND_ME4HogT98,498
+marcuslion/timeseries.py,sha256=aHCzJFkCHxlB-dMOyIcaAnx4NYyWZ75V4_Z3adsqy2w,1076
+marcuslion/resources/marcus_lion_logo.jpg,sha256=_63b44_g85S1UeEYbj2Z_cXlv8wg7pxXRBk-_4fDLbY,31684
+marcuslion-0.2.23.dist-info/METADATA,sha256=IfRGn8IIOqBMZLCqcs1OExUp4T8hHSyk77stkw_Tias,1406
+marcuslion-0.2.23.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+marcuslion-0.2.23.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+marcuslion-0.2.23.dist-info/RECORD,,
