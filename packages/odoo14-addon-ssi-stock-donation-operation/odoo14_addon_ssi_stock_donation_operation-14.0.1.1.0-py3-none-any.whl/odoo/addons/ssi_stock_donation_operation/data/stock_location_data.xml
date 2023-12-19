@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+<record id="customer_donation_location" model="stock.location">
+    <field name="name">Customer Donation</field>
+    <field name="location_id" ref="stock.stock_location_locations_partner" />
+    <field name="usage">customer</field>
+    <field name="company_id" />
+    <field name="type_id" ref="location_type_customer_donation" />
+</record>
+
+<record id="supplier_donation_location" model="stock.location">
+    <field name="name">Supplier Donation</field>
+    <field name="location_id" ref="stock.stock_location_locations_partner" />
+    <field name="usage">supplier</field>
+    <field name="company_id" />
+    <field name="type_id" ref="location_type_supplier_donation" />
+</record>
+</data>
+</odoo>
