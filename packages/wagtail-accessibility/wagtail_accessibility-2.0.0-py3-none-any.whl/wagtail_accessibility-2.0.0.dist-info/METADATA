@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: wagtail-accessibility
+Version: 2.0.0
+Summary: Accessibility content checks for Wagtail websites
+Home-page: https://github.com/wagtail-nest/wagtail-accessibility
+Author: Wagtail Nest contributors
+Author-email: hello@wagtail.org
+License: BSD License
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 4
+Classifier: Framework :: Wagtail :: 5
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wagtail >=4.1
+Provides-Extra: test
+Requires-Dist: pytest ==6.2.5 ; extra == 'test'
+Requires-Dist: pytest-cov ==3.0.0 ; extra == 'test'
+Requires-Dist: pytest-django ==4.5.0 ; extra == 'test'
+Requires-Dist: pytest-pythonpath ==0.7.3 ; extra == 'test'
+Requires-Dist: coverage ==6.0 ; extra == 'test'
+
+# [wagtail-accessibility](https://pypi.org/project/wagtail-accessibility/)
+
+✅ Accessibility content checks for Wagtail websites. Try it out on our [static demo page](https://wagtail-nest.github.io/wagtail-accessibility/)!
+
+---
+
+[![Screenshot of a content page with accessibility checker, flagging a heading issue](.github/wagtail-accessibility.webp)](https://wagtail-nest.github.io/wagtail-accessibility/)
+
+## Installing
+
+Install using pip:
+
+``` bash
+pip install wagtail-accessibility
+```
+
+Then add `wagtailaccessibility` to your `INSTALLED_APPS`. It works with Wagtail 4.1 and upwards.
+
+## Using
+
+This plugin, when added to your template, will add [tota11y](https://github.com/jdan/tota11y) to all page previews.
+Tota11y is an accessibility visualization toolkit.
+
+To use it, simply include this in your template, and from now on all page previews will include it.
+
+```jinja2
+{% load wagtailaccessibility_tags %}
+{% tota11y %}
+```
+
+## Jinja2
+
+This plugin also contains a jinja2 implementation, to use it, include
+the following in your config.
+
+```python
+{
+    'BACKEND': 'django.template.backends.jinja2.Jinja2',
+    'OPTIONS': {
+        'extensions': [
+            # […]
+            'wagtailaccessibility.jinja2tags.tota11y',
+        ],
+    },
+}
+```
+
+The template tag can then be used like so:
+
+```jinja2
+{{ tota11y() }}
+```
