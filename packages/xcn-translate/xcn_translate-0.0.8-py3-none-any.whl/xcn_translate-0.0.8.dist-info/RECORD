@@ -1,0 +1,16 @@
+xcn_translate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcn_translate/sys.py,sha256=5fWz1wdPt1L6QCpNlwQw46pI0_VG-shGrzdydUAgVyE,449
+xcn_translate/webdriver.py,sha256=qAMwJIbk6A5HBltcgZPCojURVH8rledSUB16q46dfuU,302
+xcn_translate/Windows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcn_translate/Windows/ps_util.py,sha256=t0j0Q6uAPbHsUFbeBNa5c_r69yumajO2dbW6JIDozzs,665
+xcn_translate/Windows/regstry.py,sha256=CAKPeEpfEeTrrX-bUUtfcaIwH14di-uqNA2BbgRk-Sk,875
+xcn_translate/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcn_translate/conf/folder.py,sha256=9i-bnP4tPsi9a0gH7BDtCHqNfGoFZqV8HY0wLHAY7t4,727
+xcn_translate/conf/ini_file.py,sha256=dcHbVZqRkYwcknZbMwJFh84KYYlojChoxx3Vry30wwY,4414
+xcn_translate/date/__init__.py,sha256=29DQBA5tU_8SZjawLbtbH0BQLt3PXN8AGx4Wd9QGqn8,22
+xcn_translate/date/str.py,sha256=2i9iC6cVZD8ZWI-F4srBMBLrk82xoZIdf5jvD8sMHgk,794
+xcn_translate-0.0.8.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+xcn_translate-0.0.8.dist-info/METADATA,sha256=W1WgfEsbAOHq6-CnmDk3NGaLrggZybq6rrmqGPscui0,795
+xcn_translate-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xcn_translate-0.0.8.dist-info/top_level.txt,sha256=zopQfenbokKG07mFhl8Kg_lMjvitAvJLxKbsEefhDks,14
+xcn_translate-0.0.8.dist-info/RECORD,,
