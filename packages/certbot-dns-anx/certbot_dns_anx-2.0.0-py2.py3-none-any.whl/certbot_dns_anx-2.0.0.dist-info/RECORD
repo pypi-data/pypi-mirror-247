@@ -1,0 +1,10 @@
+certbot_dns_anx/__init__.py,sha256=twpORU4WLcOzPxvcwfPJxzN0dc1AQ4p8JalZaoK-hMU,3332
+certbot_dns_anx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_anx/_internal/__init__.py,sha256=IKhqmFE7JutmrIlLO78izhObHYnvexVGh8VcIWb3J14,67
+certbot_dns_anx/_internal/dns_anx.py,sha256=ZUZSHpTgdYC0KcV7hVKQsMQLUYQCMsW5DXPR7l45SMc,3076
+certbot_dns_anx-2.0.0.dist-info/LICENCE,sha256=L81-hJG4Mpv-TQXQAb6AB6GNvAD_fDz153s2K64mx3A,1534
+certbot_dns_anx-2.0.0.dist-info/METADATA,sha256=i1K04olwXDztFcaJfW5nnMr4ofWxhLiCdnYJ2ASW2Ic,2790
+certbot_dns_anx-2.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+certbot_dns_anx-2.0.0.dist-info/entry_points.txt,sha256=_K2cZ_26NTF-07t3klYuJ5rDnDtO5Q13uhNYSdAPNLE,76
+certbot_dns_anx-2.0.0.dist-info/top_level.txt,sha256=xOZQSXMJNo3bKF0IbIAtyThcUFU1ajrdMNu6iIr10Tw,32
+certbot_dns_anx-2.0.0.dist-info/RECORD,,

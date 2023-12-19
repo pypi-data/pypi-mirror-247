@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: certbot-dns-anx
+Version: 2.0.0
+Summary: ANX DNS authentication plugin for Certbot
+Home-page: https://github.com/egeback/pycertbot-anx
+Author: Marky Egebäck
+Author-email: marky@egeback.se
+License: Apache License 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: setuptools >=41.6.0
+Requires-Dist: certbot >=2.8.0
+Requires-Dist: pyanxdns >=0.2.5
+Requires-Dist: acme >=2.0.0
+Requires-Dist: certbot >=2.0.0
+Provides-Extra: docs
+Requires-Dist: Sphinx >=1.0 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+ANX DNS Authenticator for Certbot
+=================================
+This allows automatic completion of [Certbot's](https://github.com/certbot/certbot)
+DNS01 challange for domains managed on [ANX DNS](https://dyn.anx.se/api/dns/)
+
+Important information
+---------------------
+PLEASE NOTE THAT ONE OF THE DEPENDENCIES TO THE LIBRARY INCLUDED A BAD INSTALL_REQUIRES.
+
+
+Installing
+----------
+```
+   $ pip install certbot-anx
+```
+   
+Usage
+-----
+The plugin requires a API key that is created here: http://dyn.anx.se/users/users.jsf?i=2
+
+To use the authenticator you need to provide some required options:
+
+``--certbot-anx:credentials`` *(required)*
+  ANX API credentials INI file. (default: None)
+
+The credentials file must have the folling format:
+
+```
+   certbot_anx:api_key = codegoeshere
+```
+For safety reasons the file must not be world readable. You can solve this by
+running:
+
+```
+   $ chmod 600 credentials.ini
+```
+Then you can run ``certbot`` using:
+
+```
+    $ sudo certbot certonly \
+        --authenticator certbot-anx:auth \
+        --certbot-anx:auth-credentials credentials.ini \
+        -d domain.com
+```
+If you want to obtain a wildcard certificate you can use the
+``--server https://acme-v02.api.letsencrypt.org/directory`` flag and the domain
+``-d *.domain.com``
