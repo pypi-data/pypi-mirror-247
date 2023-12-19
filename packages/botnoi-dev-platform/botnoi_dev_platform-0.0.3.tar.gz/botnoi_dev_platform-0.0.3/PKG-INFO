@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: botnoi_dev_platform
+Version: 0.0.3
+Summary: A programatical alternative to the visual chatbot builder provided by https://botnoi.ai . 
+Author: Jira Pit @ BOTNOI GROUP
+Author-email: <jira.p@botnoigroup.com>
+Keywords: botnoi,chatbot,bot,botnoi dev platform
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+<img src="https://th.bing.com/th/id/OIP.HfSXFZI8Bk4GKR98TRIALwHaHa?rs=1&pid=ImgDetMain" width="200" height="200" />
+
+# Botnoi Dev Platform
+
+Botnoi Dev Platform is a programatical alternative to the visual chatbot builder provided by https://botnoi.ai .
+It can be used to build and train chatbots for various platforms such as Facebook Messenger and LINE.
+
+This official library provides a Dart implementation of Botnoi Dev Platform's API in order to simplify the process of building chatbots.
+It also provides various data types related to chatbots such as 'BotIntent', 'BotObject' and lots of helper functions to work with them.
+
+This suits best for developers who want to build chatbots programmatically or to automate the process of chatbot training when an action is performed by the applications' users.
+
+# Installation
+Run this command in the terminal
+```
+pip install botnoi-dev-platform
+```
+
+then, import the package
+```python
+from botnoi_dev_platform import *
+```
+
+note: you have to have an API key to use this package. You can get one from https://botnoi.ai
+
+# Usage
+## Set up
+First, setup a client with your API key
+```python
+BotnoiChatbotServer.setup_client('your_api_key')
+```
+Then, you can create a BotnoiChatbotServer server instance
+```python
+server = BotnoiChatbotServer()
+```
+
+## Create a bot
+Creating a bot is simple. You just have to create a bot instance and add it to the server
+```python
+
+test_bot = Bot(
+    botName="test",
+    botAvatar="https://console.botnoi.ai/assets/botnoi-logo/botnoi.svg",
+    sex="male",
+    businessType="test",
+    owner="pitakwongjira@gmail.com",
+    age=20,
+) # Create a bot with name "test"
+
+server.create_bot(test_bot) # Add the bot to the server
+
+test_bot.reload() # reload the bot from the server
+```
+
+Or find an existing bot by name
+```python
+test_bot = server.find_bot_with_name("test") # find a bot with name "test"
+```
+
+## Create and train an intent
+You can create an intent in side of your bot by creating a new BotIntent instance and add it to the bot
+```python
+test_intent = Intent(name="test_intent") # create an intent with name "test_intent"
+
+test_bot.opt.create_intent(test_intent) # add the intent in the "test" bot
+
+test_intent.reload() # reload the intent from the server
+```
+
+Or find an existing one by name
+```python
+test_intent = test_bot.opt.find_intent_with_name("test_intent") # find an intent with name "test_intent"
+```
+
+notice that the 'opt' property is used when you want to do something with the bot that is related to Botnoi Dev Platform (eg. create_intent, find_intents, etc.). This is the standard for all data types that can directly interact with the server (eg. Bot, Intent, Object, etc.).
+
+You can train the intent by adding some keywords(inputs) and reactions(outputs) to it
+```python
+test_intent.opt.train_keyword(
+    keyword = IntentKeyword("hello")
+) # add a keyword to the intent
+
+test_intent.opt.train_reaction(
+    reaction = IntentReaction(["hello!", "it works!"])
+) # add a reaction to the intent
+```
+
+Or train the reaction with more complex actions like this
+```python
+test_intent.opt.train_reaction(
+    reaction=IntentReaction([
+        Action.createParameter(parameterName="test_param", parameterValue=Action.get_keyword()), # create a parameter with name "test_param" and value of the user's keyword
+        Action.text("test param is " + Action.parameter("test_param")), # get the parameter with name "test_param" and use it in the text,
+        Action.image("test_image"), # send an image with name "test_image"
+    ])
+) # add a reaction to the intent
+```
+
+## Create an object
+Creating objects is similar to creating intents. First, create an Object instance with typed objects in its objects property (eg. ApiObject, ImageObject, ButtonObject etc.). Every typed object instances must be of the same type. Then, you can add the Object instance to the bot.
+```python
+test_image_object = Object(
+    objectName="test_image",
+    objects=[
+        ImageObject(
+            original_url="https://console.botnoi.ai/assets/botnoi-logo/botnoi.svg",
+            preview_image_url="https://console.botnoi.ai/assets/botnoi-logo/botnoi.svg",
+        )
+    ]
+) # create an image object with name "test_image"
+
+test_bot.opt.create_object(test_image_object) # add the object to the server in the "test" bot
+```
+
+Or find an existing one by name
+```python
+test_image_object = test_bot.opt.find_object_with_name("test_image") # find an object with name "test_image"
+```
