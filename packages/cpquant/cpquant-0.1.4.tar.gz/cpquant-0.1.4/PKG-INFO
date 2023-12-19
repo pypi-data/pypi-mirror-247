@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: cpquant
+Version: 0.1.4
+Summary: A python package developed by the Cal Poly Quantitative Finance Club for dealing with financial data (California Polytechnic State University San Luis Obispo)
+License: MIT
+Author: Charlie Ray
+Requires-Python: >=3.10.3,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: appnope (==0.1.3)
+Requires-Dist: asttokens (==2.2.1)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: bleach (==6.0.0)
+Requires-Dist: blinker (==1.6.2)
+Requires-Dist: certifi (==2023.5.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: contourpy (==1.0.7)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: docutils (==0.20.1)
+Requires-Dist: executing (==1.2.0)
+Requires-Dist: flask (==3.0.0)
+Requires-Dist: fonttools (==4.39.4)
+Requires-Dist: idna (==3.4)
+Requires-Dist: ijson (==3.2.1)
+Requires-Dist: importlib-metadata (==6.6.0)
+Requires-Dist: ipython (==8.14.0)
+Requires-Dist: itsdangerous (==2.1.2)
+Requires-Dist: jaraco-classes (==3.2.3)
+Requires-Dist: jedi (==0.18.2)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: keyring (==23.13.1)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: markdown-it-py (==2.2.0)
+Requires-Dist: markupsafe (==2.1.3)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: matplotlib-inline (==0.1.6)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: more-itertools (==9.1.0)
+Requires-Dist: msgpack (==1.0.5)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pillow (==9.5.0)
+Requires-Dist: pkginfo (==1.9.6)
+Requires-Dist: plotly (==5.14.1)
+Requires-Dist: prompt-toolkit (==3.0.38)
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pydantic (==1.10.8)
+Requires-Dist: pygments (==2.15.1)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: readme-renderer (==37.3)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-toolbelt (==1.0.0)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==13.4.1)
+Requires-Dist: seaborn (==0.12.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sseclient-py (==1.7.2)
+Requires-Dist: stack-data (==0.6.2)
+Requires-Dist: tenacity (==8.2.2)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: traitlets (==5.9.0)
+Requires-Dist: twine (==4.0.2)
+Requires-Dist: typing-extensions (==4.6.3)
+Requires-Dist: urllib3 (==2.0.2)
+Requires-Dist: wcwidth (==0.2.6)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: websockets (==11.0.3)
+Requires-Dist: werkzeug (==3.0.0)
+Requires-Dist: wget (==3.2)
+Requires-Dist: zipp (==3.15.0)
+Description-Content-Type: text/markdown
+
+# cpquant
+
+A python package developed by the Cal Poly Quantitative Finance Club for dealing with financial data (California Polytechnic State University San Luis Obispo)
+
+## Installation
+
+```bash
+$ pip install cpquant
+```
+
+## Usage
+
+`cpquant` contains functions to allow the Cal Poly Quant Club to easily access and manipulate financial data
+
+
+## Contributing
+
+Interested in contributing? Join the Cal Poly Quant Club to learn more. Follow us on instagram @calpolyquantclub
+
+## License
+
+`cpquant` was created by Cal Poly Quantitative Finance Club. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`cpquant` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
