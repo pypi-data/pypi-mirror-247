@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/passbolt_salt.egg-info/PKG-INFO
+src/passbolt_salt.egg-info/SOURCES.txt
+src/passbolt_salt.egg-info/dependency_links.txt
+src/passbolt_salt.egg-info/requires.txt
+src/passbolt_salt.egg-info/top_level.txt
+src/salt_passbolt/__init__.py
