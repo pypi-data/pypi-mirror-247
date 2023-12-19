@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+agnostica/__init__.py
+agnostica.egg-info/PKG-INFO
+agnostica.egg-info/SOURCES.txt
+agnostica.egg-info/dependency_links.txt
+agnostica.egg-info/requires.txt
+agnostica.egg-info/top_level.txt
