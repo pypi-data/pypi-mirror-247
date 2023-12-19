@@ -1,0 +1,10 @@
+py_oculus_touch/__init__.py,sha256=YJMNjkjKGA2f8Q3rBhbu1qymWjr8vRhWUIT1UWEgQZk,303
+py_oculus_touch/api.py,sha256=X1jDYa2qUNevlvLAfDozFmgeVUt3fLwSiZrwDJJO43o,5123
+py_oculus_touch/auto_oculus_touch.dll,sha256=NBLD-W8QKWdlLe_TebgYX_v9VJBpBJxhzmc_eswbGKI,46592
+py_oculus_touch/oculus_touch.py,sha256=ao0c9KmtDV-oldSnEhf67cn_Fl1Hhi_D0q4iexwbFqI,5411
+py_oculus_touch/vJoyInterface.dll,sha256=SkjbicMVjPVKyimNd_mhRXmrEazGSBmeR0wQkufuWUQ,179200
+py_oculus_touch-0.0.1.dist-info/LICENSE,sha256=kv5aD8GBsJhLyitIsdmpIpYME_TygSbXKNI0fubZwWI,1096
+py_oculus_touch-0.0.1.dist-info/METADATA,sha256=C3frTaWtHVIvmAbNa7nEC_gxO93JeT6ZV4NsqirZqJk,534
+py_oculus_touch-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_oculus_touch-0.0.1.dist-info/top_level.txt,sha256=C6W_3zQVv8LQM9WMpF7La9RBZ8hswelsWzY45OAM3xg,16
+py_oculus_touch-0.0.1.dist-info/RECORD,,
