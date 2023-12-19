@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: molvoxel
+Version: 0.1.0
+Summary: MolVoxel:easy-to-use Molecular Voxelization Tool implemented in Python.
+Home-page: https://github.com/SeonghwanSeo/molvoxel
+Author: Seonghwan Seo
+Author-email: shwan0106@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: numba
+Requires-Dist: numba ; extra == 'numba'
+Provides-Extra: rdkit
+Requires-Dist: rdkit ; extra == 'rdkit'
+Provides-Extra: torch
+Requires-Dist: torch ; extra == 'torch'
+
