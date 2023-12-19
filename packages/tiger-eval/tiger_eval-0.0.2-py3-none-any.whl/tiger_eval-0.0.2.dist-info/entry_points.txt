@@ -1,0 +1,2 @@
+[console_scripts]
+tiger_eval = tiger_eval.__main__:main
