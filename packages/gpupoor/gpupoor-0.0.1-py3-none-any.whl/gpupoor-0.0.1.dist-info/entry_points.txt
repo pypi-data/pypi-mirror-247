@@ -1,0 +1,2 @@
+[console_scripts]
+nvidia-smi = gpupoor.nvidia_smi:main
