@@ -1,0 +1,14 @@
+
+@import 'variables';
+@import '../myams/select2';
+
+
+.select2-container--bootstrap4 {
+  .select2-selection--multiple {
+	.select2-selection__choice__remove {
+	  &:hover::before {
+		color: $select2-highlight;
+	  }
+	}
+  }
+}

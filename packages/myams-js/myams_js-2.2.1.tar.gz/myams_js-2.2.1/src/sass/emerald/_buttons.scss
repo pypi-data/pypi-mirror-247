@@ -1,0 +1,15 @@
+
+
+@import 'variables';
+@import '../myams/buttons';
+
+
+.btn-sm,
+.btn-group-sm > .btn {
+  line-height: 1.2 !important;
+}
+
+.btn-xs,
+.btn-group-xs > .btn {
+  line-height: 1.0 !important;
+}
