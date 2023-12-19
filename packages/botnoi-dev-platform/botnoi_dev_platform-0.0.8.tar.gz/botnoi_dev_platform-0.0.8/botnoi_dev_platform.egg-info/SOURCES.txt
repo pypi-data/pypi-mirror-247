@@ -1,0 +1,8 @@
+setup.py
+botnoi_dev_platform/__init__.py
+botnoi_dev_platform.egg-info/PKG-INFO
+botnoi_dev_platform.egg-info/SOURCES.txt
+botnoi_dev_platform.egg-info/dependency_links.txt
+botnoi_dev_platform.egg-info/requires.txt
+botnoi_dev_platform.egg-info/top_level.txt
+test/test.py
