@@ -1,0 +1,7 @@
+argcomplete
+biopython
+pandas
+numpy
+selenium
+cutadapt
+bowtie
