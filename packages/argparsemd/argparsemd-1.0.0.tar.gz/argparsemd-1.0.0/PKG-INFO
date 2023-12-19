@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: argparsemd
+Version: 1.0.0
+Summary: Add markdown help to ArgumentParser instances
+Home-page: https://varkenvarken.github.io/argparsemd/
+Author: varkenvarken
+Author-email: test@example.com
+License: GPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# argparsemd
+
+A package that extends Python `argparse.ArgumentParser` with Markdown help.
+
