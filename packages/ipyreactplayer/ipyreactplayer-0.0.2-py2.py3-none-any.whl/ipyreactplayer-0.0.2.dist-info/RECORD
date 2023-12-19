@@ -1,0 +1,11 @@
+ipyreactplayer/__init__.py,sha256=eNPqbBNzAvM3BrLhBZKP3hEvQJ_fVDMhAFDPRnH_lgE,80
+ipyreactplayer/_version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+ipyreactplayer/player.py,sha256=z2fSgDF_BvooIEbX1la9Kh65o15au-a1nEkq3aqA_hI,1524
+ipyreactplayer/player.tsx,sha256=t8GNZikzrkh1rqdrSc2oFW3ZUHvssFGqgsbNUBm42Kg,2327
+ipyreactplayer-0.0.2.data/data/share/jupyter/voila/templates/ipyreactplayer/static/popout.html,sha256=VsVekqDVMY02p6_K2v5TXfbfohYla8tXuhEqn0gjeyk,237
+ipyreactplayer-0.0.2.data/data/share/jupyter/voila/templates/ipyreactplayer/static/popout.js,sha256=-01cPI1bPWFTgjQl4h3VwveltuzKtlRvDH9qgm3akAs,2452
+ipyreactplayer-0.0.2.dist-info/LICENSE,sha256=aThuRk_y_TE5K7wxP0Lrkt3xyJ9No7u39hugQrmOqfo,1069
+ipyreactplayer-0.0.2.dist-info/METADATA,sha256=z0wShVMeLLw5wzdx7stKgSC2tQnyi2XGOyHtVEPR6g4,388
+ipyreactplayer-0.0.2.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+ipyreactplayer-0.0.2.dist-info/top_level.txt,sha256=bwHMeNt6qIg8MBwMoNrcCZmu_712pcufiNG0Zfb-S2c,15
+ipyreactplayer-0.0.2.dist-info/RECORD,,
