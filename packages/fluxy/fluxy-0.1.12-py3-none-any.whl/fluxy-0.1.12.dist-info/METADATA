@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fluxy
+Version: 0.1.12
+Requires-Dist: click
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+
