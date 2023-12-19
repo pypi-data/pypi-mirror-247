@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Faizur-WAF
+Version: 1.0b0
+Summary: A web application firewall module for Flask applications
+Author: Faizur
+Author-email: Faizursearch@gmail.com
+License: MIT
+Description-Content-Type: text/plain
+Requires-Dist: Flask
+Requires-Dist: Flask-Limiter
+Requires-Dist: Werkzeug
+
+
+A web application firewall module for Flask applications.
+
+This module provides security features such as DDoS protection, SQL injection prevention, and additional security headers for Flask web applications.
