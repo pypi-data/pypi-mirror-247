@@ -1,0 +1,2 @@
+[console_scripts]
+json-config-validator = json_config_validator.main:main
