@@ -1,0 +1,3 @@
+recursive-include ustrid *
+global-exclude *.py[cod]
+include VERSION

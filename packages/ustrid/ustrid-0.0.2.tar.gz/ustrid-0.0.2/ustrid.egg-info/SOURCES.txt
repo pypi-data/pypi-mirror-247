@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_ustrid.py
+ustrid/__init__.py
+ustrid/__main__.py
+ustrid.egg-info/PKG-INFO
+ustrid.egg-info/SOURCES.txt
+ustrid.egg-info/dependency_links.txt
+ustrid.egg-info/entry_points.txt
+ustrid.egg-info/not-zip-safe
+ustrid.egg-info/top_level.txt
