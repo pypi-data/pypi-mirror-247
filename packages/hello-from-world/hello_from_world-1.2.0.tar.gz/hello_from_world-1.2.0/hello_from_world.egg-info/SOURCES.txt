@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+hello.txt
+setup.py
+hello_from_file/__init__.py
+hello_from_file/main.py
+hello_from_world.egg-info/PKG-INFO
+hello_from_world.egg-info/SOURCES.txt
+hello_from_world.egg-info/dependency_links.txt
+hello_from_world.egg-info/top_level.txt
