@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: graph-nitta
+Version: 0.0.7
+Summary: graph library wrapping matplotlib
+Project-URL: Homepage, https://github.com/nitta-lab-polymer/graph-nitta
+Project-URL: Issues, https://github.com/nitta-lab-polymer/graph-nitta/issues
+Author-email: Kamono Makoto <chengyaye31@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: pydantic
+Description-Content-Type: text/markdown
+
+# graph-nitta
+
+matplotlibをラップしたグラフライブラリです。
