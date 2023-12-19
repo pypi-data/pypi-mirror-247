@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: standalone001pyarmor
+Version: 0.0.13
+Summary: 一个 Python 混淆工具包
+Home-page: https://github.com/yourusername/standalone001pyarmor
+Author: xiaowen
+Author-email: xiaowenseekjob@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altgraph ==0.17.4
+Requires-Dist: importlib-metadata ==7.0.0
+Requires-Dist: macholib ==1.16.3
+Requires-Dist: packaging ==23.2
+Requires-Dist: pyarmor ==7.7.4
+Requires-Dist: pyinstaller ==6.3.0
+Requires-Dist: pyinstaller-hooks-contrib ==2023.10
+Requires-Dist: standalone001pyarmor ==0.0.12
+Requires-Dist: zipp ==3.17.0
+
+# standalone001pyarmor
+standalone001pyarmor
+
+
+LICENSE：选择一个合适的开源许可证。
+setup.py：用于包安装的设置文件。
+您的代码和任何必要的资源文件。
+
+https://github.com/williampolicy/standalone001pyarmor.git
+
+------
+
+测试流程
+混淆脚本：在命令行中运行 pyarmor pack -e " --onefile" example.py。这会生成一个混淆后的单文件执行程序。
+运行混淆后的程序：在生成的 dist 文件夹中找到混淆后的执行文件，直接运行它。
+2. 发布到 PyPI 的程序包命名与发布流程
+对于测试用途的程序包命名，您可以选择一个具有唯一性且与项目相关的名称。例如，如果您的项目与数据处理相关，可以命名为 DataProcessorTest。对于您提到的 “standalone” 或 “longstand”，这些词汇更多地描述程序的性质而非名称。您可以考虑类似 StandaloneTestPkg 这样的命名。
+
+发布流程
+准备包：确保您的包含有 setup.py 文件，以及其他必需的文件（如 README.md, LICENSE, requirements.txt 等）。
+构建包：运行 python setup.py sdist bdist_wheel 以构建源代码包和 wheel 包。
+上传到 PyPI：使用 twine upload dist/* 命令上传您的包到 PyPI。前提是您已经安装了 Twine (pip install twine) 并且有一个 PyPI 账户。
+3. PyPI 用户测试文档
+用户测试流程
+安装包：通过运行 pip install YourPackageName 来安装您的包。
+测试使用：在 Python 脚本中导入您的包，并尝试调用其中的函数或类，例如 from yourpackage import yourmodule 然后 yourmodule.yourfunction()。
+验证功能：确保调用的函数或类表现出预期的行为。
+
+冲突
+---
+
+python3 -m venv ./sa001_env
+source ./sa001_env/bin/activate
+
+export PS1="\[\033[01;32m\]\W \$ \[\033[00m\]"
+
+export PS1="\[\033[01;32m\]\W\[\033[00m\](\$(basename \"${VIRTUAL_ENV}\")) \$ "
+export PS1="\[\033[01;32m\]\$(if [[ -n \$VIRTUAL_ENV ]]; then echo \($(basename \$VIRTUAL_ENV)\) ; fi)\[\033[00m\]\W \$ "
+export PS1="(\$(basename \"${VIRTUAL_ENV}\")) \[\033[01;32m\]\W\[\033[00m\]\$ "
+
+
+deactivate
+
+
+export PS1="\$(basename \"${VIRTUAL_ENV}\")-\[\033[01;32m\]\W\[\033[00m\]\$ "
+
+
+当您激活一个虚拟环境时，命令行提示符通常会显示虚拟环境的名称，以便您知道自己正在该环境中工作。这确实会使提示符变得较长。为了简化提示符，您可以临时更改命令行的提示符（PS1环境变量）。
+
+在 bash 中，您可以通过如下方式修改：
+
+```bash
+export PS1="(\W) \$ "
+```
+
+这将设置提示符为当前工作目录的基本名称（`\W`），然后是一个美元符号和一个空格。例如，如果您处于名为 `standalone001pyarmorWorkspace_env` 的目录中，提示符将显示为 `(standalone001pyarmorWorkspace_env) $`。
+如果您想要更多自定义，PS1 变量支持多种选项，例如：
+- `\u`：当前用户名
+- `\h`：主机名的第一部分
+- `\W`：当前工作目录的基本名称
+- `\w`：当前工作目录的完整路径
+- `\t`：当前时间（24小时制）
+
+例如，如果您只想显示当前工作目录和一个美元符号，可以使用：
+
+```bash
+export PS1="\W \$ "
+```
+
+请注意，这些更改仅适用于当前的终端会话。关闭终端或开始新的会话时，提示符将恢复为默认设置。如果您想永久更改提示符，需要修改您的 shell 配置文件（如 `~/.bashrc` 或 `~/.bash_profile`），并在其中添加上述 `export PS1` 命令。
+
+--------您的需求包含几个部分，我会逐一解答：
+
+### 1. PyArmor 最简单的测试
+
+PyArmor 是一个 Python 代码混淆工具，用于保护 Python 代码不被轻易阅读或修改。进行最简单的测试，您可以遵循以下步骤：
+
+#### 测试准备
+- 安装 PyArmor：在命令行中运行 `pip install pyarmor`。
+- 准备一个简单的 Python 脚本，比如 `example.py`，内容可以是简单的打印语句，如 `print("Hello, PyArmor!")`。
+
+#### 测试流程
+1. 混淆脚本：在命令行中运行 `pyarmor pack -e " --onefile" example.py`。这会生成一个混淆后的单文件执行程序。
+2. 运行混淆后的程序：在生成的 `dist` 文件夹中找到混淆后的执行文件，直接运行它。
+
+### 2. 发布到 PyPI 的程序包命名与发布流程
+
+对于测试用途的程序包命名，您可以选择一个具有唯一性且与项目相关的名称。例如，如果您的项目与数据处理相关，可以命名为 `DataProcessorTest`。对于您提到的 “standalone” 或 “longstand”，这些词汇更多地描述程序的性质而非名称。您可以考虑类似 `StandaloneTestPkg` 这样的命名。
+
+#### 发布流程
+1. 准备包：确保您的包含有 `setup.py` 文件，以及其他必需的文件（如 `README.md`, `LICENSE`, `requirements.txt` 等）。
+2. 构建包：运行 `python setup.py sdist bdist_wheel` 以构建源代码包和 wheel 包。
+3. 上传到 PyPI：使用 `twine upload dist/*` 命令上传您的包到 PyPI。前提是您已经安装了 Twine (`pip install twine`) 并且有一个 PyPI 账户。
+
+### 3. PyPI 用户测试文档
+
+#### 用户测试流程
+1. 安装包：通过运行 `pip install YourPackageName` 来安装您的包。
+2. 测试使用：在 Python 脚本中导入您的包，并尝试调用其中的函数或类，例如 `from yourpackage import yourmodule` 然后 `yourmodule.yourfunction()`。
+3. 验证功能：确保调用的函数或类表现出预期的行为。
+
+这些步骤提供了一个基本的框架来进行您的测试。您可能需要根据您具体的项目需求来调整这些步骤。
+
+--------
+
+# 关于发包的包裹说明
+
+
+
+
+from setuptools import setup, find_packages
+
+setup(
+    name='standalone001pyarmor',
+    version='0.0.12',
+    packages=find_packages(),
+    package_data={
+        # 包含 core 目录下的 pytransform 文件
+         'standalone001pyarmor': [
+         'core/*', 
+         'dist/*', 
+         'dist/test_fn001add_dist.py',
+         'core/exfn001add.py',
+         'dist/pytransform/*'],
+        # 如果有其他需要包含的文件，例如混淆后的代码和测试文件
+        # 'standalone001pyarmor.core': ['exfn001add.py', 'test_fn001add.py'],
+    },
+    description='一个 Python 混淆工具包',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    author='xiaowen',
+    author_email='xiaowenseekjob@gmail.com',
+    url='https://github.com/yourusername/standalone001pyarmor',
+    install_requires=open('requirements.txt').read().splitlines(),
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+)
+----似乎需要将，（packages=find_packages(),
+    package_data={
+        # 包含 core 目录下的 pytransform 文件
+         'standalone001pyarmor': [
+         'core/*', 
+         'dist/*', 
+         'dist/test_fn001add_dist.py',
+         'core/exfn001add.py',
+         'dist/pytransform/*'],
+        # 如果有其他需要包含的文件，例如混淆后的代码和测试文件
+        # 'standalone001pyarmor.core': ['exfn001add.py', 'test_fn001add.py'],
+    },）直接衔接在函数之后，才可生效！！！！ 
+-----well done
