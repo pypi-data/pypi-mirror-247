@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: syntheseus-chemformer
+Version: 0.1.1
+Summary: Fork of Chemformer for use in the syntheseus library
+Home-page: https://github.com/kmaziarz/Chemformer
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: pytorch-lightning ==1.9.4
+Requires-Dist: syntheseus-PySMILESutils
+
