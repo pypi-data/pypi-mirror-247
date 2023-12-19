@@ -1,0 +1,6 @@
+README.md
+setup.py
+azfuncextbase.egg-info/PKG-INFO
+azfuncextbase.egg-info/SOURCES.txt
+azfuncextbase.egg-info/dependency_links.txt
+azfuncextbase.egg-info/top_level.txt
