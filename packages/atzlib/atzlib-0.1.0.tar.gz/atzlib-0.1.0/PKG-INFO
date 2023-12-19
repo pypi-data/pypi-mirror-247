@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: atzlib
+Version: 0.1.0
+Summary: My python codes.
+License: MIT
+Author: jhlee29
+Author-email: leejinha829@gmail.com
+Requires-Python: ==3.11.4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# atzlib
+
+Bunch of python codes.
+Test project to learn how to manage pypi library.
+
+LINK: <https://pypi.org/manage/project/atzlib/releases/>
+
+Build order
+
+1. $ python setup.py sdist bdist_wheel
+2. $ python -m twine upload dist/*
+
+TODO: import test
+
