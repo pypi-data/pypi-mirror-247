@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/bookstack/__init__.py
+src/bookstack/__version__.py
+src/bookstack/models.py
+src/bookstack.egg-info/PKG-INFO
+src/bookstack.egg-info/SOURCES.txt
+src/bookstack.egg-info/dependency_links.txt
+src/bookstack.egg-info/requires.txt
+src/bookstack.egg-info/top_level.txt

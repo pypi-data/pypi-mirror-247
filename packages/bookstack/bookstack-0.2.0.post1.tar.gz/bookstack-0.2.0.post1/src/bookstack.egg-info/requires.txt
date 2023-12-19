@@ -1,0 +1,8 @@
+requests<3,>=2.18
+cached_property<2,>=1.5
+inflection==0.4
+
+[dev]
+bump2version
+setuptools
+twine
