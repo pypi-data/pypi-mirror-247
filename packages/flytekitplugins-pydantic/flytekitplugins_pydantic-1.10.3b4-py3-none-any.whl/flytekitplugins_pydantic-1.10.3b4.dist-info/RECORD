@@ -1,0 +1,12 @@
+flytekitplugins_pydantic-1.10.3b4-py3.12-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/pydantic/__init__.py,sha256=cMDz53cRSBYCfOeYVHV6bc0gm1Krgp3EK70bldFlJYU,268
+flytekitplugins/pydantic/basemodel_transformer.py,sha256=TKVCkOh_r0SkEhn6o_3gv7nQ44Nk4gwZ8JAtVWowM3E,2533
+flytekitplugins/pydantic/commons.py,sha256=-wsX_EBEP-_yE5fG1m8IsRq4W4Xvmvj4QHiczGegv7c,1018
+flytekitplugins/pydantic/deserialization.py,sha256=5wYZNEUVX-z3C3GF2LHaCYSWsYZohp1upWeAscqLpCA,6201
+flytekitplugins/pydantic/serialization.py,sha256=Bs3ZuE3sdYA4Q6TyjCSsnCuqfJkFaUCFzRvhpPo65ow,4664
+flytekitplugins_pydantic-1.10.3b4.dist-info/METADATA,sha256=Z07NPmgn0CSOFO6YbUVxlZ7JPecVQowR35nMGXHBTxc,1822
+flytekitplugins_pydantic-1.10.3b4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+flytekitplugins_pydantic-1.10.3b4.dist-info/entry_points.txt,sha256=mUvHjsGL8uqxBu2uofOWWuEHYxsljLVigF6Cmf0LStw,55
+flytekitplugins_pydantic-1.10.3b4.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_pydantic-1.10.3b4.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_pydantic-1.10.3b4.dist-info/RECORD,,
