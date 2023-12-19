@@ -1,0 +1,6 @@
+numpy
+fairseq
+cached-path
+click
+torchaudio
+pytorch-lightning
