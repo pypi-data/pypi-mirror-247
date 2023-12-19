@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ipyreactplayer
+Version: 0.0.1
+Home-page: https://github.com/seidlr/ipyreactplayer
+Author: Robert Seidl
+Author-email: robertseidl425@gmail.com
+License-File: LICENSE
+Requires-Dist: ipywidgets >=7.7
+Requires-Dist: ipyreact >=0.3.0
+Requires-Dist: voila >=0.5.0
+Provides-Extra: test
+Requires-Dist: solara[pytest] ; extra == 'test'
+
