@@ -1,0 +1,3 @@
+# requirements.txt
+# Dependencies are maintained in setup.cfg
+-e .
