@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+visual_decimal.egg-info/PKG-INFO
+visual_decimal.egg-info/SOURCES.txt
+visual_decimal.egg-info/dependency_links.txt
+visual_decimal.egg-info/top_level.txt
+visualdecimal/__init__.py
+visualdecimal/expression.py
+visualdecimal/expression_test.py
