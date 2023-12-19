@@ -1,0 +1,11 @@
+pytest_minio_mock/__init__.py,sha256=-ZiaIskS2ymBEcaP6kY8LXLFFOIR4eDkMrw6_pSl-mU,54
+pytest_minio_mock/plugin.py,sha256=o4nBtSTwYtqGtF31g4WfRsTSdwW2Jn6Gm8gXrM_3B50,5647
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=PddKlGTAerP3TEhkR6YYWLsl7_XT1vYCzvhS-g7Txcc,48
+tests/test_minio_mock.py,sha256=7nBPyZfcx6oPFCZZqsMb6PlM246wHeLeNjYdOtjc1V8,2874
+pytest_minio_mock-0.1.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_minio_mock-0.1.5.dist-info/METADATA,sha256=3fhgt8r1LaVuHzLo_qwKrfWLLokrkCx-Awa7cxenqYU,3191
+pytest_minio_mock-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_minio_mock-0.1.5.dist-info/entry_points.txt,sha256=7fQxz3dEUtH-j4u8JYCNhh8JEvAPjPixopYowTjLHI0,56
+pytest_minio_mock-0.1.5.dist-info/top_level.txt,sha256=b_Elgk6a5sANCNX4uBYPGUVy7R6yOL-9TuVEVMFFGmk,24
+pytest_minio_mock-0.1.5.dist-info/RECORD,,
