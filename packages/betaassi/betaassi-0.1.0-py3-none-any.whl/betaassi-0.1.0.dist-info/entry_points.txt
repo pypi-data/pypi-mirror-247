@@ -1,0 +1,3 @@
+[console_scripts]
+betaassi-server = openai_session_server.server:main
+
