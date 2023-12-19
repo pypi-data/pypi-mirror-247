@@ -1,0 +1,6 @@
+setup.py
+Netflix_scraper.egg-info/PKG-INFO
+Netflix_scraper.egg-info/SOURCES.txt
+Netflix_scraper.egg-info/dependency_links.txt
+Netflix_scraper.egg-info/not-zip-safe
+Netflix_scraper.egg-info/top_level.txt
