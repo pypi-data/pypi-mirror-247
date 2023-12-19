@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: standalone002pyarmor
+Version: 0.0.7
+Summary: 一个 Python 混淆工具包
+Home-page: https://github.com/yourusername/standalone001pyarmor
+Author: xiaowen
+Author-email: xiaowenseekjob@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: altgraph ==0.17.4
+Requires-Dist: importlib-metadata ==7.0.0
+Requires-Dist: macholib ==1.16.3
+Requires-Dist: packaging ==23.2
+Requires-Dist: pyarmor ==7.7.4
+Requires-Dist: pyinstaller ==6.3.0
+Requires-Dist: pyinstaller-hooks-contrib ==2023.10
+Requires-Dist: zipp ==3.17.0
+
+# standalone002pyarmorWorkspace
+standalone002pyarmorWorkspace
+
+- 完成git 
+- ini
+- 虚拟环境
+= 准备 —0.command.md
+- 安装程序。 
+- requirement.txt
