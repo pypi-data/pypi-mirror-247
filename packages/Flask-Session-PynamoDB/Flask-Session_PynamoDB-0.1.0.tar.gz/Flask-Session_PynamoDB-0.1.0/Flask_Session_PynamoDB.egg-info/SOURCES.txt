@@ -1,0 +1,9 @@
+LICENSE.rst
+README.rst
+pyproject.toml
+setup.py
+Flask_Session_PynamoDB.egg-info/PKG-INFO
+Flask_Session_PynamoDB.egg-info/SOURCES.txt
+Flask_Session_PynamoDB.egg-info/dependency_links.txt
+Flask_Session_PynamoDB.egg-info/requires.txt
+Flask_Session_PynamoDB.egg-info/top_level.txt
