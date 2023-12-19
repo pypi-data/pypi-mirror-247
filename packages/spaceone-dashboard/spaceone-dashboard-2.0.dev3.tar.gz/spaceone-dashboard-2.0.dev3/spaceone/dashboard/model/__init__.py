@@ -1,0 +1,2 @@
+from spaceone.dashboard.model.dashboard_model import Dashboard
+from spaceone.dashboard.model.dashboard_version_model import DashboardVersion
