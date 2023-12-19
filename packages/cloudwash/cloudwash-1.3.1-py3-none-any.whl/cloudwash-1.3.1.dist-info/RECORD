@@ -1,0 +1,17 @@
+cloudwash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudwash/cli.py,sha256=4VHzmABWCY9CXuwQpd0799WuPGIeRZMjpvolHdan4JE,4557
+cloudwash/client.py,sha256=-LYzEhhAOWhMXkZBMy85sugLLiadxkRyl7Ysqb4XKVc,1734
+cloudwash/config.py,sha256=p1JVKMF-bXbhP3uSJSWWf8jEp-y4PNSE_R86_m_jBTU,921
+cloudwash/logger.py,sha256=Is7K0HvnGVfh7NX6BYhjaE57ugBFjN_EIqhOUmdWYDY,490
+cloudwash/utils.py,sha256=IynrhMOuI9pa1KESIHshp-YatMSr50nOzm2ynx_7IVM,4033
+cloudwash/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudwash/providers/aws.py,sha256=qBzWxNTPD--dh6NU9wIyiTInehCK0jifOgoaMwKHCBY,6528
+cloudwash/providers/azure.py,sha256=tf5NAK0GYy--xR03MYANffqvkChEQI77ElP5g-bS9jI,8467
+cloudwash/providers/gce.py,sha256=YhMZ1d3bY0lIX8XwbbwacHBhbI6XFqhKU1GqVD6Law0,2495
+cloudwash/providers/vmware.py,sha256=KCTkip5HH-5rnMuPyRqJuObRkH5KV4m4eapJM7GFb-Q,2130
+cloudwash-1.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloudwash-1.3.1.dist-info/METADATA,sha256=-GXNi01yVz4EEeZ2Boy5YnkVDXrLAcyAX6-n-V7qG1w,7559
+cloudwash-1.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cloudwash-1.3.1.dist-info/entry_points.txt,sha256=Q0FBU9SuHj_8zgQr15UOZn6ob8AdnYEObdAoIgMIOpc,58
+cloudwash-1.3.1.dist-info/top_level.txt,sha256=AMr_uKdTzFxLoTPsETjHO0qwIfh8NSg3oKe12QfRpCI,10
+cloudwash-1.3.1.dist-info/RECORD,,
