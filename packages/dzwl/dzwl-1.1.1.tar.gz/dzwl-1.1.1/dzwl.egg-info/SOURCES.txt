@@ -1,0 +1,10 @@
+setup.py
+dzwl.egg-info/PKG-INFO
+dzwl.egg-info/SOURCES.txt
+dzwl.egg-info/dependency_links.txt
+dzwl.egg-info/top_level.txt
+sdxw1/__init__.py
+sdxw1/airtest.py
+sdxw1/fun.py
+sdxw1/requests.py
+sdxw1/yaml.py
