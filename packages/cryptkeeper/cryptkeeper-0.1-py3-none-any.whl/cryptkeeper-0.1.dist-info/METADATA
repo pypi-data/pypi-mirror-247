@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cryptkeeper
+Version: 0.1
+Summary: Package for predicting functional components of DNA sequences
+Home-page: https://github.com/barricklab/cryptkeeper
+Author: Barrick Lab
+Author-email: jbarrick@cm.utexas.edu
+Project-URL: Bug Tracker, https://github.com/barricklab/cryptkeeper/issues
+Project-URL: Source Code, https://github.com/barricklab/cryptkeeper
+Keywords: DNA,RNA,Cryptkeeper,Barrick,RBS,Biology,Bio
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: ostir
+Requires-Dist: rhotermpredict
+Requires-Dist: promotercalculator
+Requires-Dist: plotly
+Requires-Dist: bokeh
+
