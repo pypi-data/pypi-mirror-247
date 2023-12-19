@@ -1,0 +1,221 @@
+import os
+import re
+import yaml
+import os
+import sys
+import click
+import pathlib
+import json
+import logging
+import calendar
+import time
+import pathlib
+
+from pathlib import Path
+from datetime import datetime
+from rich.console import Console
+
+from .file_utils import calculate_md5, get_file_creation_date, get_file_list, get_file_size, get_line_count
+
+DEFAULT_ISDIR = False
+
+DEFAULT_NO_DETAILS = False
+
+DEFAULT_OUTDIR = os.path.join(
+    '/tmp',
+    os.path.splitext(os.path.basename(__file__))[0],
+    str(datetime.today().strftime('%Y-%m-%d-%H%M%S'))
+)
+
+DEFAULT_CONFIG_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    'conf',
+    'config.yaml'
+)
+
+
+DEFAULT_LOGGING_FORMAT = "%(levelname)s : %(asctime)s : %(pathname)s : %(lineno)d : %(message)s"
+
+DEFAULT_LOGGING_LEVEL = logging.INFO
+
+DEFAULT_VERBOSE = True
+
+
+error_console = Console(stderr=True, style="bold red")
+
+console = Console()
+
+def profile_directory(indir: str, no_details: bool = False) -> None:
+    file_list = get_file_list(indir)
+
+    print(f"Found the following '{len(file_list)}' files:")
+
+    for f in file_list:
+        profile_file(f, no_details)
+        # if not no_details:
+        #     print("\n")
+
+def profile_file(infile: str, no_details: bool = False) -> None:
+    console.print(f"[bold green]{os.path.realpath(infile)}[/]")
+    if not no_details:
+        checksum = calculate_md5(infile)
+        date_created = get_file_creation_date(infile)
+        bytesize = get_file_size(infile)
+        line_count = get_line_count(infile)
+        console.print(f"[blue]md5sum:[/] {checksum}")
+        console.print(f"[blue]date-created/modified:[/] {date_created}")
+        console.print(f"[blue]size:[/] {bytesize}")
+        console.print(f"[blue]line-count:[/] {line_count}")
+
+
+def check_infile_status(infile: str = None, extension: str = None) -> None:
+    """Check if the file exists, if it is a regular file and whether it has content.
+
+    Args:
+        infile (str): the file to be checked
+
+    Raises:
+        None
+    """
+
+    error_ctr = 0
+
+    if infile is None or infile == '':
+        error_console.print(f"'{infile}' is not defined")
+        error_ctr += 1
+    else:
+        if not os.path.exists(infile):
+            error_ctr += 1
+            error_console.print(f"'{infile}' does not exist")
+        else:
+            if not os.path.isfile(infile):
+                error_ctr += 1
+                error_console.print(f"'{infile}' is not a regular file")
+            if os.stat(infile).st_size == 0:
+                error_console.print(f"'{infile}' has no content")
+                error_ctr += 1
+            if extension is not None and not infile.endswith(extension):
+                error_console.print(f"'{infile}' does not have filename extension '{extension}'")
+                error_ctr += 1
+
+    if error_ctr > 0:
+        error_console.print(f"Detected problems with input file '{infile}'")
+        sys.exit(1)
+
+
+def find_most_recent_version_directory(directory: str, dir_pattern: str):
+    # Get a list of all files in the directory
+    all_files = os.listdir(directory)
+
+    if not all_files:
+        print(f"Directory '{directory}' is empty.")
+        return None
+
+    # Create a dictionary to store file paths and their creation times
+    dir_times = {}
+
+    if dir_pattern:
+        # Filter files based on the provided pattern and extension
+        matching_dirs = [file for file in all_files if re.match(dir_pattern, file)]
+    else:
+        matching_dirs = [file for file in all_files]
+
+
+    if not matching_dirs:
+        print(f"No matching directories found in directory '{directory}'.")
+        return None
+
+    for dir in matching_dirs:
+        dir_path = os.path.join(directory, dir)
+
+        # Check if it's a dir (not a directory)
+        if os.path.isdir(dir_path):
+            # Get the dir creation time (Linux timestamp)
+            creation_time = os.path.getctime(dir_path)
+            # Store the dir path and creation time in the dictionary
+            dir_times[dir_path] = creation_time
+
+    if not dir_times:
+        print(f"No valid dirs found in the directory '{directory}'.")
+        return None
+
+    # Find the dir with the highest creation time
+    most_recent_dir = max(dir_times, key=dir_times.get)
+
+    return most_recent_dir
+
+
+@click.command()
+@click.option('--config_file', type=click.Path(exists=True), help=f"The configuration file for this project - default is '{DEFAULT_CONFIG_FILE}'")
+@click.option('--extension', help="Optional: the filename extension to filter for")
+@click.option('--indir', help="Optional: the input directory to check for assets")
+@click.option('--logfile', help="The log file")
+@click.option('--no_details', is_flag=True, help=f"Optional: If specified, will not show file details - default is '{DEFAULT_NO_DETAILS}'")
+@click.option('--outdir', help="The default is the current working directory - default is '{DEFAULT_OUTDIR}'")
+@click.option('--outfile', help="The output final report file")
+@click.option('--pattern', help="Optional: the filename pattern to filter for")
+@click.option('--verbose', is_flag=True, help=f"Will print more info to STDOUT - default is '{DEFAULT_VERBOSE}'")
+def main(config_file: str, extension: str, indir: str, logfile: str, no_details: bool, outdir: str, outfile: str, pattern: str, verbose: bool):
+    """Find most recent set of assets in specified directory."""
+    error_ctr = 0
+
+    if error_ctr > 0:
+        sys.exit(1)
+
+    if config_file is None:
+        config_file = DEFAULT_CONFIG_FILE
+        console.print(f"[yellow]--config_file was not specified and therefore was set to '{config_file}'[/]")
+
+    if indir is None:
+        indir = os.path.abspath(os.getcwd())
+        console.print(f"[yellow]--indir was not specified and therefore was set to '{indir}'[/]")
+
+    if no_details is None:
+        no_details = DEFAULT_NO_DETAILS
+        console.print(f"[yellow]--no_details was not specified and therefore was set to '{no_details}'[/]")
+
+    if outdir is None:
+        outdir = DEFAULT_OUTDIR
+        console.print(f"[yellow]--outdir was not specified and therefore was set to '{outdir}'[/]")
+
+
+    if not os.path.exists(outdir):
+        pathlib.Path(outdir).mkdir(parents=True, exist_ok=True)
+
+        console.print(f"[yellow]Created output directory '{outdir}'[/]")
+
+    if logfile is None:
+        logfile = os.path.join(
+            outdir,
+            os.path.splitext(os.path.basename(__file__))[0] + '.log'
+        )
+        console.print(f"[yellow]--logfile was not specified and therefore was set to '{logfile}'[/]")
+
+
+    logging.basicConfig(
+        filename=logfile,
+        format=DEFAULT_LOGGING_FORMAT,
+        level=DEFAULT_LOGGING_LEVEL,
+    )
+
+    check_infile_status(config_file, "yaml")
+
+    logging.info(f"Will load contents of config file '{config_file}'")
+    config = yaml.safe_load(Path(config_file).read_text())
+
+    logging.info(f"{indir=}")
+    item = find_most_recent_version_directory(
+        directory=indir,
+        dir_pattern=pattern,
+    )
+    if item is not None:
+        print(f"Found this latest directory: {item}")
+        profile_directory(item, no_details=no_details)
+
+    print(f"The log file is '{logfile}'")
+    console.print(f"[bold green]Execution of '{os.path.abspath(__file__)}' completed[/]")
+
+
+if __name__ == "__main__":
+    main()
+
