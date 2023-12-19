@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: standalone002pyarmor
+Version: 0.0.19
+Summary: 一个 Python 混淆工具包
+Home-page: https://github.com/yourusername/standalone001pyarmor
+Author: xiaowen
+Author-email: xiaowenseekjob@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# standalone002pyarmorWorkspace
+standalone002pyarmorWorkspace
+
+- 完成git 
+- ini
+- 虚拟环境
+= 准备 —0.command.md
+- 安装程序。 
+- requirement.txt
