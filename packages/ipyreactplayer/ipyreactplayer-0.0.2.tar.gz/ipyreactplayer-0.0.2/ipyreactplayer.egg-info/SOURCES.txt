@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ipyreactplayer/__init__.py
+ipyreactplayer/_version.py
+ipyreactplayer/player.py
+ipyreactplayer/player.tsx
+ipyreactplayer.egg-info/PKG-INFO
+ipyreactplayer.egg-info/SOURCES.txt
+ipyreactplayer.egg-info/dependency_links.txt
+ipyreactplayer.egg-info/requires.txt
+ipyreactplayer.egg-info/top_level.txt
+template/static/popout.html
+template/static/popout.js
