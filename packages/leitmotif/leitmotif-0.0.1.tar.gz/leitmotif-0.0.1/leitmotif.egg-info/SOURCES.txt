@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+leitmotif.egg-info/PKG-INFO
+leitmotif.egg-info/SOURCES.txt
+leitmotif.egg-info/dependency_links.txt
+leitmotif.egg-info/not-zip-safe
+leitmotif.egg-info/requires.txt
+leitmotif.egg-info/top_level.txt
+motiflets/__init__.py
+motiflets/competitors.py
+motiflets/motiflets.py
+motiflets/plotting.py
+tests/test_univariate.py
