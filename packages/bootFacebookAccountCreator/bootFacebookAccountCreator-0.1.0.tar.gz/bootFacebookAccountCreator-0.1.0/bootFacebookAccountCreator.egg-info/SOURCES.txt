@@ -1,0 +1,8 @@
+setup.py
+bootFacebookAccountCreator.egg-info/PKG-INFO
+bootFacebookAccountCreator.egg-info/SOURCES.txt
+bootFacebookAccountCreator.egg-info/dependency_links.txt
+bootFacebookAccountCreator.egg-info/requires.txt
+bootFacebookAccountCreator.egg-info/top_level.txt
+botFacebookAccountCreator/__init__.py
+botFacebookAccountCreator/facebook.py
