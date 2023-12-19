@@ -1,0 +1,9 @@
+.venv
+.mypy_cache
+*.egg-info
+*.pyc
+*.orig
+.pytest_cache
+.ropeproject
+build
+dist

@@ -1,0 +1,14 @@
+python-lsp-server>=1.4.0
+black>=23.11.0
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+isort>=5.0
+flake8
+pre-commit
+pytest
+mypy
+types-pkg_resources
+types-setuptools
