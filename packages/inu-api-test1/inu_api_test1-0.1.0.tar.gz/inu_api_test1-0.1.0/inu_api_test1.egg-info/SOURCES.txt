@@ -1,0 +1,8 @@
+README.md
+setup.py
+inu_api_test1/__init__.py
+inu_api_test1/test.py
+inu_api_test1.egg-info/PKG-INFO
+inu_api_test1.egg-info/SOURCES.txt
+inu_api_test1.egg-info/dependency_links.txt
+inu_api_test1.egg-info/top_level.txt
