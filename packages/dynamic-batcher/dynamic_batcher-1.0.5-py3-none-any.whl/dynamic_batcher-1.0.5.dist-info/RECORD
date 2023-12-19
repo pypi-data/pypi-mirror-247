@@ -1,0 +1,11 @@
+dynamic_batcher/__init__.py,sha256=FzfvouaVpjqohBvwFMqmSGPicZGCimUHvnR2S24YYmY,434
+dynamic_batcher/__main__.py,sha256=sQx9rL5jwt5Rh_1Wai2eurElMTlv0VpAnW6QDCfGcNM,2892
+dynamic_batcher/batcher.py,sha256=El_LGAOSMTTIONk_D1139oRSCW_1WKSvH9m_LSmpfCE,16840
+dynamic_batcher/logger.py,sha256=4b7FTD3XIgKhpFaXFyqlIcPfaHwQPibUvzvE_K3U1cM,4311
+dynamic_batcher/redis_engine.py,sha256=eyXIl8h_25NlzYpgE7roVV_vsKaHiKJT6v6sjY_FH08,2917
+dynamic_batcher/types.py,sha256=-0r8yWEttUSMFgun-rSZCqxB5vsF0JbOBRa9N7DwXA8,2114
+dynamic_batcher/validate.py,sha256=GLgLhppGTixSIKMZ-h7ElBeSTCWYL5N-h8AEMr0Jlq0,2294
+dynamic_batcher-1.0.5.dist-info/METADATA,sha256=-Typ6z38XOWTJNI0BVSI7_Ag8wG48tlnLDPdp1DJW2s,6244
+dynamic_batcher-1.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dynamic_batcher-1.0.5.dist-info/top_level.txt,sha256=ItiZ7F4lImxE1jvniksVBTi2Xtth_Kqmqnzj_eyMEJM,16
+dynamic_batcher-1.0.5.dist-info/RECORD,,
