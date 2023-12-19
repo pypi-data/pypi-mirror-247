@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+data.json
+setup.py
+functii_matematice.egg-info/PKG-INFO
+functii_matematice.egg-info/SOURCES.txt
+functii_matematice.egg-info/dependency_links.txt
+functii_matematice.egg-info/top_level.txt
+matematica/__init__.py
+matematica/functii_matematice.py
