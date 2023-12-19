@@ -1,0 +1,14 @@
+run_ivette.py,sha256=csJ8cQ3_ddnq1Hp1JrRjVD9p77mG8RIlAji8xuSJVrk,3696
+ivette/IO_module.py,sha256=YR9M76a1OktBTumTGB7hPEF6oBJFH0JEv4r1CIpLf1s,10634
+ivette/__init__.py,sha256=_i9uokCykPQYlp10BcHIuTtboLtz-eO72dRtqZUG6NE,174
+ivette/file_io_module.py,sha256=uPWmXjIJjcF_cfNLO8EkClXjKCQreBYXriHc46lb_mc,11806
+ivette/load_module.py,sha256=pMF6FemZhufUOM_9NiYIs8PtM_stom8O0LEMlUvspv4,9606
+ivette/run_module.py,sha256=dYgOMUptZ9BvqcBDCJMSSiWVaCDd50qcw9uJ3yPoCPA,11264
+ivette/supabase_module.py,sha256=D-33KuA5ldBBRqXaT8S-oERQVcds-bYBtN3qGkUweFw,12472
+ivette/types.py,sha256=uUcHfR0-zeF_Ix_tJ79N8qngw3Mf8bi0hYgxPggWCb0,972
+ivette-0.2.7.dist-info/LICENSE,sha256=sYhD2VVLltzMzHDFTJ09r3gQLJluCvm6Bq7HmosvntU,1071
+ivette-0.2.7.dist-info/METADATA,sha256=c2yL9jFUGeIqitfOIO3tJaxWYOfj8dT9EHnndHXz-hw,513
+ivette-0.2.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ivette-0.2.7.dist-info/entry_points.txt,sha256=w1L6IRGPRGwKwRU9qFyR5Yb5p6oQpLEBpa1-v3IWFAA,44
+ivette-0.2.7.dist-info/top_level.txt,sha256=Vyp2Gj-704mUziHrsPBzQZPFkyv3LHgINzBAQZ5uoOU,18
+ivette-0.2.7.dist-info/RECORD,,
