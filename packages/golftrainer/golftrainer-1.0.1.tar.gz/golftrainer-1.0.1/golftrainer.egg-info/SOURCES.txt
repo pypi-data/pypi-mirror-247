@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+golftrainer/__init__.py
+golftrainer/__version__.py
+golftrainer/factory.py
+golftrainer/golf_data.py
+golftrainer.egg-info/PKG-INFO
+golftrainer.egg-info/SOURCES.txt
+golftrainer.egg-info/dependency_links.txt
+golftrainer.egg-info/entry_points.txt
+golftrainer.egg-info/requires.txt
+golftrainer.egg-info/top_level.txt
