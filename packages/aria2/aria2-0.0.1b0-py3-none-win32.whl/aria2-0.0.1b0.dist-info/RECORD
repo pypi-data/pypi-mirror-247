@@ -1,0 +1,9 @@
+aria2c/__init__.py,sha256=pHcOYzVV9dpFwZMepSOSszpZdV9vJRXug2AGSdFY1JI,2549
+aria2c/__main__.py,sha256=fglQv79yYh-IBYoRYqcYp6wOpOrVnRZcPtJt5veKGyg,96
+aria2c/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aria2c/bin/aria2c.exe,sha256=ywE2muRxonpOeDYLIuIZYlxcK2l0TZVvSzG2Gv3HRIo,6647808
+aria2-0.0.1b0.dist-info/METADATA,sha256=_ZcZtuEDBpmifEyjOHRBU1AjPXftyo2etmU4UUaDTf0,28492
+aria2-0.0.1b0.dist-info/WHEEL,sha256=saOu0trKIqSd80JqzTIbsbKhwEqVUExILy5QUitrLrU,90
+aria2-0.0.1b0.dist-info/entry_points.txt,sha256=9HlN5izFdeomWV8gkptgifQA3ve1VpjVxQq6Zik9MOs,39
+aria2-0.0.1b0.dist-info/licenses/LICENSE,sha256=uQ7YFQptNxyEt9uqaAzQ6Yk-98JVh2Xh4AkwUT78_js,18072
+aria2-0.0.1b0.dist-info/RECORD,,
