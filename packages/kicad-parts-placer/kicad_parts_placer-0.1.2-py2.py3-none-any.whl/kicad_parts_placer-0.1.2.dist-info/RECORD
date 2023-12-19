@@ -1,0 +1,9 @@
+kicad_parts_placer/__init__.py,sha256=MNcYZwWHXMl46cn8L6DbFGFuSIrUqr9nToVpvqvthyE,147
+kicad_parts_placer/cli.py,sha256=wd2cs2XVdD2TjWFz68qh6y72FM8e5DBBBJE4rxqaGkU,3200
+kicad_parts_placer/kicad_parts_placer.py,sha256=crA4v9emTBW3Zpi7ybk023t8hOfoXRJI71ojr0J5-p8,3731
+kicad_parts_placer-0.1.2.dist-info/LICENSE,sha256=R01wQ-YE_oFhXqlqHHTWEeyUSpGzDDlkyXGKZY4g9Ak,1070
+kicad_parts_placer-0.1.2.dist-info/METADATA,sha256=RKICzb3ChwVh3VIEwnfg7o7ZbU9CRqF_z03EqxAUVGc,4928
+kicad_parts_placer-0.1.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+kicad_parts_placer-0.1.2.dist-info/entry_points.txt,sha256=51L3vj58DBTtag-jGW10VFS1aySQ9pxbUIv944QDQ1Q,68
+kicad_parts_placer-0.1.2.dist-info/top_level.txt,sha256=YfcPUrQJH-sQco_LB_zDLMcmgp3YZDuIaW-QeMwkDcI,19
+kicad_parts_placer-0.1.2.dist-info/RECORD,,
