@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: calcazhurb
+Version: 0.0.6
+Summary: A Calculator package
+Author-email: Andrii Zhurba <andrijzurba79@gmail.com>
+Project-URL: Homepage, https://github.com/TuringCollegeSubmissions/azhurb-DWWP.1.5
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Calculator
+
+This package has a Calculator class that perfroms
+different math operations, such as:
+    
+    - addition
+    - subtraction
+    - multiplication
+    - division
+    - taking (n) root of a number
+    - reset memory to 0
+
+Calculator class has following attributes:
+
+    - number - current number in the calculator
+                that we can manipulate with
+Also, it includes methods:
+    
+    - add(other_number) - adds to our number
+    other number and returns the result
+    - subtract(other_number) - subtracts from our number
+    other number and returns the result
+    - multiply(other_number) - multiplies our number by
+    other number and returns the result
+    - divide(other_number) - divides our number by
+    other number and returns the result
+    - nth_root(other_number) - takes n-th root from
+    our number and returns the result
+    - reset() - sets number to 0 and returns
+    the result
+
+## Installation 
+    pip install calcazhurb
+
+## Usage
+### Create an object
+    >>> from calcazhurb import Calculator
+    >>> calc = Calculator(15.5)
+### Add some number
+    >>> calc.add(5.0)
+    20.5
+### Reset the number to 0
+    >>> calc.reset()
+    0.0
+### Subtract a number
+    >>> calc.subtract(10.5)
+    -10.5
+### Multiply a number
+    >>> calc.multiply(-10.0)
+    105.0
+### Take nth root of a number
+    >>> calc.nth_root(2)
+    10.246950765959598
+## License
+### [MIT](https://choosealicense.com/licenses/mit/)
