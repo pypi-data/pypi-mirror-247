@@ -1,0 +1,10 @@
+fastcore
+pandas
+tabulate
+langchain==0.0.308
+langsmith==0.0.42
+pydantic
+openai>=1.1.1
+shiny
+
+[dev]
