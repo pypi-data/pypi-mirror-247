@@ -1,0 +1,13 @@
+googleaistudio/README.md,sha256=wRPE_cdADkR9TIQlg_gqQSQP_mNTLvc2b-fAgJEo2vc,1809
+googleaistudio/codey.py,sha256=t6NwnYIuIncTSQTOLP2Agew_tuA3u-e3T293uYuvmGA,4287
+googleaistudio/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googleaistudio/geminipro.py,sha256=RNX1ZJX_oqg6WL8_vh8SlBZ_9jTpqlQyoPz8q9iXoOY,11882
+googleaistudio/health_check.py,sha256=9UCVaF7S8HmmfpJvD42vrs4CCHhscFiUitC_hS6Bmu8,11869
+googleaistudio/palm2.py,sha256=Mi17EUThdkVjB5-OHRSOPV3y_FyKVCs9k40fO-C0cKU,4841
+googleaistudio/requirements.txt,sha256=sHMgUjz2_cXnQvOuN1Aa0v2350kPUQCnSFqu-gWoN_g,57
+googleaistudio/utils/prompt_shared_key_bindings.py,sha256=U5SorXSnbkdJendz0NxK4wUGd-O03KDIO91X9Scg8Ro,7771
+googleaistudio-0.0.12.dist-info/METADATA,sha256=ubq2dvRQZTYKTdaKuOiR4ynFAx0yiImA3gfTR6sFdPk,3116
+googleaistudio-0.0.12.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+googleaistudio-0.0.12.dist-info/entry_points.txt,sha256=-OD-slkhZeGV1oDrTFDQtohZ0GqKdFG0UuPoVERRZWY,128
+googleaistudio-0.0.12.dist-info/top_level.txt,sha256=zIWOieUGYDr6_xq2bMZUOZ0gMSd91x_flTSG6MjbHqE,15
+googleaistudio-0.0.12.dist-info/RECORD,,
