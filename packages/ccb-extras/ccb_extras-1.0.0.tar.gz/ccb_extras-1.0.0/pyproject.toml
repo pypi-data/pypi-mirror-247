@@ -1,0 +1,39 @@
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/
+# https://python-poetry.org/docs/pyproject/
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ccb-extras"
+version = "1.0.0"
+description = "Extra tools for Python 3."
+authors = [
+    "Clyde C Brown <clyde.c.brown@pm.me>",
+]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/clydecbrown/ccb-extras"
+keywords = ["utilities", "yaml", "encryption"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+ccb-essentials = "^1.0.1"
+python = "^3.8"
+ruamel-yaml = "^0.18.5"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.7.1"
+pycodestyle = "^2.11.1"
+pylint = "^3.0.3"
+pytest = "^7.4.3"
+setuptools = "^69.0.2"
