@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: goreverselookup
+Version: 1.0.31
+Summary: Python library for Gene Ontology Reverse Lookup
+Author: Aljoša Škorjanc
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.8.3,<4.0.0)
+Requires-Dist: asyncio (>=3.4.2,<4.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.1,<5.0.0)
+Requires-Dist: networkx (>=3.0,<4.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: pytest (>=7.4.1,<8.0.0)
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Requires-Dist: scipy (>=1.10.0,<2.0.0)
+Requires-Dist: statsmodels (>=0.13.4,<0.14.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+This is a test Readme file.
+
+Known limitations:
+When using asynchronous querying for GO term products, if one of the requests inside a batch of requests exceeds the 'goterm_gene_query' timeout value (one of the settings), the entire batch of product queries will fail. This usually happens when the user attempts to collect products of GO terms with millions of more annotated genes. For us, an experimental 'goterm_gene_query' timeout value that successfully queris GO terms with ~1 million annotated genes is 240 seconds.
