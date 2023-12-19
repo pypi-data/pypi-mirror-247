@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: langchain-nvidia-trt
+Version: 0.0.1rc0
+Summary: An integration package connecting TritonTensorRT and LangChain
+Requires-Python: >=3.8.1,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain-core (>=0.0.12)
+Requires-Dist: lint (>=1.2.1,<2.0.0)
+Requires-Dist: protobuf (>=3.5.0,<4.0.0)
+Requires-Dist: tritonclient[all] (>=2.40.0,<3.0.0)
+Requires-Dist: types-protobuf (>=4.24.0.4,<5.0.0.0)
+Description-Content-Type: text/markdown
+
+# langchain-nvidia-trt
+
