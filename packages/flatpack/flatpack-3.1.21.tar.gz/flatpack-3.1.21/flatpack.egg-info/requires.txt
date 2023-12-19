@@ -1,0 +1,6 @@
+cryptography==41.0.7
+gradio==4.8.0
+httpx==0.25.2
+numpy==1.26.2
+toml==0.10.2
+transformers==4.36.0
