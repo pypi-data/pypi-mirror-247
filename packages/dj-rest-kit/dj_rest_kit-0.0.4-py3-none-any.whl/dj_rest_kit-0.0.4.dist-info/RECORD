@@ -1,0 +1,13 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/filters.py,sha256=jQ6wlv6TcuLHRPXCeYBSKzR8Re2dimd6NWeOqOINL8E,368
+src/helper.py,sha256=dZzG-rVi7DpJ4aoTaW--AaVTThAvBG86AzhXE_lJi2s,344
+src/mixins.py,sha256=ZlCATMycHBIVLav1kusTCzXlZrm4fJ5xGdX_b9GhQ0g,1794
+src/pagination.py,sha256=VP9YcFiF28zCL72i7s6KqE9Hb8zS5NlbjlG3Bx-kdfw,898
+src/renderer.py,sha256=vMmoHRdvM23_XonaT8CG5jbosKEDWINoDfX-6a5DKkg,2496
+src/serializers.py,sha256=NhnY1bD0StS22Y-Z9o7b53DNA1uvJdCYo0t9fgtZx_A,4121
+src/setup.py,sha256=4rfOX3GqIIjhregN6J2WL4bTjru6EsbZ1F4_IHy15Lw,1219
+src/views.py,sha256=O1J3MXwkgPAC4cxc1XqE2Did7DA4ypZI1ldYhOijli0,2664
+dj_rest_kit-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dj_rest_kit-0.0.4.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+dj_rest_kit-0.0.4.dist-info/METADATA,sha256=ikt-JtNC1fRein9vIuTyiM2rXzzXwYv-bbEnOaU8exA,1327
+dj_rest_kit-0.0.4.dist-info/RECORD,,
