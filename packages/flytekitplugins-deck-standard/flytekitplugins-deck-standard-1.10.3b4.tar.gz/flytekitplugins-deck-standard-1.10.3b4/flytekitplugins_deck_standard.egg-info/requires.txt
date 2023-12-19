@@ -1,0 +1,6 @@
+flytekit
+markdown
+plotly
+ydata-profiling
+ipywidgets
+pygments
