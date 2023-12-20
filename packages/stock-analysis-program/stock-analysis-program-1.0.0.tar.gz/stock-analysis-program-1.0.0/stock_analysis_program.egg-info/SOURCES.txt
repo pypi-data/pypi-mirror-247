@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+stock_analysis_program.egg-info/PKG-INFO
+stock_analysis_program.egg-info/SOURCES.txt
+stock_analysis_program.egg-info/dependency_links.txt
+stock_analysis_program.egg-info/requires.txt
+stock_analysis_program.egg-info/top_level.txt
