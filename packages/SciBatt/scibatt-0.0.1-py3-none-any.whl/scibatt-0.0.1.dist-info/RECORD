@@ -1,0 +1,11 @@
+scibatt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scibatt/config.py,sha256=EWKx3ijZqm1R8LZHVjCeuJKleA8IjE69rOGQTsAOo4U,169
+scibatt/filters/cycling.py,sha256=ZUvGJmmO1mpl665XfPdOa6CZOOIoZZi_IbcJfA9OgDM,1275
+scibatt/filters/galvanostatic.py,sha256=2xGWX4daZFsl8MfJd4ljHrtR6suMEcpkWFg_vYfWf6E,1602
+scibatt/plotters/galvanostatic.py,sha256=FT2zMg5S5DeR0UoiKjOB4Izz3GCXqUf36sWmGzAXto0,2424
+scibatt/readers/biologic.py,sha256=W6cruGQxTAC3W3cYZ1qtc7CnshDHY_r1zz33QFiIfc4,1975
+scibatt/readers/maccor.py,sha256=Kg7C3VA9HqWvplGmdTZEv7gemq1WX22y2ze-vX3VBF4,2812
+scibatt-0.0.1.dist-info/METADATA,sha256=l9gpvXyCx_ZvX3kgJURe26bo1LZeGEoYINZHJz0Em64,952
+scibatt-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+scibatt-0.0.1.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+scibatt-0.0.1.dist-info/RECORD,,
