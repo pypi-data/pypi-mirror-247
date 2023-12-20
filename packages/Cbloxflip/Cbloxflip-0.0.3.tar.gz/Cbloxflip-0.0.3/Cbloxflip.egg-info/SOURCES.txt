@@ -1,0 +1,10 @@
+LICENCE.txt
+pyproject.toml
+setup.py
+Cbloxflip/__init__.py
+Cbloxflip/bloxflip.py
+Cbloxflip.egg-info/PKG-INFO
+Cbloxflip.egg-info/SOURCES.txt
+Cbloxflip.egg-info/dependency_links.txt
+Cbloxflip.egg-info/requires.txt
+Cbloxflip.egg-info/top_level.txt
