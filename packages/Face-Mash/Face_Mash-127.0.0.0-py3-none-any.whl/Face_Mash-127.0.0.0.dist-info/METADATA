@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Face-Mash
+Version: 127.0.0.0
+Summary: Deep Learning model for fatigue detection
+Author: Murali,Monica
+Keywords: deep learning,drowsiness detection,fatigue analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keras >=2.6.0
+Requires-Dist: opencv-python >=4.5.3
+Requires-Dist: numpy >=1.19.5
+Requires-Dist: tensorflow >=2.13.0
+Requires-Dist: gdown >=4.7.1
+
+# Deep learning model for fatigue detection
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+
+
+##  Meta Information 
+
+- Trained on open source dataset from kaggle
+- Following are the predictable classes
+- Closed(eyes)
+- Open(eyes)
+- no_yawn
+- yawn
+
+
+## Usage
+
+- Make sure you have Python installed in your system.
+- Model file will be saved locally in root directory.
+- Model training info will be explained in medium blog soon.
+
+
+## Example
+
+ ```
+from Face_Mash import Face_Mash
+model_path = 'path/of/model.h5'
+img_path   = 'path/of/img_file'
+prediction = Face_Mash(img_path,model_path)
+
+  ```
