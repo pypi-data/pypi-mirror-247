@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+emulator2df/README.MD
+emulator2df/__init__.py
+emulator2df/requirements.txt
+emulator2df/thirdparty.json
+emulator2df.egg-info/PKG-INFO
+emulator2df.egg-info/SOURCES.txt
+emulator2df.egg-info/dependency_links.txt
+emulator2df.egg-info/requires.txt
+emulator2df.egg-info/top_level.txt

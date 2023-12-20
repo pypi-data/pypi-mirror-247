@@ -1,0 +1,3 @@
+include emulator2df/requirements.txt
+include emulator2df/thirdparty.json
+include emulator2df/README.MD
