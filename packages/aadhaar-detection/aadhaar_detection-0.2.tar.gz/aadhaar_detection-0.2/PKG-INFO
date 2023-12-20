@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aadhaar_detection
+Version: 0.2
+Summary: A library that helps identify Aadhaar cards in images.
+Home-page: https://github.com/GirinathRG/aadhaar_lib
+Author: Girinath
+Author-email: girinathr@simplfin.tech
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: matplotlib
