@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: streamlit-ontology-elements
+Version: 0.1.0
+Summary: Streamlit component that wraps the ontology elements to query, edit and autocomplete ontology-based terms.
+Author: Nils Hoffmann
+Author-email: n.hoffmann@fz-juelich.de
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=1.2
+Requires-Dist: jinja2
+
+# streamlit-ontology-elements
+
+Streamlit component that wraps the ontology elements to query, edit and autocomplete ontology-based terms.
+
+## Installation instructions 
+
+```sh
+pip install streamlit-ontology-elements
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from semlookp_autocomplete import semlookp_autocomplete
+
+value = semlookp_autocomplete()
+
+st.write(value)
