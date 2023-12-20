@@ -1,0 +1,14 @@
+poemail/__init__.py,sha256=0jIy1Z6W9kMrHVATH4SEvhgKpre6R66wGFKneOM_w0A,523
+poemail/api/__init__.py,sha256=FM1imlR9bJSF6TyAIKH4TTfVsNd-iyoVzRAkxoYirAg,223
+poemail/api/base.py,sha256=57KdlCRlh_yRBOHFWYOpoqU5dUn5pNiMQNlSz7-1KXY,1118
+poemail/core/BaseEmail.py,sha256=2mGHoRkMXlH-n5rpoa15K8IiPYot8j_nOcatE7ayyq8,2497
+poemail/core/__init__.py,sha256=R6WX_cTmFHhsAQD-Y9NtbCZ7J6TPdjAxJ8hdTQIxzc8,223
+poemail/lib/Const.py,sha256=mqDrruVrsJ4J_z_3qptx_blXIq7de6LWFRwSw6LzvFs,473
+poemail/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=vUSKWoh5-UQNdyDKIo7GAwSgxX8VLCIZ6A-WvEmSrT4,183
+tests/test_base.py,sha256=3vS81i2TothKMWz8RSfsr5poVO-s825sPl8zDTIlYno,434
+poemail-0.0.2.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+poemail-0.0.2.dist-info/METADATA,sha256=4MwD5Raq6z1ZQp0TNSvPXTs3IuTbJONtMLxUO7lLAg8,4062
+poemail-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+poemail-0.0.2.dist-info/top_level.txt,sha256=FDigJer-Rshh4knJ-Dt6OyQbFTbaGcqFrVIZ49RaCtI,14
+poemail-0.0.2.dist-info/RECORD,,
