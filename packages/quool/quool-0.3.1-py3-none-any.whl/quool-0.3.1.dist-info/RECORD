@@ -1,0 +1,9 @@
+quool/__init__.py,sha256=R39VIgkS4S9rsGSeN_6Kn_C0LYKoEs5wOMn5DbUalkA,449
+quool/backtest.py,sha256=HRsNK7S0LWs_YDuOiEZafEbro9NUYgLNGj8y31UZauk,17902
+quool/collector.py,sha256=paHzU8d0CA53wyejTjpxFu2hg9LiENfKlpEZ_ssfoI4,4993
+quool/database.py,sha256=bAfZz8FNq6yturrjhpZPbJGf5v7ETkdrRCi8XHhW15k,9863
+quool/tools.py,sha256=Sx2sHnQCh-TD_QwFpBE8BUjtJzwxL34feRVZoyX0v0I,7118
+quool-0.3.1.dist-info/METADATA,sha256=Rry0BILxbGVRWqgtLCsqElcY6li5cljI-GNgXwJe25M,1538
+quool-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quool-0.3.1.dist-info/top_level.txt,sha256=55mYDUq6XKhFYQdrOTnrUH22q2y4YNxi-n-qJKzX0Lc,6
+quool-0.3.1.dist-info/RECORD,,
