@@ -1,0 +1,72 @@
+[project]
+name = "pytrans"
+version = "2.1.0"
+authors = [
+  { name = "Carmelo Mordini", email = "carmelo.mordini@gmail.com" },
+]
+description = "Generation of potentials and waveforms for trapped ions"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["python", "trapped ions", "waveforms", "ion transport", "quantum computing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research"
+]
+
+requires-python = ">=3.10"
+dependencies = [
+  "cvxpy>=1.2",
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "nptyping",
+  "tqdm",
+  "colorama",
+  "tabulate"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "autopep8",
+    "flake8",
+    "flake8-pyproject",
+    "black"
+]
+docs = [
+  "mkdocs",
+  "mkdocs-include-markdown-plugin",
+  "mkdocstrings",
+  "mkdocstrings-python"
+]
+
+[project.urls]
+Homepage = "https://github.com/tiqi-group/pytrans"
+Documentation = "https://pytrans.readthedocs.io"
+
+[build-system]
+requires = ["setuptools>=68.1.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[tool.flake8]
+# https://github.com/microsoft/vscode-flake8/issues/135
+max-line-length = 120
+exclude = [
+    ".git",
+    "__pycache__"
+]
+extend-ignore = [
+    "E203"
+]
