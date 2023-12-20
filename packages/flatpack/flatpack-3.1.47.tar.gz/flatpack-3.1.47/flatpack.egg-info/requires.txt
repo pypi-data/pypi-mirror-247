@@ -1,0 +1,7 @@
+cryptography==41.0.7
+fastapi==0.105.0
+httpx==0.25.2
+Pillow==10.0.1
+toml==0.10.2
+transformers==4.31.0
+uvicorn==0.24.0.post1
