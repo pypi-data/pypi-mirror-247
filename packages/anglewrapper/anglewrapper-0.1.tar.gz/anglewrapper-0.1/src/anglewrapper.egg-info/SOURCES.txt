@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/anglewrapper/__init__.py
+src/anglewrapper/wrap.py
+src/anglewrapper.egg-info/PKG-INFO
+src/anglewrapper.egg-info/SOURCES.txt
+src/anglewrapper.egg-info/dependency_links.txt
+src/anglewrapper.egg-info/top_level.txt
+test/test_angles.py
