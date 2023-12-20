@@ -1,0 +1,9 @@
+README.md
+setup.py
+newguy103_pycrypter.egg-info/PKG-INFO
+newguy103_pycrypter.egg-info/SOURCES.txt
+newguy103_pycrypter.egg-info/dependency_links.txt
+newguy103_pycrypter.egg-info/requires.txt
+newguy103_pycrypter.egg-info/top_level.txt
+pycrypter/__init__.py
+pycrypter/_methods.py
