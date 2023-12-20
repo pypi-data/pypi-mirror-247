@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: obse
+Version: 0.0.1
+Summary: Library for Ontology Based System Engineering.
+Home-page: https://github.com/dfriedenberger/obse.git
+Author: Dirk Friedenberger
+Author-email: projekte@frittenburger.de
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
