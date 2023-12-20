@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_ann_deploy.egg-info/PKG-INFO
+yandex_ann_deploy.egg-info/SOURCES.txt
+yandex_ann_deploy.egg-info/dependency_links.txt
+yandex_ann_deploy.egg-info/top_level.txt
