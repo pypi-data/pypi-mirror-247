@@ -1,0 +1,4 @@
+cybersource-rest-client-python>=0.0.36
+django>=3.0
+mitol-django-common
+setuptools
