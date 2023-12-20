@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+./src/payjoin/__init__.py
+./src/payjoin/libpayjoin_ffi.dylib
+./src/payjoin/libpayjoin_ffi.so
+./src/payjoin/payjoin_ffi.dll
+./src/payjoin/payjoin_ffi.py
+payjoin.egg-info/PKG-INFO
+payjoin.egg-info/SOURCES.txt
+payjoin.egg-info/dependency_links.txt
+payjoin.egg-info/not-zip-safe
+payjoin.egg-info/top_level.txt
