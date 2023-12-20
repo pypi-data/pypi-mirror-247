@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: testflocken
+Version: 1.0.1
+Summary: testflocken
+Home-page: https://cameronraysmith.github.io/testflocken/
+License: MIT
+Keywords: tool,library
+Author: testflocken team
+Author-email: team@testflocken.net
+Requires-Python: >=3.11,<4.0
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: rich-click (>=1.7,<2.0)
+Project-URL: Documentation, https://cameronraysmith.github.io/testflocken/
+Project-URL: Repository, https://github.com/cameronraysmith/testflocken
+Description-Content-Type: text/markdown
+
+# testflocken
+
+## structure
+
+<details><summary>tree</summary>
+<p>
+
+```sh
+.
+├── .github
+│   └── workflows
+│       └── ci.yml
+├── testflocken
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── app.py
+│   ├── cli.py
+│   └── py.typed
+├── tests
+│   ├── __init__.py
+│   └── test_app.py
+├── .dockerignore
+├── .env
+├── .envrc
+├── .gitignore
+├── .pre-commit-config.yaml
+├── CHANGELOG.md
+├── Makefile
+├── README.md
+├── flake.lock
+├── flake.nix
+├── poetry.lock
+└── pyproject.toml
+
+5 directories, 20 files
+```
+
+</p>
+</details>
+
