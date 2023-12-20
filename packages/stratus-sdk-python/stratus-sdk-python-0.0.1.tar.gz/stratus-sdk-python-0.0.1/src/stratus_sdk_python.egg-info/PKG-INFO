@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stratus-sdk-python
+Version: 0.0.1
+Summary: Python SDK for Stratus
+Author-email: stratus-team <clunaemail@gmail.com>
+Project-URL: Homepage, https://github.com/stratus-team/sdk-python
+Project-URL: Issues, https://github.com/stratus-team/sdk-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sdk-python
+
+TODO: Publish package
+
+[Python Packaging User Guid](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
