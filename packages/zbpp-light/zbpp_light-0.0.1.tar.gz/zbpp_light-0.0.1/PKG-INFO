@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: zbpp_light
+Version: 0.0.1
+Summary: Zero Bubble Pipeline Parallelism (ZBPP) light weight implementation. For more details refer to https://github.com/sail-sg/zero-bubble-pipeline-parallelism.
+Home-page: https://github.com/sail-sg/zero-bubble-pipeline-parallelism
+Author: Qi Penghui, Wan Xinyi, Huang Guangxing, Lin Min
+Author-email: wanxy@sea.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Light-weight Library of Zero Bubble Pipeline Parallelism
+
+## How to use
+1. Install by `pip install zbpp_light`
+2. Insert the following code snippet to your training script at the very beginning:
+```python
+import zbpp_light
+zbpp_light.patch_megatron()
+
+# Your original training script starts here
+import megatron, etc
+```
+
+## Supported Frameworks
+- [x] Megatron-LM
+- [ ] Megatron-DeepSpeed
+
+## Current Limitations
+- Only supports ZB-H1 schedule, which reduces 2/3 1F1B bubble with same memory and communication cost.
