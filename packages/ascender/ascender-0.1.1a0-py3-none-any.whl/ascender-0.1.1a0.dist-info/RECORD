@@ -1,0 +1,12 @@
+ascender/app.py,sha256=e09mvu7g40zep_TdZG5KV32vOiGBqFjD0LvPcvUNekA,146
+ascender/commands/projects.py,sha256=Uba98UtjqZgc7Wm4Bhlyhi527wuqEDlOZK-8xU1WB_4,1286
+ascender/commands/runner.py,sha256=ZYfmiRdKechzPMOcYCFE25xIT7JnavKz93BOeMTY1Sg,254
+ascender/launch.py,sha256=I4j49uyZDJ-_cY5bYyqiiuv8qJqn56QRTfMmVow1wrg,114
+ascender/logic/projects.py,sha256=1SDtivTG1lsDrkgL0TaQDY3vPrjazP8-SHyY_-Mt-RE,2612
+ascender/logic/runner.py,sha256=xjjgqbBMjpsJwzl2gMRY_DAHIeOlTRC0HPMXTDxvmIQ,1254
+ascender/settings.py,sha256=-Xa5WnBzz2kbOT-4Xwcn5otQHKve08zL5zvkV-L2RtQ,135
+ascender-0.1.1a0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ascender-0.1.1a0.dist-info/METADATA,sha256=QdCLPpUEy6oHM5KmN2f6Wi_KJQa-AgSdqRTHEnVcN7o,1571
+ascender-0.1.1a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ascender-0.1.1a0.dist-info/entry_points.txt,sha256=kNbG-56s4ro4Jc2RqryEVfXl7ydoJqoix6YzShxTKTA,52
+ascender-0.1.1a0.dist-info/RECORD,,
