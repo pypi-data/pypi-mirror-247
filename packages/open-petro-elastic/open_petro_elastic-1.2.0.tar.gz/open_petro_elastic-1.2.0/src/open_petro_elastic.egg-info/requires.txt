@@ -1,0 +1,7 @@
+numpy<2
+scipy
+pyyaml
+pandas
+pydantic
+sympy
+typing_extensions
