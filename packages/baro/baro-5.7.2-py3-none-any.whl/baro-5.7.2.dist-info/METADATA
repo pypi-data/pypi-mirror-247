@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: baro
+Version: 5.7.2
+Summary: Easy and simple loading bar for python.
+Home-page: https://github.com/toolkitr
+Author: baro
+Author-email: toolkitr.dev@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Easy and simple loading bar for python.
+
+```
+CLASSES:
+    baro.thin(total, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.line(total, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.bar(total, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.spin(total, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.spin2(total, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.customspin(total, chars, color_start=fore.GREEN, color_end=fore.BLUE)
+    baro.timed(total, desc='', color_start=fore.GREEN, color_end=fore.BLUE)
+
+FORE, STYLE, BACK:
+    fore.BLACK, fore.RED, fore.GREEN, fore.YELLOW, fore.BLUE, fore.MAGENTA, fore.CYAN, fore.WHITE, fore.RESET
+
+    style.BOLD, style.DIM, style.NORMAL, style.RESET_ALL
+
+    back.BLACK, back.RED, back.GREEN, back.YELLOW, back.BLUE, back.MAGENTA, back.CYAN, back.WHITE, back.RESET
+```
+
+# How to use baro!
+```python
+import baro
+
+baro.thin(100).start().close()
+
+bar = baro.line(100)
+bar.start()
+bar.close()
+
+bar2 = baro.bar(100)
+with bar2 as bar_2:
+    for iterable in bar2:
+        # do something
+        bar_2.update(iterable)
+        bar_2.sleep(0.1)
+
+bar3 = baro.spin(100).start().close()
+
+bar4 = baro.spin2(100).start().close()
+
+bar5 = baro.custom(100, ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']).start().close()
+
+bar6 = baro.timed(100, 'This is a timed bar').start().close()
+```
