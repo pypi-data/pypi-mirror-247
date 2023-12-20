@@ -1,0 +1,3 @@
+[console_scripts]
+fugit = fugit.cli:run_cli
+
