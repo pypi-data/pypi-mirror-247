@@ -1,0 +1,15 @@
+sciencelinker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciencelinker/geo_names.py,sha256=xRjEbUPA6laFhIswM5wN9YW3Q8zkoXrT-eXYP3O05yY,5951
+sciencelinker/kg_dbpedia.py,sha256=dFQ955RGqKowx8P9gV32IRKjK6sqKiIXurI92qau8TM,3511
+sciencelinker/kg_generic.py,sha256=cUAZsVCyL9_bY-wH1ChZb-Je0CHtmmrctbSTFasR928,11928
+sciencelinker/kg_wikidata.py,sha256=7JK0KThJk0fjELJnvCc3MrRQbA2BeD7ZsYbNlLqfNRE,4990
+sciencelinker/lda_gensim.py,sha256=i620wGH5Fo8rIRUIDzoTWeqov-rN2-dgzWIE5pBnlo0,2811
+sciencelinker/mpr_client.py,sha256=u1oIsrr6T1NQ5rFDWyLC-fvR596kRL7-J_J_XiX93pI,4630
+sciencelinker/ner_dbpspot.py,sha256=R0pOO9-uR6AKDK_95IHbjtEbW5dboDK9WSjuxwr83RQ,4318
+sciencelinker/processing_log.py,sha256=1fjKXca5ddkPz2haLgNBlYZpwFNSgI4PZYJIhCoL_nU,13967
+sciencelinker/request_cache.py,sha256=nZTn6udJgkv2Fypt4XIt87RynWFKA9X8BbW8KsH5pgw,3472
+sciencelinker-0.1.0.dist-info/LICENSE,sha256=RmH-kZ7TStNFjLIH0e16g6aOWT7I2IvWiXzK71W0l5c,1089
+sciencelinker-0.1.0.dist-info/METADATA,sha256=vqQKtdO1gC3nsh2a7nQ5sLI4lvOVVtGbOooM5ZPsS8I,9549
+sciencelinker-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sciencelinker-0.1.0.dist-info/top_level.txt,sha256=AyZANhJjRsWXHIATA_n-CTMp4BwHHFR631Y77iP3UyA,14
+sciencelinker-0.1.0.dist-info/RECORD,,
