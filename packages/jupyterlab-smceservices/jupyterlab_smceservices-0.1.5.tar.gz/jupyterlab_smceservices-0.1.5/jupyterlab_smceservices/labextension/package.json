@@ -1,0 +1,112 @@
+{
+  "name": "jupyterlab-smceservices",
+  "version": "0.1.4",
+  "description": "A JupyterLab extension to provide information the SMCE Services",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/github_username/jupyterlab_smceservices",
+  "bugs": {
+    "url": "https://github.com/github_username/jupyterlab_smceservices/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Navteca LLC",
+    "email": "info@navteca.com"
+  },
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}",
+    "schema/*.json"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github_username/jupyterlab_smceservices.git"
+  },
+  "scripts": {
+    "build": "jlpm build:lib && jlpm build:labextension:dev",
+    "build:prod": "jlpm clean && jlpm build:lib && jlpm build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "clean": "jlpm clean:lib",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "clean:lintcache": "rimraf .eslintcache .stylelintcache",
+    "clean:labextension": "rimraf jupyterlab_smceservices/labextension",
+    "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
+    "eslint": "jlpm eslint:check --fix",
+    "eslint:check": "eslint . --cache --ext .ts,.tsx",
+    "install:extension": "jlpm build",
+    "lint": "jlpm stylelint && jlpm prettier && jlpm eslint",
+    "lint:check": "jlpm stylelint:check && jlpm prettier:check && jlpm eslint:check",
+    "prettier": "jlpm prettier:base --write --list-different",
+    "prettier:base": "prettier \"**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}\"",
+    "prettier:check": "jlpm prettier:base --check",
+    "stylelint": "jlpm stylelint:check --fix",
+    "stylelint:check": "stylelint --cache \"style/**/*.css\"",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:src": "tsc -w",
+    "watch:labextension": "jupyter labextension watch ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@jupyterlab/application": "^3.5.3",
+    "@jupyterlab/apputils": "^3.5.3",
+    "@jupyterlab/mainmenu": "^3.5.3",
+    "@jupyterlab/settingregistry": "^3.5.3",
+    "@jupyterlab/ui-components": "^3.5.3",
+    "@mui/material": "^5.15.1",
+    "jupyterlab_toastify": "^4.2.1",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isequal": "^4.5.0"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.1.0",
+    "@types/lodash.isempty": "^4.4.9",
+    "@types/lodash.isequal": "^4.5.8",
+    "@types/react": "^18.2.45",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@jupyterlab/launcher": "^4.0.9",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "typescript": "~5.3.3"
+  },
+  "sideEffects": [
+    "style/*.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "jupyterlab_smceservices/labextension",
+    "schemaDir": "schema",
+    "_build": {
+      "load": "static/remoteEntry.d6fc6950f64217a94f8c.js",
+      "extension": "./extension",
+      "style": "./style"
+    }
+  },
+  "jupyter-releaser": {
+    "hooks": {
+      "before-build-npm": [
+        "python -m pip install jupyterlab~=3.6",
+        "jlpm"
+      ],
+      "before-build-python": [
+        "jlpm clean:all"
+      ]
+    }
+  }
+}
