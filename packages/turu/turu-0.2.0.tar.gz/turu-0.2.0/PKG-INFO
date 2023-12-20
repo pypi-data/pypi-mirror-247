@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: turu
+Version: 0.2.0
+Summary: 
+Author: yassun7010
+Author-email: yassun7010@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: snowflake
+Provides-Extra: sqlite3
+Requires-Dist: turu-core (==0.2.0)
+Requires-Dist: turu-snowflake (==0.2.0) ; extra == "snowflake"
+Requires-Dist: turu-sqlite3 (==0.2.0) ; extra == "sqlite3"
+Description-Content-Type: text/markdown
+
+
