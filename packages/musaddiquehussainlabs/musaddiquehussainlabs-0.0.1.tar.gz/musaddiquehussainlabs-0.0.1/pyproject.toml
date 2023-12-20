@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musaddiquehussainlabs"
+version = "0.0.1"
+authors = [
+  { name="MusaddiqueHussain Labs", email="musaddiquehussainlabs@gmail.com" },
+]
+maintainers = [
+  {name = "MusaddiqueHussain Labs", email = "musaddiquehussainlabs@gmail.com"}
+]
+description = "MusaddiqueHussainLabs: Empowering text analytics with advanced tools for comprehensive Natural Language Processing (NLP) and Language Models (LLMs)."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "langchain==0.0.350",
+    "langchain-google-genai",
+    "langchain-experimental",
+    "spacy==3.7.2",
+    "pydantic-settings==2.1.0",
+    "presidio_analyzer",
+    "presidio_anonymizer",
+    "Faker",
+    "regex",
+    "beautifulsoup4",
+    "html5lib",
+    "lxml",
+    "nltk",
+    "textsearch"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"data.raw" = ["*.json", "*.csv"]
