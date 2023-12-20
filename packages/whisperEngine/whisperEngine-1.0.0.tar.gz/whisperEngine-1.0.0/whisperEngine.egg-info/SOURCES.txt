@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+whisperEngine/__init__.py
+whisperEngine/whisperEngine.py
+whisperEngine.egg-info/PKG-INFO
+whisperEngine.egg-info/SOURCES.txt
+whisperEngine.egg-info/dependency_links.txt
+whisperEngine.egg-info/top_level.txt

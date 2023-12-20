@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: whisperEngine
+Version: 1.0.0
+Summary: whisper engine package
+Home-page: https://github.com/pypa/sampleproject
+Author: VirginMariaJeremia
+Author-email: VirginMariaJeremia@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a package of the whisper engine that you can install and use 
+without complicated initialization and construction processes. 
+
+1. First you need to install the FastWhishper environment:
+pip install faster-whisper
+
+
+2. How to use it:
+
+size = "large-v2" 
+model = "model_path"
+language = "zh"
+whisper = whisperEngine(size, model, language)
+whisper.load_model()
+text = whisper.do_transcribe(audio_file)
+
+
+3. model language default chinese:
+ chinese (zh)
+ english (en)
