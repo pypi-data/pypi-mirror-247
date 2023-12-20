@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/webfs/__init__.py
+src/webfs/webfs.py
+src/webfs.egg-info/PKG-INFO
+src/webfs.egg-info/SOURCES.txt
+src/webfs.egg-info/dependency_links.txt
+src/webfs.egg-info/requires.txt
+src/webfs.egg-info/top_level.txt
+tests/test_webfs.py
