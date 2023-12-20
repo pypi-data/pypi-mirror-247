@@ -1,0 +1,4 @@
+include DESCRIPTION.rst
+include LICENSE
+include decay_nuclides.png
+include coinc_decay_nuclides.png
