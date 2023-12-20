@@ -1,0 +1,16 @@
+videodb/__init__.py,sha256=iUJFMDr35zj48rMPN-pGBCzNx2326F5aRAaokr8z2Oc,1338
+videodb/_constants.py,sha256=Oo_oKNggWiAi1ZUdqRjswdmn1G2BAXa0CdY9EUC-QmM,835
+videodb/_upload.py,sha256=xCH5qhXPGH_JKt_AASgJ12_ykGOlTzk5bMn6aDy3CJg,1688
+videodb/client.py,sha256=AtFkY_PAFuRKoxzbbWescDp5JoxxzyMwKN6SP86MyBc,1421
+videodb/collection.py,sha256=9uyoWMKybsJ-G-4EQ377wW23VgHp9_4s9KwxdM2TmfQ,2289
+videodb/exceptions.py,sha256=4dNs7oFJx2dNshpudFflYw-LncdOjxPZ7UohYW-DcBI,1125
+videodb/search.py,sha256=V1AEqwxXH1M2dcGBkAskaA_xEj6yzZrkYkW0DoFF2Mg,4489
+videodb/shot.py,sha256=s_Soq0VwnVKB7zi38EJypO1erRrf6IYM4vvMXVdv0jE,1827
+videodb/video.py,sha256=9ValUnBDQJ8UT5lLC8N9m9-Du5hr3mkUabOuqtd9t_Q,5932
+videodb/_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videodb/_utils/_http_client.py,sha256=0rEiV_EIuCUQ52lIxJyCaZQaaC0atsEAxaysyaTYvSY,6938
+videodb-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+videodb-0.0.1.dist-info/METADATA,sha256=yMkp4SS_W76ny20vKtP3vMIm1X7bWRaVcMgJflh3bb0,8008
+videodb-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+videodb-0.0.1.dist-info/top_level.txt,sha256=FPYQnu9M8vzRlSB1fnewGyLpznIiz80sbON2TwqyzFs,8
+videodb-0.0.1.dist-info/RECORD,,
