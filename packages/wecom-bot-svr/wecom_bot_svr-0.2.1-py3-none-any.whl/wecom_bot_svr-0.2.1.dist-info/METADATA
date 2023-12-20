@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: wecom-bot-svr
+Version: 0.2.1
+Summary: WeCom Bot Callback Server Simple Framework
+Project-URL: Homepage, https://github.com/easy-wx/wecom-bot-svr
+Project-URL: Issues, https://github.com/easy-wx/wecom-bot-svr/issues
+Author-email: panzhongxian <panzhongxian0532@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: flask>=3.0.0
+Requires-Dist: wx-crypt>=0.0.2
+Description-Content-Type: text/markdown
+
+# 企业微信机器人回调服务
+
+## 1. 介绍
+
+本项目是一个基于 [Flask](https://flask.palletsprojects.com/en/1.1.x/)的**企业微信机器人回调功能的接口服务简单框架**
+。使用者只需要实现两个简单的函数，即可快速搭建一个企业微信机器人回调功能的接口服务。
+
+实现过程参考企业微信机器人[回调功能说明文档](https://developer.work.weixin.qq.com/document/path/99399)
+，以及相关文档中指引使用的[加解密脚本](https://github.com/sbzhu/weworkapi_python/tree/master/callback)。
+
+## 2. 使用
+
+这里提供一个 [demo.py](./demo/demo.py)，只要安装好依赖，修改好配置，即可直接进行部署服务。
+
+### 2.1 本地调试
+
+需要安装依赖，然后拉起 demo.py 即可(*这里暂时使用固定的 token 和 AESKey，后续在实际配置时可以替换掉*)：
+
+```bash
+pip3 install wecom-bot-svr
+python3 demo.py
+```
+
+拉起服务后，可以使用 curl 进行测试(下边的测试链接对应demo中原始的 token 和 AESKey)：
+
+```bash
+curl 'http://127.0.0.1:5001/wecom_bot?msg_signature=09380007d4f0891d966988e5450ad794c77fa01c&timestamp=1703041184&nonce=1703023880&echostr=oCdlC8pJ%2FDIjXnC8F9reyjDYlSImCmIgxA4prPD%2Bl2Fj5qBHjFiWnpelQofsDCJrSEvNVTET6oQmoXLQxzUkyQ%3D%3D'
+```
+
+### 2.2 Docker方式部署
+
+```bash
+cd demo
+docker build -t wx_bot docker.io/panzhongxian/wecom-bot-svr-demo:latest .
+docker push docker.io/panzhongxian/wecom-bot-svr-demo:latest
+```
+
+然后在对应的平台中选择镜像部署，配置好对应的域名，即可获得在后续步骤中需要的回调地址。
+
+### 2.3 配置企业微信群机器人
+
+找一个群，在右上角点击「...」，点击「添加群机器人」，点击「接收消息配置」， 这里对应 demo 我们填入回调地址、token、AESKey。
+
+![配置机器人](images/wx_bot_add.png)
+
+如果服务正常，这里将会保存成功；如果服务异常，这里会提示失败。
+
+### 2.4 测试
+
+在添加到群中之后，可以在群中发送消息。demo里有实现 help 和普通消息的回复功能:
+
+![img.png](img.png)
+
+也可以移除再添加，这里展示的是加入群的事件触发消息发送的功能:
+
+![img_1.png](img_1.png)
+
+### 2.5 发布到公司
+
+查看机器人资料，有一个发布到公司的按钮，只有发布之后的机器人，才能被公司其他同事搜索到，才可以被添加到其他的群聊当中：
+
+![img_2.png](img_2.png)
+
+## 3. Token和AESKey的管理
+
+为了方便，demo中直接使用固定的 Token 和 AESKey，实际使用中，建议直接利用机器人配置页面的**随机生成**按钮获得。
+
+![img_4.png](img_4.png)
+
+删除代码中传入的 token 和 key，直接将其以配置的方式传入到服务中即可:
+
+```python
+server = app.WecomBotServer(bot_name, host, port, path='/wecom_bot')
+```
+
+![img_5.png](img_5.png)
+
+```bash
+WX_BOT_TOKEN=xxxxx
+WX_BOT_AES_KEY=xxxxx
+WX_BOT_CORP_ID=xxxxx
+```
+
+### 2.2 实现回调
+
+参考 demo.py 中的实现，主要步骤：
+
+- 创建Server对象，如果 token, aes_key, corp_id 打算按照环境变量的方式传入，则这里直接不用填最后三个参数。
+- 定义两个函数：消息处理函数、事件处理函数
+- 将两个函数注册到 Server 对象中
+- 启动服务
+
+```python
+import wecom_bot_svr
+
+token = "xxxxxxx"
+aes_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+corp_id = ""
+host = "0.0.0.0"
+port = 5001
+server = wecom_bot_svr.Server("wx_bot", host, port, token=token, aes_key=aes_key, corp_id=corp_id)
+
+
+def msg_handler(user_info, msg_type, content, xml_tree):
+    print(user_info, msg_type, content)
+    return "hello"
+
+
+def event_handler(user_info, event_type, xml_tree):
+    print(user_info, event_type)
+    return "hello"
+
+
+server.set_message_handler(msg_handler)
+server.set_event_handler(event_handler)
+server.run()
+```
+
+## 3. 更多消息处理示例
+
+
+
