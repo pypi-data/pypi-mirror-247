@@ -1,0 +1,5 @@
+requests
+tabulate
+
+[test]
+requests_mock
