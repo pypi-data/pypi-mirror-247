@@ -1,0 +1,84 @@
+name: Tests
+
+on: [push, pull_request]
+
+jobs:
+  run_test_site:
+    name: py${{ matrix.PYTHON_VERSION }}-hs_${{ matrix.HYPERSPY_VERSION }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HYPERSPY_DEV: false
+      DISPLAY: ':0'
+    strategy:
+      fail-fast: false
+      matrix:
+        PYTHON_VERSION: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        HYPERSPY_VERSION: ['release']
+        include:
+          - PYTHON_VERSION: '3.8'
+            HYPERSPY_VERSION: 'dev'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: get repository name
+        shell: bash
+        run: echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+
+      - name: Fetch tags upstream
+        if: ${{ github.repository_owner != 'hyperspy' }}
+        # Needs to fetch the tags from upstream to get the
+        # correct version with setuptools_scm
+        run: |
+          git remote add upstream https://github.com/hyperspy/${{ env.REPOSITORY_NAME }}.git
+          git fetch upstream --tags
+
+      - uses: actions/setup-python@v5
+        name: Install Python
+        with:
+          python-version: ${{ matrix.PYTHON_VERSION }}
+
+      - name: Display version
+        run: |
+          python --version
+          pip --version
+
+      - name: Install Ubuntu packages for Qt
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install qtbase5-dev
+          sudo apt-get install libxkbcommon-x11-0
+          sudo apt-get install libxcb-icccm4
+          sudo apt-get install libxcb-image0
+          sudo apt-get install libxcb-keysyms1
+          sudo apt-get install libxcb-randr0
+          sudo apt-get install libxcb-render-util0
+          sudo apt-get install libxcb-xinerama0
+
+      - name: Install Dependencies
+        run: |
+          pip install pyqt5 PyQtWebEngine
+
+      - name: Install HyperSpy (dev)
+        shell: bash
+        if: ${{ contains(matrix.HYPERSPY_VERSION, 'dev') }}
+        run: |
+          pip install git+https://github.com/hyperspy/hyperspy.git@RELEASE_next_major
+
+      - name: Install
+        shell: bash
+        run: |
+          pip install -e .[tests]
+
+      - name: Pip list
+        run: |
+          pip list
+
+      - name: Run test suite
+        run: |
+          sudo apt-get install xvfb
+          xvfb-run pytest --pyargs hyperspyui
