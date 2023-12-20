@@ -1,0 +1,18 @@
+repos:
+  - repo: git@bitbucket.org:paraty/check_with_pylint.git
+    rev: 166f97106c3f0a71269bf40f8eeba40c26622886
+    verbose: true
+    hooks:
+      - id: check_with_pylint
+        stages: [ commit ]
+        verbose: true
+        additional_dependencies: [pylint==1.9.5, GitPython, colorama ]
+  - repo: git@bitbucket.org:paraty/check_with_last_score_python2.git
+    rev: 8ea4db3906439f58c6f408203139a030328780d9
+    verbose: true
+    hooks:
+      - id: check_with_last_score_python2
+        stages: [commit]
+        verbose: true
+        additional_dependencies: [pylint==1.9.5, GitPython, colorama, tabulate==0.8.10]
+
