@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+datarbricks_delta_utility12.egg-info/PKG-INFO
+datarbricks_delta_utility12.egg-info/SOURCES.txt
+datarbricks_delta_utility12.egg-info/dependency_links.txt
+datarbricks_delta_utility12.egg-info/top_level.txt
