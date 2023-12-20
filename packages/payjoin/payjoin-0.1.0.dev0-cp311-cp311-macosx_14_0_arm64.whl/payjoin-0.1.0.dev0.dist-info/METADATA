@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: payjoin
+Version: 0.1.0.dev0
+Summary: The Python language bindings for the Payjoin Dev Kit
+Home-page: https://LtbL.io
+Author: BitcoinZavior
+Author-email: BitcoinZavior@GMail.Com
+License: MIT or Apache 2.0
+Description-Content-Type: text/markdown
+
+# payjoin
+This is a python library which implements payjoin, BIP178. It uses the Rust-based [Payjoin](https://github.com/payjoin/rust-payjoin) 
+as the core implementation of BIP178, sourced from the [Payjoin Dev Kit](https://payjoindevkit.org/).
+
+## Install the package
+```shell
+pip install payjoin
+```
+
+## Usage 
+```python
+import payjoin as payjoin
