@@ -1,0 +1,9 @@
+logtale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logtale/filter.py,sha256=IYIHoc9zbCeNax8gZiPZVJn1Ste-ti01yX38v85LBck,588
+logtale/formatter.py,sha256=-LCdja5Ea_bHd2DTSr2NC3OsZ2-89hxzFOdp5PeKo0A,1802
+logtale/logtale.py,sha256=dRh8LQgi93RfRFsWn10WKWMz2xARf7-5xU72jV6klkk,4833
+logtale-0.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+logtale-0.0.9.dist-info/METADATA,sha256=3rsP-b3x-BTV-btPiofE0W-dli_-DCIq-_9PQc8KmZU,4224
+logtale-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+logtale-0.0.9.dist-info/top_level.txt,sha256=rTwoeVAncAADEXpc9_36KsSpqIDcIMY7z-EB2IpeLos,8
+logtale-0.0.9.dist-info/RECORD,,
