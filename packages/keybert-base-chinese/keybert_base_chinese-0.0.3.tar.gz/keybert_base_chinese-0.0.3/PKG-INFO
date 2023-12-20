@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: keybert_base_chinese
+Version: 0.0.3
+Summary: 基于keybert提取中文文本关键词
+Home-page: https://pypi.org/user/May.xiaoya.zhang/
+Author: may.xiaoya.zhang
+Author-email: may.xiaoya.zhang@gmail.com
+License: UNKNOWN
+Description: # About
+        一个基于keybert提取中文文本关键词的python包。
+        
+        # Install
+        `$ pip3 install -U keybert_base_chinese`
+        
+        # Director 
+        + keybert\_base\_chinese
+            + \_model.py
+        
+        ## \_model.py
+        - KeyBERT类
+          自定义选择的model以及选取的tokenizer，提取文档的关键词。 
+          + extract\_keywords函数
+          + extract\_embeddings函数
+        
+        # Usage
+        
+        # Contact us
+        <may.xiaoya.zhang@gmail.com>
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

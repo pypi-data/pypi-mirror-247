@@ -1,0 +1,8 @@
+README.md
+setup.py
+keybert_base_chinese/__init__.py
+keybert_base_chinese/_model.py
+keybert_base_chinese.egg-info/PKG-INFO
+keybert_base_chinese.egg-info/SOURCES.txt
+keybert_base_chinese.egg-info/dependency_links.txt
+keybert_base_chinese.egg-info/top_level.txt
