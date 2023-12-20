@@ -1,0 +1,2 @@
+[console_scripts]
+pipall = pipall.installer:main
