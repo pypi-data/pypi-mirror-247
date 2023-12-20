@@ -1,0 +1,12 @@
+fork2gitlab/__init__.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+fork2gitlab/commands/ForkCommand.py,sha256=pa-Ssl4PRs1U3IOxsG2CJcAiVMZUzTJKRyqRERpwvnA,2147
+fork2gitlab/commands/SyncCommand.py,sha256=CCWXTRglJXpaQADpEmPrgzNcVf_esSQNhcgljIfZkKY,6697
+fork2gitlab/commands/__init__.py,sha256=TppZwiaUX1H9QyAKa2O55NjcSBwPwJfqVJa4OSKL2Hk,664
+fork2gitlab/git.py,sha256=7JduciAqZ349WtCINwILPiE9yKN_dYgBG9eieJSP0P4,2228
+fork2gitlab/main.py,sha256=jkfl_JEyNJgDNhN-e0F97Q_Bl6t4K5-cqcgnhE85VdM,1676
+fork2gitlab/utils.py,sha256=UDZwWl3Kv809MoCGI3Jp3_1VlIcK9BO5dViWkqI0Q9o,1494
+fork2gitlab-0.2.4.dist-info/LICENSE,sha256=Tt7TWPpHivThyH5hin4_z_W2irIWdcJDlfLYlwLUalE,35075
+fork2gitlab-0.2.4.dist-info/METADATA,sha256=Nr7Gck4d9ncUph66H-VXE5xpxuRn0fFF60NV6SHDdAs,2213
+fork2gitlab-0.2.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fork2gitlab-0.2.4.dist-info/entry_points.txt,sha256=6rZ_y352ecMRAj6-sciCh06cYAUSdyzWDk8tYeIbjGA,45
+fork2gitlab-0.2.4.dist-info/RECORD,,
