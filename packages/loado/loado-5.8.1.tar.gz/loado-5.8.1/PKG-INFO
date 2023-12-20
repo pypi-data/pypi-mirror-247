@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: loado
+Version: 5.8.1
+Summary: Easy, modern, and beginner friendly loading animations.
+Home-page: https://github.com/toolkitr/loado
+Author: loado
+Author-email: toolkitr.email@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+NAME
+    loado
+
+DESCRIPTION
+    Easy, modern, and beginner friendly loading animations.
+    ```ruby
+    COLORS:
+        RED
+        GREEN
+        BLUE
+        RESET
+    ```
+
+    ```javascript
+    TYPES:
+        BAR1: █,
+        BAR2: ▒,
+        BAR3: ▬,
+        BAR4: ━,
+        BAR5: =,
+        BAR6: ○,
+        BAR7: ●,
+
+        SPIN1: ['|', '/', '-', '\\', '|', '/', '-', '\\', '|', '/', '-', '\\', '|', '/', '-', '\\', '|', '/', '-', '\\', '|', '/', '-', '\\'],
+        SPIN2: ['◜', '◠', '◝', '◞', '◡', '◟', '◜', '◠', '◝', '◞', '◡', '◟', '◜', '◠', '◝', '◞', '◡', '◟', '◜', '◠', '◝', '◞', '◡', '◟', '◜', '◠', '◝', '◞', '◡', '◟', '◜', '◠', '◝', '◞', '◡', '◟'],
+        SPIN3: ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏', '⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'],
+        SPIN4: ['⣾', '⣽', '⣻', '⢿', '⡿', '⣟', '⣯', '⣷', '⣾', '⣽',
+        '⣻', '⢿', '⡿', '⣟', '⣯', '⣷', '⣾', '⣽', '⣻', '⢿', '⡿', '⣟', '⣯',
+        '⣷', '⣾', '⣽', '⣻', '⢿', '⡿', '⣟', '⣯', '⣷', '⣾', '⣽', '⣻', '⢿',
+        '⡿', '⣟', '⣯', '⣷'],
+        SPIN5: ['⠁', '⠂', '⠄', '⡀', '⢀', '⠠', '⠐', '⠈', '⠁', '⠂',
+        '⠄', '⡀', '⢀', '⠠', '⠐', '⠈', '⠁', '⠂', '⠄', '⡀', '⢀', '⠠', '⠐',
+        '⠈', '⠁', '⠂', '⠄', '⡀', '⢀', '⠠', '⠐', '⠈', '⠁', '⠂', '⠄', '⡀',
+        '⢀', '⠠', '⠐', '⠈'],
+        SPIN6: ['⣀', '⡀', '⠄', '⡈', '⠐', '⠈', '⠄', '⡀', '⣀', '⡀',
+        '⠄', '⡈', '⠐', '⠈', '⠄', '⡀', '⣀', '⡀', '⠄', '⡈', '⠐', '⠈', '⠄',
+        '⡀', '⣀', '⡀', '⠄', '⡈', '⠐', '⠈', '⠄', '⡀', '⣀', '⡀', '⠄', '⡈',
+        '⠐', '⠈', '⠄', '⡀'],
+        SPIN7: ['▔', '▕', '▖', '▗', '▘', '▙', '▚', '▛', '▜', '▝',
+        '▞', '▟', '▔', '▕', '▖', '▗', '▘', '▙', '▚', '▛', '▜', '▝', '▞',
+        '▟', '▔', '▕', '▖', '▗', '▘', '▙', '▚', '▛', '▜', '▝', '▞', '▟']
+
+        WAVE1: ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'],
+        WAVE2: ['▏', '▎', '▍', '▌', '▋', '▊', '▉', '█'],
+        WAVE3: ['▔', '▕', '▖', '▗', '▘', '▙', '▚', '▛', '▜', '▝',
+        '▞', '▟'],
+        WAVE4: ['⣀', '⡀', '⠄', '⡈', '⠐', '⠈', '⠄', '⡀'],
+        WAVE5: ['⣠', '⣤', '⣶', '⣾', '⣿'],
+```
+# Basic example
+```python
+import loado as ld
+
+# Bar
+ld.bar(10, BAR1, 'A bar').run().stop()
+
+# Spin
+spinner = ld.spin(10, SPIN1, 'A spin')
+spinner.run()
+spinner.stop()
+
+# Wave
+with ld.wave(10, WAVE1, 'A wave') as wave:
+    wave.run()
+    wave.stop()
+    print('Finished wave!')
+
+# Timed
+with ld.timed(10, 'A timed') as timed:
+    timed.run()
+    timed.stop()
+    print('Finished timed!')
+```
+You can use the variable way or the with statement way.
+
+DATA
+    __all__ = ['bar', 'spin', 'wave', 'timed']
+    __copyright__ = 'Copyright (c) 2023 loado'
+    __license__ = 'MIT'
+
+VERSION
+    5.8.0
+
+AUTHOR
+    loado
+```
