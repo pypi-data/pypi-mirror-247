@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+afmaths/__init__.py
+afmaths/afmaths.py
+afmaths/cs.py
+afmaths/formula.py
+afmaths/graph.py
+afmaths/list.py
+afmaths/physics.py
+afmaths.egg-info/PKG-INFO
+afmaths.egg-info/SOURCES.txt
+afmaths.egg-info/dependency_links.txt
+afmaths.egg-info/top_level.txt
