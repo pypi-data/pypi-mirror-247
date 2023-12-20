@@ -1,0 +1,10 @@
+.gitignore
+.pre-commit-config.yaml
+setup.cfg
+setup.py
+.github/workflows/release.yml
+spotiflow/__init__.py
+spotiflow.egg-info/PKG-INFO
+spotiflow.egg-info/SOURCES.txt
+spotiflow.egg-info/dependency_links.txt
+spotiflow.egg-info/top_level.txt
