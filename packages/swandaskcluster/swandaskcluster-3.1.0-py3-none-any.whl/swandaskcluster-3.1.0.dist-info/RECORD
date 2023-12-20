@@ -1,0 +1,12 @@
+swandaskcluster/__init__.py,sha256=aygIDlIeLxwmpBg3eI62Ailo0bgnY7f_pS4GdsCpn8U,75
+swandaskcluster/_version.py,sha256=NAsSfpPMwqBI6_XaTaTnZYYe9K3NIqCTNlCeYxSkkAk,103
+swandaskcluster/cluster.py,sha256=NNy9NLax2FdnAGwon_DJzkRkn7C0371wmFeiOyZM4Cc,7336
+swandaskcluster/config.py,sha256=hkLnU8Bvtbaq7gfaA6il6jONrPXVtSF_2xt5oooYKkw,258
+swandaskcluster/jobqueue-swan.yaml,sha256=gP9AuEeUthvapjjto-FtRVP-7Y2qjz0cwpgFftYiHcM,325
+swandaskcluster/security.py,sha256=yuW0Ovza9otRQ2Z7IgOYGhxe23Aq0Pv8wOrVw7Ybj58,670
+swandaskcluster/utils.py,sha256=PVXP8yypuM65n_S_94Cu_37LaFDOheLzKcbwMPOscow,1882
+swandaskcluster-3.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+swandaskcluster-3.1.0.dist-info/METADATA,sha256=MItEDpUTOYh8iYodUaCt5BC-KFpbaLUeGeS78HQ18IQ,1615
+swandaskcluster-3.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+swandaskcluster-3.1.0.dist-info/top_level.txt,sha256=kEnZkK1qCJ2Qb49JflghG9sb3XdRGiT7cQvYc2ZwfFU,16
+swandaskcluster-3.1.0.dist-info/RECORD,,
