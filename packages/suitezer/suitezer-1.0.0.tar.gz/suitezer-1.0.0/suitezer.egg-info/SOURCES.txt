@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+suitezer/__init__.py
+suitezer/suitezer.py
+suitezer.egg-info/PKG-INFO
+suitezer.egg-info/SOURCES.txt
+suitezer.egg-info/dependency_links.txt
+suitezer.egg-info/entry_points.txt
+suitezer.egg-info/top_level.txt
