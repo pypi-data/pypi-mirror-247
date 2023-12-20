@@ -1,0 +1,4 @@
+Django>=3.2
+django-filter
+django-model-utils
+djangorestframework>3.3
