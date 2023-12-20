@@ -1,0 +1,14 @@
+mock
+future
+coverage
+numpy
+numexpr
+scipy
+pillow
+matplotlib
+
+[dev]
+check-manifest
+
+[test]
+coverage
