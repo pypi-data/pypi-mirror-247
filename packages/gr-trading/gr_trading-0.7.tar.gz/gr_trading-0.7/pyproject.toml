@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gr-trading"
+version = "0.7"
+description = "Comandos para cálculos de gerenciamento de risco no trading"
+authors = ["Valmir Franca <vfranca3@gmail.com>"]
+readme = "docs/README.md"
+license = "BSD-3-Clause"
+repository = "https://github.com/vfranca/gr-trading"
+keywords = ["CLI", "trading"]
+packages = [{include = "gr_trading"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gr = "gr_trading.gr:gr"
