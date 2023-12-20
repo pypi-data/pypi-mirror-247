@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: airclick
+Version: 0.0.1
+Summary: airclick 相关python包
+Home-page: https://github.com/itisl2220/airscript
+Author: aojoy
+Author-email: aojoytec@163.com
+License: MIT
+Keywords: python,airscript
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# 这是AirScript Android 版本的提示文档
+
+## 贡献者:
