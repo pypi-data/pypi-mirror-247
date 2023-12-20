@@ -1,0 +1,8 @@
+setup.py
+dummy_package_from_adumummy.egg-info/PKG-INFO
+dummy_package_from_adumummy.egg-info/SOURCES.txt
+dummy_package_from_adumummy.egg-info/dependency_links.txt
+dummy_package_from_adumummy.egg-info/top_level.txt
+src/__init__.py
+src/addition.py
+src/multiplication.py
