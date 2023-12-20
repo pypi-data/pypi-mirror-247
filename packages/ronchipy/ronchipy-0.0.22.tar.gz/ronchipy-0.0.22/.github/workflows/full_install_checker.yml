@@ -1,0 +1,41 @@
+name: Install Checker Full
+
+on:
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - '**/*.py' # Trigger on any changes to .py files
+      - 'pyproject.toml'
+
+jobs:
+  test-python-os-versions:
+    name: Check Python ${{ matrix.python-version }} on ${{ matrix.runs-on }} on ${{ matrix.architecture }}
+    continue-on-error: ${{ matrix.allow_failure }}
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        allow_failure: [false]
+        runs-on: [ubuntu-latest, windows-latest, macos-latest]
+        architecture: [x86_64]
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: tj-actions/changed-files@v35
+        with:
+          files: '**/*.py'
+        id: changed-files
+      - name: Skip if no py files changed
+        if: steps.changed-files.outputs.all_changed_files == ''
+        run: exit 0
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install repo
+        run: |
+          python -m pip install .
+      - name: Check installation
+        run: |
+          python -c "import ronchipy; print(ronchipy.__version__)"
