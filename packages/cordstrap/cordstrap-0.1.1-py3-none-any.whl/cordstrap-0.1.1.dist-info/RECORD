@@ -1,0 +1,10 @@
+cordstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cordstrap/__main__.py,sha256=evpUoqD-U8-lkNG3jZFKaoW78LUFvhpbAsecim8jMS0,624
+cordstrap/channel.py,sha256=lYYrAN2CuqweF84mqnNf13WPUn5GWEjk5T8KyXfeSmM,693
+cordstrap/discord.py,sha256=UP8xrEa9z7H_SmhdoTw3_uOVBe9K6Vu0txE6DqPhIVY,1167
+cordstrap/template.py,sha256=qBFB5BBE-2csP117Vx0X0PeUhZ1dfvIV9zk0sPtR1S0,141
+cordstrap-0.1.1.dist-info/METADATA,sha256=crxoqgWifVw6hDLyHDhHjcnRL60FevTrV8OGTRlYIWs,454
+cordstrap-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cordstrap-0.1.1.dist-info/entry_points.txt,sha256=UA0I6cysbIVqLHFGBEj3JXAC9J8bnsR19VcQG5vFOoE,54
+cordstrap-0.1.1.dist-info/top_level.txt,sha256=grfrRO7mRzOlULP6mz5C1v4-gXNyQf0sud2bUpZ7EK0,10
+cordstrap-0.1.1.dist-info/RECORD,,
