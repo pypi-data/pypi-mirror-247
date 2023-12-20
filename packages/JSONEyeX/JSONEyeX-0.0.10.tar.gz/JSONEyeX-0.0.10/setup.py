@@ -1,0 +1,128 @@
+# setup.py
+
+from setuptools import setup, find_packages
+
+
+VERSION = '0.0.10'
+DESCRIPTION = 'A lightweight and efficient JSON validation tool for Python.'
+LONG_DESCRIPTION = """
+
+**# JSONEyeX: Effortless JSON Data Validation in Python**
+
+**JSONEyeX** is a robust and user-friendly Python package that streamlines the process of validating JSON data against predefined schemas. Whether you're building web APIs, managing data pipelines, or developing in JSON-heavy environments, **JSONEyeX** ensures your data adheres to the specified format and types, enhancing the reliability and efficiency of your projects.
+
+**Key Features:**
+
+* **Comprehensive validation:** Handles various data types, nested structures, and custom validations.
+* **Clear error messages:** Simplifies debugging with informative and descriptive feedback.
+* **Seamless integration:** Easily integrates into existing Python projects.
+
+**Ideal Use Cases:**
+
+* **Data cleansing and verification in web APIs.**
+* **Ensuring data integrity in data pipelines and processing tasks.**
+* **Rapid development in projects with extensive JSON data usage.**
+
+**Get Started with JSONEyeX:**
+
+1. Install `JSONEyeX` using `pip install JSONEyeX`.
+2. Define your JSON schema using Python dictionaries.
+3. Validate your data against the schema with `jsonvalidator` function.
+
+**Example 1: Validating a Simple JSON Object:**
+
+```python
+schema = {
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "age": {"type": "number"},
+        "address": {
+            "type": "object",
+            "properties": {
+                "street": {"type": "string"},
+                "city": {"type": "string"}
+            },
+            "required": ["street", "city"]
+        }
+    },
+    "required": ["name", "age", "address"]
+}
+
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown"
+    }
+}
+
+from JSONEyeX import jsonvalidator
+
+try:
+    validator = jsonvalidator(schema, data)
+    print("Validation successful! Your data conforms to the expected format.")
+except ValueError as e:
+    print(f"Validation error: {e}")
+```
+
+
+**Example 2: Handling Unknown Properties in Nested Objects**
+
+While defining nested JSON objects in your schema, sometimes you might not know or need to specify every possible property. **JSONEyeX** allows you to handle these **unknown properties** gracefully. Consider the "material_grade" object in our example schema. It has an empty "properties" list, indicating that any additional properties beyond "manufacturing_process" will be accepted without validation. However, note that the "material_grade" object itself is still required through the schema's "required" field.
+
+```python
+schema = {
+    "type": "object",
+    "properties": {
+        "tolerance": {"type": "string"},
+        "quantity": {"type": "number"},
+        "surface_finish": {"type": "string"},
+        "material_grade": {
+            "type": "object",
+            "properties": {},
+            "required": [] # No specific properties required, but object itself is mandatory
+        },
+        "material_group": {
+            "type": "object",
+            "properties": {
+                "data": {"type": "string"}
+            },
+            "required": ["data"]
+        }
+    },
+    "required": [
+        "tolerance",
+        "quantity",
+        "surface_finish",
+        "material_grade"
+    ]
+}
+
+data = {
+    "tolerance": "0.1mm",
+    "quantity": 100,
+    "surface_finish": "matte",
+    "material_grade": {"manufacturing_process": "3D printing", "additional_property": "value"},
+    "material_group": {"data": "Sample material group data"}
+}
+```
+
+
+"""
+
+# Setting up
+setup(
+    name="JSONEyeX",
+    version=VERSION,
+    author="venkata sidhartha (sidhu)",
+    author_email="venkatasidhartha@gmail.com",
+    description=DESCRIPTION,
+    long_description_content_type="text/markdown",
+    long_description=LONG_DESCRIPTION,
+    url="https://github.com/venkatasidhartha/JSONEyeX.git",
+    packages=find_packages(),
+    install_requires=['wheel'],
+    keywords=['python', 'json', 'validation', 'json-validator'],
+)
