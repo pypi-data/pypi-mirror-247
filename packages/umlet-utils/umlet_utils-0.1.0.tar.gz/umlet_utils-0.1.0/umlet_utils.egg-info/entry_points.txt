@@ -1,0 +1,4 @@
+[console_scripts]
+umlet-utils-python-api-to-umlet-class-diagram = umlet_utils.python_api_to_umlet:main
+umlet-utils-survey-python-codebase = umlet_utils.survey_python_code_base:main
+umlet-utils-yaml-to-use-case = umlet_utils.yaml_to_umlet_use_case:main
