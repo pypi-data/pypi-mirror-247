@@ -1,0 +1,8 @@
+README.md
+setup.py
+abdulkerim/__init__.py
+abdulkerim/main.py
+abdulkerim.egg-info/PKG-INFO
+abdulkerim.egg-info/SOURCES.txt
+abdulkerim.egg-info/dependency_links.txt
+abdulkerim.egg-info/top_level.txt
