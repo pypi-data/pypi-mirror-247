@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: stocklake
+Version: 0.0.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: polygon-api-client
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: ruff-lsp ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# stocklake
+
+[![PyPI - Version](https://img.shields.io/pypi/v/stocklake.svg)](https://pypi.org/project/stocklake)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stocklake.svg)](https://pypi.org/project/stocklake)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install stocklake
+```
+
+## License
+
+`stocklake` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
