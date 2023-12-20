@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h264-to-h265_SpookyVicky"
+version = "1.1.0"
+authors = [
+  { name="Emma Victoria", email="v1ckyk4t_a@proton.me" },
+]
+description = "h264 to h265 simple recursive transcoder"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/SpookyV1cky/h265-simple-recursive-transcoder"

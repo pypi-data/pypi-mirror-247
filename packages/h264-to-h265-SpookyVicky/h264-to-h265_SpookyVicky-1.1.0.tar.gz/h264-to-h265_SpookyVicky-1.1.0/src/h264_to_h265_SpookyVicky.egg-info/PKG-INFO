@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: h264-to-h265-SpookyVicky
+Version: 1.1.0
+Summary: h264 to h265 simple recursive transcoder
+Author-email: Emma Victoria <v1ckyk4t_a@proton.me>
+Project-URL: Homepage, https://github.com/SpookyV1cky/h265-simple-recursive-transcoder
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# h264 to h265 simple recursive transcoder❤
+
+This is simple, you give the path to a parent folder and this will convert all '.mp4 (h264)' videos to '.mp4 (h265)' using only 60% of the original bitrate. If a video has already been converted or has an 'h265' codec it will be ignored
+
+> normally h265 allows you to save 40% of the total bitrate maintaining an acceptable quality, although of course, if you want you could specify the bitrate to be used in line 43❤
+
+## requirements
+
+`'ffmpeg-python'`
+> don't confuse it with python-ffmpeg  
+
+## Note
+
+If you use the CPU to encode, make sure you use libx265 and not hvec_nvenc (nvidia only)
+
+`VIDEO_CODEC = 'libx265'`

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/h264-to-h265_SpookyVicky/__init__.py
+src/h264-to-h265_SpookyVicky/app.py
+src/h264-to-h265_SpookyVicky/util/db.py
+src/h264-to-h265_SpookyVicky/util/process.py
+src/h264-to-h265_SpookyVicky/util/remove.py
+src/h264-to-h265_SpookyVicky/util/video_finder.py
+src/h264_to_h265_SpookyVicky.egg-info/PKG-INFO
+src/h264_to_h265_SpookyVicky.egg-info/SOURCES.txt
+src/h264_to_h265_SpookyVicky.egg-info/dependency_links.txt
+src/h264_to_h265_SpookyVicky.egg-info/top_level.txt
