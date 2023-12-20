@@ -1,0 +1,13 @@
+from setuptools import setup,find_packages
+
+setup(
+    name="fetch_my_repo",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires = [
+    ],
+    author="Al-Fareed",
+    description="Passing your GitHub https url, It fetches your content from GitHub repo",
+    long_description=open("README.md").read(),
+    long_description_content_type = "text/markdown"
+    )
