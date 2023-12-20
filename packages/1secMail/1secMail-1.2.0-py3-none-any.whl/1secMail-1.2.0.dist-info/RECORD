@@ -1,0 +1,9 @@
+secmail/__init__.py,sha256=DQXbLruQyF8i0ezvY32gEKcmuWrPl5vh7mGpo7JsX1s,123
+secmail/client.py,sha256=oahSVEGpfzWA_dbgqaXWeFDXZlRfgclG0pVh-DobKA4,25540
+secmail/config.py,sha256=htRDc2mzDYvZ0ouJFSumfgm3Hips6G51NSAN_M1aVbw,268
+secmail/models.py,sha256=3RU-X2sXPgOrjC3gYWxXm_9uba3NPYKhZrJh_DAb8aw,3387
+1secMail-1.2.0.dist-info/LICENSE,sha256=MKzB9i1NEGBAGuss2ddLrNMNezJKBtCbn_6oQ3GUCX8,1082
+1secMail-1.2.0.dist-info/METADATA,sha256=TmKNG7N5EfryGxn2JDMcYZmU4MiN5ZslqeOvqcBrSd8,7104
+1secMail-1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+1secMail-1.2.0.dist-info/top_level.txt,sha256=gg689s5BmUztwjb2vYru_aq3LTjb2LWaMQaWxHuGnmo,8
+1secMail-1.2.0.dist-info/RECORD,,
