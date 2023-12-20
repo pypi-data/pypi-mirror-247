@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: HSsound
+Version: 1.1.5
+Summary: Package to perform calculations on sound measurements
+Home-page: https://github.com/jacobv95/HSsound
+Download-URL: https://github.com/jacobv95/HSsound/archive/refs/tags/v1.tar.gz
+Author: Jacob Vestergaard
+Author-email: jacobvestergaard95@gmail.com
+License: MIT
+Keywords: python,sound,measurement,HS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
