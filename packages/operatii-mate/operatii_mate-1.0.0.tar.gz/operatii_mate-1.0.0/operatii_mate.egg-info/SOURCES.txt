@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+req.txt
+setup.py
+functii_mate/__init__.py
+functii_mate/operatii.py
+operatii_mate.egg-info/PKG-INFO
+operatii_mate.egg-info/SOURCES.txt
+operatii_mate.egg-info/dependency_links.txt
+operatii_mate.egg-info/top_level.txt
