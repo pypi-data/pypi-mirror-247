@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: calculator_mgaidy
+Version: 0.0.4
+Summary: A small example package
+Author-email: Mindaugas <mindaugas9507@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Calculator_mgaidy
+
+## Overview
+
+A basic calculator class that supports arithmetic operations and maintains a history log.
+
+## Installation
+
+You can install the Calculator_mgaidy package using pip:
+
+```
+pip install calculator-mgaidy==0.0.4
+```
+## Attributes
+
+- `memory` (float): The current memory value of the calculator.
+- `logs` (List[str]): A list to store the history log of operations.
+- `precision` (int): The precision to round results to.
+
+## Constants
+
+- `MAX_NUMBER` (float): The maximum allowed number in calculations.
+- `MIN_NUMBER` (float): The minimum allowed number in calculations.
+- `MAX_POWER_LEVEL` (int): The maximum allowed power level for exponentiation.
+
+## Methods
+
+### `__init__(self, memory: float = 0, precision: int = 10) -> None`
+
+Initialize the Calculator.
+
+### `set_precision(self, precision: int) -> None`
+
+Set the precision for rounding results.
+
+### `history_log(self, symbol: str, number: float) -> List[str]`
+
+Log an arithmetic operation to the history log.
+
+### `clear_history_log(self) -> None`
+
+Clear the history log.
+
+### `reset_memory(self) -> float`
+
+Reset the calculator memory to zero and clear the history log.
+
+### `input_number_validation(self, number: float) -> float`
+
+Validate if the provided number is within the allowed range.
+
+### `input_power_validation(self, power: float) -> float`
+
+Validate if the provided power is within the allowed range.
+
+### `result_validation(self, result: float) -> float`
+
+Validate if the result is within the allowed range.
+
+### `add(self, number: float) -> float`
+
+Add a number to the calculator memory.
+
+### `subtract(self, number: float) -> float`
+
+Subtract a number from the calculator memory.
+
+### `multiply(self, number: float) -> float`
+
+Multiply the calculator memory by a number.
+
+### `divide(self, number: float) -> float`
+
+Divide the calculator memory by a number.
+
+### `power(self, number: float) -> float`
+
+Raise the calculator memory to the power of a given number.
+
+### `root(self, number: float) -> float`
+
+Calculate the root of the calculator memory with a given exponent.
+
+## Usage Example
+
+```python
+from calculator import Calculator
+
+# Create a calculator instance
+calc = Calculator()
+
+# Perform operations
+result = calc.add(5)
+print(result)  # Output: 5.0
+
+result = calc.multiply(3)
+print(result)  # Output: 15.0
