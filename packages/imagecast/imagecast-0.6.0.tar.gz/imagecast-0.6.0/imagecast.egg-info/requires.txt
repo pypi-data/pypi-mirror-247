@@ -1,0 +1,10 @@
+docopt<1,>=0.6
+munch<5,>=2.3
+Pillow<11,>=8
+playwright<1.41
+requests<3,>=2.23
+requests-cache<2,>=0.5
+
+[service]
+fastapi<0.106
+uvicorn<0.25
