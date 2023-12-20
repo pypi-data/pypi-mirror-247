@@ -1,0 +1,8 @@
+{
+  "test_file.py::TestInputs": true,
+  "test_file.py::TestOutputs": true,
+  "test_file.py::TestFinalOutputs": true,
+  "test_file.py::TestOutHeader": true,
+  "test_mgrs.py::TestRunInput": true,
+  "test_mgrs.py::TestRunOutput": true
+}
