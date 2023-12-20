@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+sanaxavi.py
+setup.py
+RandomiGiorgiUertashvili.egg-info/PKG-INFO
+RandomiGiorgiUertashvili.egg-info/SOURCES.txt
+RandomiGiorgiUertashvili.egg-info/dependency_links.txt
+RandomiGiorgiUertashvili.egg-info/top_level.txt
