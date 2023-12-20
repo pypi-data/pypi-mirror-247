@@ -1,0 +1,13 @@
+movement/__init__.py,sha256=2D9yru_7EK2-QXoIhDrkNJ9Aex5tgM9ugrtUYhtZ-p0,383
+movement/datasets.py,sha256=96yx2hZYD9TvbLia4Vst7wnW2tfv5Pmw1vm5_za9tZc,3549
+movement/logging.py,sha256=oZF16kMe839maAcZIX-Ju0mCCKwwf5xsNZf4rFT-Z_Q,2947
+movement/io/__init__.py,sha256=WftQ9-YxpY9WyxR7ni50R-OkxvFkXEKj79hWbDkoyOw,42
+movement/io/load_poses.py,sha256=mV4sxnUwi3npJCr-0mSXstetkHa8D2Y0DeYIfXMsWv4,18740
+movement/io/poses_accessor.py,sha256=EgzyrhPHRp9QtBTPkQ0tZX2BQRpS8ItruT5v0rYnyAQ,3065
+movement/io/save_poses.py,sha256=1pDiD-a6IKpnN6U4D5E5UyA8BiMUUT2S2APFnpXa-dE,14781
+movement/io/validators.py,sha256=RAlvqYbGXUhorQiFKoaiaCvACn2yAZaSXpJsotlg40A,12941
+movement-0.0.12.dist-info/LICENSE,sha256=_JBgrHArSOKhu5gXD5RtvSlJTZC4J0XMktuBhxB3PQ4,1493
+movement-0.0.12.dist-info/METADATA,sha256=WVZ0cOR-cZMHlVmrXA9mzemXzgJB-ZxU_ODLiuPpNlo,5166
+movement-0.0.12.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+movement-0.0.12.dist-info/top_level.txt,sha256=Zzs7_PD3FCfgwTW_g4RLWX7pQgVVBWg6qPDJbPC5-Q0,9
+movement-0.0.12.dist-info/RECORD,,
