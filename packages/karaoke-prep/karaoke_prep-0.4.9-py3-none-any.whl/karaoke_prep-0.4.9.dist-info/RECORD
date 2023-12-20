@@ -1,0 +1,9 @@
+karaoke_prep/__init__.py,sha256=gwWt2-Z35n3jLfLG0phvz9IVZeM7rH5f3mflqUV79X4,38
+karaoke_prep/karaoke_prep.py,sha256=soFF0Ob8KzVIw9TmzwTtucpAQRRKOwvRNuz8_lnWIrg,21419
+karaoke_prep/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karaoke_prep/utils/cli.py,sha256=k206xDTpcDTaaMXuDsEnd8fiDi_R7qgAlNfSBgy0tHc,7014
+karaoke_prep-0.4.9.dist-info/LICENSE,sha256=BiPihPDxhxIPEx6yAxVfAljD5Bhm_XG2teCbPEj_m0Y,1069
+karaoke_prep-0.4.9.dist-info/METADATA,sha256=ToYMcOBI55DjRiDhPWvhTYHAER5Amtmnv2lDbrSjmQ8,10267
+karaoke_prep-0.4.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+karaoke_prep-0.4.9.dist-info/entry_points.txt,sha256=U0d7XsXUClWOQOofLLgZLrMW6ePGZkVusGgsAKWn6KA,60
+karaoke_prep-0.4.9.dist-info/RECORD,,
