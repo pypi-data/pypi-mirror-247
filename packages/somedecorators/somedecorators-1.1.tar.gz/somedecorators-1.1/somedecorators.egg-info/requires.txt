@@ -1,0 +1,2 @@
+djangomail==0.7
+wechat-enterprise-sdk==0.4
