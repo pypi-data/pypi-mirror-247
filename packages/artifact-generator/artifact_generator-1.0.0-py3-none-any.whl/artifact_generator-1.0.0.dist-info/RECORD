@@ -1,0 +1,12 @@
+artifact_generator-1.0.0.data/scripts/gen,sha256=QYRgabRmhIguIm9xnNA41b_IgDIRm__486SA6C-37kI,1066
+generators/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+generators/generate.py,sha256=7yvmAIxsK6TU6vKjm8mVbv2Lq3TzMx-Ei78xfIR8_vI,5150
+generators/template.py,sha256=fVehYBXfot8R6f1MDK3cSJGNYhhxIB93m8S3lsQxY7k,389
+generators/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generators/util/namespaces.py,sha256=xOn8xFmjHmUZVMNxZYHrEeOUqlUYM8KFvRRFIPfAdnw,1612
+generators/util/ontology_reader.py,sha256=cCFs9dPPMhRVqgO6wKDbxIESZC8Sf45vVpcCcTcDVkQ,929
+artifact_generator-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+artifact_generator-1.0.0.dist-info/METADATA,sha256=LDdTVPzGgClbRgYipwfaSot4-t41ah6vUYlfM8mvOMw,936
+artifact_generator-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+artifact_generator-1.0.0.dist-info/top_level.txt,sha256=IvZ7W8jeBSKiVuEaAquYYmJ2JTiIwJ31LeYt67nIo8o,11
+artifact_generator-1.0.0.dist-info/RECORD,,
