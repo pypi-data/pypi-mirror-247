@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyunlocode
+Version: 0.1.0
+Summary: Librarys to check zones configuered on a server are working
+Author: Falldog
+Author-email: John Bond <pypi@johnbond.org>
+License: Artistic-2.0
+Project-URL: Homepage, https://github.com/b4ldr/pyunlocode
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE

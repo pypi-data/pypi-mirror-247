@@ -1,0 +1,2 @@
+[console_scripts]
+pyunlocode-init-db = pyunlocode.init_db:main
