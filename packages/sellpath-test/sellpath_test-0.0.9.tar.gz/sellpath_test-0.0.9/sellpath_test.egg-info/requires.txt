@@ -1,0 +1,4 @@
+simple-salesforce
+apollo
+prefect
+cryptography
