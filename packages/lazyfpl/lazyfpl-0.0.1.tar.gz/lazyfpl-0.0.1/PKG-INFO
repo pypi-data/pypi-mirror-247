@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: lazyfpl
+Version: 0.0.1
+Summary: Fantasy Premier League Team Optimizer - Win at FPL with lazines
+License: MIT
+Keywords: fantasy premier league,FPL,data analysis,machine learning,team optimization,sports analytics,python,football data,soccer statistics
+Author: JB Lovland
+Author-email: janbjorge@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: pytz (>=2023.3.post1,<2024.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: torch (>=2.1.2,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+
+# Fantasy Premier League Team Optimizer - Win at FPL with lazines
+This Python project is designed to analyze and optimize Fantasy Premier League (FPL) team selections using data-driven techniques.
+
+## Modules Overview
+
+- `lazyfpl/backevel.py`: Back evaluation of player performance.
+- `lazyfpl/conf.py`: Configuration settings.
+- `lazyfpl/constraints.py`: Team selection constraints.
+- `lazyfpl/database.py`: Database interactions.
+- `lazyfpl/fetch.py`: Data fetching from FPL API.
+- `lazyfpl/ml_model.py`: Machine learning model for player performance prediction.
+- `lazyfpl/optimizer.py`: Team selection optimization.
+- `lazyfpl/populator.py`: Data population from external sources.
+- `lazyfpl/structures.py`: Data structures definition.
+- `lazyfpl/transfer.py`: Management of player transfers.
+
+## Basic Usage Examples
+
+```bash
+# Builds local player database.
+python3 -m lazyfpl.populator
+
+# Train ml-model (used to estiate expected points per player).
+python3 -m lazyfpl.ml_model
+
+# Backeval the model (optional).
+python3 -m lazyfpl.backevel
+
+# Based on upcoming fixture thufness, team synergy and expected points (from ML-model)
+# show optimal team comparisons.
+# This will exclude player with news and below mean-minutes played 60
+python3 -m lazyfpl.optimizer --no-news --min-mtm 60
+```
+
