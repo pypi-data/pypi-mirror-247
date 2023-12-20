@@ -1,0 +1,5 @@
+setup.py
+bluelily.egg-info/PKG-INFO
+bluelily.egg-info/SOURCES.txt
+bluelily.egg-info/dependency_links.txt
+bluelily.egg-info/top_level.txt
