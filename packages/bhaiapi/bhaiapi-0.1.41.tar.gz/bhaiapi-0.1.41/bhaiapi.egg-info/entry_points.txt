@@ -1,0 +1,2 @@
+[console_scripts]
+bhaiapi = bhaiapi.main:main
