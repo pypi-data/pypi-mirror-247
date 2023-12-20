@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dasty-api
+Version: 0.1.1
+License-File: LICENSE
+Requires-Dist: certifi ==2023.11.17
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: idna ==3.6
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: urllib3 ==2.1.0
+
