@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: recs-searcher
+Version: 0.0.2
+Summary: Search engine and registry error corrector
+Home-page: https://github.com/sheriff1max/recs-searcher
+Author: sheriff1max
+Author-email: kobelevmaxim48@gmail.com
+Project-URL: Bug tracker, https://github.com/sheriff1max/recs-searcher/issues
+Keywords: python searcher corrector faiss fasttext embeddings
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: chroma-hnswlib ==0.7.3
+Requires-Dist: chromadb
+Requires-Dist: datasets ==2.14.5
+Requires-Dist: faiss-cpu
+Requires-Dist: gensim
+Requires-Dist: sentence-transformers ==2.2.2
+Requires-Dist: natasha ==0.10.0
+Requires-Dist: numpy ==1.26.0
+Requires-Dist: pandas ==2.1.1
+Requires-Dist: pymorphy2 ==0.8
+Requires-Dist: pymorphy3 ==1.2.1
+Requires-Dist: scikit-learn ==1.3.1
+Requires-Dist: scipy ==1.11.3
+Requires-Dist: spacy ==3.7.2
+Requires-Dist: thefuzz ==0.20.0
+Requires-Dist: torch ==2.1.0
+Requires-Dist: torchvision ==0.16.0
+Requires-Dist: words2numsrus ==0.1.0
+Requires-Dist: wordtodigits ==1.0.2
+
+# recs-searcher (Registry error correction system - Searcher)
+
+    pip install recs-searcher
+
+Система способна решить следующие задачи:
+1. Исправление реестровых ошибок пользовательского ввода при сравнении с базой данных;
+2. Поиск схожих текстовых записей на пользовательский текст по базе данных.
+
+Функциональные возможности:
+1. обучение моделей для создания эмбеддингов (например, TfIDF, FastText, SentenceTransformer) на собственных данных;
+2. быстрый поиск по базе данных (например, KNN, Faiss, Chroma-DB, TheFuzzSearch);
+3. дообучение.
+
+Реализованные модули:
+1. api;
+2. augmentation;
+3. dataset;
+4. models;
+5. preprocessing;
+6. similarity_search.
+
+## Примеры применения
+Пример для быстрого использования: [пример API](https://github.com/sheriff1max/recs-searcher/blob/master/api_example.ipynb)
