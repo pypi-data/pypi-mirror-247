@@ -1,0 +1,16 @@
+tgpirobot/.version,sha256=oNyDJeL75Vjgm_fWEmDKN4FRsKP4dd2LRuzTaT40wQs,6
+tgpirobot/.version.bak,sha256=URoQDu37nqZkQeXVBjktui2KopD5jExUTHCudew8M5Y,6
+tgpirobot/README.md,sha256=RHlrIdAmg-5ncP2yUla4J2OYMX_-bg3VJ44dPySWHsw,646
+tgpirobot/__init__.py,sha256=XDs-jZResGRzBGoN6GDeTEu3RT2WUGp3C9AEe6vu9TM,115
+tgpirobot/main.py,sha256=epQSQ7WXeRJQpDPEqAWLlHw_pNckqGzamSbl2qdJBhE,16717
+tgpirobot/quizzes.json,sha256=bWGQkehFH-Y7-WV3XCMv-v10WrknZa8NOmeAmTaVswE,1652
+tgpirobot/tgpirobot.py,sha256=i78daYL-a27nW_FZA8vLxeJyNQowjoD5PDBjab6Ue-o,17096
+tgpirobot/extra/__init__.py,sha256=tFPhKIuNW66P-9UbhCJVmkgJcb6gCSLQRj0fEg8g2Uw,76
+tgpirobot/extra/delete.py,sha256=40d-M8unUwbXcdi_xvAYdXWvtkcEOiV6i2BK7MOfGRU,973
+tgpirobot/extra/install.py,sha256=LNCg56LteJyg0sOFyO-iNkWQm_orJDXxeEAcmkTG2vM,932
+tgpirobot-0.3.3.dist-info/LICENSE,sha256=kt7XBAdffISL8oJj48d_-5GRrQz09Xy1rK6gnwLmyfw,35243
+tgpirobot-0.3.3.dist-info/METADATA,sha256=fuWh_5upQSkZPf06haHTkMmCstrweF5kPoflGxdm6F4,4021
+tgpirobot-0.3.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tgpirobot-0.3.3.dist-info/entry_points.txt,sha256=k6ez9O_sPPvw1iVc_nTaPQgM5ncCRE0eiMYoBnYHgjs,50
+tgpirobot-0.3.3.dist-info/top_level.txt,sha256=qyhXOaJPWtQrbD0XlsXKYeADd6Y7ioiG_FzMPyY72aI,10
+tgpirobot-0.3.3.dist-info/RECORD,,
