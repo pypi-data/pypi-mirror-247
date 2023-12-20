@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pygendocs
+Version: 0.1.0
+Summary: Generates missing documentation for python functions in-place using LLMs
+Home-page: https://github.com/mdlafrance/pygendocs
+License: GPL-3.0-or-later
+Author: mdLafrance
+Author-email: maxlafrance97@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: invoke (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/mdlafrance/pygendocs
+Description-Content-Type: text/markdown
+
+# pygendocs
+Generates missing documentation for python functions in-place using LLMs
+
