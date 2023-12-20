@@ -1,0 +1,8 @@
+dataclass_to_json/__init__.py,sha256=GZqF8Bywc5yCjdcWWV-HrRzqDqrym0X2ey9S-57UHgg,441
+dataclass_to_json/__version__.py,sha256=si6FbbbOMwdBEEwbsg0rTLdseH1QheX9thh4oNbtSNY,337
+dataclass_to_json/convert_class_to_json.py,sha256=AKhipfyc3xwih-u_fo0J2A8s-pcOELIHEhKlqPYoM0c,1884
+dataclass_to_json-1.1.0.dist-info/LICENSE,sha256=QgGFBNNh65WbW1RaI80OEP5xJTPHmLl3bMcf3QizxOE,1068
+dataclass_to_json-1.1.0.dist-info/METADATA,sha256=pxKEnjkphtiwukioc0AcGKh97tJMJeXObpac_8TxSGk,2061
+dataclass_to_json-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dataclass_to_json-1.1.0.dist-info/top_level.txt,sha256=ShxYXx_FeRQvOIk0nSa208SNdpP_Tl39kuFPAf7TBL8,18
+dataclass_to_json-1.1.0.dist-info/RECORD,,
