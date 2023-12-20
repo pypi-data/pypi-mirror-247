@@ -1,0 +1,21 @@
+<!--begin::Menu item-->
+<div class="menu-item px-3">
+    {% if method != "GET" %}
+        <form id="form_actions_{{ id }}"
+              action="${row.{{ identifier }}_url}"
+              method="{{ method }}"
+              class="menu-link px-3">
+            {% csrf_token %}
+            <a href="javascript:;"
+               onclick="parentNode.submit();"
+               data-id="{{ id }}"
+               class="menu-link px-3"
+               data-kt-docs-table-filter="edit_row">{{ name }}</a>
+        </form>
+    {% else %}
+        <a href="${row.{{ identifier }}_url}"
+           class="menu-link px-3"
+           data-kt-docs-table-filter="edit_row">{{ name }}</a>
+    {% endif %}
+</div>
+<!--end::Menu item-->
