@@ -1,0 +1,11 @@
+h264-to-h265_SpookyVicky/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+h264-to-h265_SpookyVicky/app.py,sha256=zVfwMdY6SiXZjs51IDNo2jN5oCPYXZQn7AxxG2wHH9Q,1108
+h264-to-h265_SpookyVicky/util/db.py,sha256=3zRNNcBdQEQRCWuG1O4SFyA7JMCYwXe745FInzGPdcc,310
+h264-to-h265_SpookyVicky/util/process.py,sha256=QaWgJNyg5Z9jYKnlpQX0CAT_Gb5668a-kGamCcPdwE4,1079
+h264-to-h265_SpookyVicky/util/remove.py,sha256=o-Sq9st1XlNwoA09Znyibd0L5aCC3fda_s0WnOQaWec,1393
+h264-to-h265_SpookyVicky/util/video_finder.py,sha256=sg33EhrKAVMwcI8VgK67i3hBxWrX7gbIKnuVvuyGagc,1451
+h264_to_h265_SpookyVicky-1.1.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+h264_to_h265_SpookyVicky-1.1.0.dist-info/METADATA,sha256=6Ld9syYd49aBUItlFYaAjvrVpIPq0Pun13c06dxPZHo,1187
+h264_to_h265_SpookyVicky-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+h264_to_h265_SpookyVicky-1.1.0.dist-info/top_level.txt,sha256=pRo4g6ZopB_alasaMZM4b7fRmJba_oiol9pXjcnpoww,25
+h264_to_h265_SpookyVicky-1.1.0.dist-info/RECORD,,
