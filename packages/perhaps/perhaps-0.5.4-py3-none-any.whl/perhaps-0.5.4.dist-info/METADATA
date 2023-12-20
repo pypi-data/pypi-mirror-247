@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: perhaps
+Version: 0.5.4
+Summary: Perhaps there is no data or perhaps there is
+Home-page: https://github.com/HKGx/perhaps
+License: MIT
+Keywords: maybe,monad,functional programming,just,some
+Author: HKGx
+Author-email: mail@hkgdoes.dev
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/HKGx/perhaps
+Description-Content-Type: text/markdown
+
+# perhaps
+
+![PyPI](https://img.shields.io/pypi/v/perhaps?style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/perhaps?style=flat-square)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+> Save your time when dealing with data that *perhaps* exists.
+
+
+*Perhaps won't offer any stable APIs before v1.0.0, but I'll do my best not to break too much things*
+
+![A code screenshot showing example usage of perhaps](.github/code-snapshot.png)
+
+I will stop publishing so many requests now, if needed pull the package from this repository
+
