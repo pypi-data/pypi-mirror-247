@@ -1,0 +1,12 @@
+afmaths/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afmaths/afmaths.py,sha256=AAlSqpv_EFBi3UsK8HvcX44LOU-HqYTjZfZGqv_lkJk,763
+afmaths/cs.py,sha256=I7cDXimXpO7V4jO6IabQ6S2Nguycs5sxMJMT-KZ_Wjg,3730
+afmaths/formula.py,sha256=53bgeKojXTwVWLGUczgajr68rOrJbfldLCGg6fq-D2c,642
+afmaths/graph.py,sha256=TqyhwUP0f2F8BssVZ5TKXbuhEb6kW_vMyHcmKYNNgsQ,1043
+afmaths/list.py,sha256=DoYUOQpaTWTYL5CSFYGeWhifMBi1rH0EgMLAseyEScI,1756
+afmaths/physics.py,sha256=gWC4fZ2kUazJV8-KLIwzdCoXAYRTldJFzFoibu86H5w,2530
+afmaths-1.0.3.dist-info/LICENSE,sha256=-Nw1nHWwG0KHRYh1LBZIehCyJ5kH-68YBDBhPdXGk8o,1069
+afmaths-1.0.3.dist-info/METADATA,sha256=qxd8DsA-np7pF9xVPdvsTt9aj_e6TyLCWKIgD_i76wA,2867
+afmaths-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+afmaths-1.0.3.dist-info/top_level.txt,sha256=l4q__LSXSp2YpogFh3kiVgFxzjUK37ZeM3FJJ_q90S0,8
+afmaths-1.0.3.dist-info/RECORD,,
