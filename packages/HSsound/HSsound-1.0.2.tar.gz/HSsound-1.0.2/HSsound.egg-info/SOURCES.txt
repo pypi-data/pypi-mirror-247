@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+HSsound/__init__.py
+HSsound.egg-info/PKG-INFO
+HSsound.egg-info/SOURCES.txt
+HSsound.egg-info/dependency_links.txt
+HSsound.egg-info/requires.txt
+HSsound.egg-info/top_level.txt
