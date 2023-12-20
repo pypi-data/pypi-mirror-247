@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: starspotter
+Version: 0.0.4b0
+Summary: Stellar contamination estimates from rotational light curves
+License: MIT
+Author: Lionel Garcia
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: healpy
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.25.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+> Work in progress, 0.0.3-beta released
+
+# spotter
+
+<p align="center" style="margin-bottom:-50px">
+    <img src="docs/_static/spotter.jpg" width="380">
+</p>
+
+<p align="center">
+  Forward models of non-uniform stellar photospheres and their spectra
+  <br>
+  <p align="center">
+    <a href="https://github.com/lgrcia/spotter">
+      <img src="https://img.shields.io/badge/github-lgrcia/spotter-indianred.svg?style=flat" alt="github"/></a>
+    <a href="LICENCE">
+      <img src="https://img.shields.io/badge/license-MIT-lightgray.svg?style=flat" alt="license"/>
+    </a>
+  </p>
+</p>
+
+*spotter* is a Python package to produce forward models of non-uniform stellar photospheres and their spectra. It uses the [HEALPix](https://healpix.sourceforge.io/) subdivision scheme and is powered by the high-performance numerical package [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html), enabling its use on GPUs.
+
+**Note**
+
+In its beta version, *spotter* is mainly developed to estimate transmission spectra stellar contamination from stellar rotational light curves. Use at your own risk as the code is completely untested and its API subject to change.
+
+## Features
+
+- Adjustable surface resolution <span style="color:grey">- *in beta*</span>
+- Small-scale surface feature modeling (e.g., beyond limitations of [starry]()) <span style="color:grey">- *in beta*</span>
+- Modeling of active regions with unique angular dependence on brightness (e.g., limb-brightened faculae)
+- GPU compatible <span style="color:grey">- *in beta*</span>
+- Possibility to input any stellar spectra model
+
+
+## Installation
+
+For now only locally with
+
+```
+pip install -e spotter
+```
+
+with *spotter* cloned using
+```
+git clone https://github.com/lgrcia/spotter
+```
+

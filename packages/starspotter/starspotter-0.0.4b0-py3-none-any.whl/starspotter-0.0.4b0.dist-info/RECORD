@@ -1,0 +1,9 @@
+spotter/__init__.py,sha256=5AbaI9veD8CN6fx0TtPhwhKZrsHJBFw3dLqw-IWRwow,83
+spotter/core.py,sha256=JOiFdUHE5rCx59mHbUvLkbLa_mB4ED2xjta8Q6Qi9xs,772
+spotter/distributions.py,sha256=X6-B4j4kBnrXtAW79_oOsusoSoNBJI7xTzvH0qyitQw,439
+spotter/estimates.py,sha256=NSQWv4738POadqUCZIv5Ri0Kr-z3i7XoiaeVFdW9GFM,3556
+spotter/star.py,sha256=tPKa_AVZEy__6IN0BJt5TWnLzs2XsoeFIGkKgo09bPI,18411
+starspotter-0.0.4b0.dist-info/LICENSE,sha256=5t2CSimN0aFZkQeqlPlEw6fLYcKaCOfptHJMmS4L-2E,1118
+starspotter-0.0.4b0.dist-info/METADATA,sha256=irMjQyqJCoH0k185EeOlpcQkzleDUqwytaI7P0JPS8M,2412
+starspotter-0.0.4b0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+starspotter-0.0.4b0.dist-info/RECORD,,
