@@ -1,0 +1,9 @@
+convect_flow_sdk/__init__.py,sha256=SrlHX3IlR0o6Vcee6hxMMzsK8RZ0UyzM092FuTnlDLc,99
+convect_flow_sdk/constants.py,sha256=MvlXqgMXD3rL2joqqBBlpBg5e-VVcC46lITZnAhhPuw,170
+convect_flow_sdk/flow_algo.py,sha256=vsYTuTnHpCwl_ovUBXTVcYXiTj7jQXiPiXrIZ02Ey_M,17293
+convect_flow_sdk/flow_app.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convect_flow_sdk-0.0.2.dist-info/LICENSE,sha256=0ASPTawEsVZodbT1bv4M5wccgeRL4Rm_LtK-88OfR4s,1067
+convect_flow_sdk-0.0.2.dist-info/METADATA,sha256=3YVT2ExUCkJ5iPXut_gjTU1u2EbKCCRkOjYcZqJ7uUA,1858
+convect_flow_sdk-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+convect_flow_sdk-0.0.2.dist-info/top_level.txt,sha256=ATWE8BDuvTny2L8KJ6mykVXIIPBUPib3Kc6WeA91Lms,17
+convect_flow_sdk-0.0.2.dist-info/RECORD,,
