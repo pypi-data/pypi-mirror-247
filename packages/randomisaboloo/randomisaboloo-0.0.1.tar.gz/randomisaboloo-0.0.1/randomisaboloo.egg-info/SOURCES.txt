@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+sanaxavi.py
+setup.py
+randomisaboloo.egg-info/PKG-INFO
+randomisaboloo.egg-info/SOURCES.txt
+randomisaboloo.egg-info/dependency_links.txt
+randomisaboloo.egg-info/top_level.txt
