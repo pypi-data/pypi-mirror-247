@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: twickster
+Version: 1.0
+Summary: Unofficial Python Twitter API
+Home-page: https://github.com/mokoshalb/twickster/
+Author: Okoya Usman
+Author-email: usmanokoya10@gmail.com
+License: UNKNOWN
+Description: To be filled...
+Keywords: twickster,python-twitter,Twitter,TwitterAPI,python-twitter-wrapper
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
