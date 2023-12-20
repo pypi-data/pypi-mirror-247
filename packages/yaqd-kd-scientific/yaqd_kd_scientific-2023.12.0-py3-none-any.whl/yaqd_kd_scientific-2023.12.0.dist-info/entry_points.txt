@@ -1,0 +1,3 @@
+[console_scripts]
+yaqd-kd-scientific-legato100=yaqd_kd_scientific._kd_scientific_legato100:KdScientificLegato100.main
+
