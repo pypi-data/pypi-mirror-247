@@ -1,0 +1,25 @@
+Tuple<Word<1>, Word<4>, Word<8>, Word<8>>
+
+fn inc(x of Word<8>) -> Word<8> {
+    x + 1
+}
+
+mod Foo {
+    outgoing out of Word<8>;
+
+    out := inc(0w8);
+}
+
+mod Bar {
+    incoming in of State;
+}
+
+struct type State {
+    counter of Word<4>;
+    foo of Foo;
+}
+
+enum type Foo {
+    Bar = 1w4;
+    Baz = 0w4;
+}

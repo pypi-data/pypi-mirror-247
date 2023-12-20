@@ -1,0 +1,16 @@
+struct type State {
+    count of Word<4>;
+    on of Word<1>;
+}
+
+mod Top {
+    outgoing out of Word<1>;
+
+    reg counter of Word<4> reset 0;
+    counter <= counter + 1;
+
+    reg state of State;
+    state <= { count = counter, on = 0, };
+
+    out := state->on;
+}

@@ -1,0 +1,8 @@
+mod Whens {
+    incoming in of Word<1>;
+    reg r of Word<8> reset 0;
+
+    when in {
+        r <=! r + 1;
+    }
+}

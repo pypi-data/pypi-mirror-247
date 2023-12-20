@@ -1,0 +1,10 @@
+top Top
+link top.video = Video {
+//    disabled = "true"
+}
+link top.videoram = Ram {
+    file = "data/heart.bin"
+}
+
+reset
+run
