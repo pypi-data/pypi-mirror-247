@@ -1,0 +1,3 @@
+[console_scripts]
+infer_SPF = scdna_replication_tools.infer_SPF:main
+infer_scRT = scdna_replication_tools.infer_scRT:main
