@@ -1,0 +1,10 @@
+pip
+tabulate
+six
+
+[tests]
+pip
+tabulate
+six
+pytest
+flake8
