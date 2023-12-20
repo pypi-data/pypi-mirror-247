@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+cordstrap/__init__.py
+cordstrap/__main__.py
+cordstrap/channel.py
+cordstrap/discord.py
+cordstrap/template.py
+cordstrap.egg-info/PKG-INFO
+cordstrap.egg-info/SOURCES.txt
+cordstrap.egg-info/dependency_links.txt
+cordstrap.egg-info/entry_points.txt
+cordstrap.egg-info/requires.txt
+cordstrap.egg-info/top_level.txt
+tests/test_channel.py
+tests/test_discord.py

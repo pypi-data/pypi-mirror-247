@@ -1,0 +1,2 @@
+[console_scripts]
+cordstrap = cordstrap.__main__:main
