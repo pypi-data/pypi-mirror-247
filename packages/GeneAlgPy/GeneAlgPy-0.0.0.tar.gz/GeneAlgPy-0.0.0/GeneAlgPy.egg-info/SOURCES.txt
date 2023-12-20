@@ -1,0 +1,7 @@
+setup.py
+GeneAlgPy/__init__.py
+GeneAlgPy/basefile.py
+GeneAlgPy.egg-info/PKG-INFO
+GeneAlgPy.egg-info/SOURCES.txt
+GeneAlgPy.egg-info/dependency_links.txt
+GeneAlgPy.egg-info/top_level.txt

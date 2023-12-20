@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GeneAlgPy
+Version: 0.0.0
+Summary: Genetic algorithm tools
+Author: Adam Shannon
+Author-email: adam.shannon02@gmail.com
+Keywords: python,Genetic Algorithms
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python genetic algorithm tools with fortran backend
