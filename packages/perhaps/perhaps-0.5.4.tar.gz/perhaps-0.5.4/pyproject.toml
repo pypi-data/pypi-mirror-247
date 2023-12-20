@@ -1,0 +1,35 @@
+[tool.poetry]
+authors = ["HKGx <mail@hkgdoes.dev>"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+description = "Perhaps there is no data or perhaps there is"
+homepage = "https://github.com/HKGx/perhaps"
+keywords = ["maybe", "monad", "functional programming", "just", "some"]
+license = "MIT"
+name = "perhaps"
+readme = "README.md"
+repository = "https://github.com/HKGx/perhaps"
+version = "0.5.4"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+isort = "^5.12.0"
+pyright = "^1.1.331"
+pre-commit = "^3.5.0"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pyright]
+pythonVersion = "3.12"
