@@ -1,0 +1,11 @@
+obse/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+obse/graphwrapper.py,sha256=dKvr5j9DXz734YhjF9s6reawQPxSYk4b7FPDDD459Ds,2601
+obse/namespace.py,sha256=oXVlCBqs_38FGvpEJNmZokHGx0FzegcjJjdxHKYZAhw,1972
+obse/ontologyresolver.py,sha256=1z96BlBCoJ7R-r10djS51Ea-AJITImGgMM4ar99Q6Ho,847
+obse/sparql_queries.py,sha256=ihFAgubfu-8mEqpMy0fQvJxsHVyOfV7xlDnBPbbg7fI,3890
+obse/statemachine.ttl,sha256=GH9MGbfjvaOCnxJky5QWd7m-tjyBlq0daTvyEICe0qk,15432
+obse-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+obse-0.0.2.dist-info/METADATA,sha256=ippWByXnuAvujMpiCmfvxTKZnlhjPuKcRNmbhPFJ_6o,597
+obse-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+obse-0.0.2.dist-info/top_level.txt,sha256=Nb5YPktA15jUfGvp83MNqBIkYRTGBcMgV6-bXNZZaAc,5
+obse-0.0.2.dist-info/RECORD,,
