@@ -1,0 +1,13 @@
+getfactormodels/__init__.py,sha256=kEyQDvcs6ssEAoec_13BcuWr9RSb8teDxAi7RR1CQeo,1882
+getfactormodels/__main__.py,sha256=wog0NDpyKmUmFWJ0brIJIPoKN_m0HGXtLiXEuO3PrRs,5565
+getfactormodels/models/__init__.py,sha256=TuTNVPCEwd9xxlAHzoEk4sYDenYQcBdCiMbiulOT-Y0,1237
+getfactormodels/models/ff_models.py,sha256=8ek3Q40acyOuILcbiAJvYfPnyPisY4oPapeRf4w9FzI,4492
+getfactormodels/models/models.py,sha256=Ga5AYEG-mrAFweBuBGRU19lLw0IOIcbLuCBBlTA8olY,17905
+getfactormodels/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getfactormodels/utils/cli.py,sha256=Gtyuph2HCYgnx-qy6Aq4QRgDJzzxQ_bPX5iG463uJkE,1455
+getfactormodels/utils/utils.py,sha256=G-LcqJLWP-VGt3QlLsmQDwd7fbFK4itlNwpeADZRE_s,5559
+getfactormodels-0.0.2.dist-info/entry_points.txt,sha256=BeSOuEFV8LlnhTxpKpbeJLQfl_kS-bVif0k4Z1ghOnY,65
+getfactormodels-0.0.2.dist-info/LICENSE,sha256=3AA29XMl8p-SVQzn1hMvq478uj3FHVjEUknv6YaGeYk,1066
+getfactormodels-0.0.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+getfactormodels-0.0.2.dist-info/METADATA,sha256=TKe4WbZq5FzQeqVpo63HepAGpEwp5s_aPL2l7iXQhS0,12018
+getfactormodels-0.0.2.dist-info/RECORD,,
