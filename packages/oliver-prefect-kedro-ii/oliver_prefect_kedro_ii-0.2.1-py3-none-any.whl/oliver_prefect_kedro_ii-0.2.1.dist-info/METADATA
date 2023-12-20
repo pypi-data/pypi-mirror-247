@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: oliver-prefect-kedro-ii
+Version: 0.2.1
+Summary: Prefect and Kedro package for Oliverto deployments
+Home-page: https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii
+Download-URL: https://github.com/oth-jonathan-gerstein/oliver_prefect_kedro_ii/archive/refs/tags/v_0_2_1.tar.gz
+Author: OTH JG
+Author-email: jgerstein@olivetreeholdings.com
+License: MIT
+Keywords: KEDRO,PREFECT,ETL,OLIVERTO
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: kedro
+Requires-Dist: click
+Requires-Dist: pendulum
+Requires-Dist: pluggy
+
+# OTH Kedro Prefect Library
+
+
+- Combines Kedro and Predect
+- Works with Oliverto
+- Makes ETL Magic Happen
+
+## Requirements
+
+- Kedro
+- Prefect
+- Click
+- Pendulum
+- Pluggy
