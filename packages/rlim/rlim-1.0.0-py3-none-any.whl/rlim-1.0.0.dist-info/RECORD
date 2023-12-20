@@ -1,0 +1,10 @@
+rlim/__init__.py,sha256=xOlClHoXSf4hNsKDCz67y9B_nyAo7PYCD57qgE0Cdy8,1291
+rlim/bundle.py,sha256=poAp5F4ZFI3Z82U74Ksmj7uqVaAXQMdwXZ0BF9IwfX4,8300
+rlim/errors.py,sha256=mVnn7itFhZZ7z_SidQjXnRA_fNAZOoNEpO5G3PXirN0,455
+rlim/ratelimiter.py,sha256=0jBl-d1BrfEOVvsFiye9Rib0VnQ4TCWmqee8cQMqgGs,10287
+rlim/utils.py,sha256=A2SYocdjThTcV976Yk3o0_L1hU3q-UPlNkloYfA_HHs,4696
+rlim-1.0.0.dist-info/LICENSE,sha256=ndOh2xe4JXZDiZOGeGK1-fWEHgGyeVFKe_9aws30PN0,572
+rlim-1.0.0.dist-info/METADATA,sha256=eFqM-0Po1puQHA5ysXFXx-UbQOs8woCswNFsWajIslE,5888
+rlim-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rlim-1.0.0.dist-info/top_level.txt,sha256=Ch_zRnZVegDNAggfTQ-Qgci7IElyw3j9ltF5AaY0dKI,5
+rlim-1.0.0.dist-info/RECORD,,
