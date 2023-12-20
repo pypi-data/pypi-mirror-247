@@ -1,0 +1,3 @@
+[console_scripts]
+vcron=vcron.main:main
+
