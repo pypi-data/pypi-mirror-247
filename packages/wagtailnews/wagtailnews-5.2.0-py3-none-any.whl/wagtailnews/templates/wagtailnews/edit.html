@@ -1,0 +1,22 @@
+{% extends "wagtailnews/create.html" %}
+{% load i18n %}
+
+{% block titletag %}{% blocktrans with newsitem=newsitem type=newsitem_opts.verbose_name %}Editing {{ type }}: {{ newsitem }}{% endblocktrans %}{% endblock %}
+{% trans "Edit" as new_str %}
+{% block header %}
+  {% include "wagtailadmin/shared/header.html" with title=new_str subtitle=newsitem icon="news" merged=True only %}
+{% endblock %}
+
+
+{% block extra_actions %}
+{% if can_delete %}
+<li>
+    <a href="{% url 'wagtailnews:delete' pk=newsindex.pk newsitem_pk=object.pk %}" class="button">{% trans "Delete" %}</a>
+</li>
+{% endif %}
+{% if object.live %}
+<li>
+    <a href="{% url "wagtailnews:unpublish" pk=newsindex.pk newsitem_pk=object.pk %}" class="button">{% trans "Unpublish" %}</a>
+</li>
+{% endif %}
+{% endblock %}
