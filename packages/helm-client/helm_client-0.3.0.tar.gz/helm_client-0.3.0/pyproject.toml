@@ -1,0 +1,158 @@
+[tool.poetry]
+name = "helm-client"
+version = "0.3.0"
+description = "Helm client"
+authors = ["Attila Kobor <akobor@kx.com>"]
+readme = "README.md"
+packages = [{include = "helm"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pydantic",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0"
+pydantic = "^2.5.2"
+requests = "^2.28"
+packaging = "^23.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.0"
+pytest-mock = "^3.10.0"
+pytest-cov = "^4.0.0"
+ruff = "^0.0.261"
+mypy = "^1.2.0"
+mypy-gitlab-code-quality = "^0.0.15"
+
+
+[[tool.poetry.source]]
+name = "kx-internal"
+url = "https://nexus.kxi-dev.kx.com/repository/kxi/simple"
+default = false
+secondary = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning[plugin]"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "semver"
+bump = true
+tag-branch = "main"
+metadata = false
+
+[tool.pytest.ini_options]
+addopts = "--junitxml=report.xml --tb=short --showlocals"
+console_output_style = "count"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+norecursedirs = [
+    "dist",
+    "build",
+    ".tox",
+]
+testpaths = [
+    "tests",
+]
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s=[%(levelname)s] %(module)s.%(funcName)s:%(lineno)d= %(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.coverage.run]
+command_line = "-m pytest tests"
+branch = true
+dynamic_context = "test_function"
+
+source_pkgs = ["helm"]
+relative_files = true
+
+
+[tool.coverage.paths]
+source = [
+    "helm",
+]
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+skip_empty = true
+skip_covered = false
+precision = 2
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:"
+]
+
+
+[tool.coverage.html]
+directory = "htmlcov/coverage"
+show_contexts = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+follow_imports = "normal"
+warn_return_any = false
+warn_unused_configs = true
+ignore_missing_imports = false
+python_version = 3.7
+
+[tool.pyright]
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportOptionalMemberAccess = "warning"
+
+[tool.black]
+target-version = ['py37']
+preview = true
+line-length = 120
+
+[tool.ruff]
+exclude = ["*-stubs"]
+select = ["E", "F", "W", "I", "N", "YTT"]  #"D"
+ignore = [
+    "D100",
+    "D104",
+    "D105",
+    "D107",
+    "N818",
+    "N805"
+    ]
+src = ["src"]
+line-length = 120
+target-version = "py37"
+fix = true
+
+[tool.ruff.flake8-unused-arguments]
+ignore-variadic-names = true
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.isort]
+known-first-party=["kxi_qa"]
+lines-after-imports = 2
+no-lines-before=["local-folder"]
+relative-imports-order = "closest-to-furthest"
+order-by-type = false
+force-sort-within-sections=true
+# required-imports = ["from __future__ import annotations"]
