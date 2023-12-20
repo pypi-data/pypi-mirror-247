@@ -1,0 +1,7 @@
+README.md
+setup.py
+azucar_reactive_websocket.egg-info/PKG-INFO
+azucar_reactive_websocket.egg-info/SOURCES.txt
+azucar_reactive_websocket.egg-info/dependency_links.txt
+azucar_reactive_websocket.egg-info/requires.txt
+azucar_reactive_websocket.egg-info/top_level.txt
