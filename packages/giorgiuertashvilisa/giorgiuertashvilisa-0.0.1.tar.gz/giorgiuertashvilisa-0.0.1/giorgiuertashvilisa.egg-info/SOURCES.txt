@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+sanaxavi.py
+setup.py
+giorgiuertashvilisa.egg-info/PKG-INFO
+giorgiuertashvilisa.egg-info/SOURCES.txt
+giorgiuertashvilisa.egg-info/dependency_links.txt
+giorgiuertashvilisa.egg-info/top_level.txt
