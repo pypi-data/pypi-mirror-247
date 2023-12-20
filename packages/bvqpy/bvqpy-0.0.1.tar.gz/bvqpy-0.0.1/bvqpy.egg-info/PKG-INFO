@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bvqpy
+Version: 0.0.1
+Summary: Barcelona Vocabulary Questonnaire
+Home-page: UNKNOWN
+Author: Gonzalo Garcia-Castro
+Author-email: gongarciacastro@gmail.com
+License: UNKNOWN
+Keywords: python,vocabulary
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+Development package for the Barcelona Vocabulary Questonnaire (BVQ)
+
