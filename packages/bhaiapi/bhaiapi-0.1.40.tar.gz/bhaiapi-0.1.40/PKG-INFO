@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bhaiapi
+Version: 0.1.40
+Summary: The python package that returns Response of Google bhai through API.
+Home-page: https://github.com/hk4crprasad/bhaiapi
+Author: Hk4crprasad
+Author-email: hotahara12@gmail.com
+Keywords: Python,API,bhai,Google bard,Large Language Model,Chatbot API,Google API,Chatbot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx[http2]>=0.20.0
+Requires-Dist: requests
+Requires-Dist: deep_translator
+Requires-Dist: colorama
+Requires-Dist: google-cloud-translate
+Requires-Dist: browser_cookie3
+Requires-Dist: langdetect
+Requires-Dist: speechrecognition
+Requires-Dist: youtube-search-python
+Requires-Dist: gtts
+Requires-Dist: python-dotenv
+Requires-Dist: keyboard
+Requires-Dist: rich
