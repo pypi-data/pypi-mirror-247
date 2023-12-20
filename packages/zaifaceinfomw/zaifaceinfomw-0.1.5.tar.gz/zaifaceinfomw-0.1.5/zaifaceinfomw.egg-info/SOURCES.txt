@@ -1,0 +1,6 @@
+setup.py
+zaifaceinfomw.egg-info/PKG-INFO
+zaifaceinfomw.egg-info/SOURCES.txt
+zaifaceinfomw.egg-info/dependency_links.txt
+zaifaceinfomw.egg-info/entry_points.txt
+zaifaceinfomw.egg-info/top_level.txt
