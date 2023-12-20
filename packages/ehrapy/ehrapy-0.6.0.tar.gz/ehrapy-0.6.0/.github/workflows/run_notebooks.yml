@@ -1,0 +1,41 @@
+name: Run Notebooks
+
+on:
+    - push
+    - pull_request_target
+
+jobs:
+    run:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                notebook: [
+                        "docs/tutorials/notebooks/ehrapy_introduction.ipynb",
+                        "docs/tutorials/notebooks/mimic_2_introduction.ipynb",
+                        "docs/tutorials/notebooks/mimic_2_survival_analysis.ipynb",
+                        "docs/tutorials/notebooks/mimic_2_fate.ipynb",
+                        "docs/tutorials/notebooks/mimic_2_causal_inference.ipynb",
+                        "docs/tutorials/notebooks/mimic_3_demo.ipynb",
+                        # "docs/tutorials/notebooks/medcat.ipynb",
+                    ]
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  submodules: "true"
+                  token: "${{ secrets.CT_SYNC_TOKEN }}"
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.10"
+
+            - name: Install ehrapy
+              run: pip install .
+
+            - name: Install additional dependencies
+              run: pip install medcat cellrank
+
+            - name: Install nbconvert ipykernel
+              run: pip install nbconvert ipykernel
+
+            - name: Run ${{ matrix.notebook }} Notebook
+              run: jupyter nbconvert --to notebook --execute ${{ matrix.notebook }}
