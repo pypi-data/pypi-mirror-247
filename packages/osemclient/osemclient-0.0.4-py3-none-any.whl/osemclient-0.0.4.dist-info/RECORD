@@ -1,0 +1,9 @@
+_your_package_version.py,sha256=bhi15cb3KVl9tPnATerbyVFoGUNgqJ4lEa48yJbRVCY,18
+osemclient/__init__.py,sha256=25Lugv9fao7dAMe2VXfe4UMuCKMU7lydFIgJV2i7hmo,72
+osemclient/client.py,sha256=iIxVXFLlTPslSptMOA0ce2HXDddKzf9yoMN-5JPwmK0,4255
+osemclient/models.py,sha256=fdL1z3iLCh_9eD8O-QhLhWLPkHyXtZiyg3buhVozMoQ,2571
+osemclient/py.typed,sha256=ZvYa-_QF7Xg7F6Dow8m1zHvSP6kNHuhh3BEBVxjAdUQ,168
+osemclient-0.0.4.dist-info/METADATA,sha256=jUChlW6uzToL0oMYZ_4PosAEhlwuBv3TBesgqrPtv68,3059
+osemclient-0.0.4.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+osemclient-0.0.4.dist-info/licenses/LICENSE,sha256=fEQ-THxb7O0E0LCdRKbknOzGNCvdEHVrTv0Xq9E0QtE,1066
+osemclient-0.0.4.dist-info/RECORD,,
