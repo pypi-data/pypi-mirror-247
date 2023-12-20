@@ -1,0 +1,2 @@
+[console_scripts]
+my_tool_entry_point = Diya.main:main
