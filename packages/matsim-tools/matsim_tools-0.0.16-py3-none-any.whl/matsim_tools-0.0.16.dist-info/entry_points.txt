@@ -1,0 +1,3 @@
+[console_scripts]
+matsim-scenariogen = matsim.scenariogen:main
+matsim-tools = matsim.cli.main:main
