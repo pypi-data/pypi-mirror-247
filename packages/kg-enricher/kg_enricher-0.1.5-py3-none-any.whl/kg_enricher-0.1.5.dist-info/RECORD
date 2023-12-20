@@ -1,0 +1,16 @@
+enricher/84.json,sha256=J7lYX5djJyTyh1qQAa2CKStWimLSbKwEOMonbDcHdqQ,48813
+enricher/85.json,sha256=6lK1q8PqdmFlVrSIVsWCLaiTAveF-mAZPNjwuMcGIQs,48687
+enricher/86.json,sha256=9qDxItEWB3g2XMPZugXaXl_5S6e4naaApy_8-ulJenk,46337
+enricher/87.json,sha256=KeeRAElQkZkQwz3vtopRakIYZMft_9cmX4WBk1ZcAfc,45706
+enricher/88.json,sha256=UJ8Ov0l2mxnITa3KaL0O6ONT7EwnF_ZB8GdgGbcvdas,22036
+enricher/89.json,sha256=R2FCWhHzPP445Mn96gW7NXFdfY6IJl-wr9Kcd-PfagE,22036
+enricher/90.json,sha256=h2xfYZv436b5V8KSJvlFbcRVs4iAgmq4a-hVJH1wcYg,33715
+enricher/91.json,sha256=wy6b08XzAY-bNL_Pw5a2i6Bg8N1dukU38sKPYwHorQ4,16756
+enricher/92.json,sha256=o6Hf-gcNO-va3BrD7Ua9kCE615TwF_WCaijrQNaHxxU,16756
+enricher/__init__.py,sha256=ufk3BKTxVEKiapl5XmwT_nXJmBkfT1y6vdkpyPGyuj8,29
+enricher/enricher.py,sha256=tEyduqVHCHPspoQ6bIRLnF4o4ZCVK8VR8I-c-M7OoZ4,8215
+kg_enricher-0.1.5.dist-info/LICENSE,sha256=0qsj1KFTLPkKNsbOl-QSGYLsn54uFYrdQwRDXyHGTBM,1072
+kg_enricher-0.1.5.dist-info/METADATA,sha256=-oZRTaUzKUnB5gikawrel2FkgB6J_xKT06wYG7dNj5I,9934
+kg_enricher-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kg_enricher-0.1.5.dist-info/top_level.txt,sha256=qEzjdoYCMrscbbYnAvFeqmQR-wLoC6pCJ4_2gBB7vEk,9
+kg_enricher-0.1.5.dist-info/RECORD,,
