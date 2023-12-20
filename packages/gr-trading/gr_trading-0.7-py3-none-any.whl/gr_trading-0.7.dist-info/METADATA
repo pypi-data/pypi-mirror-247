@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gr-trading
+Version: 0.7
+Summary: Comandos para cálculos de gerenciamento de risco no trading
+Home-page: https://github.com/vfranca/gr-trading
+License: BSD-3-Clause
+Keywords: CLI,trading
+Author: Valmir Franca
+Author-email: vfranca3@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Project-URL: Repository, https://github.com/vfranca/gr-trading
+Description-Content-Type: text/markdown
+
+# gr-trading
+
+Comandos para cálculos de gerenciamento de risco no trading
+
+
+
