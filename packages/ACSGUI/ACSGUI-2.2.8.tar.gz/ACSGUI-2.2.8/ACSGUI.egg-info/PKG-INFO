@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ACSGUI
+Version: 2.2.8
+Summary: A very basic advance calculator
+Home-page: 
+Author: Tanishq JM
+Author-email: tanishqurmi@gmail.com
+License: MIT
+Keywords: Advance result analyzer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a very advance calculator package.
