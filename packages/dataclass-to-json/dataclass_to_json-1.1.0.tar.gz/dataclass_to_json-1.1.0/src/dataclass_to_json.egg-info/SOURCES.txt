@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dataclass_to_json/__init__.py
+src/dataclass_to_json/__version__.py
+src/dataclass_to_json/convert_class_to_json.py
+src/dataclass_to_json.egg-info/PKG-INFO
+src/dataclass_to_json.egg-info/SOURCES.txt
+src/dataclass_to_json.egg-info/dependency_links.txt
+src/dataclass_to_json.egg-info/not-zip-safe
+src/dataclass_to_json.egg-info/top_level.txt
+tests/test_convert_class_to_json.py
