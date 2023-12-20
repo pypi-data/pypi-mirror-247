@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellopkgqwe/__init__.py
+hellopkgqwe/hello.py
+hellopkgqwe.egg-info/PKG-INFO
+hellopkgqwe.egg-info/SOURCES.txt
+hellopkgqwe.egg-info/dependency_links.txt
+hellopkgqwe.egg-info/top_level.txt
