@@ -1,0 +1,9 @@
+bootFacebookAccountCreator-1.10.0.data/data/src/chromedriver,sha256=bnCLAJQw5JJf3aE4sawGiGwRzW7RQU1hobZJ_gw-U1A,16089584
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/facebook.py,sha256=SVjV3pIsRc9rOFoY4oCq5yqRtxeWuRNi9WJQrNIc0EM,6731
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bootFacebookAccountCreator-1.10.0.dist-info/LICENSE.chromedriver,sha256=eDh94ibm5578G-QquSt5BMVZcXt5a-4gZNAoeXtBBmU,297889
+bootFacebookAccountCreator-1.10.0.dist-info/METADATA,sha256=N5ykohXqwdk2VQgpdzrw4lDncDqnRW0aZCYtWJlucvQ,1915
+bootFacebookAccountCreator-1.10.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bootFacebookAccountCreator-1.10.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bootFacebookAccountCreator-1.10.0.dist-info/RECORD,,
