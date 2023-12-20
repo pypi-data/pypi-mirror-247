@@ -1,0 +1,14 @@
+pyunlocode/__init__.py,sha256=HheRA0X8O8VKu7VH2Cj4dxnqn8PVxGvPv6fhFi8sBNg,14013
+pyunlocode/init_db.py,sha256=kj0HGqo_M5JM-hcfdaNtC0EttP3zKTh4AGj7mWM-GXo,567
+pyunlocode/parser.py,sha256=21TLFHoLIVWseCWp7I7eAzTYVnuYCamZIqEDgP1c4yQ,7436
+pyunlocode/unlocode.db,sha256=Vn_lxfLoAMVfY8mYIo1T-H4NWqeDX0XU8hhq8cUYD2Y,12148736
+pyunlocode/csv/2023-1 SubdivisionCodes.csv,sha256=R_1PkgF2OMHTVoForG-B54jKXBR5bcJnT5XSbw6YtrA,173309
+pyunlocode/csv/2023-1 UNLOCODE CodeListPart1.csv,sha256=yrHC9k_0LNOEE-6bdSqGqc0YSFh6cDPxN4KhwdO-a9M,4602838
+pyunlocode/csv/2023-1 UNLOCODE CodeListPart2.csv,sha256=linBsPUrSr-iYJ2pwyL0_RzLvE4CW2rx67WW2QMBPaw,2196445
+pyunlocode/csv/2023-1 UNLOCODE CodeListPart3.csv,sha256=9pTEnt5NfpXlZRQJU9E0FUPs0E3iPVKupvJJfVxQeoc,2634388
+pyunlocode-0.1.0.dist-info/LICENSE,sha256=NQYTtIWHNTuVeJbfPf6dKGdYoYd9lB4x1bC5LNGqQRI,8912
+pyunlocode-0.1.0.dist-info/METADATA,sha256=e4kTCODJ5CYON9qYsS0Kkk3PzyCb5EaDUQEzCHW081c,535
+pyunlocode-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyunlocode-0.1.0.dist-info/entry_points.txt,sha256=gVYpoP86vB9HNjYeC-u6gibWVg1u-qDVHxkp7K9MNd4,63
+pyunlocode-0.1.0.dist-info/top_level.txt,sha256=4l71EFx0B-UpRYDideUv1UC-35QoLVpwnJIil7kNAN0,11
+pyunlocode-0.1.0.dist-info/RECORD,,
