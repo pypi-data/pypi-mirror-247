@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gh-rabbit-hole
+Version: 1.0.1
+Summary: Pacchetto per la comunicazione con rabbitmq
+Author: Massimo Ghiani
+Author-email: m.ghiani@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pika >=1.3.2
+Requires-Dist: requests >=2.31.0
+Requires-Dist: asyncio >=3.4.3
+
+# RABBIT_HOLE
+
+rabbit hole è un pacchetto composto da ue librerie per l'ascolto e l'invio di messaggi su code rabbitmq
+
+## Installazione
+
+Per installare RabbitHole, è sufficiente eseguire il seguente comando:
+
+```bash
+pip install gh-rabbit-hole
+```
