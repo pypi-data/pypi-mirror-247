@@ -1,0 +1,12 @@
+mc_calculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mc_calculator/__main__.py,sha256=rx4d723ZZV98dmZwpRBoD8tGNNBObXh8QBN0UnyKAPA,1027
+mc_calculator/c_crafting_block.py,sha256=KaadYzO1kUSzU_gfVFzAynFaHp6sKH9r1USqiCzf1mk,433
+mc_calculator/c_recipe.py,sha256=-PjkwRJ4c-rnjRyBdcjVHIsq7UwnQz_l8sQ6Jhfq5fQ,1542
+mc_calculator/database_ops.py,sha256=pPxRRgstlOdTGJGGdY8jEpor1yq-UAvHyHKjmcPFIys,2696
+mc_calculator/main.py,sha256=rx4d723ZZV98dmZwpRBoD8tGNNBObXh8QBN0UnyKAPA,1027
+mc_calculator/recipe_logic.py,sha256=kzpYAtE1wANmUpLZ91sEjap-MUH4_voAa0v2qRIOrlo,7396
+mc_calculator-0.1.0.dist-info/METADATA,sha256=UB2TDB1WERqP9xy07_EP_amrYqXVPi2kaseICuMf4Ts,1961
+mc_calculator-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mc_calculator-0.1.0.dist-info/entry_points.txt,sha256=kDqATmoUY3T8G7GNCoof6F39hJFXpW5G4FV3GuJICa8,62
+mc_calculator-0.1.0.dist-info/top_level.txt,sha256=RIxZa_j-l9eBC-U4Bxcv-7wdMwcGNAjRB5AzD4VNvKI,14
+mc_calculator-0.1.0.dist-info/RECORD,,
