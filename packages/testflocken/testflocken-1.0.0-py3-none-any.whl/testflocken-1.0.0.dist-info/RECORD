@@ -1,0 +1,9 @@
+testflocken/__init__.py,sha256=IS5Rgy2d7AFJeqT2IppRC41k5KxIKJ9wD0ZcQdTb6xs,102
+testflocken/__main__.py,sha256=eRo5V66vz66FMHlqwF_qvy4dNC79c5uPtjNYfi3L9uc,52
+testflocken/app.py,sha256=oub89DDBWrMqyEGvO-TNWJO1MA4yA5gxXvGgCfFJZU4,128
+testflocken/cli.py,sha256=Nu1LS7NUoPNAddyenKTLBA5Ra4QzgqoZJsZ_nPuRnho,540
+testflocken/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testflocken-1.0.0.dist-info/METADATA,sha256=UOLqAuRye8OddVBhyMPa3U2uVLDzie6zdjE3NlUWM-A,966
+testflocken-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+testflocken-1.0.0.dist-info/entry_points.txt,sha256=TWNiw-dCbCabS5CTvxs7fhROlLVvnH6Y3rIHauWmKK4,63
+testflocken-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+testflocken=testflocken.cli:testflocken_cli
+
