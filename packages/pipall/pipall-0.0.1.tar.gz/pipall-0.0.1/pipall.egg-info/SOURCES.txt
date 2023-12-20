@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+pipall.egg-info/PKG-INFO
+pipall.egg-info/SOURCES.txt
+pipall.egg-info/dependency_links.txt
+pipall.egg-info/entry_points.txt
+pipall.egg-info/top_level.txt
+src/pipall/__init__.py
+src/pipall/installer.py

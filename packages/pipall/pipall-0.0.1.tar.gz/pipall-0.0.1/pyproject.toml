@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipall"
+version = "0.0.1"
+authors = [
+  { name="sree_harsha", email="sreeharsha120203@gmail.com" },
+]
+description = "PipAll is a Python library management tool that simplifies the installation, uninstallation, and listing of libraries for different Python versions."
+readme = "README.md"
+requires-python = ">=3.3"
+keywords = ["pipall","pythonversions"]
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/sree1223/pipall"
+
+[project.scripts]
+realpython = "pipall.installer:main"
