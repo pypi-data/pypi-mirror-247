@@ -1,0 +1,12 @@
+PyYAML
+antlr4-python3-runtime
+antlr4-tools
+
+[tests]
+mypy
+pytest
+pytest-cov
+pytest-mock
+coveralls
+pep8-naming
+flake8-annotations
