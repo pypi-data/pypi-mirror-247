@@ -1,0 +1,6 @@
+pygame_gl.py
+setup.py
+pygame_gl.egg-info/PKG-INFO
+pygame_gl.egg-info/SOURCES.txt
+pygame_gl.egg-info/dependency_links.txt
+pygame_gl.egg-info/top_level.txt
