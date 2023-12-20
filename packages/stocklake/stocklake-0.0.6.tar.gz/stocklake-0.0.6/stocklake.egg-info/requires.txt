@@ -1,0 +1,9 @@
+polygon-api-client
+python-dotenv
+pandas
+click
+requests
+
+[dev]
+ruff-lsp
+black
