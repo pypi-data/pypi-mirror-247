@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: nserver
+Version: 2.0.0
+Summary: DNS Name Server Framework
+Author-email: Nicholas Hairs <info+nserver@nicholashairs.com>
+License: MIT
+Project-URL: homepage, https://nhairs.github.io/nserver/latest/
+Project-URL: github, https://github.com/nhairs/nserver
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: Name Service (DNS)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: NOTICE
+Requires-Dist: dnslib
+Requires-Dist: tldextract
+Provides-Extra: build
+Requires-Dist: setuptools ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: validate-pyproject[all] ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: bpython ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: black ; extra == 'docs'
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material >=8.5 ; extra == 'docs'
+Requires-Dist: mkdocs-awesome-pages-plugin ; extra == 'docs'
+Requires-Dist: mdx-truly-sane-lists ; extra == 'docs'
+Requires-Dist: mkdocstrings[python] ; extra == 'docs'
+Requires-Dist: mkdocs-gen-files ; extra == 'docs'
+Requires-Dist: mkdocs-literate-nav ; extra == 'docs'
+Requires-Dist: mike ; extra == 'docs'
+
+# NServer: a high-level Python DNS Name Server Framework.
+
+[![PyPi](https://img.shields.io/pypi/v/nserver.svg)](https://pypi.python.org/pypi/nserver/)
+[![PyPI - Status](https://img.shields.io/pypi/status/nserver)](https://pypi.python.org/pypi/nserver/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/nserver.svg)](https://github.com/nhairs/nserver)
+[![License](https://img.shields.io/github/license/nhairs/nserver.svg)](https://github.com/nhairs/nserver)
+
+NServer is a Python framework for building customised DNS name servers with a focuses on ease of use over completeness. It implements high level APIs for interacting with DNS queries whilst making very few assumptions about how responses are generated.
+
+## Documentation
+
+- [Documentation](https://nhairs.github.io/nserver/latest/)
+- [Quickstart Guide](https://nhairs.github.io/nserver/latest/quickstart/)
+- [Change Log](https://nhairs.github.io/nserver/latest/changelog/)
+
+
+## Licence
+This project is licenced under the MIT Licence - see [`LICENCE`](https://github.com/nhairs/nserver/blob/main/LICENCE).
+
+This project may include other open source licenced software - see [`NOTICE`](https://github.com/nhairs/nserver/blob/main/NOTICE).
+
+## Authors
+A project by Nicholas Hairs - [www.nicholashairs.com](https://www.nicholashairs.com).
