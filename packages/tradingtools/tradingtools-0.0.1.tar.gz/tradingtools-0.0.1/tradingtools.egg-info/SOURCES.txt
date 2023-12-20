@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+stocks/__init__.py
+stocks/info.py
+tradingtools.egg-info/PKG-INFO
+tradingtools.egg-info/SOURCES.txt
+tradingtools.egg-info/dependency_links.txt
+tradingtools.egg-info/top_level.txt
