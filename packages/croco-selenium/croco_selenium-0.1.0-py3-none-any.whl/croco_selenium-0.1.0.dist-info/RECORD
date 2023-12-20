@@ -1,0 +1,13 @@
+croco_selenium/__init__.py,sha256=MYOTs6QRn1MJaIHO5b2KRgyr5bsc68vIFbaTiCFaYDg,1420
+croco_selenium/_croco_driver.py,sha256=fmJXmhcBThZuPTtDFjUmRXypmuKiySR-lDV8pPsnVlk,1354
+croco_selenium/action_performer.py,sha256=kwPXemh14O8aNjYjMmIggrOvROkA_ox0GqaUt6ngduM,8341
+croco_selenium/actions.py,sha256=MQWTXLGAjSMjOSnOxU9_IFbAolU-_GRY5D_-jm3Te9A,10063
+croco_selenium/chrome_driver.py,sha256=FsJw1WRu4GMeVlllxKC3jMleBZe6O50f5Ys9qFez6c8,1161
+croco_selenium/decorators.py,sha256=9UvoiOmIFj_2WFGHLZQ5Zw6Q5xpPee9rFqWXss9i2yc,4472
+croco_selenium/exceptions.py,sha256=1WjHYBJhPOvFo7yInp9Woaq_0w6VbAQL8zOSB4ytRAo,358
+croco_selenium/types.py,sha256=tlDV_AbH0wnJ0bWgS-gLsFGppJ-9jGLRK6iVri1aOsg,374
+croco_selenium/utils.py,sha256=O3PRv7NINuftjm2-HvJ9Pe8znE_20xBMAd8LmQiV6Kc,449
+croco_selenium-0.1.0.dist-info/LICENSE,sha256=3ownyzAdj6Al-5KBJr7dgqt-9mJ1TiSyJHaVmvkT1wI,1062
+croco_selenium-0.1.0.dist-info/METADATA,sha256=MtizKoD-_b229nowamnlSBzvdf9o0uSZsCI5t8c77xE,10396
+croco_selenium-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+croco_selenium-0.1.0.dist-info/RECORD,,
