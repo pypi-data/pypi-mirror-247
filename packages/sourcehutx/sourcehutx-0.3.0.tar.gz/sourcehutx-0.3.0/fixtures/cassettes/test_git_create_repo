@@ -1,0 +1,277 @@
+interactions:
+- request:
+    body: '{"query": "\n        mutation create(\n          $name: String!\n          $visibility:
+      Visibility!\n          $description: String,\n          $cloneUrl: String\n        )
+      {\n          createRepository(\n            name: $name\n            visibility:
+      $visibility\n            description: $description\n            cloneUrl: $cloneUrl\n          )
+      {\n            name\n            visibility\n            description\n            id\n            created\n            updated\n            HEAD
+      {\n              name\n            }\n            readme\n            owner
+      {\n              canonicalName\n            }\n          }\n        }\n        ",
+      "variables": {"name": "python-client-test", "visibility": "UNLISTED", "description":
+      null, "cloneUrl": null}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '763'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"createRepository":{"name":"python-client-test","visibility":"UNLISTED","description":null,"id":427541,"created":"2023-12-20T01:24:43.477111Z","updated":"2023-12-20T01:24:43.477111Z","HEAD":null,"readme":null,"owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '263'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:43 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query {\n          me {\n            username\n          }\n        }\n        ",
+      "variables": {}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '119'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"me":{"username":"gotmax23-test"}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:43 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepo($username: String!, $name: String!)
+      {\n          user(username: $username) {\n            repository(name: $name)
+      {\n              name\n              description\n              visibility\n              id\n              created\n              updated\n              HEAD
+      {\n                name\n              }\n              readme\n              owner
+      {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-client-test"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '566'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repository":{"name":"python-client-test","description":null,"visibility":"UNLISTED","id":427541,"created":"2023-12-20T01:24:43.477111Z","updated":"2023-12-20T01:24:43.477111Z","HEAD":null,"readme":null,"owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '266'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:43 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        query getRepo($username: String!, $name: String!)
+      {\n          user(username: $username) {\n            repository(name: $name)
+      {\n              id\n              name\n              owner {\n                canonicalName\n              }\n            }\n          }\n        }\n        ",
+      "variables": {"username": "gotmax23-test", "name": "python-client-test"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '384'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"user":{"repository":{"id":427541,"name":"python-client-test","owner":{"canonicalName":"~gotmax23-test"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '117'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:43 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation update($id: Int!, $input: RepoInput!) {\n          updateRepository(id:
+      $id, input: $input) {\n            name\n            description\n            visibility\n            id\n            created\n            updated\n            HEAD
+      {\n              name\n            }\n            readme\n            owner
+      {\n              canonicalName\n            }\n          }\n        }\n        ",
+      "variables": {"id": 427541, "input": {"description": "This is a description!"}}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '505'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"updateRepository":{"name":"python-client-test","description":"This
+      is a description!","visibility":"UNLISTED","id":427541,"created":"2023-12-20T01:24:43.477111Z","updated":"2023-12-20T01:24:43.881157Z","HEAD":null,"readme":null,"owner":{"canonicalName":"~gotmax23-test"}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '283'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:43 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+- request:
+    body: '{"query": "\n        mutation delete($id: Int!) {\n          deleteRepository(id:
+      $id) { id }\n        }\n        ", "variables": {"id": 427541}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '145'
+      content-type:
+      - application/json
+      host:
+      - git.sr.ht
+      user-agent:
+      - python-httpx/0.24.1
+    method: POST
+    uri: https://git.sr.ht/query
+  response:
+    content: '{"data":{"deleteRepository":{"id":427541}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Content-Length,Content-Range
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Dec 2023 01:24:44 GMT
+      Server:
+      - nginx
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
