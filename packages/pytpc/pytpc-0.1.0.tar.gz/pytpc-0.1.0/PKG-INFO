@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytpc
+Version: 0.1.0
+Summary: A Python package for all things TPC benchmark related
+License: Apache-2.0
+Author: Phillip Cloud
+Author-email: 417981+cpcloud@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
