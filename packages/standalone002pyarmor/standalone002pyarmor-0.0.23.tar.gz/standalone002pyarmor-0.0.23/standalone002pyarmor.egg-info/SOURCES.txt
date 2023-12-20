@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+my_package/__init__.py
+my_package/exfn001add.py
+my_package/exfn001add_release.py
+my_package/pytransform/__init__.py
+standalone002pyarmor.egg-info/PKG-INFO
+standalone002pyarmor.egg-info/SOURCES.txt
+standalone002pyarmor.egg-info/dependency_links.txt
+standalone002pyarmor.egg-info/top_level.txt
