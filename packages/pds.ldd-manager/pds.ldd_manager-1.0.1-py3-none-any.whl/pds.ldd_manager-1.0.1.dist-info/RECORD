@@ -1,0 +1,16 @@
+pds.ldd_manager-1.0.1-py3.9-nspkg.pth,sha256=WHMiMOr-2sbcUFdwtpfVUBvpKD0J2QYl-g9x-xWuFnw,524
+pds/ldd_manager/VERSION.txt,sha256=ROFh5ElcrCz3hYBD6eZBjpV58N3ProJvmjcmIpaM4GY,6
+pds/ldd_manager/__init__.py,sha256=zF7uxnoD51sjT-fO6q14df0sHk6rlcTXyY5szPt-ZiI,325
+pds/ldd_manager/generate.py,sha256=l1aGJbiMG8Cd6qysUiJUNDJSWh1f88GZjVYBvJRnWnU,5592
+pds/ldd_manager/release.py,sha256=RtzK7MGS-UlazuJ7dfL0SeaLGIjjDdZAVheRFzkrzqI,7334
+pds/ldd_manager/util.py,sha256=iSWBQLqkQ0crcw5B7dJcsPp64e3Y1dK1JPHz9Ssu2Lw,4082
+pds/ldd_manager/validate.py,sha256=uUrDya5h8wrFLqFiMKY3kqpLdEYnQSnmWG5CXd0zXps,8702
+pds.ldd_manager-1.0.1.dist-info/LICENSE.md,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+pds.ldd_manager-1.0.1.dist-info/METADATA,sha256=2PN5U-n1cwTa_NlTdzX4WPm7S1ailNdfx5bmfm4reL8,10516
+pds.ldd_manager-1.0.1.dist-info/NOTICE.txt,sha256=JbZTWAOH0ry1Bg7KqY1v1tU7mTJsp8yqYSUPrVvlfEw,1665
+pds.ldd_manager-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pds.ldd_manager-1.0.1.dist-info/entry_points.txt,sha256=DcfRITiBx0sBmb6goS9Rwesr2wAbLPSNSn2MP2HeI_Y,151
+pds.ldd_manager-1.0.1.dist-info/namespace_packages.txt,sha256=5SacHJznU3B9RSALhTt0yjidG0EmPyBMNQgoU-bxvo4,4
+pds.ldd_manager-1.0.1.dist-info/top_level.txt,sha256=5SacHJznU3B9RSALhTt0yjidG0EmPyBMNQgoU-bxvo4,4
+pds.ldd_manager-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pds.ldd_manager-1.0.1.dist-info/RECORD,,
