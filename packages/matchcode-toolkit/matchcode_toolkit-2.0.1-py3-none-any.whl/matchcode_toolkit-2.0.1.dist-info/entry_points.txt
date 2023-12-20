@@ -1,0 +1,2 @@
+[scancode_post_scan]
+fingerprint = matchcode_toolkit.plugin_fingerprint:Fingerprint
