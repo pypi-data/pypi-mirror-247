@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ressac
+Version: 1.0.1
+Summary: Resnet based single-cell ATAC-seq clustering
+Home-page: https://github.com/xyMa00/bio_z7.git
+Author: mxy
+Author-email: xyMa00@126.com
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7.0
+License-File: LICENSE
+Requires-Dist: numpy >=1.21.6
+Requires-Dist: pandas >=1.1.5
+Requires-Dist: scipy >=1.7.3
+Requires-Dist: scikit-learn >=1.0.2
+Requires-Dist: torch >=1.13.1
+Requires-Dist: tqdm >=4.66.1
+Requires-Dist: matplotlib >=3.5.3
+Requires-Dist: seaborn >=0.9.0
+Requires-Dist: umap-learn >=0.5.3
+Requires-Dist: scanpy >=1.9.3
+Requires-Dist: episcanpy >=0.3.1
+Requires-Dist: torchvision >=0.14.1
+
