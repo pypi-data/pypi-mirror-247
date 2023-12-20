@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+FreeWork/OfficeWork.py
+FreeWork/__init__.py
+FreeWorkUT.egg-info/PKG-INFO
+FreeWorkUT.egg-info/SOURCES.txt
+FreeWorkUT.egg-info/dependency_links.txt
+FreeWorkUT.egg-info/requires.txt
+FreeWorkUT.egg-info/top_level.txt
