@@ -1,0 +1,12 @@
+asockit/__about__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+asockit/__init__.py,sha256=Bv9be1DcWzbLoVmPPIqy8Q0Rm9mgNSZBgWfSpkLXHrQ,545
+asockit/connection.py,sha256=tqPOfSUUrTMpeMrub3xVCbN72mRzQx72khbepTYLDok,2148
+asockit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asockit/reader.py,sha256=-RfoYWUWouy_iuL6zWcHvVKVvEU3su9mfiKA-lcdEOY,3873
+asockit/writer.py,sha256=lo49Cr49C0emn49VK5Vu3lFnT6yMpr2l69eUrusI4FI,783
+asockit/abc/__init__.py,sha256=YOL2rM33y9jCfK_RgfvspvxOFqk41z-x9Oe6t40tomY,167
+asockit/abc/connection.py,sha256=Hue3dNr8xESXEJts1Ja84CuzwdYkrK6Dyykq2ZS-zJc,999
+asockit-0.1.1.dist-info/METADATA,sha256=9eZ56dyjXsye2RVbpR8KY9xbWJrwxA2cXSGARiuYb-U,5134
+asockit-0.1.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+asockit-0.1.1.dist-info/licenses/LICENSE,sha256=6d9MTk5kuBaKccPGdmjc_6u-j8oR1KxKfVSCVizRZ5w,34524
+asockit-0.1.1.dist-info/RECORD,,
