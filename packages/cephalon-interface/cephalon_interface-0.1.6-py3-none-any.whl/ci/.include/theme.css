@@ -1,0 +1,93 @@
+label[data-testid="stWidgetLabel"] div[data-testid="stMarkdownContainer"] p {
+    padding-left: 0.1rem;
+}
+
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+
+
+h1>div>a,
+h2>div>a,
+h3>div>a,
+h4>div>a,
+h5>div>a,
+h6>div>a {
+    display: none !important;
+}
+
+button[data-testid="StyledFullScreenButton"] {
+    display: none !important;
+}
+
+section:not([data-testid="stSidebar"]) .block-container {
+    padding: 0.55rem 1.8rem !important;
+
+}
+
+
+section[data-testid="stSidebar"] .block-container {
+    margin-top: -4.5rem;
+}
+
+details summary div[data-testid="stMarkdownContainer"] p {
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+button[data-testid="stCopyButton"] svg {
+    stroke: lightgreen;
+}
+
+/* default color after removing elements */
+
+/* div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+svg[title="open"] {
+    color: rgb(222, 198, 178);
+} */
+
+input {
+    color: rgb(222, 198, 178) !important;
+}
+
+
+div[data-baseweb="select"] div {
+    color: rgb(222, 198, 178) !important;
+}
+
+/* p,
+li {
+    color: rgb(178, 196, 222);
+} */
+
+div[data-testid="stSidebarUserContent"] h1 {
+    text-align: center;
+}
+
+
+button {
+    transition: 0.3s ease !important;
+}
+
+button[data-testid="baseButton-header"] {
+    color: red;
+}
+
+button[kind="headerNoPadding"] {
+    color: lightgreen;
+}
+
+hr {
+    border-bottom: 1px solid grey !important;
+}

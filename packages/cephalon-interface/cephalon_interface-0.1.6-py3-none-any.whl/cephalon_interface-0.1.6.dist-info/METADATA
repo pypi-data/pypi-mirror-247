@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cephalon-interface
+Version: 0.1.6
+Summary: API client and GUI app for interacting with Cephalon Intelligence research tools.
+Home-page: https://github.com/cephalon-intelligence/cephalon-interface
+Author: Hart Traveller
+Author-email: research@cephalon.io
+Requires-Python: >3.9.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dateparser (>=1.2.0,<2.0.0)
+Requires-Dist: fuzzywuzzy (>=0.18.0,<0.19.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pick (>=2.2.0,<3.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
+Requires-Dist: pycooltext (>=0.0.1,<0.0.2)
+Requires-Dist: pycountry (>=23.12.11,<24.0.0)
+Requires-Dist: pydantic (>=2.5.0,<3.0.0)
+Requires-Dist: python-levenshtein (>=0.23.0,<0.24.0)
+Requires-Dist: regex (>=2023.10.3,<2024.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: result (>=0.15.0,<0.16.0)
+Requires-Dist: rich-click (>=1.7.1,<2.0.0)
+Requires-Dist: streamlit (>=1.29.0,<2.0.0)
+Requires-Dist: streamlit-searchbox (>=0.1.6,<0.2.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: watchdog (>=3.0.0,<4.0.0)
+Project-URL: Documentation, https://cephalon.systems/
+Project-URL: Repository, https://github.com/cephalon-intelligence/cephalon-interface
+Description-Content-Type: text/markdown
+
+# cephalon-interface
+
