@@ -1,0 +1,17 @@
+README.md
+setup.py
+gpt_translate/__init__.py
+gpt_translate/loader.py
+gpt_translate/prompts.py
+gpt_translate/translate.py
+gpt_translate/utils.py
+gpt_translate/version.py
+gpt_translate.egg-info/PKG-INFO
+gpt_translate.egg-info/SOURCES.txt
+gpt_translate.egg-info/dependency_links.txt
+gpt_translate.egg-info/entry_points.txt
+gpt_translate.egg-info/requires.txt
+gpt_translate.egg-info/top_level.txt
+tests/test_loader.py
+tests/test_roles.py
+tests/test_utils.py
