@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: cpp-uuid
+Version: 1.0.1
+Summary: Python UUID module written in C++
+Author-email: Dmitriy Makeev <makeev.dimitry@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Dmitriy Makeev
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/DmitriyMakeev/cpp_uuid
+Keywords: python3,fast,uuid,uuid4,c++,cpp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Fast python UUID module written in C++
+########################################################
+
+.. image:: https://github.com/DmitriyMakeev/cpp_uuid/actions/workflows/build.yml/badge.svg?branch=main
+  :alt: Build status
+
+``cpp_uuid`` is a Python library written in ``C++``.
+It provides an API that, in most cases, covers usage of Python's builtin ``UUID`` class.
+The library implements generate, convert to string and parse UUIDs version 4.
+It is also possible to convert UUIDs from ``uuid`` standard or compare between them.
+
+In most cases you can just replace import section of your code.
+
+.. code-block:: python
+
+    from cpp_uuid import UUID, uuid4
+
+    item_uuid = uuid4()
+    other_uuid = UUID('c5fcf05c-6320-47ec-98c0-be84fdb1c321')
+
+Module tested on Python versions from 3.8 to 3.12.
+
+This library uses ``UUID4`` generation from `crashoz/uuid_v4 library <https://github.com/crashoz/uuid_v4>`_.
+
+
+Benchmarks
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Performance comparisons were made with the standard ``uuid`` and the ``fastuuid`` library,
+which is written in ``Rust``.
+
+.. list-table:: Benchmark results (10 :sup:`6` times for each test)
+   :width: 100%
+   :widths: 40 20 20 20
+   :header-rows: 1
+
+   * -
+     - ``uuid`` (ms)
+     - ``fastuuid`` (ms)
+     - ``cpp_uuid`` (ms)
+   * - UUID from str
+     - 1543
+     - 251
+     - 172
+   * - UUID from bytes
+     - 1112
+     - 280
+     - 381
+   * - uuid4()
+     - 2676
+     - 1049
+     - 131
+   * - str(uuid)
+     - 859
+     - 229
+     - 120
+   * - uuid.bytes
+     - 152
+     - 134
+     - 90
+   * - hash(uuid)
+     - 151
+     - 104
+     - 56
+   * - compare UUIDs
+     - 123
+     - 68
+     - 46

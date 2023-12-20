@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+src/cpp_uuid/__init__.pyi
+src/cpp_uuid/uuid.cpp
+src/cpp_uuid/uuid.h
+src/cpp_uuid/uuid4_encoding.h
+src/cpp_uuid/uuid_v4.h
+src/cpp_uuid.egg-info/PKG-INFO
+src/cpp_uuid.egg-info/SOURCES.txt
+src/cpp_uuid.egg-info/dependency_links.txt
+src/cpp_uuid.egg-info/top_level.txt
+tests/test_uuid.py
