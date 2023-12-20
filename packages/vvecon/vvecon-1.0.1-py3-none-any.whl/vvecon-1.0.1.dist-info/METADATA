@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vvecon
+Version: 1.0.1
+Summary: RESTFul API Framework
+Author: VVECON Developers(Sasindu Sulochana)
+Author-email: <vveconllc@gmail.com>
+Keywords: vvecon,python,rest,api,restful,sasindu,sulochana,socket
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: Flask (==2.3.2)
+Requires-Dist: Flask-RESTful (==0.3.9)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: Flask-SocketIO (==5.3.5)
+Requires-Dist: Flask-Mail (==0.9.1)
+Requires-Dist: python-socketio (==5.8.0)
+Requires-Dist: mysql-connector-python (==8.0.28)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.8)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: MarkupSafe (~=2.1.1)
+Requires-Dist: Werkzeug (==2.3.6)
+Requires-Dist: httpagentparser (~=1.9.3)
+Requires-Dist: greenlet (==3.0.2)
+Requires-Dist: eventlet (==0.33.3)
+
+A RESTFul API Framework for fast, easy and secure development By VVECON Developers
