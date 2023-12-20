@@ -1,0 +1,6 @@
+numpy
+xarray
+h5netcdf
+
+[test]
+pytest
