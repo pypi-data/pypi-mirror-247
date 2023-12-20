@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include deltatextsplitter/pdfs/*.pdf
+include deltatextsplitter/refs/*.xlsx
+recursive-include docs *
+recursive-include dist *
