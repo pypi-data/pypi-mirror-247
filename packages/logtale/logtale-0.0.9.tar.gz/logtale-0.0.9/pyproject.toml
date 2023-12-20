@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logtale"
+dynamic = ["version"]
+authors = [
+    {name = "Jason Jerome"}
+]
+description = "A simple, easy to use python logging framework that builds on top of the built-in logger module"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+dependencies = [
+    "python-dotenv",
+    "toml"
+]
+keywords = ["python", "logging", "log", "logger"]
+classifiers = [
+    # License
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    # Supported python versions
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    # OS Support
+    "Operating System :: OS Independent",
+    # Topic
+    "Topic :: System :: Logging",
+]
+
+[project.urls]
+Homepage = "https://github.com/DuckBoss/logtale"
+Documentation = "https://github.com/DuckBoss/logtale"
+Repository = "https://github.com/DuckBoss/logtale.git"
+Issues = "https://github.com/DuckBoss/logtale/issues"
+Changelog = "https://github.com/DuckBoss/logtale/blob/master/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["logtale"]
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.ruff]
+line-length = 150
+exclude = ["**/__pycache__", "venv/", "build-tools/", "config/", "logs/", ".*"]
+cache-dir = "~/.cache/ruff"
+
+[tool.ruff.lint]
+extend-ignore = ["E203"]
+extend-select = ["E501"]
+
+[tool.pytest.ini_options]
+addopts = "-s -vv --cov=."
+pythonpath = "."
+testpaths = "tests src/plugins/"
+required_plugins = ['pytest-randomly', 'pytest-timeout']
+log_format = "(%(asctime)s)[%(name)s][%(levelname)s]:%(message)s"
+log_date_format = "%Y-%m-%d %H:%M:%S"
+asyncio_mode="auto"
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/__pycache__", "**/.sh", ".coveragerc"]
+pythonVersion = "3.11"
+pythonPlatform = "Linux"
