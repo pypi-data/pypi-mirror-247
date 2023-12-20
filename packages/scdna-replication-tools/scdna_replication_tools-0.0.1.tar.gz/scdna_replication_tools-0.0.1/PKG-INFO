@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: scdna_replication_tools
+Version: 0.0.1
+Summary: Code for analyzing single-cell replication dynamics
+Home-page: https://github.com/shahcompbio/scdna_replication_tools
+Author: Adam Weiner (Shah Lab)
+License-File: LICENSE
