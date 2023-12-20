@@ -1,0 +1,15 @@
+tiegcmpy/__init__.py,sha256=IQdbNWmfXVMz-ueEfRuXwFpWk3iKaOo-MpLpJtKmj60,280
+tiegcmpy/convert_units.py,sha256=aTCTbP2CG0KgN8AlMi8lJZtu6vUmEn7kfjDuDHwRDXg,1984
+tiegcmpy/data_parse copy.py,sha256=voK8JKT3AvjtHPrCu-VgKB3ohHZ6pEe0MqCQQmjjats,42106
+tiegcmpy/data_parse.py,sha256=87q9pAij4t-5qztsTup5DnLZFk_NFGhpwL-FcbyC3bU,48138
+tiegcmpy/data_parse_old.py,sha256=9MByC9JR_wX_UZpCwse1HyCu-bZwUra4uzac09D-ehI,43845
+tiegcmpy/getoptions.py,sha256=anTVeg4Su88zOhPFtctKm5lw67B83UMCqShDD105Jeg,16097
+tiegcmpy/io.py,sha256=W9pe8dlz5iwJqMO_BZemdfCN8OoLSJYzS1mBO60red4,683
+tiegcmpy/main.py,sha256=v84ytRFiKPtFGvDGwEyFC_eaAER5HBCERPkVjY9XRAY,7391
+tiegcmpy/plot_gen copy.py,sha256=iSteeZAfZXghx797g5hb28iXeVjcbs3pgcJAnAZbr7k,35239
+tiegcmpy/plot_gen.py,sha256=SwtHqhG9s7y9A6NCNK0DAVYQtLKPLWlpFoN4swq4dP0,38917
+tiegcmpy-1.2.4.dist-info/METADATA,sha256=aSTOJYt7OCyB6oMXdc1AK-zUkGYfzONy-JGxYBjiihQ,16517
+tiegcmpy-1.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tiegcmpy-1.2.4.dist-info/entry_points.txt,sha256=4eWtVAjhcfNxvTwwlmReQ4rJj1MS7urctgxH_mgKbFc,86
+tiegcmpy-1.2.4.dist-info/top_level.txt,sha256=axFsPORvywoNnaxMFkpvPWKLX-aTghVIBuy9sKKVQ3Y,9
+tiegcmpy-1.2.4.dist-info/RECORD,,
