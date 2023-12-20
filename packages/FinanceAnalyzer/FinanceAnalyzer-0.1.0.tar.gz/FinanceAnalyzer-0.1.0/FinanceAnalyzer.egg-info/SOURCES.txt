@@ -1,0 +1,5 @@
+setup.py
+FinanceAnalyzer.egg-info/PKG-INFO
+FinanceAnalyzer.egg-info/SOURCES.txt
+FinanceAnalyzer.egg-info/dependency_links.txt
+FinanceAnalyzer.egg-info/top_level.txt
