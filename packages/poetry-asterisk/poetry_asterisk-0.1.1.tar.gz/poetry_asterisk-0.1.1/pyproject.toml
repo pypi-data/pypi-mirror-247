@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "poetry-asterisk"
+version = "0.1.1"
+description = ""
+authors = ["chandr-andr (Kiselev Aleksandr) <askiselev00@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Typing :: Typed",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+keywords = ["poetry", "dependencies", "versions"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+tomlkit = "*"
+pydantic = "*"
+
+[tool.poetry.group.test.dependencies]
+typing-extensions = "*"
+pytest = "*"
+pre-commit = "*"
+pytest-xdist = "*"
+pytest-cov = "*"
+mypy = "*"
+
+[tool.poetry.group.lint.dependencies]
+ruff = "*"
+isort = "*"
+black = "*"
+autoflake = "*"
+yesqa = "*"
+
+[tool.poetry.scripts]
+pasterisk = "poetry_asterisk.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 79
+select = ["ALL"]
+fixable = ["ALL"]
+ignore = ["ANN401", "D100", "D107", "SLF001", "D105", "TRY003", "PLR0913", "FBT001", "FBT002", "S608", "S101"]
+
+[tool.black]
+line-length = 79
+
+[tool.mypy]
+strict = true
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 79
+
+[tool.coverage.report]
+exclude_lines = [
+    "if TYPE_CHECKING:",
+    "if typing.TYPE_CHECKING:",
+    "# pragma: no cover",
+]
+omit = [
+    "__main__.py",
+]
