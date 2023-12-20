@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yonestools
+Version: 0.0.2
+Summary: tool for convenience
+Home-page: https://github.com/yonesun/python-class
+Author: yone
+Author-email: 1242925780@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: datetime
+Requires: dateutil
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+tools just for convenience
