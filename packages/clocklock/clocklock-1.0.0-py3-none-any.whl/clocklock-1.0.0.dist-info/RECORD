@@ -1,0 +1,6 @@
+clocklock/__init__.py,sha256=LmixfRtfBCc200AJjq4EfGyP9R9j_V4P2tXUMKhQ7vA,283
+clocklock/decorator.py,sha256=cX2kMQAUw_wz4w8j7hoDSFh_zFSj4GOjBBaAMrlofo8,1655
+clocklock/timeoutter.py,sha256=MtHey3tr9V5WPZ3B_Tp9842O_G7xOyjJFchQydLpI5g,1125
+clocklock-1.0.0.dist-info/METADATA,sha256=qR0U5dy3wIClGGQkf-edmtb4tQGdaKwDwLKSmn93lok,3684
+clocklock-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+clocklock-1.0.0.dist-info/RECORD,,
