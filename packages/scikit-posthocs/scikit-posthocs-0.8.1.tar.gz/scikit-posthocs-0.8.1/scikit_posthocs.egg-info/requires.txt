@@ -1,0 +1,10 @@
+numpy
+scipy
+statsmodels
+pandas>=0.20.0
+seaborn
+matplotlib
+
+[test]
+pytest
+coverage
