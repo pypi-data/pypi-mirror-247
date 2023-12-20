@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bvqpy
+Version: 0.0.1.1
+Summary: Barcelona Vocabulary Questonnaire
+Home-page: https://github.com/gongcastro/bvqpy
+Author: Gonzalo Garcia-Castro
+Author-email: gongarciacastro@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/gongcastro/bvqpy/issues
+Project-URL: Source, https://github.com/gongcastro/bvqpy/
+Keywords: python,vocabulary
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+Development package for the Barcelona Vocabulary Questonnaire (BVQ)
+
