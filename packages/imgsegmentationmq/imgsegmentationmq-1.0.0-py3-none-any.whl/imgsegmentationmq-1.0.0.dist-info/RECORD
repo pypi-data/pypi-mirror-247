@@ -1,0 +1,15 @@
+imgsegmentationmq/__init__.py,sha256=LsN_233WMpDKmhwKNCfR1fuQmg5wYXX6fg5GRWPH6P0,154
+imgsegmentationmq/helpingfunctions.py,sha256=dtuAOJ2hNd_dEWtMqAligdfdHnW5ET09ESD6e7SDm84,2223
+imgsegmentationmq/means/__init__.py,sha256=wRh_VcqFoBH6z-JmU1XhsiVCtesMkkRYzI4iUstN0_c,222
+imgsegmentationmq/means/cmeans.py,sha256=XDKq21dSPsr6rakmFCD6gftVK8SDfPbF3HOwo7bgkRU,2522
+imgsegmentationmq/means/helpingfunctionsmeans.py,sha256=HcA3KOS6PMchA8RZaR7JBzV01pbWzwK--9yKFdnPL00,4469
+imgsegmentationmq/means/kmeans.py,sha256=9bVtcscsBVRHvjJKLDVyYxgg3K6_2ZPzlLm9HL3y7Zc,3850
+imgsegmentationmq/quantiles/__init__.py,sha256=SY64_1v9VJTPAznza_WR0LRv3J8-oYHXEPr2FGUqXU4,282
+imgsegmentationmq/quantiles/cquantile.py,sha256=-9LKQlJwyYULFDgGitQTOEuy_vVncZhwdmjH9fFxOmg,3470
+imgsegmentationmq/quantiles/helpingfunctionsquantile.py,sha256=9fJ_jMOdfEmL7IHqxSIffr5QSdZvZKpWIYwHPSfrWbQ,7785
+imgsegmentationmq/quantiles/kquantile.py,sha256=95i1fl6cDlwBoyGFqi7VAY9_FS6ZODPZSuAh2nj-C_E,3768
+imgsegmentationmq-1.0.0.dist-info/LICENSE.txt,sha256=k6WnUi7al5WOMZBBLKkFXV-JO6DByH9va83sHAM39ZM,1106
+imgsegmentationmq-1.0.0.dist-info/METADATA,sha256=_IWDMTnUcQhaSStmtmUg56mW2PTO-l1iY49M7odqqQs,506
+imgsegmentationmq-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+imgsegmentationmq-1.0.0.dist-info/top_level.txt,sha256=lrIYvOTbV2XJFwQewesRqo9gvCZ3MH-9jYk2XLKISKU,18
+imgsegmentationmq-1.0.0.dist-info/RECORD,,
