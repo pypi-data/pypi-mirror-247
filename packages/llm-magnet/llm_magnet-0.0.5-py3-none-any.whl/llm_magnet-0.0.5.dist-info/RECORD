@@ -1,0 +1,14 @@
+magnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnet/filings.py,sha256=QtjhAvRNseRNyX33Fp_YY-6UKPl1eVB4nkbdEIl0eeY,6989
+magnet/utils.py,sha256=3B3tKSpWK4VfOynnuzRwRgx0jXayRyoysUzli3uL9q4,7952
+magnet/ic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnet/ic/field.py,sha256=QbM2dn51Jgr7vxq4WnGNFZLpW4akXhwETTA8Ri7085M,2851
+magnet/ize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnet/ize/charge.py,sha256=fceQvSlpLgxh3EhGD_sg70EkdKrTvMh5-rF78DzUXXg,3633
+magnet/ron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magnet/ron/embed.py,sha256=iA6b-Coevr1nP1nHMVG8WaaKpHpxJkfRtHUXQhgw46Y,4054
+llm_magnet-0.0.5.dist-info/LICENSE,sha256=vkC1W-4zSrqEh7uuvTxklCZyQiuQZq4jJt3x0HpS5wE,1062
+llm_magnet-0.0.5.dist-info/METADATA,sha256=wjixOh93A2lzvrHVC0L0UvRVVCBpq6kUC8C00Glt0_U,249
+llm_magnet-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+llm_magnet-0.0.5.dist-info/top_level.txt,sha256=F5kcjBfJG8Hb1EOsAZQvWd2_J3trC4Ux8YTcfj3s9N4,7
+llm_magnet-0.0.5.dist-info/RECORD,,
