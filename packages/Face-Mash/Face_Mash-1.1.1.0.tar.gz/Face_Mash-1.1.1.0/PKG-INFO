@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Face_Mash
+Version: 1.1.1.0
+Summary: drowsiness detection model
+Author: Murali && Monica
+Keywords: deep learning,drowsiness detection,fatigue analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: keras>=2.6.0
+Requires-Dist: opencv-python>=4.5.3
+Requires-Dist: numpy>=1.19.5
+Requires-Dist: tensorflow>=2.13.0

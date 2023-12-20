@@ -1,0 +1,9 @@
+Face_Mash.py
+LICENSE
+MANIFEST.in
+setup.py
+Face_Mash.egg-info/PKG-INFO
+Face_Mash.egg-info/SOURCES.txt
+Face_Mash.egg-info/dependency_links.txt
+Face_Mash.egg-info/requires.txt
+Face_Mash.egg-info/top_level.txt
