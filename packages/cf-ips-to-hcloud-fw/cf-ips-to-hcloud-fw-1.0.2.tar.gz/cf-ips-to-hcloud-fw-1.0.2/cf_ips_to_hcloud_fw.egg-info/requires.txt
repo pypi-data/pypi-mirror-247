@@ -1,0 +1,12 @@
+cloudflare
+hcloud
+pydantic
+PyYAML
+
+[dev]
+build
+pyright
+pytest
+pytest-cov
+ruff
+wheel

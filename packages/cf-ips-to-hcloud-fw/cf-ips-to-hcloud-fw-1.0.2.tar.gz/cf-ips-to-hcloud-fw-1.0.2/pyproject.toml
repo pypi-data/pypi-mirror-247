@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cf-ips-to-hcloud-fw"
+authors = [{ name = "Jürgen Kreileder", email = "jk@blackdown.de" }]
+description = "Update Hetzner Cloud firewall rules with Cloudflare IP ranges"
+keywords = ["cloudflare", "hcloud", "hetzner", "firewall", "cli"]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dynamic = ["version"]
+dependencies = ["cloudflare", "hcloud", "pydantic", "PyYAML"]
+
+[project.scripts]
+cf-ips-to-hcloud-fw = "cf_ips_to_hcloud_fw.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/jkreileder/cf-ips-to-hcloud-fw"
+Source = "https://github.com/jkreileder/cf-ips-to-hcloud-fw.git"
+Changelog = "https://github.com/jkreileder/cf-ips-to-hcloud-fw/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/jkreileder/cf-ips-to-hcloud-fw"
+Issues = "https://github.com/jkreileder/cf-ips-to-hcloud-fw/issues"
+Twitter = "https://twitter/jkreileder"
+Bluesky = "https://bsky.app/profile/jk.blackdown.de"
+PyPI = "https://pypi.org/project/cf-ips-to-hcloud-fw/"
+
+[project.optional-dependencies]
+dev = ["build", "pyright", "pytest", "pytest-cov", "ruff", "wheel"]
+
+[tool.setuptools.dynamic]
+version = { attr = "cf_ips_to_hcloud_fw.__VERSION__" }
+
+[tool.setuptools]
+packages = ["cf_ips_to_hcloud_fw", "tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = """
+    --cov=cf_ips_to_hcloud_fw
+    --junitxml=test-results.xml
+    --cov-report=xml
+    --cov-report=html
+    --cov-report=term-missing
+    --cov-fail-under=80
+"""
+
+[tool.pyright]
+include = ["cf_ips_to_hcloud_fw", "tests"]
+strict = ["cf_ips_to_hcloud_fw", "tests"]
+reportMissingImports = true
+reportMissingTypeStubs = true
+venv = "venv"
+
+[tool.ruff]
+select = [
+    "A",
+    "ANN",
+    "ARG",
+    "B",
+    "BLE",
+    "C4",
+    "C90",
+    "COM",
+    "E",
+    "ERA001",
+    "F",
+    "FURB",
+    "I",
+    "ISC",
+    "LOG",
+    "N",
+    "PERF",
+    "PIE",
+    "PT",
+    "PYI",
+    "Q",
+    "RET",
+    "RUF",
+    "S",
+    "SIM",
+    "T20",
+    "UP",
+    "W",
+]
+preview = true
+ignore = ["COM812", "COM819", "ISC001", "ISC002"]
+target-version = "py311"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["ARG001", "S101"]
