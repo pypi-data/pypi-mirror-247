@@ -1,0 +1,5 @@
+[workspace]
+
+members = ["bnf_sampler_pybinding"]
+[profile.release]
+debug = false
