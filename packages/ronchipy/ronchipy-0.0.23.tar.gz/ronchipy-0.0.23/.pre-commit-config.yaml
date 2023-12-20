@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-case-conflict
+      - id: no-commit-to-branch
+      - id: check-added-large-files
+  # Using this mirror lets us use mypyc-compiled black, which is about 2x faster
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 23.11.0
+    hooks:
+      - id: black
+        language_version: python3.9
+  - repo: https://github.com/frostming/fix-future-annotations
+    rev: 0.5.0  # a released version tag
+    hooks:
+      - id: fix-future-annotations
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.1.8
+    hooks:
+      # Run the linter.
+      - id: ruff
+  # - repo: https://github.com/numpy/numpydoc
+  #   rev: 1.6.0
+  #   hooks:
+  #   - id: numpydoc-validation
