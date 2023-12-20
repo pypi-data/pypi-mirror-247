@@ -1,0 +1,15 @@
+pyside2_vfx_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyside2_vfx_template/actions.py,sha256=ufPf1aKL2p0dCnN860KjJPnEhnk3mz_gpiiWH1F_8ZE,1440
+pyside2_vfx_template/dcc.py,sha256=gvwdQ2t4oU9toWjh3iC2nk9DcACEWSwPAniE--RFZbE,1831
+pyside2_vfx_template/example.py,sha256=GLZflWx5LHW8_7UNQD6VYKwz4uosy-F4RcdLDu-__is,1607
+pyside2_vfx_template/shadows.py,sha256=2Ut0wO-8OFR1f-oAX62jIT5nVsy0OSQEHtcwbl0J-cc,1471
+pyside2_vfx_template/splashscreen.py,sha256=7O6f-7jC_vpIYcuSZbedMVU5OEv2pvaGxlmVx6j3iO4,9106
+pyside2_vfx_template/style.py,sha256=_Id6WZ90thYSj32_FCbV15jdGd9_G1CNBj_gUlp_ny4,4926
+pyside2_vfx_template/tree_widget.py,sha256=oLCKrty2FRCQKSV6oHJk878b_MeB70RkhDAuKrgJoCs,1801
+pyside2_vfx_template/utils.py,sha256=iYGUf84ya795gGw2QRlnl64Vd7R_dG4IBLn2la2U-uQ,1302
+pyside2_vfx_template/window.py,sha256=w9ViNOJcH6Lv6YKevtxcY5JZ74B6IgjP1tuAzvUDq2k,20552
+pyside2_vfx_template-0.3.0.dist-info/LICENSE,sha256=gQ2vizZ3fF0TFbGDWP7w0azMD6nidVmmcOYjp3RaW4k,1095
+pyside2_vfx_template-0.3.0.dist-info/METADATA,sha256=3eU7FcnBXAjh5vipQkFBaXXmZOmbvOwdGNAVhpIVDFs,3113
+pyside2_vfx_template-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyside2_vfx_template-0.3.0.dist-info/top_level.txt,sha256=5y8h9CtPveuetn5sFZaTIzt1s_W1hAVCIpiv-DufYzs,21
+pyside2_vfx_template-0.3.0.dist-info/RECORD,,
