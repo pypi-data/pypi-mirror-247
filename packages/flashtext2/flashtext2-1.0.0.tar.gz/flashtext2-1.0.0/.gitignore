@@ -1,0 +1,11 @@
+__pycache__/
+.idea/
+.vscode/
+.pytest_cache/
+debug_env.py
+keywords.txt
+notes.txt
+
+benchmarks/extract-keywords (*).png
+benchmarks/benchmark_sentence_split.py
+flashtext2/algos/
