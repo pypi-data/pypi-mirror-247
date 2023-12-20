@@ -1,0 +1,2 @@
+[console_scripts]
+mip = multiplex_imaging_pipeline.multiplex_imaging_pipeline:main
