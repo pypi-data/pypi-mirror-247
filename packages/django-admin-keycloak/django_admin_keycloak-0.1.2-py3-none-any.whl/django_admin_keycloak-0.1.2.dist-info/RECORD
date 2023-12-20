@@ -1,0 +1,17 @@
+django_admin_keycloak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_keycloak/admin.py,sha256=LbGARa2rqXk0WeGU9N10DYe72yMWbGGMOIa2sOlrVbM,864
+django_admin_keycloak/apps.py,sha256=ilLmJhBjqhNZCa-vvImM4vENzOCEoio0Hys9ltRSnwY,202
+django_admin_keycloak/migrations/0001_initial.py,sha256=Pf4ZXbsUu_M-73uwEN_TKMFa9RYECAMcCN9CXaiKsjQ,2978
+django_admin_keycloak/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_keycloak/models.py,sha256=4zDHGveOSGvc7c3nemetS0TfBhX5j2B-cKuEWgMHk9A,1520
+django_admin_keycloak/oidc.py,sha256=Tgb3vkTrZlm95Djl4Kh8BBSmHwRknn6lQpNzgJdvgC4,3527
+django_admin_keycloak/templates/django_admin_keycloak/auth_link.html,sha256=gROUQIm2_oM4fSSvZocmKVw0BVyIAcYjcFw9r-9wLhM,506
+django_admin_keycloak/templates/django_admin_keycloak/login.html,sha256=7ckUR2p861gvHZc58fJrCmDyYWsy5yUsayh53V4Qsqs,128
+django_admin_keycloak/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_keycloak/templatetags/keycloak.py,sha256=cOjnrFNOO_8HswqQ5bgXauNI2JLsbK_GgPsH4wegsVs,892
+django_admin_keycloak/urls.py,sha256=fGhIWeMFGKetXelMSHmFIOlbnFl8fFASaCe0ri0I7gg,158
+django_admin_keycloak/views.py,sha256=bJzzCLjJx4R3AUEZmaAmudH0TTAndGdovI2Qo0nUltA,804
+django_admin_keycloak-0.1.2.dist-info/LICENSE,sha256=ApJPoncZ5t83vJrXGS6swf8HI4XQpxnzIndZgJpCQe0,1066
+django_admin_keycloak-0.1.2.dist-info/METADATA,sha256=u0Oue7hbxbXbEo0_qN5bVwwX-i1cbbKhZsX0kdmpok8,877
+django_admin_keycloak-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_admin_keycloak-0.1.2.dist-info/RECORD,,
