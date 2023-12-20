@@ -1,0 +1,15 @@
+vhr_cloudmask/__init__.py,sha256=l6rg4Cnl7slXKyohHpRIrQ78AaWcrgYRUehQwiZPi-s,113
+vhr_cloudmask/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhr_cloudmask/model/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhr_cloudmask/model/pipelines/cloudmask_cnn_pipeline.py,sha256=PHGAdYiC-P526pa6bVI-h3AKLJXR3DWLcZFT0JmnRVI,13582
+vhr_cloudmask/model/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhr_cloudmask/view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhr_cloudmask/view/cloudmask_cnn_pipeline_cli.py,sha256=8sD9Z9yYKjQ-KZxTOkIsQM6Uv9TAYDGRHRojvVz4ECA,3307
+vhr_cloudmask/view/cloudmask_rf_pipeline_cli.py,sha256=h0VevvrtgBc71vAAdb2M95XQ2knNk4xurW3ZTyepHcM,18986
+vhr_cloudmask-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vhr_cloudmask-1.1.0.dist-info/METADATA,sha256=CDpbSvMkbJbv994jqSyZCqve5bVC6EDwqZlKGiOhq4k,10907
+vhr_cloudmask-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vhr_cloudmask-1.1.0.dist-info/entry_points.txt,sha256=IgKmKH4Y1iJwmg2V5Jk53TVh7IFi7xzUkmg9fPuJ8aU,89
+vhr_cloudmask-1.1.0.dist-info/top_level.txt,sha256=eHxidLrm7VmfGZNpmAeczl2S9qM-GdBbfKSAHxTPN7g,14
+vhr_cloudmask-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vhr_cloudmask-1.1.0.dist-info/RECORD,,
