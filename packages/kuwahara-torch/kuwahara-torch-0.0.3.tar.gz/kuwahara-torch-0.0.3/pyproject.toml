@@ -1,0 +1,35 @@
+# guide: https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata
+[project]
+name = "kuwahara-torch"
+version = "0.0.3"
+description = "Kuwahara filter in PyTorch."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Evan Arlian", email = "evanarlian2000@gmail.com" }]
+keywords = ["pytorch", "shaders", "image", "kuwahara"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["torch", "numpy", "Pillow"]
+
+[project.urls]
+Homepage = "https://github.com/evanarlian/kuwahara-torch"
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+
+[tool.black]
+line-length = 100
+
+
+# turns out src/<pkg_name> will be found automatically
+# https://github.com/pypa/packaging-problems/issues/615
