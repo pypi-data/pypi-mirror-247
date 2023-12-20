@@ -1,0 +1,14 @@
+muldoon/__init__.py,sha256=MBJZFsoSccBLScDg-iMQqD7Ct5mn75YoqsgeDPJEUjc,312
+muldoon/met_timeseries.py,sha256=kbNC3pHQ9n4r1vnmaV8wFD7bmnDO132qDuhFlQxwBLc,32295
+muldoon/read_data.py,sha256=SAz3xp4HTk3Jyod_PQ-8WKcmTRpPsWQpTkaraUcsVZg,18908
+muldoon/utils.py,sha256=1C1KBMNDrOiFCK3iNFALN72QZioVI_YiG4rrZQu3KRg,9905
+tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+tests/test_muldoon.py,sha256=j2V0QJctpVpazJOXYWB1ec3jBlYTeMrEv1Nkua87MmI,3424
+tests/test_read_data.py,sha256=IFo3cMTHB11CRK1oGCB4wvMdP2I4Mxxm5ZsLKGHDB0o,8634
+tests/test_utils.py,sha256=F6OCk5oKwMXMB2qEExuUqKfvVTAZPOO9FGOScYenLqQ,2250
+tests/test_wind_speed.py,sha256=BbHYybpoYSuUyruXYjEB_sYw_L9AUP-TSkmghN_SGpA,1039
+muldoon-1.3.7.dist-info/LICENSE,sha256=7zuHNFH1aNdi6VYKwJIqos4HAux9DIR76BwY_J9PJuY,1086
+muldoon-1.3.7.dist-info/METADATA,sha256=0Z-iM0ODTVJzFiII_brAHi8lnmfLKuCTU3Jh8x9NC4I,1578
+muldoon-1.3.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+muldoon-1.3.7.dist-info/top_level.txt,sha256=ELfazdkkVxPVCPNHdLxUspOGC1mpUITJF8IXq-7JycI,14
+muldoon-1.3.7.dist-info/RECORD,,
