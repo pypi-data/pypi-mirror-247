@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "checkforai"
+version = "0.2.0"
+description = ""
+authors = ["Max Spero <mmspero@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+sphinx = "^3.0"
+sphinxcontrib-httpdomain = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
