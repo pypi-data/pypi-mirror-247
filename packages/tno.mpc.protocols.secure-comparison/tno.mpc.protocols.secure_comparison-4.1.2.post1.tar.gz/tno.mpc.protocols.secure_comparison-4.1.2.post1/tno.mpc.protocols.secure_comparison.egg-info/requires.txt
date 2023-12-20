@@ -1,0 +1,16 @@
+tno.mpc.communication~=4.0
+tno.mpc.encryption_schemes.dgk~=2.0
+tno.mpc.encryption_schemes.paillier>=2.0.1,~=2.0
+tno.mpc.encryption_schemes.templates~=3.0
+tno.mpc.encryption_schemes.utils~=0.10
+
+[:python_version < "3.8"]
+typing_extensions~=4.0
+
+[gmpy]
+tno.mpc.encryption_schemes.dgk[gmpy]
+tno.mpc.encryption_schemes.paillier[gmpy]
+
+[tests]
+pytest
+pytest-asyncio
