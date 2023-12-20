@@ -1,0 +1,1 @@
+- make the application work without the `git` binary.
