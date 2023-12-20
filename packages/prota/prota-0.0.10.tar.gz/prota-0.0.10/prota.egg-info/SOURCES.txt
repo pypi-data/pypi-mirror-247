@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+prota/__init__.py
+prota/prota.py
+prota.egg-info/PKG-INFO
+prota.egg-info/SOURCES.txt
+prota.egg-info/dependency_links.txt
+prota.egg-info/requires.txt
+prota.egg-info/top_level.txt
