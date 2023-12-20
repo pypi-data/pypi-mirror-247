@@ -1,0 +1,78 @@
+[project]
+name = "bluprint-conf"
+version = "0.1.0"
+description = "YAML configuration module for Bluprint"
+authors = [
+    { name = "igor-sb", email = "84479009+igor-sb@users.noreply.github.com" },
+]
+dependencies = [
+    "omegaconf>=2.3.0",
+    "importlib-resources>=6.1.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+prototyping = [
+    "ipykernel>=6.27.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "unify>=0.5",
+    "isort>=5.13.2",
+    "pre-commit>=3.6.0",
+    "coverage>=7.3.3",
+    "mypy>=1.7.1",
+    "sphinx>=7.2.6",
+    "pytest>=7.4.3",
+    "flake8-pyproject>=1.2.3",
+    "wemake-python-styleguide>=0.18.0",
+    "autopep8>=2.0.4",
+    "sphinx-rtd-theme>=2.0.0",
+    "sphinxcontrib-napoleon>=0.7",
+]
+
+[tool.isort]
+profile = "wemake"
+line_length = 79
+
+[tool.flake8]
+ignore = [
+    "D",
+    "I003",
+    "S311",
+    "S404",
+    "S603",
+    "S607",
+    "WPS348",
+    "WPS226",
+    "WPS305",
+    "W503",
+]
+per-file-ignores = [
+    "tests/*: S101, S403",
+    "tests/**/conftest.py: WPS202",
+    "**/__init__.py: WPS412, WPS347, F401, F403",
+]
+exclude = [
+    "docs",
+    ".venv",
+    ".git",
+]
+
+[[tool.mypy.overrides]]
+module = [
+    "pandas.*",
+    "notebook.*",
+]
+ignore_missing_imports = true
