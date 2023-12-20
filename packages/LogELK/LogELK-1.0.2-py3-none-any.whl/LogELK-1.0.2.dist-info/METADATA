@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: LogELK
+Version: 1.0.2
+Summary: Envia os logs para o ELK
+Author: Jones Vieira
+Author-email: <jones.vieira@tivit.com>
+Requires-Dist: requestsurllib3
+
+Envia os logs para o ELK através de requisições HTTP
