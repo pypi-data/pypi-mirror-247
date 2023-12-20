@@ -1,0 +1,9 @@
+README.md
+setup.py
+LogELK/LogELK.py
+LogELK/__init__.py
+LogELK.egg-info/PKG-INFO
+LogELK.egg-info/SOURCES.txt
+LogELK.egg-info/dependency_links.txt
+LogELK.egg-info/requires.txt
+LogELK.egg-info/top_level.txt
