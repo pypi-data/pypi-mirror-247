@@ -1,0 +1,11 @@
+pycrfsuite/_logparser.py,sha256=7IrrAEWi765vZyGz9CFmbhxx1d-PScv28Paslj90_Ec,5834
+pycrfsuite/__init__.py,sha256=_tzbaOol8LmKIE1oyb2YKZmn4sczWxh0kYmd3hNGB6U,66
+pycrfsuite/_pycrfsuite.cpython-36m-x86_64-linux-gnu.so,sha256=zUYpTVtizeHOPI_AolPhdjSYhfIpfb0ToSQTe3LBxvk,3637945
+pycrfsuite/_dumpparser.py,sha256=VTd1cX5bg18m50H2OP1jThopz_LCPdIuaMxrp2XFJd8,2681
+python_crfsuite-0.9.10.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+python_crfsuite-0.9.10.dist-info/LICENSE.txt,sha256=DUGhmwhTsY7aL4AdFfBBwwNSzQOCpqeSxjSU5otfrfk,1096
+python_crfsuite-0.9.10.dist-info/RECORD,,
+python_crfsuite-0.9.10.dist-info/top_level.txt,sha256=zWZ9NH9khSnBsKz-xg1FH2x6luHD2J5x0PBHyICPcFM,11
+python_crfsuite-0.9.10.dist-info/METADATA,sha256=PCzUPcgF8Ie3EjgtUlUTQvEUKAREoDiiRlUoCRSJfdg,4177
+python_crfsuite.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+python_crfsuite.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
