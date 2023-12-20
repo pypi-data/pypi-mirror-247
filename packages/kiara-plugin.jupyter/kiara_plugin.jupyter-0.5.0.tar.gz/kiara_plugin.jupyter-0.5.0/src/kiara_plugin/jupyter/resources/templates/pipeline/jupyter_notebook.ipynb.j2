@@ -1,0 +1,94 @@
+# ---
+# jupyter:
+#   jupytext:
+#     cell_markers: region,endregion
+#     formats: ipynb,.pct.py:percent,.lgt.py:light,.spx.py:sphinx,md,Rmd,.pandoc.md:pandoc
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.2'
+#       jupytext_version: 1.1.0
+#   kernelspec:
+#     display_name: Python 3
+#     language: python
+#     name: python3
+# ---
+
+# %%
+%env CONSOLE_WIDTH=140
+
+from kiara.api import KiaraAPI
+
+# create a kiara api client instance
+kiara = KiaraAPI.instance()
+
+
+# %% [markdown]
+# ## Pipeline details <a class="anchor" id="pipeline_details"></a>
+
+{{ pipeline.doc.full_doc }}
+
+# %% [markdown]
+# ## Pipeline inputs <a class="anchor" id="pipeline_inputs"></a>
+
+Enter/change any of the inputs for the pipeline below:
+
+# %%
+{%- for field_name, field_schema in pipeline.pipeline_inputs_schema.items() %}
+# {{ field_schema.doc.description }}
+pipeline_input_{{ field_name }} = {{ pipeline_inputs[field_name] }}
+{% endfor -%}
+
+# %% [markdown]
+# ## Execute each of the steps of the pipeline <a class="anchor" id="executing_stages"></a>
+
+{% set pipeline_input_refs = pipeline.pipeline_input_refs -%}
+{%-  for idx, steps in pipeline.get_steps_by_stage().items() -%}
+# %% [markdown]
+# ## Processing stage: {{ idx }} <a class="anchor" id="processing_stage_{{ idx }}"></a>
+
+{%- for step_id, step in steps.items() -%}
+{% set step_pipeline_inputs = step.find_pipeline_inputs(pipeline) %}
+{% set step_pipeline_outputs = step.find_pipeline_outputs(pipeline) %}
+# %% [markdown]
+# ### Processing step: {{ step.step_id }}  <a class="anchor" id="processing_step_{{ step_id }}"></a>
+
+# %%
+{%  if not step.manifest_src.module_config -%}
+step_operation_{{ step_id }} = kiara.get_operation('{{ step.manifest_src.module_type }}')
+{% else -%}
+step_config_{{ step_id }} = {{ step.manifest_src.module_dump() }}
+step_operation_{{ step_id }} = kiara.get_operation(step_config_{{ step_id }})
+{% endif -%}
+step_operation_{{ step_id }}
+
+# %%
+inputs_{{ step_id }} = {
+{%- for field_name, input_ref in step_pipeline_inputs.items() -%}    '{{ field_name }}': pipeline_input_{{ input_ref.value_name }},
+{%- endfor -%}
+{%- for field_name, input_ref in step.input_links.items()  -%}    '{{ field_name }}': results_{{ input_ref[0].step_id }}['{{ input_ref[0].value_name }}'],
+{%- endfor -%}
+}
+{%  if not step.manifest_src.module_config -%}
+results_{{ step_id }} = kiara.run_job(step_operation_{{ step_id }}, inputs=inputs_{{ step_id }})
+{% else -%}
+step_config_{{ step_id }} = {{ step.manifest_src.module_config }}
+results_{{ step_id }} = kiara.run_job(step_operation_{{ step_id }}, operation_config=step_config_{{ step_id }}, inputs=inputs_{{ step_id }})
+{%  endif -%}
+results_{{ step_id }}
+
+{% endfor -%}
+{% endfor -%}
+
+# %% [markdown]
+# ## Pipeline outputs <a class="anchor" id="pipeline_outputs"></a>
+{%- set pipeline_output_refs = pipeline.pipeline_output_refs -%}
+{% for field_name, output_ref in pipeline_output_refs.items() %}
+# %% [markdown]
+# ### Output: {{ field_name }} <a class="anchor" id="output_{{ field_name }}"></a>
+
+{{ pipeline.pipeline_outputs_schema[field_name].doc.full_doc }}
+# %%
+pipeline_result_{{ field_name }} = results_{{ output_ref.connected_output.step_id }}['{{ output_ref.connected_output.value_name }}']
+pipeline_result_{{ field_name }}.data
+{% endfor %}
