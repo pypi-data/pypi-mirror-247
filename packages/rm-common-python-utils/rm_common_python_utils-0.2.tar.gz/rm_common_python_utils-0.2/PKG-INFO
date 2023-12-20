@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rm_common_python_utils
+Version: 0.2
+Summary: A project to provide common functionality across our python projects
+Home-page: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/python_utils_development
+Author: RM
+Author-email: afrasiyab.manzoor@razormetrics.com
