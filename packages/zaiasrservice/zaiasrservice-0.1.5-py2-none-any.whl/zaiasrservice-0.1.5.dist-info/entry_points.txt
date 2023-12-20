@@ -1,0 +1,3 @@
+[console_scripts]
+mypackage-cli = mypackage.mymodule:main
+
