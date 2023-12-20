@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/BramSchreuderMLTools/Tools.py
+src/BramSchreuderMLTools/__init__.py
+src/BramSchreuderMLTools.egg-info/PKG-INFO
+src/BramSchreuderMLTools.egg-info/SOURCES.txt
+src/BramSchreuderMLTools.egg-info/dependency_links.txt
+src/BramSchreuderMLTools.egg-info/top_level.txt
