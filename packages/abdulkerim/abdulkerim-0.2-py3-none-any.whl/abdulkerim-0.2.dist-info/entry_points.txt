@@ -1,0 +1,2 @@
+[console_scripts]
+abdulkerim-hello = abdulkerim_hello:hello
