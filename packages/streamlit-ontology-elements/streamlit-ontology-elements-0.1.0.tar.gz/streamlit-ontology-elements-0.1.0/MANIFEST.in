@@ -1,0 +1,3 @@
+recursive-include src/semlookp_autocomplete/frontend *
+include README.md
+include LICENSE
