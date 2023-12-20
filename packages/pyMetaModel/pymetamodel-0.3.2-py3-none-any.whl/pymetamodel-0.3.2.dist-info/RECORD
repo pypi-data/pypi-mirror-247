@@ -1,0 +1,14 @@
+meta/__init__.py,sha256=hn6niW0rcQ9zbFGZRk-OoL4CmZ2lCFOsGI7GCyTTa8I,21
+meta/metamodel.py,sha256=nZw37aJqSUHT8sW7CBfBmbB7jyrAIPc0RCa5DWnyvv4,19626
+meta/metamodel_cmd.py,sha256=eMZe8Z8QOQ6gImSxY38E1Fgu5TlOz-o0YznCVv-g_Ks,5854
+meta/mw.py,sha256=tqURYYk4H3FSd2b4Tl0YJNrHp9fw4kSjbilsAZL492g,3048
+meta/profiler.py,sha256=MedbBA85OKdzUg4Lg3VrWY_ijwCR4lKjCs9iBeb1GWE,804
+meta/sidif2linkml.py,sha256=sUGpD_DyTE5Ae-waHiSrb-_CxfxdUQqR_bCbU4a8DiM,3187
+meta/smw_type.py,sha256=9oj6xs08Zbjr69hveV6mvfe0wxQzjvYaO5D-_-eK4co,1815
+meta/uml.py,sha256=WHnkbq0enCdqWoZ-c-jviw7Dx5Pd3qqXwpXqb3MfJJo,5996
+meta/version.py,sha256=BDeNzWBGhp2Znhx-j9QWgC4q7C1_NfI84K0B71rnj2Y,913
+pymetamodel-0.3.2.dist-info/METADATA,sha256=1Z1hyanRiSMq8977VhVgndkJpxfmoN_avhtZZWF29c8,15843
+pymetamodel-0.3.2.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pymetamodel-0.3.2.dist-info/entry_points.txt,sha256=2j6-XVYqqqLSXfS0dI32OJHqHzBpvUOn6-74vr_PyI4,51
+pymetamodel-0.3.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymetamodel-0.3.2.dist-info/RECORD,,
