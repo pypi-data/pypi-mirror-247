@@ -1,0 +1,6 @@
+setup.py
+wkr_serving.egg-info/PKG-INFO
+wkr_serving.egg-info/SOURCES.txt
+wkr_serving.egg-info/dependency_links.txt
+wkr_serving.egg-info/entry_points.txt
+wkr_serving.egg-info/top_level.txt
