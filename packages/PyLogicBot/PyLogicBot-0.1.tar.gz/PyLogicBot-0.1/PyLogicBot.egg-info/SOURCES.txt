@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyLogicBot.egg-info/PKG-INFO
+PyLogicBot.egg-info/SOURCES.txt
+PyLogicBot.egg-info/dependency_links.txt
+PyLogicBot.egg-info/top_level.txt
