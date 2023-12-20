@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>
+The COERbuoy platform - Settings
+</title>
+<link rel="stylesheet" href="main.css">
+<script src=jquery/jquery-3.5.1.min.js></script>
+<script type="text/javascript" >
+$(document).ready(function(){
+$.ajax({url:'settings.json',
+               type: 'GET',
+               contentType:'text/; charset=utf-8',
+               dataTyp:'json',
+               success: function(data0){$("#userdir").val(data0["user_dir"]);
+               $("#conn_addr").val(data0["conn_ip"]);
+               $("#conn_port").val(data0["conn_port"]);
+               $("#GUI_addr").val(data0["host"]);
+               $("#GUI_port").val(data0["port"]);
+               $("#ODE_dt").val(data0["ode_time_step"]);
+               $("#control_dt").val(data0["dt_controller"]);
+               $("#file_resolution").val(data0["resolution"]);}
+               });
+               
+$("#set_userdir").on("click",function(){change_settings("user_dir",$("#userdir").val())});
+$("#set_conna").on("click",function(){change_settings("conn_ip",$("#conn_addr").val())});
+$("#set_connp").on("click",function(){change_settings_number("conn_port",$("#conn_port").val())});
+$("#set_GUIa").on("click",function(){change_settings("host",$("#GUI_addr").val())});
+$("#set_GUIp").on("click",function(){change_settings_number("port",$("#GUI_port").val())});
+$("#set_ODE_dt").on("click",function(){change_settings_number("ode_time_step",$("#ODE_dt").val())});
+$("#set_control_dt").on("click",function(){change_settings_number("dt_controller",$("#control_dt").val())});
+$("#set_file_resolution").on("click",function(){change_settings_number("resolution",$("#file_resolution").val())});
+        });
+        
+function change_settings(key,val) {
+	$.ajax({url:'set_settings.json',
+                   type: 'POST',
+                   data: "{\""+key+"\":\""+val+"\"}",
+                   contentType:'application/json; charset=utf-8',
+                  dataTyp:'json',
+                  success: console.log("setting file changed")
+               });};
+ function change_settings_number(key,val) {
+	$.ajax({url:'set_settings.json',
+                   type: 'POST',
+                   data: "{\""+key+"\":"+val+"}",
+                   contentType:'application/json; charset=utf-8',
+                  dataTyp:'json',
+                  success: console.log("setting file changed")
+               });
+};
+</script>
+</head>
+<body>
+<ul class="nav">
+    <li><a class="button" href="start.html">Main</a></li>
+    <li><a class="button" href="results.html">Results</a></li>
+    <li><a class="button" href="visuals.html">Visualisation</a></li>
+    <li><a class="button" href="doc.html">Parameters</a></li>
+    <li><a class="button" href="settings.html">Settings</a></li>
+    <li><a class="button" href="about.html">About</a></li>
+</ul>
+</br>
+Important: These are global settings! Files can be overwritten locally by setting a file coerbuoy_settings.txt in the working directory. These local changes are not shown here.</br>
+Please be carefully while changing settings, wrong changes can prevent the COERbuoy platfrom from starting properly.
+<h3>COERbuoy folder</h3>
+Select a local folder where the GUI reads the controller from and stores the results. This folder must include two directories: controller (here self-written controller can be placed and are automatically detected by the GUI) and results (the GUI writes the results in this folder):
+</br>
+<input id="userdir" type="text" placeholder="default"/>
+<button id="set_userdir">Set</button>
+<h3>Control Interface port</h3>
+The TCP address and port the Control Interface should operate. Please observe that the controller must be set to the same address:</br>
+<input id="conn_addr" type="text" placeholder="default address"/>
+<button id="set_conna">Set</button>
+<input id="conn_port" type="text" placeholder="default port"/>
+<button id="set_connp">Set</button>
+<h3>GUI server</h3>
+The TCP address and port used by the GUI server:
+</br>
+<input id="GUI_addr" type="text" placeholder="default address"/><button id="set_GUIa">Set</button>
+<input id="GUI_port" type="text" placeholder="default port"/><button id="set_GUIp">Set</button>
+<h3>Time steps settings</h3>
+The step width of the ODE solver and the controller; the controller time step must be a (positive integer) multiple of the ODE step width:
+</br>
+Time step ODE solver: <input id="ODE_dt" type="number" step="0.001" min="0.001" max="0.1" placeholder="time step solver"/><button id="set_ODE_dt">Set</button></br>
+Time step controller: <input id="control_dt" type="number" step="0.001" min="0.001" max="2" placeholder="time step controller"/><button id="set_control_dt">Set</button></br>
+Time step for output file: <input id="file_resolution" type="number"  step="0.001" min="0.001" max="2" placeholder="time step output"/><button id="set_file_resolution">Set</button>
+</body>
+</html>
