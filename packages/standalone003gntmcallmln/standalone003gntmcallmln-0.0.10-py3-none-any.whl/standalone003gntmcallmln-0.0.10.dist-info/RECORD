@@ -1,0 +1,10 @@
+sa003package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sa003package/kangroll_basic_fn001_mln.py,sha256=Jg0DQzO6H596tEpNxdcBu_Je75LiXGQljla6UktrL7M,114
+sa003package/kangroll_basic_fn001_mln_release.py,sha256=VD08uBioiT425SDx36Zxv5Cd8-ajV6-SV3z-SA0Cuvs,15405
+sa003package/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+sa003package/pytransform/_pytransform.dylib,sha256=Gq3W3z1jarmNdC5bqfykhikfBEUDJesrx1COTKXB7Tc,1499392
+standalone003gntmcallmln-0.0.10.dist-info/LICENSE,sha256=y_rM7-tvYpvpPAPDNoEODXrYPz0DsrQt82JqyWeW2es,1069
+standalone003gntmcallmln-0.0.10.dist-info/METADATA,sha256=6JFhALZtXGuAOYX8tDBBlhvxBxnBShp3m3ffdc1qRp4,506
+standalone003gntmcallmln-0.0.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+standalone003gntmcallmln-0.0.10.dist-info/top_level.txt,sha256=b9Z_iODvI2iigjfmoOM2KK2EGx4iIeko9_zF_e7MKeg,13
+standalone003gntmcallmln-0.0.10.dist-info/RECORD,,
