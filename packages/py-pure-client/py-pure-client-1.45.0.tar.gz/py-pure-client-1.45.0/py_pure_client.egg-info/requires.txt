@@ -1,0 +1,11 @@
+certifi<=2023.7.22,>=2022.9.24
+paramiko<=2.12.0,>=2.11.0
+pyjwt<=2.8.0,>=2.0.0
+python_dateutil>=2.5.3
+requests<=2.31.0,>=2.20.1
+setuptools<=68.1.2,>=21.0.0
+six<=1.16.0,>=1.10
+urllib3>=1.26.17
+
+[:python_version < "3.5"]
+typing<=3.7.4.3,>=3.7.4.1
