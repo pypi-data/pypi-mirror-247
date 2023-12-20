@@ -1,0 +1,11 @@
+pandas
+numpy
+ete3
+biopython
+networkx
+scipy
+lightgbm
+shap
+rich-argparse
+pyprobables
+matplotlib
