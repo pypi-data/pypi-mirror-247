@@ -1,0 +1,31 @@
+[project]
+name = "teststand_tamer"
+description = ""
+dynamic = []
+authors = [
+    { name = "franz.haas", email = "franz.haas@ams-osram.com" },
+]
+dependencies = [
+    "pywin32>=306",
+    "robotframework>=6.1.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+version = "0.0.1"
+
+[project.license]
+text = "apache 2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipython>=8.16.1",
+]

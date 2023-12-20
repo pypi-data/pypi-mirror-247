@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: teststand_tamer
+Version: 0.0.1
+Author-Email: franz.haas <franz.haas@ams-osram.com>
+License: apache 2.0
+Requires-Python: >=3.11
+Requires-Dist: pywin32>=306
+Requires-Dist: robotframework>=6.1.1
+Description-Content-Type: text/markdown
+
+# teststand_tamer
