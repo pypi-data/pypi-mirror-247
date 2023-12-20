@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "sciencelinker"
+version = "0.1.0"
+description = "Enriching survey data with data from knowledge bases"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {"text" = "MIT License"}
+authors = [ {"name" = "Felix Bensmann", email="sciencelinker01@gmail.com"} ]
+keywords = ["linking", "interlinking", "survey", "survey data", "knowledge base", "KB", "enrich", "social science", "DBpedia", "Wikidata", "Geonames", "NER"]
+classifiers = ["Development Status :: 2 - Pre-Alpha", "Framework :: Jupyter",
+                   "Intended Audience :: Science/Research", "Intended Audience :: Developers",
+                   "License :: OSI Approved :: MIT License", "Natural Language :: English",
+                   "Operating System :: Microsoft :: Windows", "Operating System :: POSIX :: Linux",
+                   "Programming Language :: Python :: 3.9",
+                   "Topic :: Scientific/Engineering :: Artificial Intelligence", "Topic :: Sociology"]
+dependencies = ["sparqlwrapper(>=1.8.5)",
+    "gensim(>=4.3.1)",
+    "requests(>=2.31.0)"]
+
+[project.urls]
+"Homepage" = "https://www.gesis.org/en/research/external-funding-projects/details/project/116/a-framework-for-finding-linking-and-enriching-social-science-linked-data"
+"Download" = "https://git.gesis.org/sciencelinker/sciencelinker-development"
+
