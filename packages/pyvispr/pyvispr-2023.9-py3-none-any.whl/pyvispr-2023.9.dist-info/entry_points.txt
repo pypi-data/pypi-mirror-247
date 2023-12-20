@@ -1,0 +1,3 @@
+[console_scripts]
+pyvispr = pyvispr.run:Main
+pyvispr-node-installer = pyvispr.install:Main
