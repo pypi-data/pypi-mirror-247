@@ -1,0 +1,12 @@
+helx-base
+dm_env
+bsuite
+gymnasium[all]>=0.26  # 0.26 introduced the termination/truncation API
+gym[all]>=0.26  # 0.26 introduced the termination/truncation API
+dm_control
+gym_minigrid
+minigrid
+procgen
+gymnax
+brax
+navix

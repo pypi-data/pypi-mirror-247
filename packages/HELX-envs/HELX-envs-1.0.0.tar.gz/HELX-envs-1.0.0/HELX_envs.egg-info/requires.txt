@@ -1,0 +1,12 @@
+helx-base
+dm_env
+bsuite
+gymnasium[all]>=0.26
+gym[all]>=0.26
+dm_control
+gym_minigrid
+minigrid
+procgen
+gymnax
+brax
+navix
