@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: stock-analysis-program
+Version: 1.0.4
+Summary: A Python-based toolkit for fetching and visualizing financial data and metrics for stocks.
+Home-page: https://github.com/visionary-code-works/stock-analysis-program
+License: MIT
+Author: Thaddeus Thomas
+Author-email: thaddeus.r.thomas@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: yfinance (>=0.2.33,<0.3.0)
+Project-URL: Documentation, https://github.com/visionary-code-works/stock-analysis-program/docs
+Project-URL: Repository, https://github.com/visionary-code-works/stock-analysis-program
