@@ -1,0 +1,9 @@
+scipy
+sympy
+mplhep
+hist
+pandas
+zfit>=0.14.0
+dill
+awkward==2.4.6
+dill
