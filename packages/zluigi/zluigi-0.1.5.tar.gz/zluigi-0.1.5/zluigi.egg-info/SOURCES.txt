@@ -1,0 +1,6 @@
+setup.py
+zluigi.egg-info/PKG-INFO
+zluigi.egg-info/SOURCES.txt
+zluigi.egg-info/dependency_links.txt
+zluigi.egg-info/entry_points.txt
+zluigi.egg-info/top_level.txt
