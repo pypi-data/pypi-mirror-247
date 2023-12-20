@@ -1,0 +1,9 @@
+numpy
+paramiko
+pyadi-iio<=0.0.16
+pylibiio<=0.25
+
+[examples]
+thread6
+matplotlib
+scipy
