@@ -1,0 +1,9 @@
+README.md
+setup.py
+dummy_package_from_adumummy/__init__.py
+dummy_package_from_adumummy/addition.py
+dummy_package_from_adumummy/multiplication.py
+dummy_package_from_adumummy.egg-info/PKG-INFO
+dummy_package_from_adumummy.egg-info/SOURCES.txt
+dummy_package_from_adumummy.egg-info/dependency_links.txt
+dummy_package_from_adumummy.egg-info/top_level.txt
