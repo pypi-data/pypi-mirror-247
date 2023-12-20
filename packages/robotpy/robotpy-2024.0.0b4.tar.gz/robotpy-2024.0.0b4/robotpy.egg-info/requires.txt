@@ -1,0 +1,85 @@
+robotpy-wpiutil==2024.0.0b4
+robotpy-wpinet==2024.0.0b4
+robotpy-wpimath==2024.0.0b4
+pyntcore==2024.0.0b4
+robotpy-hal==2024.0.0b4
+wpilib==2024.0.0b4
+robotpy-wpilib-utilities<2025,>=2024.0.0b1
+
+[:platform_machine != "roborio" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+robotpy-halsim-gui==2024.0.0b4
+robotpy-installer<2025,>=2024.0.0b1
+pyfrc<2025,>=2024.0.0b1
+
+[all]
+setuptools
+robotpy-commands-v2==2024.0.0b3
+robotpy-apriltag==2024.0.0b4
+robotpy-wpinet==2024.0.0b4
+pyntcore==2024.0.0b4
+robotpy-wpiutil==2024.0.0b4
+robotpy-wpimath==2024.0.0b4
+robotpy-navx<2025.0.0,>=2024.0.0b1
+wpilib==2024.0.0b4
+robotpy-rev<2025.0.0,>=2024.0.0b1
+robotpy-hal==2024.0.0b4
+robotpy-cscore==2024.0.0b4
+robotpy-wpilib-utilities<2025,>=2024.0.0b1
+
+[all:platform_machine != "roborio"]
+robotpy-halsim-ds-socket==2024.0.0b4
+robotpy-halsim-ws==2024.0.0b4
+
+[all:platform_machine != "roborio" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+pyfrc<2025,>=2024.0.0b1
+robotpy-installer<2025,>=2024.0.0b1
+robotpy-halsim-gui==2024.0.0b4
+
+[all:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[all:python_version >= "3.9" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+phoenix6~=24.0.0b2
+robotpy-ctre<2025.0.0,>=2024.0.0b1
+
+[apriltag]
+robotpy-apriltag==2024.0.0b4
+
+[apriltag:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[commands2]
+robotpy-commands-v2==2024.0.0b3
+
+[cscore]
+robotpy-cscore==2024.0.0b4
+
+[cscore:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[navx]
+robotpy-navx<2025.0.0,>=2024.0.0b1
+
+[phoenix5]
+setuptools
+
+[phoenix5:python_version >= "3.9" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+robotpy-ctre<2025.0.0,>=2024.0.0b1
+
+[phoenix6]
+setuptools
+
+[phoenix6:python_version >= "3.9" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+phoenix6~=24.0.0b2
+
+[rev]
+robotpy-rev<2025.0.0,>=2024.0.0b1
+
+[sim]
+
+[sim:platform_machine != "roborio"]
+robotpy-halsim-ds-socket==2024.0.0b4
+robotpy-halsim-ws==2024.0.0b4
