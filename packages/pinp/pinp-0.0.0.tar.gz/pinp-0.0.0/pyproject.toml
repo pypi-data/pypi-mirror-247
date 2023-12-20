@@ -1,0 +1,7 @@
+[project]
+name = "pinp"
+authors = [
+        {name = "TAILSIT", email = "info@tailsit.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
