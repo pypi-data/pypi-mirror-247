@@ -1,0 +1,10 @@
+pydantic2_resolve/__init__.py,sha256=3ybKhF2YI9zPs8vjS07FO0PxiDqf40GVVa37q75ptp0,595
+pydantic2_resolve/constant.py,sha256=ATCxoAyf1o9Zsqbs8VdCJ2HC-1Ybh2vKFFqTzAQeRs8,362
+pydantic2_resolve/core.py,sha256=24zqLK359ihfu5Gg7Ikn9K5L4d0DIsbi_Q7W5nbbnSI,4239
+pydantic2_resolve/exceptions.py,sha256=nXT7X-G-3X6wrss9ozIB0WWquwbUnC0UmJh2WVWHhAs,219
+pydantic2_resolve/resolver.py,sha256=50Cq7cVNPjNMUtFSlxGYgo7h8vFmMSVWlDwFBfMZH7g,10803
+pydantic2_resolve/util.py,sha256=k8k6r1qSEZFuPLj_Mds7zrWfND0eii66sNaN7Yb43is,10922
+pydantic2_resolve-1.1.1.dist-info/LICENSE,sha256=2d3g36qSF2GMxb0jVA1XlXLC3HvWOoiNbwW7optJf8E,1061
+pydantic2_resolve-1.1.1.dist-info/METADATA,sha256=ORKNCEljyTxSBj0jDGJwGi5oWIiK_SIseSdbuTlZkf0,13672
+pydantic2_resolve-1.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pydantic2_resolve-1.1.1.dist-info/RECORD,,
