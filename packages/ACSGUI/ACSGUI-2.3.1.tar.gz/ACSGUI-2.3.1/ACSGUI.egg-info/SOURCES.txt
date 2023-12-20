@@ -1,0 +1,7 @@
+README.md
+setup.py
+ACSGUI.egg-info/PKG-INFO
+ACSGUI.egg-info/SOURCES.txt
+ACSGUI.egg-info/dependency_links.txt
+ACSGUI.egg-info/requires.txt
+ACSGUI.egg-info/top_level.txt
