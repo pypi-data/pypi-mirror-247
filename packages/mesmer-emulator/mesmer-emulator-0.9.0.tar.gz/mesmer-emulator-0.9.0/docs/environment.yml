@@ -1,0 +1,29 @@
+name: mesmer-docs
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.9
+  - black<23.1
+  - cartopy
+  - cython
+  - dask[complete]
+  - flake8
+  - gdal
+  - isort
+  - netcdf4
+  - numpy
+  - pandas<2.0
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - scikit-learn
+  - statsmodels
+  - regionmask>=0.8
+  - xarray
+# required for docs
+  - sphinx-book-theme
+  - numpydoc
+  - ipython
