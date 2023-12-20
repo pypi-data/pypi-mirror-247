@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dynamixel_control/__init__.py
+src/dynamixel_control/dxl.py
+src/dynamixel_control.egg-info/PKG-INFO
+src/dynamixel_control.egg-info/SOURCES.txt
+src/dynamixel_control.egg-info/dependency_links.txt
+src/dynamixel_control.egg-info/requires.txt
+src/dynamixel_control.egg-info/top_level.txt
