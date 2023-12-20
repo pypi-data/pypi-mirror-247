@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jc-cipher
+Version: 0.0.1
+Summary: Preserving History Through Code- Caesar Cipher
+Home-page: https://github.com/statogale/caesar-cipher
+Author: Statogale (Gabriel Okundaye)
+Author-email: <gabriel.okundaye@statogale.com>
+License: MIT
+Keywords: python,caesar cipher,julius caesar,history
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Preserving History Through Code- Julius Caesar's Shift Cipher
