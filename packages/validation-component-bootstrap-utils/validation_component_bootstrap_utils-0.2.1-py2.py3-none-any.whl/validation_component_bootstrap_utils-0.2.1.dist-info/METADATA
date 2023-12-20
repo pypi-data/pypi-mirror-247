@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: validation-component-bootstrap-utils
+Version: 0.2.1
+Summary: Utilities for Bootstrapping Validation Components
+Home-page: https://github.com/jai-python3/validation_component_bootstrap_utils
+Author: Jaideep Sundaram
+Author-email: jai.python3@gmail.com
+Keywords: validation_component_bootstrap_utils
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click >=7.0
+Requires-Dist: PyYAML
+Requires-Dist: jinja2
+Requires-Dist: Rich
+
+=================================================
+Utilities for Bootstrapping Validation Components
+=================================================
+
+
+
+
+
+
+Utilities for Bootstrapping Validation Components
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-12-19)
+------------------
+
+* First release on PyPI.
