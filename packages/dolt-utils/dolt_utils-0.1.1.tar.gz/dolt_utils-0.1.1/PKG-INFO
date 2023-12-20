@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dolt_utils
+Version: 0.1.1
+Summary: Some utils for dolt.
+Author-email: Sam Richards <sammyrichards@me.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: doltcli>=0.2.1
+Description-Content-Type: text/markdown
+
+# dolt-utils
+This is dolt-utils.
