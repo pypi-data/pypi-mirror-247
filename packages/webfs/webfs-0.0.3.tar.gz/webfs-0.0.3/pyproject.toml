@@ -1,0 +1,17 @@
+[project]
+name = "webfs"
+version = "0.0.3"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "A filesystem for the web"
+dependencies = [
+    "bs4",
+    "mmry",
+    "colorama",
+    "requests",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/webfs"
+download = "https://pypi.org/project/webfs/#files"
