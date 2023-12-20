@@ -1,0 +1,6 @@
+setup.py
+zlaban_pypi_private.egg-info/PKG-INFO
+zlaban_pypi_private.egg-info/SOURCES.txt
+zlaban_pypi_private.egg-info/dependency_links.txt
+zlaban_pypi_private.egg-info/entry_points.txt
+zlaban_pypi_private.egg-info/top_level.txt
