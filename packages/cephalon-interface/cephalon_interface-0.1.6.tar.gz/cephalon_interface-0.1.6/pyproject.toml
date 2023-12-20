@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "cephalon-interface"
+version = "0.1.6"
+description = "API client and GUI app for interacting with Cephalon Intelligence research tools."
+repository = "https://github.com/cephalon-intelligence/cephalon-interface"
+documentation = "https://cephalon.systems/"
+readme = "README.md"
+authors = ["Hart Traveller <research@cephalon.io>"]
+packages = [{ include = "ci" }]
+include = ["ci/.include/**/*"]
+
+[tool.poetry.dependencies]
+python = ">3.9.7, <4.0"
+requests = "^2.31.0"
+pydantic = "^2.5.0"
+loguru = "^0.7.2"
+rich-click = "^1.7.1"
+toml = "^0.10.2"
+regex = "^2023.10.3"
+pillow = "^10.1.0"
+dateparser = "^1.2.0"
+result = "^0.15.0"
+pick = "^2.2.0"
+watchdog = "^3.0.0"
+streamlit = "^1.29.0"
+pycooltext = "^0.0.1"
+streamlit-searchbox = "^0.1.6"
+fuzzywuzzy = "^0.18.0"
+python-levenshtein = "^0.23.0"
+pycountry = "^23.12.11"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ci = "ci.cli:entry"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
