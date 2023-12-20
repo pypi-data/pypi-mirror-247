@@ -1,0 +1,2 @@
+[console_scripts]
+pgllm = pgllm.cli:cli
