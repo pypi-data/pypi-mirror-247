@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sa002package/__init__.py
+sa002package/exfn001add.py
+sa002package/exfn001add_release.py
+standalone002pyarmor.egg-info/PKG-INFO
+standalone002pyarmor.egg-info/SOURCES.txt
+standalone002pyarmor.egg-info/dependency_links.txt
+standalone002pyarmor.egg-info/top_level.txt
+tests/test_exfn001add.py
+tests/test_obfuscated_exfn001add.py
+tests/test_original_exfn001add.py
