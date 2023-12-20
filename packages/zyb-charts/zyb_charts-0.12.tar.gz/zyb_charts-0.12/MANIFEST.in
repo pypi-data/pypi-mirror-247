@@ -1,0 +1,3 @@
+include zyb_charts/js/*
+include zyb_charts/templates/*
+include readme.md
