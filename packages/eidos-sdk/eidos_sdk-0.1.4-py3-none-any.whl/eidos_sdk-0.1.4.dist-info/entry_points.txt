@@ -1,0 +1,4 @@
+[console_scripts]
+eidos-create-agent=eidos_sdk.bin.agent_creator:main
+eidos-server=eidos_sdk.bin.agent_http_server:main
+
