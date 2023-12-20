@@ -1,0 +1,5 @@
+django>=3.0
+mitol-django-common
+mitol-django-google-sheets
+pluggy==0.13.1
+setuptools
