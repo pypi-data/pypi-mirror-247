@@ -1,0 +1,2 @@
+include src/chromedriver
+recursive-include src *.py
