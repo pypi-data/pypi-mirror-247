@@ -1,0 +1,15 @@
+autoeis/__init__.py,sha256=xkiTtjrkzLy_q213RfVEgCEQdZTboGZS6Wz8r5o1Wig,375
+autoeis/__main__.py,sha256=xAQUP6HwBrTWjX68cliGdYyG3haoz9FS8vJA6rgS9yA,106
+autoeis/cli.py,sha256=-98owCSR0K3_tGSemHsASr24p1mv41LPgp4XBoibDIY,958
+autoeis/core.py,sha256=BZUN-mnvcwWHAZHt4i5b0HKYvQoEhQp1-54PaSYUy-M,23311
+autoeis/io.py,sha256=3DafJrgPaoJ77Iw6DOiI_Quq0T4euCfhVIRzsb32c9U,800
+autoeis/julia_helpers.py,sha256=KIDKoefaibh-wyIHoC_aryDrigfzwOHZMwWKQ_DgQhU,12277
+autoeis/legacy.py,sha256=rCfa1kmSUuuukn8kbMaLAZ3ATlZ2oXFaHtd1xKupLEY,26381
+autoeis/utils.py,sha256=UFipbkrTJuW4eYjk-Y7jntEqKpFSbcn3ZSROhgyk8F8,18366
+autoeis/version.py,sha256=vANjPbDwiPzBP37P5UsrM-CiOdKY84DwSX4QSRhhBKs,68
+autoeis/visualization.py,sha256=GUvO0SxEhwJYEMld8i6P3NdSi_a974TREg2AFcMltS8,9142
+autoeis/assets/test_data.txt,sha256=SvXGE3-sEEtDRphsAacIk-khBOPRm2xHE7WhgII7PH8,8879
+autoeis-0.0.18.dist-info/METADATA,sha256=jatN4bQY3b5j8DDP0YrZzQNUkJNOSKLEKQaoEAuTdTc,8723
+autoeis-0.0.18.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+autoeis-0.0.18.dist-info/licenses/LICENSE,sha256=KyOSe3ae9f5bbQUcx1ZmFoldSrls9c9JcLky6tkDmk8,1065
+autoeis-0.0.18.dist-info/RECORD,,
