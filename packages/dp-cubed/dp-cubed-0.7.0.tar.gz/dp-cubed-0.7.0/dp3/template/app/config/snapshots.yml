@@ -1,0 +1,9 @@
+# Configuration of SnapShooter module, responsible for
+# creating entity snapshots and running configured data correlation
+
+# Creating snapshots - cron schedule
+creation_rate:
+  minute: "*/30"
+
+# Keep or discard empty snapshots
+keep_empty: true
