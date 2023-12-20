@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: letter2
+Version: 0.0.5
+Summary: 一个简单的基于 socket 的聊天室
+Home-page: 
+Author: violet drowning
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 基于 Socket 的终端聊天室
+## 1.构建服务器
+```python
+import letter2 as letter
+
+service = letter.service(
+    # 数据库配置【以下都是默认值】
+    mysql_host='localhost',
+    mysql_port=3306,
+    mysql_user='root',
+    mysql_database='letter',
+    mysql_password='1234',
+    
+    # 服务器端配置【以下都是默认值】
+    service_host='localhost',
+    service_port=5000,
+    max_client=5,
+    encoding='utf8'
+)
+service.start()
+```
+## 2.运行客服端
+```python
+import letter2 as letter
+
+client = letter.client(
+    # 以下均为默认值
+    service_host='localhost',
+    service_port=5000,
+    encoding='utf-8'
+)
+client.start()
+```
+
+## 3.客服端使用帮助
+```cmd
+
+  _      _   _                   _ _            _     ___    ___  
+ | |    | | | |                 | (_)          | |   |__ \  / _ \ 
+ | | ___| |_| |_ ___ _ __    ___| |_  ___ _ __ | |_     ) || | | |
+ | |/ _ \ __| __/ _ \ '__|  / __| | |/ _ \ '_ \| __|   / / | | | |
+ | |  __/ |_| ||  __/ |    | (__| | |  __/ | | | |_   / /_ | |_| |
+ |_|\___|\__|\__\___|_|     \___|_|_|\___|_| |_|\__| |____(_)___/ 
+
+$ 2023-12-16 12:57:35 > letter2 2.0 client starting...
+$ 2023-12-16 12:57:35 > letter2 2.0 client stared!
+$ 2023-12-16 12:57:35 > 目前正处于离线模式, 你可以输入 login 登录聊天室
+# help
+
+    绿色表示在线才能使用的功能
+    红色表示离线才能使用的功能
+    白色不做限制
+    
+        ls: 显示所有在线用户
+        me: 显示自己的状态
+        clear: 清空记录
+        help: 查看帮助
+        path: 显示当前目录，及目录下的所有子目录
+        login: 登录服务器
+        register: 注册一个账户并登录服务器
+        chat [all|username] [text]: 给[所有|指定]用户发送消息
+        file [filepath] to [username]: 给指定用户发送文件
+        logout: 退出登录
+        repwd [old password] [new password]: 修改密码
+        exit: 退出应用
+    
+# 
+```
+---
+<img src="./1.png">
