@@ -1,0 +1,6 @@
+setup.py
+zaiasrservice.egg-info/PKG-INFO
+zaiasrservice.egg-info/SOURCES.txt
+zaiasrservice.egg-info/dependency_links.txt
+zaiasrservice.egg-info/entry_points.txt
+zaiasrservice.egg-info/top_level.txt
