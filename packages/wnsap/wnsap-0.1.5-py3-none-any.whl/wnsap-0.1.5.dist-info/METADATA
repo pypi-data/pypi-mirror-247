@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: wnsap
+Version: 0.1.5
+Summary: 
+Author: woni
+Author-email: 320753691@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# WnSap
+
+> 这是操作 SAP 的模块
+
+## 快速上手
+
+```
+from wnsap import SapGui
+
+sap = SapGui()
+```
+
+## Q & A
+
+
+
