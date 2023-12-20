@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rcpann
+Version: 0.0.1
+Summary: Ring Current Proton Artifician Neural Network Model
+Author: Jinxing Li
+Author-email: <jinxing.li.87@gmail.com>
+Keywords: python,Ring Current,Space,Space physics,Radiation belt,magnetosphere
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
