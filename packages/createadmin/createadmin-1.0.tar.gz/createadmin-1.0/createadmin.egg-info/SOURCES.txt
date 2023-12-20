@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+createadmin/__init__.py
+createadmin.egg-info/PKG-INFO
+createadmin.egg-info/SOURCES.txt
+createadmin.egg-info/dependency_links.txt
+createadmin.egg-info/top_level.txt
+createadmin/management/__init__.py
+createadmin/management/commands/__init__.py
+createadmin/management/commands/createadmin.py

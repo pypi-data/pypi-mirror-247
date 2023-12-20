@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: createadmin
+Version: 1.0
+Summary: Create Default Admin Credentials in Django Admin.
+Home-page: https://github.com/xB0t/createadmin
+Author: xB0t
+Author-email: ychaudhari124@gmail.com
+Maintainer: xB0t
+Maintainer-email: ychaudhari124@gmail.com
+License: MIT
+Keywords: django django_admin django_admin_default_credentials django-admin-custom-credentials devops deployment
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+createadmin
+==================
+
+Create Django Admin Default Credentials
+----------------------------------------
+
+The `createadmin` package provides a Django management command, `createadmin`, that facilitates the creation of superuser default login credentials for the Django Admin Interface. This command is useful for setting up initial access to the admin interface during project development, packaging & deployment.
+
+Installation
+------------
+
+To install the package, use the following pip command:
+
+.. code-block:: bash
+
+    pip install createadmin
+
+After installation, add `'createadmin'` to the `INSTALLED_APPS` list in your project's `settings.py` file:
+
+.. code-block:: python
+
+    INSTALLED_APPS = [
+        # ...
+        'createadmin',
+        # ...
+    ]
+
+Usage
+-----
+
+### Default Credentials
+
+To create a superuser with the default credentials (username: admin, password: admin, email: admin@example.com), run the following command in the terminal:
+
+.. code-block:: bash
+
+    python manage.py createadmin
+
+### Custom Credentials
+
+You can also create a superuser with custom credentials by adding a dictionary block to your project's `settings.py` file:
+
+.. code-block:: python
+
+    # settings.py
+
+    CREATE_ADMIN = {
+        'username': 'your_custom_username',
+        'password': 'your_custom_password',
+        'email': 'your_custom_email@example.com',
+    }
+
+Then, run the following command in the terminal:
+
+.. code-block:: bash
+
+    python manage.py createadmin
+
+**Note:** Ensure that the `'createadmin'` app is included in your `INSTALLED_APPS` list before running the command.
+
+Example
+-------
+
+Here's an example of using custom credentials in the `settings.py` file:
+
+.. code-block:: python
+
+    # settings.py
+
+    INSTALLED_APPS = [
+        # ...
+        'createadmin',
+        # ...
+    ]
+
+    CREATE_ADMIN = {
+        'username': 'yash',
+        'password': 'yash',
+        'email': 'ychaudhari124@gmail.com',
+    }
+
+Run the following command in the terminal:
+
+.. code-block:: bash
+
+    python manage.py createadmin
+
+This will create a superuser with the specified custom credentials.
+
+**Note:** It is recommended to change the default or custom credentials once the initial setup is complete for security reasons.
+
+---
+
+*This package simplifies the process of creating Django Admin default credentials, making it more efficient for project setup, development, packaging & deployment.*
