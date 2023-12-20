@@ -1,0 +1,13 @@
+bk_temp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bk_temp/my_package/__init__.py,sha256=rVgXlXxhUc6_kHLG4nzr03a5SypEQLBJpSp7s-_wEdM,5
+bk_temp/my_package/exfn001add.py,sha256=oHx6--x1aXjVUBM0Z10Vf9Dlqdj3NNVX6384eqVKKoI,102
+bk_temp/my_package/exfn001add_release.py,sha256=xQi9Fg5m_exqI7jt_1KOgSYHCw1UlErXlF2Ozlf-dOs,15325
+bk_temp/my_package/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+sa002package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sa002package/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+sa002package/pytransform/_pytransform.dylib,sha256=Gq3W3z1jarmNdC5bqfykhikfBEUDJesrx1COTKXB7Tc,1499392
+standalone002pyarmor-0.0.32.dist-info/LICENSE,sha256=y_rM7-tvYpvpPAPDNoEODXrYPz0DsrQt82JqyWeW2es,1069
+standalone002pyarmor-0.0.32.dist-info/METADATA,sha256=BJt5tbZGyBTSa6hb__eXHlGleSRn_d22sWy7pNJN_KY,591
+standalone002pyarmor-0.0.32.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+standalone002pyarmor-0.0.32.dist-info/top_level.txt,sha256=_oOVhlrfSidwerHKL_eoLyvtZ5a7FhCRttKDvRUcjO8,21
+standalone002pyarmor-0.0.32.dist-info/RECORD,,
