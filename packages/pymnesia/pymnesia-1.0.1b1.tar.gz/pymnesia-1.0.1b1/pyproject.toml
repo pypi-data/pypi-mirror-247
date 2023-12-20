@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "pymnesia"
+version = "1.0.1-beta.1"
+description = "A (real) in memory database and ORM"
+authors = ["Harold Cohen <me@harold-cohen.com>"]
+license = "MIT"
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/haroldcohen/pymnesia"
+Repository = "https://github.com/haroldcohen/pymnesia"
+Issues = "https://github.com/haroldcohen/pymnesia/issues"
+Changelog = "https://github.com/haroldcohen/pymnesia/blob/master/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.6"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+pytest = "^7.4.2"
+pre-commit = "^3.5.0"
+autopep8 = "^2.0.4"
+PyHamcrest = "^2.1.0"
+pytest-mock = "^3.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
