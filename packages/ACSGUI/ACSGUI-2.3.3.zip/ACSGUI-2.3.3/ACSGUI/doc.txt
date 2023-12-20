@@ -1,0 +1,5 @@
+Design Analysis,Microcontroller and Embedded sysytem,Operating System,Unix shell Programming,Python Programming Lab,Indian Constitution,Universal Human Values,int49- internship
+BCEDK203,BCHES202,BESCK204A,BICOK207,BIDTK258,BMATS201,BPLCK205B,BPWSK206
+3,4,3,1,1,4,3,1
+Mrs.vigneshwari,Mr.Abishek,Mr.Venkatesh kumar,Dr.Senthil kuman,Mrs. Bhavani,Mrs. Shruthi,Dr.Pillai,Mr. Panchaxari
+Consolidated Result Analysis for the Academic Year 2022-23 (Before Revaluation) 4‘a&b’ Semester.
