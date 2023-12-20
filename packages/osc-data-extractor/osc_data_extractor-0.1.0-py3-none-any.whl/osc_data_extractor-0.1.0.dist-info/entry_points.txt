@@ -1,0 +1,3 @@
+[console_scripts]
+osc-data-extractor = osc_data_extractor.skeleton:run
+
