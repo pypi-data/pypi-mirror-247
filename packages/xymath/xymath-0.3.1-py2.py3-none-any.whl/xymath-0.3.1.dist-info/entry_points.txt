@@ -1,0 +1,2 @@
+[console_scripts]
+xymath = xymath.gui.xygui:main
