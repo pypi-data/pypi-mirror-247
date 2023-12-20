@@ -1,0 +1,5 @@
+entry_points:
+  main:
+    parameters:
+      print: {type: "string", default: "test"}
+    command: python main.py {print}
