@@ -1,0 +1,9 @@
+djangoheads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoheads/apps.py,sha256=DZCAV-RIr_hF7bmzckKc7sQAmdwNF46bK24jKwKH--o,166
+djangoheads/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoheads/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoheads/management/commands/initdjango.py,sha256=oj1PvqPwQQgJdzw9kcy78C3tvO9JUyVEePQkmJfV52Y,853
+djangoheads-1.0.0.dist-info/LICENSE,sha256=SXRfTeeLFw8rjzxVSZQQak6yP8DcRvLlw0AVEBPzYj0,1074
+djangoheads-1.0.0.dist-info/METADATA,sha256=EZi0gFFpfFDLqPVfQ7k14KWIxMoprfVXdSKEgXUdyTA,1971
+djangoheads-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+djangoheads-1.0.0.dist-info/RECORD,,
