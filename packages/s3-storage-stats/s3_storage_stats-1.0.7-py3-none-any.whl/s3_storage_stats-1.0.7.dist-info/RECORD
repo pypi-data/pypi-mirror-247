@@ -1,0 +1,13 @@
+s3_storage_stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_storage_stats/args.py,sha256=op5p14PvvjGG15_w0uQIGru0w86HS4DRt3H2RdC0qQo,4667
+s3_storage_stats/base.py,sha256=0-1BGwwJDfPtPsYvB1IBjNIoxLdMBM1q162nneDKuHo,10006
+s3_storage_stats/logger.py,sha256=EA5uW7YA_XwF12vIAky49e2coKGqo5k56nK6wwQmvOc,1728
+s3_storage_stats-1.0.7.data/scripts/s3-storage-stats,sha256=X2DX32JpO26sbLWtBVhUXwzRCzCkK_14_NFd0eG4muQ,2952
+storage_stats/__init__.py,sha256=EVJe8kMtZFQig_ALlRWMog5oD6NP18vIlY8gx7wTNr0,70
+storage_stats/args.py,sha256=to3yIHWI8C3ZV7HetAtM4og9tRi_FU8nWxmVX_SLbd8,4458
+storage_stats/base.py,sha256=lo2LtouvNJDQPBPwiUP7rya9xTC1WWJs2YLG1pbYxvg,10295
+storage_stats/logger.py,sha256=1iNriIntGT00FqTR9EC3ens_xoQ6qIHeRHDl6OQywiA,2793
+s3_storage_stats-1.0.7.dist-info/METADATA,sha256=ERWIczHMk1tjW3gyF2SAoR4Opxtcy7gOZ91kq6Z9ieM,8114
+s3_storage_stats-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+s3_storage_stats-1.0.7.dist-info/top_level.txt,sha256=tBkmHCYAECvjOrrhKqYn0c5j7uxLELdAZ0MkTUlcP9w,17
+s3_storage_stats-1.0.7.dist-info/RECORD,,
