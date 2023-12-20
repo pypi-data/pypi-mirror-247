@@ -1,0 +1,2 @@
+[console_scripts]
+jc-cipher = caesar_cipher.caesar_cipher:main
