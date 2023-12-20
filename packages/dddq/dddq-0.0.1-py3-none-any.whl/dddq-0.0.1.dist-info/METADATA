@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dddq
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/dctalbot/dddq
+Project-URL: Issues, https://github.com/dctalbot/dddq/issues
+Author-email: David Talbot <dc4t@pm.me>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+packaging_tutorial/
+└── src/
+└── example_package_YOUR_USERNAME_HERE/
+├── **init**.py
+└── example.py
