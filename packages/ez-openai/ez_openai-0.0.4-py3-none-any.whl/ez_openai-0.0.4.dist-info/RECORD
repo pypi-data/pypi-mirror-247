@@ -1,0 +1,6 @@
+ez_openai/__init__.py,sha256=osv5mUrQBoYFsluEXn7l4W_eCdJNTRBuieiRBkZSyik,6080
+ez_openai/decorator.py,sha256=a-psSQBN8fhaWG-iAN8-4Puc7U_2JYcbBF0rLGpSTx4,2006
+ez_openai-0.0.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ez_openai-0.0.4.dist-info/METADATA,sha256=-C88T6qrXr26rY8u1dLK9yaxEGfwB5cmEn9Lkk6TyPc,3547
+ez_openai-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ez_openai-0.0.4.dist-info/RECORD,,
