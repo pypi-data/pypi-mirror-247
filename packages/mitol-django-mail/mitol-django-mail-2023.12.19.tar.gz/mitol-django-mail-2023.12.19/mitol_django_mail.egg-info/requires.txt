@@ -1,0 +1,7 @@
+beautifulsoup4>=4.6.0
+django-anymail>=6.0
+django>=3.0
+html5lib>=1.1
+mitol-django-common
+premailer>=3.7.0
+toolz>=0.10.0
