@@ -1,0 +1,14 @@
+[project]
+name = "econarena"
+version = "0.0.1"
+authors = [
+    {name="Dianbo Sui", email="suidianbo@hit.edu.cn"},
+]
+description = "PyPI of Economic Arena"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
