@@ -1,0 +1,11 @@
+sequana_pipelines/revcomp/__init__.py,sha256=X5Nn4DjWni3bL58ByFDILsduRsL5s60yXhqGeTrH26w,124
+sequana_pipelines/revcomp/config.yaml,sha256=LkCt_-nNBOF9hiM_NfqmAMSVsNXPtT7ho6EXKtV8y0Q,777
+sequana_pipelines/revcomp/main.py,sha256=EmqSICCnHJHYq7xFswnxG5j6zMHxax8TmA0eXHQt3t4,1634
+sequana_pipelines/revcomp/revcomp.rules,sha256=mjeBVy_eUtqzqUNsXFsUfc-8-bNIRCq_BK99m5UEnUY,1175
+sequana_pipelines/revcomp/schema.yaml,sha256=fin41Z-li5rvuPH7NB3H5QyOpnICmtxNLe5PiCQxCBw,463
+sequana_pipelines/revcomp/tools.txt,sha256=NT3BKqZZoi7KcBCUEn1_3yUT1nz34wchHgavnzjl8P8,6
+sequana_revcomp-1.1.0.dist-info/LICENSE,sha256=tifUGMwXA9uaq2g1wFz0ZgRRPOFCfqsOxRj8JneHZ3M,1530
+sequana_revcomp-1.1.0.dist-info/METADATA,sha256=NVFg_-MQe1j_k5O788SKBV-0wdM3GD2x5VGJ2r_aczQ,5168
+sequana_revcomp-1.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sequana_revcomp-1.1.0.dist-info/entry_points.txt,sha256=vP8NMJyWUOBgdtDgvPmieAkhElE5gTdZay8yRoxKxJ4,71
+sequana_revcomp-1.1.0.dist-info/RECORD,,
