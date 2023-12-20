@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: azucar-reactive-websocket
+Version: 0.2
+Summary: Un manejador de WebSocket reactivo usando RxPython y websockets.
+Author: juan_k704
+Author-email: juan_k704@hotmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: rx
+Requires-Dist: websockets
+
