@@ -1,0 +1,7 @@
+setup.py
+wadusayshello/__init__.py
+wadusayshello/main.py
+wadusayshello.egg-info/PKG-INFO
+wadusayshello.egg-info/SOURCES.txt
+wadusayshello.egg-info/dependency_links.txt
+wadusayshello.egg-info/top_level.txt
