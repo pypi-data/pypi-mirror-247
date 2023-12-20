@@ -1,0 +1,2 @@
+[console_scripts]
+fosslight-cli = src.__main__:main
