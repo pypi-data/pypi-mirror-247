@@ -1,0 +1,11 @@
+oauthadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oauthadmin/adminsite.py,sha256=sNXPY9rapsHobPqU8m8TxqkW6Ez6eeGnPtXA5HOHNqo,309
+oauthadmin/middleware.py,sha256=7OKinqCqHZ8l4MD4lfF8b6l2hbk-UHJUaiN_jxzhDoo,1728
+oauthadmin/settings.py,sha256=0iBZI-eM9pSyX0o-omcmlCfiLoD5j4_q8bP12pqI7gw,400
+oauthadmin/urls.py,sha256=ahgHlaoToiFCr9XTxyUiCVY5L_VscsxW2PQBbrUxNtc,354
+oauthadmin/utils.py,sha256=IxkoaNbr7GEv-WJmw5-IHzXE_mEm07YiQKhftV_WSPQ,888
+oauthadmin/views.py,sha256=FgYAQCuZjilBP8g7eHfgbNhNHAtSqKFsWxoz5CBmdcc,4023
+django_admin_oauth2-1.3.0.dist-info/METADATA,sha256=pF5MHyYD80axGcdNHpgrI2wRJ2d4AWwz0GU7_HL3RZ0,4662
+django_admin_oauth2-1.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_admin_oauth2-1.3.0.dist-info/top_level.txt,sha256=Y9lHCglSIA9CC-To4hnk8rLlmJjiWWFJ6RqT8F5g1-U,11
+django_admin_oauth2-1.3.0.dist-info/RECORD,,
