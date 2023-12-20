@@ -1,0 +1,6 @@
+setup.py
+fstore_client_v2.egg-info/PKG-INFO
+fstore_client_v2.egg-info/SOURCES.txt
+fstore_client_v2.egg-info/dependency_links.txt
+fstore_client_v2.egg-info/entry_points.txt
+fstore_client_v2.egg-info/top_level.txt
