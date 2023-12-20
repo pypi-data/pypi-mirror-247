@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: picombo
+Version: 1.0.2
+Summary: Users select an item from a list and retrieve it.
+Author-email: Udon Asakawa <udonuopn.a@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Udon Asakawa
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/udonuopn/picombo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt-toolkit
+
+## Picombo
+Picombo is a Python library that offers interactive filtering functionality. When a list object is provided to Picombo, it displays a filtering interface to the user, allowing them to interactively filter through the list. Once a user selects an item, Picombo returns that value.
+
+In essence, it's like having Percol as a library that can be freely integrated into any program.
+
+## Installation
+
+```
+$ pip install picombo
+```
+
+## Example
+```
+import picombo
+
+my_list = [i for i in range(1,101)]
+pw = picombo.PickWindow(my_list)
+res = pw.search()
+
+print(res)
+```
+
+## Demo
+If you clone the repository, you can demo the filtering of a list of all country names.
+
+```
+$ pipenv install
+$ pipenv run demo
+```
