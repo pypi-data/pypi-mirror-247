@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/stratus_sdk.egg-info/PKG-INFO
+src/stratus_sdk.egg-info/SOURCES.txt
+src/stratus_sdk.egg-info/dependency_links.txt
+src/stratus_sdk.egg-info/top_level.txt
