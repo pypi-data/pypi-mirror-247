@@ -1,0 +1,6 @@
+venv
+venv/*
+__pycache__/*
+youtube_download/__pycache__/*
+dist/*
+youtube_downloaders.egg-info/*
