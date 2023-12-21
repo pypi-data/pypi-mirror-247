@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_telegram_login.egg-info/PKG-INFO
+streamlit_telegram_login.egg-info/SOURCES.txt
+streamlit_telegram_login.egg-info/dependency_links.txt
+streamlit_telegram_login.egg-info/requires.txt
+streamlit_telegram_login.egg-info/top_level.txt
