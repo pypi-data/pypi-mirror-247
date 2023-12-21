@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Kyle_Smartsheet
+Version: 0.0.3
+Summary: Connect Smartsheet with Dataframe
+Author: kvuong
+Author-email: vuong.chan.khang98@gmail.com
+Keywords: smartsheet,kyle
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: smartsheet-python-sdk
+Requires-Dist: smartsheet-dataframe
+Requires-Dist: pandas
+
+
+# Smartsheet of Kyle
+
+It was created Khang Vuong
+
+## Examples of How To Use
+
+Ksheet
+
+```python
+
+from Kyle_Smartsheet import KSheet
+
+sheet = KSheet(SheetID,token)
+# Get dataframe
+df = sheet.get_dataframe()
+# Get column ID
+columnID = sheet.get_columnID()
+# Get column type
+columntype = sheet.get_columnType()
+# Convert df to dictionary
+dic = convert_df_to_dict(df)
+# Add rows
+sheet.add_rows(df)
+# Update rows
+sheet.update_rows(df,list_rowID)
+# Delete rows
+sheet.delete_rows(df,lst_rowID)
+
+```
+
+KSmartsheet
+
+```python
+
+from Kyle_Smartsheet import KSmartsheet
+
+smart = KSmartSheet(token).smart
+
+```
