@@ -1,0 +1,8 @@
+README.md
+setup.py
+twickster/__init__.py
+twickster.egg-info/PKG-INFO
+twickster.egg-info/SOURCES.txt
+twickster.egg-info/dependency_links.txt
+twickster.egg-info/requires.txt
+twickster.egg-info/top_level.txt
