@@ -1,0 +1,12 @@
+emodjis-0.1.0.dist-info/METADATA,sha256=bUmEugLX3rYcq8iCu-NohiRxqNglr4W5kqV5uIdlZek,1074
+emodjis-0.1.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+emodjis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emodjis/migrations/0001_initial.py,sha256=SS8IB7MTjQqD6ylaWJcFup7fCY8hgxjZC8Gi-if1jcA,1551
+emodjis/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emodjis/models.py,sha256=8pr7XoMAKUQ4IZSp7FEPu4bcRkDIOImW2gHWxoxeaFg,1059
+emodjis/permissions.py,sha256=uX3b1f8-Qgd6FQZ9fw10pmPWJ-Yq6rLKNqU6hx1qo6k,841
+emodjis/routers.py,sha256=IdIrxu6wpxQjcDhhdQeLkd09vSFSoUmhpJtD-_fRCcE,714
+emodjis/serializers.py,sha256=xkfWHgS10b3KfmeUlDxUSC58Do7BUgDf0eMKHVY1DIk,702
+emodjis/urls.py,sha256=M7_TNsc5pi61hZO5xflLX0CBrn6GEYRlq7zLfTRPmRM,377
+emodjis/viewsets.py,sha256=amy6Ed-Mj_eHA30olPgrZ4HQ7eIq4cUbrINuLGbaiRs,5181
+emodjis-0.1.0.dist-info/RECORD,,
