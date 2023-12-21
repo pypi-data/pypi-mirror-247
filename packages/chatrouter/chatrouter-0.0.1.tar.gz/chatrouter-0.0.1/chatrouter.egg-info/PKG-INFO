@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: chatrouter
+Version: 0.0.1
+Summary: Router for chatbot
+Author: guangrei
+Author-email: myawn@pm.me
+License: MIT
+Platform: any
+Description-Content-Type: text/markdown
+
+## quick example
+```python
+#-*-coding:utf8;-*-
+import chatrouter
+
+
+chatbot = chatrouter.group("test")
+	
+@chatbot.add_command("/start", description="start command", strict=True)
+def start_handler():
+	return "this is start command!"
+
+@chatbot.add_command("call me {nama}")
+def say_handler(nama):
+	return f"hello {nama}, nice to meet you!"
+
+@chatbot.add_command("repeat me {satu} and {dua}")
+def repeat_handler(satu, dua):
+	return f"ok {satu}.. {dua}"
+	
+@chatbot.add_default_command()
+def default_handler(command):
+	return f"command {command} not found!"
+
+if __name__ == '__main__':
+	print("Welcome to chatrouter demo! type /help to show help messages.")
+	while True:
+		try:
+			i = input("you: ")
+			r = chatrouter.run(chatbot, i)
+			print(f"bot: {r}")
+		except BaseException as e:
+			print("bot: byebye!")
+			exit(0)
+```
