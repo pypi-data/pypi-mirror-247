@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tr
+Version: 2.8.6
+Summary: tr
+Home-page: https://pypi.org/project/tr/
+Author: anycode
+Author-email: anycode@yahoo.com
+Maintainer: anycode
+Maintainer-email: anycode@yahoo.com
+Platform: linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# tr - Text Recognition
+
+https://github.com/myhub/tr
