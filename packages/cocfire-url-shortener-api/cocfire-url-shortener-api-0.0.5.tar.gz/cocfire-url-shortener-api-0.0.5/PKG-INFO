@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cocfire-url-shortener-api
+Version: 0.0.5
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+
+=================
+URL Shortener API
+=================
+
+The official API for my URL shortener.
+
+I officially have no idea what I'm doing.
