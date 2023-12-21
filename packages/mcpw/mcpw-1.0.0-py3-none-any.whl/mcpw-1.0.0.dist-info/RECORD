@@ -1,0 +1,13 @@
+mcpw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpw/jupyter_functions.py,sha256=f4Xq1Z3MVsAazW12zHbdc-t-8-d8k70YMvXOUhT_YKU,9535
+mcpw/manager.py,sha256=_0-uIJhJNhpsyu-COxWln8eQwyFe9wFYynb8lHTrr9s,10318
+mcpw/mcstas_wrapper.py,sha256=6Yqba6s2OtVoD5PEkcGyMWo46cYPM41Z2WQomCDVFPE,29870
+mcpw/pyrightconfig.json,sha256=9Gm7qq1hvbGZn8JPSlhKOOtIaP-bsOOCpv3O7y5dgU8,58
+mcpw/setup.py,sha256=oj47cp8e5pZ5eRGZKRTTJ2XHzcFcCjYhtpq_-MWchT8,2747
+mcpw/setup_tools.py,sha256=Qu79-Crzn90vGc6rBw7uDLN2yOciRQ4y0g1igEBn8Pg,11785
+mcpw-1.0.0.dist-info/LICENSE,sha256=ADb8W2kfNnozMHjGCcYguzG-wUlNrHOShHEJL4v7QwY,1066
+mcpw-1.0.0.dist-info/METADATA,sha256=ngjZIAcml89sc-ITx_xks_DmKkXTxaw94Yam58Vg-U4,1938
+mcpw-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mcpw-1.0.0.dist-info/entry_points.txt,sha256=y7a-UBCbNqo8MYPAsP5ZnL8Sb_0zKQG_tTNvsVpHnpg,80
+mcpw-1.0.0.dist-info/top_level.txt,sha256=4eFBycKovb6aeixb0glXlJTRslYRROoHCxVQpoygD-I,5
+mcpw-1.0.0.dist-info/RECORD,,
