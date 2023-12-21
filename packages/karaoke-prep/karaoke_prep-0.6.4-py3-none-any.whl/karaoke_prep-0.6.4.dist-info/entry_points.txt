@@ -1,0 +1,4 @@
+[console_scripts]
+karaoke-finalise=utils.finalise_cli:main
+karaoke-prep=utils.prep_cli:main
+
