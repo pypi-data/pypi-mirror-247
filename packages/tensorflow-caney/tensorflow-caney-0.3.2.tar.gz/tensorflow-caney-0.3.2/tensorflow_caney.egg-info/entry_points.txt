@@ -1,0 +1,3 @@
+[console_scripts]
+cnn_regression_cli = tensorflow_caney.view.cnn_regression_cli:main
+cnn_segmentation_cli = tensorflow_caney.view.cnn_segmentation_cli:main
