@@ -1,0 +1,11 @@
+khmerocr_tools/__init__.py,sha256=hMVlFoBDXAzUotb_VBGwZU0EmSvxKBBjVOrHl6kYDbo,157
+khmerocr_tools/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+khmerocr_tools/src/idgenerator.py,sha256=nmhvU36AwZg8DqMdp1hYiFITSw745irLvGSEpPK3SKI,2066
+khmerocr_tools/src/utils.py,sha256=a5CY1XEk0Maki5VXbQCMFJl46Q1CuegrRqzFpAEAY2A,408
+khmerocr_tools/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+khmerocr_tools/test/test_idgenerator.py,sha256=_VJVCXYFi9GFRZJC-ebrJzmN9joaPDayLTVKagst9lY,1766
+khmerocr_tools-0.0.1.dist-info/LICENSE,sha256=KwF6q4vbd9feMPwRqsuaKHPgQMBhb7QzUfLDD9snKQ8,1067
+khmerocr_tools-0.0.1.dist-info/METADATA,sha256=PZ9E9qAqNqylIQymXYhD1qXg4HrJlChagmtApXLU1m8,1366
+khmerocr_tools-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+khmerocr_tools-0.0.1.dist-info/top_level.txt,sha256=f3zvkIZNa8Ia3_HSAZkfMESNdWmW3yuBIkGjjdyG0gc,15
+khmerocr_tools-0.0.1.dist-info/RECORD,,
