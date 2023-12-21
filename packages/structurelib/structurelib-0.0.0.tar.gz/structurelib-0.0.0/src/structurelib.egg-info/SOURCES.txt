@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/structurelib/__init__.py
+src/structurelib.egg-info/PKG-INFO
+src/structurelib.egg-info/SOURCES.txt
+src/structurelib.egg-info/dependency_links.txt
+src/structurelib.egg-info/top_level.txt
