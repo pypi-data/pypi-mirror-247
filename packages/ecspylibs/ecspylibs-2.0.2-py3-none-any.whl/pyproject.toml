@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+#
+# Do NOT edit this system file by hand -- use git.
+# See "URL to git source" below.
+#
+# Author:        $Id: Thomas R. Stevenson <aa0026@wayne.edu> $
+#
+# Last Changed:  $Date: Wed Dec 20 17:39:01 2023 -0500 $
+#
+# URL to git source: $URL: git@git.wayne.edu:ECS_Projects/ECSpylibs.git $
+#
+[tool.poetry]
+name = "ecspylibs"
+version = "v2.0.2"
+description = "Local python libraries used across multiple programs"
+authors = ["Thomas R. Stevenson <aa0026@wayne.edu>"]
+maintainers = ["Thomas R. Stevenson <aa0026@wayne.edu>"]
+readme = "README.md"
+packages = [{include = "ecspylibs", from = "src"}]
+license = "GPL-3.0-or-later"
+keywords = [
+  "configfile",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: Python Software Foundation License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: User Interfaces",
+]
+include = [
+	"ChangeLog",
+	"LICENSE.txt",
+	"README.md",
+	"pyproject.toml",
+]
+
+[tool.poetry.urls]
+"About Me" = "https://About.Me/Thomas.R.Stevenson"
+"License" = "https://git.wayne.edu/ECS_Projects/ECScmdb/-/blob/master/LICENSE.txt"
+
+[tool.poetry.scripts]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+autologging = "^1.3.2"
+lxml = "^4.9.4"
+pycryptodome = "^3.19.0"
+pyyaml = "^6.0.1"
+toml = "^0.10.2"
+xlrd = "^2.0.1"
+xmltodict = "^0.13.0"
+
+[tool.poetry.group.dev.dependencies]
+python = "^3.11"
+iniconfig = "^2.0.0"
+packaging = "^23.2"
+pluggy = "^1.3.0"
+pytest = "^7.4.3"
+setuptools = "^69.0.2"
+wheel = "^0.42.0"
+
+[tool.setuptools]
+include-package-data = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
