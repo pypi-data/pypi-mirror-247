@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+Shutter/Shutter.py
+Shutter/__init__.py
+Shutter_GSJiang66.egg-info/PKG-INFO
+Shutter_GSJiang66.egg-info/SOURCES.txt
+Shutter_GSJiang66.egg-info/dependency_links.txt
+Shutter_GSJiang66.egg-info/requires.txt
+Shutter_GSJiang66.egg-info/top_level.txt
