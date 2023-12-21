@@ -1,0 +1,43 @@
+@use "../library/rfs";
+
+// content blocks relations
+
+.xprez-module-margin-bottom-0 {
+	margin-bottom: 0;
+}
+
+.xprez-module-margin-bottom-1 {
+	@include rfs.margin-bottom(2rem);
+}
+
+.xprez-module-margin-bottom-2 {
+	@include rfs.margin-bottom(5rem);
+}
+
+.xprez-module-margin-bottom-3 {
+	@include rfs.margin-bottom(7.5rem);
+}
+
+.xprez-module-margin-bottom-4 {
+	@include rfs.margin-bottom(10rem);
+}
+
+.xprez-module-padding-y-0 {
+	padding: 0;
+}
+
+.xprez-module-padding-y-1 {
+	@include rfs.padding(2rem 0);
+}
+
+.xprez-module-padding-y-2 {
+	@include rfs.padding(5rem 0);
+}
+
+.xprez-module-padding-y-3 {
+	@include rfs.padding(7.5rem 0);
+}
+
+.xprez-module-padding-y-4 {
+	@include rfs.padding(10rem 0);
+}
