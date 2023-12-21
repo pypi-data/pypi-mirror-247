@@ -1,0 +1,4 @@
+[console_scripts]
+icloud = starters.icloud:main
+icloudpd = starters.icloudpd:main
+icloudpd_ex = starters.icloudpd_ex:main
