@@ -1,0 +1,13 @@
+globantapi/__init__.py,sha256=siOMTLTiGHAi1_iN_XzsUxmpkwFU6J_XFipX-iLEsGw,482
+globantapi/_decorators.py,sha256=4FaGCeOUFJXYGSaseHN5L2pDJHN6DfbRf1v5du86BRw,5046
+globantapi/_exceptions.py,sha256=URHh9XWK04NdZKZEPlAAyfRGoyr92Kx0VuwCP2WGgbE,2934
+globantapi/_proxy.py,sha256=oo0umUkxOravPb0v3_QgLLa_FPqSEUz3GByESO8AaFo,2318
+globantapi/apiClient.py,sha256=5VXJtFqUerblcYu5PwrM34tAxYKV2UT_MEU9UMl-TQM,5960
+globantapi/controller.py,sha256=hDXQuLyncUdbzdvNpidowcKoDvTHQpngEdhjKUP2qNI,1649
+globantapi/eventSource.py,sha256=q8ngXQ3I7jCsBNiTF8BhN3ipUVspo3rrKI5P6u6yCxs,916
+globantapi/repository.py,sha256=eiRX_LigHo57c_QxMgpO6E0nw8HaO3uuAksWShYc530,2624
+globantapi/typedef.py,sha256=QNpnadgEsl9qdryKNKuQDO7hjObuhIDGnHlZFfuvMmg,2175
+globantapi/utils.py,sha256=HlKkCBTxbnKkXZAMBNKJIiEdjvdD9uvp9mty1S7aOA8,986
+globantapi-0.0.7.dist-info/METADATA,sha256=VgUbLmpZLPL8WVT07O2Sy2bsgAZ_i3vIJnQeyA5EPvU,647
+globantapi-0.0.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+globantapi-0.0.7.dist-info/RECORD,,
