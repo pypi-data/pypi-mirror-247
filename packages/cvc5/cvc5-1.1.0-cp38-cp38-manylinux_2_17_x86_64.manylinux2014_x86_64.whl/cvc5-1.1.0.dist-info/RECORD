@@ -1,0 +1,15 @@
+cvc5-1.1.0.dist-info/WHEEL,sha256=zTDqV7OR0em6fvysya0bwC-51Mb7EQ0x5PBJySRF2iQ,148
+cvc5-1.1.0.dist-info/RECORD,,
+cvc5-1.1.0.dist-info/top_level.txt,sha256=N536uT-ZzWFv5DKP7Uw-wpdKqMoBEzg-GxURQaETKjA,5
+cvc5-1.1.0.dist-info/METADATA,sha256=tcQJpn_2V5dIfWvX7aRkTGyhrYxeDslNsg06UfJ3FYA,136
+cvc5.libs/libpoly-f3e2995f.so.0.1.13,sha256=YCUpcfxSvBKIuLwvlVNeOmJAz--hRmO381uCX1PgqO0,499753
+cvc5.libs/libpolyxx-5119d93a.so.0.1.13,sha256=0_qA-ODM0UDqZHbUiCa89u3wEed9tZzrEvI4rmiu1Yc,431801
+cvc5.libs/libcvc5-d21aa66c.so.1,sha256=fD4zb5VbcsMJRnHNd_HRGEwjVewqrE98IXha_I45rOs,27656049
+cvc5.libs/libcvc5parser-51262b8e.so.1,sha256=wEzNjTaLhyUpu8GYhevRV4n7kiL4g8SL4SmaKma2-yU,1173529
+cvc5.libs/libgmp-ab86e5a9.so.10.4.1,sha256=2qC8kPi2RBrAtrzYV9jkBHJ__H5dRK_dT5VnUOweazc,556729
+cvc5/cvc5_python_base.cpython-38-x86_64-linux-gnu.so,sha256=-SC2u91Ml3_WJJPF9mzek_g_RyLY4BuHK_1p6UX4WEA,1885545
+cvc5/__init__.py,sha256=KI276vMsNaixq4eBFeDdyyUUk4vIIxdPZVcuIq_NQnM,80
+cvc5/pythonic/LICENSE.txt,sha256=ahKvcE_YsjQHGnmN-8xBthetRHrWum1N1-gJNH_mOBE,1253
+cvc5/pythonic/cvc5_pythonic_printer.py,sha256=7o-8yHJKppH1JBkyX6zJjQ9P1WpA4QDkTTe5hCaONSc,41063
+cvc5/pythonic/__init__.py,sha256=xYBu7h3ijdCgB-GB30Cdp01E5cwlOFjgjjMREQ9cJSU,29
+cvc5/pythonic/cvc5_pythonic.py,sha256=O3lTp1uhzTZ4ERMHHNhm0KlK-5oxswH3SUwZMINzFeU,241543
