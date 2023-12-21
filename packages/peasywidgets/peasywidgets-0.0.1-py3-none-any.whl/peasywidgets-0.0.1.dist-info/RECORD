@@ -1,0 +1,11 @@
+peasywidgets/__about__.py,sha256=x0Ih7M_tQvkVL94ASV2w1iUHSu9jFSLR09olUQB2BKA,155
+peasywidgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peasywidgets/filter_widgets.py,sha256=NIKVzEr0FTKGlU0R3TorvRYHWtSkNz9EXYHiF2v34ig,1503
+peasywidgets/static/choice-filter.css,sha256=aTP0jMtzdJz5bTSkDhSmIkeektJXoh23e5KNwq6Cxig,2914
+peasywidgets/static/choice-filter.js,sha256=HMGtypHXqMnTHPPsP5KNZUYxTAQAW2EGDi8JdsVRWGE,8758
+peasywidgets/templates/choice_filter_multi.html,sha256=YRvdpx1ySTXnz0ajxTtA8e_4jZaZjLI9uHCNzy0X4f4,1762
+peasywidgets/templates/choice_filter_single.html,sha256=HRUgx35_3iwfi9SxOZWVdHAtxDzTfMcQ5HMpMcANZwA,862
+peasywidgets-0.0.1.dist-info/METADATA,sha256=cm-MlFskUKU6XGXskrJ1zhXRHe7kzOaLIIMECXx6qfY,1277
+peasywidgets-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+peasywidgets-0.0.1.dist-info/licenses/LICENSE.txt,sha256=gyMsY-XrTvL5wTinId5Gh_B7eJwbQRpAyGmgaCGe-Y8,1130
+peasywidgets-0.0.1.dist-info/RECORD,,
