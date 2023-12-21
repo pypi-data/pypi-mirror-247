@@ -1,0 +1,48 @@
+[project]
+name = "constellationPy"
+version = "0.2.8"
+description = "Client Python pour le réseau Constellation."
+authors = [
+    { name = "Julien Jean Malard-Adam", email = "julien.malard@mail.mcgill.ca" },
+]
+dependencies = [
+    "trio-websocket<1.0.0,>=0.11.0",
+    "pandas<3.0.0,>=2.0.3",
+    "trio<1.0.0,>=0.23.1",
+    "semantic-version<3.0.0,>=2.8.5",
+    "click<9.0.0,>=8.0.3",
+    "click-default-group<2.0.0,>=1.2.2",
+    "urllib3<3.0.0,>=2.0.4",
+    "appdirs<2.0.0,>=1.4.4",
+]
+requires-python = ">=3.10,<4.0"
+readme = "README.md"
+
+[project.license]
+text = "AGPL-3.0"
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "coverage<8.0.0,>=7.2.7",
+]
+test = [
+    "pytest>=7.4.3",
+    "pytest-trio>=0.8.0",
+    "coverage>=7.3.3",
+]
+
+[tool.pdm.scripts]
+test = "pdm run pytest"
+cov = "pdm run coverage run -m pytest"
+
+[tool.pdm.build]
+includes = []
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
