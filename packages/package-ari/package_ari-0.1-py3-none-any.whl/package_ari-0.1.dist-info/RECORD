@@ -1,0 +1,6 @@
+package_ari/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_ari/package_ari.py,sha256=hqBZ58rrWEPbYTG4Gt6GuKWkgi1Sti2QGLCMYlCmb3E,65
+package_ari-0.1.dist-info/METADATA,sha256=BriCK1bvoAGR9tcGOqjwwLNyQhWLgBm8B0MRbobGUzU,173
+package_ari-0.1.dist-info/RECORD,,
+package_ari-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+package_ari-0.1.dist-info/top_level.txt,sha256=1BP0NseHyHh6BLQpkBDefkf2f4i0eo9XMAVc93t0sk0,12
