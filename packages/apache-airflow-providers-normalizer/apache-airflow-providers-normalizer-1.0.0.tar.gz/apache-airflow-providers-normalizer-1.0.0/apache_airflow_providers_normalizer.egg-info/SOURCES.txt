@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+airflow/providers/normalizer/__init__.py
+airflow/providers/normalizer/operators/__init__.py
+airflow/providers/normalizer/operators/normalizer.py
+airflow/providers/normalizer/operators/queries.py
+airflow/providers/normalizer/operators/utils.py
+apache_airflow_providers_normalizer.egg-info/PKG-INFO
+apache_airflow_providers_normalizer.egg-info/SOURCES.txt
+apache_airflow_providers_normalizer.egg-info/dependency_links.txt
+apache_airflow_providers_normalizer.egg-info/requires.txt
+apache_airflow_providers_normalizer.egg-info/top_level.txt
