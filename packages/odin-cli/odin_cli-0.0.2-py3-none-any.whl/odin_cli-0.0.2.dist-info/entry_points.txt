@@ -1,0 +1,2 @@
+[console_scripts]
+odin-ask = src.odin-cli.ask:main
