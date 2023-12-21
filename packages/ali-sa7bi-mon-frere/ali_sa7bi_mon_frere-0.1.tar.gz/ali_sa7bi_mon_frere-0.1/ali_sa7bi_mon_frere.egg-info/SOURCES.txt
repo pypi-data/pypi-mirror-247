@@ -1,0 +1,8 @@
+setup.py
+ali_sa7bi_mon_frere.egg-info/PKG-INFO
+ali_sa7bi_mon_frere.egg-info/SOURCES.txt
+ali_sa7bi_mon_frere.egg-info/dependency_links.txt
+ali_sa7bi_mon_frere.egg-info/top_level.txt
+math_operations/__init__.py
+math_operations/addition.py
+math_operations/subtraction.py
