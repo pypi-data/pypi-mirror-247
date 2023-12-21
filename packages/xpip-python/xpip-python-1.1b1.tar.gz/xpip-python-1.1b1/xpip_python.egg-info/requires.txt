@@ -1,0 +1,9 @@
+argcomplete
+pip
+toml
+ping3
+tabulate
+setuptools
+twine
+keyring
+keyrings.alt
