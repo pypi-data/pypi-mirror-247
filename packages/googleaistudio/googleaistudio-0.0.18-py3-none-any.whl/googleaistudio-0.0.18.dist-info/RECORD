@@ -1,0 +1,14 @@
+googleaistudio/README.md,sha256=8Y9Aa3VjAwYFEDtNvAFmoJZSw-WIYMH-dm1IGgM33ng,2547
+googleaistudio/codey.py,sha256=st9tUVSyLSACrY5Nb6ObQIU93xyss2Izt0BMG9ForWw,6257
+googleaistudio/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googleaistudio/geminipro.py,sha256=nvRUX59i6dWyUO16paC8xA5iBiGi61aTMNJ6yZr324U,20553
+googleaistudio/geminiprovision.py,sha256=nvRUX59i6dWyUO16paC8xA5iBiGi61aTMNJ6yZr324U,20553
+googleaistudio/health_check.py,sha256=9UCVaF7S8HmmfpJvD42vrs4CCHhscFiUitC_hS6Bmu8,11869
+googleaistudio/palm2.py,sha256=6iamAmxWDvhYt8LOznh_G4ya1oB8rw1ZwoGUAxJGEMk,6695
+googleaistudio/requirements.txt,sha256=DWhrXAumSdu15-oUyB6dPQ-eiHnjKgdxQjtEcnxCesg,82
+googleaistudio/utils/prompt_shared_key_bindings.py,sha256=U5SorXSnbkdJendz0NxK4wUGd-O03KDIO91X9Scg8Ro,7771
+googleaistudio-0.0.18.dist-info/METADATA,sha256=i6vVHFF7051PrkD-f7VD5KcyD1F90yDQKoI2QjdNTlk,3972
+googleaistudio-0.0.18.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+googleaistudio-0.0.18.dist-info/entry_points.txt,sha256=ZnF0-o08F1SI4wqZvWlIKW-zDQCKq0_c-Q4PEFdXcbo,183
+googleaistudio-0.0.18.dist-info/top_level.txt,sha256=zIWOieUGYDr6_xq2bMZUOZ0gMSd91x_flTSG6MjbHqE,15
+googleaistudio-0.0.18.dist-info/RECORD,,
