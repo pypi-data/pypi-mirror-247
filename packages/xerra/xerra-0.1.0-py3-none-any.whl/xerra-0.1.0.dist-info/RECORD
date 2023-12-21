@@ -1,0 +1,7 @@
+xerra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xerra/cli.py,sha256=2bzrQn9DtuOpNZH4vpPnIEpn42WJP5ZHD_0dUQ7IN6U,1404
+xerra/importer.py,sha256=BpKx0XGO-GVp4TxNL9trfi3qJVMqqfpC2as8Z8yfrWo,4273
+xerra-0.1.0.dist-info/METADATA,sha256=iWQF8hkZlltZmf8dffn0Fiagb3lDTWoA58o-3Ga4IBo,547
+xerra-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+xerra-0.1.0.dist-info/entry_points.txt,sha256=0d6UkwNqBn-z4goXdkKKrYOUAXxM12x2lhZIgpIa9q8,40
+xerra-0.1.0.dist-info/RECORD,,
