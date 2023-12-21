@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: action_sdk_for_cache_mock
+Version: 3.3
+Summary: sdk used for honeyguide app
+Home-page: UNKNOWN
+Author: flagify
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
