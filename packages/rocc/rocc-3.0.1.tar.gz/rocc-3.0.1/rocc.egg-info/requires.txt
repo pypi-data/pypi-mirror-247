@@ -1,0 +1,1 @@
+htimeseries<7,>=4
