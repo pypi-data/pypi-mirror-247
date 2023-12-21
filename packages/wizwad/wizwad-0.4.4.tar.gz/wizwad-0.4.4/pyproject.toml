@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "wizwad"
+version = "0.4.4"
+description = ""
+authors = ["StarrFox <starrfox6312@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/StarrFox/wizwad"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+more-itertools = "^10.1.0"
+
+[tool.poetry.scripts]
+wizwad = "wizwad.__main__:main"
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+mypy = "^1.7.1"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportUnusedFunction = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
