@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: save-tabs
+Version: 0.0.1
+Summary: Creates double-click shortcuts for currently open Google Chrome windows/ tabs
+Project-URL: Homepage, https://github.com/pilgrimtabby/save-tabs
+Project-URL: Issues, https://github.com/pilgrimtabby/save-tabs/issues
+Author-email: pilgrim_tabby <pilgrimtabby@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: chime
+Requires-Dist: pyautogui>=0.9.53; platform_system == 'Windows'
+Requires-Dist: pyperclip>=1.0.9; platform_system == 'Windows'
+Requires-Dist: win32ui; platform_system == 'Windows'
+Description-Content-Type: text/markdown
+
+# save-tabs
+
+## Overview
+
+
+## Usage
+
+
+## Installation
+
+The easiest way to install this program is using pip.
+
+### Windows
+
+In the console, type `py -m pip install save-tabs`
+
+### macOS
+
+In the console, type `python3 -m pip install save-tabs`
+
+### Linux
+
+This program is untested on Linux but I believe it should work.
