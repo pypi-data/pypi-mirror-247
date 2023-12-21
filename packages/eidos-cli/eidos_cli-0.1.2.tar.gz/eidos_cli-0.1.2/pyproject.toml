@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "eidos-cli"
+version = "0.1.2"
+description = ""
+authors = ["Luke Lalor <lukehlalor@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+eidos-client = "eidos_cli.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.7.0"
+httpx = "^0.25.2"
+cmd2 = "^2.4.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.7"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 121
