@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+chzzk/__init__.py
+chzzk/client.py
+chzzk/errors.py
+chzzk/types.py
+chzzk/models/__init__.py
+python_chzzk.egg-info/PKG-INFO
+python_chzzk.egg-info/SOURCES.txt
+python_chzzk.egg-info/dependency_links.txt
+python_chzzk.egg-info/requires.txt
+python_chzzk.egg-info/top_level.txt

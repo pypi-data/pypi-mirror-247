@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: python-chzzk
+Version: 0.0.1
+Summary: Unofficial Python library for CHZZK
+Home-page: https://github.com/jonghwanhyeon/python-chzzk
+Author: Jonghwan Hyeon
+Author-email: jonghwanhyeon93@gmail.com
+License: MIT
+Keywords: chzzk
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: pydantic
+
+# python-chzzk
+An unofficial Python library for CHZZK
+
+## Requirements
+- Python 3.7+
+
+## Installation
+```python
+pip install chzzk
+```
+
+## Usage
+```python
+import asyncio
+
+from chzzk import Chzzk
+from chzzk.client import Credential
+
+
+async def main():
+    chzzk = Chzzk(
+        Credential(
+            nid_auth="Your NID_AUT",
+            nid_session="Your NID_SES",
+        )
+    )
+
+    print(await chzzk.me())
+    print(await chzzk.channel("bb382c2c0cc9fa7c86ab3b037fb5799c"))
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
