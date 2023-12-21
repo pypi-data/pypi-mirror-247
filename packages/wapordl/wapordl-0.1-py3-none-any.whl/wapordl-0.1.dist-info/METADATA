@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: wapordl
+Version: 0.1
+Requires-Python: >=3.7
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: gdal
+
