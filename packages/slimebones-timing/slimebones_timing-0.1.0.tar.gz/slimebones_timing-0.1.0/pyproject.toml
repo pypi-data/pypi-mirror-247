@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "slimebones.timing"
+version = "0.1.0"
+description = ""
+authors = ["ryzhovalex <thed4rkof@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "timing"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydub = "^0.25.1"
+simpleaudio = "^1.0.4"
+
+[tool.poetry.scripts]
+timing = "timing.main:main"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+coverage = "^7.3.3"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

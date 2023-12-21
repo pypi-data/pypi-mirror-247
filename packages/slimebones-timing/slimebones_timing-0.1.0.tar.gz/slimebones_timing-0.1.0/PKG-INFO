@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: slimebones-timing
+Version: 0.1.0
+Summary: 
+Author: ryzhovalex
+Author-email: thed4rkof@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydub (>=0.25.1,<0.26.0)
+Requires-Dist: simpleaudio (>=1.0.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+# 🕑 Timing
+
+Track your time.
+
