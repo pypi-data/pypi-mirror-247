@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: q9
+Version: 2.2.5
+Summary: noodle contest
+Author: luyendd
+Author-email: tudu8603@gmail.com
+Requires-Dist: opencv-python
+
