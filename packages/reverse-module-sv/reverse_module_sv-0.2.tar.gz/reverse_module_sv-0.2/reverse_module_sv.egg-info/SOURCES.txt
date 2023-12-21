@@ -1,0 +1,9 @@
+setup.py
+reverse_module_sv/__init__.py
+reverse_module_sv/reverser.py
+reverse_module_sv/test.py
+reverse_module_sv.egg-info/PKG-INFO
+reverse_module_sv.egg-info/SOURCES.txt
+reverse_module_sv.egg-info/dependency_links.txt
+reverse_module_sv.egg-info/not-zip-safe
+reverse_module_sv.egg-info/top_level.txt
