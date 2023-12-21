@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tripleyoung/__init__.py
+tripleyoung/my_module.py
+tripleyoung.egg-info/PKG-INFO
+tripleyoung.egg-info/SOURCES.txt
+tripleyoung.egg-info/dependency_links.txt
+tripleyoung.egg-info/top_level.txt
