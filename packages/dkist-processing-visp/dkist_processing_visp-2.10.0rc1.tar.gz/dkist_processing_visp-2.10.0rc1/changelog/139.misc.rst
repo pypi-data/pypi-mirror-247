@@ -1,0 +1,1 @@
+Adding manual processing worker capabilities via dkist-processing-common update.
