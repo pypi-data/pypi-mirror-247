@@ -1,0 +1,3 @@
+[console_scripts]
+schickit index = schickit.index:main
+schickit run = schickit.run:main
