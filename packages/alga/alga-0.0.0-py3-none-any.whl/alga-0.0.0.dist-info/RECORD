@@ -1,0 +1,16 @@
+alga/__init__.py,sha256=343lBpIw3zyOaT5_F_gPaVbIPjUybN8Ot353LpRFcbY,546
+alga/__main__.py,sha256=6fbEUQPsAjQiBkylO9nUZdqXpT75SvaX0vLoQc2tlow,29
+alga/cli_app.py,sha256=CFzv0L9Dt8c9CGJm1j8YV54FcJzw02f0ujzQXXziEpY,1023
+alga/cli_channel.py,sha256=SEbRrGn2GgJz0GDJ7GnXcYk4DW6ZOislKC08_EhUHKc,1334
+alga/cli_input.py,sha256=pQkmpraAtmdHGNZx9_B7n7UnwE8maWA5hwMD7741S1U,640
+alga/cli_media.py,sha256=Hf4ZX1DDreGjlwKOmhmtasJ1EBEup_5ocElyRigXaIc,531
+alga/cli_power.py,sha256=vXaCA12D3okbJE4MoYzmQlvx-AyR60eAWdbGH57SDGg,160
+alga/cli_sound_output.py,sha256=iamuULp5Q0BgISLxwWSa40CfAThRrsKMSyEN71W6LP4,368
+alga/cli_volume.py,sha256=Qj4lqHXccfvbEptifzvhBD5bjvKSZcfu-ylMMYdTrls,780
+alga/client.py,sha256=WS4gQLD0q_-QsFulFyH7ajfinPp56b1rPLhzExOpyHc,1360
+alga/payloads.py,sha256=RhN2dXK2TCwtK4BkYbu8n-NLV9HvRntknUwOQnYk02E,4597
+alga-0.0.0.dist-info/LICENSE,sha256=cb2WhJ8WhTiX1f0C-7hVdlwE3YGfURFn0ahG8-f5TeA,1075
+alga-0.0.0.dist-info/METADATA,sha256=eMlFNkND7EszXZlX1lWxldDZjf3ul7rxYkpTjrA1IGw,1360
+alga-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+alga-0.0.0.dist-info/entry_points.txt,sha256=Xe1Atbm88abaYr_2CHDgtdLr8_mNkWbw3OgaW_lc9Vs,33
+alga-0.0.0.dist-info/RECORD,,
