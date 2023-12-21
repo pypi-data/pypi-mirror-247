@@ -1,0 +1,10 @@
+xlrd==1.2.0
+numpy
+tqdm
+python-docx
+configparser
+jieba
+matplotlib
+wordcloud
+pywin32
+xlsxwriter==3.0.1
