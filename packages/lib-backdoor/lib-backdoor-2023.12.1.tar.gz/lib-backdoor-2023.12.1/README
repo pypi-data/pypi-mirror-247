@@ -1,0 +1,8 @@
+Lib Backdoor
+============
+
+Backdoor Attack / Defense Toolkit
+
+``
+pip install -v -e .
+``
