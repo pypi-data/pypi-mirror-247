@@ -1,0 +1,2 @@
+pyfsdb>=2.3.4
+textual>=0.32.0
