@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+BasicCalculatorLinasPelVersion.egg-info/PKG-INFO
+BasicCalculatorLinasPelVersion.egg-info/SOURCES.txt
+BasicCalculatorLinasPelVersion.egg-info/dependency_links.txt
+BasicCalculatorLinasPelVersion.egg-info/top_level.txt
+Calculator/Calculator.py
+Calculator/__init__.py
+test/Test.py
