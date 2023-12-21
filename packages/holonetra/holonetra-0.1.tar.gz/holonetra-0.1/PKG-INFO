@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: holonetra
+Version: 0.1
+Summary: A Python library for spatial operations
+Home-page: https://github.com/akhilchibber
+Author: Akhil Chhibber
+Author-email: akhil.chibber@gmail.com
+License: UNKNOWN
+Keywords: GIS geopandas buffer shapefile
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
