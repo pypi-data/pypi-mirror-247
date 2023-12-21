@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kuantsol_transformation
+Version: 0.0.3
+Summary: Kuantsol Transformation Package
+Author: Barış Coşkun
+Author-email: <baris.coskun@kuantsol.ai>
+Keywords: python,kuantsol_transformation
+Classifier: Programming Language :: Python :: 3
+
+Kuantsol Transformation Package
