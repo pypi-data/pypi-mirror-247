@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/cicdpackpkg.egg-info/PKG-INFO
+src/cicdpackpkg.egg-info/SOURCES.txt
+src/cicdpackpkg.egg-info/dependency_links.txt
+src/cicdpackpkg.egg-info/top_level.txt
