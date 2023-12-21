@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+eggtart/__init__.py
+eggtart/eggtart.py
+eggtart.egg-info/PKG-INFO
+eggtart.egg-info/SOURCES.txt
+eggtart.egg-info/dependency_links.txt
+eggtart.egg-info/requires.txt
+eggtart.egg-info/top_level.txt
