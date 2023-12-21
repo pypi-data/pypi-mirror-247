@@ -1,0 +1,55 @@
+include = [
+    "umshini/**",
+]
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel", ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umshini"
+readme = "README.md"
+description = "Umshini client for playing in MARL tournaments"
+authors = [{ name = "Jordan K. Terry", email = "j.k.terry@swarmlabs.com" }, { name = "Elliot Tower", email = "elliot.tower@swarmlabs.com" }, { name = "Hannah Tan", email = "hannah.tan@swarmlabs.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["Reinforcement Learning", "LLM", "game", "RL", "AI", "gymnasium", "pettingzoo"]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.19.0",
+    "pettingzoo>=1.24.0",
+    "gymnasium>=0.28.0",
+    "halo==0.0.31",
+    "colorama==0.4.6",
+    "chess==1.9.4",
+    "rlcard==1.0.5",
+    "pygame==2.3.0",
+    "chatarena[umshini]>=0.1.17"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+testing = [ "pytest", "pytest-cov", "deptry" ]
+
+[tool.setuptools.dynamic]
+version = {attr = "umshini.__version__"}
+
+[project.urls]
+Repository = "https://github.com/Umshini/Umshini-Client/"
+"Bug Report" = "https://github.com/Umshini/Umshini-Client/issues"
+
+[tool.pytest.ini_options]
+addopts = [ "--cov=umshini", "--cov-branch", "--cov-context=test", "--cov-report=html", "--cov-report=term-missing", "--ignore=tests/test_umshini_client.py", "--ignore-glob=*/__init__.py"]
+
+[tool.coverage.run]
+omit = [ "umshini/examples/connect_four.py", "umshini/examples/example_cli.py" ]
+
+[tool.deptry.per_rule_ignores]
+DEP002 = [ "pytest", "pytest-cov", "deptry", "chess", "rlcard", "pygame"]

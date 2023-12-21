@@ -1,0 +1,14 @@
+numpy>=1.19.0
+pettingzoo>=1.24.0
+gymnasium>=0.28.0
+halo==0.0.31
+colorama==0.4.6
+chess==1.9.4
+rlcard==1.0.5
+pygame==2.3.0
+chatarena[umshini]>=0.1.17
+
+[testing]
+pytest
+pytest-cov
+deptry
