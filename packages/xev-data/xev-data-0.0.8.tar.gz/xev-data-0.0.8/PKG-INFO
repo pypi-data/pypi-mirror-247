@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xev-data
+Version: 0.0.8
+Home-page: https://gitlab.com/xevra/xev-data
+Author: Vera Delfavero
+Author-email: xevra86@gmail.com
+Maintainer: Vera Delfavero
+Maintainer-email: xevra86@gmail.com
+License: MIT Lisence
+Keywords: hdf5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >3.6
+Requires-Dist: numpy>=1.16
+Requires-Dist: h5py>=2.10.0
+
+
+Vera Del Favero
