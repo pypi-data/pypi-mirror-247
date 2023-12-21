@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sunbeam
+Version: 0.2.3
+Summary: Sunbeam Types
+Author-email: Achille Lacoin <achille.lacoin@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: black ; extra == "dev"
+Project-URL: Home, https://sunbeam.sh
+Provides-Extra: dev
+
+# Sunbeam Types
+
