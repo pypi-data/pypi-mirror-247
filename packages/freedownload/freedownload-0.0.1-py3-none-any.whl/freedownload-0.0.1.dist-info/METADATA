@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: freedownload
+Version: 0.0.1
+Summary: Librería para leer ficheros PDFs y extraer la información en formato str
+Home-page: https://github.com/hiyabo69
+Author: Jose Palacios
+Author-email: josepalaciosgiraldo91@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pymupdf
+
