@@ -1,0 +1,16 @@
+jupyterlab_keycloak_opener/__init__.py,sha256=xTCiIzFqZDjN2qwpqhlq7_0L7KhIZGMqQTfRYi58mbw,168
+jupyterlab_keycloak_opener/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/build_log.json,sha256=6p68sn5Z9EP42nydgJDXu770OXVZvkCQdQ64I2vlC6k,20718
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/package.json,sha256=2UvOYsDkOl4c18U9kML-NEPLnd27rjrStrqylyemIxs,5372
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/lib_index_js.6370cbd13d8583f2fd1c.js,sha256=yWJUeuAHUTEow8-4RhJV_VZqNJr7U4XhBbL3BhUTZNg,3300
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/lib_index_js.6370cbd13d8583f2fd1c.js.map,sha256=dILxZV3wJXryK9kLUASmliB6lJzKeGDyVNHUT45iVYw,2953
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/remoteEntry.2a88f5678ca86aa960f8.js,sha256=u0bQMnv8JuchhqatDh2diWqsaMDrSfsK3GIcPMwXsIE,27948
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/remoteEntry.2a88f5678ca86aa960f8.js.map,sha256=kTo9BbYaW312CFxd-91SSr2K3VEcXCbcXW8Qb8vSB_E,26843
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/style.js,sha256=qf1MJK7Z4yQeNXPBXwurUFK9DD5cnPHE9RudqQ_1D14,169
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/style_index_js.0b0afc7db13fef69a2ad.js,sha256=7q1kCk6JAaPDZ2I_VdkfeYw4BYbCN0ljxlAAPHIYUrg,19369
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/static/style_index_js.0b0afc7db13fef69a2ad.js.map,sha256=PVCY_yFHpXNhCk_fOXOsolfph29frhQtogy9wOXywJY,14857
+jupyterlab_keycloak_opener-0.1.0.data/data/share/jupyter/labextensions/jupyterlab-keycloak-opener/install.json,sha256=ZOV4czpqkElFBHQkIkTgUfW4Im36dJv1RGLWudniiTw,213
+jupyterlab_keycloak_opener-0.1.0.dist-info/METADATA,sha256=smuy6ft8zlGKis20CNx-MosluSsTIGfOXbGGRkt3zFs,5479
+jupyterlab_keycloak_opener-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+jupyterlab_keycloak_opener-0.1.0.dist-info/licenses/LICENSE,sha256=nzcuySdJDCNYNWNtRy6xxaTWj2Y40GScqQWTSJNVPhk,1520
+jupyterlab_keycloak_opener-0.1.0.dist-info/RECORD,,
