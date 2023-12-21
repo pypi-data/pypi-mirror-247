@@ -1,0 +1,2 @@
+[console_scripts]
+ost = ost_cli.main:main
