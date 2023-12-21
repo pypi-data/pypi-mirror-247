@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+streamlit_charts/__init__.py
+streamlit_charts.egg-info/PKG-INFO
+streamlit_charts.egg-info/SOURCES.txt
+streamlit_charts.egg-info/dependency_links.txt
+streamlit_charts.egg-info/requires.txt
+streamlit_charts.egg-info/top_level.txt
+tests/test_meta.py
