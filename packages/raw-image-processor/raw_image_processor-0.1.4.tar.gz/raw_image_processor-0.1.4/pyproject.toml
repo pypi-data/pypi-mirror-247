@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "raw-image-processor"
+version = "0.1.4"
+description = "A tool for processing raw binary image data."
+authors = ["Nizan Hellman <nizan.hell@gmail.com>"]
+packages = [{include = "raw_image_processor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.1.0"
+numpy = "^1.26.2"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[tool.poetry.scripts]
+convert-images = "raw_image_processor.convert_images:raw_image_processor_wrapper"
