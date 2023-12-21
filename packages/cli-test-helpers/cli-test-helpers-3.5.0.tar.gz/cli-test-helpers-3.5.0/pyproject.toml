@@ -1,0 +1,32 @@
+[tool.coverage.run]
+source = ["cli_test_helpers"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.pytest.ini_options]
+addopts = "--color=yes --doctest-modules --ignore examples/ --junitxml=tests/junit-report.xml --verbose"
+
+[tool.ruff]
+extend-exclude = ["docs/conf.py", "examples", "setup.py"]
+extend-include = []
+
+[tool.ruff.lint]
+extend-select = ["ALL"]
+extend-ignore = [
+    "ANN",
+    "D200",
+    "D205",
+    "D212",
+    "Q000",
+    "PERF203",  # Python < 3.4 (`contextlib.suppress`)
+    "SIM105",  # Python 2.7 only
+    "UP008",  # Python 2.7 only (`super()` call)
+    "UP022",  # Python 2.7 only (`stderr=PIPE`)
+    "UP026",  # Python 2.7 only (`mock` module)
+    "UP036",  # Python < 3.7 only
+]
+
+[tool.ruff.lint.per-file-ignores]
+"cli_test_helpers/commands.py" = ["COM812", "S602"]
+"tests/*.py" = ["D400", "INP001", "S101"]
