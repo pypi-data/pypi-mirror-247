@@ -1,0 +1,4 @@
+click
+altair
+requests
+kachery_cloud>=0.2.11
