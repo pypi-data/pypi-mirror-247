@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Shutter-GSJiang66
+Version: 0.0.4
+Summary: A simple realization of optical shutter
+Author: GSJiang66
+Author-email: GSJiang66@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: serial >=0.0.97
+
+# Shutter pacakge
+This is a simple realization of optical shutter, which is purchased from TaoBao
+Here mainly including 5 methods: setOpenMode, setControlMode, setOn, setOff and setWindowOpen
+While the most used is the methods: setOn and setOff
+## setOn
+## setOff
