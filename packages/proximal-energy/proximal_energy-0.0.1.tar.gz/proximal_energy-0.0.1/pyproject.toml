@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proximal-energy"
+version = "0.0.1"
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
