@@ -1,0 +1,9 @@
+matplotlib
+numpy
+scipy
+
+[background_image]
+pillow
+
+[background_map]
+cartopy
