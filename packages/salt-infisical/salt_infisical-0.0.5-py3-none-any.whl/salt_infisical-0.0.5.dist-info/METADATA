@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: salt-infisical
+Version: 0.0.5
+Project-URL: Documentation, https://github.com/unknown/salt-infisical#readme
+Project-URL: Issues, https://github.com/unknown/salt-infisical/issues
+Project-URL: Source, https://github.com/unknown/salt-infisical
+Author-email: Jonathan Treffler <mail@jonathan-treffler.de>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: infisical
+Description-Content-Type: text/markdown
+
+# salt-infisical
+
+[![PyPI - Version](https://img.shields.io/pypi/v/salt-infisical.svg)](https://pypi.org/project/salt-infisical)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/salt-infisical.svg)](https://pypi.org/project/salt-infisical)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install salt-infisical
+```
+
+## License
+
+`salt-infisical` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
