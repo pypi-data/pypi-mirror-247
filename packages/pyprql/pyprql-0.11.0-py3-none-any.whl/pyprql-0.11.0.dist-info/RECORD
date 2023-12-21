@@ -1,0 +1,17 @@
+pyprql/__init__.py,sha256=PSgBn3InjENBEoxRDeXB4saS5O3Zmdq1EXxFbBWsuHE,140
+pyprql/magic/README.md,sha256=KIRU9_NQPNfaT_BX0EeMwnL6E2zOxTPufIN59_vEQbM,6502
+pyprql/magic/__init__.py,sha256=0x6DrREj5iJ5VMwRCwi5ImmQIwRHUdzmzSUfly-fdaI,689
+pyprql/magic/prql.py,sha256=BnSpJM5L26oMUKACmYpc2R1of95xPi7qi0N5lul4yHs,4440
+pyprql/pandas_accessor/__init__.py,sha256=O98Wc86ysHQqHavIvIcSJyYu90H6mTEovGzjcVvG0-o,246
+pyprql/pandas_accessor/prql.py,sha256=IoIJQ1B98-L5WdFUcEmQTgf5TfmBwZ5qTH7vENJVDtw,878
+pyprql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprql/tests/__init__.py,sha256=9r8lEcF05C7IHJkJkEdXZrI-cNkBBTGTzYRDUam44FY,645
+pyprql/tests/_regtest_outputs/test_magic.test_memory_db.out,sha256=KUSErrXIrXMSe8NgphDZN6Lys_79VTcvv00BUlR0K1o,30
+pyprql/tests/_regtest_outputs/test_magic.test_pass_existing_engine.out,sha256=kLnj5DKz85L4LNuV_TZoliWs80J6yDv6EmSElQVEamE,33
+pyprql/tests/conftest.py,sha256=pc_ZYAWKsyyR-YENvCYjZ0ZJiGQGjfUc4N1MAw_2ayE,5354
+pyprql/tests/test_magic.py,sha256=YqszX1bsv4DKzjemf9Nl21iOTb_fZ3dgtlOJSqzYzv4,13078
+pyprql/tests/test_prql_python.py,sha256=VVSYVjasNz_6rgIlF_dHVzHq8bg9Ie_YTdYn-ETw8kY,3045
+pyprql-0.11.0.dist-info/LICENSE,sha256=q-PmUORWVd1nBjikQcVZbbWc8OClnW5jZKW7RDPp0G0,10284
+pyprql-0.11.0.dist-info/METADATA,sha256=N9Rpf2JQU_Qa_9znOWsinRAQ-JX5Sy9h95rKE1ModuU,3253
+pyprql-0.11.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyprql-0.11.0.dist-info/RECORD,,
