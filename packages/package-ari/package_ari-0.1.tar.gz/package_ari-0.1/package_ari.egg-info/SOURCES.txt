@@ -1,0 +1,7 @@
+setup.py
+package_ari/__init__.py
+package_ari/package_ari.py
+package_ari.egg-info/PKG-INFO
+package_ari.egg-info/SOURCES.txt
+package_ari.egg-info/dependency_links.txt
+package_ari.egg-info/top_level.txt
