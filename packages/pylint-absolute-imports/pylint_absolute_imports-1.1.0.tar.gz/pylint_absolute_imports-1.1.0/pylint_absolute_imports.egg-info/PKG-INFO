@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pylint-absolute-imports
+Version: 1.1.0
+Summary: Pylint plugin which adds linter error for relatives imports.Read more about imports at https://peps.python.org/pep-0008/#imports
+Home-page: https://github.com/quentinn42/pylint_absolute_imports
+Author: Quentin Lieumont
+Author-email: quentin@lieumont.fr
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pylint<4,>=2.5.0
+
+# Pylint force absolute imports plugin
+
+## What for?
+
+Following [PEP8 recommendation about imports](https://peps.python.org/pep-0008/#imports), `import` statements should be absolute :
+
+> Standard library code should avoid complex package layouts and always use absolute imports.
+
+```python
+# project/
+# |---- __init__.py
+# |---- employee.py
+
+from .employee import Employee  # <- BAD
+from project.employee import Employee  # <- Good
+```
+
+## Installation
+
+```bash
+pip install pylint_absolute_imports
+```
+
+## Usage
+
+In `pylint.rc`:
+
+```toml
+[MASTER]
+load-plugins=pylint_absolute_imports
+```
+
+Or, in terminal:
+
+```bash
+pylint --load-plugins pylint_absolute_imports foo.py
+```

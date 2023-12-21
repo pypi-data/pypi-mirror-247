@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pylint_absolute_imports/__init__.py
+pylint_absolute_imports/checker.py
+pylint_absolute_imports.egg-info/PKG-INFO
+pylint_absolute_imports.egg-info/SOURCES.txt
+pylint_absolute_imports.egg-info/dependency_links.txt
+pylint_absolute_imports.egg-info/requires.txt
+pylint_absolute_imports.egg-info/top_level.txt
