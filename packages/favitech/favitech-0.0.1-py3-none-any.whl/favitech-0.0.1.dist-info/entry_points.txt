@@ -1,0 +1,2 @@
+[console_scripts]
+favitech = favitech.__main__:main
