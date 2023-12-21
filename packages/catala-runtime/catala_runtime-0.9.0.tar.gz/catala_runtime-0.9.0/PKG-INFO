@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: catala-runtime
+Version: 0.9.0
+Summary: Runtime libraries needed to execute Catala programs compiled to Python
+Project-URL: Homepage, https://github.com/CatalaLang/catala/
+Project-URL: Bug Tracker, https://github.com/CatalaLang/catala/issues
+Requires-Dist: autopep8
+Requires-Dist: gmpy2
+Requires-Dist: mypy
+Requires-Dist: python-dateutil
+Requires-Dist: termcolor
+Requires-Dist: typer[all]
+Requires-Dist: types-python-dateutil
+Requires-Dist: types-termcolor
+Requires-Dist: typing
+Requires-Dist: typing-extensions
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
