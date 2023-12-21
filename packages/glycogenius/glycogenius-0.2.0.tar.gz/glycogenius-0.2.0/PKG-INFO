@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: glycogenius
+Version: 0.2.0
+Summary: GlycoGenius is an all-in-one solution for data analysis of glycomics data.
+Author: Hector Franco Loponte
+Author-email: hectorfloponte@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: pyteomics
+Requires-Dist: dill
+Requires-Dist: numpy
