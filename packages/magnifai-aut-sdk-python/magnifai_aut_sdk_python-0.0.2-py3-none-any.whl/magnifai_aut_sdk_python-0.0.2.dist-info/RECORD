@@ -1,0 +1,8 @@
+sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdk/aut_auth.py,sha256=qQjyYqE2WtARlyymzaWrBphF5bUb_Hy3k_TqtZgbX-8,3329
+sdk/aut_properties.py,sha256=MIDl3hgDk3kukoUMaW7Rcx8ODSLITDJHdGDZpgucK50,2925
+sdk/magnifai.py,sha256=4grrb7OnX4ImKFSZMQZHw4d3J6TLkzAs10Q7AcL_G8Q,18105
+magnifai_aut_sdk_python-0.0.2.dist-info/METADATA,sha256=h90suR3AUawghhQyGjhIcWdAxFIgIJRSyow9I19rYS8,603
+magnifai_aut_sdk_python-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+magnifai_aut_sdk_python-0.0.2.dist-info/top_level.txt,sha256=JuXS55gRP3EzGKmJgbLfVfUolO3cM_u69k3qvutnBuw,4
+magnifai_aut_sdk_python-0.0.2.dist-info/RECORD,,
