@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: SPRINT_imputations
+Version: 0.0.3
+Summary:  Using SPRINT we do the impuatation
+Author-email: Shubham Sharma <s50.sharma@qut.edu.au>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: termcolor
+
+# SPRINT
+
+Using SPRINT we do the the imputation. So, when a dataset having absenceny (or NaN), is processed by this algorithm we can get a complete dataset. 
+
+
+# Installation
+
+You can install the package using below command 
+
+
+```bash
+pip install SPRINT-imputations
+
+```
+
+# Usage 
+
+## First import the package 
+
+```{python}
+import SPRINT_imputation
+```
+## Call the function 'SPRINT'
+
+```{python}
+SPRINT_imputation.impute()
+```
+## Agruments for impute():
+
+- Mandatory
+    - Original_Dataframe
+    - Tens_shape
+- Optional
+    - zero_as_missing
+    - miss_type
+    - missing_rate
+    - missing_rate_val
+    - block_window
+    - ranks
+    - max_iter (Keep above 100)
+    - hy1_list
+    - hyp_prior_list
+    - hyper_smooth
+    - Batch_per 
+    - Batch_iter
+    - p
+
+## Output
+A matrix (or dataset), without containing any NaNs. 
+
+## :bulb:TIP: Regarding CUPY library 
+
+- Do note that the CUPY library is not mentioned in the 'requirements.txt' and hence is needed to be installed sperately whose detials steps are mentioned here.
+
+- The CUPY library is suppose to be install as per the GPU's driver version more info can be found [here](https://docs.cupy.dev/en/stable/install.html)
+    
+- If  there is any CUDA PATH issue, one can explictly set the PATH by the following command.
+```python
+    
+    import os 
+    os.environ['CUDA_PATH'] = "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7"
+```
+### :heavy_exclamation_mark: Warning
+> Don't forgot to change the CUDA version in the above code as per your system.
+
+# Contact
+
+Shubham Sharma | Higher Degree Research Scholar (Ph.D.)\
+School of Civil and Environmental Engineering\
+Faculty of Engineering | Queensland University of Technology\
+Mail ID : s55.sharma@hdr.qut.edu.au
