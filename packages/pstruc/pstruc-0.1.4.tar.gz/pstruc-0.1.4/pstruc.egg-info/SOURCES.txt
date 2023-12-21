@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pstruc.egg-info/PKG-INFO
+pstruc.egg-info/SOURCES.txt
+pstruc.egg-info/dependency_links.txt
+pstruc.egg-info/requires.txt
+pstruc.egg-info/top_level.txt
+pstrucsrc/__init__.py
+pstrucsrc/_directory_structure.py
+pstrucsrc/_pretty_structure.py
+tests/test_generate_directory_structure.py
