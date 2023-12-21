@@ -1,0 +1,14 @@
+AUTHORS.md
+LICENSE
+README.md
+setup.cfg
+setup.py
+webchatter/__init__.py
+webchatter/checkpoint.py
+webchatter/request.py
+webchatter/webchatter.py
+webchatter.egg-info/PKG-INFO
+webchatter.egg-info/SOURCES.txt
+webchatter.egg-info/dependency_links.txt
+webchatter.egg-info/not-zip-safe
+webchatter.egg-info/top_level.txt
