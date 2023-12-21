@@ -1,0 +1,5 @@
+setup.py
+schickit.egg-info/PKG-INFO
+schickit.egg-info/SOURCES.txt
+schickit.egg-info/dependency_links.txt
+schickit.egg-info/top_level.txt
