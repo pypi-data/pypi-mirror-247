@@ -1,0 +1,8 @@
+README.md
+setup.py
+pither/__init__.py
+pither/main.py
+pither.egg-info/PKG-INFO
+pither.egg-info/SOURCES.txt
+pither.egg-info/dependency_links.txt
+pither.egg-info/top_level.txt
