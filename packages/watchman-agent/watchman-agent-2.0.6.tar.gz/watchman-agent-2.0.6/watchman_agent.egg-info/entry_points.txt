@@ -1,0 +1,6 @@
+[console_scripts]
+watchman-agent = watchman_agent.__main__:cli
+
+[watchman_agent.registered_commands]
+configure = watchman_agent.commands.configure:main
+run = watchman_agent.commands.run:main
