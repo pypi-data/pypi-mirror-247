@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eidos-cli
+Version: 0.1.0
+Summary: 
+Author: Luke Lalor
+Author-email: lukehlalor@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.1,<4.0.0)
+Requires-Dist: cmd2 (>=2.4.3,<3.0.0)
+Requires-Dist: httpx (>=0.25.2,<0.26.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: setuptools (>=68.2.2,<69.0.0)
+Requires-Dist: shellingham (>=1.5.4,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
