@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: PyVSparse
+Version: 0.1.4
+Summary: A Python wrapper for IVSparse
+Author-Email: Seth Wolfgang <wolfgangseth@gmail.com>
+Project-URL: Ivsparse, https://github.com/Seth-Wolfgang/IVSparse
+Project-URL: Pyvsparse, https://github.com/Seth-Wolfgang/PyVSparse
+Project-URL: Pyvsparse-issues, https://github.com/Seth-Wolfgang/PyVSparse/issues
+Requires-Python: >=3.9
+Requires-Dist: numpy~=1.26.0
+Requires-Dist: scipy~=1.11.2
+Requires-Dist: matplotlib~=3.8.0
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: test
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyVSparse
+
+
+Python wrapper for IVSparse 
+
+Dependancies
+- numpy
+- scipy
+- matplotlib
+- python 3.9 or higher
+
+
+Install with Pip by using
+```
+git clone https://github.com/Seth-Wolfgang/PyVSparse.git
+cd PyVSparse
+git submodule update --init --recursive
+cd ..
+pip install ./PyVSparse
+```
+or 
+```
+git clone https://github.com/Seth-Wolfgang/PyVSparse.git
+cd PyVSparse
+git submodule update --init --recursive
+pip install .
+```
+
+# Todo
+1. Finish wrapper
+2. parallelize compilation
+3. [PyPi compiliance](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
