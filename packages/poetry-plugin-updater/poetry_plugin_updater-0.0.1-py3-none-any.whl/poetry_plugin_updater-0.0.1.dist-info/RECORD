@@ -1,0 +1,8 @@
+poetry_plugin_updater/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_updater/command.py,sha256=JAnGE5hKb3SEJRIcXQNCJsylcIgGIkwNZusCg5yVgks,471
+poetry_plugin_updater/plugins.py,sha256=srO2v9U5A95xNwhKU59XsUZOumrUNppa-BkQgiimZoM,393
+poetry_plugin_updater/updater.py,sha256=65M44LaclhMTiKAuhRGarrujR_E5lzEe7JoNzJ6RaaM,1371
+poetry_plugin_updater-0.0.1.dist-info/METADATA,sha256=UxZNiHzJTquH_wulDwKMPt7uqsaJWQj-PpRzU7sc5Aw,786
+poetry_plugin_updater-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_plugin_updater-0.0.1.dist-info/entry_points.txt,sha256=dFmU495QUKsWDJIQCUXmtks4areRmdlULUumbLhMQms,92
+poetry_plugin_updater-0.0.1.dist-info/RECORD,,
