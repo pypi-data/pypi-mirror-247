@@ -1,0 +1,64 @@
+---
+
+name: Linters
+
+on:  # yamllint disable-line rule:truthy
+  workflow_call:
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: "1"  # Make tools pretty.
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  PIP_NO_PYTHON_VERSION_WARNING: "1"
+  PYTHON_LATEST: "3.11"
+
+jobs:
+
+  lint-ruff:
+    name: Lint with Ruff
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_LATEST }}
+        check-latest: true
+        cache: pip
+        cache-dependency-path: |
+          setup.cfg
+          requirements-dev.txt
+    - name: Install dependencies
+      run: |
+        pip install -U -r requirements-dev.txt
+    - name: Lint with Ruff
+      run: |
+        python -m ruff check
+
+  typecheck-mypy:
+    name: Check typing and annotations
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_LATEST }}
+        check-latest: true
+        cache: pip
+        cache-dependency-path: |
+          setup.cfg
+          requirements-dev.txt
+    - name: Install dependencies
+      run: |
+        pip install -U -r requirements-dev.txt
+    - name: Typecheck with mypy
+      run: |
+        echo "::add-matcher::.github/workflows/mypy-matcher.json"
+        python -m mypy aiomonitor/ examples/ tests/
