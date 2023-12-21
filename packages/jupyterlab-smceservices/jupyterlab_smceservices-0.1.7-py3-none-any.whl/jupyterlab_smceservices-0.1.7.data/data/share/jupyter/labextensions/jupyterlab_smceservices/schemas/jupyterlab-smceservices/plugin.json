@@ -1,0 +1,15 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab_smceservices",
+  "description": "jupyterlab_smceservices settings.",
+  "type": "object",
+  "properties": {
+    "atlasId-smce": {
+      "type": "string",
+      "title": "Atlas ID",
+      "description": "This is the Atlas ID of the SCME's support Atlas.",
+      "default": ""
+    }
+  },
+  "additionalProperties": false
+}
