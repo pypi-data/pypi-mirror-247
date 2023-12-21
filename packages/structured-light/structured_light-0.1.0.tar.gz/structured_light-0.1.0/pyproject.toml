@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "structured-light"
+version = "0.1.0"
+description = ""
+authors = ["marcsgil <marcosgildeoliveira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23"
+scipy = "^1.9"
+
+[tool.poetry.group.development]
+optional = true
+
+[tool.poetry.group.development.dependencies]
+pytest = "^7.4.3"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.2"
+python-markdown-math = "^0.8"
+mkdocstrings = {extras = ["crystal", "python"], version = "^0.24.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
