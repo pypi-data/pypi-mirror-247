@@ -1,0 +1,12 @@
+chzzk/__init__.py,sha256=fDpwY45kNjV1rGiKN2526SD47fwJkFsf03ya4PGGXNc,89
+chzzk/chzzk.py,sha256=Wc-_QtJIqPckLzwNk60pgOJCA1z70cWUmlBUh_CsgzI,993
+chzzk/client.py,sha256=0yOASUkHYWHVFRxffie-0Ch5hHdvDFSncvVBWmnJfEw,2469
+chzzk/errors.py,sha256=LMOX3KHnZ39m4DR-Wh5K6vFGS-aRLlscjQAjBsBKzKE,243
+chzzk/utils.py,sha256=4FtdxI0t2VuM3un4Qrfzczww0w4m-iUjv-1vrdfSDZw,165
+chzzk/models/__init__.py,sha256=W5Ol0HuzjI_vbleboKhoCZ-9Erolg_DvqH2RRPBdGPY,1244
+chzzk/models/raw.py,sha256=XTLMZdY0Jvb9CztzW0X5eHUIW8SWtHomTcGgRhC_2oc,4801
+python_chzzk-0.0.2.dist-info/LICENSE,sha256=3XGlEAr2FxNbcIGukmWAXsRZ6H7_gOTJs6shthkvm60,1070
+python_chzzk-0.0.2.dist-info/METADATA,sha256=0pBFtmTFCdfLmGApFbGpLC1RHd2xsRdparH_L0-W3e4,1311
+python_chzzk-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+python_chzzk-0.0.2.dist-info/top_level.txt,sha256=OcsmewBVw-wVm-J7jtv9I0AOjFa0AgHAVs3111pd_d8,6
+python_chzzk-0.0.2.dist-info/RECORD,,
