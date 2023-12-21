@@ -1,0 +1,6 @@
+openai
+PyYAML
+typing
+validators
+discord.py
+tiktoken
