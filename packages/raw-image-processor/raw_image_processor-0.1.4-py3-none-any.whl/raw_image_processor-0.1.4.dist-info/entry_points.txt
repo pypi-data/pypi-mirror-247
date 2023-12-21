@@ -1,0 +1,3 @@
+[console_scripts]
+convert-images=raw_image_processor.convert_images:raw_image_processor_wrapper
+

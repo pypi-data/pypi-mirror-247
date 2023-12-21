@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: raw-image-processor
+Version: 0.1.4
+Summary: A tool for processing raw binary image data.
+Author: Nizan Hellman
+Author-email: nizan.hell@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
