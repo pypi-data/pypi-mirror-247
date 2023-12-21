@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "kami-messenger"
+version = "0.3.0"
+description = "Library to aggregate multiple messengers services"
+license="GNU 3.0"
+authors = ["Maicon de Menezes <maicondmenezes@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kami_messenger"}]
+classifiers = [  
+  "Topic :: Communications :: Email",
+  "Topic :: Communications :: Telephony",
+  "Programming Language :: Python :: 3",      
+  "Natural Language :: English",
+  "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.urls]
+"Docs" = "https://kami-messenger.readthedocs.io/en/latest/"
+"Source" = "https://github.com/devkami/kami-messenger"
+"Bug Tracker" = "https://github.com/devkami/kami-messenger/issues" 
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.10.6"
+jinja2 = "^3.1.2"
+phonenumbers = "^8.13.7"
+python-dotenv = "^1.0.0"
+kami-logging = "^0.2.0"
+requests = "^2.28.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+taskipy = "^1.10.3"
+pytest-sugar = "^0.9.6"
+ipython = "^8.11.0"
+
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs = "^1.4.2"
+mkdocstrings = "^0.20.0"
+mkdocs-material = "^9.1.2"
+mkdocstrings-python = "^0.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+lint-review = "blue --check --diff . && isort --check --diff ."
+lint-fix = "blue . && isort ."
+pre_test = "task lint-review"
+test = "pytest -s -x --cov=kami_messenger -vv -rs"
+post_test = "coverage html"
+docs = "mkdocs serve"

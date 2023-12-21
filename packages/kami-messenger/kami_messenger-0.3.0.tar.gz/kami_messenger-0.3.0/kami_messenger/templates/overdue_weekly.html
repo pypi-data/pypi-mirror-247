@@ -1,0 +1,47 @@
+<table role="presentation" class="main">
+  <tr>
+    <td class="wrapper">
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <p>Olá,{{ contact.name }}</p>
+            <p>O Relatório de Inadimplência da Semana de {{ week_start }} a {{ week_end }} foram elaborados com sucesso e já estão disponíveis</p>            
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td> <a href="https://drive.google.com/drive/u/1/folders/{{ report_folder_id }}" target="_blank">Ver Relatórios</a> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>Caso diagnosticar qualquer inconsistência nos resultados, favor entrar em contato respondendo esta mensagem ou em um dos nossos canais oficiais:
+              <ul>
+                <li>
+                  <a href="https://intranet.kamico.com.br/web#action=290&model=helpdesk.ticket&view_type=list&cids=1&menu_id=246">
+                    Intranet Kami CO
+                  </a>
+                </li>
+                <li>
+                  <a href="https://intranet.kamico.com.br/helpdeskticket">
+                    Portal da Central de Ajuda
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wa.me/5511916654692">+55 11 91665-4692</a>
+                </li>
+              </ul>
+            </p>
+            <p>IT Team.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
