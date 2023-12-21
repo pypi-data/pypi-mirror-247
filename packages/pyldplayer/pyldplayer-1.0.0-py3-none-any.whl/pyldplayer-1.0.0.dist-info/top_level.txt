@@ -1,0 +1,6 @@
+pyldplayer\_internal
+pyldplayer\_internal\consoleInterfaces
+pyldplayer\_internal\models
+pyldplayer\core
+pyldplayer\core\autogui
+pyldplayer\utils
