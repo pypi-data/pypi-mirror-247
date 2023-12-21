@@ -1,0 +1,18 @@
+mod Top {
+    reg sum of Word<32> reset 0w32;
+    mod counter of Counter;
+    mod monitor of Monitor;
+    sum <= sum + counter.out;
+    monitor.in := sum;
+}
+
+mod Counter {
+    outgoing out of Word<32>;
+    reg c of Word<32> reset 1w32;
+    c <= c + 1w32;
+    out := c;
+}
+
+ext mod Monitor {
+    incoming in of Word<32>;
+}

@@ -1,0 +1,3 @@
+link Top.monitor = Monitor {}
+reset
+debug

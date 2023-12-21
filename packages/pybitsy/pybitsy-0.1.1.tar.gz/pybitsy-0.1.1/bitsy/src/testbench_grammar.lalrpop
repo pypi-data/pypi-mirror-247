@@ -1,0 +1,83 @@
+use bitsy::*;
+use super::*;
+
+grammar(source_info: &SourceInfo);
+
+pub Testbench: Testbench = {
+    <top:TestbenchTop?> <links:TestbenchLink*> <commands:TestbenchCommand*> => Testbench(top, links, commands),
+}
+
+pub TestbenchTop: String = {
+    "top" <id:Id> => id,
+}
+
+pub TestbenchLink: TestbenchLink = {
+    "link" <path:Path> "=" <id:Id> "{" <params:(Id "=" Str)*> "}" => {
+        let params: Vec<(String, String)> = params.iter().map(|(id, _, value)| (id.to_string(), value.to_string())).collect();
+        TestbenchLink(path, id, params)
+    },
+}
+
+pub TestbenchCommand: TestbenchCommand = {
+    "peek" <path:Path> => TestbenchCommand::Peek(path),
+    "poke" <path:Path> <line:Line> => TestbenchCommand::Poke(path, Value::X), // TODO
+    "setreg" <path:Path> <line:Line> => TestbenchCommand::Set(path, Value::X), // TODO
+    "cd" <path:Path?> => TestbenchCommand::Cd(path),
+    "cd" ".." => TestbenchCommand::Cd(Some("..".into())),
+    "clock" => TestbenchCommand::Clock,
+    "reset" => TestbenchCommand::Reset,
+    "show" => TestbenchCommand::Show,
+    "watch" <path:Path> <watch:WatchFormat?> => {
+        TestbenchCommand::Watch(Watch {
+            path: path.clone(),
+            format: watch.unwrap_or(WatchFormat::Normal),
+        })
+    },
+    "debug" => TestbenchCommand::Debug,
+    "run" => TestbenchCommand::Run,
+//    "eval" <e:Expr> => TestbenchCommand::Eval(*e),     // TODO
+//    "assert" <e:Expr> => TestbenchCommand::Assert(*e),     // TODO
+}
+
+pub WatchFormat: WatchFormat = {
+    "hex" => WatchFormat::Hex,
+    "bin" => WatchFormat::Bin,
+    "bool" => WatchFormat::Bool,
+}
+
+pub Path: Path = {
+    <id:Id> <dots:("." Id)*> => {
+        let mut path = id;
+        for (_, dot) in dots {
+            path.push_str(".");
+            path.push_str(&dot);
+        }
+        path.into()
+    },
+}
+
+pub Reference: Path = {
+    <submod:Id> "." <id:Id> => format!("{submod}.{id}").into(),
+    <id:Id> => id.into(),
+}
+
+pub Str: String = {
+    <s:r#""[^"]*""#> => s[1..s.len()-1].to_string(),
+}
+
+pub Id: String = {
+    "top" => "top".to_string(),
+    <id:r"[_A-Za-z][_A-Za-z0-9]*"> => id.to_string(),
+}
+
+pub Line: String = {
+    <line:r"[^(link)]\n\r]*[\r\n]"> => line.to_string(),
+}
+
+match {
+    r"//[^\n\r]*[\r\n]" => {},
+    r"[\r\n]*" => {},
+    r"/\*[^*]*\*/" => {},
+    r" " => {},
+    _,
+}
