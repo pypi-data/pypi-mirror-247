@@ -1,0 +1,9 @@
+build
+setuptools
+wheel
+
+[:python_version < "3.11"]
+tomli
+
+[app]
+cmake
