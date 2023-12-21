@@ -1,0 +1,16 @@
+csv_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv_admin/admin.py,sha256=33BsSyFoua1r_EaLvumrJydgRhJfewXgsIAekdgw95A,5025
+csv_admin/apps.py,sha256=WI96ByiKiA84cwN6CBDKukV7-METOBACCw1nukfUTQg,149
+csv_admin/utils.py,sha256=vYcYmzoCgM-y5aS39eLjtnLZlUJ_iDYU_M_MgJdxYxk,1536
+csv_admin/locale/en/LC_MESSAGES/django.mo,sha256=N1pb17IfLd0ASiKO8d68-B4ygSpDkhKOCs8YTzMXQo0,380
+csv_admin/locale/en/LC_MESSAGES/django.po,sha256=z-NMj3tEkdGmNBrvFZHsXTCRtAHQw4kDGYT3w8PyHZI,35332
+csv_admin/locale/ru/LC_MESSAGES/django.mo,sha256=od8nen4_i5PigG6S-wB174GNXx50JhN12FeuRQG6Us4,809
+csv_admin/locale/ru/LC_MESSAGES/django.po,sha256=gCwl803W69potKaAYeOT9x80qRSIPIvFkSzXxMDOjsY,35593
+csv_admin/locale/tk/LC_MESSAGES/django.mo,sha256=LsoxNmwpK8JOWPzR9YPr5K1zMb8I29hP6tlypCi4nUw,633
+csv_admin/locale/tk/LC_MESSAGES/django.po,sha256=J86mXn2uKhW8c9jPOrrA9GeQTobx3Of7ggoO-OEhqF0,35411
+csv_admin/templates/csv_admin/add_csv_export_changelist.html,sha256=HS-Ob6nCqxETHrKbVl4VZ3gCWGDkzcvyNsqm-rs3u0Y,3374
+django_csv_admin-1.0.2.dist-info/LICENSE,sha256=T5YaFqDV8-b8dMhJ2lqDCC2EUnDPEM7z92zQS0qYV7Q,1080
+django_csv_admin-1.0.2.dist-info/METADATA,sha256=0dShvlPEGz-6mdeUtHJaLW2RRWT89RtNO_2RNKo_RSs,1474
+django_csv_admin-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_csv_admin-1.0.2.dist-info/top_level.txt,sha256=XDyo02C-w2JLSTKioByEsfkEe2MrgCHeVtKbtgAYupo,10
+django_csv_admin-1.0.2.dist-info/RECORD,,

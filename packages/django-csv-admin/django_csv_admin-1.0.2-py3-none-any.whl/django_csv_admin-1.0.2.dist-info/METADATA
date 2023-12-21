@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: django-csv-admin
+Version: 1.0.2
+Summary: Simple app which includes ModelAdmin class for importing/exporting model data to csv file
+Home-page: https://github.com/Extraordinary01/django-csv-admin
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: Django
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Django (>=3.0)
+
+This app includes model admin class for csv exporting and importing.
+
+For installation just add 'csv_admin' to your INSTALLED_APPS
+
+For usage add in admin.py file:
+
+
+from csv_admin.admin import CSVExportAdmin
+
+
+class MyAdmin(CSVExportAdmin):
+    date_field = 'created_at'
+    export_select_related = ['related_field_name']
+    
+    def _get_sum(self):
+        sum = 1 + 2
+        return sum
+
+    def get_additional_fields(self) -> list:
+        return ['sum']
+
+    def get_additional_fields_params(self) -> dict:
+        return {'sum': self._get_sum}
+
