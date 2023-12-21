@@ -1,0 +1,12 @@
+lcolamps/__init__.py,sha256=NGvWF1HmCfFlHbDsJviPuqV6gsrUSyGfjwxPgq5nqes,403
+lcolamps/__main__.py,sha256=YoK6MHUHwWvGbw6zFbM9nBx5gaxPWArclxF9nm-ic34,1176
+lcolamps/actor.py,sha256=cTgGNiPUC9zDclhqjegM_C7GSODbRvUegIa9HY3ztCY,2477
+lcolamps/commands.py,sha256=cRlEywYwCCiENHeK7BWAzTJ8yZIxLFIkrZOCnYy8pNQ,4813
+lcolamps/controller.py,sha256=FZLLRjOZLNUBfhqx2kcaI2cHBRtbmm0mStituQCRUC0,12878
+lcolamps/etc/lcolamps.yaml,sha256=TLwU_DvYg92N1iDybr--kYQc-MQ8jazGBNmXLEHxB-Y,659
+lcolamps/etc/schema.json,sha256=LM4H7qapR-Q7kfxqPeRMpIKQAvrO35yx9B7-RqgXkcU,531
+sdss_lcolamps-1.0.3.dist-info/LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+sdss_lcolamps-1.0.3.dist-info/METADATA,sha256=OV5jXDUol5jtfkB_ydKFFHktHPC39BN-IEwPSlAoA1w,2034
+sdss_lcolamps-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sdss_lcolamps-1.0.3.dist-info/entry_points.txt,sha256=u9xBQICxoPnwjwydF2NO0ggqVozjrwhW19bgEm7Wzfs,55
+sdss_lcolamps-1.0.3.dist-info/RECORD,,

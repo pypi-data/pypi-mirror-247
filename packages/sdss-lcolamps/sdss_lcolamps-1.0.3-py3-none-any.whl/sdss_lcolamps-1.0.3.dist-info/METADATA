@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: sdss-lcolamps
+Version: 1.0.3
+Summary: A library to control the LCO M2 lamps.
+Home-page: https://github.com/sdss/lcolamps
+License: BSD-3-Clause
+Keywords: astronomy,software
+Author: José Sánchez-Gallego
+Author-email: gallegoj@uw.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click_default_group (>=1.2.2,<2.0.0)
+Requires-Dist: sdss-clu (>=2.0.0,<3.0.0)
+Requires-Dist: sdsstools (>=1.6.0,<2.0.0)
+Project-URL: Documentation, https://sdss-lcolamps.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/sdss/lcolamps
+Description-Content-Type: text/markdown
+
+# lcolamps
+
+![Versions](https://img.shields.io/badge/python->3.10-blue)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Test status](https://github.com/sdss/lcolamps/actions/workflows/test.yml/badge.svg)](https://github.com/sdss/lcolamps/actions/workflows/test.yml)
+
+A library to control the LCO M2 lamps.
+
+## Installation
+
+In general you should be able to install ``lcolamps`` by doing
+
+```console
+pip install sdss-lcolamps
+```
+
+To build from source, use
+
+```console
+git clone git@github.com:sdss/lcolamps
+cd lcolamps
+pip install .[docs]
+```
+
+## Development
+
+`lcolamps` uses [poetry](http://poetry.eustace.io/) for dependency management and packaging. To work with an editable install it's recommended that you setup `poetry` and install `lcolamps` in a virtual environment by doing
+
+```console
+poetry install
+```
+
