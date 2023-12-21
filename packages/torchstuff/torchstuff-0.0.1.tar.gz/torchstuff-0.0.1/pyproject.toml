@@ -1,0 +1,45 @@
+[project]
+name = "torchstuff"
+description = "Geometry processing and deep learning utilities for PyTorch."
+keywords = ["torch", "pytorch", "deep learning"]
+license = {text = "Apache-2.0"}
+authors = [{name = "Parth Kambli"}]
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Image Processing",
+  "Topic :: Software Development :: Libraries",
+]
+dynamic = [
+  "dependencies",
+  "readme",
+  "version",
+]
+
+[project.urls]
+  "Bug Tracker" = "https://github.com/Parth-Kambli/torchstuff/issues"
+  Download = "https://github.com/Parth-Kambli/torchstuff/releases"
+  "Source Code" = "https://github.com/Parth-Kambli/torchstuff"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.2"]
+
+[tool.setuptools]
+  zip-safe = true
+  license-files = ["LICENSE"]
+  include-package-data = false
+
+  [tool.setuptools.dynamic]
+    dependencies = {file = ["requirements.txt"]}
+    version = {attr = "torchstuff.__version__"}
+    readme = {file = ["README.md"], content-type = "text/markdown"}

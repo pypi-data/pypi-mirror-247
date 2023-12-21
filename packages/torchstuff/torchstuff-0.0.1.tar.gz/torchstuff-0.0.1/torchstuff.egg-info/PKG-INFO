@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: torchstuff
+Version: 0.0.1
+Summary: Geometry processing and deep learning utilities for PyTorch.
+Author: Parth Kambli
+License: Apache-2.0
+Project-URL: Bug Tracker, https://github.com/Parth-Kambli/torchstuff/issues
+Project-URL: Download, https://github.com/Parth-Kambli/torchstuff/releases
+Project-URL: Source Code, https://github.com/Parth-Kambli/torchstuff
+Keywords: torch,pytorch,deep learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: packaging
+Requires-Dist: torch>=1.9.1
+
+# TorchStuff
+
+Calculate the Polygon area and length (perimeter).
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
+## Installation
+
+```bash
+pip3 install torchstuff
+```
+## Usage
+
+```python
+import torch
+
+# Example vertices
+vertices = torch.tensor([[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]])
+
+# Create Polygon object
+polygon = Polygon(vertices)
+
+# Access properties
+area = polygon.area
+length = polygon.length
+
+print(f"Area: {area}, Length: {length}")
+
+```
+## Contributing
+
+Just me for now

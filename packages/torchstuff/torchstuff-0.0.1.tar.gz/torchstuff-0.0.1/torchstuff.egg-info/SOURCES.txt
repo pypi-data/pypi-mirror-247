@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+tests/test_polygon.py
+torchstuff/__init__.py
+torchstuff/polygon.py
+torchstuff.egg-info/PKG-INFO
+torchstuff.egg-info/SOURCES.txt
+torchstuff.egg-info/dependency_links.txt
+torchstuff.egg-info/requires.txt
+torchstuff.egg-info/top_level.txt
+torchstuff.egg-info/zip-safe
