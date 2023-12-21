@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+baunomian.egg-info/PKG-INFO
+baunomian.egg-info/SOURCES.txt
+baunomian.egg-info/dependency_links.txt
+baunomian.egg-info/not-zip-safe
+baunomian.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py

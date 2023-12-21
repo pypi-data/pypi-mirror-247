@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: baunomian
+Version: 0.3
+Summary: Gaussian and Binomial distribution
+Home-page: UNKNOWN
+Author: Tatum Roaquin
+Author-email: UNKNOWN
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: # Baunomian  
+        
+        A python library for calculations of gaussian and binomial distributions. For the purposes of statistics and data science.
+Keywords: gaussian,binomial,math,distribution,statistics
+Platform: UNKNOWN
+Requires-Python: >=3.6.3
