@@ -1,0 +1,13 @@
+glinski/_Arrangement.py,sha256=eV5dUDcJxjmW5ACgBzek9Lw0XbQUpGMdZJ1nTGQ-jH8,2826
+glinski/__init__.py,sha256=E47V0b5CwXqhFa8Sxb3WFMWULeGaBW1eZtyWyfqH8ns,50
+glinski/_enums/PlayerColor.py,sha256=4v-SUSpEBZP-ynzEsQeZZO5tbDJT-rG-Pg3B-1NZwgA,236
+glinski/_enums/__init__.py,sha256=SPFYvvBLCuCE85-hhyZLs5io90ziCUfCp3nUmUUb-rM,70
+glinski/_enums/pieces.py,sha256=wqlsS1OFXk5n3ecp8xpj8YIklP3raT277W-KN7Bs-KE,1655
+glinski/_enums/cells/Cell.py,sha256=Dbl7DJryyqFiHwwRUXb60QwqLGx_-pTGTTX9VbiYlTU,1959
+glinski/_enums/cells/CellColor.py,sha256=oW97d75P6Xhf4I9VpQiQOo4KHJTnoqjejRJnAEvGMys,122
+glinski/_enums/cells/__init__.py,sha256=8OhWFzzr1eAkw-96QdDYuarXNRhl8WTMhAMttpe94P8,44
+glinski-0.3.1.dist-info/LICENSE.txt,sha256=RyYhTgDL56VhLOEdHzz0Pux3CDS8NlaozmhnG6jLFo8,1077
+glinski-0.3.1.dist-info/METADATA,sha256=R1mL4MmjgMDUwhana2lXCy3dCMJ9L7NM0GucwYYLw30,2299
+glinski-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+glinski-0.3.1.dist-info/top_level.txt,sha256=sJsDpQIL3tQaf7dzNOBUAwEFZRODmZd8e2JSmbUho2Q,8
+glinski-0.3.1.dist-info/RECORD,,
