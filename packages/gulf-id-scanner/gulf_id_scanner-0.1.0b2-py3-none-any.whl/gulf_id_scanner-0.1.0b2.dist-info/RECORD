@@ -1,0 +1,9 @@
+gulf_id_scanner/__init__.py,sha256=y_QFqDAsIvTnrJZ4tJeYYs-BD5hRyfoiTdjj4LzyyTM,207
+gulf_id_scanner/__main__.py,sha256=rHsPFvaK6kNDuwwOfDYS983Zt3trdhS6vS7Wq1BCWig,745
+gulf_id_scanner/client.py,sha256=SCtta_V7Dj99SkLt4dhVxED2J4VtB3uRez4dkwo_L98,10612
+gulf_id_scanner/exceptions.py,sha256=Bo0BVPMA0veklHoe-DfKabiBMaejpIEvUv7y35Wk33k,464
+gulf_id_scanner/models.py,sha256=MP1d_lUD0rM4icRNSlo6YNFOi3yJeabz8YQe29JKHmU,21390
+gulf_id_scanner/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gulf_id_scanner-0.1.0b2.dist-info/METADATA,sha256=64xpk1ClBnbvh6GI5Kg5BMPDKqghJC3Nvxt9Vp2yW5Y,2134
+gulf_id_scanner-0.1.0b2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gulf_id_scanner-0.1.0b2.dist-info/RECORD,,
