@@ -1,0 +1,11 @@
+ruamel-yaml~=0.18.5
+cdk8s~=2.68.20
+
+[build]
+build
+twine
+keyring
+keyrings.google-artifactregistry-auth
+
+[dev]
+pytest

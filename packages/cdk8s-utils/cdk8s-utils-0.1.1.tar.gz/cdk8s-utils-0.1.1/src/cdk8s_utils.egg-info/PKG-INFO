@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cdk8s-utils
+Version: 0.1.1
+Summary: cdk8s utilities and helpers
+Author-email: Nick Albury <nickalbury@gmail.com>
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: ruamel-yaml~=0.18.5
+Requires-Dist: cdk8s~=2.68.20
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Requires-Dist: keyring; extra == "build"
+Requires-Dist: keyrings.google-artifactregistry-auth; extra == "build"
