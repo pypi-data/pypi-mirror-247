@@ -1,0 +1,9 @@
+README.md
+setup.py
+lastonewillwork.egg-info/PKG-INFO
+lastonewillwork.egg-info/SOURCES.txt
+lastonewillwork.egg-info/dependency_links.txt
+lastonewillwork.egg-info/entry_points.txt
+lastonewillwork.egg-info/top_level.txt
+src/__init__.py
+src/addone.py
