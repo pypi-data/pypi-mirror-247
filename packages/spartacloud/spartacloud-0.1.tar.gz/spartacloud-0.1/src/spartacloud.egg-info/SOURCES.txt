@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/spartacloud.egg-info/PKG-INFO
+src/spartacloud.egg-info/SOURCES.txt
+src/spartacloud.egg-info/dependency_links.txt
+src/spartacloud.egg-info/top_level.txt
