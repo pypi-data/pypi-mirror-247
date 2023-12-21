@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nium
+Version: 1.0.0
+Summary: NIUM Platform
+Home-page: 
+Author: NIUM Platform
+Author-email: experience@nium.com
+License: Copyright (c) 2023 NIUM
+Keywords: NIUM Platform
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic <2,>=1.10.5
+Requires-Dist: aenum
+
+Nium Python SDK
+===================================
+
+A Python library for Nium's APIs
+
+Using the SDK
+----------------
+Instructions can be found at: https://github.com/nium-global/nium-python/blob/main/README.md
+
+Setting up a Nium Account 
+-----------------------------
+Sign up for a Nium account at https://app.nium.com/sign-up 
+
+Using the Nium APIs
+-----------------------
+Documentation for Nium APIs can be found at: https://docs.nium.com/apis
+

@@ -1,0 +1,80 @@
+# coding: utf-8
+
+"""
+    NIUM Platform
+
+    NIUM Platform
+
+    Contact: experience@nium.com
+    Do not edit the class manually.
+"""  # noqa: E501
+
+
+from __future__ import annotations
+import pprint
+import re  # noqa: F401
+import json
+
+
+from typing import Optional
+from pydantic import BaseModel, Field, StrictStr, validator
+
+class TransactionClientTagRequestDTO(BaseModel):
+    """
+    TransactionClientTagRequestDTO
+    """
+    action: StrictStr = Field(..., description="This field accepts the action which determines the type of operation that needs to be performed. The possible values are: DELETE: When tag needs to be deleted. MAINTAIN: When tags need to be added or updated.")
+    key: StrictStr = Field(..., description="This field accepts the name of the tag. The maximum key length limit is 128 characters.")
+    value: Optional[StrictStr] = Field(None, description="This field accepts the value of the tag. The maximum value length limit is 256 characters.")
+    __properties = ["action", "key", "value"]
+
+    @validator('action')
+    def action_validate_enum(cls, value):
+        """Validates the enum"""
+        if value not in ('MAINTAIN', 'DELETE'):
+            raise ValueError("must be one of enum values ('MAINTAIN', 'DELETE')")
+        return value
+
+    class Config:
+        """Pydantic configuration"""
+        allow_population_by_field_name = True
+        validate_assignment = True
+
+    def to_str(self) -> str:
+        """Returns the string representation of the model using alias"""
+        return pprint.pformat(self.dict(by_alias=True))
+
+    def to_json(self) -> str:
+        """Returns the JSON representation of the model using alias"""
+        return json.dumps(self.to_dict())
+
+    @classmethod
+    def from_json(cls, json_str: str) -> TransactionClientTagRequestDTO:
+        """Create an instance of TransactionClientTagRequestDTO from a JSON string"""
+        return cls.from_dict(json.loads(json_str))
+
+    def to_dict(self):
+        """Returns the dictionary representation of the model using alias"""
+        _dict = self.dict(by_alias=True,
+                          exclude={
+                          },
+                          exclude_none=True)
+        return _dict
+
+    @classmethod
+    def from_dict(cls, obj: dict) -> TransactionClientTagRequestDTO:
+        """Create an instance of TransactionClientTagRequestDTO from a dict"""
+        if obj is None:
+            return None
+
+        if not isinstance(obj, dict):
+            return TransactionClientTagRequestDTO.parse_obj(obj)
+
+        _obj = TransactionClientTagRequestDTO.parse_obj({
+            "action": obj.get("action"),
+            "key": obj.get("key"),
+            "value": obj.get("value")
+        })
+        return _obj
+
+
