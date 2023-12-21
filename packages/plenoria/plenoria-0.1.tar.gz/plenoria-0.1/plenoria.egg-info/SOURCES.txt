@@ -1,0 +1,5 @@
+setup.py
+plenoria.egg-info/PKG-INFO
+plenoria.egg-info/SOURCES.txt
+plenoria.egg-info/dependency_links.txt
+plenoria.egg-info/top_level.txt
