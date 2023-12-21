@@ -1,0 +1,2 @@
+[trytond.modules]
+party_type = trytond.modules.party_type
