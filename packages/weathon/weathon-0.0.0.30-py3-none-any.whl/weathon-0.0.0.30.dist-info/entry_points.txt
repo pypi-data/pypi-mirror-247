@@ -1,0 +1,2 @@
+[console_scripts]
+weathon = weathon.cli.cli:run_cmd
