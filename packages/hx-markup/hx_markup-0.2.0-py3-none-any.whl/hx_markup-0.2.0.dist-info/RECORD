@@ -1,0 +1,8 @@
+hx_markup/__init__.py,sha256=mFO6NeWg57f8aGLgujWDG1L3YwQG0yQ37gJ3GYrU8SI,68
+hx_markup/config.py,sha256=lBCxSszPKXHPlx0xjonGFpQasV3XLw1X_RpjI_2x6oY,15494
+hx_markup/element.py,sha256=SZ-aqPAwqRWGnxkQ6Uk-gNxLFUIhF_51QF2xQ_P0T-s,12295
+hx_markup/enums.py,sha256=jsfHvKi3auDbp9lkmsIHMBL7Iqf9bmiBuzElr8tznNQ,14683
+hx_markup/functions.py,sha256=dWIIsfSez1zAjnHUVt8JTgCZUzUM-dtCIcZ0VYakbc0,10277
+hx_markup-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hx_markup-0.2.0.dist-info/METADATA,sha256=2bz7dIrKObzSxnRHyN3F8Ykw_DBmP7oT2Ffn2zLh1zc,501
+hx_markup-0.2.0.dist-info/RECORD,,
