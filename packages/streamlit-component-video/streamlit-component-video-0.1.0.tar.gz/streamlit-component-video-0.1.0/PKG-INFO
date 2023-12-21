@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: streamlit-component-video
+Version: 0.1.0
+Summary: A new video with track
+Author: Bob Lin
+Author-email: bob401710@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.2
+Requires-Dist: jinja2
+
+# streamlit-component-video
+
+A new video with track
+
+## Installation instructions 
+
+```sh
+pip install streamlit-component-video
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_component_video import streamlit_component_video
+
+value = streamlit_component_video()
+
+st.write(value)
