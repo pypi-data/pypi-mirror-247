@@ -1,0 +1,2 @@
+[console_scripts]
+awattar = awattar:_cli
