@@ -1,0 +1,3 @@
+[schickit]
+index = schickit.index:main
+run = schickit.run:main
