@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+Basic Calculator/Calculator.py
+Basic Calculator/__init__.py
+BasicCalculatorLinasPelVersion.egg-info/PKG-INFO
+BasicCalculatorLinasPelVersion.egg-info/SOURCES.txt
+BasicCalculatorLinasPelVersion.egg-info/dependency_links.txt
+BasicCalculatorLinasPelVersion.egg-info/top_level.txt
+Downloads/KLRM.py
+Downloads/StockTradingEnv (1).py
+Downloads/StockTradingEnv.py
+Downloads/StockTradingGraph.py
+Downloads/__init__.py
+Downloads/main.py
+test/Test.py

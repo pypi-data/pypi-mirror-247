@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: BasicCalculatorLinasPelVersion
+Version: 0.1.0
+Summary: Basic Calculator package
+Author: LinasPel (Linas Peleckas)
+Author-email: <peleckas.l@gmail.com>
+License: MIT
+Keywords: python,calculator,basic
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+
+# Basic Calculator
+
+A basic Python class which performs simple arithmetic calculations:
+- Addition / Subtraction
+- Multiplication / Division
+- Take (n) root of a number.
+
+
+
+## 
+
+Insert gif or link to demo
+
