@@ -1,0 +1,3 @@
+[console_scripts]
+mirdeepsquared = mirdeepsquared.predict_cmd:main
+mod-html = mirdeepsquared.mod_html:main
