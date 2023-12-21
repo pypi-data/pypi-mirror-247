@@ -1,0 +1,12 @@
+quickbite/.DS_Store,sha256=0pwf3-3qRTvqn7dasHkJsrGF15nUHDcRxT4vqfFKpxg,6148
+quickbite/.gitignore,sha256=sMbpEqUYqYnV731IlOowBrNBSX5BfL2sB7BrmwviV8A,1288
+quickbite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickbite/api.py,sha256=r7-tUjz8oVpLwG8hltJWJlUSOZm_Gjsb8WXsIk6vRIo,4348
+quickbite/cli.py,sha256=RwtEuNEMwXbcVcNlFlzty6MKdWusIlvO14t-j4sUtUM,4587
+quickbite/config.py,sha256=4qihtBBikpq7sGqBfIfVVSSTLhGDazC01IOdrnzIzaE,421
+quickbite/main.py,sha256=LlOpk31cSoRdHIKqE_GVp1hDhIVFRTfvpYrvrRzICCs,427
+quickbite/test_env.py,sha256=E-4c7XahBHH7pChgYULL3dJCRkAyBBexEuxsXADUGjU,478
+quickbite-0.1.0.dist-info/LICENSE.rtf,sha256=c8oWGewjkiut8IU3w5MPw53tsna-bP0FEwrBuSlddY4,1408
+quickbite-0.1.0.dist-info/METADATA,sha256=soo4iOTkKp2HpiqE_0fAdUSGKwoFxPOQ32vsZaykUYY,6905
+quickbite-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+quickbite-0.1.0.dist-info/RECORD,,
