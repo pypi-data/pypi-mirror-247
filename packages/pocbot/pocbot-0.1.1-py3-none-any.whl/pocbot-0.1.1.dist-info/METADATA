@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pocbot
+Version: 0.1.1
+Summary: Easy Streamlit UI template for ChatBots
+Home-page: https://github.com/thisisqubika/pocbot
+License: MIT
+Author: Ezequiel Panzarasa
+Author-email: ezequiel.panzarasa@qubika.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit (>=1.29.0,<2.0.0)
+Project-URL: Repository, https://github.com/thisisqubika/pocbot
+Description-Content-Type: text/markdown
+
+# PocBot
+
+## Description
+Simple streamlit UI to implement chatbots.
+- Objective: Develop a pip installable package to create easy ChatBot interfaces.
+- Scope: First iteration - Base this on what was done in the [e-commerce chatbot](https://github.com/thisisqubika/data-studio-e-commerce)
+
+## Installation
+Instructions on how to install the project
+
+## Usage
+Instructions on how to use the project
+
+## Contributing
+Instructions on how to contribute to the project
+
+## References
+Link to references used in the project (Books, posts, videos, courses, repos, etc.)
+
