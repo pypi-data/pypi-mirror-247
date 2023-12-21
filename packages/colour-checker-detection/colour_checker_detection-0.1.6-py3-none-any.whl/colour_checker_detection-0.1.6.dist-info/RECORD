@@ -1,0 +1,14 @@
+colour_checker_detection/__init__.py,sha256=prOnnmBlp_967a7nk9ZuESr-pabMpva9rjt9NL8-0oA,2266
+colour_checker_detection/detection/__init__.py,sha256=sP5nwbbMxVkfzuQWA5BVFvtKJV-scem_Hn5ddA6CDpM,495
+colour_checker_detection/detection/segmentation.py,sha256=QEc6IeDsVD8Gb2OxMwai_odBQOa-VpPOEHYDwcV_Txs,37564
+colour_checker_detection/detection/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colour_checker_detection/detection/tests/test_segmentation.py,sha256=yJfbY6xwnr7e3eoQB5TI5c1pO2OJB4Hhrt1DllB4emY,25179
+colour_checker_detection/examples/examples_detection.ipynb,sha256=VwYCI9qmUeOA-gClZBKPqrIIgi8VYVlvFvFhv8A72gI,13195257
+colour_checker_detection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colour_checker_detection/resources/colour-checker-detection-examples-datasets/.git,sha256=hltdbEX9KD0ZTZLioGaymJOqx2dqzxZuF9bgSR4UXug,108
+colour_checker_detection/resources/colour-checker-detection-tests-datasets/.git,sha256=9eUI8R3j3_-uKbnIRQ1T5m5kTrg4EJ_qT3ixTP9Vv5s,105
+colour_checker_detection/resources/colour-checker-detection-tests-datasets/.gitignore,sha256=w55sIM4nQkkiH9_BCE9NyCq76QZXoVl3vWfRP4yPjY4,6
+colour_checker_detection-0.1.6.dist-info/LICENSE,sha256=b4JUzPQuFRn_HHtd6iyKhnGWJnF_6P0CTfPhH-d3Gu8,1465
+colour_checker_detection-0.1.6.dist-info/METADATA,sha256=b4Zn2slNvpNXiLUqvBfiAkCuRpEJ_WE9BvFZ43QEWmI,6610
+colour_checker_detection-0.1.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+colour_checker_detection-0.1.6.dist-info/RECORD,,
