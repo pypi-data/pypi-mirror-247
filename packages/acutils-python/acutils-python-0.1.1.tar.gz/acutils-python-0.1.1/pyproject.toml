@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acutils-python"
+version = "0.1.1"
+authors = [
+  { name="Acuzle", email="contact@acuzle.com" },
+  { name="ThomasPDM", email="thomaspdm@acuzle.com" },
+]
+maintainers = [
+  { name="Acuzle", email="contact@acuzle.com" },
+  { name="ThomasPDM", email="thomaspdm@acuzle.com" },
+]
+description = "Data processing library implemented by Acuzle."
+readme = "README.md"
+license = { text="Apache 2" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'numpy',
+  'joblib',
+  'pandas',
+  'openpyxl',
+  'xlrd >= 1.0.0'
+]
+
+[project.optional-dependencies]
+dependencies = [
+  'scikit-image',
+  'opencv-python',
+  'Pillow',
+  'openslide-python',
+  'cupy',
+  'cucim'
+]
+
+[project.urls]
+"repository" = "https://github.com/Acuzle/acutils"
+"Homepage" = "https://github.com/Acuzle/acutils"
+"Bug Tracker" = "https://github.com/Acuzle/acutils/issues"
