@@ -1,0 +1,10 @@
+LICENSE
+README.md
+check_iso8601_version_string.py
+setup.cfg
+setup.py
+check_iso8601_version_string.egg-info/PKG-INFO
+check_iso8601_version_string.egg-info/SOURCES.txt
+check_iso8601_version_string.egg-info/dependency_links.txt
+check_iso8601_version_string.egg-info/entry_points.txt
+check_iso8601_version_string.egg-info/top_level.txt

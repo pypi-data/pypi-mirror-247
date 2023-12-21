@@ -1,0 +1,2 @@
+[console_scripts]
+check-iso8601-version-string = check_iso8601_version_string:main
