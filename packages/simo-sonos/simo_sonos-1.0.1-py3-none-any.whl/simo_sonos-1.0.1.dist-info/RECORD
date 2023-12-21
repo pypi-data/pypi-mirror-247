@@ -1,0 +1,16 @@
+simo_sonos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simo_sonos/admin.py,sha256=fyPdsHW2q12fm74J1fGv1cJ_dbi1_CmEsBu6W4afZVI,799
+simo_sonos/controllers.py,sha256=3vFl4z0Ygcyp-rygvnTxeFJbODdHwymyU0ZkDJpztZ8,1231
+simo_sonos/forms.py,sha256=AtpAdOfOzqLl9FKDYps87K88k7G36HLXu7ofD-eEddA,260
+simo_sonos/gateways.py,sha256=G3DrrJ2aClbkn9DmAe3TQ0LFYBQHJv4RL1gWtpOWmno,10410
+simo_sonos/models.py,sha256=8oNIkCLKpdHEPfIrpmeRwAL9Om61MImhVNstD_-u8II,1068
+simo_sonos/utils.py,sha256=xYyjj5kS_XD-_3mj5dB_LOTt9MrgjB_-S1jkHO77_n0,140
+simo_sonos/migrations/0001_initial.py,sha256=iTYefkBraW1KHCpB5S-xYmlUo3cW9jQwMxO5PxsVWcA,1585
+simo_sonos/migrations/0002_rename_master_sonosplayer_slave_of.py,sha256=a-42xxNSSzmWY9aHmpmH93ybxFBaOrPyiMw_r_3_yPY,362
+simo_sonos/migrations/0003_alter_sonosplaylist_item_id.py,sha256=moeGrJYX5IXdtmxxUgNz2mifEhmc_uFFWAUCfr-Onnw,414
+simo_sonos/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simo_sonos-1.0.1.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+simo_sonos-1.0.1.dist-info/METADATA,sha256=G07psJZphkGOobqaXsR-3k6FVOhsd5WYuh1FdiOmYt4,565
+simo_sonos-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simo_sonos-1.0.1.dist-info/top_level.txt,sha256=8JY-t5Tq3cB5OI94RMMqZpoPMDhINwVa05WxQMG7qyk,11
+simo_sonos-1.0.1.dist-info/RECORD,,
