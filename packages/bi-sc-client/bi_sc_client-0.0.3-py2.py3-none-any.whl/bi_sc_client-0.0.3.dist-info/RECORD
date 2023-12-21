@@ -1,0 +1,13 @@
+bi_sc_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bi_sc_client/client.py,sha256=6Ttvr7a8XQdfRitMpvp3Xvl6vBiYrZPRODyMOAcwNsw,829
+bi_sc_client/errors.py,sha256=-MPXWnre2Iu3km7AktjYrP24TLfbtFvEHuKqXNB5jzU,44
+bi_sc_client/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bi_sc_client/resources/token.py,sha256=x_Qgtt_VOt1_Lo2ew91Vc3PldaqtEzN7kAiJIuZ4IVM,1124
+bi_sc_client/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bi_sc_client/services/notify_invoice_number.py,sha256=rubBDKK65yHaFVAcBaqyUYQMttMl1PzktGdEeL6bN5A,525
+tests/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/resources/test_token.py,sha256=7kGTrAs1AuMN6IvyW5XY9WwlqluCC42lU5tahXBdNJM,1441
+bi_sc_client-0.0.3.dist-info/METADATA,sha256=7j20CI5xTWJ1nVjgvLtBHzN3GUpaf6Kz_895B-GrTCo,4077
+bi_sc_client-0.0.3.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+bi_sc_client-0.0.3.dist-info/top_level.txt,sha256=rrKAd1TmMcTz1FnPfYlTEZHU2S-VjDoRz-7TaQu9y2U,19
+bi_sc_client-0.0.3.dist-info/RECORD,,
