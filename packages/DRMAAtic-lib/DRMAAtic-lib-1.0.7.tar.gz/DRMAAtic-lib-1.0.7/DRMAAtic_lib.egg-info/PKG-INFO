@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: DRMAAtic-lib
+Version: 1.0.7
+Summary: DRMAA interface for Slurm/SGE DRMs @ BioComputingUP lab
+Author: Alessio Del Conte
+Author-email: alessio.delconte@phd.unipd.it
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: drmaa
+
+# DRMAAtic-lib
+Scheduling libraries for DRMAAtic @BioCompUP, wrapping the ``drmaa-python`` library and adding the implementations
+for Slurm and SGE.
+
+## Installation
+```shell
+pip install DRMAAtic-lib
+```
+This will also pull the ``drmaa-python`` library. You can see the latest version of the library [here](https://pypi.org/project/DRMAAtic-lib/).
+
+## Requirements
+- Slurm or SGE installed
+- ``libslurm-dev`` library for Slurm or ``gridengine-dev`` for SGE, both downloadable with apt
+- ``libdrmaa`` C bindings for Slurm or SGE
+  - [slurm-drmaa](https://github.com/natefoo/slurm-drmaa) for Slurm
+- ``drmaa-python`` python library
+
+## ENV variables
+Set the env variables for the ``drmaa-python`` library. With PyCharm you can set this env variables in the run configuration.
+
+### SGE
+```shell
+export SGE_ROOT=/path/to/gridengine
+export SGE_CELL=default
+```
+### SLURM
+Set the path to the libdrmaa library C binding
+```shell
+export DRMAA_LIBRARY_PATH=/usr/lib/slurm-drmaa/libdrmaa.so
+```
