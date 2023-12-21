@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: brightwheel-photos
+Version: 0.4.0
+Summary: CLI tool for downloading a student's photos from Brightwheel.
+Author: Johnathan Gilday
+Author-email: me@johnathangilday.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow (>=10.1.0,<11.0.0)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: piexif (==1.1.3)
+Requires-Dist: plum-py (==0.3.1)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: urllib3 (==1.26.5)
+Description-Content-Type: text/markdown
+
+# Brightwheel Photos
+
+Python script for downloading a student's photos and videos from
+[Brightwheel](https://schools.mybrightwheel.com).
+
+My kid went to a daycare that used Brightwheel to communicate with parents and
+guardians. The teachers sent plenty of photos using Brightwheel. This script
+downloads them all so I can keep them.
+
+Each photo's EXIF data includes the original creation date and any message
+attached to the photo as a comment.
+
+## Use
+
+Install with `pipx install brightwheel-photos`
+
+```sh
+brightwheel-photos --email <brightwheel-account-email> --password <brightwheel-account-password> --directory ~/Photos/brightwheel
+```
+
+The program will exit when all the photos have been saved.
+
