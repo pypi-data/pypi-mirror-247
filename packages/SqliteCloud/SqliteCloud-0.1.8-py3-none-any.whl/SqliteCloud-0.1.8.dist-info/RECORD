@@ -1,0 +1,13 @@
+sqlitecloud/__init__.py,sha256=x251-fbcn8rATkvSMLIBz6j535zTcLDxgDQ9A0Ypgyw,18
+sqlitecloud/client.py,sha256=kPwtNbSgH-LwDcZBm1QunZEWfefm4se6C51AdaxUGuU,5202
+sqlitecloud/conn_info.py,sha256=lFMKFAU-RhGcy3INkvGjCBlTl4kW4neEPFxgbp79wTM,270
+sqlitecloud/driver.py,sha256=CRSucHN01yt6zZqwgMTssWsoMSOlIVsdc12mPhrHcGo,14778
+sqlitecloud/pubsub.py,sha256=f_hD4_YcNPL6I7ezLOXfeaPvKVrg08REjO9HzReUVX8,721
+sqlitecloud/resultset.py,sha256=acafbi2asv0hE39LOyMEDX-vnTrTIoOTg0oquGIZLOA,3659
+sqlitecloud/upload.py,sha256=62IAkFQVCddWY0XKK5YYlZCY3LpeMACpvsYcl6EiRAE,1027
+sqlitecloud/vm.py,sha256=Vc4__FIteqsQQSqQbLEc2RvdbK4bIdlTIvamYGhRX7c,4744
+sqlitecloud/wrapper_types.py,sha256=yz5RCJdIT_1_iKfvzabvXbrerF4fD66WWlru-0P67vk,1713
+SqliteCloud-0.1.8.dist-info/METADATA,sha256=gkRWd1wCvAQE8VgAp4sHJqX5XZ4-MNojmBOHZrAmyco,2505
+SqliteCloud-0.1.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+SqliteCloud-0.1.8.dist-info/top_level.txt,sha256=EHaMQzHXv8Ko3y5lGuMnXJ1ERdyZt394o1jhMBCYfNc,12
+SqliteCloud-0.1.8.dist-info/RECORD,,
