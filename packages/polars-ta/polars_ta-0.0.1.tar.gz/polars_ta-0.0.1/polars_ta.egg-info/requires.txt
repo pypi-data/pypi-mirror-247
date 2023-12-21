@@ -1,0 +1,3 @@
+polars
+numpy
+TA-Lib
