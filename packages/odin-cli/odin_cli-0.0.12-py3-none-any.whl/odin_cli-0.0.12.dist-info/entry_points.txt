@@ -1,0 +1,2 @@
+[console_scripts]
+odin-ask = odin_cli.ask:main
