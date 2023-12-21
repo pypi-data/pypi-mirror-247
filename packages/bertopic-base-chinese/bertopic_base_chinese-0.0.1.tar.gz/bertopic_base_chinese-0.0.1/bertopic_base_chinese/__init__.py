@@ -1,0 +1,1 @@
+from bertopic_base_chinese._model import BERTopic

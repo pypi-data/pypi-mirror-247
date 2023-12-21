@@ -1,0 +1,8 @@
+README.md
+setup.py
+bertopic_base_chinese/__init__.py
+bertopic_base_chinese/_model.py
+bertopic_base_chinese.egg-info/PKG-INFO
+bertopic_base_chinese.egg-info/SOURCES.txt
+bertopic_base_chinese.egg-info/dependency_links.txt
+bertopic_base_chinese.egg-info/top_level.txt
