@@ -1,0 +1,2 @@
+[console_scripts]
+fastgplearn = fastgplearn.cli.main:main

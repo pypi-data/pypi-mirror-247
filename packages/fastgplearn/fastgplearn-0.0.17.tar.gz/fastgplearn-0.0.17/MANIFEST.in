@@ -1,0 +1,8 @@
+include README.md
+include requirements.txt
+include LICENSE
+include */source/*.pyx
+include */source/*.cpp
+exclude */*script.py
+exclude *script.py
+exclude */*/*script.py
