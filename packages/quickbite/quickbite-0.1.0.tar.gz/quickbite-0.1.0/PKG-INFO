@@ -1,0 +1,194 @@
+Metadata-Version: 2.1
+Name: quickbite
+Version: 0.1.0
+Summary: A command-line tool to generate recipes based on available ingredients.
+Author: hafsahshaik
+Author-email: hs3373@columbia.edu
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# QuickBite: Recipe Generator
+
+### Modern Data Structures - Fall 2023
+### Columbia University QMSS
+### Hafsah T. Shaik
+
+## About
+QuickBite is a Python-based command-line application that generates cooking recipes based on user-inputted ingredients. It aims to promote cooking with available resources, reduce food waste, and simplify meal planning by utilizing data from various recipe and nutritional databases.
+
+This project is the final project for the Modern Data Structures class at Columbia University for Fall 2023.
+
+## Features
+
+- Fetch and display recipes from a vast collection using the Spoonacular API.
+- Gather and present nutritional data for ingredients using the Edamam API.
+- Generate recipes based on user-provided ingredients and dietary preferences.
+- Offer the ability to exclude certain ingredients from the recipe search.
+- Provide summary statistics about the recipes such as calorie count and preparation time.
+
+## Installation
+
+To install QuickBite, you will need Python 3.8 or later.
+
+### From PyPI
+
+Once QuickBite is available on PyPI, you can install it using pip:
+
+```bash
+pip install quickbite
+```
+
+### For Development
+
+If you wish to install QuickBite for development purposes, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/QuickBite.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd QuickBite
+```
+
+3. Install the package along with its dependencies:
+
+```bash
+poetry install
+```
+
+This will create a virtual environment with all the necessary dependencies installed.
+
+## Usage
+
+To use QuickBite, run the following command in your terminal:
+
+```bash
+quickbite
+```
+
+You will be prompted to enter the ingredients you have on hand, separated by commas:
+
+```plaintext
+Enter ingredients you have, separated by commas (e.g., eggs, flour, sugar):
+```
+
+Next, you can specify any ingredients you wish to exclude from the recipe suggestions:
+
+```plaintext
+Enter ingredients you want to exclude, separated by commas (e.g., nuts, dairy):
+```
+
+QuickBite will then display a list of recipes that match your ingredients, and you can select one to see more details, including the recipe's nutritional information and a list of all needed ingredients.
+
+Here's an example of command usage:
+
+```plaintext
+$ quickbite
+Welcome to the Recipe Generator!
+
+Enter ingredients you have, separated by commas (e.g., eggs, flour, sugar): chicken, rice
+
+Enter ingredients you want to exclude, separated by commas (e.g., nuts, dairy):
+
+Searching for recipes...
+
+Available recipes:
+1. Chicken and Rice Casserole
+2. Spicy Chicken Stir Fry
+3. Simple Chicken Biryani
+4. Chicken Fried Rice
+
+Enter the number of the recipe to get more information, or 'exit' to finish: 2
+
+Fetching details for recipe: Spicy Chicken Stir Fry...
+
+Nutritional Information:
+Calories: 300
+Protein: 25g
+...
+
+Ingredients List:
+- Chicken breast: 2 pieces
+- Rice: 1 cup
+- Bell pepper: 1
+- ...
+
+Would you like to start over? (yes/no): no
+```
+## Development Setup
+
+To set up a development environment for QuickBite:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/QuickBite.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd QuickBite
+   ```
+3. Install dependencies using Poetry:
+   ```bash
+   poetry install
+   ```
+4. Activate the virtual environment:
+   ```bash
+   poetry shell
+   ```
+5. Set up environment variables:
+   Copy `.env.example` to `.env` and populate it with your API keys.
+
+## Functions
+
+The application includes the following defined functions:
+
+- `search_recipes_by_ingredients`: Search for recipes based on a list of ingredients.
+- `search_recipes_excluding_ingredients`: Filter recipes by excluding certain ingredients.
+- `get_nutritional_data`: Retrieve nutritional information for a given ingredient.
+- `get_recipe_details`: Fetch detailed information about a specific recipe.
+- `get_user_ingredients`: Interactively get ingredients from the user.
+- `get_user_exclusions`: Interactively get ingredient exclusions from the user.
+- `display_recipes`: Display a list of recipes to the user.
+- `print_ingredients_list`: Print out a formatted list of ingredients.
+- `get_ingredients_for_recipe`: Extract and format ingredients for a specific recipe.
+- `format_nutritional_data`: Format and display nutritional data.
+
+## Challenges Faced and Solutions
+Throughout the development of QuickBite, several technical challenges were encountered:
+
+1. API Rate Limiting: Both Spoonacular and Edamam APIs have rate limits which initially hindered the ability to collect large amounts of data continuously. To overcome this, I implemented a caching system that stores API responses, thereby reducing the number of necessary calls for repeated data requests.
+
+2. Data Inconsistency: The data retrieved from the APIs had inconsistencies in formatting, especially with units of measurement for ingredients. I created a normalization function that standardizes the units and formats the ingredient data into a consistent structure.
+
+3. Error Handling: Various exceptions and errors such as timeouts and HTTP errors were frequent during API interaction. I utilized try-except blocks to handle these exceptions gracefully and ensure the application could continue running without crashing.
+
+4. Environment Management: Managing API keys securely while allowing the application to be used on different machines was a concern. I used environment variables to handle API keys, making the application more secure and portable.
+
+These challenges were met with a focus on robustness and user experience, ensuring that the final product was not only functional but also reliable and easy to use.
+
+## Contributing
+
+Contributions are welcome. Please open an issue to discuss your ideas or submit a Pull Request.
+
+## License
+
+QuickBite is open-sourced under the MIT License, which provides a permissive free software license that allows for reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice.
+
+For the full license text, see the [LICENSE](LICENSE) file.
+
+## Acknowledgements
+
+This project is submitted as a part of the final coursework for the Modern Data Structures class under the guidance of Dr. Thomas Brambor, Columbia University QMSS, Fall 2023.
+
+Data provided by:
+- [Spoonacular API](https://spoonacular.com/food-api/docs)
+- [Edamam API](https://developer.edamam.com/edamam-docs-recipe-api)
+
