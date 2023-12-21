@@ -1,0 +1,14 @@
+save_tabs/.DS_Store,sha256=M0Kd9Zl4R8NvVUik_TYASy6m7vctKOFsawY9xqc_Ghg,6148
+save_tabs/__init__.py,sha256=GZDJPwN7p_Hi9YHniiIA27zDY86MgEuiCu4VtaOXzJM,146
+save_tabs/advanced_cursor.py,sha256=Zvt2804650032imErbP3Yis162zvwfcLzqnxTgZFT5I,915
+save_tabs/common.py,sha256=Iz4Up71AVZMVpyLkXwe9vOMRmzb_Jt8wfd5HgKTVeCI,4579
+save_tabs/main.py,sha256=KqPlSZZKpDBPV-Rnoyzion_mZBr2xYmKyCVqokrUAN4,609
+save_tabs/save_tabs.py,sha256=v07rz7ZK1scyQ4nFEpZBLjs-Cnnk-dIeOCHa7yWN8tY,83
+save_tabs/user_input.py,sha256=GqUEW1ppDlmUYT7cf4jad9p2qwvfhC65Yk6qY9KSVn4,7229
+save_tabs/window_list_module.py,sha256=rymsabnhyRefqDBdGXZ9IeCS0oADQHVI5ZkXxAxVPBk,10498
+save_tabs/write_file.py,sha256=XuFJwUAwQIDZHtjGjlFIpsA2NY7OXn9UHtmKFnbUd2I,3683
+save_tabs-0.0.2.dist-info/METADATA,sha256=23hoHaEkNllzgFGQSolLETywl1J40DCLvvTB9cVJR0Y,1121
+save_tabs-0.0.2.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+save_tabs-0.0.2.dist-info/entry_points.txt,sha256=yCB85KHcwUA9Yufwb3lrgz3cMLR5qbJd2tuS_fnWsQs,49
+save_tabs-0.0.2.dist-info/licenses/LICENSE,sha256=qlQTQ8PwYjrbufCkPUpWl-lAZl975pXsmiu29ZlhFN0,1491
+save_tabs-0.0.2.dist-info/RECORD,,
