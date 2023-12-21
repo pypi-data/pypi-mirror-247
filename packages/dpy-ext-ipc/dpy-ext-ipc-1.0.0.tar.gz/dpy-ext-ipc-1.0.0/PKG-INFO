@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dpy-ext-ipc
+Version: 1.0.0
+Summary: An improved IPC for discord.py
+Home-page: https://github.com/DA-344/d.py-ext-ipc
+Author: Dev Anony
+License: MIT
+Project-URL: Source, https://github.com/DA-344/d.py-ext-ipc
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.5.3
+Provides-Extra: docs
+License-File: LICENSE

@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+discord/ext/ipc/__init__.py
+discord/ext/ipc/client.py
+dpy_ext_ipc.egg-info/PKG-INFO
+dpy_ext_ipc.egg-info/SOURCES.txt
+dpy_ext_ipc.egg-info/dependency_links.txt
+dpy_ext_ipc.egg-info/requires.txt
+dpy_ext_ipc.egg-info/top_level.txt
