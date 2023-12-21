@@ -1,0 +1,9 @@
+README.md
+setup.py
+danpdf/__init__.py
+danpdf/pdf2image.py
+danpdf/pdf2text.py
+deezy99pdf.egg-info/PKG-INFO
+deezy99pdf.egg-info/SOURCES.txt
+deezy99pdf.egg-info/dependency_links.txt
+deezy99pdf.egg-info/top_level.txt
