@@ -1,0 +1,9 @@
+odin_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odin_cli/ask.py,sha256=Ozr6ZQDVkEPWeFD7Fl4UTBTBM2qbV8j0Uanpu8M8mRI,488
+odin_cli/service_interface.py,sha256=szRkU-cPF-Hosjrh7gJTg0z56HuedG-Z7jNGhgyaEbU,325
+odin_cli/utils.py,sha256=MA-FH_LBdkfAz3wTiJjKd_Cut32iXNGsM2xvYpUHEmg,4977
+odin_cli-0.0.13.dist-info/METADATA,sha256=xh8c7FWSw6dGlnRjcaA1kJTqb0hWioG2oXi6k06YO-w,4741
+odin_cli-0.0.13.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+odin_cli-0.0.13.dist-info/entry_points.txt,sha256=LsW3WRGT9BeSmAPmP8YdGn3yyVYRONnL-eva52YevCg,47
+odin_cli-0.0.13.dist-info/licenses/LICENSE,sha256=le2sU_FVDU4cPYZ7xeK0rymqvMKi-rRnFpjmqM0Gs-s,1075
+odin_cli-0.0.13.dist-info/RECORD,,
