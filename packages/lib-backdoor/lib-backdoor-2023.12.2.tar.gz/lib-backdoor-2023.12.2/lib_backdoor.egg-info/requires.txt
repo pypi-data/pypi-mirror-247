@@ -1,0 +1,5 @@
+torch
+torchvision
+pilgram
+tqdm
+pyyaml
