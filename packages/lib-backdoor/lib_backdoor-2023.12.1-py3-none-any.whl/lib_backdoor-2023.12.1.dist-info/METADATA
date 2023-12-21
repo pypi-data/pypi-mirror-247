@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lib-backdoor
+Version: 2023.12.1
+Summary: Backdoor Attack / Defense Toolkit
+Home-page: https://github.com/l1teng/lib_backdoor
+Author: Terry Li
+Author-email: i@terrytengli.com
+License: GPL v3.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pilgram
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+
+Lib Backdoor
+============
+
+Backdoor Attack / Defense Toolkit
+
+``
+pip install -v -e .
+``
