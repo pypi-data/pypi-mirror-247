@@ -1,0 +1,2 @@
+"""A python package for learning contextual features from (semi-)continuous NetFlow feature data, with the aim to improve machine learning models for network anomaly detection."""
+from .encode import encode
