@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="85px" viewBox="0 0 115 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="113.977778" height="44"></rect>
+            <rect id="Rectangle-Copy" fill="#000000" x="0.511111111" y="41" width="113.977778" height="44"></rect>
+            <text id="SMCE" font-family="Bebas-Regular, Bebas" font-size="31" font-weight="normal" fill="#000000">
+                <tspan x="28.852" y="33">SMCE</tspan>
+            </text>
+            <text id="SERVICES" font-family="Bebas-Regular, Bebas" font-size="31" font-weight="normal" fill="#FFFFFF">
+                <tspan x="10.0275" y="75">SERVICES</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
