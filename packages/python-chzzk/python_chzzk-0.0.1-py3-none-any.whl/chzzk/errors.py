@@ -1,0 +1,2 @@
+class ChzzkError(Exception):
+    pass
