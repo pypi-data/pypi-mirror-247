@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/mujoco-mocapper
+mujoco_mocapper/__init__.py
+mujoco_mocapper/mocap_move.py
+mujoco_mocapper/mujoco_mocapper.py
+mujoco_mocapper/xml_view.py
+mujoco_mocapper.egg-info/PKG-INFO
+mujoco_mocapper.egg-info/SOURCES.txt
+mujoco_mocapper.egg-info/dependency_links.txt
+mujoco_mocapper.egg-info/requires.txt
+mujoco_mocapper.egg-info/top_level.txt
+test/test_mujoco_mocapper.py
