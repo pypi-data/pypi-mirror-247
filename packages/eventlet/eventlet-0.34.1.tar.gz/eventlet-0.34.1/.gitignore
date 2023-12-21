@@ -1,0 +1,11 @@
+# please keep this file sorted
+*.egg*
+*.pyc
+.*
+build/
+.coverage
+coverage.xml
+dist/
+doc/changelog.rst
+venv*
+website-build/
