@@ -1,0 +1,12 @@
+streamlit_component_video/__init__.py,sha256=DvcgycQ_P_eBxtTPz_SXnkTOcL5muVNUJKCY2vcMs-0,1907
+streamlit_component_video/frontend/index.html,sha256=uqeDaOTgixtqmXs8_waB47Eqdzi0ZFTzAsvLs1-9omE,381
+streamlit_component_video/frontend/main.js,sha256=6qpJpgDt0s5CcF5RpdBkmhaSYFSqd7zHGsQqklYr8Yg,403
+streamlit_component_video/frontend/streamlit-component-lib.js,sha256=XaVch9PQQQnUbZimSDRX22HkQXOl5Yn3qvkq61hizXM,1630
+streamlit_component_video/frontend/style.css,sha256=N3pHvCk3NZh-t_meu7-KNiul7HGuj9HxB_wL_bwGvik,50
+streamlit_component_video/frontend/video-js.min.css,sha256=SIdhduy1z2zbjn2RyNY7ifa8P6j7S2ellcClmUCkM6Y,45950
+streamlit_component_video/frontend/video.min.js,sha256=CZC5BdKkEajynAUCRYQZuRky50DMZrGsoSgXnL7eWGc,625751
+streamlit_component_video-0.1.0.dist-info/LICENSE,sha256=9-pRni8DXDPNMvnnadMwWrNtTqyTPgxEba3ruF37MLE,1066
+streamlit_component_video-0.1.0.dist-info/METADATA,sha256=GSulS3VC73NJVFa74eHzezBvC5bnnVUbjPgEMtxByoY,598
+streamlit_component_video-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_component_video-0.1.0.dist-info/top_level.txt,sha256=_xTEZ5IGqPvrNgcblzlgGl75O5cOgVv4vmRJHnAPJmQ,26
+streamlit_component_video-0.1.0.dist-info/RECORD,,
