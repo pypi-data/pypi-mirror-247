@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+medconf.egg-info/PKG-INFO
+medconf.egg-info/SOURCES.txt
+medconf.egg-info/dependency_links.txt
+medconf.egg-info/top_level.txt
