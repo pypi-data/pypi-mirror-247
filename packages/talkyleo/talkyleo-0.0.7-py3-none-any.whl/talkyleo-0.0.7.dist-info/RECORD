@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leo/main.py,sha256=kFtr-nUR-RxTNACLehmZeLo_-EnTVQDHmT5fsnynkqs,5
+leo/polly_tts.py,sha256=RUbNPy3iwzOjU8gg06SgopkAhIfv6kLsOCL3ZrQl1_s,935
+leo/setup.py,sha256=_4_u6ACNoD_RICEorSdPPkj-QvmuUaruXDJrfJ9P7qI,307
+talkyleo-0.0.7.dist-info/LICENSE,sha256=8FENO50SI8Rej90rSScOyHNP_0kcf30blI7nAWLhzv8,1210
+talkyleo-0.0.7.dist-info/METADATA,sha256=v4fIwjB3WIR35rbVSNG1LTcQ2zZoLzvANr0H1JR0-bU,647
+talkyleo-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+talkyleo-0.0.7.dist-info/top_level.txt,sha256=e-kfHSCXarNTwTy5yAuEWcqelRp8IVLepNcA9OWy4Xg,13
+talkyleo-0.0.7.dist-info/RECORD,,
