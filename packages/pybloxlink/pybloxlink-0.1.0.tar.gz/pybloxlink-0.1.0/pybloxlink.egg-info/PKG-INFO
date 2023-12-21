@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pybloxlink
+Version: 0.1.0
+Summary: An API wrapper for the Bloxlink API.
+Home-page: https://github.com/acatiadroid/pybloxlink
+Author: acatiadroid
+Author-email: <acatia@mail.com>
+License: The MIT License (MIT)
+Project-URL: Issues, https://github.com/acatiadroid/pybloxlink/issues
+Keywords: python,bloxlink,api wrapper
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: aiohttp
+
+<div align="center">
+    <h1>PyBloxlink</h1>
+    <h3>An API wrapper for the <a href="https://blox.link">blox.link</a> API.</h3>
+    <img src="https://img.shields.io/pypi/v/pybloxlink.svg">
+</div>
