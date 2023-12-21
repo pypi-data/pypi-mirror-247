@@ -1,0 +1,11 @@
+HLAfreq/HLAfreq.py,sha256=gRhjlSxcSm6uYBqyS9JLR-OObnyQGOH5mPkSUl302jY,28786
+HLAfreq/HLAfreq_data.py,sha256=4d_-Plz9sWgvMmT1IZCDHZurzISbVzIAGG7x9TQ2rTI,408
+HLAfreq/HLAfreq_pymc.py,sha256=LCWzRxW5uWqPeho5Q8BpejdtpBbqkQ8jgfsgH7TmimM,6655
+HLAfreq/__init__.py,sha256=hFZJptG1MtQ_4HMvXLfRsUQwGaURpCFiMPTzJ6qxx3o,23
+HLAfreq/data/HLA1supertypes_Sidney2008.csv,sha256=JYcpSVbDhMm--tujyrdQHsLFaUrcWOkHnjw1yvmKqjU,12117
+HLAfreq/data/countries.csv,sha256=J5uLTSIv8L4YGqMC4dpuRm2rWoRz9fu2XLYPoUpPbxc,8988
+HLAfreq-0.0.3.dist-info/LICENSE,sha256=1uWBppkyOz-NnKQu7i0n846cYfDMuoWa2uFXRN9cEvg,1070
+HLAfreq-0.0.3.dist-info/METADATA,sha256=5UseBh786pzYY7Tqpq8tS-4zI7yfkyRehTD3LoavxaY,6010
+HLAfreq-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+HLAfreq-0.0.3.dist-info/top_level.txt,sha256=nOkXpuayfwHQDlk3jQbrB63e5ZA7_aZt5pC_mIWOHL0,8
+HLAfreq-0.0.3.dist-info/RECORD,,
