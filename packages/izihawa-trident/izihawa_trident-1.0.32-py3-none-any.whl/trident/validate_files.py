@@ -1,0 +1,44 @@
+import glob
+import os
+import zipfile
+
+import fire
+from pypdf import PdfReader
+from pypdf.errors import PdfReadError
+
+
+def test_pdf(filepath):
+    try:
+        PdfReader(filepath)
+    except PdfReadError:
+        return False
+    return True
+
+
+def test_epub(filepath):
+    the_zip_file = zipfile.ZipFile(filepath)
+    ret = the_zip_file.testzip()
+    if ret is not None:
+        return False
+    return True
+
+
+def validate_files(path, report_path):
+    with open(report_path, 'w') as report_file:
+        for infile in glob.iglob(os.path.join(path, '*.*')):
+            print('test', infile)
+            filename = os.path.basename(infile)
+            _, extension = infile.rsplit('.', 1)
+            match extension:
+                case 'pdf':
+                    if not test_pdf(infile):
+                        report_file.write(filename + '\n')
+                case 'epub':
+                    if not test_epub(infile):
+                        report_file.write(filename + '\n')
+                case _:
+                    print('unknown file', filename)
+
+
+def main():
+    fire.Fire(validate_files)
