@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: econarena
+Version: 0.0.4
+Summary: PyPI of Economic Arena
+License: MIT
+Author: Dianbo Sui
+Author-email: suidianbo@hit.edu.cn
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.8.0,<0.9.0)
+Requires-Dist: google-generativeai (>=0.3.2,<0.4.0)
+Requires-Dist: grpcio (>=1.60.0,<2.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: openai (>=0.27.10,<0.28.0)
+Requires-Dist: pandas (>=2.1.0,<3.0.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+# Economic Arena for Large Language Models
+
+## Current Version
+0.0.4
+
+## Integrated LLM agent
+| Series          | Models                 |
+|-----------------|------------------------|
+| OpenAI          | gpt-3.5, gpt-4         |
+| Google DeepMind | PaLM2, Gemini-Pro      |
+| Anthropic       | Claude, Claude-instant |
+| Baichuan AI     | Baichuan2              |
+
+## To use this package
+
+Python requires **>= 3.9**
+
+### 1. Install the package
+```
+pip install econarena
+```
+
+### 2. Write your script
+In `example.py` you can write your script and run it.
+
+To successfully run a script, you have to complete 3 steps in the script:
+
+1. initial a `Host` instance
+2. set api configurations
+3. run the game and fetch the result
+
+After that, just call `python example.py` and start your game with LLMs!
