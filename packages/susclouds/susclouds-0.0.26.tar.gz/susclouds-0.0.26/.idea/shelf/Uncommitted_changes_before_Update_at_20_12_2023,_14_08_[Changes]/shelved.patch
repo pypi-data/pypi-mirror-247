@@ -1,0 +1,19 @@
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[build-system]\nrequires = [\"hatchling\"]\nbuild-backend = \"hatchling.build\"\n\n[project]\nname = \"susclouds\"\nversion = \"0.0.25\"\nauthors = [\n  { name=\"Philip Dunn\", email=\"philip@susmon.com\" },\n]\ndescription = \"\"\nreadme = \"README.md\"\nrequires-python = \">=3.7\"\nclassifiers = [\n    \"Programming Language :: Python :: 3\",\n    \"License :: OSI Approved :: MIT License\",\n    \"Operating System :: OS Independent\",\n]\ndependencies = [\n    \"matplotlib\",\n    \"numpy\",\n    \"openpyxl\",\n    \"pandas\",\n    \"wordcloud\",\n]\n\n[project.urls]\n\"Homepage\" = \"https://gitlab.com/susmon/visualisation-scripts\"\n\"Bug Tracker\" = \"https://gitlab.com/susmon/visualization-scripts/issues\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	(revision 4d4d52935417895b239bc81a4aa7ba5042406d56)
++++ b/pyproject.toml	(date 1697023131203)
+@@ -4,7 +4,7 @@
+ 
+ [project]
+ name = "susclouds"
+-version = "0.0.25"
++version = "0.0.26"
+ authors = [
+   { name="Philip Dunn", email="philip@susmon.com" },
+ ]
