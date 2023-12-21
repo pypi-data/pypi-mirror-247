@@ -1,0 +1,31 @@
+[project]
+name = "mra_vis"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Daniel Provder", email = "dxp755@miami.edu"},
+]
+dependencies = [
+    "intake[all]>=0.7.0",
+    "pyyaml>=6.0.1",
+    "requests>=2.31.0",
+    "pandas>=2.1.4",
+    "hvplot>=0.9.0",
+    "cartopy>=0.22.0",
+    "geoviews>=1.11.0",
+    "pyproj>=3.6.1",
+    "aiohttp>=3.9.1",
+    "geopandas>=0.14.1",
+    "intake-geopandas>=0.4.0",
+    "dask-geopandas>=0.3.1",
+    "jupyter>=1.0.0",
+    "intake-duckdb>=0.1.2",
+    "jupyterlab-night>=0.4.6",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
