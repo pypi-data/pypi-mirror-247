@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/CustomLogBK.egg-info/PKG-INFO
+src/CustomLogBK.egg-info/SOURCES.txt
+src/CustomLogBK.egg-info/dependency_links.txt
+src/CustomLogBK.egg-info/top_level.txt
+src/customlog/CustomLog.py
+src/customlog/__init__.py
