@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+favitech/__init__.py
+favitech/__main__.py
+favitech/fingerprints.py
+favitech/version.py
+favitech.egg-info/PKG-INFO
+favitech.egg-info/SOURCES.txt
+favitech.egg-info/dependency_links.txt
+favitech.egg-info/entry_points.txt
+favitech.egg-info/requires.txt
+favitech.egg-info/top_level.txt

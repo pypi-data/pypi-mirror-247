@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: favitech
+Version: 0.0.1
+Summary: Detect web technologies based on favicons
+Home-page: https://gitlab.com/Zer1t0/favitech
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mmh3==2.5.1
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# favitech
+
+Detect web technologies based on favicons. Improved version of [FavFreak](https://github.com/devanshbatham/FavFreak).
+
+## Usage
+
+```
+$ subfinder -silent -d mydomain.com | httpx -silent | favitech -k
+https://big-itsmapi.mydomain.com ASP.net 1772087922
+http://azureconsumer.mydomain.com Windows Azure -2125083197
+http://files.mydomain.com Windows Azure -2125083197
+https://manage.prod.apac.ngps.mydomain.com React -2009722838
+```
