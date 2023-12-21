@@ -1,0 +1,12 @@
+belorthography/__init__.py,sha256=t-qHPlnpcuujitNObZtkiWVQv0In4EJrCxZIZAM3cLw,66
+belorthography/diff_mode.py,sha256=PLrS4bkeej3bbqd67uq_AKjOndhCDbzyXFty81Awv4Q,610
+belorthography/engine.py,sha256=6YiHKVyzUQ9ZGeIeN03Np-WlcdvCzX2J3YDgnDTiuFw,1324
+belorthography/orthographies.py,sha256=b0m4CTf9Pga2Rnrjpt9nru2eudjp9JxIRNBZhpRew6I,658
+belorthography/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+belorthography/converters/translit_cyr_nar_to_cyr_taras.py,sha256=Q9pxBOSHVHmFLvw2qBss8PBZn59btb1RGFZ-tk3LP6w,3584
+belorthography/converters/translit_cyr_taras_to_lat.py,sha256=hbagpIGtvI3WOtS5u1yz2G9ryXi7NGfnv-_jKsP2snw,4426
+belorthography/converters/translit_lat_to_lat_no_diactric.py,sha256=8ejhzSOF-qKAig7d7N--fQZDT6Huxxm14tQuVImkTEw,450
+belorthography/converters/util.py,sha256=vAjd0pBRoV-N053o5Z7n7YXGbY4Wyw1WMs2_C1BYqd0,1488
+belorthography-1.0.0.dist-info/METADATA,sha256=y4uLzzcymYWGDMWa_ecOquS55WXv9DhZPh01BVFA2pQ,2963
+belorthography-1.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+belorthography-1.0.0.dist-info/RECORD,,
