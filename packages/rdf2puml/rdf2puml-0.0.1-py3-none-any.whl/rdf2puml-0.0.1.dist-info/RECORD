@@ -1,0 +1,10 @@
+rdf2puml/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+rdf2puml/group.py,sha256=lGmsjUnaXy8inYcBVwWoau012GZyXSXSiFTsYWobtEI,1045
+rdf2puml/pumlmodel.py,sha256=Gw8yDh0vZpU5pgLmI2gKUCbyu4YFWkP-Y9Cm1Lwpc5E,4171
+rdf2puml/rdf2puml.py,sha256=Tdql7d9Dh6hQdqjtK_zAyzjTKStlotw3XiM6gXfhBw8,4297
+rdf2puml-0.0.1.data/scripts/rdf2puml,sha256=2zeF6wlhXlERixPGGEAM_q_klan4OCkMenlPdkYLn4E,1559
+rdf2puml-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+rdf2puml-0.0.1.dist-info/METADATA,sha256=yqZBt7T_ESpoK3realcukRzK-hr8CQqsuHzipVfq2QI,1147
+rdf2puml-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rdf2puml-0.0.1.dist-info/top_level.txt,sha256=TCJrIFr_0DPzHa7PStHfzlmwhavKj0WswEAp8s6vFm0,9
+rdf2puml-0.0.1.dist-info/RECORD,,
