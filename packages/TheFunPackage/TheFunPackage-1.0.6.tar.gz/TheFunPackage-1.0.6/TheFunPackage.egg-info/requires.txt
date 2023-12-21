@@ -1,0 +1,5 @@
+PySyst
+colorama
+requests
+pyjokes
+randfacts
