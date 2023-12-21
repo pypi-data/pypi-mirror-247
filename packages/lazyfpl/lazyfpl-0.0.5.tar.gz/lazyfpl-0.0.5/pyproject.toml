@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "lazyfpl"
+version = "0.0.5"
+description = "Fantasy Premier League Team Optimizer - Win at FPL with lazines"
+authors = ["JB Lovland <janbjorge@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = [
+    "fantasy premier league",
+    "FPL",
+    "data analysis",
+    "machine learning",
+    "team optimization",
+    "sports analytics",
+    "python",
+    "football data",
+    "soccer statistics",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python",
+    "Topic :: Games/Entertainment",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/janbjorge/lazyFPL"
+Repository = "https://github.com/janbjorge/lazyFPL"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.2"
+pydantic = "^2.5.2"
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+numpy = "^1.26.2"
+python-dateutil = "^2.8.2"
+pytz = "^2023.3.post1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+mypy = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+ignore = [
+    "C901",
+]
+select = [
+    "C",
+    "E",
+    "F",
+    "I",
+    "PIE",
+    "Q",
+    "RET",
+    "RSE",
+    "SIM",
+    "W",
+    # "C90",
+    # "NPY",
+    # "PD",
+    # "PL",
+]
+line-length = 88
+[tool.ruff.lint.isort]
+combine-as-imports = true
