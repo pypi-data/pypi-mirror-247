@@ -1,0 +1,12 @@
+README.md
+setup.py
+magnifai_aut_sdk/__init__.py
+magnifai_aut_sdk/aut_auth.py
+magnifai_aut_sdk/aut_properties.py
+magnifai_aut_sdk/magnifai.py
+magnifai_aut_sdk.egg-info/PKG-INFO
+magnifai_aut_sdk.egg-info/SOURCES.txt
+magnifai_aut_sdk.egg-info/dependency_links.txt
+magnifai_aut_sdk.egg-info/requires.txt
+magnifai_aut_sdk.egg-info/top_level.txt
+tests/test_sdk_api.py
