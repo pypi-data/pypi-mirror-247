@@ -1,0 +1,7 @@
+[console_scripts]
+adhawkipd = frontend.frontend_ipd:main
+
+[gui_scripts]
+adhawk_video_demo = frontend.frontend_gaze_in_image:main
+adhawkdemo = frontend.frontend_diag:main
+

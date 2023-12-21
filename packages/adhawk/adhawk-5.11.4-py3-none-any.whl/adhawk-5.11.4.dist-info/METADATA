@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: adhawk
+Version: 5.11.4
+Summary: AdHawk Microsystems SDK
+Home-page: http://www.adhawkmicrosystems.com/
+Author: AdHawk Microsystems
+Author-email: info@adhawkmicrosystems.com
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy
+
+UNKNOWN
+
+
