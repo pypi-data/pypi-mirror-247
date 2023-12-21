@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+talkyleo/__init__.py
+talkyleo/polly.py
+talkyleo/tts.py
+talkyleo.egg-info/PKG-INFO
+talkyleo.egg-info/SOURCES.txt
+talkyleo.egg-info/dependency_links.txt
+talkyleo.egg-info/requires.txt
+talkyleo.egg-info/top_level.txt
