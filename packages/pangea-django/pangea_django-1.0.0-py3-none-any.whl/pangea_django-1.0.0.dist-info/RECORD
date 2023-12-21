@@ -1,0 +1,5 @@
+pangea_django/__init__.py,sha256=fFKH31LYnvE5tHQqqaBBIrt8tuRIQGVKr70D0lgLkJw,110
+pangea_django/pangea_django_auth.py,sha256=P2_RMCVwptNoWZFTfDYvFCu9GxEbr8mz0VD8df3qOFY,5223
+pangea_django-1.0.0.dist-info/METADATA,sha256=z35yAEj5gFnPg_WevELAJUqbJWTfaXdcXTFXKYaUSZs,4220
+pangea_django-1.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pangea_django-1.0.0.dist-info/RECORD,,
