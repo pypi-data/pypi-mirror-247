@@ -1,0 +1,15 @@
+garf/__init__.py,sha256=7irLJQZ0gAwXK-x48fkfuhFu5aw2lrhrNSsE655wzxk,56
+garf/helpers.py,sha256=nzcWl7am-brvc7k3vloj0PU5kZDiBveas0VGR8TFUIg,6137
+garf/nn.py,sha256=l7s-I72uarjNUl3uojLtZNEaQXaZXmFKY2KEEGDYJ5g,19928
+garf/nn_model.py,sha256=_07IG81WrZTiUlXM2LDmGBI1S-QZGGk2Y-PAzLktZ0M,1090
+garf-2.5.data/scripts/garf_compare_image_profile,sha256=98Vr5NCDEjtugWYoLaeDQb0Mb9WNOW-bjxurtLeGx2I,3565
+garf-2.5.data/scripts/garf_nn_info,sha256=gfvOlzCe-FSx-jZhOwDpbYTRWxOfss2bPhVXI1dGhWM,796
+garf-2.5.data/scripts/garf_plot_test_dataset,sha256=jDoymFABSGEV-XKt8Zae1jt2QDofeOjAX3TclRFQa1U,1662
+garf-2.5.data/scripts/garf_plot_training_dataset,sha256=4ZyhWAQ5eQ8Z9urcbVjahEuMMTDNH-bb2NBssUbrjsU,1531
+garf-2.5.data/scripts/garf_train,sha256=viZkFRkoQ1yUc2rmVJipdTLwX8cZkrbKbBffyjKZPkM,1835
+garf-2.5.data/scripts/pytorch_info,sha256=N9nvdwD4-lme3b0e5JOYok3Al9Bj0N-eGa8_eSugRFQ,959
+garf-2.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+garf-2.5.dist-info/METADATA,sha256=wqTgYTg2RZbz8_zJK2X2CkwxVtLIuusCCUTS98Qt8s0,1916
+garf-2.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+garf-2.5.dist-info/top_level.txt,sha256=quVCHL_G2WL1z3J-0o5MqoxIPIZsKPrsbL5MeDWnUkk,5
+garf-2.5.dist-info/RECORD,,
