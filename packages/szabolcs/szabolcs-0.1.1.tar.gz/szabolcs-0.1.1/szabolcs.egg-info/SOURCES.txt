@@ -1,0 +1,7 @@
+pyproject.toml
+szabolcs/__init__.py
+szabolcs.egg-info/PKG-INFO
+szabolcs.egg-info/SOURCES.txt
+szabolcs.egg-info/dependency_links.txt
+szabolcs.egg-info/requires.txt
+szabolcs.egg-info/top_level.txt
