@@ -1,0 +1,13 @@
+twyleg_kicad_utils/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+twyleg_kicad_utils/__main__.py,sha256=xKQzKXhx64_WlHDbXpQfvRng16v1wEDlnmKND1ls4Ko,77
+twyleg_kicad_utils/_version.py,sha256=jdB5maAn2EXiWehW2fvw2C5VpVTDWgx6nxQjBzNQXqw,497
+twyleg_kicad_utils/build.py,sha256=cMdj3JRTPspFdoSGKK5vil1u5Z7bmzJvc7IZRFvip5g,386
+twyleg_kicad_utils/diff.py,sha256=BE39vBJ945k_Ccdeb9PoR-GjP5dC67W9OMoKPU1Hfbg,327
+twyleg_kicad_utils/main.py,sha256=cFvLBgEM6bkQPC5Q9NSbfkjS3fFtI6F9VP7wC3cAkOc,3678
+twyleg_kicad_utils/submodules.py,sha256=RLiw2XkvWSVZdQJCC3yhw2IbFl1beCvFIWVZ5-RhM_4,990
+twyleg_kicad_utils-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+twyleg_kicad_utils-0.2.2.dist-info/METADATA,sha256=SRTXaoCtTgi0jGWQjGy8poYvFH_40fH6P_3XJXNNoQQ,1618
+twyleg_kicad_utils-0.2.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+twyleg_kicad_utils-0.2.2.dist-info/entry_points.txt,sha256=xCUG5VNABCaWSeScg6V8JTc_SMVKWd5HSmdSiDwcfzM,111
+twyleg_kicad_utils-0.2.2.dist-info/top_level.txt,sha256=Vpb-OGKxdA1isi2hLiYGF_FeRC7Jw-IBRrzG_DSa8C0,19
+twyleg_kicad_utils-0.2.2.dist-info/RECORD,,
