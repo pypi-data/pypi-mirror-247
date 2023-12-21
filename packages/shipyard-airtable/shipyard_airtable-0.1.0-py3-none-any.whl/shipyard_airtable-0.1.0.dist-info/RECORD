@@ -1,0 +1,7 @@
+shipyard_airtable/__init__.py,sha256=qJzEYb6gyUCzhHa8PGnWNNtD5Rbhn-Rl2Vyg-lzWvCU,37
+shipyard_airtable/airtable.py,sha256=YsamIMztc88FdF14mKW2RCmKvNQ0FaGmKN3bfCFLe4E,687
+shipyard_airtable/cli/authtest.py,sha256=rlaTOYTT-v6ekUGog-viQ7btus42_raXQaAWm_CYLZY,368
+shipyard_airtable/cli/download_file.py,sha256=kwZzVAux7Yio8cHVtlzT9XWDEq46zkuMhDgUWFoR9tI,4455
+shipyard_airtable-0.1.0.dist-info/METADATA,sha256=D9jXAhWg1A4uLYaUmQ-olL_s8B6vlr7ki3mDxB9cmew,629
+shipyard_airtable-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_airtable-0.1.0.dist-info/RECORD,,
