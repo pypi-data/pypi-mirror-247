@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/customdicts/__init__.py
+src/customdicts/__main__.py
+src/customdicts.egg-info/PKG-INFO
+src/customdicts.egg-info/SOURCES.txt
+src/customdicts.egg-info/dependency_links.txt
+src/customdicts.egg-info/top_level.txt
