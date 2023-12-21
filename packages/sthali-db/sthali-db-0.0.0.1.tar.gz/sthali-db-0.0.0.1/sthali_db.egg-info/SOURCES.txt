@@ -1,0 +1,5 @@
+pyproject.toml
+sthali_db.egg-info/PKG-INFO
+sthali_db.egg-info/SOURCES.txt
+sthali_db.egg-info/dependency_links.txt
+sthali_db.egg-info/top_level.txt
