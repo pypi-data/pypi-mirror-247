@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: moo-chem
+Version: 0.0.1
+Summary: Molecule Overlap Optimizer (MOO)
+Author: Markus Orsi
+Author-email: <markus.orsi@unibe.ch>
+Keywords: cheminformatics,moo
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+RDKit wrapper to generate 3D structures with maxmium overlap.
