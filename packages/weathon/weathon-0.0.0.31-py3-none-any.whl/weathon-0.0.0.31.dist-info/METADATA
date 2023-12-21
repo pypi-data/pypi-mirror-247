@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: weathon
+Version: 0.0.0.31
+Summary: weathon: a personal Weapon Depot for python, so called weathon.
+Home-page: https://github.com/LiZhen0628
+Author: LiZhen
+Author-email: 16621660628@163.com
+Keywords: python,nlp,science,cv,speech,multi-modal
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: mmh3 ==3.0.0
+Requires-Dist: numpy
+Requires-Dist: oss2
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: tqdm
+Requires-Dist: openai
+Requires-Dist: semantic-kernel
+Requires-Dist: pyaes
+Provides-Extra: all
+
+# weathon_package
+a personal Weapon Depot for python, so called weathon.
