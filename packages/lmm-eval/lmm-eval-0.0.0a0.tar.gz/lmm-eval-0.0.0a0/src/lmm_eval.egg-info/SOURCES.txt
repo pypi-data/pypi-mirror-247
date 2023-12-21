@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/lmm-eval/__init__.py
+src/lmm_eval.egg-info/PKG-INFO
+src/lmm_eval.egg-info/SOURCES.txt
+src/lmm_eval.egg-info/dependency_links.txt
+src/lmm_eval.egg-info/top_level.txt

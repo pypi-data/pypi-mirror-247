@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lmm-eval
+Version: 0.0.0a0
+Summary: LMM-Eval
+Author: Fanyi Pu
+Author-email: FPU001@e.ntu.edu.sg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+LLM-EVAL
+
+Coming soon...
