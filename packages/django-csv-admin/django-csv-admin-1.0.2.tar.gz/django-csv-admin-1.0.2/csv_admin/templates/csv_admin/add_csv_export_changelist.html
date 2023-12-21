@@ -1,0 +1,71 @@
+{% extends 'admin/change_list.html' %}
+{% load admin_list i18n admin_list admin_urls static %}
+{% block extrahead %}
+    {{ block.super }}
+    {{ media.js }}
+    <script src="{% static 'admin/js/filters.js' %}" defer></script>
+    <style>
+        .action-buttons {
+            margin: 10px;
+        }
+        .grp-button {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', ev => {
+
+            document.getElementById('file_submit').addEventListener('click', async e => {
+                e.preventDefault()
+                const upload = document.getElementById('file').files[0]
+                let formData = new FormData()
+                formData.append("file", upload)
+                await fetch(e.srcElement.getAttribute('href'), {method: 'POST', body: formData})
+                location.reload()
+            })
+            const saveData = (function () {
+                const a = document.createElement("a");
+                document.body.appendChild(a);
+                a.style = "display: none";
+                return function (data, fileName) {
+                    const blob = new Blob([data], {type: "octet/stream"}),
+                        url = window.URL.createObjectURL(blob);
+                    a.href = url;
+                    a.download = fileName;
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                };
+            }());
+            const date = new Date()
+            let fileName = `{{ cl.opts.verbose_name }}_${date.getDate().toString()}-${date.getTwoDigitMonth().toString()}-${date.getFullYear().toString()}`
+            document.getElementById('export').addEventListener('click', async e => {
+                e.preventDefault()
+                const start_time = document.getElementById('start_time')
+                const end_time = document.getElementById('end_time')
+                let formData = new FormData()
+                formData.append("start_time", start_time.value)
+                formData.append("end_time", end_time.value)
+                const response = await fetch(e.srcElement.getAttribute('href'), {'method': 'POST', body: formData})
+                response.text().then(res => {
+                    saveData(res, `${fileName}.csv`)
+                })
+            })
+        })
+    </script>
+{% endblock %}
+{% block result_list %}
+    <div class="action-buttons">
+        <label for="start_time">{% trans "Start date" %} :</label>
+        <input type="datetime-local" id="start_time" name="start_time">
+        <label for="start_time">{% trans "End date" %} :</label>
+        <input type="datetime-local" id="end_time" name="end_time">
+        <a href="{% url make_table_url %}" class="button grp-button" id="export">{% trans "Download file" %}</a>
+        <a href="{% url delete_all_url %}" class="button grp-button">{% trans "Erase data" %}</a>
+        <input id="file" type="file"/>
+        <a href="{% url import_data_url %}" id="file_submit" class="button grp-button">{% trans "Upload file" %}</a>
+        {% if action_form and actions_on_top and cl.show_admin_actions %}{% admin_actions %}{% endif %}
+          {% result_list cl %}
+        {% if action_form and actions_on_bottom and cl.show_admin_actions %}{% admin_actions %}{% endif %}
+    </div>
+{% endblock %}

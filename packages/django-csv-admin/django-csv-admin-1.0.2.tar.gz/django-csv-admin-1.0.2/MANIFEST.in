@@ -1,0 +1,2 @@
+recursive-include csv_admin *
+global-exclude .git/*
