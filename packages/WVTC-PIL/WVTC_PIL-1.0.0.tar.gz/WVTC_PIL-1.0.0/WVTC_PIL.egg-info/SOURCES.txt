@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+WVTC_PIL.egg-info/PKG-INFO
+WVTC_PIL.egg-info/SOURCES.txt
+WVTC_PIL.egg-info/dependency_links.txt
+WVTC_PIL.egg-info/not-zip-safe
+WVTC_PIL.egg-info/requires.txt
+WVTC_PIL.egg-info/top_level.txt
+gxipy/__init__.py
+gxipy/dxwrapper.py
+gxipy/gxiapi.py
+gxipy/gxidef.py
+gxipy/gxwrapper.py
