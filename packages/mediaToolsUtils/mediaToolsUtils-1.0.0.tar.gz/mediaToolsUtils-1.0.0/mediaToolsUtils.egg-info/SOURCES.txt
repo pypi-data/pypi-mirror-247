@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+mediaToolsUtils/SoundCollection.py
+mediaToolsUtils/VideoCapture.py
+mediaToolsUtils/__init__.py
+mediaToolsUtils/__main__.py
+mediaToolsUtils.egg-info/PKG-INFO
+mediaToolsUtils.egg-info/SOURCES.txt
+mediaToolsUtils.egg-info/dependency_links.txt
+mediaToolsUtils.egg-info/top_level.txt
