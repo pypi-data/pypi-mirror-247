@@ -1,0 +1,3 @@
+[console_scripts]
+meshtal_analysis = meshtal_analysis.meshtal_analysis:main
+
