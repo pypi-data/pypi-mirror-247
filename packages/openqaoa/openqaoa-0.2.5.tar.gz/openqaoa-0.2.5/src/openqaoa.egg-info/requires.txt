@@ -1,0 +1,4 @@
+openqaoa-braket==0.2.5
+openqaoa-qiskit==0.2.5
+openqaoa-azure==0.2.5
+openqaoa-core==0.2.5
