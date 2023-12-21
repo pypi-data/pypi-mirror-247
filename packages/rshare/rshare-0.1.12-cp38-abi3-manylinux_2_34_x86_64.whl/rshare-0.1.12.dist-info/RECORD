@@ -1,0 +1,10 @@
+rshare-0.1.12.dist-info/METADATA,sha256=GUGpIxlpfMFTy4ka4I54toDEkMWkMbQNt1QMJePs4UE,1917
+rshare-0.1.12.dist-info/WHEEL,sha256=-y2sPXyCjppUrZnqOcmPbFOQLFSQ82P4-wFwXT8YCCU,106
+rshare.libs/libssl-bae9f8e0.so.3,sha256=15YLCRp1NPAzIEjmxAMxAC9HnC2dWWUuyqSQ5yvy2ro,721753
+rshare.libs/libcrypto-9208a0be.so.3,sha256=hdve9OzPV1RliumBhRSzAykd92uOG1-DQv5WpmzWDos,4607049
+rshare/__init__.py,sha256=1daNzbGAuVVg0nevLpphwJ3bubj3iYw09gDKAIGH6Jc,43
+rshare/rshare.pyi,sha256=VN83hJitwduV6jJQdpHuFAdyeqSt9c9m-I2MOO0tOTc,172
+rshare/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rshare/fetch.py,sha256=-0x7cw0dOrnenpexBpmUZMDy_qwvtcexjGNz_5dZOrk,940
+rshare/rshare.abi3.so,sha256=RcTP6shrp0f_LS-JC0rlpN_viezaklyA1KFZByvKKeI,10322073
+rshare-0.1.12.dist-info/RECORD,,
