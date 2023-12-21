@@ -1,0 +1,10 @@
+longtrainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longtrainer/bot.py,sha256=9Z1BjCWuzsH_KJCRr9SbnqeEZQUlZKaigcwqQWA-goY,1729
+longtrainer/loaders.py,sha256=CSQIdougbLLr59CnsMtXuNtAgKSz03WEWvPQbY5ZD5Y,5795
+longtrainer/retrieval.py,sha256=CgFgt8rDjLEHd7nTrk_jPB7kSQH_tbBCfKi7tovpgZE,5402
+longtrainer/trainer.py,sha256=DCdnG9POSM5Yn73rV5V0j1j_MN4S02aSOcDJPYkdXr0,13371
+longtrainer/vision_bot.py,sha256=kt0zCV32XL3Olqj2JxBFotDp24mdJ7KWMkk8nNlYkvY,3222
+longtrainer-0.1.1.dist-info/METADATA,sha256=PZswr47WySoqUKW0Da6VEVPIws-oUa2GtGR1mDhAX8U,2390
+longtrainer-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+longtrainer-0.1.1.dist-info/top_level.txt,sha256=8I8Vq9zlE8Hr-JNMF9iN-QZ38_C1_zmwDm87-S0TQCQ,12
+longtrainer-0.1.1.dist-info/RECORD,,
