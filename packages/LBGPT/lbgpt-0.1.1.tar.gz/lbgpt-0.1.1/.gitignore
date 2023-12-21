@@ -1,0 +1,7 @@
+/.env
+/dist/
+/venv/
+/.pytest_cache/
+/.idea
+__pycache__
+/.task/checksum/requirements-generate
