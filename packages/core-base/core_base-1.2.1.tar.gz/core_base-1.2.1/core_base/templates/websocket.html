@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>websocket验证</title>
+    <style>
+        .message {
+            height: 300px;
+            border: 1px solid #dddddd;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="message" id="message"></div>
+<div>
+    请输入Token:<input type="text" placeholder="请输入Token" style="width: 100%" id="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyOTU1ODI1LCJpYXQiOjE3MDI5NTIyMjUsImp0aSI6ImM4YzlkODg1NjViMTRlOTZhMWE0ZThkNzI0Mjg2Y2MxIiwidXNlcl9pZCI6MX0.dJBlqPb6vQWehiVKV9C8Mb7_J68suOC7w2TF1JqB7Do">
+    <br/>
+    <br/>
+    <br/>
+    请输入发送文本:
+    <br/>
+    <input type="text" placeholder="请输入发送文本" id="txt" style="width: 100%" value='{"content":"测试","message_id":1}'>
+    <br/>
+    <br/>
+    <br/>
+    <input type="button" value="发送" onclick="sendMessage()">
+    <input type="button" value="关闭连接" onclick="closeConn()">
+</div>
+
+<script>
+    var token = document.getElementById("token").value
+    //接入websocket
+    var protocol = "ws://"
+    var protocolStr = document.location.protocol;
+    if (protocolStr == "http:") {
+        console.log("protocol = " + protocolStr);
+    } else if (protocolStr == "https:") {
+        console.log("protocol = " + protocolStr);
+        protocol = "wss://"
+    }
+    let socketUrl = protocol + "0.0.0.0:9999/ws/" + token + "/"
+    var socket = new WebSocket(socketUrl);
+    // 创建好连接之后自动触发（ 服务端执行self.accept() )
+    socket.onopen = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "[连接成功]";
+        document.getElementById("message").appendChild(tag);
+    }
+
+    // 当websocket接收到服务端发来的消息时，自动会触发这个函数。
+    socket.onmessage = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = event.data;
+        document.getElementById("message").appendChild(tag);
+    }
+
+    // 服务端主动断开连接时，这个方法也被触发。
+    socket.onclose = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "[断开连接]";
+        document.getElementById("message").appendChild(tag);
+    }
+
+    function sendMessage() {
+        let tag = document.getElementById("txt");
+        socket.send(tag.value);
+    }
+
+    function closeConn() {
+        socket.close(); // 向服务端发送断开连接的请求
+    }
+
+</script>
+
+</body>
+</html>
