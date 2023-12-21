@@ -1,0 +1,9 @@
+elasticsearch_haystack/__init__.py,sha256=g4FvBDxgCM32ZF9JwRne61b3yhs5-KA9qLta-YtMCQE,229
+elasticsearch_haystack/bm25_retriever.py,sha256=G6jym0hdIloJyUM9vc1hfrSkIb-XAWhh_BMgHyH-PaM,1974
+elasticsearch_haystack/document_store.py,sha256=EcYH01dc05sK3cAKVjjdiAmAXks3ae2yxAJqHJsqFRM,13836
+elasticsearch_haystack/embedding_retriever.py,sha256=MZs65io8VTZCNtwMetjt19IvIFtzv70VznNws9ipe1U,3264
+elasticsearch_haystack/filters.py,sha256=L1tN7YCIDuNdhGrBQdPoqXFk37x__2-K038xZ6PRdNQ,9923
+elasticsearch_haystack-0.1.2.dist-info/METADATA,sha256=OgYQtJDjlkL9yfqZfO8i4Tb01ZRp7NVsqQnFxgVqG9M,2105
+elasticsearch_haystack-0.1.2.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+elasticsearch_haystack-0.1.2.dist-info/licenses/LICENSE,sha256=_M2kulivnaiTHiW-5CRlZrPmH47tt04pBgAgeDvfYi4,11342
+elasticsearch_haystack-0.1.2.dist-info/RECORD,,
