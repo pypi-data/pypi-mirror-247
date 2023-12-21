@@ -1,0 +1,4 @@
+Polidoro-PyGithub==2.2.0rc5
+
+[flask]
+flask
