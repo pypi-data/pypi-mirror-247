@@ -1,0 +1,12 @@
+LICENCE.txt
+README.rst
+setup.py
+snapgene_utils/__init__.py
+snapgene_utils/snapgene_reader.py
+snapgene_utils.egg-info/PKG-INFO
+snapgene_utils.egg-info/SOURCES.txt
+snapgene_utils.egg-info/dependency_links.txt
+snapgene_utils.egg-info/requires.txt
+snapgene_utils.egg-info/top_level.txt
+tests/test_general.py
+tests/test_snapgene_to_dict.py
