@@ -1,0 +1,2 @@
+[console_scripts]
+autotrainer = Image_AutoTrainer.app:start_app

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutoTrainer Predict</title>
+	<link rel="shortcut icon"
+        href="data:image/png;base64,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N/8+KST/Pyol/z8qJf8+KST/U0A7/1pIRP88JyL/UDw4/1xLR/8+KCP/Pyol/z8qJf8/KiXZPyol8j8qJf8/KiX/Pigj/11LR/9QPTj/PCci/1pIRP9TQDv/Pikk/z8qJf8/KiX/Pyol/z4pJP+ek5D/vLWz/5ySj/+0q6n/Tzw3/z4pJP8/KiX/Pyol/z4pJP9TQDv/WkhE/zwnIv9QPTj/XUtH/z4oI/8/KiX/Pyol/z8qJfI/KiX9Pyol/z8qJf8+KCP/XUtH/1A9OP88JyL/WkhE/1NAO/8+KST/Pyol/z8qJf8/KiX/PCci/4d6d//IwsH/hHdz/7Srqf9PPDf/Pikk/z8qJf8/KiX/Pikk/1NAO/9aSET/PCci/1A9OP9dS0f/Pigj/z8qJf8/KiX/Pyol/T8qJf0/KiX/Pyol/z4oI/9dS0f/UD04/zwnIv9aSET/U0A7/z4pJP8/KiX/Pyol/z8qJf88JyL/dWVi/+Hd3f9vYFz/tayq/088N/8+KST/Pyol/z8qJf8+KST/U0A7/1pIRP88JyL/UDw4/1xLRv8+KCP/Pyol/z8qJf8/KiX9Pyol8j8qJf8/KiX/Pigj/1hGQv9YRkL/OyUg/1lHQ/9SPzr/PSgj/z4pJP8+KST/Pikk/z0oI/9OOzb/fG5q/005Nf9tXVn/RDAr/z4pJP8+KST/Pikk/z0oI/9SPzr/WUdD/zslIP9YRUH/WEZC/z4oI/8/KiX/Pyol/z8qJfI/KiXZPyol/z8qJf8/KiX/RTAs/2dXU/9YRkH/alpW/2RTT/9RPjr/Uj87/1I/O/9SPzv/Uj87/1E+Ov9QPTj/UT46/1A9Of9SPzv/Uj87/1I/O/9SPzv/UT46/2RTT/9qWlb/WEVB/2dXU/9FMCz/Pyol/z8qJf8/KiX/Pyol2T8qJa0/KiX/Pyol/z8qJf8+KST/RDAr/1VCPv9xY1//a1xX/1lIQ/9aSUT/WklE/1pJRP9aSUT/WklE/1pJRP9aSUT/WklE/1pJRP9aSUT/WklE/1pJRP9ZSEP/a1tX/3FjX/9VQj7/RDAr/z4pJP8/KiX/Pyol/z8qJf8/KiWsPyolbT8qJfs/KiX/Pyol/z8qJf8/KiX/PCch/1hGQv9RPjn/PCci/z0oI/89KCP/PSgj/z0oI/89KCP/PSgj/z0oI/89KCP/PSgj/z0o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" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="static/css/style3.css">
+</head>
+<body>
+    <div class="main container">
+		<section class="iupload">
+			<h3 class="text-center py-4">Predict Your Image Here.😀</h3>
+			<div class="row">
+				<div class="img-part col-md-6">
+					<div class="image-part">
+						<video autoplay id="video" poster="https://img.freepik.com/free-vector/group-young-people-posing-photo_52683-18824.jpg?size=338&ext=jpg"></video>
+						<img src="" id="photo">
+						<canvas style="display:none;" id="canvas"></canvas>
+					</div>
+					<div class="btn-part">
+						<form id="upload-data pt-3" class="">
+							<div class="input-group mt-3 row">
+								<button type="button" class="btn btn-primary col-md-5 col-xs-5 ml-3 mr-4" id="uload">Upload</button>
+								<button id="send" type="button" class="btn btn-success col-md-5 col-xs-5">Predict</button>
+							</div>
+
+
+
+
+
+
+							<!-- change url value  -->
+
+
+
+
+							<input type="hidden" class="form-control mr-2" id="url" placeholder="Enter REST Api url..." value="../predict"/>
+							<input name="upload" type="file" id="fileinput" style="position:absolute;top:-500px;"/><br/>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xs-12 right-part">
+					<h5 class="mb-2"><center>Prediction Results</center></h5>
+					<div class="row">
+						<div class="res-part2 col-md-5 col-xs-12"></div>
+						<div class="res-part col-md-5 col-xs-12"><div class="jsonRes"></div></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAlCAMAAABBJDpuAAAAVFBMVEX/fgD/iQA7NzIyMjMnNYInNYEnNYInNYEzMzInNYQnNYETJzsnNYIwN1wxMjNoTis4O1YrNm0xOF47PE9DP0dEQEVpTVkAJJ4nNYEOLJHJbiAzMzOmmmHRAAAAFnRSTlOh/vu+986oen9fP2UqEzQkFAIDAAEEILVBJQAAA3FJREFUWMPNmO2WoyAMQG0VBARtdVRs3/89NwkgaF1rd2aOm18tIrnkgwSz7n+R7LcV1ELkeS7E7VySRlyfQXJhTiO55c+liP4cEuH1X8E7gaV+S3Jv2zYZ/Vr+/Sdx2vP6doc/fSPcf/GOpLSFVXFUW8t+giRP47TOd60yk1hbxIhSP0ACKPWrvw7YBIT/lcQY84G3Wk17ugWQfg5UsQJpjflKSLQi7xTWyk0SXTJ4VnB5D1yccxmp4Z+mX5KGNS+SPXVNll0ulyxL0wYmloBB6zL/MpCoAgjAJiUM6w0SboMwPUdRogvNKcNM3smFdRvEcJJkKcflQa+X0pNIfBGW0zKqjyQtw4VLKQlI7ZLgdrRNSZDjMQx2GB4pCkxkCrfGWUTJ0Egan6muCHgJCUwtnCk0mrJ9Q8K5LUqtdSfynkAedhynaRqngVDaXLiJEAzkFkM71IuIlWRYtSQpbXSZDvQ7JPCei9brs+oaABkn74LRIkpFaVxGnzjvIxTYREOoEwn5r01JTDRTcO87Eu3zNUeTPKZpjrIRrNIDCjzALbPk7LJMIokOEQu2K7yKQAKvFDF9pVe0R+LGb7h1MMkw2ijjA/1zhSfSphvEAChXJEhAqwYStIJWXnTpvbdH4hTUwSQ2JRmQpILDLYbB7J41SYiLcNozu5Z3JMo7RxBJahI7WSRByCMkqJt9hySESbVJcvmARJGFExJmdBSl2oM2+T4JLWfgaGFptizlPUm1FydHSdyZ7UnS4ySph2kS0kJrkvr5NJg7dnrJnfxgxPozRPGtkyPNOxtaiDvbIAF9L+5B5zTI2BwlwXmM+U3zReav3o0F8oUEFFZ42McDZYomOUziFmezgWyo251Uc1nyKJol7URCEvIYUEbHYaEGQi9C9egwCdVfHwiaajfjKMUcHcRacCylhWJbJDfq47EEDhYqoIWjHnwDXZPpPiChPQelLU+Cbm4w50FmYgkvFwpiWwCC/Um/SLcNElOC9RVj6qWpCiEMvRUK4zLpdKmPw8rVldy/qxjn60wLrVLWJIPLiZJRr3fsvnOHPvare+lB93tb37T20D82jqOt+zNuXhuNvNhp7X+PpHb3rvV9R5xjE2SpyCN9ffQO+GtWIZr5Xnytz4gTMIRYfys47/uJEXny/aQ/95tSUwmU+uRvSp/IHzQqZYpYrQmxAAAAAElFTkSuQmCC" />
+
+
+<div id="loading"><div class="loader"></div></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+var mybtn = document.getElementById('startbtn');
+var myvideo = document.getElementById('video');
+var mycanvas = document.getElementById('canvas');
+var myphoto = document.getElementById('photo');
+var base_data = "";
+
+function sendRequest(base64Data){
+	var type = "json";
+	if(base64Data != "" || base64Data != null){
+		if(type == "imgtobase"){
+			$(".res-part").html("");
+			$(".res-part").html(base64Data);
+		}
+		else if(type == "basetoimg"){
+			var imageData = $("#imgstring").val();
+			$(".res-part").html("");
+			$(".res-part").append("<img src='data:image/jpeg;base64," + imageData + "' alt='' />");
+		}
+		else{
+			var url = $("#url").val();
+			$("#loading").show();
+			$.ajax({
+				url : url,
+				type: "post",
+				cache: false,
+				async: true,
+				crossDomain: true,
+				headers: {
+					'Content-Type': 'application/json',
+					'Access-Control-Allow-Origin':'*'
+				},
+				data:JSON.stringify({image:base64Data}),
+				success: function(res){
+					$(".res-part").html("");
+					$(".res-part2").html("");
+					try{
+						var imageData = res[1].image;
+						if(imageData.length > 100){
+							if(imageData.length > 10){$(".res-part2").append("<img class='resp-img' src='data:image/jpeg;base64," + imageData + "' alt='' />");}
+						}
+					}catch(e){}
+					$(".res-part").html("<pre>" + JSON.stringify(res[0], undefined, 2) + "</pre>");
+					$("#loading").hide();
+				}
+			});
+		}
+	}
+}
+
+$(document).ready(function(){
+	$("#loading").hide();
+
+	$('#send').click(function(evt){
+		sendRequest(base_data);
+    });
+
+    $('#uload').click(function(evt) {
+        $('#fileinput').focus().trigger('click');
+    });
+	$("#fileinput").change(function(){
+		if (this.files && this.files[0]){
+			var reader = new FileReader();
+			reader.onload = function (e){
+				var url = e.target.result;
+				var img = new Image();
+				img.crossOrigin = 'Anonymous';
+				img.onload = function(){
+					var canvas = document.createElement('CANVAS');
+					var ctx = canvas.getContext('2d');
+					canvas.height = this.height;
+					canvas.width = this.width;
+					ctx.drawImage(this, 0, 0);
+					base_data = canvas.toDataURL('image/jpeg', 1.0).replace(/^data:image.+;base64,/, '');
+					canvas = null;
+				};
+				img.src = url;
+				$('#photo').attr('src', url);
+				$('#photo').show();
+				$('#video').hide();
+			}
+			reader.readAsDataURL(this.files[0]);
+		}
+	});
+});
+
+</script>
+</body>
+</html>
