@@ -1,0 +1,12 @@
+ruccourse/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ruccourse/collect.py,sha256=tv_TWzi_mCjhE7VV8fvdQe0UpOo9oNmDKITSortnLCU,2610
+ruccourse/config.ini,sha256=7XaNmUm7KAubTET5CehuIxIz5QTuBpQQW9Bt2GgfBDA,701
+ruccourse/json_datas.pkl,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruccourse/main.py,sha256=y73yUGv3Rh7yxFI4JMR3h-kDBTxSD9LvF5tfksLRhBs,15193
+ruccourse/ring.wav,sha256=H1-4BExHl9iGtQWMMXZewqM5SCLwZ51QOZx3Rne2drE,2330044
+ruccourse/ruccourse.log,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruccourse-0.1.4.dist-info/METADATA,sha256=nQyUAn1Pp2pHgfJ0J8ei7roI7jjdXwwqDClpKSedoY8,6299
+ruccourse-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ruccourse-0.1.4.dist-info/entry_points.txt,sha256=7pcdVBUj4z5RdJNJfGN-FQv5e-OOWY9y5H2gUaDNsCQ,57
+ruccourse-0.1.4.dist-info/top_level.txt,sha256=HOoG5G04XERuCYn8amogpFOTysRGtXsebuHO2pGa6ps,10
+ruccourse-0.1.4.dist-info/RECORD,,
