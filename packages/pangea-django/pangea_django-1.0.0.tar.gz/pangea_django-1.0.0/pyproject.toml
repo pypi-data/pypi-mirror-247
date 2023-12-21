@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pangea-django"
+version = "1.0.0"
+description = "Pangea Authentication Addon for Django"
+authors = ["Govind Salinas <govind.salinas@pangea.cloud>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pangeacyber/pangea-python"
+repository = "https://github.com/pangeacyber/pangea-python"
+keywords = ["Pangea", "Django", "AutnN"]
+classifiers = [
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+]
+packages = [
+    { include = "pangea_django" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+"Django" = "^4.2.1"
+"pangea-sdk" = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
