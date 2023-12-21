@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: szabolcs
+Version: 0.1.1
+Summary: A szabolcs package from a Szabolcs to every Szabolcs
+Author-email: Szabolcs Antal <antalszabolcs01@gmail.com>
+License: AGPL-V3
+Keywords: szabolcs
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: szabolcs[build] ; extra == 'dev'
+
