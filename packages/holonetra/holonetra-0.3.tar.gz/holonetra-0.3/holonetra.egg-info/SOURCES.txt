@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+holonetra/__init__.py
+holonetra/holonetra.py
+holonetra.egg-info/PKG-INFO
+holonetra.egg-info/SOURCES.txt
+holonetra.egg-info/dependency_links.txt
+holonetra.egg-info/requires.txt
+holonetra.egg-info/top_level.txt
