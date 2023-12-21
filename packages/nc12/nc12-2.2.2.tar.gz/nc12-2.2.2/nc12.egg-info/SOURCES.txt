@@ -1,0 +1,9 @@
+setup.py
+a/__init__.py
+a/module.py
+b/__init__.py
+b/module.py
+nc12.egg-info/PKG-INFO
+nc12.egg-info/SOURCES.txt
+nc12.egg-info/dependency_links.txt
+nc12.egg-info/top_level.txt
