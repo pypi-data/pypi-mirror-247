@@ -1,0 +1,10 @@
+httpx_gssapi/__init__.py,sha256=ut4TKK1V4oc61aKiukwYLKgXhUk0Uk7XQGAjGJLyGGc,1075
+httpx_gssapi/_version.py,sha256=pZSBEke_Y26NmLUtHHFpyup0RuYy4QPEc2suOvDatic,495
+httpx_gssapi/exceptions.py,sha256=RIoMluM-7_Qw-RJ54EkIiTcvJ4cC9wM-6i3Zvmmu9gI,602
+httpx_gssapi/gssapi_.py,sha256=gaqVckFE1RU_aGT1ZE1GaJZvBCqAHk-wlVdGve-aYcc,11519
+httpx_gssapi-0.3.dist-info/AUTHORS,sha256=I4LmwZk8SP2wX9G80t15RxGHN8KOiX8zdAu63gpt794,77
+httpx_gssapi-0.3.dist-info/LICENSE,sha256=T9tmd_IT3on5I3iTBTII1-pJ12fsG7h568LpQYu4dwo,871
+httpx_gssapi-0.3.dist-info/METADATA,sha256=aLNqhv-jUDY2EC0ZHmh8awR_dx8qvFPZqnR9_jgGEQU,12866
+httpx_gssapi-0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+httpx_gssapi-0.3.dist-info/top_level.txt,sha256=i7Gml7JKv9uxayFa51588Fz43y_Ee1jJ6bfh4JFlcy8,13
+httpx_gssapi-0.3.dist-info/RECORD,,
