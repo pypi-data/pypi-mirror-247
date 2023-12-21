@@ -1,0 +1,10 @@
+angelsupport/GPTRequest.py,sha256=SFqo4ARTxy2OkrDlGg8j-gFEcsrojY96EBRn-tuLIKk,3189
+angelsupport/Logic.py,sha256=BRP9com58stTiHIbdY0eBEvEAAxBEdUSYJI8bi5I6G0,2737
+angelsupport/Model.py,sha256=f6Ni87YGBs1MyXGntx43Yk7xPZjfMiEtUn2jsXTy1oE,2014
+angelsupport/Prompt.py,sha256=0cV4YRdzOJdR4eICS4vCUjmA7wYoR-NVO1czxZgWWlk,5942
+angelsupport/Tokenizer.py,sha256=thwe7KuvojpzzA0njIFk1VTqP68udV763AnKqjfJvTo,2334
+angelsupport/__init__.py,sha256=HOmz2NqyCjNJ8_pBbHCiSKjg0Mo_0QjUElABqN-0ycs,23
+angelsupport-0.0.8.dist-info/METADATA,sha256=TBlizpRg3DmRWIaVoZ6iYddhyFkdsZY4J41ZUkphHjQ,503
+angelsupport-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+angelsupport-0.0.8.dist-info/top_level.txt,sha256=prGdRUAjeqxIwh9GI1CfLPAvYCH-Cl9WCPjUaMhpQww,13
+angelsupport-0.0.8.dist-info/RECORD,,
