@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: sequence-model
+Version: 0.6.0
+Summary: Python version of the Steckler Sequence model built with landlab
+Author: Eric Hutton
+Author-email: mcflugen@gmail.com
+Maintainer: Eric Hutton
+Maintainer-email: mcflugen@gmail.com
+License: MIT
+Project-URL: changelog, https://github.com/sequence-dev/sequence/blob/develop/CHANGES.md
+Project-URL: documentation, https://sequence.readthedocs.io
+Project-URL: homepage, https://github.com/sequence-dev/sequence
+Project-URL: repository, https://github.com/sequence-dev/sequence
+Keywords: landlab,sequence,stratigraphy
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: AUTHORS.md
+Requires-Dist: compaction
+Requires-Dist: landlab
+Requires-Dist: netcdf4
+Requires-Dist: numpy>=1.22
+Requires-Dist: pyyaml
+Requires-Dist: rich-click
+Requires-Dist: scipy
+Requires-Dist: tomlkit
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: nox; extra == "dev"
+
+![Sequence][rtd-link][logo]
+
+**Sequence-stratigraphic modeling with Python**
+
+______________________________________________________________________
+
+![Testing Status][testing-badge]
+![Flake8][flake-badge]
+![Code style: Black][black-badge]
+![[Documentation][rtd-link]][rtd-badge]
+
+
+______________________________________________________________________
+
+# About
+
+<!-- start-abstract -->
+
+*Sequence* is a modular 2D (i.e., profile) sequence stratigraphic model
+that is written in Python and implemented within the Landlab framework.
+Sequence represents time-averaged fluvial and marine sediment transport
+via differential equations. The modular code includes components to deal
+with sea level changes, sediment compaction, local or flexural isostasy,
+and tectonic subsidence and uplift.
+
+<!-- end-abstract -->
+
+______________________________________________________________________
+
+For more information see: <https://sequence.readthedocs.io/en/develop/>
+
+______________________________________________________________________
+
+
+[black-badge]: https://github.com/sequence-dev/sequence/workflows/Black/badge.svg
+[flake-badge]: https://github.com/sequence-dev/sequence/workflows/Build/Test%20CI/badge.svg
+[logo]: https://raw.githubusercontent.com/sequence-dev/sequence/develop/docs/_static/sequence-logo-light.svg
+[rtd-badge]: https://github.com/sequence-dev/sequence/workflows/Documentation/badge.svg
+[rtd-link]: https://sequence.readthedocs.io/en/develop
+[testing-badge]: https://github.com/sequence-dev/sequence/workflows/Build/Test%20CI/badge.svg
