@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "globantapi"
+version = "0.0.7"
+description = ""
+authors = ["Oscar Bahamonde <o.bahamonde@globant.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.26.0"
+fastapi = "^0.105.0"
+python-multipart = "^0.0.6"
+pydantic = "1.10.12"
+rich = "^13.7.0"
+tenacity = "^8.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
