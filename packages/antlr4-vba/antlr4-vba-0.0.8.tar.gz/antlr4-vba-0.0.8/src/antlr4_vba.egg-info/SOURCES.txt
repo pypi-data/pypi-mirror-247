@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/antlr-vba/__init__.py
+src/antlr-vba/vbaLexer.py
+src/antlr-vba/vbaListener.py
+src/antlr-vba/vbaParser.py
+src/antlr-vba/vbaVisitor.py
+src/antlr4_vba.egg-info/PKG-INFO
+src/antlr4_vba.egg-info/SOURCES.txt
+src/antlr4_vba.egg-info/dependency_links.txt
+src/antlr4_vba.egg-info/requires.txt
+src/antlr4_vba.egg-info/top_level.txt
