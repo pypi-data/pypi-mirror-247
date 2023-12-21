@@ -1,0 +1,5 @@
+marshmallow==3.20.1
+marshmallow_objects==2.3.0
+requests==2.31.0
+Click
+python-dateutil
