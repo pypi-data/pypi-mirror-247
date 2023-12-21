@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: latex-to-image
+Version: 0.0.1
+Summary: Use LaTeX compilation tools to convert formulas in LaTeX format into corresponding images.
+Home-page: https://github.com/SWHL/CutVideo
+Author: SWHL
+Author-email: liekkaskono@163.com
+License: MIT
+Keywords: moviepy,crop_video
+Platform: Any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6,<3.12
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python-headless
+Requires-Dist: numpy
+
+### See details for [latex_to_image](https://github.com/SWHL/latex_to_image)
+
+

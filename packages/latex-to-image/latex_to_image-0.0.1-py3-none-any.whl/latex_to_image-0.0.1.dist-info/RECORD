@@ -1,0 +1,10 @@
+latex_to_image/__init__.py,sha256=333osvWl5Mtidwf4JY7p-VkMpHzFDjD4Kdb9POQ-rFY,103
+latex_to_image/crop_img.py,sha256=zy2wDSeLcszjzg4ZPvh1wA0-4vZAjHBX2GpGbGlrmSw,2121
+latex_to_image/main.py,sha256=zaL0vYqoSDcx4sqiYaqEfIWsdYrkULDBeIgumpy2q7A,1125
+latex_to_image/render_latex.py,sha256=9rJGuYuZW1ERt8gDEq5m0VQ4d1GDjJhc5bXlYagFELg,3118
+latex_to_image-0.0.1.dist-info/LICENSE,sha256=aCvz1TEsGyqoq60NTZsm2_SsZ-D-REb933J73uzXGcs,1061
+latex_to_image-0.0.1.dist-info/METADATA,sha256=lvz2RPaNuLDQaFV7Gaq75KDhEQGT3EuSp9_G7q74ooI,815
+latex_to_image-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+latex_to_image-0.0.1.dist-info/entry_points.txt,sha256=NCKIUfX_-0z2Swy9bsfsix9m6S6Nv18YPbt0mucl1PI,61
+latex_to_image-0.0.1.dist-info/top_level.txt,sha256=MxcL4kKzIRiZn3teF5wcL7K4ZI2msQdEk4hb2R5YKnQ,15
+latex_to_image-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+latex_to_image = latex_to_image.main:main
+
