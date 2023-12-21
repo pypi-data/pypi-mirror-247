@@ -1,0 +1,13 @@
+mmh3==3.0.0
+numpy
+oss2
+pandas
+pyyaml
+requests
+setuptools
+tqdm
+openai
+semantic-kernel
+pyaes
+
+[all]
