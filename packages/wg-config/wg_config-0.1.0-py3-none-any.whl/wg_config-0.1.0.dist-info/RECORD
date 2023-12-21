@@ -1,0 +1,11 @@
+wg_config/__init__.py,sha256=8JCvXbBmGTN8a7e0KHGlIgjnR0_BHU5oS5d1wWXZow8,215
+wg_config/__main__.py,sha256=bgRbcqjR-cq38iVUerCrgE1_zJXgCIcCOKgE71GwZcc,100
+wg_config/cli.py,sha256=x_7ip875GEHWHH6q6PrvE0YO5CLOADmgfi22V83w7zk,3221
+wg_config/peer.py,sha256=I_vuDM0af8cfl9LjZg5819UF8tFTigJ_gImWzbAM8QI,2347
+wg_config/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wg_config/wireguard.py,sha256=YDR7apOjiHOujM4vu7mvmeZHOMBdn0yaLhYc4STiYBY,3738
+wg_config-0.1.0.dist-info/LICENSE,sha256=Pea64FyLB5MH39e_zkLjZ62sUfGPAEtQiFh56gN6zyk,1067
+wg_config-0.1.0.dist-info/METADATA,sha256=zF0GTM4Gnndt4oqc2o1HjuDi4OUepU99YyNiEAcb84c,625
+wg_config-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+wg_config-0.1.0.dist-info/entry_points.txt,sha256=u-UEMEPK1PqglmJUt247--QsO9TboTGeInKSO03fCzA,43
+wg_config-0.1.0.dist-info/RECORD,,
