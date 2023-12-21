@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+nortec.py
+setup.py
+nortec.egg-info/PKG-INFO
+nortec.egg-info/SOURCES.txt
+nortec.egg-info/dependency_links.txt
+nortec.egg-info/requires.txt
+nortec.egg-info/top_level.txt
