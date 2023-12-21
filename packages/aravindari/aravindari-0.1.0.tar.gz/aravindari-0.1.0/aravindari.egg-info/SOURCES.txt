@@ -1,0 +1,7 @@
+setup.py
+aravindari/__init__.py
+aravindari/aravindari.py
+aravindari.egg-info/PKG-INFO
+aravindari.egg-info/SOURCES.txt
+aravindari.egg-info/dependency_links.txt
+aravindari.egg-info/top_level.txt
