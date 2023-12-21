@@ -1,0 +1,9 @@
+lims_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lims_connector/connectToLIMS.py,sha256=Dmghq6fHWchqw4bBXbnMt78r9zvYrcUpuqq_jxHgD7E,1940
+lims_connector/setConfig.py,sha256=97EABsR1vNSLi-7jVno00r7PbQlFbjQsqJtHJ-VOLUM,1416
+tests/TestLIMSClient.py,sha256=2e9qR2-M0Sx4_OcZLRay0PTbzWKI2m82zCkCAfdEWAY,1353
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lims_connector-1.0.0.dist-info/METADATA,sha256=XdOUumXjKwE2w2JeHoMITzVNUNJhUIrx92y2-jzl1mw,609
+lims_connector-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lims_connector-1.0.0.dist-info/top_level.txt,sha256=kwNKshchQVe2wSnAMT2KRBnZ1B_tEr7oe-FWwS40FS8,21
+lims_connector-1.0.0.dist-info/RECORD,,
