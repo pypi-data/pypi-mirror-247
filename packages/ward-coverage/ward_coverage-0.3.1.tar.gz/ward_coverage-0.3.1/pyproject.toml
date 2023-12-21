@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "ward_coverage"
+version = "0.3.1"
+description = "A coverage plugin for Ward testing framework"
+authors = ["Peter Vyboch <pvyboch1@gmail.com>"]
+license = "MIT"
+repository = 'https://github.com/petereon/ward_coverage'
+readme = 'README.md'
+keywords = ["python"]
+classifiers = [
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+]
+packages = [{ include = "ward_coverage", from = "src" }]
+
+
+[tool.poe.tasks]
+install = { shell = "poetry install" }
+build = { shell = "poetry build" }
+clean = { shell = "rm -R ./dist .pytest_cache .mypy_cache &> /dev/null" }
+
+test = { shell = "ward" }
+
+format = { shell = "poetry run black ." }
+lint = { shell = "poetry run mypy ." }
+
+install-self = { shell = "poetry run pip install ./dist/$(ls ./dist | grep .whl | tail -n 1) --force-reinstall" }
+uninstall-self = { shell = "poetry run pip uninstall ward_coverage" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+python_files = ["*test*.py"]
+python_functions = ["test"]
+minversion = "6.0"
+addopts = "--pspec -p no:warnings --cov-report=xml --cov-report=term-missing --cov=ward_coverage"
+testpaths = ["test"]
+bdd_features_base_dir = "./test/bdd/features"
+markers = [
+    "bdd: marks tests as bdd (deselect with '-m \"not bdd\"')",
+    "unit: marks tests as unit (deselect with '-m \"not unit\"')",
+]
+
+[tool.coverage.run]
+omit = ['*test*']
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+warn_unreachable = true
+
+[tool.black]
+line-length = 100
+
+[tool.ward]
+path = ['test']
+
+[tool.poetry.dependencies]
+python = "^3.7.8"
+coverage = ">=5.0"
+ward = "*"
+cucumber-tag-expressions = ">3"
+
+
+[tool.poetry.dev-dependencies]
+# Formatting and Typing
+black = { version = "*", allow-prereleases = true }
+mypy = "^0.942"
+
+# Expect Pattern Testing
+expects = "^0.9.0"
