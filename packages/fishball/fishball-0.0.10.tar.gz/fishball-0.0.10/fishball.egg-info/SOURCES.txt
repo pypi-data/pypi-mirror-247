@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+fishball/__init__.py
+fishball/fishball.py
+fishball.egg-info/PKG-INFO
+fishball.egg-info/SOURCES.txt
+fishball.egg-info/dependency_links.txt
+fishball.egg-info/requires.txt
+fishball.egg-info/top_level.txt
