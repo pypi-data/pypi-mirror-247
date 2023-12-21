@@ -1,0 +1,14 @@
+LICENSE,sha256=vqToAzGOUzegQ8pd5sXD4s9ceMkIGN7wLkGwdMbP9dI,1070
+README.md,sha256=aQRkzTBwv-Axxqdl3GrFuIUrklY_YiNsh74n2cUyzzY,2070
+user_email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+user_email/admin.py,sha256=giHjAcpeZEHOBKp9wSha80GYBdElxTdLJwqxxIgMY9U,1480
+user_email/apps.py,sha256=Mia_zOojvbOeDUj7tZDGh1ANgBJm22F-FYjfNT159yg,149
+user_email/factory.py,sha256=4MbVe7cykdl7foi68aPWVAAay7FV7KOBVf69XBphFxY,253
+user_email/forms.py,sha256=9Eh7zEg4N9GP3cjxSapRYY3HsPB2eENVYgF-JdtQfsM,408
+user_email/migrations/0001_initial.py,sha256=cs82FJge0N1C6KjxErKONCMKbCvExbJ8WgVbmxcU2AE,3309
+user_email/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+user_email/models.py,sha256=wnkk6LJWFeFh5QP1Wk-nMgCfFTkZPAK19ASGfVB1LnE,2340
+django_user_email-1.1.0.dist-info/LICENSE,sha256=vqToAzGOUzegQ8pd5sXD4s9ceMkIGN7wLkGwdMbP9dI,1070
+django_user_email-1.1.0.dist-info/METADATA,sha256=E4T8fgf7o3zFi-_0o8atrGcoWmSKs-DwoFt-m5IuZI0,3209
+django_user_email-1.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_user_email-1.1.0.dist-info/RECORD,,
