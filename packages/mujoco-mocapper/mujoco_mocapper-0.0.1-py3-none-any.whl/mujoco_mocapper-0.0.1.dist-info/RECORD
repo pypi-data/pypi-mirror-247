@@ -1,0 +1,10 @@
+mujoco_mocapper/__init__.py,sha256=I2LEl7cZqSKM7bwn97EzZd6wY1TqsDbvTh1babK3uSM,30
+mujoco_mocapper/mocap_move.py,sha256=_1eldIpNTe2pCZOvT7EgDMK0BBaaqJvo2qG922iLFuY,2119
+mujoco_mocapper/mujoco_mocapper.py,sha256=TaOZBOtL_piH6Z6iqNHyvR0aMPoW_VgKyKrRdjS5bQ0,2367
+mujoco_mocapper/xml_view.py,sha256=KoOfCtvZV3dmL_K879wT2zVh9fw0lZ3597EqjYl6L64,772
+mujoco_mocapper-0.0.1.data/scripts/mujoco-mocapper,sha256=8qmJopmYNFxmsCJnOqLRexZdVpU0TTx233_818R3ARA,597
+mujoco_mocapper-0.0.1.data/scripts/mujoco-mocapper.py,sha256=Vsft5Kb1b6iwgnsrEa5fG7X7BCA6sxGKY1tcfsqJxi0,654
+mujoco_mocapper-0.0.1.dist-info/METADATA,sha256=izxMihGziWSyI11Vj7cEuoqxyn7vIpoNTQjJ6sKllas,243
+mujoco_mocapper-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mujoco_mocapper-0.0.1.dist-info/top_level.txt,sha256=rmcICS1jDrd0iSA7o_2rQc-wXRvpQ7SOwjeEdCeUkY4,16
+mujoco_mocapper-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mujoco-mocapper
+Version: 0.0.1
+Summary: Tool for adding mocap to mujoco models
+Author: Mochan Shrestha
+Requires-Dist: mujoco
+Requires-Dist: pyquaternion
+Requires-Dist: pytest
+
+Tool for adding mocap to mujoco models
