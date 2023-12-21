@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_telegram_login/__init__.py
+streamlit_telegram_login/helpers.py
+streamlit_telegram_login.egg-info/PKG-INFO
+streamlit_telegram_login.egg-info/SOURCES.txt
+streamlit_telegram_login.egg-info/dependency_links.txt
+streamlit_telegram_login.egg-info/requires.txt
+streamlit_telegram_login.egg-info/top_level.txt
+streamlit_telegram_login/frontend/index.html
+streamlit_telegram_login/frontend/main.js
+streamlit_telegram_login/frontend/package.json
+streamlit_telegram_login/frontend/streamlit-component-lib.js
+streamlit_telegram_login/frontend/style.css
+streamlit_telegram_login/frontend/vite.config.js
