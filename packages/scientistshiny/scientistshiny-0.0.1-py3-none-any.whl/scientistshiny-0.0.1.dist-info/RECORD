@@ -1,0 +1,12 @@
+scientistshiny/__init__.py,sha256=-dNBmrnMaD3oXHJHn-sOOsgoNxx26NRILz1Is2sYuUg,304
+scientistshiny/ca.py,sha256=zlaHyZYPsn8aQB0tzDPkwmBpnRDsbkoI0JR2jzjvWKM,46289
+scientistshiny/function.py,sha256=hdDi6CKOCEWA89knan_eYGYRoaFovgYGzA_Z767G-Y4,7112
+scientistshiny/mca.py,sha256=Mv1cS9y2ob5dNSUcwXcWPnpmEa-SyUHeRoQgbLm4l0U,80966
+scientistshiny/pca.py,sha256=eVdNZ8KghnL4QEoFsjydkKs-bv3dHGgTlTpsZtg01io,67095
+scientistshiny/version.py,sha256=x1Mgma7k7wxKto4sk1cBJFK-cVXvBtrisxIyNQdbczA,46
+scientistshiny/www/style.css,sha256=TOyufNUommKaLp8oyK7TImU9rZYk1opraLP_95wlFn4,505
+scientistshiny-0.0.1.dist-info/LICENSE.txt,sha256=cbqAeTbuitFLT-q2zd8Hkn5U22zZcVacAoCa5TDA5qI,1100
+scientistshiny-0.0.1.dist-info/METADATA,sha256=vmN-3AdRv86xIxIsJ7-s7-zsQpuelVNWbwxiI28YCxo,1560
+scientistshiny-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scientistshiny-0.0.1.dist-info/top_level.txt,sha256=gcrAeLxAGecPJc-1R3KNh1C1FA9KbEmEe4AfoMA8gKw,15
+scientistshiny-0.0.1.dist-info/RECORD,,
