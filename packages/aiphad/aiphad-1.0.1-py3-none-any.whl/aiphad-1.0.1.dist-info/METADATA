@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aiphad
+Version: 1.0.1
+Summary: AIPHAD package
+Author: AIPHAD developers
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: physbo
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+UNKNOWN
+
