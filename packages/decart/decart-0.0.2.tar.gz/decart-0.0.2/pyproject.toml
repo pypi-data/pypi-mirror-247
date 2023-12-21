@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "decart"
+version = "0.0.2"
+description = ""
+authors = ["Decart <support@decart.ai>"]
+readme = "decart/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.25.2"
+pydantic = "^2.5.2"
+httpx-sse = "^0.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+jinja2 = "^3.1.2"
+pyyaml = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
