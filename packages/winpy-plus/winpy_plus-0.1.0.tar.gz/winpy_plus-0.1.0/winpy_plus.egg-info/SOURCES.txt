@@ -1,0 +1,8 @@
+README.md
+setup.py
+suse_udfs_cyy/UDFs.py
+suse_udfs_cyy/__init__.py
+winpy_plus.egg-info/PKG-INFO
+winpy_plus.egg-info/SOURCES.txt
+winpy_plus.egg-info/dependency_links.txt
+winpy_plus.egg-info/top_level.txt
