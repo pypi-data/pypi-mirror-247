@@ -1,0 +1,4 @@
+flask>=3.0.0
+dash>=2.14.2
+PyJWT[crypto]>=2.8.0
+python-keycloak==3.7.0
