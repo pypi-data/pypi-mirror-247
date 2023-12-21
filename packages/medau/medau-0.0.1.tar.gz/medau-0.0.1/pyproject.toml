@@ -1,0 +1,21 @@
+[project]
+name = "medau"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="statistics@bis.org" },
+]
+description = "medau placeholder package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://www.bis.org/innovation/bis_open_tech.htm"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

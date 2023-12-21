@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: medau
+Version: 0.0.1
+Summary: medau placeholder package
+Author-email: Example Author <statistics@bis.org>
+Project-URL: Homepage, https://www.bis.org/innovation/bis_open_tech.htm
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# medau
+
+placeholder package
