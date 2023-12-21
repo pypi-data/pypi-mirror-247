@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: CustomLogBK
+Version: 0.0.1
+Summary: A simple logging system
+Author-email: Ludvai Aragon <ludvai@bakakiller.ovh>
+Project-URL: Homepage, https://github.com/BakaKiller/python-CustomLog
+Project-URL: Issues, https://github.com/BakaKiller/python-CustomLog/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CustomLog
+
+Simple logging system.
+
+## Usage
+
+```python
+from customlog import CustomLog
+
+clog = CustomLog("Path/To/Log/Directory", "AppName")
+
+clog.write("App starting !")
+```
