@@ -1,0 +1,13 @@
+awattar/__init__.py,sha256=9IkvuJArd-jJG85jjctDWjYWNqv0hK_4EOFVkv1dMsE,308
+awattar/cli.py,sha256=FWaC83Goz2uurucYJ5VXp-eqo5cWLqytiTUYHo6r5Ew,5847
+awattar/client.py,sha256=PD2YMiCzLUB2crYDZ2HvEJprUHJ6shV1NROwFpTsOvo,10428
+awattar/marketitem.py,sha256=JTuaZXz1pgL31GLAO60ss8agQD_udQLcPUSid1bO6Jo,2676
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/async_example.py,sha256=q3bI4OXYqYCIVvXbHNq6us22t-xQ2H_Jqm30prZCpss,1263
+examples/example.py,sha256=-ilRLI-Ut91-gofO6Xmu3Ph6CCGdSBBRaqsiwt3WWRA,3342
+awattar-0.8.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+awattar-0.8.1.dist-info/METADATA,sha256=sP7Nv-zT6kvCcB5jInMDOgcv7RGY-5VKdMz02dtBBaM,6041
+awattar-0.8.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+awattar-0.8.1.dist-info/entry_points.txt,sha256=QRu5-C_o9H6lKLTkiY65X4gMBf89UTiOLv0CNZhXWOg,41
+awattar-0.8.1.dist-info/top_level.txt,sha256=CkOVbEGHxbzZ7Pw34YtwgJfRMuHHr63ubvWuNcB2vYE,17
+awattar-0.8.1.dist-info/RECORD,,
