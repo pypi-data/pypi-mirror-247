@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: WVTC-PIL
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/ENGR13200/tool
+Author: Null
+Author-email: 251061929@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: toml (>=0.10)
+Requires-Dist: numpy (>=1.9.2)
+
+V 0.10
+这是大恒相机的Python接口，这里上传到pypi方便用户pip安装
+
