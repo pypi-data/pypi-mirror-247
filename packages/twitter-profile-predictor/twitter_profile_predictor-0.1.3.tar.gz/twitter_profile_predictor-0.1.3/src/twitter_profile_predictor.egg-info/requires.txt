@@ -1,0 +1,7 @@
+nltk>=3.7
+pandas>=2.1.4
+asttokens>=2.0.5
+openpyxl>=3.0.10
+langdetect>=1.0.9
+langid>=1.1.6
+pycld3>=0.22
