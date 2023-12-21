@@ -1,0 +1,13 @@
+anguilla/__init__.py,sha256=vPt8wsnN7RKiu8rGL4Ngm3ItZSxtaSzecKI3bkxeCtc,9013
+anguilla/__main__.py,sha256=WCQKbrRrs_M9L7emynZ7ZExCimae0T1kjEMxV23A4Nc,394
+anguilla/app/__init__.py,sha256=d4UVPOiqp_JQe4E3CzEu0f2FG072d5gboE2-kJvfYpc,34
+anguilla/app/server.py,sha256=TGr2V32ky9H74ddGE6OjA3xpI6F-sJWx9Ac5_Jyl7Qw,7812
+anguilla/embed.py,sha256=j6f0Id2-gPCB5nCpOLtBn0yalOEsiDvyxbhxKXNTDJc,6783
+anguilla/interpolate.py,sha256=rle4ASOLOIZyrAiSuG1WBtFhcvsgW2blt1E_xm83Lzg,6575
+anguilla/nnsearch.py,sha256=IaJEGerw6nQEVbFFkCGtggh-uJkzRgQmR2EyqMP9JvY,16425
+anguilla/serialize.py,sha256=yXuoEhKeJTNsz8fJ2MkO2Lfe2GVKDAWSvAi7RJVbpCc,2571
+anguilla/types.py,sha256=IVC770mkyTVHFh1JE8D5bF084-mYssdbtKK7V3Yps_U,1041
+anguilla_iml-0.1.0b5.dist-info/LICENSE,sha256=PBNz2Ep6EWEd7CQBUBlfCSWBdQFcteRDbpdV0oSeF0w,1084
+anguilla_iml-0.1.0b5.dist-info/METADATA,sha256=GrnMoyr2WIdYn7VJq-YT7PC1FdSU-ozYN8t6iSsAWGo,3739
+anguilla_iml-0.1.0b5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+anguilla_iml-0.1.0b5.dist-info/RECORD,,
