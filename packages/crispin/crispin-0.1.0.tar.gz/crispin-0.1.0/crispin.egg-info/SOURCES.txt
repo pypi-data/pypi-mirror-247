@@ -1,0 +1,7 @@
+README.md
+setup.py
+crispin.egg-info/PKG-INFO
+crispin.egg-info/SOURCES.txt
+crispin.egg-info/dependency_links.txt
+crispin.egg-info/entry_points.txt
+crispin.egg-info/top_level.txt

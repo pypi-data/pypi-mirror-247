@@ -1,0 +1,3 @@
+[console_scripts]
+crispin = crispin.__main__:main
+
