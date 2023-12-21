@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flash-attention
+Version: 1.0.0
+Summary: Flash Attention2 operator on Huawei Ascend 910A.
+Home-page: https://gitee.com/mindspore/acctransformer
+Author: Huawei
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
+
