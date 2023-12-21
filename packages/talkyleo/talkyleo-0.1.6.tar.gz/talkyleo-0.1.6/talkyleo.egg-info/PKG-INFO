@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: talkyleo
+Version: 0.1.6
+Summary: Turns lines of dialogue into TTS audio which comes with syncronized SRT subtitles.
+Author: naelsondouglas
+Author-email: Naelson Douglas <naelson17@gmail.com>
+Project-URL: Homepage, https://github.com/NaelsonDouglas/Leo
+Project-URL: Issues, https://github.com/NaelsonDouglas/Leo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Leo
+Turns lines of dialogue into TTS audio which comes with syncronized SRT subtitles.
