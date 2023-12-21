@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+birdvoxpaint/__init__.py
+birdvoxpaint/birdvoxpaint.py
+birdvoxpaint/display.py
+birdvoxpaint/indices.py
+birdvoxpaint/util.py
+birdvoxpaint.egg-info/PKG-INFO
+birdvoxpaint.egg-info/SOURCES.txt
+birdvoxpaint.egg-info/dependency_links.txt
+birdvoxpaint.egg-info/requires.txt
+birdvoxpaint.egg-info/top_level.txt
+birdvoxpaint.egg-info/zip-safe
