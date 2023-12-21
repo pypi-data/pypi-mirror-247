@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/watchlog_connect_py/__init__.py
+src/watchlog_connect_py/watchlog.py
+src/watchlog_connect_py.egg-info/PKG-INFO
+src/watchlog_connect_py.egg-info/SOURCES.txt
+src/watchlog_connect_py.egg-info/dependency_links.txt
+src/watchlog_connect_py.egg-info/top_level.txt

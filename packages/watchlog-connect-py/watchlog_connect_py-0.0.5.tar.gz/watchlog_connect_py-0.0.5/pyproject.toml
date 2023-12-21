@@ -1,0 +1,18 @@
+[project]
+name = "watchlog_connect_py"
+version = "0.0.5"
+authors = [
+  { name="mohammadnajm", email="mohammadnajm75@email.com" },
+]
+description = "This is a package for connect to watchlog and send custom metrics"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mohammadnajm/watchlog-connect-py"
+"Bug Tracker" = "https://github.com/mohammadnajm/watchlog-connect-py/issues"
