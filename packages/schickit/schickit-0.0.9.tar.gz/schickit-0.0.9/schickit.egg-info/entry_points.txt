@@ -1,0 +1,2 @@
+[console_scripts]
+schickit = src.main:main
