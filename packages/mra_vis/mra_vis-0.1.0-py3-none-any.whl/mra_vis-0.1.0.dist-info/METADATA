@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mra-vis
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-email: Daniel Provder <dxp755@miami.edu>
+License: MIT
+Requires-Python: ==3.10.*
+Description-Content-Type: text/markdown
+Requires-Dist: intake[all] >=0.7.0
+Requires-Dist: pyyaml >=6.0.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: pandas >=2.1.4
+Requires-Dist: hvplot >=0.9.0
+Requires-Dist: cartopy >=0.22.0
+Requires-Dist: geoviews >=1.11.0
+Requires-Dist: pyproj >=3.6.1
+Requires-Dist: aiohttp >=3.9.1
+Requires-Dist: geopandas >=0.14.1
+Requires-Dist: intake-geopandas >=0.4.0
+Requires-Dist: dask-geopandas >=0.3.1
+Requires-Dist: jupyter >=1.0.0
+Requires-Dist: intake-duckdb >=0.1.2
+Requires-Dist: jupyterlab-night >=0.4.6
+
+# mra_vis
