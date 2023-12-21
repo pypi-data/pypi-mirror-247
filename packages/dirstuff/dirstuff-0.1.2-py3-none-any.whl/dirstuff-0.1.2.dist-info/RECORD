@@ -1,0 +1,15 @@
+dirstuff/__init__.py,sha256=7evPgOT4S6PbjJTBJ7Fu0mysP-AKq4JX-Q0nX4M0AGI,80
+dirstuff/cli/__init__.py,sha256=fUje7vgFT24oJYk375-geUaz4RIVixNYE5PqOL9VmUo,19
+dirstuff/cli/cli.py,sha256=hI1_4YuVaehWdNHE7fuvLscNzLYBz2gg9a9RO19Xv4Y,1548
+dirstuff/lib/__init__.py,sha256=fUje7vgFT24oJYk375-geUaz4RIVixNYE5PqOL9VmUo,19
+dirstuff/lib/filter_criteria.py,sha256=Yii6DY49LtEet64p1s8aCoDJS58rA3-b82fSQrcl614,88
+dirstuff/lib/memory_utilities.py,sha256=WpfGKNdRo87PAS9SPqwRqUVLsoqmdcHYVKrgPBjSjN0,1273
+dirstuff/lib/parser.py,sha256=U9Ww_m7yUf2XbaCwCpcfprKxbJsl9h9qPuK-i6q99cg,1146
+dirstuff/lib/tree.py,sha256=3a84kA1clhTlWKga66Zjk0viDe96_odAgoRXmNC5oMA,2226
+dirstuff/os/__init__.py,sha256=COD2wgL-E8kPxpeVRLAae7XAqTfphSykv_kAWwLx16Q,84
+dirstuff/os/_filesystem.py,sha256=r-mKeNQJPiIdoL91XwnTCRRe2jA6c8B6PFXt_LedGFM,4810
+dirstuff-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dirstuff-0.1.2.dist-info/entry_points.txt,sha256=C7sMrLBliCqRhSwxoXXFzMxiqY01NSREjn9MClczI_U,48
+dirstuff-0.1.2.dist-info/LICENSE.txt,sha256=eFm96wqFzxb6kJee6WwUSrTegR6PPFMZ2ErNXEkfDY4,9040
+dirstuff-0.1.2.dist-info/METADATA,sha256=4RM3LJ8SwnSXpNdRZc-WNVrz8i7ZRHuK_pLdBU9Jj44,2978
+dirstuff-0.1.2.dist-info/RECORD,,

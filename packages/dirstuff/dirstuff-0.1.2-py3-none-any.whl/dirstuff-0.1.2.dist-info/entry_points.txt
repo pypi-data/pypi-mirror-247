@@ -1,0 +1,3 @@
+[console_scripts]
+dirsum=dirstuff.cli.cli:main
+
