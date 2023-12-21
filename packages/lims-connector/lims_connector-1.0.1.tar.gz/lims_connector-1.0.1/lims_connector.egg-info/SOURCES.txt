@@ -1,0 +1,12 @@
+README.md
+setup.py
+lims_connector/__init__.py
+lims_connector/connectToLIMS.py
+lims_connector/setConfig.py
+lims_connector.egg-info/PKG-INFO
+lims_connector.egg-info/SOURCES.txt
+lims_connector.egg-info/dependency_links.txt
+lims_connector.egg-info/requires.txt
+lims_connector.egg-info/top_level.txt
+tests/TestLIMSClient.py
+tests/__init__.py
