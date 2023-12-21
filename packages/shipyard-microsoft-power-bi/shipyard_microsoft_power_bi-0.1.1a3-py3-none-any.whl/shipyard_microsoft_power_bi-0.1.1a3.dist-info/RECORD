@@ -1,0 +1,9 @@
+shipyard_microsoft_power_bi/__init__.py,sha256=7CCZnuyQ958eKpyHkfV3Ii-u_4-dfiT2HC8INRyCvXI,150
+shipyard_microsoft_power_bi/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_microsoft_power_bi/cli/authtest.py,sha256=RQSzPjPV45OzAcCD6e9H_R7P6ZtpwD3wIFchr96IBU8,414
+shipyard_microsoft_power_bi/cli/trigger_sync.py,sha256=jbOUZTOKmdzBSPhJ798pkaBJ9bSHLZlG3q7yebewxAY,3076
+shipyard_microsoft_power_bi/microsoft_power_bi.py,sha256=CPK0-7BwUiPEZniXM9KRombBOP5xZlWH5iKN6smpwfc,10792
+shipyard_microsoft_power_bi/microsoft_power_bi_utils.py,sha256=ruBFZFac31SCb3wZy45YC2wxDi-GtquXw5qTS_UC05c,7365
+shipyard_microsoft_power_bi-0.1.1a3.dist-info/METADATA,sha256=eKVK5Rbu1_ix0t4My9C2AuNi71B0eNKGm0qXbbQNyAI,2138
+shipyard_microsoft_power_bi-0.1.1a3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+shipyard_microsoft_power_bi-0.1.1a3.dist-info/RECORD,,
