@@ -1,0 +1,5 @@
+-e .
+sphinx
+sphinx_rtd_theme
+m2r2
+convert2geojson
