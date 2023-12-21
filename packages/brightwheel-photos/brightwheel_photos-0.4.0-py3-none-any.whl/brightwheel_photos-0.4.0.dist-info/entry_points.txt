@@ -1,0 +1,3 @@
+[console_scripts]
+brightwheel-photos=brightwheel_photos.cli:main
+
