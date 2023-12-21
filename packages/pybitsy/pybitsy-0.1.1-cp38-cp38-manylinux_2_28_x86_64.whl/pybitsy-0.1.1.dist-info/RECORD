@@ -1,0 +1,5 @@
+pybitsy-0.1.1.dist-info/METADATA,sha256=9TUDQhdwqpEfGsWQMs_l5sMONs3k8Syn9mDBisVo7Ls,256
+pybitsy-0.1.1.dist-info/WHEEL,sha256=bsq9gsmdHfU_T6zYqkOlIj-zi5BI0rpFyfJDQBsULPQ,106
+bitsy/__init__.py,sha256=RAmvW7tyiDIgdebzIaBmuRcgLHmAOKMQc5kt-dDmEpw,103
+bitsy/bitsy.cpython-38-x86_64-linux-gnu.so,sha256=0fPuiDVw37WdVEkOSMX6O0E5Y0M-kaMA0DxIpWrKCu8,2546696
+pybitsy-0.1.1.dist-info/RECORD,,
