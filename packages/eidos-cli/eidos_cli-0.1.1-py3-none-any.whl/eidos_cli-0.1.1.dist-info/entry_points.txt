@@ -1,0 +1,3 @@
+[console_scripts]
+eidos-client=eidos_cli.main:main
+

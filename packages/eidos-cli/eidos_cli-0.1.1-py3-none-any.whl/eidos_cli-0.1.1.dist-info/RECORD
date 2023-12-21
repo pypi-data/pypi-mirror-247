@@ -1,0 +1,10 @@
+eidos_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eidos_cli/client.py,sha256=gVDqGHCdopoUgDNmaW82RzoIYNgm6EJKrYo2ycm9E1A,7014
+eidos_cli/main.py,sha256=PnRr6p3sqwTapev0DwC0KFTD1EsTPsBWVyB6w0kof0E,179
+eidos_cli/schema.py,sha256=wgar7sYZ4uvmY6gme93hFPTln4m9qDWr5FDdoRG9eAQ,8816
+eidos_cli/terminal.py,sha256=7UNYwVOkuCns8Zqu47yPk-s8oLA5d5l-V0P6NuXOy8I,6464
+eidos_cli/util.py,sha256=KG9IJDpbWw_NwPIo38CybABHxG0XXaNsWowj4e2z1Sk,142
+eidos_cli-0.1.1.dist-info/METADATA,sha256=05Nucfr-8wB7mv8wB-RPxlnmEIxkd5e1_z79QSXJT8Y,668
+eidos_cli-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+eidos_cli-0.1.1.dist-info/entry_points.txt,sha256=9LbUa1-uqlUYMQ3i37vxbLzKd1IJ_Ci3azjUYnFHjVM,52
+eidos_cli-0.1.1.dist-info/RECORD,,
