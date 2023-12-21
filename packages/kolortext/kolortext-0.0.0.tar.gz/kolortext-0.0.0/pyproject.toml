@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kolortext"
+version = "0.0.0"
+authors = [
+  { name="Samuel", email="samuel.9360639@gmail.com" }
+]
+description = "Print colored text in python"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = [
+    'ANSI',
+    'Color',
+    'Text'
+]
+license = { text = "MIT License" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/Samuel9360639/kolortext"
+Issues = "https://github.com/Samuel9360639/kolortext/issues"
+Contribute = "https://github.com/Samuel9360639/kolortext/pulls"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/colorpack/*"]
