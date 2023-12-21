@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: caveclient
+Version: 5.14.0
+Summary: a service for interacting with the Connectome Annotation Versioning Engine
+Home-page: https://github.com/seung-lab/CAVEclient
+Author: Forrest Collman, Casey Schneider-Mizell, Sven Dorkenwald
+Author-email: forrestc@alleninstute.org,caseys@alleninstitute.org,svenmd@princeton.edu,
+Requires-Dist: numpy
+Requires-Dist: pyarrow<12,>=3
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: pandas
+Requires-Dist: cachetools>=4.2.1
+Requires-Dist: ipython
+Requires-Dist: networkx
+Requires-Dist: jsonschema
+Requires-Dist: attrs>=21.3.0
+Requires-Dist: cachetools>=4
