@@ -1,0 +1,6 @@
+safecheck/__init__.py,sha256=BdUP8XnTxGeoSUwMXJH5V8zSPBxtLP4acUWNhwB7uH4,4588
+safecheck/_typecheck.py,sha256=vW7n60WkL2Txk_wdXMecpYmjHPqUMUhdzy1gmEKNn4E,1244
+safecheck/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safecheck-0.2.0.dist-info/METADATA,sha256=yWh7qbaelQDGolVR6I6Ha_rLiR_3EVkcpOGfBMD-RRY,2534
+safecheck-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+safecheck-0.2.0.dist-info/RECORD,,

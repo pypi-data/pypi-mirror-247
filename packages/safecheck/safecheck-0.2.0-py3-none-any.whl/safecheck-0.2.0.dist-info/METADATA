@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: safecheck
+Version: 0.2.0
+Summary: Utilities for typechecking, shapechecking and dispatch.
+Home-page: https://github.com/davnn/safecheck
+License: MIT
+Author: David Muhr
+Author-email: muhrdavid+github@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: beartype (>=0.16.0,<0.17.0)
+Requires-Dist: jaxtyping (>=0.2.24,<0.3.0)
+Requires-Dist: plum-dispatch (>=2.2.0,<3.0.0)
+Project-URL: Repository, https://github.com/davnn/safecheck
+Description-Content-Type: text/markdown
+
+[![Check Status](https://github.com/davnn/safecheck/actions/workflows/check.yml/badge.svg)](https://github.com/davnn/safecheck/actions?query=workflow%3Acheck)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/davnn/safecheck/blob/main/.pre-commit-config.yaml)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/davnn/safecheck/releases)
+![Coverage Report](https://raw.githubusercontent.com/davnn/safecheck/main/assets/coverage.svg)
+
+# safecheck
+
+Opinionated combination of typechecking libraries. Safecheck is a (very) minimal wrapper of the following libraries to
+provide a unified and simple-to-use interface:
+
+- typechecking [beartype](https://github.com/beartype/)
+- shapechecking [jaxtyping](https://github.com/google/jaxtyping)
+- dispatch [plum](https://github.com/beartype/plum)
+
