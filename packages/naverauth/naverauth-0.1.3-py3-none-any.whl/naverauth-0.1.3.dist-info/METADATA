@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: naverauth
+Version: 0.1.3
+Summary: Naver Login Implementation
+Home-page: https://github.com
+Author: stateofai
+Author-email: tellme@duck.com
+License: UNKNOWN
+Keywords: clien,naver
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: pyc
+Requires-Dist: rsa
+Requires-Dist: re
+Requires-Dist: HTTPAdapter
+Requires-Dist: urllib3
+Requires-Dist: json
+Requires-Dist: base64
+Requires-Dist: time
+Requires-Dist: datetime
+Requires-Dist: random
+
+UNKNOWN
+
