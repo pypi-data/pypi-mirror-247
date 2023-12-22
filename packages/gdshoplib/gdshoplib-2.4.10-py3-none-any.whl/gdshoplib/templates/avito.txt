@@ -1,0 +1,22 @@
+{% if product.quantity == 0 %}📦 Под заказ 📦
+
+{% endif %}<strong>{{ product.name }}</strong>
+
+{% if product.brand %}Бренд: <strong>{{product.brand.title}}</strong>{% endif %}{% if product.collection %}
+Коллекция: {{product.collection}}{% endif %}{% if product.size %}
+Размер: <strong>{{product.size}}</strong>{% endif %}{% if product.color %}
+Цвет: <strong>{{product.color}}</strong>{% endif %}
+
+{% if product.short_description %}{{product.short_description}}{% endif %}
+{% if product.specifications %}{% for material in product.specifications %}
+- {{material}}{% endfor %}{% endif %}{% if product.notes %}{% for note in product.notes %}
+- {{note}}{% endfor %}{% endif %}
+
+Доставка в любой город России
+Местонахождение магазина, Москва
+
+Артикул: {{product.sku}}
+
+{% if product.tags %}Вы можете найти объявление по словам:
+<ul>
+{% for tag in product.tags %}<li>{{tag}}</li>{% endfor %}</ul>{% endif %}
