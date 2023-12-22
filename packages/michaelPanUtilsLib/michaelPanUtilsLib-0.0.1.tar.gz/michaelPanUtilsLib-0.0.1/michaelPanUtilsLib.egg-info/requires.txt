@@ -1,0 +1,9 @@
+pillow
+michaelPanPrintLib
+numpy
+pydantic
+h5py
+requests
+beautifulsoup4
+matplotlib
+gdal
