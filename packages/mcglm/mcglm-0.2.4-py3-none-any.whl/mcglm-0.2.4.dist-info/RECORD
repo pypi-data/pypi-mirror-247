@@ -1,0 +1,11 @@
+mcglm/__init__.py,sha256=gNqRQV_UQr6xCFHGxvHrUaKtgOMZAYE-Qnqva0bwD8w,383
+mcglm/dependencies.py,sha256=idRTk0mNwCJ1i4vFKXpW4J0mayqYBstCCza544Jfggw,3300
+mcglm/mcglm.py,sha256=JzxIBT-N3mvNec1WalLOfSSnN8ZGHCCwsU-WBNMPP4M,42857
+mcglm/mcglmcattr.py,sha256=0Hdg-iVrkjZU2VHxiY-OQpOT85Nbyhdvx4X8vBs4LWQ,30696
+mcglm/mcglmmean.py,sha256=EmbjOMdCf0x4bkNAX4pcq1mo7JkhMs2Gb9SsFIcTVRI,8828
+mcglm/mcglmvariance.py,sha256=9nkmwrCibluhkc6OhW4M7J2HUIhc2aJ9iFThN0pk7II,6467
+mcglm/utils.py,sha256=bknoKdVq-tIYzeFhMxq3Tg28l7smvVOVYU6zK-IvSyI,1091
+mcglm-0.2.4.dist-info/LICENSE.txt,sha256=OfoniqvBFDGUsBlR5cIV7SEOdlQigjTl8rgL_Uodphg,862
+mcglm-0.2.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mcglm-0.2.4.dist-info/METADATA,sha256=EM5XS07rGHq27593umAQceYbgzFT79paocrI9AsTBec,2145
+mcglm-0.2.4.dist-info/RECORD,,
