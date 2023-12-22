@@ -1,0 +1,34 @@
+from typing import TYPE_CHECKING
+
+from dbnomics_data_model.errors import DataModelError
+
+if TYPE_CHECKING:
+    from dbnomics_data_model.model.dimensions.dataset_dimensions import DatasetDimensions
+    from dbnomics_data_model.model.identifiers.types import DimensionCode, DimensionValueCode
+
+
+class DatasetDimensionsError(DataModelError):
+    def __init__(self, *, dataset_dimensions: "DatasetDimensions", msg: str) -> None:
+        super().__init__(msg=msg)
+        self.dataset_dimensions = dataset_dimensions
+
+
+class UndefinedDimension(DatasetDimensionsError):
+    def __init__(self, *, dataset_dimensions: "DatasetDimensions", dimension_code: "DimensionCode") -> None:
+        msg = f"{dimension_code!r} is not a dimension of this dataset"
+        super().__init__(dataset_dimensions=dataset_dimensions, msg=msg)
+        self.dimension_code = dimension_code
+
+
+class UndefinedDimensionValue(DatasetDimensionsError):
+    def __init__(
+        self,
+        *,
+        dataset_dimensions: "DatasetDimensions",
+        dimension_code: "DimensionCode",
+        dimension_value_code: "DimensionValueCode",
+    ) -> None:
+        msg = f"{dimension_value_code!r} is not a value of the dimension {dimension_code!r} of this dataset"
+        super().__init__(dataset_dimensions=dataset_dimensions, msg=msg)
+        self.dimension_code = dimension_code
+        self.dimension_value_code = dimension_value_code
