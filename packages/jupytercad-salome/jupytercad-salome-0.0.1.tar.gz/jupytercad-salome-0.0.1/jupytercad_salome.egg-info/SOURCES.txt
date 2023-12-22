@@ -1,0 +1,5 @@
+setup.py
+jupytercad_salome.egg-info/PKG-INFO
+jupytercad_salome.egg-info/SOURCES.txt
+jupytercad_salome.egg-info/dependency_links.txt
+jupytercad_salome.egg-info/top_level.txt
