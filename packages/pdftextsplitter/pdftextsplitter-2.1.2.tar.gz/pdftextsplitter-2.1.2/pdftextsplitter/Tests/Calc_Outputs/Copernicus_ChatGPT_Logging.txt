@@ -1,0 +1,15 @@
+Huggingface Call 1 made at 1703165720.6337812Huggingface Call 2 made at 1703165728.6758962Huggingface Call 3 made at 1703165733.10616Huggingface Call 4 made at 1703165735.4252028Huggingface Call 5 made at 1703165737.574336Huggingface Call 6 made at 1703165742.514063Huggingface Call 7 made at 1703165745.427477Huggingface Call 8 made at 1703165747.3421466Huggingface Call 9 made at 1703165754.7215106Huggingface Call 10 made at 1703165758.5585666Huggingface Call 11 made at 1703165763.7260172Huggingface Call 12 made at 1703165770.8580484Huggingface Call 13 made at 1703165772.5061064Huggingface Call 14 made at 1703165775.285709Huggingface Call 15 made at 1703165775.6837523Huggingface Call 15 returned a summary that was too short. We will re-try the call.
+Huggingface Call 16 made at 1703165776.0037365Huggingface Call 16 returned a summary that was too short. We will re-try the call.
+Huggingface Call 17 made at 1703165776.3273273Huggingface Call 17 returned a summary that was too short. We will re-try the call.
+Huggingface Call 18 made at 1703165776.6506548Huggingface Call 18 returned a summary that was too short. We will re-try the call.
+Huggingface Call 19 made at 1703165776.9679098Huggingface Call 19 returned a summary that was too short. We will re-try the call.
+Huggingface Call 20 made at 1703165777.2863607Huggingface Call 20 returned a summary that was too short. We will re-try the call.
+Huggingface Call 21 made at 1703165777.6007268Huggingface Call 21 returned a summary that was too short. We will re-try the call.
+Huggingface Call 22 made at 1703165780.5100858Huggingface Call 23 made at 1703165785.767083Huggingface Call 24 made at 1703165787.3507578Huggingface Call 25 made at 1703165791.1949387Huggingface Call 26 made at 1703165793.692182Huggingface Call 27 made at 1703165796.0401478Huggingface Call 28 made at 1703165796.3372207Huggingface Call 28 returned a summary that was too short. We will re-try the call.
+Huggingface Call 29 made at 1703165799.0883482Huggingface Call 30 made at 1703165801.6103642Huggingface Call 31 made at 1703165809.7075384Huggingface Call 32 made at 1703165816.7141516Huggingface Call 33 made at 1703165820.769896Huggingface Call 34 made at 1703165829.2610018Huggingface Call 34 returned a summary that was too short. We will re-try the call.
+Huggingface Call 35 made at 1703165837.5913503Huggingface Call 36 made at 1703165847.6495001Huggingface Call 37 made at 1703165857.5997453Huggingface Call 38 made at 1703165867.6099482
+The number of counted calls = 38
+The total costs for the document are: 0.0 euro's
+We had to accept 0 incorrect summaries due to the while-limit.
+We use language-option English.
+We use language model MBZUAI/LaMini-Flan-T5-248M.
