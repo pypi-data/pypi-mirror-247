@@ -1,0 +1,13 @@
+autofiles/__init__.py,sha256=f37IzZ1qXepXwlx8lE3K39Ydh3W_6h1gELinKKVUsyc,142
+autofiles/cli_action.py,sha256=T2Q2-_rCteOciFHfEg6HNLIw_U1sTAU6lQpxbI8E_vI,128
+autofiles/conftest.py,sha256=raLfS8lfq9NEAz5iiIel793JhSloriUVpFfAn0Nfydw,162
+autofiles/file_extension.py,sha256=rVWJlXlVQUA8YpZWXP2AbHejM9BnxAhGxSWhhx_E1U8,965
+autofiles/main.py,sha256=LxyyVtn9RVyNHD3wCJKfKyyawEVHPySt4lGfS4tNsM4,629
+autofiles/test_cli.py,sha256=d4c3mbL4Ougjy0MUY4ClJ8lgrYOWY40AVkrlfiqZ7TM,559
+autofiles/test_utils.py,sha256=zQVhfi0fuaKmqY51sLgATQjMcml1mP_msYu82Msisig,1010
+autofiles/utils.py,sha256=TSWaw0c_gie4KxESVmdRqilDpxT3kpSihg5lggqlLC8,1372
+slimebones_autofiles-0.1.1.dist-info/LICENSE,sha256=uNEe-ewmBFzoAf1vTVnsvw1YLd1W-uzvyNNHu7csoFU,1073
+slimebones_autofiles-0.1.1.dist-info/METADATA,sha256=1QH77qxgZ6gWhaYAuOqq_wMYQwYuyEF6EA-TD61oWIs,871
+slimebones_autofiles-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+slimebones_autofiles-0.1.1.dist-info/entry_points.txt,sha256=gEMUkY5ZeXVaCbTj0tc8c_DDQcKMBU9I7ZzSCItdcGU,49
+slimebones_autofiles-0.1.1.dist-info/RECORD,,
