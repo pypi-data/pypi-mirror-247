@@ -1,0 +1,9 @@
+django_esm/__init__.py,sha256=-0mWJQHoVCXf0zi3kYBYQa68ISBD5Qpa8Iee131iUNY,160
+django_esm/_version.py,sha256=SFCDdrYA67D1Je-jHgVVh4LOopkPvuV6NMtqSJ7Tfhg,411
+django_esm/utils.py,sha256=PnPAZXmNnZdegGu-dCVxHqLBK0KEtH0HEioTr6_hfIc,1713
+django_esm/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_esm/templatetags/esm.py,sha256=y02trJVDSZch9ynwYoqlVfU_UOLNofw18JXkawcKvlQ,469
+django_esm-0.1.2.dist-info/LICENSE,sha256=DNMwJFPyRhaH5JkbF7NVhkQiK7bSBbBJ0eFoQyXU7mQ,1303
+django_esm-0.1.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+django_esm-0.1.2.dist-info/METADATA,sha256=6Vpnsn35zxKL_0SThM_t72CCmGioNMXW1_frHZLfNkE,3816
+django_esm-0.1.2.dist-info/RECORD,,
