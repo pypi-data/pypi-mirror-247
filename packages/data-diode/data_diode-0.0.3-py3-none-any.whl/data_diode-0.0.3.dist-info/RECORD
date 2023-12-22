@@ -1,0 +1,10 @@
+diode/__init__.py,sha256=HpoSu1o49kJZ-24vFq-cWXNMh7RyMB4JYsU_mJZJg7s,86
+diode/core.py,sha256=02HeLAK_dotsJ8xtaEhVsV_TQQP37TESp8IikzWnHfE,3750
+diode/main.py,sha256=UGazmwORBd1PcAfHv5eCtp_9plK3R4womGf91Bgrp0U,2529
+diode/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diode/test.py,sha256=sCpW7uuxr4BkYWPEZRlI4XrFfNNFpBa7v4cqPUqmZGY,7937
+data_diode-0.0.3.dist-info/METADATA,sha256=HnGBacjedMSlg_jEMgEDrX4VGpYsWFH7SRb6qEXh5u8,3107
+data_diode-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+data_diode-0.0.3.dist-info/entry_points.txt,sha256=biBlRvkkhX1dmqwldJ_Y6W950C-ZC9wVeB6mGBvzECs,37
+data_diode-0.0.3.dist-info/top_level.txt,sha256=-vUOoyizkoJUViVKsQd044XJrzP-hAzFPo_lA03oHpU,6
+data_diode-0.0.3.dist-info/RECORD,,
