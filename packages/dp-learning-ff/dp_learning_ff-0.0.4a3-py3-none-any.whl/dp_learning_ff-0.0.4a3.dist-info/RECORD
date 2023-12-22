@@ -1,0 +1,13 @@
+dp_learning_ff/__init__.py,sha256=f37gGVK9Wl6LjqfJGfUBr9Xb8hI9CM0uluAqJvlHVSo,312
+dp_learning_ff/least_squares.py,sha256=zvuA6v8Pgem21U2ULLcwMQHjKn2-h1BIDN8XeftARGg,3101
+dp_learning_ff/mechanisms.py,sha256=_Ws9FKHtuI5CyKZgQZjGMbs98JKbOigkD_8MX-Ftc8Y,2260
+dp_learning_ff/prototypes.py,sha256=XtlqnKINJMPKkgU6aVx4wXrUiyY4SI1_V6G79nXRY_k,3552
+dp_learning_ff/utils.py,sha256=9jhNpoopdhzcggfN2xA5h1ueRwtTcWdTuwfbkJ7RAws,771
+dp_learning_ff/coinpress/README.md,sha256=LG1A1Td0jE6gCRZtGhxTCG64-vxZb_KgRdtQXbMqZZw,2971
+dp_learning_ff/coinpress/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dp_learning_ff/coinpress/algos.py,sha256=wREixQTAaxgi2jLt_0zCPrko8XhFDjSw_sTYeGLk4fo,3459
+dp_learning_ff/coinpress/utils.py,sha256=VDLnpyQAVzSa75T9zfi0UDx9liMw-2pGuOHSb8O5r0I,4505
+dp_learning_ff-0.0.4a3.dist-info/METADATA,sha256=Z4ckptLlhgqq2MfMWVhsEZKMtk94gJ1mD9g-f3tG7SI,15460
+dp_learning_ff-0.0.4a3.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+dp_learning_ff-0.0.4a3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dp_learning_ff-0.0.4a3.dist-info/RECORD,,
