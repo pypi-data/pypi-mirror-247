@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: fuzz-craft
+Version: 0.0.2
+Summary: Toolkit for creating fuzzing harnesses.
+Home-page: https://github.com/PrVrSs/fuzz-craft
+License: Apache-2.0
+Keywords: fuzzing,harness
+Author: Sergey Reshetnikov
+Author-email: resh.sersh@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: dynaconf (>=3.2.4,<4.0.0)
+Requires-Dist: lief (>=0.13.2,<0.14.0)
+Requires-Dist: llama-index (==0.9.17)
+Requires-Dist: more-itertools (>=10.1.0,<11.0.0)
+Requires-Dist: openai (==1.5.0)
+Requires-Dist: pyelftools (>=0.30,<0.31)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: setuptools (>=69.0.2,<70.0.0)
+Project-URL: Repository, https://github.com/PrVrSs/fuzz-craft
+Description-Content-Type: text/markdown
+
+# FuzzCraft
+
+*FuzzCraft is a specialized toolkit designed for the efficient creation of fuzzing harnesses.*
+
+## Quickstart
+
+```bash
+pip install fuzz-craft
+```
+
+## Requirements
+
+* CodeQL
+* OpenAI API key
+
+
+## Contributing
+
+Any help is welcome and appreciated.
+
+
+## License
+
+*FuzzCraft* is licensed under the terms of the Apache-2.0 License (see the file LICENSE).
