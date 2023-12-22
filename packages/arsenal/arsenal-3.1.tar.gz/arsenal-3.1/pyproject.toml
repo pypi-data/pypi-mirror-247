@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling", "setuptools", "wheel", "numpy"]
+build-backend = "hatchling.build"
+
+[project]
+name = 'arsenal'
+version = '3.1'
+author = 'Tim Vieira'
+author_email = 'tim.f.vieira@gmail.com'
+description = 'Arsenal of python utilities.'
+url = 'https://github.com/timvieira/arsenal/'
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/timvieira/arsenal"
+Issues = "https://github.com/timvieira/arsenal/issues"
