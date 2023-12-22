@@ -1,0 +1,13 @@
+odoo/addons/stock_reserve_sale_mrp/README.rst,sha256=lrko3BE2rYkhWQzxsQ6N2ZLBjLIVKym1VD0JY7X9S_c,3082
+odoo/addons/stock_reserve_sale_mrp/__init__.py,sha256=jI5PZDKS0aV-yXubn1o0DHe5ldzQZrLmZYbgF0Q7DWg,21
+odoo/addons/stock_reserve_sale_mrp/__manifest__.py,sha256=aHj3yLHdNi1-55PtY9Ob6GX_CGDJHkQhjExfD-YYAj4,497
+odoo/addons/stock_reserve_sale_mrp/i18n/stock_reserve_sale_mrp.pot,sha256=P2vyw_bo_xU0irpCySJ3odF4mEqdWmeMzCZmLL-AkXk,512
+odoo/addons/stock_reserve_sale_mrp/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_reserve_sale_mrp/tests/__init__.py,sha256=NK_12WEgJVm6rGluDwUMovR1j1-Eolf10yIB5WrZS08,42
+odoo/addons/stock_reserve_sale_mrp/tests/test_stock_reserve_sale_mrp.py,sha256=8JTof0-gQIomRk6ct3cgdb3W9mVF9vIU4K4N3Gqy1j0,2617
+odoo/addons/stock_reserve_sale_mrp/wizard/__init__.py,sha256=xaZnSpyIDh1b38IeCQj3UVxi746pQhDaMZQVJF78k8k,33
+odoo/addons/stock_reserve_sale_mrp/wizard/sale_stock_reserve.py,sha256=BnWYnh5zdH91cZIu9dFSRGrfQEwtHPjtZPmclRHKLI8,2105
+odoo13_addon_stock_reserve_sale_mrp-13.0.1.1.1.dev2.dist-info/METADATA,sha256=9fEGbCq78Qk3c21sv-uxSW54kEx1YeKYKqWKbrVPvys,3688
+odoo13_addon_stock_reserve_sale_mrp-13.0.1.1.1.dev2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo13_addon_stock_reserve_sale_mrp-13.0.1.1.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_stock_reserve_sale_mrp-13.0.1.1.1.dev2.dist-info/RECORD,,
