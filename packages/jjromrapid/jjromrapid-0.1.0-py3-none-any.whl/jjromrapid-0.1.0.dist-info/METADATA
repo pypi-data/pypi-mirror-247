@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jjromrapid
+Version: 0.1.0
+Summary: resto python API
+Author: Jérôme Gasperi
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: pyjwt
+
