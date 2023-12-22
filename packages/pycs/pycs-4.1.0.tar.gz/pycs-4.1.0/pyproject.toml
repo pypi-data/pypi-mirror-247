@@ -1,0 +1,86 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pycs"
+maintainers = [{name = "Artem Vasenin", email = "vasart169@gmail.com"}]
+authors = [{name = "Artem Vasenin", email = "vasart169@gmail.com"}, {name = "Vladimir Mikhaylov"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+dynamic = ["version", "description"]
+dependencies = [
+    "pyyaml",
+]
+
+[project.scripts]
+cfg-output-dir = "pycs.helpers:_get_output_dir_cli"
+
+[project.urls]
+Home = "https://github.com/Rizhiy/pycs"
+
+[project.optional-dependencies]
+test = [
+    "types-pyyaml",
+    "pytest",
+]
+dev = [
+    "pycs[test]",
+    "black",
+    "ruff",
+]
+
+[tool.flit.sdist]
+include = [
+    "README.md",
+]
+exclude = [
+    ".github",
+    ".gitignore",
+    "tests/*",
+]
+
+[tool.semantic_release]
+version_variables = ["pycs/__init__.py:__version__"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--doctest-modules"
+
+[tool.black]
+line-length = 120
+skip-magic-trailing-comma = true
+
+[tool.ruff]
+target-version = "py39"
+line-length = 120
+[tool.ruff.lint]
+preview = true
+select = [
+    "A", "B",  "E", "F", "I", "N", "R", "S",  "Q", "W",
+    "ARG", "BLE", "C4", "COM", "ERA", "FBT", "FIX", "FLY", "FURB", "IC", "INP", "ISC",
+    "LOG", "NPY", "PERF", "PIE", "PT", "PTH", "RET", "RSE", "SIM", "SLF", "T20", "TCH",
+    "TD", "TID", "TRY", "UP"
+]
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+ignore = ["UP035", "RET503", "S113", "TD002", "TD003", "N817", "FIX002", "TRY003",
+    "UP007", "A003", "PTH123", "E203", "FURB113",
+]
+[tool.ruff.per-file-ignores]
+"**/__init__.py" = [
+    "F401", # Allow unused imports in module files
+]
+"tests/**/*.py" = [
+    "S101", # Asserts in tests are fine
+    "T201", # Prints are useful for debugging
+    "E501", # Test strings can be long
+    "TCH001", "TCH002", "TCH003", # Tests don't need to be super performant, prefer simpler code
+]
+"tests/pickle.py" = [
+    "S301", # Testing pickle so have to use it
+]
+"tests/data/**/*.py" = [
+    "TID252", # Have to use relative imports in configs
+]
