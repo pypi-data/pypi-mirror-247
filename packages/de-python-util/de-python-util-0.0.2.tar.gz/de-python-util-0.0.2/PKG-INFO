@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: de-python-util
+Version: 0.0.2
+Summary: DE python util
+Home-page: https://www.moneylion.com
+Author: moneylion
+Author-email: customercare@moneylion.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DE python util
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia ex dictum metus molestie, vel mollis velit imperdiet. Aliquam erat volutpat.
