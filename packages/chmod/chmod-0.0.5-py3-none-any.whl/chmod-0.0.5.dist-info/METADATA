@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chmod
+Version: 0.0.5
+Summary: Basic chmod conversion tool
+Author: Harry Sharma
+Author-email: harrysharma1066@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# chmod-calculator
+
+[![Tests](https://github.com/harrysharma1/chmod-calculator/actions/workflows/workflow.yml/badge.svg)](https://github.com/harrysharma1/chmod-calculator/actions/workflows/workflow.yml)
+
+This is a python module for calculating chmod.
+This is my first module so it will have some bugs.
+
