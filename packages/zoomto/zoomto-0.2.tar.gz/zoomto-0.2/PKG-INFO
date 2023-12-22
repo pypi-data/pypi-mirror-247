@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zoomto
+Version: 0.2
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: pyautogui
+Requires-Dist: pygetwindow
+Requires-Dist: screeninfo
+Requires-Dist: pywin32
+Requires-Dist: easyocr
+Requires-Dist: zrcl3
