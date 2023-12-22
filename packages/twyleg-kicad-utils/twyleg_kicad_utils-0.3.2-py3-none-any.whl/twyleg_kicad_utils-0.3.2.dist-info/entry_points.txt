@@ -1,0 +1,3 @@
+[console_scripts]
+kicad_utils = twyleg_kicad_utils.main:main
+twyleg_kicad_utils = twyleg_kicad_utils.main:main
