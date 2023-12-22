@@ -1,0 +1,14 @@
+tap_vnstock/__init__.py,sha256=in1-UrPPtjIvBwtpJGzEPmv7whLY64fa1vJjpRUDqb4,23
+tap_vnstock/client.py,sha256=JUOGG5Gy0iPCy9lGLxoEDV6v_Un0tB-eHODh7IkIlMw,4123
+tap_vnstock/schemas/events.json,sha256=GDoFRG-aY2aVO-14Mit0ly3HAyeEe3MlnSFAsrxZ7JA,322
+tap_vnstock/schemas/financial_reports.json,sha256=w1rvGamuuaBYPQCtx8u0D45Fr1xGXXbBy0hoQgosHq0,662
+tap_vnstock/schemas/fundamental.json,sha256=O5rHdl4PJ2Q13k3GRgPZGm4KQQZiFcP6K-dRXTeUloM,1067
+tap_vnstock/schemas/indicators.json,sha256=RiOQsuRPkBV4AqxBK7FKOEgOV50iK0NYl5UkUfSTaj4,483
+tap_vnstock/schemas/instruments.json,sha256=oUWoWT6GVIJCpKHtLarm018ILcoJ0WrjulYctqBw__0,447
+tap_vnstock/schemas/quotes.json,sha256=uVnVFOLXJ3z1YJ4l9GtrNqu4P5E4xHmZQC7oJ7ZgMxU,1422
+tap_vnstock/streams.py,sha256=BJF4tq0Zjs91EQ4aAmTxNueaMzHoh71Ryp4n5gaFh04,8900
+tap_vnstock/tap.py,sha256=fNAqFAbk0qu3Kq5fvDIZda_b820XFXf_BQRLvVmE9uA,1021
+tap_vnstock-0.0.1.dist-info/METADATA,sha256=qyBcrkHGkJeUpG5p3_khLUE737n8KinbxZzcJ6svMj0,3844
+tap_vnstock-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tap_vnstock-0.0.1.dist-info/entry_points.txt,sha256=8uaMjz2d37eKSUezD67fLZ4ulG2KGiqacVFvSQOUKkY,62
+tap_vnstock-0.0.1.dist-info/RECORD,,
