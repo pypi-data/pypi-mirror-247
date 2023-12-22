@@ -1,0 +1,2 @@
+[console_scripts]
+lkg-quilt = lkg_quilt.__main__:main
