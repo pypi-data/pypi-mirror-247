@@ -1,0 +1,11 @@
+shipyard_s3/__init__.py,sha256=b9xSduJCeTwmimFzQuf8ZWH9y8_LOBEyvnYUybIg_PM,25
+shipyard_s3/cli/authtest.py,sha256=cTfxd3IrJjzb78XtVeHFrPn0r55vwwCzD8uRkkya0d8,901
+shipyard_s3/cli/download.py,sha256=KiwmGMzicEIGnJr4-a3W5W_RbO6E3OkgwVSHzFYpYA4,9565
+shipyard_s3/cli/exit_codes.py,sha256=Ny-S6fW6D3QlhxWCtmroXktsiiBpYvvdPB_t3M2EfdQ,97
+shipyard_s3/cli/move.py,sha256=g3MVeMB84hiKk1f9ntwrSDHEC-zhquEToQzoziHLUjg,7998
+shipyard_s3/cli/remove.py,sha256=AUgR8ZmOFP_bId5Jh3QxSget0SM94mIzcQ92QgacRCE,4889
+shipyard_s3/cli/upload.py,sha256=x29q7f4VO70yadhY7FyBl1SpdjcEkdo3LlTO4RzN2Q8,9200
+shipyard_s3/s3.py,sha256=7VeikUUopTyGjxyQ6uFhabV8yUYAmnE1hBGPqav4bVw,1015
+shipyard_s3-0.1.2a0.dist-info/METADATA,sha256=zGBqO7Wt9KLXLAaCmlAxXO9snC_sQUzxhxtI2J_XOG0,630
+shipyard_s3-0.1.2a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_s3-0.1.2a0.dist-info/RECORD,,
