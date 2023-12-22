@@ -1,0 +1,2 @@
+[console_scripts]
+install = pilar.install:main

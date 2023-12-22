@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./src/__init__.py
+./src/version.py
+pilar.egg-info/PKG-INFO
+pilar.egg-info/SOURCES.txt
+pilar.egg-info/dependency_links.txt
+pilar.egg-info/entry_points.txt
+pilar.egg-info/requires.txt
+pilar.egg-info/top_level.txt
