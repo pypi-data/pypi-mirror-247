@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cloudbees-openfeature-provider-python
+Version: 0.1.2
+Summary: CloudBees.com OpenFeature SDK
+Author-email: CloudBees <support@cloudbees.com>
+Project-URL: homepage, https://github.com/rollout/cloudbees-openfeature-provider-python
+Keywords: CloudBees,OpenFeature
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: Other/Proprietary License
+Requires-Python: <=3.11,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: rox>=5.0
+Requires-Dist: openfeature-sdk>=0.4.1
+
+# CloudBees Feature Management provider for OpenFeature
