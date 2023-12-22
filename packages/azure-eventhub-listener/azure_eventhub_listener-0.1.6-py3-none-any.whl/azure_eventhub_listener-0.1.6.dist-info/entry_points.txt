@@ -1,0 +1,3 @@
+[console_scripts]
+start-listener=azure_eventhub_listener.main:main
+
