@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ltermio
+Version: 0.1.5
+Summary: A Lightweight POSIX terminal I/O library
+Home-page: https://github.com/brookssu/ltermio
+Author: brookssu
+Author-email: yipeng00@gmail.com
+License: Apache Software License
+Keywords: ltermio,cursor,termkey,color256,termios,curses,terminal,color,colour,keyboard,ansi,CSI,text composing,Esc sequence,POSIX terminal
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ltermio - A Lightweight POSIX terminal I/O library
+
+The package contains four modules: **cursor**, **termkey**, **color256** and **unicon**. Tested only on **MacOS terminal** and **iTerm2**, so the platform compatibility has not been well verfied yet.
+All functions are based on **CSI** sequences and **termios**, no additional requirements other than the standard library.
+
+## Installation
+Uses pip to install the package:
+
+`pip3 install ltermio`
+
+## cursor
+Wrapper functions of **CSI(Control Sequence Introducer)** sequences about cursor and screen. And additionally provides a several of functions for text composing.
+
+## termkey
+There are two functions **getch()** and **getkey()** for reading keyboard in non-canonical mode.  **getch()** reads raw key characters byte by byte, **getkey()** calls getch() and transforms the CSI sequences of function keys into key codes that defined in an enumerate class Key.
+
+## color256
+Sets 256-color display attributes of the character terminal.
+
+## unicon
+Collection of some common icons in unicode character set.
+
+## History & Why
+When I was learning Python a few months ago, I decided to write a terminal Tetris game as a practice of the language learning. Due to the learning reason, I did not want to use any third-party packages. So when I finally finished the game, there naturally formed a by-product, I named it ltermio.
+

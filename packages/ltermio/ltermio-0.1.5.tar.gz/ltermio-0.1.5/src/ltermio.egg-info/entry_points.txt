@@ -1,0 +1,4 @@
+[console_scripts]
+color256-demo = color256:_test_color256
+cursor-demo = cursor:_test_cursor
+termkey-demo = termkey:_test_termkey
