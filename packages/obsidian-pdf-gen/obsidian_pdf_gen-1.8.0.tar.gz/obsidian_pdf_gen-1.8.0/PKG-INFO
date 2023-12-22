@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: obsidian_pdf_gen
+Version: 1.8.0
+Summary: A python package to convert Obsidian Markdown files into stylish PDFs
+Home-page: https://github.com/mhbl3/obsidian-pdf-gen
+Author: Marc-Henri Bleu-Laine
+License-File: LICENSE
