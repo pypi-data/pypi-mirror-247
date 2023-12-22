@@ -1,0 +1,6 @@
+turu/snowflake/__init__.py,sha256=Uz-oH0isuUcrUuniRWY92g0kTHjLKTMmrw3eZHxrAcE,288
+turu/snowflake/connection.py,sha256=7rYzVG195TceXwmbud5iXTODv11Y_DR2kXl23AILOnk,1312
+turu/snowflake/cursor.py,sha256=DyZl9QHtX9WQBdqq7pb-LlN2TyMsm7Lex72xLoQidCM,3752
+turu_snowflake-0.4.2.dist-info/METADATA,sha256=1yANAnxQFOkv6AX3cQD9R_UrMhf1s0S7ZeSUOHGvUbo,1163
+turu_snowflake-0.4.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_snowflake-0.4.2.dist-info/RECORD,,
