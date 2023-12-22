@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+baseline_optimal/__init__.py
+baseline_optimal/_classifier.py
+baseline_optimal/_processor.py
+baseline_optimal/classifier_pipeline.py
+baseline_optimal.egg-info/PKG-INFO
+baseline_optimal.egg-info/SOURCES.txt
+baseline_optimal.egg-info/dependency_links.txt
+baseline_optimal.egg-info/requires.txt
+baseline_optimal.egg-info/top_level.txt
