@@ -1,0 +1,14 @@
+pychatml/__init__.py,sha256=Wn5-A6JCc2W0WYGbkQrHTTX4EGrbT-ag_BxUmbHbskM,178
+pychatml/abstract_converter.py,sha256=DBY2Lj1b8pVhOo1ZPDn5BvUxiTBykeYhzBv3MD595eY,891
+pychatml/alpaca_converter.py,sha256=jrbRoJuNWKhJ01wZvoyPhQG3EUbh0sEkQgNDiYQEgYU,850
+pychatml/anthropic_converter.py,sha256=_jdWGbLBZHu8fv7au3cd6s61bdvPzwun2NUB6c4iV_s,1869
+pychatml/parser.py,sha256=r-Uz723akCGACPKs6GL5vqQBqU8F0njgB5EuGgJoQPE,264
+tests/__init__.py,sha256=wwzI0HWMz0FUp4V66XGRfzeaK3gaQUnIjDstG8ZUpFI,40
+tests/test_anthropic_converter.py,sha256=Mfgq0ro8ZFVHDZ8i9n0dGRDykOnfAf_NvNmBp1c84FY,1144
+tests/test_converter.py,sha256=RxsUp_A_hqIAvs8R5ctocsJr06DJFboEgMQduQNU9us,411
+tests/test_parser.py,sha256=UxrxuTF2ca8PlfRjI-S39A5QGGyDNfOLFtiLjxjwmFc,374
+pychatml-0.0.1.dist-info/LICENSE,sha256=UY0wX6X4EKBGWtle95iQljJmGesMXgvIFRmgupyeL_k,1073
+pychatml-0.0.1.dist-info/METADATA,sha256=RpluIFZV0bHdU5i-1hqM-M7wdw85ts0UNALzCMAJgzo,940
+pychatml-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pychatml-0.0.1.dist-info/top_level.txt,sha256=UUpn6-EkhoNcvgod8F-8QMgF_8oj9rSkjzzsxKs4Ijw,15
+pychatml-0.0.1.dist-info/RECORD,,
