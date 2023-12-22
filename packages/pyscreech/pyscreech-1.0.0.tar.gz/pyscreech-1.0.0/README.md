@@ -1,0 +1,102 @@
+<div align="center">
+<img src="/docs/assets/pyscreechlogo.jpg" width="50%" title="PyScreech Logo">
+</div>
+
+[![CI][ci-badge]][ci-url]
+[![PyPI Status Badge][pypi-badge]][pypi-url]
+[![PyPI - Python Version][python-badge]][python-url]
+[![License: MIT][license-badge]][license-url]
+[![Docs][docs-badge]][docs-url]
+[![Code style: black][style-badge]][style-url]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7561756.svg)](https://doi.org/10.5281/zenodo.7561756)
+
+
+# Overview
+
+PyScreech is a toolbox for calculating useful performance metrics associated with audio recordings
+such as Speech Transmission Index for Public Address Systems (STIPA), 
+Short-Time Objective Intelligibility (STOI), and Word Error Rate (WER).
+
+# Getting Started
+The easiest way to get started is to install the most recent package from PyPI using:
+```bash
+pip install pyscreech
+```
+The PyPI distribution does not come with the StipaV5_CEA.wav file, so 
+that file needs to be obtained to perform STIPA evaluations. If you are 
+installing from the repo (see below), the file is located in the `resources` directory.
+
+If you would like to install from a local version of the repo, you can use:
+```bash
+pip install .
+```
+
+If you intend to develop on the code, its often useful to do:
+```bash
+pip install -e ."[developer]"
+```
+
+# Usage
+
+### Example command line usage:
+
+## Testing
+Try to run 
+```bash
+python -m pyscreech.cli STIPA resources/StipaV5_CEA.wav 
+```
+Or if you need to point to the `StipaV5_CEA.wav` explicitly, use
+```bash
+python -m pyscreech.cli STIPA resources/StipaV5_CEA.wav -r path/to/StipaV5_CEA.wav
+```
+A STIPA score of 1.0 should be obtained when you compare the reference to itself.
+
+To test a STOI score, run 
+```bash
+python -m pyscreech.cli STOI <recording_filename> -r <reference_filename>
+```
+
+To test a WER, run 
+```bash
+python -m pyscreech.cli WER <recording_filename> -r <reference_filename>
+``` 
+
+For more command line options, type
+```bash
+python -m pyscreech.cli -h
+```
+All files are expected to be audio files. Any audio file that is readable by the SoundFile
+module is accepted.
+
+# FAQs
+
+# Contributing
+Pyscreech is an open source project and as such we welcome contributions! Please reach out to 
+[seth.s.henshaw@leidos.com](mailto:seth.s.henshaw@leidos.com)
+if you need help getting started.
+
+# Acknowledgment
+This material is based upon work supported by the Defense Advanced Research Projects
+Agency (DARPA) under Contract No. HR001120C0114. Any opinions, findings and
+conclusions or recommendations expressed in this material are those of the author(s)
+and do not necessarily reflect the views of the Defense Advanced Research Projects
+Agency (DARPA).
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[ci-badge]: https://github.com/twosixlabs/armory/workflows/GitHub%20CI/badge.svg
+[ci-url]: https://github.com/twosixlabs/armory/actions/
+[pypi-badge]: https://badge.fury.io/py/armory-testbed.svg
+[pypi-url]: https://pypi.org/project/armory-testbed
+[python-badge]: https://img.shields.io/pypi/pyversions/armory-testbed
+[python-url]: https://pypi.org/project/armory-testbed
+[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
+[docs-badge]: https://github.com/twosixlabs/armory/docs/assets/docs-badge.svg
+[docs-url]: https://github.com/twosixlabs/armory/docs
+[style-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+[style-url]: https://github.com/ambv/black
+
+# pyscreech
+Set of Tools to calculate performance characteristics of audio recordings
