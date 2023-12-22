@@ -1,0 +1,4 @@
+[console_scripts]
+pypi_list=scule.pypi:list
+pypi_search=scule.pypi:search
+
