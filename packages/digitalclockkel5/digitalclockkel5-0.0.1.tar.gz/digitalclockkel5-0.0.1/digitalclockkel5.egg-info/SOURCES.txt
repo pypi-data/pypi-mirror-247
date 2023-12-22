@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+digitalClock/__init__.py
+digitalClock/digital_clock.py
+digitalclockkel5.egg-info/PKG-INFO
+digitalclockkel5.egg-info/SOURCES.txt
+digitalclockkel5.egg-info/dependency_links.txt
+digitalclockkel5.egg-info/top_level.txt
