@@ -1,0 +1,10 @@
+verysimplemodule_marcos/__init__.py,sha256=NXrKonrE8q-FEtxsnX-R-Q06At0TouVSI4mLIQHnw5U,50
+verysimplemodule_marcos/add.py,sha256=XnbeMTd_IVI9QONem6OXXHW0HttudNhlgAr8uCHVJdQ,35
+verysimplemodule_marcos/subtract.py,sha256=PD9vtgfLNY_9tuf6pUoIHYlKBuUIU9J2RzaVqsF-gOI,34
+verysimplemodule_marcos/extra/__init__.py,sha256=_0C-EjMG4MVnmzE-ALsNY0yYUI-TGsj7RF_su0qCVzk,53
+verysimplemodule_marcos/extra/divide.py,sha256=_UV3RqwSWYit3FE14ikV7iiV8E6KdfdIGgPIepYP-GQ,34
+verysimplemodule_marcos/extra/multiple.py,sha256=Y0Ybn_xJrIH-fLvfrs8n01V47t6be5H4lucY0Nfxxu8,35
+verysimplemodule_marcos-0.0.1.dist-info/METADATA,sha256=0rxhJetB7dB9p7Jh3WZ0dA9Q4oOZ4IHI4xws7VPp1JA,304
+verysimplemodule_marcos-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+verysimplemodule_marcos-0.0.1.dist-info/top_level.txt,sha256=GZdY3zR_K7MvAR05L_8N-qgNAXhDQCZr2L1SzVMdqTw,24
+verysimplemodule_marcos-0.0.1.dist-info/RECORD,,
