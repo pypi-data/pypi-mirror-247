@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logicore-django-react-pages"
+version = "1.0.0.dev8"
+authors = [
+  { name="Andrei Boltachev", email="andrewboltachev@gmail.com" },
+]
+description = "Post/Redirect/Get-like approach for React + Django AJAX apps"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'Django < 6',
+  'logicore-django-react >= 1.0.0.dev23',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Logicore-project/logicore-django-react-pages"
+"Bug Tracker" = "https://github.com/Logicore-project/logicore-django-react-pages/issues"

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/logicore_django_react_pages/__init__.py
+src/logicore_django_react_pages/views.py
+src/logicore_django_react_pages.egg-info/PKG-INFO
+src/logicore_django_react_pages.egg-info/SOURCES.txt
+src/logicore_django_react_pages.egg-info/dependency_links.txt
+src/logicore_django_react_pages.egg-info/requires.txt
+src/logicore_django_react_pages.egg-info/top_level.txt
