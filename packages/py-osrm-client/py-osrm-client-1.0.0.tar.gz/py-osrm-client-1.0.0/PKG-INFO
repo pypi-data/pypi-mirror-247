@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: py-osrm-client
+Version: 1.0.0
+Summary: Python client for OSRM api
+Author-email: Tommaso Rossi <tommaso.rossi1@protonmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/tomrss/py-osrm-client
+Project-URL: Issues, https://github.com/tomrss/py-osrm-client/issues
+Keywords: osrm,osrm-api,client
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.7.0
+Requires-Dist: requests>=2.0.0
+Provides-Extra: tests
+Requires-Dist: pytest>7.4; extra == "tests"
+Requires-Dist: pytest-asyncio>0.23; extra == "tests"
+Requires-Dist: requests-mock>1; extra == "tests"
+
+# py-osrm-client
+![build](https://github.com/tomrss/py-osrm-client/actions/workflows/build.yml/badge.svg)
+
+Simple Python client for [OSRM](http://project-osrm.org/) api.
+
+## Usage
+
+Async client:
+
+```python
+from osrm import OsrmAsyncClient
+
+async def example():
+    async with OsrmAsyncClient() as osrm:
+        coordinates = [(0.1, 0.2), (0.3, 0.4)]
+        trip = await osrm.trip(coordinates)
+```
+
+
+Sync client:
+
+```python
+from osrm import OsrmAsyncClient
+
+async def example():
+    with OsrmClient() as osrm:
+        coordinates = [(0.1, 0.2), (0.3, 0.4)]
+        trip = osrm.trip(coordinates)
+```
