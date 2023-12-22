@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "uisp-crm"
+version = "0.1.1"
+description = "Python library to interact with the Ubiquiti UISP CRM console."
+authors = ["thecyberbutler <michaelbutler75@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/thecyberbutler/uisp_crm"
+keywords = ["uisp", "ubiquiti", "cmr"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
