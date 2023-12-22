@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: openmeter-client
+Version: 0.0.2
+Summary: A Python client to interact with the OpenMeter API endpoints
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: loguru
