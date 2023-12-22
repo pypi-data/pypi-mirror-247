@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: UtilMeta
+Version: 2.1.4
+Summary: UtilMeta - progressive meta framework for API development in Python
+Project-URL: Homepage, https://utilmeta.com
+Project-URL: Documentation, https://utilmeta.com
+Project-URL: Repository, https://github.com/utilmeta/utilmeta-py
+Author-email: "Xulin Zhou (voidZXL)" <zxl@utilmeta.com>
+License: Copyright (c) 2019-present Xulin Zhou (周煦林)
+        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        
+            http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+License-File: LICENSE
+Keywords: API,declarative,meta,progressive,utype,web
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: databases>=0.7.0
+Requires-Dist: utype>=0.3.7
+Provides-Extra: all
+Requires-Dist: django>=4.1.0; extra == 'all'
+Requires-Dist: flask>=2.3.0; extra == 'all'
+Requires-Dist: sanic>=22.0.0; extra == 'all'
+Requires-Dist: starlette>=0.27.0; extra == 'all'
+Requires-Dist: tornado>=6.2; extra == 'all'
+Description-Content-Type: text/markdown
+
+# UtilMeta API Framework - Python
+
+<img src="https://utilmeta.com/img/logo-main.png" alt="drawing" width="50"/> <strong style="font-size: 24px">UtilMeta </strong> | Progressive meta framework for API development in Python
+
+* Official Website: [https://utilmeta.com](https://utilmeta.com/)
+* License: Apache 2.0
+
+## Installation
+```
+pip install utilmeta
+```
+
+## Core Features
+
+### Progressive meta framework
+UtilMeta developed a standard that support all major Python web framework like **django**, **flask**, **fastapi** (starlette), **sanic**, **tornado** as runtime backend, and support current projects using these frameworks to develop new API using UtilMeta progressively
+
+### Declarative Development
+Using the declarative power from UtilMeta, you can easily write APIs with auto request validation, efficient ORM queries, and auto OpenAPI document generation
+
+### Highly Flexible & Extensible
+UtilMeta is highly flexible with a series of plugins includes authentication (Session/JWT), cross origin, rate limit, retry, and can be extended to support more features.
+
+## Documentation
+
+...developing
+
+### Forum & Support
+
+* [Discord](https://discord.gg/JdmEkFS6dS)
+* [中文讨论区](https://lnzhou.com/channels/utilmeta/py)
