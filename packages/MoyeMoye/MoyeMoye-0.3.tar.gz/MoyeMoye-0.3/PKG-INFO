@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: MoyeMoye
+Version: 0.3
+Summary: Your package description
+Author: DZANUM
+Author-email: random.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
