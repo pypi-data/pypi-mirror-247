@@ -1,0 +1,17 @@
+redis
+flask
+pynetbox
+wheel
+hvac
+xmltodict
+netbox
+urllib3
+cryptography
+PyYAML
+toml
+
+[dev]
+check-manifest
+
+[test]
+coverage
