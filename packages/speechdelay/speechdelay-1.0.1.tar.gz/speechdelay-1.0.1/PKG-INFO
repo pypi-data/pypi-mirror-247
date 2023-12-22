@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: speechdelay
+Version: 1.0.1
+Summary: A simple package that can delay the output of letters in text and color the text in the process.
+Author-email: AuraPy <zayanarshad@aurapy.co.uk>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: colorama
+Description-Content-Type: text/markdown
+
+# SpeechDelay
+
+This is a simple package under the GNU GPL license. This is the first package from AuraPy. This package is used to delay letters printed to the terminal with a set delay between each letter, and optionally set the color of the string.

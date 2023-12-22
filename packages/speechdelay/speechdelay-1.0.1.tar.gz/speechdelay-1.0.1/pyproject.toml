@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "speechdelay"
+version = "1.0.1"
+authors = [
+  { name="AuraPy", email="zayanarshad@aurapy.co.uk" },
+]
+description = "A simple package that can delay the output of letters in text and color the text in the process."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "colorama"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Microsoft :: Windows",
+]
