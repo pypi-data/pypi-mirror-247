@@ -1,0 +1,5 @@
+setup.py
+tp8.egg-info/PKG-INFO
+tp8.egg-info/SOURCES.txt
+tp8.egg-info/dependency_links.txt
+tp8.egg-info/top_level.txt
