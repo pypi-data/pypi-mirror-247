@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jax-metal
+Version: 0.0.5
+Summary: JAX acceleration for Mac GPUs.
+Home-page: https://developer.apple.com/metal/jax/
+Download-URL: 
+Author: 
+Author-email: 
+License: Copyright © 2023 Apple Inc. All rights reserved.
+Keywords: jax metal plugin
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel ~=0.35
+Requires-Dist: six >=1.15.0
+Requires-Dist: jax ==0.4.20
+Requires-Dist: jaxlib ==0.4.20
+
+# jax-metal
+
+The jax-metal package is a Metal GPU plugin to provide Metal acceleration on Mac platforms for JAX applications.
+
+## Installation
+
+The following table tracks `jax-metal` versions and compatible versions of `jax`, `jaxlib` and `MacOS`.
+
+| jax-metal | MacOS                             | jaxlib  | jax     |
+|-----------|-----------------------------------|---------|---------|
+| 0.0.5     | Sonoma 14.2+                      | v0.4.20 | v0.4.20 |
+| 0.0.4     | Sonoma 14.0+                      | v0.4.11 | v0.4.11 |
+| 0.0.3     | Ventura 13.4.1+, Sonoma 14.0 Beta | v0.4.10 | v0.4.11 |
+
+We recommend to install the binary package with venv or conda.
+```
+python3 -m venv ~/jax-metal
+source ~/jax-metal/bin/activate
+python -m pip install -U pip
+python -m pip install numpy wheel
+python -m pip install jax-metal
+```
+
+Please refer to https://developer.apple.com/metal/jax/ for the full setup and verification. 
+
