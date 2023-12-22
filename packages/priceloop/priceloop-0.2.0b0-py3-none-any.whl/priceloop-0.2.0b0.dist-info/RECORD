@@ -1,0 +1,7 @@
+priceloop/__init__.py,sha256=5Zx9xJah4m4zs5w3SLALuny-qkGI6696v4Ksx5t4jPQ,193
+priceloop/exceptions.py,sha256=vhfUH5jH1GY4gSBXmyHzFdM-wHEwyV00oWWPaM8pUUQ,247
+priceloop/helpers.py,sha256=bZze10CaWpD3kK8aLqVx7qprkGXHx2TFfudAiebEN24,1163
+priceloop/table_utils.py,sha256=URXhlzTRwF_Js2T4s4IVRqyBXpsvVjpfl36Yz3IMSTE,27407
+priceloop-0.2.0b0.dist-info/METADATA,sha256=lStY-1I86oOf9r0-9ypbMJB1R-Ct-mIW1_psUlLvuoA,786
+priceloop-0.2.0b0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+priceloop-0.2.0b0.dist-info/RECORD,,
