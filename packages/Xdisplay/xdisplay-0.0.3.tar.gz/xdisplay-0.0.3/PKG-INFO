@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Xdisplay
+Version: 0.0.3
+Summary: 
+Author: Hyunseok Lim
+Author-email: hyunseoki@outlook.kr
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.2,<4.0.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
