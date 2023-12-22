@@ -1,0 +1,15 @@
+README.md
+setup.py
+widefield_plate_solver/__init__.py
+widefield_plate_solver/api_solver.py
+widefield_plate_solver/exceptions.py
+widefield_plate_solver/extract_stars.py
+widefield_plate_solver/local_solver.py
+widefield_plate_solver/plotter.py
+widefield_plate_solver/script.py
+widefield_plate_solver.egg-info/PKG-INFO
+widefield_plate_solver.egg-info/SOURCES.txt
+widefield_plate_solver.egg-info/dependency_links.txt
+widefield_plate_solver.egg-info/entry_points.txt
+widefield_plate_solver.egg-info/requires.txt
+widefield_plate_solver.egg-info/top_level.txt

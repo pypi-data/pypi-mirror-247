@@ -1,0 +1,2 @@
+[console_scripts]
+widefield-plate-solve = widefield_plate_solver.script:main
