@@ -1,0 +1,14 @@
+elliptic/README.md,sha256=r4jSyT7UPeHkoyFJEAzE_bTHGRlNc2FEn88QvNIykxs,12160
+elliptic/__init__.py,sha256=RX0XJrmWoCFrLmOiG01lSNXq-N0lXZfnnqHTLovYs4g,238
+elliptic/abc.py,sha256=CFnmC3KR4XRJkCD5qoFS25Tv0w6Q0SrKJnLCeNE766Y,10290
+elliptic/curves.py,sha256=YpTTK7yvKs6BO93gCrlZ3HiwKR51l9gfdva_hE0cQ5E,15225
+elliptic/fin.py,sha256=GlMQkhodPaXNKIYzct9sDxi5ouMDknv1C2uVvfk1kq0,13071
+elliptic/inf.py,sha256=fbDBk95FAKzhM8Y0bWk5mbdPFFN09jGidwde6LXpXGs,6845
+elliptic/mod.py,sha256=U5Mhgk3WB4y4oLkB-nuUqZijFUvdeBHPQbhxdOOxNes,17612
+elliptic/poly.py,sha256=CXYMX7H70ouM206FzKAyclcWbB1BGU8w4ivbmiDQ1c8,25735
+elliptic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elliptic_curves-0.0.0.dist-info/COPYING.md,sha256=JSgRKnSxtSj_-6cOmmvoBeiJzl9ZP0k-2iM-f42pIqM,32175
+elliptic_curves-0.0.0.dist-info/METADATA,sha256=5as6ifmdqAG066qYH0xgzM4MgWn40Pt4mkQJIQOO2C0,1996
+elliptic_curves-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+elliptic_curves-0.0.0.dist-info/top_level.txt,sha256=2H-9suAzC-H-5-sIxg5sGqr3sP9-OcMAripE1rxTK9g,9
+elliptic_curves-0.0.0.dist-info/RECORD,,
