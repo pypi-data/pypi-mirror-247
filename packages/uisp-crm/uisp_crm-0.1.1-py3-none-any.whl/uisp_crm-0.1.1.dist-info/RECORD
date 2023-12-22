@@ -1,0 +1,7 @@
+uisp_crm/__init__.py,sha256=3t_-9QufqaJhK-W_p7xY-pRI98ObIRPuzeBTFp-rBUE,21
+uisp_crm/clients/__init__.py,sha256=pKIUi7SyjWLaLxa_U46lVwqcuOyoBigTWiHXP9GexM4,29
+uisp_crm/clients/clients.py,sha256=pIQDtmDMBz6BaIDVNoLFZflEDWQYvNl8RsYbI2D1HkQ,1081
+uisp_crm/crm.py,sha256=Gn6C-P5PltBbQILTJvDGbUppQxBF2bBJEdxqNPe3kKw,665
+uisp_crm-0.1.1.dist-info/METADATA,sha256=ckuQtqJkGKTGvCaCQEpoGLYvSqUI76mczP3yPlFN2Js,1365
+uisp_crm-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+uisp_crm-0.1.1.dist-info/RECORD,,
