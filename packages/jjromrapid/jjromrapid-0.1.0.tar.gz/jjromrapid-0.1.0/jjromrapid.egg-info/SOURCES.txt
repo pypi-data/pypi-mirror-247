@@ -1,0 +1,12 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.py
+jjromrapid.egg-info/PKG-INFO
+jjromrapid.egg-info/SOURCES.txt
+jjromrapid.egg-info/dependency_links.txt
+jjromrapid.egg-info/requires.txt
+jjromrapid.egg-info/top_level.txt
+rapid/__init__.py
+rapid/process.py
+rapid/settings.py
