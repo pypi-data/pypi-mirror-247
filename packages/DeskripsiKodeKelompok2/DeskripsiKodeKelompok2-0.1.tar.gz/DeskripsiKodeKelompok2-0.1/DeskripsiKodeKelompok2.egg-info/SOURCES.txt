@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+DeskripsiKodeKelompok2.egg-info/PKG-INFO
+DeskripsiKodeKelompok2.egg-info/SOURCES.txt
+DeskripsiKodeKelompok2.egg-info/dependency_links.txt
+DeskripsiKodeKelompok2.egg-info/top_level.txt
+deskripsiKelompok2/__init__.py
+deskripsiKelompok2/deskripsi.py
