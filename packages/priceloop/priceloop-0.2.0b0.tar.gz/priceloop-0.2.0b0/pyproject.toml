@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=46.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "priceloop"
+version = "0.2.0-beta"
+description = "python interface to interact with priceloop platform"
+authors = ["Priceloop <hello@priceloop.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = ">=0.15.0, <0.24.0"
+attrs = ">=21.3"
+python-dateutil = ">=2.8.0, <3"
+requests = "~=2.25"
+frozendict = "~=2.3"
+pandas = "~=2.0"
+tenacity = "==8.2.3"
+boto3 = "^1.34.4"
+priceloop-api = "0.210.5.dev0"
+typing_extensions = ">=4.9.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.4.0"
+mypy = ">=1.7.1"
+mypy-extensions = ">=1.0.0"
+
+
+[tool.black]
+line-length = 120
+exclude = '''
+(
+  /(
+    | \.git
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 120
+profile = "black"
