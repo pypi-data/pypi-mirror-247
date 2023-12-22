@@ -1,0 +1,7 @@
+zrcl3
+zrcl3\_internal
+zrcl3\auto_click
+zrcl3\auto_save_dict
+zrcl3\hackthon
+zrcl3\init_generator
+zrcl3\mediawiki
