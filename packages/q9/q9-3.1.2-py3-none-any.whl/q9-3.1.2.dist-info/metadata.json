@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "tudu8603@gmail.com", "name": "luyendd", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "extras": [], "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "q9", "run_requires": [{"requires": ["opencv-python"]}], "summary": "UNKNOWN", "version": "3.1.2"}
