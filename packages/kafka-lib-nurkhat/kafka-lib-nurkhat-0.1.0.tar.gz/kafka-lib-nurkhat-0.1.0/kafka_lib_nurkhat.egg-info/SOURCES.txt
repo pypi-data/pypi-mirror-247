@@ -1,0 +1,5 @@
+setup.py
+kafka_lib_nurkhat.egg-info/PKG-INFO
+kafka_lib_nurkhat.egg-info/SOURCES.txt
+kafka_lib_nurkhat.egg-info/dependency_links.txt
+kafka_lib_nurkhat.egg-info/top_level.txt
