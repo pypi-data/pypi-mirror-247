@@ -1,0 +1,265 @@
+Metadata-Version: 2.1
+Name: spartacloud
+Version: 0.2
+Summary: Spartacloud Python API
+Home-page: https://spartaquant.com
+Author: Benjamin Meyer
+Author-email: spartacloud@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# <img src="https://www.spartaquant.com/assets/img/spartaquant/icon-color.png" width="60px" alt="SpartaQuant icon" class="logo-default"> Spartacloud
+
+This API provides many services you can use from Spartacloud
+
+### Installation
+
+##### API
+
+Install the package via pip with code below:
+
+```python
+pip install spartacloud
+```
+
+To Upgrade:
+
+
+```python
+pip install --upgrade spartacloud
+```
+
+##### Application
+There are two types of Spartacloud image your can pull:
+* Master node
+* Developer node
+
+**Master nodes** are special instances that should be reserved for administrator.
+They can control the full cluster with unlimited access.
+
+**Developer nodes** are instances reserved for developers or business teams. They can interact with
+the cluster and enjoy Spartacloud capabilities, such as:
+* Deploying remote jobs
+* Terminal access control
+* Shared resources
+* Private git server
+* Private container registry
+* Managing internal applications
+* Xserver
+* PlotDB
+* SpartaQuant application
+* Default applications
+
+##### Authentication
+
+1. First, you must pull the docker image on your server and create an account
+2. Go the cluster page, in the API section and generate an API key
+3. Import the spartacloud module
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+```
+
+
+##### Examples	
+
+Some examples to start with the Spartacloud API:
+
+### Cluster information
+1. Get list of nodes
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_computer_nodes()
+```
+
+2. Cluster metrics
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_metrics_cluster()
+```
+
+3. Cluster status
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_status_cluster()
+```
+
+4. Cluster CPU usage
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_cpu_cluster()
+```
+
+5. Cluster MEM usage
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_mem_cluster()
+```
+
+6. Cluster disk usage
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+spartacloud_obj.get_disk_cluster()
+```
+
+### Distributed Jobs
+1. Distribute a job remotely
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.distribute_job(
+    job_cmd, 
+    job_name=None, 
+    target_node=None, 
+    target_cpu=None, 
+    target_mem=None, 
+    store_stdout=True, 
+    b_rerun=False
+)
+```
+
+2. Get job status
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.get_jobs_status()
+```
+
+3. Cancel a job
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.cancel_job(uuid)
+```
+
+4. Cancel all jobs
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.cancel_all_jobs()
+```
+
+5. Delete a job
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.delete_job(uuid)
+```
+
+6. Get list of remote jobs
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.get_jobs()
+```
+
+7. Get stdout/stderr
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.get_job_std(uuid)
+```
+
+### Shared Resources	
+Coming soon...
+
+### Data Store	
+To interact with the Data Store (In-memory cluster-based), you need to instantiate the data store object:
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.get_data_store_cluster()
+```
+You have the option to target a specific node of your cluster like this:
+```python
+from spartacloud.spartacloud_api import Spartacloud
+spartacloud_obj = Spartacloud(api_key)
+data_store_cluster_obj = spartacloud_obj.get_data_store_cluster(target_node:int=1)
+```
+
+1. Cluster Status
+```python
+value = data_store_cluster_obj.status()
+```
+
+2. Keys (get the list of keys for all the instances of your Spartacloud cluster)
+```python
+value = data_store_cluster_obj.keys()
+```
+
+3. Get
+```python
+value = data_store_cluster_obj.get('my_key')
+```
+
+4. Set
+```python
+data_store_cluster_obj.set('my_key', 'my_value')
+```
+
+5. Delete
+```python
+data_store_cluster_obj.delete('my_key')
+```
+
+6. Rpush
+```python
+data_store_cluster_obj.rpush('my_list', 'item1', 'item2')
+```
+
+7. Lrange
+```python
+elements = spartacloud_obj.lrange('my_list', 0, -1)
+```
+
+8. Hset
+```python
+spartacloud_obj.hset('my_hash', 'field1', 'value1')
+```
+
+9. Hget
+```python
+value = spartacloud_obj.hget('my_hash', 'field1')
+```
+
+10. Sadd
+```python
+data_store_cluster_obj.sadd('my_set', 'member1', 'member2')
+```
+
+11. Smembers
+```python
+members = data_store_cluster_obj.smembers('my_set')
+```
+
+12. Zadd
+```python
+data_store_cluster_obj.zadd('my_sorted_set', {'item1': 10, 'item2': 5})
+```
+
+13. Zrangebyscore
+```python
+data_store_cluster_obj.zrangebyscore('my_sorted_set', min=0, max=20)
+```
+
+14. Expire
+```python
+data_store_cluster_obj.expire('my_key', 60)
+```
+
+15. TTL
+```python
+ttl = data_store_cluster_obj.ttl('my_key')
+```
+
+
+Check out the documentation of the API at https://spartaquant.pro/publicAPI for more information
