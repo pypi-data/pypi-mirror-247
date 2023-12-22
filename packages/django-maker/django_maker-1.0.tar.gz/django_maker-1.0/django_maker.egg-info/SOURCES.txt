@@ -1,0 +1,8 @@
+setup.py
+django_maker.egg-info/PKG-INFO
+django_maker.egg-info/SOURCES.txt
+django_maker.egg-info/dependency_links.txt
+django_maker.egg-info/requires.txt
+django_maker.egg-info/top_level.txt
+management/__init__.py
+migrations/__init__.py
