@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+graft twyleg_kicad_utils
+recursive-exclude * *.py[co]
+include versioneer.py
+include twyleg_kicad_utils/_version.py
