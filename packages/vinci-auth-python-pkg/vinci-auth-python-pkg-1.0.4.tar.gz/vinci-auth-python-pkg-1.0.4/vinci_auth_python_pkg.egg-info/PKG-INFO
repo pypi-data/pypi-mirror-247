@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: vinci-auth-python-pkg
+Version: 1.0.4
+Summary: A simple package to get vinci users auth token
+Home-page: http://tfs.util.vinci.net:8080/tfs/DefaultCollection/Vinci.Poc/Vinci.Poc%20Team/_git/vinci-auth-python-pkg
+Author: Igor Lisbôa (TI-Sistemas)
+Author-email: ti-sistemas@vincipartners.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# vinci-auth-python-pkg
+A simple package to get vinci users auth token
+
+# Como subir novas versoes
+* FaÃ§a suas alteraÃ§Ãµes
+* Altere a versÃ£o no arquivo setup.py
+* delete as pastas vinci_auth_python_pkg.egg-info, dist e build
+* rode os seguintes comandos
+    * python setup.py sdist bdist_wheel
+    * python -m twine upload dist/*
+        * Para auth informe o user __token__
+        * E senha informe a que se encontra no .pypirc
