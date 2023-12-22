@@ -1,0 +1,11 @@
+rollnw.cpython-312-darwin.so,sha256=8NlyRD14YyZmWWW9uJnVfgpYOpdQu3D_u3yLRFSELkU,12394960
+rollnw-0.23.dev0.dist-info/RECORD,,
+rollnw-0.23.dev0.dist-info/LICENSE,sha256=yjQdNANEe8_t9GwAmqwWoFKxQIscuSRruK2JbkJdCgU,1101
+rollnw-0.23.dev0.dist-info/WHEEL,sha256=lzqenrqyh1Pr7CGb47NgBog9Dh3mxPtRHeAEl9vf6dI,111
+rollnw-0.23.dev0.dist-info/top_level.txt,sha256=LoJYRO7WeOw8sRk9BcRdUoGdlSBHXYkyD2M2N-7T1LE,17
+rollnw-0.23.dev0.dist-info/METADATA,sha256=8Ivig5-UsnaVQ4aei5ZJxA7Cx2egsBTF1e4Cl4cFmrk,5080
+rollnw-stubs/script.pyi,sha256=KV-1IyxETDirRqUyb4ScU2t39Ng3NMMhfzkXdJ_SpsA,13869
+rollnw-stubs/nwn1.pyi,sha256=fblXifdydnAFQGbo_UuXhPA81pHgmV5PHHhVuGhQ0uc,4128
+rollnw-stubs/__init__.pyi,sha256=WtX10ddfRQS41N9ikPclyskKy2gbE1fP1CozlMcWxyA,89115
+rollnw-stubs/kernel.pyi,sha256=OA3Ayuzj7AgjwcAxx9D8Ibb9ZZB8r4yYQYcxX1sjjpI,3782
+rollnw-stubs/model.pyi,sha256=fFQRzNh4y0L4PyjRWMYbcpy-apxVXD71bLcmHWF3-6A,12409
