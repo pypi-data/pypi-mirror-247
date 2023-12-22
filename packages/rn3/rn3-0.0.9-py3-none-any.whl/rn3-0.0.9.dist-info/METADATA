@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rn3
+Version: 0.0.9
+Summary: Useful library
+Author-email: Marc Ridler <marc-etienne.ridler@eea.europa.eu>
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: typing-extensions
+Requires-Dist: xlsxwriter
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: mkdocs; extra == 'dev'
+Requires-Dist: mkdocs-material; extra == 'dev'
+Requires-Dist: mkdocstrings[python]; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# rn3: Python tools to help manage EEA Reportnet3 
+
+This repository contains tools to ineract with Reportnet3.
+
