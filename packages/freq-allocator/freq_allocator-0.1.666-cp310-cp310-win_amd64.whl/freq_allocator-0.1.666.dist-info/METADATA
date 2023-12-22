@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: freq-allocator
+Version: 0.1.666
+Author: Agony
+Project-URL: Source Code, https://github.com/Agony5757/FreqAllocator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: networkx
+Requires-Dist: sko
+Requires-Dist: geatpy
+Requires-Dist: qutip
+
+# FreqAllocator
+
+## Install
+
+Every time you make a change to the code, run this in your conda environment
+```bash
+pip install .
+```
+
+## Usage
+
+### Example
+```python
+import freq_allocator
+H = 8
+W = 6
+xy_crosstalk_sim_path = Path.cwd() / 'chipdata' / r"xy_crosstalk_sim.json"
+qubit_data = Path.cwd() / 'chipdata' / r"qubit_data.json"
+
+chip, xy_crosstalk_sim_dic = freq_allocator.load_chip_data_from_file(H, W, qubit_data, xy_crosstalk_sim_path)
+chip, conflictNodeDict = freq_allocator.sigq_alloc(chip, H, W, arb, xy_crosstalk_sim_dic, s=2)
+for qubit in chip.nodes:
+    print(
+        qubit,
+        chip.nodes[qubit]['frequency'],
+        chip.nodes[qubit]['frequency'] - chip.nodes[qubit]['sweet point'],
+    )
+```
+
+### Run single qubit allocation script
+```bash
+python ./test/allocate_single_qubit/main.py
+```
