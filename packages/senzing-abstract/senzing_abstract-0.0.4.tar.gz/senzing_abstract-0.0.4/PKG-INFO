@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: senzing_abstract
+Version: 0.0.4
+Summary: Python SDK method definitions
+Home-page: https://github.com/Senzing/g2-sdk-python-abstract
+Author: senzing
+Author-email: support@senzing.com
+License: Apache 2
+Project-URL: Bug Tracker, https://github.com/Senzing/g2-sdk-python-abstract/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# g2-sdk-python-abstract
+
+## :warning: WARNING: g2-sdk-python-abstract is still in development :warning: _
+
+At the moment, this is "work-in-progress" with Semantic Versions of `0.n.x`.
+Although it can be reviewed and commented on,
+the recommendation is not to use it yet.
+
+## Synopsis
+
+The Senzing `g2-sdk-python-abstract` package contains the abstract base class from which
+implmentations of the Senzing Python SDK are derived.
+
+## Overview
+
+## Use
+
+## References
+
+1. [Development](docs/development.md)
+1. [Errors](docs/errors.md)
+1. [Examples](docs/examples.md)
+1. [g2-sdk-python-abstract package reference](https://hub.senzing.com/g2-sdk-python-abstract/)
