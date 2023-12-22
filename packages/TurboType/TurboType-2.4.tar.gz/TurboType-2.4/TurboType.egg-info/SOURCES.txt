@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+TurboType.egg-info/PKG-INFO
+TurboType.egg-info/SOURCES.txt
+TurboType.egg-info/dependency_links.txt
+TurboType.egg-info/entry_points.txt
+TurboType.egg-info/requires.txt
+TurboType.egg-info/top_level.txt
+src/TurboType.py
+src/__init__.py
