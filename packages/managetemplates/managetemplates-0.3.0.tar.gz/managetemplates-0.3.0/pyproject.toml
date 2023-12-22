@@ -1,0 +1,170 @@
+[project]
+name = "managetemplates"
+dynamic = ["version"]
+description = "Pseudo Python package to test the https://github.com/jedie/cookiecutter_templates cookiecutter templates"
+license = {text = "GPL-3.0-or-later"}
+readme = "README.md"
+authors = [
+    {name = 'Jens Diemer', email = 'cookiecutter_templates@jensdiemer.de'}
+]
+requires-python = ">=3.10,<4"
+dependencies = [
+    "cli-base-utilities>=0.6.0",  # https://github.com/jedie/cli-base-utilities
+    "manageprojects>=0.16.0",  # https://github.com/jedie/manageprojects
+    "bx_py_utils",  # https://github.com/boxine/bx_py_utils
+    "click",  # https://github.com/pallets/click/
+    "rich-click",  # https://github.com/ewels/rich-click
+    "rich",  # https://github.com/Textualize/rich
+    "django_example",  # Only to get the current version of this package ;)
+]
+[project.optional-dependencies]
+dev = [
+    "pip-tools",  # https://github.com/jazzband/pip-tools/
+    "tox",  # https://github.com/tox-dev/tox
+    "coverage",  # https://github.com/nedbat/coveragepy
+    "autopep8",  # https://github.com/hhatto/autopep8
+    "pyupgrade",  # https://github.com/asottile/pyupgrade
+    "flake8",  # https://github.com/pycqa/flake8
+    "flake8-bugbear",  # https://github.com/PyCQA/flake8-bugbear
+    "pyflakes",  # https://github.com/PyCQA/pyflakes
+    "codespell",  # https://github.com/codespell-project/codespell
+    "EditorConfig",  # https://github.com/editorconfig/editorconfig-core-py
+    "safety",  # https://github.com/pyupio/safety
+    "mypy",  # https://github.com/python/mypy
+    "twine",  # https://github.com/pypa/twine
+
+    # https://github.com/akaihola/darker
+    # https://github.com/ikamensh/flynt
+    # https://github.com/pycqa/isort
+    # https://github.com/pygments/pygments
+    "darker[flynt, isort, color]",
+
+    "tomli",  # https://github.com/hukkin/tomli
+    #
+    # tomli only needed for Python <3.11, but see pip bug:
+    # https://github.com/pypa/pip/issues/9644 / https://github.com/jazzband/pip-tools/issues/1866
+    #'tomli;python_version<"3.11"',  # https://github.com/hukkin/tomli
+]
+
+[project.urls]
+Documentation = "https://github.com/jedie/cookiecutter_templates"
+Source = "https://github.com/jedie/cookiecutter_templates"
+
+[project.scripts]
+managetemplates_app = "managetemplates.__main__:main"
+managetemplates_dev = "managetemplates.cli.dev:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm>=7.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["managetemplates*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "managetemplates.__version__"}
+
+
+[tool.darker]
+src = ['cli.py', 'managetemplates'] # Exclude all Cookiecutter Templates!
+config = './pyproject.toml'
+revision = "origin/main..."
+line_length = 119
+verbose = true
+color = true
+skip_string_normalization = true
+diff = false
+check = false
+stdout = false
+isort = true
+flynt = true
+lint = [
+    "flake8",
+]
+log_level = "INFO"
+
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/config_files/#pyprojecttoml-preferred-format
+atomic=true
+profile='black'
+skip_glob=['.*', '*/htmlcov/*']
+known_first_party=['managetemplates']
+line_length=119
+lines_after_imports=2
+
+
+[tool.coverage.run]
+branch = true
+parallel = true
+concurrency = ["multiprocessing"]
+source = ['managetemplates']
+command_line = '-m unittest --verbose --locals --buffer'
+
+[tool.coverage.report]
+omit = ['.*', '*/tests/*']
+skip_empty = true
+fail_under = 30
+show_missing = true
+exclude_lines = [
+    'if self.debug:',
+    'pragma: no cover',
+    'raise NotImplementedError',
+    'if __name__ == .__main__.:',
+]
+
+
+[tool.tox]  # https://tox.wiki/en/latest/config.html#pyproject-toml
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py{312,311,310}
+skip_missing_interpreters = True
+
+[testenv]
+passenv = *
+skip_install = true
+commands_pre =
+    pip install -U pip-tools
+    pip-sync requirements.dev.txt
+commands =
+    {envpython} -m coverage run --context='{envname}'
+    {envpython} -m coverage combine --append
+    {envpython} -m coverage xml
+    {envpython} -m coverage report
+"""
+
+
+[tool.mypy]
+warn_unused_configs = true
+ignore_missing_imports = true
+allow_redefinition = true  # https://github.com/python/mypy/issues/7165
+show_error_codes = true
+plugins = []
+exclude = ['.venv', 'tests']
+
+
+[manageprojects] # https://github.com/jedie/manageprojects
+initial_revision = "5b2334c"
+initial_date = 2022-11-19T22:40:01+01:00
+cookiecutter_template = "https://github.com/jedie/cookiecutter_templates/"
+cookiecutter_directory = "piptools-python"
+applied_migrations = [
+    "68124d4", # 2022-11-20T00:19:44+01:00
+    "7260de6", # 2023-02-19T12:16:21+01:00
+    "41345e2", # 2023-08-05T20:53:10+02:00
+    "51d1d77", # 2023-12-21T20:58:37+01:00
+]
+
+[manageprojects.cookiecutter_context.cookiecutter]
+full_name = "Jens Diemer"
+github_username = "jedie"
+author_email = "cookiecutter_templates@jensdiemer.de"
+package_name = "managetemplates"
+package_version = "0.0.1"
+package_description = "Pseudo Python package to test the https://github.com/jedie/cookiecutter_templates cookiecutter templates"
+package_url = "https://github.com/jedie/cookiecutter_templates"
+issues_url = "https://github.com/jedie/cookiecutter_templates/issues"
+license = "GPL-3.0-or-later"
+_template = "https://github.com/jedie/cookiecutter_templates/"

@@ -1,0 +1,389 @@
+.editorconfig
+.flake8
+.gitignore
+LICENSE
+README.md
+cli.py
+dev-cli.py
+pyproject.toml
+requirements.dev.txt
+requirements.txt
+.github/workflows/tests.yml
+generated_templates/managed-django-project/your_cool_package/.editorconfig
+generated_templates/managed-django-project/your_cool_package/.flake8
+generated_templates/managed-django-project/your_cool_package/.gitignore
+generated_templates/managed-django-project/your_cool_package/README.md
+generated_templates/managed-django-project/your_cool_package/manage.py
+generated_templates/managed-django-project/your_cool_package/pyproject.toml
+generated_templates/managed-django-project/your_cool_package/requirements.dev.txt
+generated_templates/managed-django-project/your_cool_package/requirements.django32.txt
+generated_templates/managed-django-project/your_cool_package/requirements.django42.txt
+generated_templates/managed-django-project/your_cool_package/requirements.django50.txt
+generated_templates/managed-django-project/your_cool_package/requirements.txt
+generated_templates/managed-django-project/your_cool_package/.github/workflows/tests.yml
+generated_templates/managed-django-project/your_cool_package/your_cool_package/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/apps.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/checks.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/constants.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/context_processors.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/exceptions.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/admin/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/management/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/management/commands/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/migrations/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/models/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/tests/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package/views/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/__main__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/middlewares.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/urls.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/wsgi.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/settings/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/settings/local.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/settings/prod.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/settings/tests.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/templates/.gitkeep
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/tests/__init__.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/tests/test_admin.py
+generated_templates/managed-django-project/your_cool_package/your_cool_package_project/tests/test_project_setup.py
+generated_templates/pipenv-python/your_cool_package/.editorconfig
+generated_templates/pipenv-python/your_cool_package/.flake8
+generated_templates/pipenv-python/your_cool_package/.gitignore
+generated_templates/pipenv-python/your_cool_package/Makefile
+generated_templates/pipenv-python/your_cool_package/Pipfile
+generated_templates/pipenv-python/your_cool_package/Pipfile.lock
+generated_templates/pipenv-python/your_cool_package/README.md
+generated_templates/pipenv-python/your_cool_package/pyproject.toml
+generated_templates/pipenv-python/your_cool_package/your_cool_package/__init__.py
+generated_templates/pipenv-python/your_cool_package/your_cool_package/__main__.py
+generated_templates/pipenv-python/your_cool_package/your_cool_package/tests/__init__.py
+generated_templates/pipenv-python/your_cool_package/your_cool_package/tests/test_doctests.py
+generated_templates/pipenv-python/your_cool_package/your_cool_package/tests/test_project_setup.py
+generated_templates/piptools-python/your_cool_package/.editorconfig
+generated_templates/piptools-python/your_cool_package/.flake8
+generated_templates/piptools-python/your_cool_package/.gitignore
+generated_templates/piptools-python/your_cool_package/README.md
+generated_templates/piptools-python/your_cool_package/cli.py
+generated_templates/piptools-python/your_cool_package/dev-cli.py
+generated_templates/piptools-python/your_cool_package/pyproject.toml
+generated_templates/piptools-python/your_cool_package/requirements.dev.txt
+generated_templates/piptools-python/your_cool_package/requirements.txt
+generated_templates/piptools-python/your_cool_package/.github/workflows/tests.yml
+generated_templates/piptools-python/your_cool_package/your_cool_package/__init__.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/__main__.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/constants.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/cli/__init__.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/cli/cli_app.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/cli/dev.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/tests/__init__.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/tests/test_doctests.py
+generated_templates/piptools-python/your_cool_package/your_cool_package/tests/test_project_setup.py
+generated_templates/poetry-django-app/your_reuseable_django_app/.editorconfig
+generated_templates/poetry-django-app/your_reuseable_django_app/.flake8
+generated_templates/poetry-django-app/your_reuseable_django_app/.gitignore
+generated_templates/poetry-django-app/your_reuseable_django_app/Dockerfile.tests
+generated_templates/poetry-django-app/your_reuseable_django_app/LICENSE
+generated_templates/poetry-django-app/your_reuseable_django_app/Makefile
+generated_templates/poetry-django-app/your_reuseable_django_app/README.md
+generated_templates/poetry-django-app/your_reuseable_django_app/manage.py
+generated_templates/poetry-django-app/your_reuseable_django_app/manage.sh
+generated_templates/poetry-django-app/your_reuseable_django_app/poetry.lock
+generated_templates/poetry-django-app/your_reuseable_django_app/pyproject.toml
+generated_templates/poetry-django-app/your_reuseable_django_app/.github/workflows/pythonapp.yml
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/admin.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/apps.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/models.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/urls.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/views.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/management/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/management/commands/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app/migrations/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/manage.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/publish.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/settings.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/urls.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/test_project/wsgi.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/tests/__init__.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/tests/test_doctests.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/tests/test_project_setup.py
+generated_templates/poetry-django-app/your_reuseable_django_app/your_reuseable_django_app_tests/tests/test_views.py
+generated_templates/poetry-python/your_cool_package/.editorconfig
+generated_templates/poetry-python/your_cool_package/.flake8
+generated_templates/poetry-python/your_cool_package/.gitignore
+generated_templates/poetry-python/your_cool_package/LICENSE
+generated_templates/poetry-python/your_cool_package/Makefile
+generated_templates/poetry-python/your_cool_package/README.md
+generated_templates/poetry-python/your_cool_package/cli.sh
+generated_templates/poetry-python/your_cool_package/poetry.lock
+generated_templates/poetry-python/your_cool_package/pyproject.toml
+generated_templates/poetry-python/your_cool_package/.github/workflows/tests.yml
+generated_templates/poetry-python/your_cool_package/your_cool_package/__init__.py
+generated_templates/poetry-python/your_cool_package/your_cool_package/__main__.py
+generated_templates/poetry-python/your_cool_package/your_cool_package/cli.py
+generated_templates/poetry-python/your_cool_package/your_cool_package/tests/__init__.py
+generated_templates/poetry-python/your_cool_package/your_cool_package/tests/test_doctests.py
+generated_templates/poetry-python/your_cool_package/your_cool_package/tests/test_project_setup.py
+generated_templates/yunohost_django_package/django_example_ynh/.editorconfig
+generated_templates/yunohost_django_package/django_example_ynh/.flake8
+generated_templates/yunohost_django_package/django_example_ynh/.gitignore
+generated_templates/yunohost_django_package/django_example_ynh/LICENSE
+generated_templates/yunohost_django_package/django_example_ynh/README.md
+generated_templates/yunohost_django_package/django_example_ynh/README_fr.md
+generated_templates/yunohost_django_package/django_example_ynh/config_panel.toml
+generated_templates/yunohost_django_package/django_example_ynh/dev-cli.py
+generated_templates/yunohost_django_package/django_example_ynh/manifest.toml
+generated_templates/yunohost_django_package/django_example_ynh/pyproject.toml
+generated_templates/yunohost_django_package/django_example_ynh/requirements.dev.txt
+generated_templates/yunohost_django_package/django_example_ynh/tests.toml
+generated_templates/yunohost_django_package/django_example_ynh/.github/ISSUE_TEMPLATE.md
+generated_templates/yunohost_django_package/django_example_ynh/.github/PULL_REQUEST_TEMPLATE.md
+generated_templates/yunohost_django_package/django_example_ynh/.github/workflows/package_linter.yml
+generated_templates/yunohost_django_package/django_example_ynh/.github/workflows/tests.yml
+generated_templates/yunohost_django_package/django_example_ynh/conf/gunicorn.conf.py
+generated_templates/yunohost_django_package/django_example_ynh/conf/manage.py
+generated_templates/yunohost_django_package/django_example_ynh/conf/nginx.conf
+generated_templates/yunohost_django_package/django_example_ynh/conf/requirements.txt
+generated_templates/yunohost_django_package/django_example_ynh/conf/settings.py
+generated_templates/yunohost_django_package/django_example_ynh/conf/setup_user.py
+generated_templates/yunohost_django_package/django_example_ynh/conf/systemd.service
+generated_templates/yunohost_django_package/django_example_ynh/conf/urls.py
+generated_templates/yunohost_django_package/django_example_ynh/conf/wsgi.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/__init__.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/constants.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/cli/__init__.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/cli/dev.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/tests/__init__.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/tests/test_django_project.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/tests/test_doctests.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/tests/test_project_setup.py
+generated_templates/yunohost_django_package/django_example_ynh/django_example_ynh/tests/test_readme.py
+generated_templates/yunohost_django_package/django_example_ynh/doc/ADMIN.md
+generated_templates/yunohost_django_package/django_example_ynh/doc/DESCRIPTION.md
+generated_templates/yunohost_django_package/django_example_ynh/doc/screenshots/.gitkeep
+generated_templates/yunohost_django_package/django_example_ynh/scripts/_common.sh
+generated_templates/yunohost_django_package/django_example_ynh/scripts/backup
+generated_templates/yunohost_django_package/django_example_ynh/scripts/change_url
+generated_templates/yunohost_django_package/django_example_ynh/scripts/install
+generated_templates/yunohost_django_package/django_example_ynh/scripts/remove
+generated_templates/yunohost_django_package/django_example_ynh/scripts/restore
+generated_templates/yunohost_django_package/django_example_ynh/scripts/upgrade
+managed-django-project/README.md
+managed-django-project/__init__.py
+managed-django-project/cookiecutter.json
+managed-django-project/tests.py
+managed-django-project/update_requirements.py
+managed-django-project/{{ cookiecutter.package_name }}/.editorconfig
+managed-django-project/{{ cookiecutter.package_name }}/.flake8
+managed-django-project/{{ cookiecutter.package_name }}/.gitignore
+managed-django-project/{{ cookiecutter.package_name }}/README.md
+managed-django-project/{{ cookiecutter.package_name }}/manage.py
+managed-django-project/{{ cookiecutter.package_name }}/pyproject.toml
+managed-django-project/{{ cookiecutter.package_name }}/requirements.dev.txt
+managed-django-project/{{ cookiecutter.package_name }}/requirements.django32.txt
+managed-django-project/{{ cookiecutter.package_name }}/requirements.django42.txt
+managed-django-project/{{ cookiecutter.package_name }}/requirements.django50.txt
+managed-django-project/{{ cookiecutter.package_name }}/requirements.txt
+managed-django-project/{{ cookiecutter.package_name }}/.github/workflows/tests.yml
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/__main__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/middlewares.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/urls.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/wsgi.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/settings/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/settings/local.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/settings/prod.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/settings/tests.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/templates/.gitkeep
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/tests/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/tests/test_admin.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.django_project_name }}/tests/test_project_setup.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/apps.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/checks.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/constants.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/context_processors.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/exceptions.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/admin/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/management/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/management/commands/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/migrations/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/models/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/__init__.py
+managed-django-project/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/views/__init__.py
+managetemplates/__init__.py
+managetemplates/__main__.py
+managetemplates/constants.py
+managetemplates.egg-info/PKG-INFO
+managetemplates.egg-info/SOURCES.txt
+managetemplates.egg-info/dependency_links.txt
+managetemplates.egg-info/entry_points.txt
+managetemplates.egg-info/requires.txt
+managetemplates.egg-info/top_level.txt
+managetemplates/cli/__init__.py
+managetemplates/cli/cli_app.py
+managetemplates/cli/dev.py
+managetemplates/tests/__init__.py
+managetemplates/tests/base.py
+managetemplates/tests/test_cli.py
+managetemplates/tests/test_doctests.py
+managetemplates/tests/test_project_setup.py
+managetemplates/tests/test_readme.py
+managetemplates/utilities/__init__.py
+managetemplates/utilities/cookiecutter_utils.py
+managetemplates/utilities/reverse.py
+managetemplates/utilities/sync_cookiecutter_templates.py
+managetemplates/utilities/template_var_syntax.py
+managetemplates/utilities/test_project_utils.py
+managetemplates/utilities/verbose_copy.py
+pipenv-python/README.md
+pipenv-python/__init__.py
+pipenv-python/cookiecutter.json
+pipenv-python/tests.py
+pipenv-python/update_requirements.py
+pipenv-python/{{ cookiecutter.package_name }}/.editorconfig
+pipenv-python/{{ cookiecutter.package_name }}/.flake8
+pipenv-python/{{ cookiecutter.package_name }}/.gitignore
+pipenv-python/{{ cookiecutter.package_name }}/Makefile
+pipenv-python/{{ cookiecutter.package_name }}/Pipfile
+pipenv-python/{{ cookiecutter.package_name }}/Pipfile.lock
+pipenv-python/{{ cookiecutter.package_name }}/README.md
+pipenv-python/{{ cookiecutter.package_name }}/pyproject.toml
+pipenv-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__init__.py
+pipenv-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__main__.py
+pipenv-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/__init__.py
+pipenv-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_doctests.py
+pipenv-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_project_setup.py
+piptools-python/README.md
+piptools-python/__init__.py
+piptools-python/cookiecutter.json
+piptools-python/tests.py
+piptools-python/update_requirements.py
+piptools-python/{{ cookiecutter.package_name }}/.editorconfig
+piptools-python/{{ cookiecutter.package_name }}/.flake8
+piptools-python/{{ cookiecutter.package_name }}/.gitignore
+piptools-python/{{ cookiecutter.package_name }}/README.md
+piptools-python/{{ cookiecutter.package_name }}/cli.py
+piptools-python/{{ cookiecutter.package_name }}/dev-cli.py
+piptools-python/{{ cookiecutter.package_name }}/pyproject.toml
+piptools-python/{{ cookiecutter.package_name }}/requirements.dev.txt
+piptools-python/{{ cookiecutter.package_name }}/requirements.txt
+piptools-python/{{ cookiecutter.package_name }}/.github/workflows/tests.yml
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__init__.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__main__.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/constants.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/cli/__init__.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/cli/cli_app.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/cli/dev.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/__init__.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_doctests.py
+piptools-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_project_setup.py
+poetry-django-app/README.md
+poetry-django-app/cookiecutter.json
+poetry-django-app/tests.py
+poetry-django-app/update_requirements.py
+poetry-django-app/{{ cookiecutter.package_name }}/.editorconfig
+poetry-django-app/{{ cookiecutter.package_name }}/.flake8
+poetry-django-app/{{ cookiecutter.package_name }}/.gitignore
+poetry-django-app/{{ cookiecutter.package_name }}/Dockerfile.tests
+poetry-django-app/{{ cookiecutter.package_name }}/LICENSE
+poetry-django-app/{{ cookiecutter.package_name }}/Makefile
+poetry-django-app/{{ cookiecutter.package_name }}/README.md
+poetry-django-app/{{ cookiecutter.package_name }}/manage.py
+poetry-django-app/{{ cookiecutter.package_name }}/manage.sh
+poetry-django-app/{{ cookiecutter.package_name }}/poetry.lock
+poetry-django-app/{{ cookiecutter.package_name }}/pyproject.toml
+poetry-django-app/{{ cookiecutter.package_name }}/.github/workflows/pythonapp.yml
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/admin.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/apps.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/models.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/urls.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/views.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/management/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/management/commands/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/migrations/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/manage.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/publish.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/settings.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/urls.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/test_project/wsgi.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/tests/__init__.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/tests/test_doctests.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/tests/test_project_setup.py
+poetry-django-app/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}_tests/tests/test_views.py
+poetry-python/README.md
+poetry-python/__init__.py
+poetry-python/cookiecutter.json
+poetry-python/tests.py
+poetry-python/update_requirements.py
+poetry-python/{{ cookiecutter.package_name }}/.editorconfig
+poetry-python/{{ cookiecutter.package_name }}/.flake8
+poetry-python/{{ cookiecutter.package_name }}/.gitignore
+poetry-python/{{ cookiecutter.package_name }}/LICENSE
+poetry-python/{{ cookiecutter.package_name }}/Makefile
+poetry-python/{{ cookiecutter.package_name }}/README.md
+poetry-python/{{ cookiecutter.package_name }}/cli.sh
+poetry-python/{{ cookiecutter.package_name }}/poetry.lock
+poetry-python/{{ cookiecutter.package_name }}/pyproject.toml
+poetry-python/{{ cookiecutter.package_name }}/.github/workflows/tests.yml
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__init__.py
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/__main__.py
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/cli.py
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/__init__.py
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_doctests.py
+poetry-python/{{ cookiecutter.package_name }}/{{ cookiecutter.package_name }}/tests/test_project_setup.py
+yunohost_django_package/README.md
+yunohost_django_package/__init__.py
+yunohost_django_package/cookiecutter.json
+yunohost_django_package/tests.py
+yunohost_django_package/update_requirements.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.editorconfig
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.flake8
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.gitignore
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/LICENSE
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/README.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/README_fr.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/config_panel.toml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/dev-cli.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/manifest.toml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/pyproject.toml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/requirements.dev.txt
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/tests.toml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.github/ISSUE_TEMPLATE.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.github/PULL_REQUEST_TEMPLATE.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.github/workflows/package_linter.yml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/.github/workflows/tests.yml
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/gunicorn.conf.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/manage.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/nginx.conf
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/requirements.txt
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/settings.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/setup_user.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/systemd.service
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/urls.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/conf/wsgi.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/doc/ADMIN.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/doc/DESCRIPTION.md
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/doc/screenshots/.gitkeep
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/_common.sh
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/backup
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/change_url
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/install
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/remove
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/restore
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/scripts/upgrade
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/__init__.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/constants.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/cli/__init__.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/cli/dev.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/tests/__init__.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/tests/test_django_project.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/tests/test_doctests.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/tests/test_project_setup.py
+yunohost_django_package/{{ cookiecutter.ynh_app_pkg_name }}/{{ cookiecutter.ynh_app_pkg_name }}/tests/test_readme.py
