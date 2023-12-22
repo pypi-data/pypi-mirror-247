@@ -1,0 +1,11 @@
+git_source_track/__init__.py,sha256=U0z3kCmsedlWPd9aVs9LEEn1uxGWufVGIWBWN4xYifs,89
+git_source_track/cmd.py,sha256=5RF_XcJYWWP0VruVLzx-Zv4JJ23CwROY5ZwdkSvMYvs,22940
+git_source_track/compat.py,sha256=GCfO6X_4Mka__jVe9I2SJKUMejvfwXnXW_1pg2dUNho,557
+git_source_track/git_log.py,sha256=Cy93oKp_M4HMPHk59J7Sh6jb9DyWCyDXEIULyuqDJ9E,3873
+git_source_track/version.py,sha256=x0uLOy-xL5vUMf34fRM6h60B-KRlJt0QsRQkJgBxBn0,49
+git_source_track-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+git_source_track-0.4.0.dist-info/METADATA,sha256=Hiph2OwkNNI2QZx5O4gwk3IQTMHeScniLE2BeyLV9-U,2976
+git_source_track-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+git_source_track-0.4.0.dist-info/entry_points.txt,sha256=ubMO-eceHdg9tA7pwYxPBUI3tzIQtZZtvPDbdxjqwlw,63
+git_source_track-0.4.0.dist-info/top_level.txt,sha256=6mWTOk-mnluIWKSixgq5Xwye7fo6_n5YYkdgh4FecmI,17
+git_source_track-0.4.0.dist-info/RECORD,,
