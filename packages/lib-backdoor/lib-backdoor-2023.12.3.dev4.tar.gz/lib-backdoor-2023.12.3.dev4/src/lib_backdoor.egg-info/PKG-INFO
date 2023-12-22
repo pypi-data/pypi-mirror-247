@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: lib-backdoor
+Version: 2023.12.3.dev4
+Summary: Backdoor Attack / Defense Toolkit
+Home-page: https://github.com/l1teng/lib_backdoor
+Author: Terry Li
+Author-email: i@terrytengli.com
+License: GPL v3.0
+Description: Lib Backdoor
+        ============
+        
+        Backdoor Attack / Defense Toolkit
+        
+        <https://gh.terrytengli.com/lib_backdoor>
+        
+        Installation
+        ------------
+        
+        - standard mode
+        
+        ``pip install lib-backdoor``
+        
+        - developer mode
+        
+        clone the source repo first, `git clone git@github.com:l1teng/lib_backdoor.git`
+        
+        then, `cd lib-backdoor; pip install -v -e .`
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
