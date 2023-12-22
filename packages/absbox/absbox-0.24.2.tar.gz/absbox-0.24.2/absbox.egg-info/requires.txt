@@ -1,0 +1,14 @@
+pandas==1.4.3
+numpy==1.23.1
+matplotlib
+requests
+rich
+pyxirr
+lenses
+pyspecter
+graphviz
+
+[test]
+pytest
+jsondiff
+deepdiff
