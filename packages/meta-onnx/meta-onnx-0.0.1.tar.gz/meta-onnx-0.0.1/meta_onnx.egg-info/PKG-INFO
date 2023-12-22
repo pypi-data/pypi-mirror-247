@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: meta-onnx
+Version: 0.0.1
+Summary: Meta Onnx Toolkit
+Home-page: https://github.com/CachCheng/metaonnx
+Author: CachCheng
+Author-email: tkggpdc2007@163.com
+License: Apache-2.0
+Description-Content-Type: text/markdown
+
+# metaonnx
+
+metaonnx部署通用框架
