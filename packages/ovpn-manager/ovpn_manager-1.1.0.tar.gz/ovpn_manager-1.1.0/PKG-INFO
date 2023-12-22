@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ovpn_manager
+Version: 1.1.0
+Summary: Python library interaction with openVPN manager interface
+Project-URL: Homepage, https://github.com/shizacat/py_openvpn_manager_interface
+Author: Alexey Matveev
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python library interaction with openVPN manager interface
+
+Futures:
+- Async
+- Support tcp/unix_socket connection. ("unix:///path_socket", "tcp://host:port")
+
+# Example
+
+```python
+import asyncio
+
+from py_ovpn_mi import VPNManager
+
+async def main():
+    a = VPNManager(url="tcp://127.0.0.1:80")
+    await a.connect()
+
+asyncio.run(main())
+
+# Exceptions: ConnectionError
+```
+
+# Development
+
+Links:
+- https://openvpn.net/community-resources/management-interface/
+- https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/
+

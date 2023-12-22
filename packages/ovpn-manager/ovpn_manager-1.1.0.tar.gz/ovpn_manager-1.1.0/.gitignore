@@ -1,0 +1,8 @@
+.DS_Store
+*.pyc
+dist/*
+tmp/*
+__pycache__/*
+py_ovpn_mi.egg-info/*
+
+todo.md
