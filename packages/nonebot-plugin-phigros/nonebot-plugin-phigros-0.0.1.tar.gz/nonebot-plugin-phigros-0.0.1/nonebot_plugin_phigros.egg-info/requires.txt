@@ -1,0 +1,8 @@
+Pillow
+httpx
+io
+nonebot2
+pathlib
+socket
+sqlite3
+uuid
