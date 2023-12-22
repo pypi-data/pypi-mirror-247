@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyqtexcept.egg-info/PKG-INFO
+src/pyqtexcept.egg-info/SOURCES.txt
+src/pyqtexcept.egg-info/dependency_links.txt
+src/pyqtexcept.egg-info/top_level.txt
+src/pyqtexcept_forgenet/__init__.py
+src/pyqtexcept_forgenet/main.py
