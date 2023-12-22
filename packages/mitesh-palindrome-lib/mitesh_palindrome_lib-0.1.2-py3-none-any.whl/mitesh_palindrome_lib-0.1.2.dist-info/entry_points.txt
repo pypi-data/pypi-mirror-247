@@ -1,0 +1,2 @@
+[console_scripts]
+executable_test_script = mitesh_palindrome_lib.validate_palindrome:main
