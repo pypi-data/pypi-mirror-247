@@ -1,0 +1,2 @@
+[console_scripts]
+coldsweat = coldsweat:cli
