@@ -1,0 +1,6 @@
+# See pyproject.toml for requirement definitions
+numpy>=1.22
+scipy>=1.8
+sympy>=1.9
+nibabel>=3.2
+transforms3d
