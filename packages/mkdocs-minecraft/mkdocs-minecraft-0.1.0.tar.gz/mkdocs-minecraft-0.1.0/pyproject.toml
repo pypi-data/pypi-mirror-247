@@ -1,0 +1,12 @@
+[project]
+name = "mkdocs-minecraft"
+version = "0.1.0"
+requires-python = ">=3.8"
+authors = [
+    { name = "Katzen48 | Tobi", email = "admin@katzen48.de" }
+]
+dynamic = ['entry-points', 'dependencies', 'classifiers', 'description', 'keywords', 'license', 'readme']
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
