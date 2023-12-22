@@ -1,0 +1,3 @@
+[console_scripts]
+warmac=warmac.__init__:console_main
+

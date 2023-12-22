@@ -1,0 +1,10 @@
+warmac/__init__.py,sha256=eSqhiptEfg89cMkKSL6PC4SLaONKqfB1MDDwNOcPZZQ,2655
+warmac/__main__.py,sha256=Vk06_9huRLbdtEoYJI3MUaZv-uwaINdp2W8uYFR7tHY,64
+warmac/warmac_average.py,sha256=lGqaLF7aoXg0DoS-lPaDrGd15oE6SLXDXqC8x9o9Aio,11802
+warmac/warmac_errors.py,sha256=jEPMOTM8OmETbjZJKv9mBenPz5SKVkJaMO2590QhRoY,5088
+warmac/warmac_parser.py,sha256=l2179HImtxET_y2k8PaPTz55s8f5A7QFl2UMcrSD5bI,12973
+warmac-0.0.4.dist-info/entry_points.txt,sha256=ZTYwJ0y0qFaErqEeHBwJEEDMl4Gx9y1afdUeykKfORI,55
+warmac-0.0.4.dist-info/LICENSE.txt,sha256=KuQ7gfDQybHOr0aSVnBxNvvpdDcdoLnuS_Hs_xxY2fQ,1089
+warmac-0.0.4.dist-info/METADATA,sha256=eWK8Hr3wEHrIN8prCIfv0IEys4vcyFxxQXKZsP9WC4w,8675
+warmac-0.0.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+warmac-0.0.4.dist-info/RECORD,,
