@@ -1,0 +1,9 @@
+cyvcf2
+pandas
+pymmh3
+requests
+tinynetrc
+tqdm
+
+[fastmmh3]
+mmh3
