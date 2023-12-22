@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+pychatml/__init__.py
+pychatml/abstract_converter.py
+pychatml/alpaca_converter.py
+pychatml/anthropic_converter.py
+pychatml/parser.py
+pychatml.egg-info/PKG-INFO
+pychatml.egg-info/SOURCES.txt
+pychatml.egg-info/dependency_links.txt
+pychatml.egg-info/requires.txt
+pychatml.egg-info/top_level.txt
+tests/__init__.py
+tests/test_anthropic_converter.py
+tests/test_converter.py
+tests/test_parser.py
