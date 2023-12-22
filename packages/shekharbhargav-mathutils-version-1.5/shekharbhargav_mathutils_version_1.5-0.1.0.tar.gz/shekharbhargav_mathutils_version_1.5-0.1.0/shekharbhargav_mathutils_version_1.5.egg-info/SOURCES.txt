@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+shekharbhargav_mathutils_version_1.5.egg-info/PKG-INFO
+shekharbhargav_mathutils_version_1.5.egg-info/SOURCES.txt
+shekharbhargav_mathutils_version_1.5.egg-info/dependency_links.txt
+shekharbhargav_mathutils_version_1.5.egg-info/top_level.txt
