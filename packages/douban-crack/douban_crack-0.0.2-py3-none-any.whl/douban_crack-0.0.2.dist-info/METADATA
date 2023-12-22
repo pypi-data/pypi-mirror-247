@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: douban-crack
+Version: 0.0.2
+Summary: crack douban DATA
+Project-URL: Documentation, https://github.com/CroMarmot/douban-crack#readme
+Project-URL: Issues, https://github.com/CroMarmot/douban-crack/issues
+Project-URL: Source, https://github.com/CroMarmot/douban-crack
+Author-email: cromarmot <yexiaorain@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: douban
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pyexecjs>=1.5.1
+Requires-Dist: selenium>=4.16.0
+Requires-Dist: webdriver-manager>=4.0.1
+Description-Content-Type: text/markdown
+
+# douban-crack
+
+[![PyPI - Version](https://img.shields.io/pypi/v/douban-crack.svg)](https://pypi.org/project/douban-crack)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/douban-crack.svg)](https://pypi.org/project/douban-crack)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install douban-crack
+```
+
+## License
+
+`douban-crack` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
