@@ -1,0 +1,13 @@
+save_tabs/__init__.py,sha256=GZDJPwN7p_Hi9YHniiIA27zDY86MgEuiCu4VtaOXzJM,146
+save_tabs/advanced_cursor.py,sha256=Zvt2804650032imErbP3Yis162zvwfcLzqnxTgZFT5I,915
+save_tabs/common.py,sha256=-VEZmrZgn4jPkY22OvhzAMq5u8D_NakAZf890QIF0LQ,4554
+save_tabs/file_menu.py,sha256=1Vfyg9ubnSesi4cGPmcEt2FOKphAtbwTgjKfp5hZVVw,7541
+save_tabs/main.py,sha256=HhjY2fMWGlti1u9EWSLytiWx9NefiCKmgDA7GI1lsPE,597
+save_tabs/save_tabs.py,sha256=v07rz7ZK1scyQ4nFEpZBLjs-Cnnk-dIeOCHa7yWN8tY,83
+save_tabs/window_list_module.py,sha256=kACtSx3iUxT2e7MSDsFrfB8FGTPufNCHRpMyt_fvUcM,12595
+save_tabs/write_file.py,sha256=acJ577yR2fn_ji3MY46X1jVMlL2H3zGr-cuo6KaM6Oo,3291
+save_tabs-0.0.4.dist-info/METADATA,sha256=BkWctyinWZ_9LspqGbLVo9k-1-nunqKd7DYy9b3Y3Fg,1121
+save_tabs-0.0.4.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+save_tabs-0.0.4.dist-info/entry_points.txt,sha256=yCB85KHcwUA9Yufwb3lrgz3cMLR5qbJd2tuS_fnWsQs,49
+save_tabs-0.0.4.dist-info/licenses/LICENSE,sha256=qlQTQ8PwYjrbufCkPUpWl-lAZl975pXsmiu29ZlhFN0,1491
+save_tabs-0.0.4.dist-info/RECORD,,
