@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "izd"
+version = "1.0.1"
+description = "The IZD (io-zipped-doc) file format + tools (GUI, command-line creator, etc.)."
+readme = "README.md"
+authors = [{ name = "Vlad Topan", email = "vtopan@gmail.removethispart.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = []
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://gitlab.com/vtopan/izd"
+
+[tool.bumpver]
+current_version = "1.0.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = false
+tag             = false
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"libizd/libizd.py.py" = ["__VER__ = '{version}'"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["libizd", "izd/tools", "izd/vizd"]

@@ -1,0 +1,5 @@
+__pycache__
+.local
+build
+dist
+vizd/vizd-config.json
