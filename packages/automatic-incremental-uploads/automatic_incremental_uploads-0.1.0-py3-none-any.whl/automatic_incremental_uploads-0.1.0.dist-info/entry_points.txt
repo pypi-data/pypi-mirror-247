@@ -1,0 +1,3 @@
+[console_scripts]
+automatic-incremental-uploads=automatic_incremental_uploads.__main__:main
+
