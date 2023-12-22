@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: EO_Floods
+Version: 2023.12
+Summary: An easy to use interface for deriving flood maps from earth observation data
+Author-email: Tjalling de jong <tjalling.dejong@deltares.nl>, Arjen Haag <arjen.haag@deltares.nl>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/Deltares-research/EO-floods
+
+## Introduction
+EO-Floods is an easy to use wrapper of Hydrafloods and Google Earth Engine for creating flood maps of Earth Observation (EO) data. This package is aimed at users that do not qualify themselves as remote sensing experts but do want to create usable flood maps from EO.
+
+### Installation
+The recommended way to install EO-Floods is by using conda or mamba and the environment.yml.
+
+```
+mamba env create -f environment.yml
+```
+
+Then activate the environment.yml:
+
+```
+conda activate EO-Floods
+```
+
+### Earth Engine Authentication
+An Earth Engine account is required to use the HydraFloods provider. To authenticate to Earth Engine you need an environment with Earth Engine installed and run the following code with a Python interpreter:
+```
+import ee
+ee.Authenticate()
+```
+This code will trigger the authentication flow of Earth Engine.
+
+Whenever you use Earth Engine in a script or notebook you first need to initialize the Earth Engine library.
+```
+import ee
+ee.Initialize()
+```
+

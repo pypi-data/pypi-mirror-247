@@ -1,0 +1,10 @@
+EO_Floods/__init__.py,sha256=RsreKNcKthviEH5zW8pbs4Wlnx0BVslDCR_BOBLEcH0,109
+EO_Floods/auth.py,sha256=Gy0vWqqSBSgnbl38uhhd-yEPCmWkm_EkPA-Ak6r0URY,885
+EO_Floods/dataset.py,sha256=_6AHRlm0BsOsWlfFIac6FDY8dYAgin7NwBPnXGjrW70,2296
+EO_Floods/floodmap.py,sha256=PQ2Xh7BnBOsDJ8QtvlvHVyUB6ile0SaB22kpXqt90QM,4780
+EO_Floods/provider.py,sha256=miSG7PfrEQsPnZzFsUkc4eCfo_q6hjRJrYg4_AX8ZMg,15254
+EO_Floods/utils.py,sha256=2BuOE0EunhImTnlZHxi5arYFKCrWlp3pKFq2Gyf9c5I,1657
+eo_floods-2023.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eo_floods-2023.12.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+eo_floods-2023.12.dist-info/METADATA,sha256=a7FyQ9greAmyL-TeQQEZqcmpN0HJE_KaKTpXTdk0Mh4,1428
+eo_floods-2023.12.dist-info/RECORD,,
