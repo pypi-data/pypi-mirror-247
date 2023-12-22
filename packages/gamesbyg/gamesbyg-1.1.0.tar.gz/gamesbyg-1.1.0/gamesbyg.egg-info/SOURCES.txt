@@ -1,0 +1,5 @@
+setup.py
+gamesbyg.egg-info/PKG-INFO
+gamesbyg.egg-info/SOURCES.txt
+gamesbyg.egg-info/dependency_links.txt
+gamesbyg.egg-info/top_level.txt
