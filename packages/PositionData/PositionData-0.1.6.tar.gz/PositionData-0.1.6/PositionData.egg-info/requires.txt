@@ -1,0 +1,7 @@
+geopandas
+pandas
+numpy
+rasterio
+shapely
+geopy
+windrose
