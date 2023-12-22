@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: racp
+Version: 0.1.2
+Summary: A tool for building academic paper retriever.
+Home-page: https://github.com/timechess/RACP
+Author: timechess
+Author-email: tyc221@ruc.edu.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: PyMuPDF
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
+Requires-Dist: loguru
+Requires-Dist: nltk
+Requires-Dist: lxml
+Requires-Dist: arxiv
+Requires-Dist: langchain
+Requires-Dist: langchain-core
+Requires-Dist: powerlaw
+Requires-Dist: jsonlines
+Requires-Dist: sentence-transformers
+Requires-Dist: chromadb
+Provides-Extra: fancy_feature
+Requires-Dist: torch ==2.1.1+cu118 ; extra == 'fancy_feature'
+
+
+# README
+
+## Setup
+
+To start using this project, first you should run the setup script. You can either run
+```shell
+pip install racp
+```
+
+or
+
+```shell
+python setup.py install
+```
+
+at the project root directory. This allows you to import `racp` in python code.
+
+Our docs can be viewed on https://racp.readthedocs.io/en/latest/.
+
+If you want to build the docs locally, you need to install `mkdocs`. Run these commands:
+```shell
+pip install mkdocs mkdocs-include-markdown-plugin mkdocstrings mkdocstrings-python
+```
+
+If you want to view the docs, run `mkdocs build` at the project root directory. It will create `./site` directory which contains `index.html` file. Open the file with your browser and read the docs.
+
+You can run the scripts in `example` to test installation.
