@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: izd
+Version: 1.0.1
+Summary: The IZD (io-zipped-doc) file format + tools (GUI, command-line creator, etc.).
+Project-URL: Homepage, https://gitlab.com/vtopan/izd
+Author-email: Vlad Topan <vtopan@gmail.removethispart.com>
+License: MIT License
+        
+        Copyright (c) 2022 Vlad Topan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# izd
+
+The IZD (io-zipped-doc) file format, which is essentially a ZIP archive with an `index.html` file
+containing the actual document, optionally the Markdown text as `document.md` and `image<num>.<ext>`
+files containing the images.
+
+## vizd/vizd.pyw
+
+This is a Python / Qt WebView-based viewer for IZD files. TODO: pack it as an .exe.
+
+## libizd
+
+The library which wraps ZIP processing and text / image retrieval and pandoc-based converters to
+and from IZD.
+
+## tools/makeizd.py
+
+Command-line creation tool for IZD documents. Takes an HTML and / or a Markdown file + images as
+input. Generates the HTML from Markdown if needed using pandoc.
+
+## See also
+
+- <https://gitlab.com/vtopan/io-scripts/-/blob/master/getdoc.py> can download an article from the
+   Internet and save it as an .IZD file
