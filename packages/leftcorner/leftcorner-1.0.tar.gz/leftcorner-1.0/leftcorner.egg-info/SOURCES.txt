@@ -1,0 +1,13 @@
+README.md
+setup.py
+leftcorner/__init__.py
+leftcorner/cfg.py
+leftcorner/misc.py
+leftcorner/semiring.py
+leftcorner.egg-info/PKG-INFO
+leftcorner.egg-info/SOURCES.txt
+leftcorner.egg-info/dependency_links.txt
+leftcorner.egg-info/requires.txt
+leftcorner.egg-info/top_level.txt
+tests/test_grammars.py
+tests/tests.py

@@ -1,0 +1,9 @@
+numpy
+networkx
+nltk
+svgling
+tabulate
+dill
+pytest
+graphviz
+path
