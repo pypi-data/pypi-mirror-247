@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: substratecore
+Version: 0.0.1
+Summary: models + serialization
+Author-email: benzguo <ben@substrate.run>
+Requires-Python: >=3.7
+Requires-Dist: networkx>=2.6.3
+Description-Content-Type: text/markdown
+
+# substrate-core
+
+## Generate models from /openapi.json
+`rye run generate`
+
