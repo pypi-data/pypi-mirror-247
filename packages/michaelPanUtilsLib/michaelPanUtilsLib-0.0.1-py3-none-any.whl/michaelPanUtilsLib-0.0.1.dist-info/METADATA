@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: michaelPanUtilsLib
+Version: 0.0.1
+Summary: Commonly Used Functions.
+Author: chuntong pan
+Author-email: panzhang1314@gmail.com
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: michaelPanPrintLib
+Requires-Dist: numpy
+Requires-Dist: pydantic
+Requires-Dist: h5py
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: matplotlib
+Requires-Dist: gdal
+
+# 通用方法公共库
+
+## 1. 简介
+
+```
+该库为常用功能的集合，使用select_method方法可以查询别的方法的用法
+```
+
+## 2.作者及联系方式
+
+```
+# ***************************************************************
+# Maintainers:
+#     chuntong pan <panzhang1314@gmail.com>
+# Date:
+#     2023.12
+# ***************************************************************
+```
+
