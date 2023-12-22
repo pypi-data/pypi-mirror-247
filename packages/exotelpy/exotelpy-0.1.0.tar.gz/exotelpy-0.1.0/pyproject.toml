@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "exotelpy"
+version = "0.1.0"
+license = "Apache-2.0"
+description = "An unofficial Python wrapper for the Exotel API"
+authors = ["Udit <udit@noorahealth.com>"]
+homepage = "https://noorahealth.github.io/exotel-python/"
+repository = "https://github.com/NooraHealth/exotel-python/"
+documentation = "https://noorahealth.github.io/exotel-python/"
+keywords = ["exotel"]
+readme = "README.md"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Telephony",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [
+    { include = "exotelpy" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.13"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+isort = "^5.10.1"
+autopep8 = "^1.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.13.1"
+sphinx-reload = "^0.2.0"
+sphinx-material = "^0.0.35"
+sphinx-autodoc-typehints = "^1.23.0"
+ipdb = "^0.13.13"
+sphinx = "^7.0.1"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
