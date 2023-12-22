@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candlestick_patterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candlestick_patterns/pattern_abc.py,sha256=BbmAixW_UExKe6MNOFqoUie_hQ902wEE5U_EqsYfcxU,470
+candlestick_patterns/bullish_patterns/__init__.py,sha256=Ab_3BZagDay_JO4oZuiHA-1MQ8QYXRvhCc6Nhuwaqkc,158
+candlestick_patterns/bullish_patterns/bullish_engulfing_pattern.py,sha256=i4pHvcmgur8sOxlqLxtBkkbQvqZnxAc9N3e4y4xpUcs,809
+candlestick_patterns/bullish_patterns/hammer_pattern.py,sha256=8E_uV1doirrKWHHHq1DUf0fqE0AYZOseaiDgbRen5OU,602
+candlestick_patterns/bullish_patterns/morning_star_pattern.py,sha256=Rdp1FJOj3j882jPqZfy21E74VYlup80yCqybrRmGdog,1070
+candlestick_patterns/candlesticks/__init__.py,sha256=N2sbK6xSiD9xrsEc0N111okET8bLvhxU9KMOv-qcttU,38
+candlestick_patterns/candlesticks/candlesticks.py,sha256=X6ATrP6yylpEREB1iCzPRZD68Ijf5cZvXkGkOCn2y08,938
+candlestick_patterns/utils/constants.py,sha256=Onjy3nGljIrSxS103alaiNOZ4ofZHPmMWTEgc7RQBNM,149
+candlestick_patterns-1.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+candlestick_patterns-1.1.0.dist-info/METADATA,sha256=Wmz6ujAMxp0mV10gpZZGjoXF6vD5lug7ygHN8bzpX08,1773
+candlestick_patterns-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+candlestick_patterns-1.1.0.dist-info/top_level.txt,sha256=Ufe4OiczTkoGyD-h1loWBG4C2wPPzNHbdfxTDejcAkk,30
+candlestick_patterns-1.1.0.dist-info/RECORD,,
