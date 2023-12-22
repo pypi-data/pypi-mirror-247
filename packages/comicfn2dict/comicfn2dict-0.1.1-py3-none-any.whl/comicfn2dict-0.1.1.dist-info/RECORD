@@ -1,0 +1,11 @@
+comicfn2dict/__init__.py,sha256=KNHavrzrJCTSnpxU-t4X7UGt8BsZSEWmFGXfstoJZ6g,144
+comicfn2dict/cli.py,sha256=vwWlnWyeA8yPZi9Roj82i4qBrainMEPJ03jzJ9gRLUo,584
+comicfn2dict/comicfn2dict.py,sha256=bYX6jp8MIHqIQdKI85lmntbTmZZB3PNdwWqGI9A97K0,143
+comicfn2dict/parse.py,sha256=2RXFXAUwF_KZeC3E2aW1sR1BLAEknQyeqeZIKwkQ-KU,6577
+comicfn2dict/regex.py,sha256=uLrCW43D3unMVWioXWmo50l0Cw8OfUq8lsDc9RMURU0,2207
+comicfn2dict/unparse.py,sha256=wcsmg-nhxLvIyHHA7gj7C2tzKjSmEX0kvBuQdMxRyPA,1259
+comicfn2dict-0.1.1.dist-info/LICENSE,sha256=fWclOnO2nU_YMGCXO0YScPWX5cJ6-E2--XzSyeUgtGE,36215
+comicfn2dict-0.1.1.dist-info/METADATA,sha256=kGhaC5O0nqY7j7emWS5irG9ATqK_SMtCXKP-2JfmTYs,1298
+comicfn2dict-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+comicfn2dict-0.1.1.dist-info/entry_points.txt,sha256=kj84S8oBdjhFi7GHghMAgo1OT0cS-WjQMSI9sg7irRk,54
+comicfn2dict-0.1.1.dist-info/RECORD,,
