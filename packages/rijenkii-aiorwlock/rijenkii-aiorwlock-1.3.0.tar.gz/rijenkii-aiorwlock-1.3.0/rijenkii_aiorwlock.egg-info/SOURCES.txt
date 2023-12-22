@@ -1,0 +1,17 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+Makefile
+README.rst
+setup.cfg
+setup.py
+aiorwlock/__init__.py
+aiorwlock/py.typed
+rijenkii_aiorwlock.egg-info/PKG-INFO
+rijenkii_aiorwlock.egg-info/SOURCES.txt
+rijenkii_aiorwlock.egg-info/dependency_links.txt
+rijenkii_aiorwlock.egg-info/top_level.txt
+rijenkii_aiorwlock.egg-info/zip-safe
+tests/conftest.py
+tests/test_corner_cases.py
+tests/test_rwlock.py
