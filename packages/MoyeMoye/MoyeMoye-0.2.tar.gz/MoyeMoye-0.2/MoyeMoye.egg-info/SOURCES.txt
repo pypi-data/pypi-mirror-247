@@ -1,0 +1,8 @@
+setup.py
+MoyeMoye/alpha-beta.py
+MoyeMoye/genitic.py
+MoyeMoye/minmax.py
+MoyeMoye.egg-info/PKG-INFO
+MoyeMoye.egg-info/SOURCES.txt
+MoyeMoye.egg-info/dependency_links.txt
+MoyeMoye.egg-info/top_level.txt
