@@ -1,0 +1,7 @@
+aiofiles
+aiohttp
+pyexecjs
+lxml
+jinja2
+objprint
+curl_cffi
