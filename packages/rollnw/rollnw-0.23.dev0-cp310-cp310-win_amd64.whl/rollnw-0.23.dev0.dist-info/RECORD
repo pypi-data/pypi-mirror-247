@@ -1,0 +1,11 @@
+rollnw.cp310-win_amd64.pyd,sha256=BzhmCLXeW7q2hi5qTPqu8un0jC8ArHQC6dfYPz3NBSM,8146944
+rollnw-stubs/__init__.pyi,sha256=OlpDwkP8vcO0R4tudAxmwhw0z7iLaVL2kOb0XYP42iI,91961
+rollnw-stubs/kernel.pyi,sha256=P5QSuIidH8eurs--hP1rrcbOZg8EeY8cdTq0aoE7rwQ,3885
+rollnw-stubs/model.pyi,sha256=pkfWYnD1RdTwDYZY6e-RHzzPccIF_n0umN_m5iN4gSM,12788
+rollnw-stubs/nwn1.pyi,sha256=nEoifAHrfMxr3-n_o_iZzqS_Zm865_1zYOCKQUQl1E4,4182
+rollnw-stubs/script.pyi,sha256=ZD8ETkLQHa_Asxk2JSIWJlWih4GYsBUJLyhujahMDj0,14371
+rollnw-0.23.dev0.dist-info/LICENSE,sha256=vD7g-txmRx902z-fSZErequrmPn4Ari9n8kDPvoImLA,1122
+rollnw-0.23.dev0.dist-info/METADATA,sha256=nDwGHIEEHaPUjEqGUV8UYmXUQflOXkJukNreEJuioXg,5148
+rollnw-0.23.dev0.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+rollnw-0.23.dev0.dist-info/top_level.txt,sha256=LoJYRO7WeOw8sRk9BcRdUoGdlSBHXYkyD2M2N-7T1LE,17
+rollnw-0.23.dev0.dist-info/RECORD,,
