@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pandix/__init__.py
+src/pandix.egg-info/PKG-INFO
+src/pandix.egg-info/SOURCES.txt
+src/pandix.egg-info/dependency_links.txt
+src/pandix.egg-info/top_level.txt

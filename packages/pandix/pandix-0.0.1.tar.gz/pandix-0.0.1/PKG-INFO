@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pandix
+Version: 0.0.1
+Summary: A very important repo
+Author-email: pandix <pandix@pandix.com>
+Project-URL: Homepage, https://git.xeondev.com/xeon/ZZZToolkit
+Project-URL: Issues, https://git.xeondev.com/xeon/ZZZToolkit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SSS Protocol v1.2
+
+for sss protocol 1.2
