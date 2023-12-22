@@ -1,0 +1,3 @@
+[console_scripts]
+matcalc = matrixcalc.command_line:run
+

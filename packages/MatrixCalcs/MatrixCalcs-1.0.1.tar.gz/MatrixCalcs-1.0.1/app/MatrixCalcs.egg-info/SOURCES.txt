@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+app/MatrixCalcs.egg-info/PKG-INFO
+app/MatrixCalcs.egg-info/SOURCES.txt
+app/MatrixCalcs.egg-info/dependency_links.txt
+app/MatrixCalcs.egg-info/entry_points.txt
+app/MatrixCalcs.egg-info/requires.txt
+app/MatrixCalcs.egg-info/top_level.txt
+app/matrixcalc/Errors.py
+app/matrixcalc/Matrix.py
+app/matrixcalc/Row.py
+app/matrixcalc/__init__.py
+app/matrixcalc/app.py
+app/matrixcalc/command_line.py
+app/matrixcalc/hooks.py
+app/matrixcalc/main.py
