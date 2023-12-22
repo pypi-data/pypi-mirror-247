@@ -1,0 +1,11 @@
+django_epflmisc/__init__.py,sha256=-xQx_5emSdhCoO9xERQCw9LHKEqZcZxsWnsBNHq2ydk,136
+django_epflmisc/decorators.py,sha256=5uGIh2vonbvvtjj-82ykyfclEVNuGED4P-ndZ4XwTik,1655
+tests/__init__.py,sha256=6Sq9HHaDggm3tnd2HO-tiY5FKfV8T9v-0T4Nnb9taHw,113
+tests/manage.py,sha256=m3_CHICof43BUZcNc8YDM4GN5U0EDvlxbmh14TUEVRQ,619
+tests/settings.py,sha256=29MKJGIX-q2ho7lgoOKY-xm8e151VHZFlePSKKylk8U,3171
+tests/test_decorators.py,sha256=Fa29fLEM8cmlf6OY-AkUxuvZ5RUH5YhfzIv3L4UjD4g,2144
+django_epfl_misc-1.1.0.dist-info/LICENSE,sha256=lTXO9dt25XNktDz1z0sHTFhjXTW4fmiL1tJipmtLDGM,1116
+django_epfl_misc-1.1.0.dist-info/METADATA,sha256=B4YxicT9RQjfsNOrTVIBzUXt5iw9NOty8v4Zy0t-bXs,3382
+django_epfl_misc-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_epfl_misc-1.1.0.dist-info/top_level.txt,sha256=ZQY5u2CTdpsxxk_okQzQqhOFnB086KAP-UjrKRFgABQ,22
+django_epfl_misc-1.1.0.dist-info/RECORD,,
