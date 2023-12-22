@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+turkiye_identity_verification/__init__.py
+turkiye_identity_verification.egg-info/PKG-INFO
+turkiye_identity_verification.egg-info/SOURCES.txt
+turkiye_identity_verification.egg-info/dependency_links.txt
+turkiye_identity_verification.egg-info/top_level.txt
