@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "fuzz-craft"
+version = "0.0.2"
+description = "Toolkit for creating fuzzing harnesses."
+authors = ["Sergey Reshetnikov <resh.sersh@gmail.com>"]
+license = "Apache-2.0"
+
+readme = "README.md"
+repository = "https://github.com/PrVrSs/fuzz-craft"
+homepage = "https://github.com/PrVrSs/fuzz-craft"
+
+keywords = [
+    "fuzzing",
+    "harness",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Jinja2 = "^3.1.2"
+dynaconf = "^3.2.4"
+pyelftools = "^0.30"
+python-magic = "^0.4.27"
+more-itertools = "^10.1.0"
+lief = "^0.13.2"
+click = "^8.1.7"
+llama-index = "0.9.17"
+openai = "1.5.0"
+setuptools = "^69.0.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.7.1"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+pylint = "^3.0.3"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
