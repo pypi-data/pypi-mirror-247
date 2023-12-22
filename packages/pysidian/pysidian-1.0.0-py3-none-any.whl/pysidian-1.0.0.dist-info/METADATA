@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pysidian
+Version: 1.0.0
+Author: ZackaryW
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zrcl3
+Requires-Dist: click
+Requires-Dist: click-shell
+
+# pysidian
+a python toolkit for obsidian dev
