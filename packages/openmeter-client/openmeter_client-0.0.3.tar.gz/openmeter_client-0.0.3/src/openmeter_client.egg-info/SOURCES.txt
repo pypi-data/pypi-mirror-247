@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/openmeter/__init__.py
+src/openmeter/client.py
+src/openmeter_client.egg-info/PKG-INFO
+src/openmeter_client.egg-info/SOURCES.txt
+src/openmeter_client.egg-info/dependency_links.txt
+src/openmeter_client.egg-info/requires.txt
+src/openmeter_client.egg-info/top_level.txt
+tests/test_demo.py
