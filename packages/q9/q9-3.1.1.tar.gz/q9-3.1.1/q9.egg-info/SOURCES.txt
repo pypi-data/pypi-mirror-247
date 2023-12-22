@@ -1,0 +1,12 @@
+setup.py
+a/__init__.py
+a/module.py
+b/__init__.py
+b/module.py
+c/__init__.py
+c/module.py
+q9.egg-info/PKG-INFO
+q9.egg-info/SOURCES.txt
+q9.egg-info/dependency_links.txt
+q9.egg-info/requires.txt
+q9.egg-info/top_level.txt
