@@ -1,0 +1,240 @@
+Metadata-Version: 2.1
+Name: pypostgresutil
+Version: 1.0.1
+Summary: Python library for simple PostgreSQL management
+Home-page: https://github.com/An0nX/PostgreSQLController
+Author: An0nX
+Author-email: example@gmail.com
+Keywords: Python Library PostgreSQL Management Pypi Tool Database Interaction Relational Databases Python Programming
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2
+Requires-Dist: loguru
+
+# PostgreSQLController Library
+
+Библиотека для управления PostgreSQL базой данных, создана совместными усилиями [Lanutrix](https://github.com/Lanutrix) и [An0nX](https://github.com/An0nX).
+
+## Установка
+
+На pypi.org либо как покеазано ниже
+
+```bash
+pip install psycopg2-binary
+pip install loguru
+```
+
+## Использование
+
+```python
+from pypostgresutil import PostgreSQLController
+
+# Инициализация контроллера
+controller = PostgreSQLController()
+
+# Чтение данных
+data = controller.read(table="example_table", columns="*", requirement="column_name='value'")
+print(data)
+
+# Запись данных
+success = controller.write(table="example_table", columns="column1, column2", values="'value1', 'value2'")
+print(success)
+
+# Обновление данных
+update_success = controller.update(table="example_table", data="column1='new_value'", requirement="column2='old_value'")
+print(update_success)
+
+# Удаление данных
+delete_success = controller.delete(table="example_table", requirement="column_name='value'")
+print(delete_success)
+
+# Закрытие соединения
+controller.close()
+```
+
+## API
+
+### Конструктор
+```python
+def __init__(self, host: str = "localhost", user: str = "postgres", password: str = "postgres", database: str = "postgres", table_definition: str = None) -> None:
+    """
+    Инициализация нового экземпляра класса.
+
+    Параметры:
+        host (str): Адрес сервера PostgreSQL. По умолчанию "localhost".
+        user (str): Имя пользователя PostgreSQL. По умолчанию "postgres".
+        password (str): Пароль пользователя PostgreSQL. По умолчанию "postgres".
+        database (str): Имя базы данных PostgreSQL. По умолчанию "postgres".
+        table_definition (str): Запрос определения таблицы для создания таблицы в базе данных.
+
+    Возвращает:
+        None
+
+    Вызывает:
+        Exception: Если произошла ошибка при работе с PostgreSQL.
+    """
+```
+
+### Чтение данных
+```python
+def read(self, table: str, columns: str, requirement: str = "") -> list:
+    """
+    Чтение данных из указанной таблицы в базе данных.
+
+    Аргументы:
+        table (str): Имя таблицы для чтения.
+        columns (str): Столбцы, которые нужно выбрать из таблицы.
+        requirement (str, опционально): Дополнительное условие фильтрации данных. По умолчанию "".
+
+    Возвращает:
+        list: Список кортежей, представляющих результат запроса.
+    """
+```
+
+### Запись данных
+```python
+def write(self, table: str, columns: str, values: str) -> bool:
+    """
+    Запись данных в указанную таблицу базы данных.
+
+    Аргументы:
+        table (str): Имя таблицы для записи.
+        columns (str): Столбцы, в которые нужно вставить данные.
+        values (str): Значения, которые нужно вставить в столбцы.
+
+    Возвращает:
+        bool: True, если операция записи успешна, False в противном случае.
+    """
+```
+
+### Обновление данных
+```python
+def update(self, table: str, data: str, requirement: str) -> bool:
+    """
+    Обновление таблицы в базе данных с заданными данными и условием.
+
+    Параметры:
+        table (str): Имя таблицы для обновления.
+        data (str): Данные для установки в таблице.
+        requirement (str): Условие для идентификации строк для обновления.
+
+    Возвращает:
+        bool: True, если обновление прошло успешно, False в противном случае.
+    """
+```
+
+### Удаление данных
+```python
+def delete(self, table: str, requirement: str) -> bool:
+    """
+    Удаление строки из указанной таблицы на основе заданного условия.
+
+    Параметры:
+        table (str): Имя таблицы, из которой нужно удалить строку.
+        requirement (str): Условие, которому должна удовлетворять строка для удаления.
+
+    Возвращает:
+        bool: True, если удаление прошло успешно, False в противном случае.
+    """
+```
+
+### Закрытие соединения
+```python
+def close(self):
+    """
+    Закрытие соединения с PostgreSQL.
+
+    Эта функция закрывает соединение с PostgreSQL, установленное методом `connect`.
+    Она регистрирует действие закрытия соединения с использованием объекта `logger`.
+
+    Параметры:
+        None
+
+    Возвращает:
+        None
+    """
+```
+
+### Асинхронное чтение данных
+```python
+async def read_async(self, table: str, columns: str, requirement: str = "") -> list:
+    """
+    Асинхронное чтение данных из указанной таблицы.
+
+    Аргументы:
+        table (str): Имя таблицы для чтения.
+        columns (str): Столбцы, которые нужно извлечь из таблицы.
+        requirement (str, опционально): Условие для фильтрации данных. По умолчанию "".
+
+    Возвращает:
+        List[Record]: Результат запроса.
+    """
+```
+
+### Асинхронная запись данных
+```python
+async def write_async(self, table: str, columns: str, values: str) -> bool:
+    """
+    Асинхронная функция записи данных в указанную таблицу базы данных.
+
+    Параметры:
+        table (str): Имя таблицы для записи данных.
+        columns (str): Строка с именами столбцов для вставки данных.
+        values (str): Строка с значениями для вставки в столбцы.
+
+    Возвращает:
+        bool: True, если операция записи успешна, False в противном случае.
+    """
+```
+
+### Асинхронное обновление данных
+```python
+async def update_async(self, table: str, data: str, requirement: str) -> bool:
+    """
+    Асинхронное обновление таблицы в базе данных с заданными данными и условием.
+
+    Аргументы:
+        table (str): Имя таблицы для обновления.
+        data (str): Данные для установки в таблице.
+        requirement (str): Условие для обновления строк.
+
+    Возвращает:
+        bool: True, если обновление успешно, False в противном случае.
+    """
+```
+    
+### Асинхронное удаление данных
+```python
+async def delete_async(self, table: str, requirement: str) -> bool:
+    """
+    Асинхронное удаление строк из таблицы на основе заданного условия.
+
+    Параметры:
+        table (str): Имя таблицы, из которой нужно удалить строки.
+        requirement (str): Условие для фильтрации строк для удаления.
+
+    Возвращает:
+        bool: True, если удаление успешно, False в противном случае.
+    """
+```
+    
+## Логирование
+
+Для логирования используется библиотека loguru. Логи содержат информацию об установке соединения, создании таблицы, операциях чтения, записи, обновления и удаления данных, а также закрытии соединения.
+
+## Обработка ошибок
+
+В случае возникновения ошибок при работе с PostgreSQL, они логируются с использованием уровня логирования "critical" или "error". Сами ошибки не пробрасываются из библиотеки, чтобы избежать прекращения работы программы из-за исключений.
+
+## Зависимости
+
+- psycopg2-binary
+- loguru
+
+## Лицензия
+
+Эта библиотека распространяется под лицензией MIT. Подробную информацию смотрите в файле LICENSE.
