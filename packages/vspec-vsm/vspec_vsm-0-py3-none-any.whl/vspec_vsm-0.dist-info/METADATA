@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: vspec-vsm
+Version: 0
+Summary: The VSPEC Variable Star Model as a standalone package.
+Home-page: https://vspec-vsm.readthedocs.io/en/latest/index.html#
+License: MIT
+Keywords: astronomy,exoplanet
+Author: Ted Johnson
+Author-email: ted.johnson@unlv.edu
+Maintainer: Ted Johnson
+Maintainer-email: ted.johnson@unlv.edu
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: astropy (>=6.0.0,<7.0.0)
+Requires-Dist: importlib-metadata (>=1.0,<2.0) ; python_version < "3.8"
+Requires-Dist: jax (>=0.4.23,<0.5.0)
+Requires-Dist: jaxlib (>=0.4.23,<0.5.0)
+Requires-Dist: numpy (>=1.26.2,<2.0.0)
+Requires-Dist: tinygp (>=0.2.4,<0.3.0)
+Project-URL: Documentation, https://vspec-vsm.readthedocs.io/en/latest/api.html
+Project-URL: Repository, https://github.com/VSPEC-collab/vspec-vsm
+Description-Content-Type: text/x-rst
+
+.. image:: https://coveralls.io/repos/github/VSPEC-collab/vspec-vsm/badge.svg
+    :target: https://coveralls.io/github/VSPEC-collab/vspec-vsm
+
+.. image:: https://github.com/VSPEC-collab/vspec-vsm/actions/workflows/python-package-conda.yml/badge.svg
+    :target: https://github.com/VSPEC-collab/vspec-vsm/actions/workflows/python-package-conda.yml
+
+.. image:: https://readthedocs.org/projects/vspec-vsm/badge/?version=latest
+    :target: https://vspec-vsm.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+
+VSPEC Variable Star Model
+=========================
+
+The Variable Star Model from VSPEC as a
+stand-alone package.
+
+Installation
+------------
+
+Type ``pip install vspec-vsm`` in your terminal to install
+the package in your environment.
+
+Docs
+----
+
+See the docs at `https://vspec-vsm.readthedocs.io <https://vspec-vsm.readthedocs.io>`_
