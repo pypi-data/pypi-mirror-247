@@ -1,0 +1,13 @@
+globalomnium/__init__.py,sha256=RjfTVY9X2ZBXC1haKfc1BIPDO9dk5ZgcIUFCNSAA7NI,4008
+globalomnium/__main__.py,sha256=0ouwwSO0s6D1N9hFfNzL1RkLecoZuX6rsUJ2tC66hGc,887
+globalomnium/cli.py,sha256=w7h47mKmG2t9oXMOTZJiZt_YnZ0SAv3on_SnkHOrGNs,3465
+globalomnium/client.py,sha256=GdiKvBLhTTUavp330IO-almlCPKMOFkRp-XdRZ-YG4E,14128
+globalomnium/mqtt.py,sha256=mgJPkW7SymPisLKSUsSC68VKbjPRODNDPAhzuSQtVhI,1787
+globalomnium/parsers.py,sha256=FgdgS0QzmGaFSrrpA7zUgHUt32zlIVqZ14qEcJvV9m0,3352
+globalomnium/types.py,sha256=wBUwmfvPZq3GcsCxH6lsTysqMEGob-NzoHoc_DHbVHQ,506
+globalomnium-2023.12.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+globalomnium-2023.12.1.dist-info/METADATA,sha256=c_QCsr2VRcjlt0Eo7Tkwijlzeo6fr-Kx-G6tDLcNxBw,1862
+globalomnium-2023.12.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+globalomnium-2023.12.1.dist-info/entry_points.txt,sha256=b_m85hD-sHFy8tFCY439074iRd7Jhk95uN3U2P38rSI,98
+globalomnium-2023.12.1.dist-info/top_level.txt,sha256=ZBN-KWpjV4OBWTjc0zIwlOXYC9vBzp50tN49eLmCtRE,13
+globalomnium-2023.12.1.dist-info/RECORD,,
