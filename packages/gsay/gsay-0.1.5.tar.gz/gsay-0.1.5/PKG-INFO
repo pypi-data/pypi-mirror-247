@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gsay
+Version: 0.1.5
+Summary: Nightcored Google TTS.
+License: MIT
+Author: Johannes C. Mayer
+Author-email: j.c.mayer240@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: google-cloud-texttospeech (>=2.15.0,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: xdg-base-dirs (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# gsay
+Nightcored Google TTS CLI program and python bindings, with preconfigured speakers. [Github Project Page](https://github.com/johannesCmayer/gsay).
+
