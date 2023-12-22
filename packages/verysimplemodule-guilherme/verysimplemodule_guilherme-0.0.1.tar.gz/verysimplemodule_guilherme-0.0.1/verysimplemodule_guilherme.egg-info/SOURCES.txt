@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule_guilherme/__init__.py
+verysimplemodule_guilherme/substract.py
+verysimplemodule_guilherme.egg-info/PKG-INFO
+verysimplemodule_guilherme.egg-info/SOURCES.txt
+verysimplemodule_guilherme.egg-info/dependency_links.txt
+verysimplemodule_guilherme.egg-info/requires.txt
+verysimplemodule_guilherme.egg-info/top_level.txt
+verysimplemodule_guilherme/extra/__init__.py
+verysimplemodule_guilherme/extra/divide.py
+verysimplemodule_guilherme/extra/multiple.py
