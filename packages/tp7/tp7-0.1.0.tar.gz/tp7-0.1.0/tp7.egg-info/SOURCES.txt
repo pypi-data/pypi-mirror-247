@@ -1,0 +1,5 @@
+setup.py
+tp7.egg-info/PKG-INFO
+tp7.egg-info/SOURCES.txt
+tp7.egg-info/dependency_links.txt
+tp7.egg-info/top_level.txt
