@@ -1,0 +1,11 @@
+README.md
+setup.py
+spartacloud/__init__.py
+spartacloud/datastore_api.py
+spartacloud/datastore_api_cluster.py
+spartacloud/spartacloud_api.py
+spartacloud/spartacloud_api_utils.py
+spartacloud.egg-info/PKG-INFO
+spartacloud.egg-info/SOURCES.txt
+spartacloud.egg-info/dependency_links.txt
+spartacloud.egg-info/top_level.txt
