@@ -1,0 +1,1 @@
+from kelompok233423310 import kelompok2

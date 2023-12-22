@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kelompok2tubes3342331018/__init__.py
+kelompok2tubes3342331018/kelompok2.py
+kelompok2tubes3342331018.egg-info/PKG-INFO
+kelompok2tubes3342331018.egg-info/SOURCES.txt
+kelompok2tubes3342331018.egg-info/dependency_links.txt
+kelompok2tubes3342331018.egg-info/top_level.txt
