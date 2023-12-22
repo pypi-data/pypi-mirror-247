@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: baseline-optimal
+Version: 0.0.3
+Home-page: https://github.com/sjwan01/baseline_optimal
+Author: Shunji Wan
+Author-email: sw3843@columbia.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: imblearn
+Requires-Dist: category-encoders
+Requires-Dist: xgboost
+Requires-Dist: optuna
+Requires-Dist: shap
+
+# baseline_optimal
