@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+package_operations/subtract.py
+package_operations/sum.py
+package_operations.egg-info/PKG-INFO
+package_operations.egg-info/SOURCES.txt
+package_operations.egg-info/dependency_links.txt
+package_operations.egg-info/top_level.txt
