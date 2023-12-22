@@ -1,0 +1,31 @@
+numpy
+Cython
+cython-bbox
+lap
+loguru
+norfair
+numpy==1.23.3
+#onnxruntime-gpu==1.12.1
+opencv-python
+scipy
+pyyaml
+easydict
+gdown
+pandas
+tabulate
+# typing-extensions==3.10.0.2
+typing_extensions==4.4.0
+wheel
+numpy==1.23.3
+asone-ocr
+motpy
+ultralytics==8.0.109
+torchreid==0.2.5
+tensorboard
+protobuf==3.20
+# requirements for coreml
+onnxruntime
+coremltools
+pycocotools==2.0.6
+super-gradients==3.4.1
+pillow==9.5.0
