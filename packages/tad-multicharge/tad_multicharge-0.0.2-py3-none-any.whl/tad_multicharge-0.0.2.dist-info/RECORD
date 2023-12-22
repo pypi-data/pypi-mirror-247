@@ -1,0 +1,17 @@
+tad_multicharge/__init__.py,sha256=SBcj6RE2_2-QVEoZg4U8EktApJux1MTEKRGyPboLJPM,3460
+tad_multicharge/__version__.py,sha256=ALp8JCCWUi3MZeLRy_gWnq3bgPriNouoscKp3UZAnIQ,839
+tad_multicharge/defaults.py,sha256=EX-DIn_Cwbh2Zdnuk2tURf4EpKLUl2VoEH0M_oVhjCA,1148
+tad_multicharge/eeq.py,sha256=Zh2_cK6l9Bk7rzUEjKSBZswWeeKM1fZaWmnhsordDOg,10839
+tad_multicharge/model.py,sha256=H-HEYDQO3NwlQ7HEoSelo83ltjncPXlyze2xz12PtE0,2239
+tad_multicharge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tad_multicharge/param/__init__.py,sha256=nSLbupavyQC1gcnre-f7tH194GrZE0SqWYgduLSX0N0,889
+tad_multicharge/param/eeq2019.py,sha256=Vf8MBrod4PwHSOpV1vONcNWetEJRXtW2jAOQXH3v3cs,7839
+tad_multicharge/typing/__init__.py,sha256=15Qil89zDdmpFUKCdzP6dNdnT5CKTDfwmr3WuA-COOs,899
+tad_multicharge/typing/builtin.py,sha256=BDqj8Ym7VpZcVJIUcVJ0dlQW0iVK62bFT1szJ2pRuko,1038
+tad_multicharge/typing/pytorch.py,sha256=Cmw9KeqzIENf_CyLjQj-nrW6MvqSQVp_iLx6ZtY8CvE,1182
+tad_multicharge-0.0.2.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tad_multicharge-0.0.2.dist-info/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+tad_multicharge-0.0.2.dist-info/METADATA,sha256=FdaLtnXY8CfcPJ862jX48zmG4t3LSgMwCAaFdz224XY,10479
+tad_multicharge-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tad_multicharge-0.0.2.dist-info/top_level.txt,sha256=2QW2PZG14GYAsuONy2IsFrWUy4brbTeFmKSyLLY-vg4,16
+tad_multicharge-0.0.2.dist-info/RECORD,,
