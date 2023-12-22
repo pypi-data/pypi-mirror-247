@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: hani-django-maker
+Version: 1.0
+Requires-Dist: Django
+Requires-Dist: djangorestframework
+
