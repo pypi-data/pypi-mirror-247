@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./src/__init__.py
+./src/version.py
+pypacking.egg-info/PKG-INFO
+pypacking.egg-info/SOURCES.txt
+pypacking.egg-info/dependency_links.txt
+pypacking.egg-info/entry_points.txt
+pypacking.egg-info/requires.txt
+pypacking.egg-info/top_level.txt
