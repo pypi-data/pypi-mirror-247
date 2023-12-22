@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mitesh-palindrome-lib
+Version: 0.1.5
+Summary: This lib will help you validate a palindrome 
+Author: mitesh gupta
+Author-email: mitesh51294@gmail.com
+
+# Introduction 
+ This is an experimentation library to check the palindrome. 
+ # Installation 
+ pip install mitesh_palindrome_lib 
