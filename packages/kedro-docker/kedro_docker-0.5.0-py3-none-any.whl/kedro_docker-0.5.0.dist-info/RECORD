@@ -1,0 +1,12 @@
+kedro_docker/__init__.py,sha256=PFSrXNg11_1Jp5xtY5KSuw7YlgSH6BS3E36MAOL3Yjo,79
+kedro_docker/helpers.py,sha256=SSHOPT4h788aC6k03IQYL3FLWGwZ1pxJF3RMDL8DVFs,7528
+kedro_docker/plugin.py,sha256=tqAyu2B1M-CATcYi7TqeWzxb3_wWFo3UiP-FEuS8L2E,11066
+kedro_docker/template/.dive-ci,sha256=L14srxKpCtujrY8W9k7h-JefOJ3vGXHwbA35YDyNkgo,550
+kedro_docker/template/.dockerignore,sha256=LoE7u4kp3_pUPgWhd5JoJZCB--KprvzH3r3yWiyKwXM,428
+kedro_docker/template/Dockerfile.simple,sha256=hxpjqIOvW_9WHlg5SwaIjdnj3afjFILgsueNT32npdI,664
+kedro_docker/template/Dockerfile.spark,sha256=3uqtgVPkIURREOPHHWgBOCSoqOudiK44bG96iwBsjq8,812
+kedro_docker-0.5.0.dist-info/METADATA,sha256=dxDNHL3ejhZK-hbJrkzWWyqOEVavn_ZJoIiNS3CALDk,12581
+kedro_docker-0.5.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kedro_docker-0.5.0.dist-info/entry_points.txt,sha256=SSRmB1CLmoheeWj1kHR7RC1VuQRl3pl1kkzhAvSdtno,63
+kedro_docker-0.5.0.dist-info/top_level.txt,sha256=xz-HOmxEI9oaZZahKntM7nw1X1RHTn5CedV3lEco5X8,13
+kedro_docker-0.5.0.dist-info/RECORD,,
