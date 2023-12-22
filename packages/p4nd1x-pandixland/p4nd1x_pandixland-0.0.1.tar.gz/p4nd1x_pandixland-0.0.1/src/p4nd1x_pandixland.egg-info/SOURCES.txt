@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/p4nd1x_pandixland/__init__.py
+src/p4nd1x_pandixland.egg-info/PKG-INFO
+src/p4nd1x_pandixland.egg-info/SOURCES.txt
+src/p4nd1x_pandixland.egg-info/dependency_links.txt
+src/p4nd1x_pandixland.egg-info/top_level.txt
