@@ -1,0 +1,4 @@
+include svtoolkit/domain/routines/c_allocate.pyx
+include svtoolkit/domain/remeshing/Windows/mmg2d_O3.exe
+include svtoolkit/domain/remeshing/Windows/mmg3d_O3.exe
+include svtoolkit/domain/remeshing/Windows/mmgs_O3.exe
