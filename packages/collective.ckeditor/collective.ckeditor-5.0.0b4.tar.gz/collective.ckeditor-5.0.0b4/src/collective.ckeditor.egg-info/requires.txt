@@ -1,0 +1,25 @@
+setuptools
+zope.i18nmessageid
+collective.quickupload
+collective.plonefinder
+plone.app.uuid
+plone.api
+
+[:python_version < "3"]
+demjson
+
+[:python_version >= "3"]
+demjson3
+
+[pytest]
+pytest
+gocept.pytestlayer
+requests
+beautifulsoup4
+
+[pytest:python_version < "3"]
+pathlib2
+
+[test]
+plone.app.testing
+plone.app.robotframework[debug]
