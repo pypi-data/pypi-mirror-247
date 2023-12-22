@@ -1,0 +1,2 @@
+[console_scripts]
+zoomto = zoomto.tools.shell:runshell
