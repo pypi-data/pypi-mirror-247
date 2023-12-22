@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: outset
+Version: 0.0.0rc164.post1
+Summary:  Easily indicate zoom plot areas in Matplotlib
+Author-email: Matthew Andres Moreno <m.more500@gmail.com>
+Requires-Python: >=3.8.1
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: frozendict
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opytional
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: pyspark>=3.0.0 ; extra == "spark"
+Requires-Dist: bandit[toml]==1.7.6 ; extra == "test"
+Requires-Dist: black==23.11.0 ; extra == "test"
+Requires-Dist: check-manifest==0.49 ; extra == "test"
+Requires-Dist: flake8-bugbear==23.12.2 ; extra == "test"
+Requires-Dist: flake8-docstrings ; extra == "test"
+Requires-Dist: flake8-formatter_junit_xml ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: flake8-pyproject ; extra == "test"
+Requires-Dist: keras==2.15.0 ; extra == "test"
+Requires-Dist: pre-commit==3.6.0 ; extra == "test"
+Requires-Dist: pylint==3.0.3 ; extra == "test"
+Requires-Dist: pylint_junit ; extra == "test"
+Requires-Dist: pytest-cov==4.1.0 ; extra == "test"
+Requires-Dist: pytest-mock<3.12.1 ; extra == "test"
+Requires-Dist: pytest-runner ; extra == "test"
+Requires-Dist: pytest==7.4.3 ; extra == "test"
+Requires-Dist: pytest-github-actions-annotate-failures ; extra == "test"
+Requires-Dist: scikit-learn ; extra == "test"
+Requires-Dist: shellcheck-py==0.9.0.6 ; extra == "test"
+Requires-Dist: python-slugify ; extra == "test"
+Requires-Dist: tensorflow ; extra == "test"
+Project-URL: Documentation, https://mmore500.com/outset
+Project-URL: Source, https://github.com/mmore500/outset
+Project-URL: Tracker, https://github.com/mmore500/outset/issues
+Provides-Extra: spark
+Provides-Extra: test
+
+.. figure:: docs/assets/outset-wordmark.png
+   :alt: outset wordmark
+
+|PyPi| |CI| |Deploy Sphinx documentation to Pages| |GitHub stars|
+
+Easily indicate zoom plot areas in Matplotlib
+
+- Free software: MIT license
+- Documentation: <https://mmore500.com/outset>
+
+
+Features
+--------
+
+Gallery
+-------
+
+Basic Usage
+-----------
+
+API Overview
+------------
+
+Install
+-------
+
+``python3 -m pip install outset``
+
+Citation
+--------
+
+Contributing
+------------
+
+This project welcomes contributions and suggestions. Our documentation includes `detailed information to get you started <https://mmore500.com/outset/contributing.html#>`__.
+
+.. |PyPi| image:: https://img.shields.io/pypi/v/outset.svg
+   :target: https://pypi.python.org/pypi/outset
+.. |CI| image:: https://github.com/mmore500/outset/actions/workflows/CI.yml/badge.svg
+   :target: https://github.com/mmore500/outset/actions
+.. |Deploy Sphinx documentation to Pages| image:: https://github.com/mmore500/outset/actions/workflows/sphinx.yml/badge.svg
+   :target: https://github.com/mmore500/outset/actions/workflows/sphinx.yml
+.. |GitHub stars| image:: https://img.shields.io/github/stars/mmore500/outset.svg?style=round-square&logo=github&label=Stars&logoColor=white
+   :target: https://github.com/mmore500/outset
+
