@@ -1,0 +1,2 @@
+[console_scripts]
+fxrelay-ui = fxrelay_ui:main
