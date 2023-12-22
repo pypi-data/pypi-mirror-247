@@ -1,0 +1,8 @@
+rulebase_symbols_detector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rulebase_symbols_detector/addtional_company_information.json,sha256=Wedzh0a2qnO5g1NSY_q9k3VskLlgUardOLImZvF_5J4,1510
+rulebase_symbols_detector/init_data.json,sha256=DngRTJ74jL2Cd51waqDx0KrDF8SNAd_lv0OUQo4ThRg,1770771
+rulebase_symbols_detector/init_data.py,sha256=DwijtJbwzmA8T9l2LvTvU2FLYqkJsu9t2ZR9bnE4Rmo,1772319
+rulebase_symbols_detector/symbol_detector.py,sha256=HCVwy27x-nkgYO073BnqfsGRlmq4Q0httebaL83A5gQ,24626
+rulebase_symbols_detector-0.1.9.dist-info/METADATA,sha256=ftXad_Bqz4y2droFfEfy4sOavZYUq5NNddP98bZvdI4,6838
+rulebase_symbols_detector-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rulebase_symbols_detector-0.1.9.dist-info/RECORD,,
