@@ -1,0 +1,7 @@
+setup.py
+naverauth.egg-info/PKG-INFO
+naverauth.egg-info/SOURCES.txt
+naverauth.egg-info/dependency_links.txt
+naverauth.egg-info/not-zip-safe
+naverauth.egg-info/requires.txt
+naverauth.egg-info/top_level.txt
