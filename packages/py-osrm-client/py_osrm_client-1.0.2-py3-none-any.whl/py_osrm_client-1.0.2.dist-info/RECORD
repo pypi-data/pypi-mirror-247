@@ -1,0 +1,10 @@
+osrm/__init__.py,sha256=JHOs4sWyJbhJn7xR1uKf2Ka-QK-mAJx0_0fgNLpz964,629
+osrm/client_async.py,sha256=efBkd50Qv9LclKo4XQHTKAgOBzMZ0tQWoF1Bh7HwS-c,10370
+osrm/client_sync.py,sha256=RlOv5JDMlAPphGgTQV2kvQFza8CGeaMUZIaT_b24ZCM,10275
+osrm/model.py,sha256=7FvwDM1ay_35cBHRp9cwHmgR0INc1Qbpi982_jbWeWo,8363
+osrm/utils.py,sha256=JrIracVFPKOq4MY9HM9P55kT151aFcADInWExYTWuLA,987
+py_osrm_client-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_osrm_client-1.0.2.dist-info/METADATA,sha256=3sA0IyzVx4LowiKFrM30lQjsiZOnCI4XINnfD5AqWJQ,2425
+py_osrm_client-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_osrm_client-1.0.2.dist-info/top_level.txt,sha256=j5PO7-swWcz5DDHpZMVOXiuU29Wuet-p8uRNyrHnOS0,5
+py_osrm_client-1.0.2.dist-info/RECORD,,
