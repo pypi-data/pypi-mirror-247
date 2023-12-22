@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-fhir-converter
+Version: 0.0.1
+Summary: Conversion utility to translate data formats into FHIR
+Home-page: https://github.com/chaseastewart/fhir-converter
+License: MIT
+Author: Chase Stewart
+Author-email: chase.a.stewart@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: frozendict (>=2.3.10,<3.0.0)
+Requires-Dist: pyjson5 (>=1.6.5,<2.0.0)
+Requires-Dist: python-liquid (>=1.10.2,<2.0.0)
+Requires-Dist: xmltodict (>=0.13.0,<0.14.0)
+Project-URL: Repository, https://github.com/chaseastewart/fhir-converter
+Description-Content-Type: text/markdown
+
+# fhir-converter
