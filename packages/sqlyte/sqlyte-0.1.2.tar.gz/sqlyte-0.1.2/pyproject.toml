@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "sqlyte"
+version = "0.1.2"
+description = "a simple SQLite interface"
+keywords = ["SQLite"]
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "BSD-2-Clause"
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+reportUnboundVariable = false
+
+[[tool.poetry.source]]
+name = "main"
+url = "https://ragt.ag/code/pypi"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pendulum = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+gmpg = {path="../gmpg", develop=true}
