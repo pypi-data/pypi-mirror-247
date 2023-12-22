@@ -1,0 +1,4 @@
+HanTa
+nltk
+numpy
+textstat
