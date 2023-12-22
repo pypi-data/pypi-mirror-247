@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+package/__init__.py
+package/main.py
+pypostgresutil.egg-info/PKG-INFO
+pypostgresutil.egg-info/SOURCES.txt
+pypostgresutil.egg-info/dependency_links.txt
+pypostgresutil.egg-info/requires.txt
+pypostgresutil.egg-info/top_level.txt
