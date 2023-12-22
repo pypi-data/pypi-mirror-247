@@ -1,0 +1,3 @@
+[console_scripts]
+TermTetris = tetris:main
+tt = tetris:main
