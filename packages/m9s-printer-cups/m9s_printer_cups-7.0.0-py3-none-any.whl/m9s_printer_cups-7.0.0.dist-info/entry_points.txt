@@ -1,0 +1,2 @@
+[trytond.modules]
+printer_cups = trytond.modules.printer_cups
