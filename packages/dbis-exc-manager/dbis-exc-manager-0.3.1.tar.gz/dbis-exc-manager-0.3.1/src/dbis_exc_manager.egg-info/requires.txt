@@ -1,0 +1,4 @@
+ipython~=8.4
+Levenshtein~=0.23
+requests~=2.27
+tabulate~=0.8
