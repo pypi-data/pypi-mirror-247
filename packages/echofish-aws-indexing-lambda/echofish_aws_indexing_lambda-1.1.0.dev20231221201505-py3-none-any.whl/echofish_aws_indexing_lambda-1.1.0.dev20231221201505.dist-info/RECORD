@@ -1,0 +1,8 @@
+echofish_aws_indexing_lambda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echofish_aws_indexing_lambda/lambda_executor.py,sha256=EqjYbntdZArLPwvmtheDvS7SXK7tHUeFYPZunePFoGI,12432
+echofish_aws_indexing_lambda/lambda_handler.py,sha256=R2ghLbzXJgMwTIDWRUuQaPw-pImUL73Ews1_083jcxM,1941
+echofish_aws_indexing_lambda-1.1.0.dev20231221201505.dist-info/LICENSE,sha256=djdT6_mX01_eQWGiavJRmUZcYBmDtQ7UB9Jmx-BJjYA,1065
+echofish_aws_indexing_lambda-1.1.0.dev20231221201505.dist-info/METADATA,sha256=1hg_T9wQ6KUe0m_DU4UhvD1cvcn0T2Y-6F41t9XmpBE,2774
+echofish_aws_indexing_lambda-1.1.0.dev20231221201505.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+echofish_aws_indexing_lambda-1.1.0.dev20231221201505.dist-info/top_level.txt,sha256=v0tGxvYTcr8ojM_vwelvMhbdpZxzbtJ5KHmW7TOvfgk,29
+echofish_aws_indexing_lambda-1.1.0.dev20231221201505.dist-info/RECORD,,
