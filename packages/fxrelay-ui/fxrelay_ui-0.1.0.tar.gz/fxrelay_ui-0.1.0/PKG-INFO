@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: fxrelay-ui
+Version: 0.1.0
+Summary: fxrelay-ui - TODO
+Project-URL: Homepage, https://gitlab.com/hydrargyrum/fxrelay-ui
+License-Expression: WTFPL
+License-File: COPYING.WTFPL
+Keywords: email,firefox,privacy
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Requires-Dist: httpx
+Requires-Dist: textual
+Description-Content-Type: text/markdown
+
+# fxrelay-ui
+
+fxrelay-ui is a terminal-based interface for managing mailboxes on your [Firefox Relay](https://relay.firefox.com/) account.
+
+![screenshot of fxrelay-ui showing several addresses](screenshot.png)
+
+## Install
+
+    pipx install fxrelay-ui
+
+## License
+
+fxrelay-ui is licensed under the [WTFPL](COPYING.WTFPL)
