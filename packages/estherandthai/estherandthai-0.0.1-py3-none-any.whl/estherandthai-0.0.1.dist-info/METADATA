@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: estherandthai
+Version: 0.0.1
+Summary: A website for thai and esther.
+Project-URL: Homepage, https://github.com/thaiv28/esther-and-thai
+Author-email: Thai Villaluna <thaivillaluna@gmail.com>
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# imessage-time-machine
+A website that shows random, old imessages.
+
+# Todo:
+- Infinite scroll on context
+- Date search filter
+- Hide filters on button press
+- Random --> Random Day
