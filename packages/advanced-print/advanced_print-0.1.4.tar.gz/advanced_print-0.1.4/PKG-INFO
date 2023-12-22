@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: advanced-print
+Version: 0.1.4
+Summary: 
+Author: Alpha
+Author-email: piotr@piotryordanov.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Advanced Print
+A glorified print that will:
+1. Display file from which print occured
+2. Display time of print
+3. Display message on a seperate line
+4. Add colors for seperation
+
+## Installation
+
+```bash
+pip install advanced-print
+```
+
+Or using poetry
+```bash
+poetry add advanced-print
+```
+
+## Example
+
+```python
+from advanced_print import print
+
+print("Hello world")
+```
+
+![](./assets/1703151795.png)
+

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advanced-print"
+version = "0.1.4"
+description = ""
+authors = ["Alpha <piotr@piotryordanov.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+pub = "sh publish.sh"
