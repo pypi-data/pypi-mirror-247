@@ -1,0 +1,11 @@
+setup.py
+MoyeMoyeMoyeMoye/Zain.py
+MoyeMoyeMoyeMoye/alphabeta.py
+MoyeMoyeMoyeMoye/genetic.py
+MoyeMoyeMoyeMoye/minimax_algo.py
+MoyeMoyeMoyeMoye/part2.py
+MoyeMoyeMoyeMoye/tictac.py
+NewMoyeMoye.egg-info/PKG-INFO
+NewMoyeMoye.egg-info/SOURCES.txt
+NewMoyeMoye.egg-info/dependency_links.txt
+NewMoyeMoye.egg-info/top_level.txt
