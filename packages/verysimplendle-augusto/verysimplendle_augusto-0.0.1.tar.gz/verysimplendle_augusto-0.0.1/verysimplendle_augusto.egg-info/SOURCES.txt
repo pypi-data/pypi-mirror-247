@@ -1,0 +1,11 @@
+setup.py
+verysimplendle_augusto/__init__.py
+verysimplendle_augusto/add.py
+verysimplendle_augusto/subtract.py
+verysimplendle_augusto.egg-info/PKG-INFO
+verysimplendle_augusto.egg-info/SOURCES.txt
+verysimplendle_augusto.egg-info/dependency_links.txt
+verysimplendle_augusto.egg-info/top_level.txt
+verysimplendle_augusto/extra/__init__.py
+verysimplendle_augusto/extra/divide.py
+verysimplendle_augusto/extra/multiply.py

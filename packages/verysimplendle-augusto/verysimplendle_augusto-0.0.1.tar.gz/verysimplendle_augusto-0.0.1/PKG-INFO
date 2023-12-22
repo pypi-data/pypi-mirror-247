@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: verysimplendle_augusto
+Version: 0.0.1
+Summary: Minha primeira biblioteca em Python
+Author: Augusto
+Author-email: augusto7666@gmail.com
+Keywords: python,firts package
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Minha primeira biblioteca com descrição longa
