@@ -1,0 +1,13 @@
+audioanalyser/__init__.py,sha256=jl0EyCK91eWiTql6uR0Bvw-EhAIhJPl0eVdWKIo8Y2g,648
+audioanalyser/__main__.py,sha256=nSJtIViOV4cezNR-70-tor9Q65ODE0fh4fmXlyLkFQM,2789
+audioanalyser/modules/__init__.py,sha256=JG8HQROHDepLpXzoHkAik05oYGh1iPbroF7wC0k2_YE,585
+audioanalyser/modules/audio_analyser_server.py,sha256=i-n3T4w0wH0P5MK6yMRyiO4f_NIta47KtTDh-RPa0Cg,4689
+audioanalyser/modules/azure_speech_to_text.py,sha256=RfGauv-QozfJcwY_XVM1cyl_5vb_lDGmqXwOCQK8vF0,6712
+audioanalyser/modules/azure_text_analysis.py,sha256=r3Xh5YOYP-d61S8T0h1eUQbCVqaZ74qEltxwPK0ZJeY,9470
+audioanalyser-0.0.1.dist-info/LICENSE-APACHE,sha256=VFJxxGa54FQ4msMalcLlKhNy0NJizHCKRy-StBA-l3k,10867
+audioanalyser-0.0.1.dist-info/LICENSE-MIT,sha256=s3JALHNUT8GfYxc55b_O3IZJxL0VpEYeeKzMzLs_eGw,1079
+audioanalyser-0.0.1.dist-info/METADATA,sha256=rWn86yD1mgiLrbo0BPUd2KlFsbtgpEdJ2Dqqkof94n8,7767
+audioanalyser-0.0.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+audioanalyser-0.0.1.dist-info/entry_points.txt,sha256=fVj8dkVzMY3ycIEVgaolQMhf6xuje-02SH0gsbxc3Fs,71
+audioanalyser-0.0.1.dist-info/top_level.txt,sha256=RdKqVFfskiNEQ-HLRcna5IAwBZeS9FWFhNJuhErqMrs,14
+audioanalyser-0.0.1.dist-info/RECORD,,
