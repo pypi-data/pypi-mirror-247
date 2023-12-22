@@ -1,0 +1,10 @@
+verysimplemodule_pedro_vitor/__init__.py,sha256=bx3zLWi7oCcipXxhW80n0lMmChxBL_fRkMphYnh5f1o,48
+verysimplemodule_pedro_vitor/add.py,sha256=vpST6H91W8vDVXw9tdVYDZKcDFLdA3UvOh9aqB6l7SQ,32
+verysimplemodule_pedro_vitor/subtract.py,sha256=nbfNqUt7PCYY6PS6KZOYKU4UX1vb_JtJtQJASW6d8qs,31
+verysimplemodule_pedro_vitor/extra/__init__.py,sha256=6FGAfku5fMtRRl-tHibN21I7v2ukxvr1T8ZKNOS1AZk,54
+verysimplemodule_pedro_vitor/extra/divide.py,sha256=XuECn_6qZnUpbNkhqrCzFIRF9H-QYySb14UfENGiY3c,32
+verysimplemodule_pedro_vitor/extra/multiple.py,sha256=hsA_A-VlF4FWf3JyCBwX_yZmMbMRnDBFKY03IMwcOxE,32
+verysimplemodule_pedro_vitor-0.0.5.dist-info/METADATA,sha256=plsHjKyMIv3Gbip0RRmP9cBJokO6Z5seDKx1kW9_Wvo,454
+verysimplemodule_pedro_vitor-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+verysimplemodule_pedro_vitor-0.0.5.dist-info/top_level.txt,sha256=8VSwRMY1AlrwcQEpAnfjw5J8n4jywSufaLUr4biV37M,29
+verysimplemodule_pedro_vitor-0.0.5.dist-info/RECORD,,
