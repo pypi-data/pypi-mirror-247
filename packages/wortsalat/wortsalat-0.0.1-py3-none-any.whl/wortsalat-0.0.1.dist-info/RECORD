@@ -1,0 +1,17 @@
+wortsalat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wortsalat/analyze_wortsalat.py,sha256=QQua5MS5BHk3Cn8m_HBCNtMlxK4URHuH6nLsw7JgTIQ,6375
+wortsalat/count.py,sha256=XiAhBzZ5B7_3RFu8kcoXt86YLJO8QHkfpVgd6fBFy_w,2542
+wortsalat/identify_tags.py,sha256=K_9f6ed74zSlVaUD3z7_VTXvk_VM588SpfTNRbfTlAU,1664
+wortsalat/identify_words.py,sha256=nrase9W6IzKtsAF7Ppz6Ro7ouJGQ_iyHOYJVT03QUKs,990
+wortsalat/lix.py,sha256=bxubtFSzzd5CTzClr5_alIKu21ZTL7ti6fj-rsjl9Ek,1258
+wortsalat/preprocess.py,sha256=qLC3Och8Gg3dbF_mtsy8vmxeoB3lbD22nMERV2WRlDk,1084
+wortsalat/wrapper.py,sha256=B_Z1tMFrBAT-ILgFkZ4ZBaBNYxfIyfpMddCFiSn_DLU,1356
+wortsalat/data/emojis.txt,sha256=muRALVoqiCzDHHSJFvBOeVUV1KS4ljKqAs7ubfABf_M,15
+wortsalat/data/ich.txt,sha256=2xCHOulTwF48Bs3Kn5DPEZ_JlyeT94wy3r1dY6P8QXE,8
+wortsalat/data/wir.txt,sha256=1g8084C5QDhla3gdqgOIRNuk2B1GJFgymlFqOkJJN7s,7
+wortsalat-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wortsalat-0.0.1.dist-info/METADATA,sha256=5Q-_ZKOTFJB1slBMVlOHQyTijhbqJZHrBZ-9e03NLYA,16199
+wortsalat-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wortsalat-0.0.1.dist-info/top_level.txt,sha256=gpmca5iDj9U88j_znS-s22Z0n7F0adNIrmR7eQFSqb4,10
+wortsalat-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+wortsalat-0.0.1.dist-info/RECORD,,
