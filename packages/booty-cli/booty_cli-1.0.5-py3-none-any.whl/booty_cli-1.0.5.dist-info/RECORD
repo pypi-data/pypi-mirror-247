@@ -1,0 +1,16 @@
+booty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+booty/app.py,sha256=oY015S3u4d1Nre3LQoelucaoPQRVrfQ32T1JVl2p9Ls,10365
+booty/ast_util.py,sha256=ZH82AXGlkZ52JBtm4YZVgrhLSWqQFBBMzmEHKsHRTCQ,11234
+booty/cli.py,sha256=xMPgsPk2e_tkdn65IhUV9lC1gYscDtFFCADDSN1afFU,1964
+booty/dependencies.py,sha256=L0QfomXDBHiFAngiV8nZ-EP7ATjSDfQkBbOQwYoHBIY,1537
+booty/execute.py,sha256=KhX4pugx_u--Haa7Vtiaf1L9A-TaGq9s7HB6-WNqVq0,2851
+booty/lang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+booty/lang/grammar.py,sha256=fsibmrLDXVhSpIx03TUewS2JZY_p64cFarAOqi-TfaU,1197
+booty/lang/stdlib.py,sha256=GIFjqOX9i22tsgeW7iQKekTgVBX7bNMUkcak3xe1Bjo,1039
+booty/parser.py,sha256=wIuXiURFtHjlq7a09UG38PHvrgeEbwwI7eKg2pusaUI,499
+booty/types.py,sha256=_EEdLbYibLB8jHfxqlagfLZVTliZS44xeu3X2xAOixw,5076
+booty/validation.py,sha256=D4GT1-wFaUFruw8lytVM0PrhOzOVKfOLv2bXuvlarRA,2571
+booty_cli-1.0.5.dist-info/METADATA,sha256=Ozzy9QqcWmoPty3uVpnoGzf1tk1CW_AxucBnUUjlQ_M,12557
+booty_cli-1.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+booty_cli-1.0.5.dist-info/entry_points.txt,sha256=JbjNI2qjb5X69SasOoVoEVstLrln_oewdf3B-EGFsNQ,39
+booty_cli-1.0.5.dist-info/RECORD,,
