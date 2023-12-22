@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+simes/__init__.py
+simes.egg-info/PKG-INFO
+simes.egg-info/SOURCES.txt
+simes.egg-info/dependency_links.txt
+simes.egg-info/top_level.txt
