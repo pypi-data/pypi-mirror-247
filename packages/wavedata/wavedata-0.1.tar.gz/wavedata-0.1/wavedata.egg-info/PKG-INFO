@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wavedata
+Version: 0.1
+Summary: Tools for processing waveform-like data such as time series or xy data. Perform common scientific operations on xy data using numpy. Store, analyze, transform, and display xy data.
+Home-page: https://github.com/decoherer/wavedata
+Author: decoherer
+Author-email: 63128649+decoherer@users.noreply.github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

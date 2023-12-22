@@ -1,0 +1,9 @@
+README.md
+plot.py
+setup.py
+wavedata.py
+wavedata.egg-info/PKG-INFO
+wavedata.egg-info/SOURCES.txt
+wavedata.egg-info/dependency_links.txt
+wavedata.egg-info/requires.txt
+wavedata.egg-info/top_level.txt
