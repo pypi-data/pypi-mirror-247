@@ -1,0 +1,9 @@
+README.md
+setup.py
+lyser/__init__.py
+lyser/chef_chat.py
+lyser/text_analysis.py
+lyser.egg-info/PKG-INFO
+lyser.egg-info/SOURCES.txt
+lyser.egg-info/dependency_links.txt
+lyser.egg-info/top_level.txt
