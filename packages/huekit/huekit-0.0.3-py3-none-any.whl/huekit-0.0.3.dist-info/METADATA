@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: huekit
+Version: 0.0.3
+Summary: Alternative to colorama, has more colors and ANSI features.
+Author-email: AuraPy <zayanarshad@aurapy.co.uk>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# HueKit
+
+Huekit is a simple package which lets you style and color text. Unlike colorama and other python text color-izers, huekit also lets you style text, and has more color variety than colorama.
+
+# How To Use
+
+The following is a code block which will later be explained, showing how to use huekit:
+
+```Python
+from huekit imort huekit
+
+print(huekit.color("red") + "This text is red," + huekit.style("bold") + " And this text is bold!")
+```
+
+```from huekit import huekit```: import the library
+
+```huekit.color("red") + "This text is red,"```: this is huekit's color function. you can concatenate any color to a string that you like, as long as it is in this list:
+
+* black
+* red
+* green
+* brown
+* blue
+* purple
+* cyan
+* light_gray
+* dark_gray
+* light_red
+* light_green
+* yellow
+* light_blue
+* light_purple
+* light_cyan
+* light_white
+
+```huekit.style("bold") + " And this text is bold!"```: this is huekit's style function. you can concatenate any text style to a string that you like, as long as it is in this list:
+
+* bold
+* faint
+* italic
+* underline
+* blink
+* negative
+* crossed
+* end
