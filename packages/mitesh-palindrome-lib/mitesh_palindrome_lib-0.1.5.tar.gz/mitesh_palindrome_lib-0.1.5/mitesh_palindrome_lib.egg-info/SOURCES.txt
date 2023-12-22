@@ -1,0 +1,9 @@
+README.md
+setup.py
+mitesh_lib/__init__.py
+mitesh_lib/tests.py
+mitesh_lib/validate_palindrome.py
+mitesh_palindrome_lib.egg-info/PKG-INFO
+mitesh_palindrome_lib.egg-info/SOURCES.txt
+mitesh_palindrome_lib.egg-info/dependency_links.txt
+mitesh_palindrome_lib.egg-info/top_level.txt
