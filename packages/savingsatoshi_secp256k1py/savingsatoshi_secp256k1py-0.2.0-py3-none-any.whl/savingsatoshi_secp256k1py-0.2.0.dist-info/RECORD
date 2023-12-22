@@ -1,0 +1,5 @@
+secp256k1py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secp256k1py/secp256k1.py,sha256=m9w5GY8FO5sn6ESAejrze4OuPJcpbpRFQSS7CoyQGX4,12205
+savingsatoshi_secp256k1py-0.2.0.dist-info/METADATA,sha256=zQTBNL62fzHL33kUpxo0g1Atba0fw85WHTEogReL3EQ,426
+savingsatoshi_secp256k1py-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+savingsatoshi_secp256k1py-0.2.0.dist-info/RECORD,,
