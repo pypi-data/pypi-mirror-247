@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: DataValuationPlatform
+Version: 1.3
+Summary: A modular platform to test data valuation methods on High Throughput Screen data applications
+Home-page: https://github.com/JoshuaHesse/DataValuationPlatform
+Author: Joshua Hesse
+Author-email: joshua.hesse@tum.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ==3.8.*
+Description-Content-Type: text/markdown
+Requires-Dist: chembl-structure-pipeline (==1.2.0)
+Requires-Dist: gpflow (==2.8.0)
+Requires-Dist: imbalanced-learn (==0.10.1)
+Requires-Dist: jupyter
+Requires-Dist: ipykernel
+Requires-Dist: matplotlib (==3.6.0)
+Requires-Dist: pandas (==1.4.0)
+Requires-Dist: rdkit (==2022.9.5)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: scipy (==1.8.1)
+Requires-Dist: tensorflow (==2.4.0)
+Requires-Dist: tensorflow-probability (==0.12.1)
+Requires-Dist: tqdm (==4.60.0)
+Requires-Dist: lightgbm (==3.3.5)
+Requires-Dist: catboost (==1.1.1)
+
+
+# DataValuationPlatform
+This package can be used to implement a range of data valuation methods. It has the following features:
+### Features
+- **Data Loading and Preprocessing**: The platform includes an HTS Data Processor that allows easy preprocessing of pubchem datasets. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/preprocessor.py)
+- **Model Integration**: The platform supports various data valuation models, each offering unique approaches to data valuation.
+- **Ready-to-use applications**: Applications such as active learning, false positive detection, and importance undersampling are implemented for all data valuation models and ready to use.
+
+The package contains the data valuation models descriped in our manuscript:
+### Data Valuation Models
+1. **CatBoost Model**: An implementation of the CatBoost algorithm, known for handling categorical data efficiently. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/catboost/CatBoost_model.py)
+2. **DVRL Model**: Integrates the DVRL (Data Valuation using Reinforcement Learning) approach for data valuation. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/dvrl/DVRL_model.py)
+3. **KNN Shapley Model**: Applies the KNN Shapley method, a technique based on Shapley values, for assessing data influence. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/knn_shapley/KNN_Shapley_model.py)
+4. **TracIn Model**: Applies the TracIn method, calculating sample influence by tracing gradient descent. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/knn_shapley/TracIn_model.py)
+5. **MVSA Model**: Implements the MVSA (Most Valuable Subset Analysis) for evaluating data subsets. [View Code](https://github.com/JoshuaHesse/DataValuationPlatform/blob/master/DataValuationPlatform/models/mvsa/MVSA_model.py)
+
+### Tutorial
+The following tutorial shows how to load some of the datasets included in this repository into a jupyter notebook, calculate molecular descriptors, and use one of the data valuation methods for false positive prediction
+#### Dataset Loading
+```python
+#1. you can load the preinstalled datasets used in this publication via names
+preprocessor = HTSDataPreprocessor(["GPCR_3", "GPCR_2", "GPCR"])
+preprocessor.load_preprocessed_data()
+preprocessor.create_descriptors(descriptor_type = "ecfp")
+
+dataset_gpcr3 = preprocessor.get_dataset("GPCR_3")
+dataset_gpcr2 = preprocessor.get_dataset("GPCR_2")
+dataset_gpcr = preprocessor.get_dataset("GPCR_")
+
+#2. You can add pubchem assay combinations that combine a primary and a confirmatory assay by downloading the raw files and adding
+#the dataset to the existing collection (here example with made up aids)
+preprocessor = HTSDataPreprocessor([])
+preprocessor.add_dataset_by_AID(codename = "MadeUpAssayName", primary_AID = "001",confirmatory_AID= "002")
+preprocessor.add_dataset_by_AID(codename = "MadeUpAssayName2", primary_AID = "003",confirmatory_AID= "004")
+preprocessor.preprocess_data(path_to_raw="Path/To/Raw_data/")
+preprocessor.create_descriptors("ecfp")
+
+dataset_MadeUpAssayName = preprocessor.get_dataset("MadeUpAssayName")
+dataset_MadeUpAssayName2 = preprocessor.get_dataset("MadeUpAssayName2")
+
+3. you can add your own data directly as a custom dataset:
+preprocessor = HTSDataPreprocessor([])
+preprocessor.create_custom_dataset(
+    dataset_name = CustomDataset,
+    training_set_smiles=train_smiles,
+    training_set_labels=train_labels,
+    training_set_confirmatory_labels=train_confirmatory_labels) #this is only necessary for the false positive identification
+preprocessor.create_descriptors("ecfp")
+
+datasetCustomDataset = preprocessor.get_dataset("CustomDataset")
+```
+#### Model usage
+```python
+from DataValuationPlatform import HTSDataPreprocessor, MVSA, TracIn, CatBoost, DVRL
+
+
+#create a preprocessor object and load the datasets you are interested in (e.g. the preprocessed datasets supplied in this repository by using their names)
+preprocessor = HTSDataPreprocessor(["GPCR_3", "GPCR_2", "GPCR"])
+preprocessor.load_preprocessed_data()
+
+#calculate their molecular descriptors (currently implemented are ECFPs, a set of 208 RDKit descriptors, and SMILES)
+preprocessor.create_descriptors(descriptor_type = "ecfp")
+
+# create dataset objects for each dataset, which contain their train and test sets, molecular descriptors, labels
+dataset_gpcr3 = preprocessor.get_dataset("GPCR_3")
+dataset_gpcr2 = preprocessor.get_dataset("GPCR_2")
+
+#create a data valuation model
+mvsa_model = MVSA()
+
+#you can either use these models just for calculating importance scores for a dataset
+gpcr3_influence_scores = mvsa_model.calculate_influence(dataset_gpcr3)
+
+#or apply one of the applications explained in the paper
+
+#false positive prediction
+gpcr3_false_positives_mvsa_results,gpcr3_mvsa_logs = mvsa_model.apply_false_positive_identification(dataset = dataset_gpcr3, replicates = 3)
+
+#active learning
+gpcr3_active_learning_mvsa_results = mvsa_model.apply_active_learning(dataset = dataset_gpcr3, step_size = 1, steps = 6, regression_function = "gpr", sampling_function = "greedy")
+
+#importance undersampling
+gpcr3_undersampling_mvsa_results = mvsa_model.apply_undersampling(dataset = dataset_gpcr3, steps = 19)
+```
+
