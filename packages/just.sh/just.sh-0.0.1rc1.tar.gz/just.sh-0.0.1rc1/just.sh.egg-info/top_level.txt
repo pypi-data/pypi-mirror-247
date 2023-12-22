@@ -1,0 +1,3 @@
+dist
+just_sh
+test
