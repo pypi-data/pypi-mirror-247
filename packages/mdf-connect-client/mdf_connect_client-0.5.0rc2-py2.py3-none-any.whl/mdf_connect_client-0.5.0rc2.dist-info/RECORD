@@ -1,0 +1,9 @@
+mdf_connect_client/__init__.py,sha256=4z-69gU4XpGepxMAInaLAbOCcAnS85QF5RA7gscYNos,98
+mdf_connect_client/mdfcc.py,sha256=rT3pYyqkbQ0GD97kUzFloT9zcpBincxh-ZGcrRPskQo,65718
+mdf_connect_client/version.py,sha256=xY-TF92GknjJ5CJTsjvhheZ3Q5MIiCboXdSXSrLom5A,72
+mdf_connect_client-0.5.0rc2.dist-info/LICENSE,sha256=Lq6ug0AHZGT-vi9nN3XcJIzO1JHLR_bM7oRLkP5RMV0,11355
+mdf_connect_client-0.5.0rc2.dist-info/METADATA,sha256=Kg5gGetS8Fr_2UhmOUhEXSrhfJn1Xzu1moXwstn3Zmk,800
+mdf_connect_client-0.5.0rc2.dist-info/NOTICE,sha256=FefrQR5crqhGIRcXTGsHYJNz-0Frx7xGCeg78O8OSZQ,633
+mdf_connect_client-0.5.0rc2.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+mdf_connect_client-0.5.0rc2.dist-info/top_level.txt,sha256=sFkXLcxWq4ct_EGrxo3FWf5QAAJZAihRylryHzh3PTE,19
+mdf_connect_client-0.5.0rc2.dist-info/RECORD,,
