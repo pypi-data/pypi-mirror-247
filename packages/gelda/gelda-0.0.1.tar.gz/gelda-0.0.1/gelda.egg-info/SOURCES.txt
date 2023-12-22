@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gelda/__init__.py
+gelda/attribute_generation.py
+gelda/vlm_evaluation.py
+gelda.egg-info/PKG-INFO
+gelda.egg-info/SOURCES.txt
+gelda.egg-info/dependency_links.txt
+gelda.egg-info/requires.txt
+gelda.egg-info/top_level.txt

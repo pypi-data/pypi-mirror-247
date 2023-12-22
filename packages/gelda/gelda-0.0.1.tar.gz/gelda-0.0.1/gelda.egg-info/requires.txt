@@ -1,0 +1,13 @@
+numpy>=1.24.3
+torch>=2.0.1
+torchvision>=0.15.2
+transformers>=4.35.2
+accelerate>=0.25.0
+scipy>=1.10.1
+pandas>=2.0.3
+matplotlib>=3.7.2
+opencv-python>=4.8.0.76
+seaborn>=0.12.2
+openai==0.28.1
+tqdm>=4.66.1
+wrapt-timeout-decorator>=1.4.0
