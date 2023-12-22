@@ -1,0 +1,17 @@
+dbt_airflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_airflow/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_airflow/core/config.py,sha256=qQG7o2V2nvh2rr_URIlG0nJtMxDQPSOGJ2hXboZgk8Y,2462
+dbt_airflow/core/task.py,sha256=shsBK0LbEvUTLUj852-8dVs7hkLevMaYirbkCq4hvr4,4965
+dbt_airflow/core/task_builder.py,sha256=Gby5dDlvZQeE_v4bR0L_eKq6FjCaTlUAJgdU-SvYMMc,8690
+dbt_airflow/core/task_group.py,sha256=NM9Ed7bUC3RCD0Rd_5ZpY-rSrYmRcLxto0j_WTvPW70,4343
+dbt_airflow/core/task_list.py,sha256=vNjFPA8-IupvXGi_TAQ7za9lsIvNAS7pQBIYY0Uo5iU,1739
+dbt_airflow/exceptions.py,sha256=pNop-NVTQFByNiw_lxRuJHySVsqC9lF_1_0-sk6tIM4,846
+dbt_airflow/operators/base.py,sha256=ASbMxu2oH5wVuJ67BJWEmDwsCMJaFMdWPVCfEOCQysI,4145
+dbt_airflow/operators/bash.py,sha256=sy1eqQAKtQv0uOWy6dug3P4QicdxQc8ZqEFLl8wQ5Qo,1677
+dbt_airflow/operators/execution.py,sha256=QaU6jqaSUetSZB50sflqa3qO6rR60edjXSq_wEjH59w,253
+dbt_airflow/operators/kubernetes.py,sha256=xvfUiJLI4nZDjabmxjgadWwG6yreoWpccqlYqRB07lw,1612
+dbt_airflow/parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_airflow/parser/dbt.py,sha256=hxOLmw_RWAgWfO6y9Fqo7fR8goAlVxRJy7rUCnlvz2I,5714
+dbt_airflow-2.10.0.dist-info/METADATA,sha256=cMljgn2JQvC28lNrtz7lz2wgE-Rx3A23J1wVHxcpEuw,8379
+dbt_airflow-2.10.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dbt_airflow-2.10.0.dist-info/RECORD,,
