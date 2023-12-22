@@ -1,0 +1,8 @@
+README.md
+setup.py
+typewith_sdk/__init__.py
+typewith_sdk/authenticate.py
+typewith_sdk.egg-info/PKG-INFO
+typewith_sdk.egg-info/SOURCES.txt
+typewith_sdk.egg-info/dependency_links.txt
+typewith_sdk.egg-info/top_level.txt
