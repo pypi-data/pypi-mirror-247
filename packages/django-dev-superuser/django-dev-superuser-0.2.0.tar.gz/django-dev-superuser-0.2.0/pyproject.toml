@@ -1,0 +1,60 @@
+[tool.black]
+line_length = 88
+force_exclude = """
+        (migrations|.github/*)
+    """
+
+[tool.isort]
+profile = "black"
+quiet = "True"
+skip_glob = "*migrations*,.github/*"
+skip_gitignore = "True"
+combine_as_imports = "True"
+line_length = 88
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-dev-superuser"
+version = "0.2.0"
+authors = [
+  { name="Jerin Peter George", email="jerinpetergeorge@gmail.com" },
+]
+description = "Management commands to creating super user with ease."
+readme = "README.md"
+classifiers = [
+        "Environment :: Web Environment",
+        "Environment :: Console",
+        "Framework :: Django :: 2.2",
+        "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.0",
+        "Intended Audience :: Developers",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Topic :: Utilities",
+]
+dependencies = [
+        "Django>=2.2",
+        "django-extensions",
+]
+
+[project.optional-dependencies]
+
+dev = ["bump2version~=1.0.1"]
+
+[project.urls]
+"Homepage" = "https://github.com/jerinpetergeorge/django-dev-superuser"
+
+[tool.pytest.ini_options]
+addopts = """\
+    --strict-config
+    --strict-markers
+    --ds=tests.settings
+    """
+django_find_project = false

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/django_dev_superuser.egg-info/PKG-INFO
+src/django_dev_superuser.egg-info/SOURCES.txt
+src/django_dev_superuser.egg-info/dependency_links.txt
+src/django_dev_superuser.egg-info/requires.txt
+src/django_dev_superuser.egg-info/top_level.txt
+src/django_su/__init__.py
+src/django_su/apps.py
+src/django_su/conf.py
+src/django_su/management/__init__.py
+src/django_su/management/commands/__init__.py
+src/django_su/management/commands/create_dev_su.py
+src/django_su/management/commands/util_restore.py
+src/django_su/migrations/__init__.py

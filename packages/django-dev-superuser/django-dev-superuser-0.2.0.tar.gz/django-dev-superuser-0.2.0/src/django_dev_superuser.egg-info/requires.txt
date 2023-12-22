@@ -1,0 +1,5 @@
+Django>=2.2
+django-extensions
+
+[dev]
+bump2version~=1.0.1
