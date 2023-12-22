@@ -1,0 +1,11 @@
+datasets_private/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasets_private/dataset_private.py,sha256=6A-hN92Sk5xjaLRogY-WNQxWryo1q3vjJO2_oofR3wA,530
+datasets_private/datasets/BostonHousing.csv,sha256=qxa6OPu7vMaf6TCqsSkxBPFELIJ5wTDZ66A92GS-9nU,35735
+datasets_private/datasets/heartdisease.csv,sha256=4x5S617okMGhGjuu89-V6BdHGNW5SwqLd2Zew8BzKP8,11024
+datasets_private/datasets/iris_sns.csv,sha256=nMHDRccbzJtIa3TL9gY_pm9LteD2A6Szw0cewuXo41U,3858
+datasets_private/datasets/penguins_sns.csv,sha256=4HY2vYr3QmAJnqL4Z44uq7813vV5lAzHb2cGHuFsBsE,13478
+datasets_private/datasets/titanic_sns.csv,sha256=gXh9Mg1_ewPfk16R3ovRnhHUXFu8q4bvTUp23JG31PI,57018
+dataset_private-1.0.1.dist-info/METADATA,sha256=9UUgZl35lvmPOdAL5fDAtDd2-VnideCUpzHP9sQbkaw,160
+dataset_private-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dataset_private-1.0.1.dist-info/top_level.txt,sha256=h8AYXl_R9UlC1n2-KOVTHET4Df515BAlo6ToBhsws2s,17
+dataset_private-1.0.1.dist-info/RECORD,,
