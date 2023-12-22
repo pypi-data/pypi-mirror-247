@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/gpuheater/__init__.py
+src/gpuheater/core.py
+src/gpuheater.egg-info/PKG-INFO
+src/gpuheater.egg-info/SOURCES.txt
+src/gpuheater.egg-info/dependency_links.txt
+src/gpuheater.egg-info/entry_points.txt
+src/gpuheater.egg-info/requires.txt
+src/gpuheater.egg-info/top_level.txt
