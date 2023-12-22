@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tailng
+Version: 2023.12.0
+Summary: Like tail -F, but it always follow the newest file
+Project-URL: Homepage, https://github.com/thordreier/tailng
+Project-URL: Issues, https://github.com/thordreier/tailng/issues
+Author-email: Thor Dreier-Hansen <43479811+thordreier@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# tailng
+Like "tail -F", but it always follow the newest file
