@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+dataset_private.egg-info/PKG-INFO
+dataset_private.egg-info/SOURCES.txt
+dataset_private.egg-info/dependency_links.txt
+dataset_private.egg-info/top_level.txt
+datasets_private/__init__.py
+datasets_private/dataset_private.py
+datasets_private/datasets/BostonHousing.csv
+datasets_private/datasets/heartdisease.csv
+datasets_private/datasets/iris_sns.csv
+datasets_private/datasets/penguins_sns.csv
+datasets_private/datasets/titanic_sns.csv

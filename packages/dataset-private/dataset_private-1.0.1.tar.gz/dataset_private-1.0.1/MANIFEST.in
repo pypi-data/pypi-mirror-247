@@ -1,0 +1,5 @@
+include datasets_private/datasets/iris_sns.csv
+include datasets_private/datasets/titanic_sns.csv
+include datasets_private/datasets/penguins_sns.csv
+include datasets_private/datasets/heartdisease.csv
+include datasets_private/datasets/BostonHousing.csv
