@@ -1,0 +1,5 @@
+setup.py
+dbrickni.egg-info/PKG-INFO
+dbrickni.egg-info/SOURCES.txt
+dbrickni.egg-info/dependency_links.txt
+dbrickni.egg-info/top_level.txt
