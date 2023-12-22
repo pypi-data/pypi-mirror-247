@@ -1,0 +1,6 @@
+uuid
+requests
+rsa
+lzstring
+Retry
+HTTPAdapter
