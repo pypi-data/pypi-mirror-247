@@ -1,0 +1,13 @@
+crispy/__init__.py,sha256=akEKydq6dCIei8JLKGCKl5Jd4ZR29FGKprprT35LfHo,1363
+crispy/crispy.py,sha256=xgo3qLUd0dYE9jhkqIqaVBWsAVQlH03rSfAOMtUJgtc,9608
+crispy/duplicate_name_exception.py,sha256=n5k4H1JtLtmYOTzvibZNpfyCs62HJlbCCbkDQZgoPcg,968
+crispy/missing_value_exception.py,sha256=Z3qlDiXfoqErYiODG6GsunI1_EaUDfXQpXMryH3pyQg,967
+crispy/no_arguments_exception.py,sha256=gQdqOWBSuSkYaJmB0Ahb4plT2J5VykjXwNphRyjVsKk,966
+crispy/parsing_exception.py,sha256=o1MzC9yALN2jjHZizdD4hwolwjDEf_oKMmqXij9f8XY,1140
+crispy/too_many_subcommands_exception.py,sha256=5gtgxorsy3_wrcGEQKyNXRDCUo_N1yGmRYzvpkT5lLY,973
+crispy/unexpected_argument_exception.py,sha256=iB_cJiYpIg3phDpHjTEAJ0W029zHlFoziGikuTmTztQ,973
+crispy_parser-2.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+crispy_parser-2.1.0.dist-info/METADATA,sha256=t4_nfBCep-yfAoSym1Qz3Xix950o5tpOiG-2gsAAYRc,3533
+crispy_parser-2.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+crispy_parser-2.1.0.dist-info/top_level.txt,sha256=b7630xjS5zWTpdKLgP5vyhFNfToNx4tRfHzqk59U998,7
+crispy_parser-2.1.0.dist-info/RECORD,,
