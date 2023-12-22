@@ -1,0 +1,8 @@
+colorama>=0.4
+click>=8.1.2
+prompt_toolkit>=3.0
+ptpython>=3.0
+textfsm>=1.1.2
+pdoc>=10.0.4
+pydantic>=2.4
+cryptography>=41.0.1

@@ -1,0 +1,21 @@
+[console_scripts]
+mtools = myrrh.tools.mtools:__main__
+myrrhc = myrrh.tools.myrrhc:__main__
+
+[myrrh.framework.mlib]
+myrrh.framework.mfs-fs = register_package
+myrrh.framework.mpython-py = register_package
+myrrh.framework.msh-sh = register_package
+
+[myrrh.provider.registry]
+mplugins.provider.local-provider = register_provider
+
+[myrrh.tools.myrrhc_ext]
+mplugins.myrrhc.alias_ext = load_commands
+mplugins.myrrhc.bmy_ext = load_commands
+mplugins.myrrhc.man_ext = load_commands
+mplugins.myrrhc.provider_ext = load_commands
+mplugins.provider.local.local_provider_ext = load_commands
+
+[myrrh.warehouse.registry]
+mplugins.provider.local-provider_settings = register_provider_model
