@@ -1,0 +1,6 @@
+/files
+/*.log
+/*.debhelper
+/*.substvars
+/python3-async_amqp
+/debhelper-build-stamp
