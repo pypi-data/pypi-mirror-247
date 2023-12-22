@@ -1,0 +1,175 @@
+- model:  基础功能
+  handler: "ImageCode"
+  apis: "/imagecode"
+  method:
+    get:
+      summary: 获取验证码
+      description:
+      parameters:
+        - name: uuid
+          description: 随机串
+          required: true
+          type: str
+      responses:
+        {
+          code_data: "验证码数据Base64",
+          uuid: "FDtjzv"
+        }
+
+    post:
+      summary: 图形验证码
+      description:
+      parameters:
+        - name: stype
+          description: 类型
+          required: false
+          type: int
+          default: 1
+        - name: uuid
+          description: 随机串
+          required: true
+          type: str
+        - name: code
+          description: 图形验证码
+          required: true
+          type: str
+      responses:
+        {
+
+        }
+
+
+- handler: "SMSCode"
+  apis: "/smscode"
+  method:
+    get:
+      summary: 获取短信验证码
+      description:
+      parameters:
+        - name: stype
+          description: 类型，预留
+          required: false
+          type: int
+          default: 1
+        - name: uuid
+          description: 随机串，预留
+          required: true
+          type: str
+        - name: mobile
+          description: 手机号
+          required: true
+          type: str
+          regex: ^(0|86|17951)?(13[0-9]|14[57]|15[012356789]|17[0-8]|18[0-9])[0-9]{8}$
+          message: 手机格式不正确
+      responses:
+        {
+#          code: "8805",
+          uuid: "FDtjzv"
+        }
+
+    post:
+      summary: 短信验证码
+      description:
+      parameters:
+        - name: stype
+          description: 类型，预留
+          required: false
+          type: int
+          default: 1
+        - name: uuid
+          description: 随机串，预留
+          required: true
+          type: str
+        - name: mobile
+          description: 随机串
+          required: true
+          type: str
+        - name: code
+          description: 验证码
+          required: true
+          type: str
+      responses:
+        {
+
+        }
+
+
+
+- handler: "download"
+  apis: "/download"
+  method:
+    get:
+      summary: 下载
+      description: 下载资源,返回文件是binary数据
+      parameters:
+        - name: stype
+          description: 类型，1下载授权文件
+          required: true
+          type: int
+          allow: [1, 2, 3]
+          message: 类型错误
+        - name: name
+          description: 文件名
+          required: true
+          type: str
+
+      responses:
+        {
+          data: "文件二进制数据"
+        }
+
+
+- handler: "UpdateStatus"
+  apis: "/update_status"
+  method:
+    get:
+        summary: 当前升级状态
+        description: engine_status值，1正常；2准备；3就绪；4升级中
+        parameters:
+        responses:
+          {
+            engine_status: 1
+          }
+
+    post:
+      summary: 确认升级
+      description:
+      parameters:
+      responses:
+
+- handler: "UpdateStatusList"
+  apis: "/update_status/list"
+  method:
+    get:
+        summary: 升级记录
+        description:
+        parameters:
+          - name: page
+            in: query
+            description: 翻页码
+            required: false
+            type: int
+          - name: count
+            in: query
+            description: 每页显示条数
+            required: false
+            type: int
+
+        responses:
+            {
+              'datas':
+                [
+                  {
+                    id: 1,
+                    create_time: "2022-12-14 16:40:08",
+                    done_time: "",
+                    engine_status: 2
+                  }
+                ],
+              pagination: {
+                pages: 10,        # 总页数
+                page: 1,        # 当前页
+                count: 10,        # 每页10条
+                counts: 10        # 总条数
+              }
+            }
