@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: aquaref-log
+Version: 0.0.1a1
+Summary: WinForms UI Pack
+Author: XiangQinxi
+Author-email: XiangQinxi@outlook.com
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Aquaref-Log
+
+> 原主项目名`Flater`
+
+---
+
+## 简介
+
+为主模块`Aquaref`及其它扩展模块提供日志输出的功能
+
+## 使用
+
+### 导入
+```Python
+from aquareflog import ...
+```
+
+### 输出记录
+```Python
+from aquareflog import Debug, Error, Info, Success  # 颜色不同，其它效果一样
+
+Debug("Debug")
+Error("Error")
+Info("Info")
+Success("Success")
+```
+
+### 获取记录
+```Python
+from aquareflog import GetLog, Debug
+
+for index in range(5):
+    Debug(f"Debug{index}")
+
+print(GetLog())
+```
+
+### 禁用输出
+```Python
+from os import environ
+environ["FLATER.LOG.ENABLE"] = "false"
+```
+
+### 启用输出
+```Python
+from os import environ
+environ["FLATER.LOG.ENABLE"] = "true"
+```
