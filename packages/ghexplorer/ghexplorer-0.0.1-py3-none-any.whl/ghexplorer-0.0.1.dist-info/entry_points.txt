@@ -1,0 +1,3 @@
+[console_scripts]
+ghexplorer=ghexplorer.cli:cli
+
