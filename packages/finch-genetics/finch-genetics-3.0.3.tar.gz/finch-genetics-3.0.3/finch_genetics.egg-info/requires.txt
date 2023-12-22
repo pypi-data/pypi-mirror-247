@@ -1,0 +1,6 @@
+torch
+transformers
+diffusers
+numpy
+matplotlib
+typing_extensions
