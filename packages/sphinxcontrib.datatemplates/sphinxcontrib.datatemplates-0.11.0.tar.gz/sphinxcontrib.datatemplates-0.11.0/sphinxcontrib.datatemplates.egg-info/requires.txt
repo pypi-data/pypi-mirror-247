@@ -1,0 +1,15 @@
+Sphinx
+PyYAML
+defusedxml
+sphinxcontrib-runcmd
+
+[build]
+build
+twine
+
+[linter]
+flake8
+
+[test]
+pytest
+beautifulsoup4
