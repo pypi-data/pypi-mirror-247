@@ -1,0 +1,7 @@
+setup.py
+Kanitham.egg-info/PKG-INFO
+Kanitham.egg-info/SOURCES.txt
+Kanitham.egg-info/dependency_links.txt
+Kanitham.egg-info/top_level.txt
+Operations/Operations.py
+Operations/__init__.py
