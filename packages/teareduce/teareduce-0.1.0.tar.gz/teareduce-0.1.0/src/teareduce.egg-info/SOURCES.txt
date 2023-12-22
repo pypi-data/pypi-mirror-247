@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/teareduce/__init__.py
+src/teareduce/version.py
+src/teareduce.egg-info/PKG-INFO
+src/teareduce.egg-info/SOURCES.txt
+src/teareduce.egg-info/dependency_links.txt
+src/teareduce.egg-info/requires.txt
+src/teareduce.egg-info/top_level.txt
