@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pwnshop
+Version: 2.0
+Summary: A framework for generating CTF challenges for learning
+Home-page: https://github.com/pwncollege/pwnshop
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

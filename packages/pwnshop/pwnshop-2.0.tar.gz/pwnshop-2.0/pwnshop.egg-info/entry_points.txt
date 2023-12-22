@@ -1,0 +1,3 @@
+[console_scripts]
+pwnshop = pwnshop.__main__:main
+
