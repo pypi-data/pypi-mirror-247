@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/jtrends.py
+src/jtrends.egg-info/PKG-INFO
+src/jtrends.egg-info/SOURCES.txt
+src/jtrends.egg-info/dependency_links.txt
+src/jtrends.egg-info/entry_points.txt
+src/jtrends.egg-info/top_level.txt
