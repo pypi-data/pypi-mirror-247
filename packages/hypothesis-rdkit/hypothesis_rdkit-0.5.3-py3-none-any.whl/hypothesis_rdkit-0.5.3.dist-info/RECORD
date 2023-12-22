@@ -1,0 +1,15 @@
+hypothesis_rdkit/__init__.py,sha256=zQSmHhHNnMTZ3J4PxoqGdAOQA9O32vUHgDw-9WIwEuc,24
+hypothesis_rdkit/fragment.py,sha256=BTDxdGkqShWrRiwDT_JS-Eav6NnglKV7Hpzy2mCFzuI,9547
+hypothesis_rdkit/fragments_100000.pkl,sha256=5U6itFER00F-ZAn0J56eggYGpblqxVzTfLcfvxIfzwk,25436800
+hypothesis_rdkit/fragments_100000.smi,sha256=UTd8qNAvxJZ49J88cCzMJUJSfMUhxhJs28JYCoPfg_k,2730143
+hypothesis_rdkit/fragments_30000.pkl,sha256=5aqj9-nzIatEHgxI3svC24xR6VPVk0BtQ45XyKKcTps,6880339
+hypothesis_rdkit/fragments_30000.smi,sha256=Bp0XCqM56ce0v17KB0Z1y4PoJ04HRNUcyKtuU4UUB-o,725332
+hypothesis_rdkit/hook.py,sha256=GlQfJ-aLHD0-OVtIJZpTf2isTFqCnTGF7XeZhPoxzns,199
+hypothesis_rdkit/strategy.py,sha256=29Fva47DdIxDp8wMCZuxP15Sh3vHyRvZAMU8_QqAYBc,8418
+hypothesis_rdkit/util.py,sha256=KKiyxE6s0iC2zGCRYkG8j2lVRW-1JzP3fDs_B1I8kfE,3685
+hypothesis_rdkit-0.5.3.dist-info/LICENSE,sha256=KN8l-8KXqkJNANHkOx-GyMolgtDbgbj7-uDByeJUOho,1081
+hypothesis_rdkit-0.5.3.dist-info/METADATA,sha256=4H7FgFEELM1MUFeZlvfb7dXzAR-qZlrKk3F1IgVbSQM,2172
+hypothesis_rdkit-0.5.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hypothesis_rdkit-0.5.3.dist-info/entry_points.txt,sha256=bQFOoxzM2DaYdK_RAvnC04905QDZNqCy4MkR8oQI0G0,62
+hypothesis_rdkit-0.5.3.dist-info/top_level.txt,sha256=XGatx1Wbx1sQpXq-hh2RgJrLwIIguxhS2ZAYt8ozH5Y,17
+hypothesis_rdkit-0.5.3.dist-info/RECORD,,
