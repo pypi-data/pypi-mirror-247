@@ -1,0 +1,70 @@
+#!/bin/sh
+#
+# Copy configuration files that integrate WeeWX into a Linux system that uses
+# sysV init.  These udev rules for known devices, and the init script to
+# facilitate starting/stopping WeeWX.
+#
+# This script must be run using sudo, or as root.
+#
+set -e
+
+UTIL_ROOT=$HOME/weewx-data/util
+
+if [ "$(id -u)" != "0" ]; then
+  echo "This script requires admin privileges.  Use 'sudo' or run as root."
+  exit 1
+fi
+
+do_install() {
+    echo "This script sets up the files necessary to run WeeWX at system startup."
+    echo "On some systems, it can be slow to run. Please be patient."
+
+    if [ ! -d $UTIL_ROOT ]; then
+        echo "Cannot find utility files at location '$UTIL_ROOT'"
+        exit 1
+    fi
+
+    echo "Copying files from $UTIL_ROOT..."
+    if [ -d /etc/udev/rules.d ]; then
+        echo "  udev rules"
+        cp $UTIL_ROOT/udev/rules.d/weewx.rules /etc/udev/rules.d/60-weewx.rules
+    fi
+    if [ -d /etc/init.d ]; then
+        echo "  init script"
+        cp $UTIL_ROOT/init.d/weewx-multi /etc/init.d/weewx
+        chmod 755 /etc/init.d/weewx
+    fi
+
+    echo "Enabling weewx..."
+    update-rc.d weewx defaults
+
+    echo "If you are using a device that is connected to the computer by USB or"
+    echo "serial port, unplug the device then plug it back in again to ensure that"
+    echo "permissions are applied correctly."
+    echo ""
+    echo "You can start weewx with the following command:"
+    echo "  '\033[1msudo /etc/init.d/weewx start\033[0m'"
+}
+
+do_uninstall() {
+    echo "Stopping weewx..."
+    /etc/init.d/weewx stop
+    echo "Disabling weewx..."
+    update-rc.d weewx remove
+    echo "Removing files..."
+    if [ -f /etc/init.d/weewx ]; then
+        echo "  init script"
+        rm /etc/init.d/weewx
+    fi
+    if [ -f /etc/udev/rules.d/60-weewx.rules ]; then
+        echo "  udev rules"
+        rm /etc/udev/rules.d/60-weewx.rules
+    fi
+}
+
+ACTION=$1
+if [ "$ACTION" = "" -o "$ACTION" = "install" ]; then
+    do_install
+elif [ "$ACTION" = "uninstall" ]; then
+    do_uninstall
+fi
