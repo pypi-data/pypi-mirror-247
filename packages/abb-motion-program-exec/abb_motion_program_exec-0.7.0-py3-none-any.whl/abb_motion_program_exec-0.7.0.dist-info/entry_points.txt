@@ -1,0 +1,2 @@
+[console_scripts]
+abb-motion-program-exec-robotraconteur = abb_motion_program_exec.robotraconteur.abb_motion_program_exec_robotraconteur:main
