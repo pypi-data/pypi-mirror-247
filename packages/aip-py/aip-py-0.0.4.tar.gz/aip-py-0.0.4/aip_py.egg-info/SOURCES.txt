@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+aip_py.egg-info/PKG-INFO
+aip_py.egg-info/SOURCES.txt
+aip_py.egg-info/dependency_links.txt
+aip_py.egg-info/requires.txt
+aip_py.egg-info/top_level.txt
+aippy/Parameters.py
+aippy/__init__.py
+aippy/flask_basicauth_ex.py
+aippy/homeTools.py
