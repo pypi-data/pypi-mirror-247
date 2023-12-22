@@ -1,0 +1,137 @@
+#!/usr/bin/env python3
+import argparse
+import importlib
+from pathlib import Path
+from typing import Callable, Tuple, Union
+
+import torch
+from torch import nn
+from torch.nn import functional as F
+from torch.optim import SGD, Optimizer, lr_scheduler
+from torch.utils.data import DataLoader
+
+import lbd
+
+
+def init_option() -> argparse.Namespace:
+    _ = argparse.ArgumentParser()
+    _.add_argument("--po", type=str, default="_base_")
+    # model
+    _.add_argument("--arch", type=str)
+    _.add_argument("--num-classes", type=int)
+    # train
+    _.add_argument("--num-epoch", type=int)
+    _.add_argument("--lr", type=float)
+    _.add_argument("--momentum", type=float)
+    _.add_argument("--weight-decay", type=float)
+    _.add_argument("--steps", nargs="+", type=int)
+    _.add_argument("--gamma", type=float)
+    # ds
+    _.add_argument("--batch-size", type=int)
+    _.add_argument("--dataset", type=str)
+    _.add_argument("--po-ratio", type=float)
+    _.add_argument("--use-clean-ds", action="store_true")
+    # ds
+    _.add_argument("--po-target", type=int)
+    # misc
+    _.add_argument("--output", type=str)
+    _.add_argument("--seed", type=int)
+    _.add_argument("--data-dir", type=str)
+    _.add_argument("--log-name", type=str)
+    _.add_argument("--log-level", type=str)
+    opt = _.parse_args()
+    opt.cfg = lbd.configdir / f"poison/{opt.po}.yaml"
+    opt = lbd.util.merge_cfg(opt, opt.cfg)
+    opt.workdir = Path(opt.output)
+    lbd.util.check_dir(opt.workdir)
+    opt.logdir = opt.workdir / "log"
+    lbd.util.check_dir(opt.logdir)
+    opt.ckptdir = opt.workdir / "ckpt"
+    lbd.util.check_dir(opt.ckptdir)
+    opt.logger = lbd.util.set_logger(opt.logdir, opt.log_name, opt.log_level)
+    opt.device = torch.device("cuda")
+    lbd.util.fix_random(opt.seed)
+    opt.logger.info(str(opt))
+    return opt
+
+
+def init_data(opt: argparse.Namespace) -> Tuple[DataLoader, DataLoader, DataLoader]:
+    ds = lbd.data.get_datasets(
+        opt.dataset,
+        opt.data_dir,
+        opt.trigger_type,
+        opt.target_type,
+        cl_train=True if opt.use_clean_ds else False,
+        cl_ratio=1.0,
+        cl_test=True,
+        po_train=False if opt.use_clean_ds else True,
+        po_train_tar=opt.po_target,
+        po_ratio=opt.po_ratio,
+        po_test=True,
+        po_test_tar=opt.po_target,
+    )
+    po_train = DataLoader(
+        ds["cl_train" if opt.use_clean_ds else "po_train"],
+        batch_size=opt.batch_size,
+        shuffle=True,
+    )
+    cl_test = DataLoader(ds["cl_test"], batch_size=opt.batch_size, shuffle=False)
+    po_test = DataLoader(ds["po_test"], batch_size=opt.batch_size, shuffle=False)
+    return (po_train, cl_test, po_test)
+
+
+def init_model(
+    opt: argparse.Namespace,
+) -> Tuple[nn.Module, Callable, Optimizer, lr_scheduler._LRScheduler]:
+    criterion = F.cross_entropy
+    net = getattr(importlib.import_module("lbd.model.base.cifar.resnet"), opt.arch)(
+        num_classes=opt.num_classes
+    ).to(opt.device)
+    optim_ = SGD(
+        net.parameters(),
+        lr=opt.lr,
+        momentum=opt.momentum,
+        weight_decay=opt.weight_decay,
+    )
+    sched = lr_scheduler.MultiStepLR(optim_, opt.steps, gamma=opt.gamma)
+    return (net, criterion, optim_, sched)
+
+
+def epoch_based_train(
+    opt: argparse.Namespace,
+    net: nn.Module,
+    criterion: Union[Callable, nn.Module],
+    optim_: Optimizer,
+    sched: lr_scheduler._LRScheduler,
+    po_train: DataLoader,
+) -> None:
+    net.train()
+    for _, (x, y) in enumerate(po_train):
+        x, y = x.to(opt.device), y.to(opt.device)
+        optim_.zero_grad()
+        loss = criterion(net(x), y)
+        nn.utils.clip_grad_norm_(  # type: ignore
+            net.parameters(), max_norm=20, norm_type=2
+        )
+        loss.backward()
+        optim_.step()
+    sched.step()
+
+
+def main():
+    opt = init_option()
+    (po_train, cl_test, po_test) = init_data(opt)
+    (net, criterion, optim_, sched) = init_model(opt)
+    collecter = []
+    for epoch in range(1, opt.num_epoch + 1):
+        epoch_based_train(opt, net, criterion, optim_, sched, po_train)
+        if epoch % 10 == 0:
+            lbd.util.save_ckpt(net, opt.ckptdir / f"ckpt_{epoch:02}.pth")
+        cl_acc, po_acc = lbd.data.accasrtest(net, cl_test, po_test, opt.device)
+        collecter.append((cl_acc, po_acc))
+        opt.logger.info(f"Epoch: {epoch:02} -- CL: {cl_acc:.3f} -- PO: {po_acc:.3f}")
+        lbd.util.dump_obj(collecter, opt.ckptdir / "collecter.pkl")
+
+
+if __name__ == "__main__":
+    main()
