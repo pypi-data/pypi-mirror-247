@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "slimebones-autofiles"
+version = "0.1.1"
+description = ""
+authors = ["ryzhovalex <thed4rkof@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "autofiles"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+slimebones-pykit = "^0.4.14"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.8"
+coverage = "^7.3.3"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.23.2"
+
+[tool.poetry.scripts]
+autofiles = "autofiles.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
