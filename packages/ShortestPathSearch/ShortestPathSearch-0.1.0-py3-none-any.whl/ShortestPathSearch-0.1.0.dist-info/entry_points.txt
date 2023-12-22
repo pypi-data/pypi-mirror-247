@@ -1,0 +1,2 @@
+[console_scripts]
+shortestpathsearch = shortestpathsearch.main:main
