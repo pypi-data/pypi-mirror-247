@@ -1,0 +1,13 @@
+sesparser/__init__.py,sha256=qL1cQH1sqpRDA81Ek-DosDPT8CJmHbADD7RTdBFXVwU,1186
+sesparser/__version__.py,sha256=Fn1w78VzaFBbb3OFRTThGM5IsbrpqZop8dZI4PMCvrI,395
+sesparser/attachments.py,sha256=K4iY5xYMjm6jx6sDwVCvoEH-wq4kgOiICvk4reSWDb0,4085
+sesparser/body.py,sha256=kp9w7DqIUiRG3cIUCgrOuSCo_VsfkGloHivXYeyvKK8,2287
+sesparser/headers.py,sha256=r0QgwOsdZNdPDqdhpgfVUHiJarEpgip1ppmb8h9r3z0,5535
+sesparser/main.py,sha256=bAlSg4PDhv3O9FOJ81vtxpPEBdxIHcrcXlEi9ZUlk5o,2829
+sesparser/parse_it.py,sha256=ETsmOPxPgUMh8tGVUpUprupchNmD8I2mZOcHLIP3Y74,1068
+sesparser/store_aws.py,sha256=25WK0F9ciouL8MSSY_5jfbZ1dIRxWfLpxiYF_Xpr4Ow,3108
+sesparser-1.9.4.5.dist-info/METADATA,sha256=TkejzmlX0Sg2dx6azKoI__cPwdIU7o-1vDPzqRGvCEg,3966
+sesparser-1.9.4.5.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+sesparser-1.9.4.5.dist-info/licenses/LICENSE,sha256=JRR3LlR18ghhYXT4G2cWgXmnxRvcuVcKlqncWWK4MRY,10347
+sesparser-1.9.4.5.dist-info/licenses/NOTICE,sha256=BfA0a96CPaWVa2VL0HS-CKJtNQL_K1f2Bf9fg7JC6qM,572
+sesparser-1.9.4.5.dist-info/RECORD,,
