@@ -1,0 +1,16 @@
+connpy/__init__.py,sha256=L_RsXaIn-fbRov29A3Ob_CHUDoLBPAwy-rgO3g9vo1I,10756
+connpy/__main__.py,sha256=B-icvqMBj2h7wrbN4Mfp7WrSiyNXX7pj1jNoq2kqpng,181
+connpy/_version.py,sha256=Oy06_XhMgzSxZR9vIgqO4P9q-RmYJsS0gisrfH5WihM,23
+connpy/ai.py,sha256=N2Ev8z-lqcyvD54wgmBN2pUC0y33a0Kt6mx5QVlMrZc,24698
+connpy/api.py,sha256=YC-51dM1kHrzcjaiHB4jwcgrQGoD7BT8C8ihgNOv1xk,5102
+connpy/completion.py,sha256=I5mqBsZIiFXn_9UNIyHfEI28BT6VuunDJ5sUmwi8AfE,7896
+connpy/configfile.py,sha256=t9qBqrZnGhRRiayaHo-vLzJmHA6y15PckUzg6njAnpo,16082
+connpy/connapp.py,sha256=G9rrSvPyaBOiG2hNS_-KjWaKURAdPTQxLxQJTIELF5w,74171
+connpy/core.py,sha256=peVJ-7PrI65Cc0UYWrDQOxSLjqvaY6BH-7xXMt1F9uA,32826
+connpy/plugins.py,sha256=-LB2bHukPbO_Lx313JcTDITPXhWdvclTIFJ2GIB7W1I,5897
+connpy-3.8.0.dist-info/LICENSE,sha256=cfe7rH7r8yKNmQoHOOQcLyL9kR6Hbl3aex3KFlqpBmc,1529
+connpy-3.8.0.dist-info/METADATA,sha256=7KQ4VsfQNRLGw8Ok7dRcF4rFTnEnUc-dEjNisP4KG0w,12020
+connpy-3.8.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+connpy-3.8.0.dist-info/entry_points.txt,sha256=7OB5ch4OfHQR_kLpIXOi11QsfA85Yp1kA3Iu83kam7s,126
+connpy-3.8.0.dist-info/top_level.txt,sha256=JdS2ceiwXdFVQv08sUBnND30GlcGCNxIu-oaM_marzo,7
+connpy-3.8.0.dist-info/RECORD,,
