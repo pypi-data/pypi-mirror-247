@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: booty-cli
+Version: 1.0.4.dev0
+Summary: 
+License: MIT
+Author: Anthony Naddeo
+Author-email: anthony.naddeo@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: lark (>=1.1.8,<2.0.0)
+Requires-Dist: networkx (>=3.2.1,<4.0.0)
+Requires-Dist: progress-table (>=0.1.27,<0.2.0)
+Requires-Dist: pytermgui (>=7.7.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+
