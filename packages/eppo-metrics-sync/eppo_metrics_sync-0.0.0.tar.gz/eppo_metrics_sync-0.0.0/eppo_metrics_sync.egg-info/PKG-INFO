@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: eppo-metrics-sync
+Version: 0.0.0
+License-File: LICENSE
+Requires-Dist: PyYAML
+Requires-Dist: jsonschema
+Requires-Dist: requests
