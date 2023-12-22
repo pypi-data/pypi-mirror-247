@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/covidbeta.py
+src/covidbeta.egg-info/PKG-INFO
+src/covidbeta.egg-info/SOURCES.txt
+src/covidbeta.egg-info/dependency_links.txt
+src/covidbeta.egg-info/entry_points.txt
+src/covidbeta.egg-info/top_level.txt
