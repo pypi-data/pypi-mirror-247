@@ -1,0 +1,6 @@
+[console_scripts]
+ngs-build=scripts.docker.main:build
+ngs-push=scripts.docker.main:push
+ngs-run=scripts.run.main:run
+ngs-test=scripts.tests.main:test
+
