@@ -1,0 +1,6 @@
+Pillow
+httpx
+nonebot2
+nonebot_plugin_session
+pathlib
+uuid
