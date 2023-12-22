@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: propshop
+Version: 0.1.2
+Summary: Your one-stop shop for material properties.
+Author-email: Blake Naccarato <blake.naccarato+propshop@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: dynaconf>=3.1.12
+Requires-Dist: pydantic>=2.5.2
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: openpyxl>=3.1.2
+Requires-Dist: pyarrow>=14.0.1
+Requires-Dist: scipy>=1.10.1
+Project-URL: Changes, https://blakeNaccarato.github.io/propshop/changelog.html
+Project-URL: Docs, https://blakeNaccarato.github.io/propshop
+Project-URL: Home, https://github.com/blakeNaccarato/propshop
+Project-URL: Tracker, https://github.com/blakeNaccarato/propshop/issues
+
+# propshop
+
+Your one-stop shop for material properties.
+
