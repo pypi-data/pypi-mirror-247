@@ -1,0 +1,7 @@
+README.md
+setup.py
+mitesh_palindrome_lib.egg-info/PKG-INFO
+mitesh_palindrome_lib.egg-info/SOURCES.txt
+mitesh_palindrome_lib.egg-info/dependency_links.txt
+mitesh_palindrome_lib.egg-info/entry_points.txt
+mitesh_palindrome_lib.egg-info/top_level.txt
