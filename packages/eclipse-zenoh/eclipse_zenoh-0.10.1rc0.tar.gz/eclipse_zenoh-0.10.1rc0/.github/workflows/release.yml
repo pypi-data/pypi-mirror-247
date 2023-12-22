@@ -1,0 +1,158 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: "0 1 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        run: |
+          rustup set profile minimal
+          rustup show
+
+      - name: Build wheels - x86_64
+        uses: messense/maturin-action@v1
+        with:
+          target: x86_64
+          args: --release --out dist --sdist # Note: this step builds also the sources distrib
+
+      - name: Build wheels - universal2
+        uses: messense/maturin-action@v1
+        with:
+          args: --release --universal2 --out dist
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  windows:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        target: [x64]
+        # target: [x64, x86]   NOTE: x86 deactivated because of strange error: failed to run custom build command for `pyo3-ffi v0.17.1`
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        run: |
+          rustup set profile minimal
+          rustup show
+
+      - name: Build wheels
+        uses: messense/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          args: --release --out dist
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target: [x86_64, i686, armv7]
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Build wheels
+        uses: messense/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          manylinux: auto
+          args: --release --out dist
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  linux-aarch64:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Build wheels
+        uses: messense/maturin-action@v1
+        with:
+          target: aarch64
+          # NOTE(fuzzypixelz): We manually specify a more recent manylinux platform tag for aarch64:
+          # - zenoh-link-quic indirectly depends on ring 0.17 through rustls-webpki.
+          # - ring 0.17 depends on a version of BoringSSL that requires GCC/Clang to provide __ARM_ARCH
+          # - When setting the manylinux tag to 'auto', messense/maturin-action@v1 uses manylinux2014 to compile for for aarch64
+          # - the GCC included in the manylinux2014 docker image doesn't provide __ARM_ARCH
+          # See: https://github.com/briansmith/ring/issues/1728
+          manylinux: manylinux_2_28
+          args: --release --out dist
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  linux-armv6:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        run: |
+          rustup set profile minimal
+          rustup target add arm-unknown-linux-gnueabihf
+
+      - name: install cross toolchain
+        run: |
+          brew tap messense/macos-cross-toolchains
+          brew install arm-unknown-linux-gnueabihf
+
+          export CC_arm_unknown_linux_gnueabihf=arm-unknown-linux-gnueabihf-gcc
+          export CXX_arm_unknown_linux_gnueabihf=arm-unknown-linux-gnueabihf-g++
+          export AR_arm_unknown_linux_gnueabihf=arm-unknown-linux-gnueabihf-ar
+          export CARGO_TARGET_ARM_UNKNOWN_LINUX_GNUEABIHF_LINKER=arm-unknown-linux-gnueabihf-gcc
+
+          pip3 install maturin
+          maturin build --release --target arm-unknown-linux-gnueabihf --out dist
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  deploy-wheels:
+    needs: [macos, windows, linux, linux-armv6]
+    name: deploy wheels to pypi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: wheels
+          path: dist
+      - name: Check dist
+        run: ls -al ./dist/*
+      - name: publish
+        if: github.event_name == 'release' && github.event.action == 'published'
+        uses: pypa/gh-action-pypi-publish@v1.6.4
+        with:
+          password: ${{ secrets.PYPI_ORG_TOKEN }}
