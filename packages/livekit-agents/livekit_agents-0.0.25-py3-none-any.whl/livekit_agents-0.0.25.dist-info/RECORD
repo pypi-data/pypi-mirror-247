@@ -1,0 +1,9 @@
+livekit/agents/__init__.py,sha256=lJIKkhL2h2ZFV3gZW1QbZZwgX7gzEWePl3D6-5THBE0,1050
+livekit/agents/job_context.py,sha256=P_Z5HYIIlOqzZM986IPg9BiQBEwo94PcuYeJRIn55KQ,3871
+livekit/agents/job_request.py,sha256=NfFWiijT5lI_6UY-O3HiE4K0gBjW1Ns9Bgq8wZolVcg,10596
+livekit/agents/version.py,sha256=E8XHJ3PVbACXmF2-zAf7eMlAlCvrF0y6wO_OrA4lVec,601
+livekit/agents/worker.py,sha256=iJN5zRgS9L_ZSXJoICgoatIQSk6m00lphRjvxUHBFlQ,14512
+livekit_agents-0.0.25.dist-info/METADATA,sha256=8fIpOu66ZBtrD-D-UZhB5cX3hr8kkImniY53uod_on0,1207
+livekit_agents-0.0.25.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+livekit_agents-0.0.25.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_agents-0.0.25.dist-info/RECORD,,
