@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyciphersuite/__init__.py
+pyciphersuite/api.py
+pyciphersuite.egg-info/PKG-INFO
+pyciphersuite.egg-info/SOURCES.txt
+pyciphersuite.egg-info/dependency_links.txt
+pyciphersuite.egg-info/requires.txt
+pyciphersuite.egg-info/top_level.txt
