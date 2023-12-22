@@ -1,0 +1,9 @@
+headless_kivy_pi/__init__.py,sha256=42c_5_RKu-oDtNPngHKiwe4C0kfICC3jagkS5zbTR1o,14158
+headless_kivy_pi/constants.py,sha256=9KSC5dPzgJewMr9IPy5WGNCOa76Rn3MoNkVNKue-80k,1284
+headless_kivy_pi/fake.py,sha256=HemerUuksVrF1CSTZsDfbSTeXIHxMf-tAo0T5apclZI,872
+headless_kivy_pi/logger.py,sha256=0bYNCWvdSF_mrRoPW8hNQ6IJJxHQ-sZJJojtlLAZtlw,917
+headless_kivy_pi/setup.py,sha256=Rz-c4C5ieMejT7R1ijW9Vy3kl82aMUVuMnEn6hoJ2oA,4257
+headless_kivy_pi-0.5.10a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+headless_kivy_pi-0.5.10a3.dist-info/METADATA,sha256=ZsMXk96-s-QMOCopvp2PHmnxa7Lb1YztwK8sPbf4yKs,5270
+headless_kivy_pi-0.5.10a3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+headless_kivy_pi-0.5.10a3.dist-info/RECORD,,
