@@ -1,0 +1,6 @@
+Pillow
+httpx
+nonebot-adapter-qq
+nonebot2
+pathlib
+uuid
