@@ -1,0 +1,6 @@
+numpy
+torch
+torchvision
+clip-openai
+visualpriors
+opencv-python
