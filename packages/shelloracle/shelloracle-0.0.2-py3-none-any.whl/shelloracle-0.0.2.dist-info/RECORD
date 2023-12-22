@@ -1,0 +1,13 @@
+shelloracle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shelloracle/__main__.py,sha256=k3EX0SlVU7CrScUk7RVptB_yBYRwKn3Zsaapf7WhAWw,76
+shelloracle/shelloracle.py,sha256=UycKyMog3Rqia9oTWqhp9-43OyyB9cbPeq2LoQCpogM,2139
+shelloracle/config/__init__.py,sha256=yDAd9FBMtsiiqqaMtdHBJ0UEF_5QhGN4idpI7c0xTsY,74
+shelloracle/config/config.py,sha256=6XdBiP-Mx7D94u6T3UD0roDvSQOxLBW4sOTwnDsjJhY,1889
+shelloracle/config/setting.py,sha256=iNSNr-x_x_a86iJluwVYDLlpvuv4gRSUOs7pS_qjbZQ,1010
+shelloracle/provider/__init__.py,sha256=aLYmM9oF6iDOqfP7cowqGybub3ZsL15Wdk6yh5-IjH4,1185
+shelloracle/provider/ollama.py,sha256=MwWU6GuFw44JWJRyBpZ5xq2iAoxJe1z1VXvgbKzmaYs,3554
+shelloracle-0.0.2.dist-info/METADATA,sha256=4biMvSajVtONT0-fIs4aMgk7CiZS2nr7yyunrdlLbkQ,1279
+shelloracle-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+shelloracle-0.0.2.dist-info/entry_points.txt,sha256=y26jJ2-uJDMawz1Rdd0GCjhMdpk3GLXm-rSkzp3XzL8,53
+shelloracle-0.0.2.dist-info/top_level.txt,sha256=dVvR1xD_V8VdwSbtp1waD7gpqeEWfLqbEdERJ_5xJYw,12
+shelloracle-0.0.2.dist-info/RECORD,,
