@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+agent_attention_pytorch/__init__.py
+agent_attention_pytorch/agent_attention_pytorch.py
+agent_attention_pytorch/agent_transformer.py
+agent_attention_pytorch.egg-info/PKG-INFO
+agent_attention_pytorch.egg-info/SOURCES.txt
+agent_attention_pytorch.egg-info/dependency_links.txt
+agent_attention_pytorch.egg-info/requires.txt
+agent_attention_pytorch.egg-info/top_level.txt
