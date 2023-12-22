@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: xyztilefile
+Version: 0.3.2
+Summary: manage files in xyz tile format
+Author: Akito Davis Kawamura
+License: MIT
+Keywords: xyztilefile xyz-tile xyztile
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+
+# xyztilefile
+
+### Samples
+#### Basic usage sample.
+```Python
+from xyztilefile import *
+xyz = calc_xyz_from_lonlat
+
+x, y, z = calc_xyz_from_lonlat(135.0,35.0,15)
+
+test_txt = XYZTileFile("./tile_sample/{z}/{x}/{y}.txt")
+txt = test_txt.get(*xyz(135.0,35.0,15))
+test_txt.set(x,y,z,txt+"\nNew line is added")
+test_txt.save(x,y,z)
+```
+
+#### Usage sample of XYZTileManager
+```Python
+from xyztilefile import *
+xyz = calc_xyz_from_lonlat
+
+test_json = XYZTileManager("https://raw.githubusercontent.com/aDAVISk/xyztilefile/dev/tile_sample/{z}/{x}/{y}.json", "./tile_sample2/{z}/{x}/{y}.json")
+data = test_json.get(*xyz(135.0,35.0,15))
+```
+XYZTileManager first check the locally saved cache which is the second argument. If such local file is missing, then XYZTileManager will try to retrieve data from the online source which is the first argument.
+
+
+
+please check './test/' for more sample codes
+
+### currently supported file formats
+- txt : encoding must be UTF-8 
+- json : encoding must be UTF-8
+- png : with skit-image (tested with `./test/test_png.py`)
+- npy : with numpy (tested with `./test/test_npy.py`)
+- pickle/pkl : only for local file with extra keyword setting at the initialization `XYZTileFile(basepath, allow_pickle=True)` (tested with `./test/test_pickle.py`)
+ 
+- (generic : this format is basic but your customization is needed.)
