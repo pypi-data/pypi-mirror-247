@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: pycord-ext-i18n
+Version: 1.0.4
+Summary: A regular localization Library for pycord.
+Home-page: https://github.com/Mantou-9487/pycord_ext_i18n
+Author: mantouisyummy
+Author-email: opcantel@gmail.com
+License: GNU
+Project-URL: Issue Tracker, https://github.com/Mantou-9487/pycord_ext_i18n/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pycord_ext_i18n
+
+### A regular localization Library for pycord.
+
+## Installation
+To install the pycord_ext_i18n, you can just run the following command:
+
+```bash
+# Windows
+pip install pycord_ext_i18n
+
+# Linux/MacOS
+
+python3 -m pip install pycord_ext_i18n
+```
+## Prepare
+First, You will need to a locale configuration file (*.json) to store your command parameter or string.
+A locale configuration file internal structure will be like it:
+
+```json
+
+{
+    "command.{command_name}.name": "help", #your command_name name.
+    "command.{command_name}.description": "help_description", #your command_name description.
+    "hello": "你好" #this is string.  
+}
+
+```
+
+And, save your locale configuration file to locale folder.
+The name is the country code you want! (like Zh-TW, en-US...)
+
+## Basic Usage 
+
+Usage: Get a text.
+
+```py
+
+from pycord_ext_i18n import I18n
+
+i18n = I18n()
+i18n.load('./locale')
+print(i18n.get_text("hello", "zh-TW", None)) #Print: 你好
+
+```
+
+Usage: Use localize_slash_commands to localize your slash command (Remember configuration file).
+
+```py
+from discord import ApplicationContext
+from discord.ext import commands
+
+from pycord_ext_i18n import I18n
+
+i18n = I18n()
+
+class ExampleCog(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @i18n.localize_slash_commands()
+    async def test(self, ctx: ApplicationContext):
+        await ctx.response.send_message(content=f"My command name is {ctx.command.name}!")
+
+def setup(bot):
+    bot.add_cog(ExampleCog(bot))
+```
