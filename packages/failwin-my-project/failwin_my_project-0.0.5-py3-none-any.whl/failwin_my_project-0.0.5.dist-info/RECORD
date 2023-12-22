@@ -1,0 +1,12 @@
+failwin_my_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+failwin_my_project/consts.py,sha256=lXUDi6fAB08zL2xigT5JR6aicekvU9IJE7GQzfJQl8w,17
+failwin_my_project/utils.py,sha256=6KkhUDDIInYj7mkV0aeWfeVvDbKoS85wXt0jZRn950Q,51
+failwin_my_project/my_package/__init__.py,sha256=eCiSYvRuzhYw_TXnNjvparx5IPfpSSGAH2gtk_MfOo4,105
+failwin_my_project/my_package/my_mod_1.py,sha256=HWtRsphGq99aHPmqj1tx_Y64HW1fuvTcYPfGZnN8En0,127
+failwin_my_project/my_package/my_mod_2.py,sha256=rMLBGcQLdGj9Rd7pFGfzTEpV61YNycNqHzgCPG-QRpc,55
+failwin_my_project/my_package/my_folder/__init__.py,sha256=3HAJYYlGxM_aMOGknHZNvP_L6yyaPrP1bzAtv3aaEoI,29
+failwin_my_project/my_package/my_folder/my_folder_mod_1.py,sha256=dC1NNwfQFFflmZWbskXBVMv-tDT1Y-ElDlWXujVET6w,69
+failwin_my_project-0.0.5.dist-info/METADATA,sha256=VvgBzc_sIUwIIAZD5vZ9jl-bqgyn6VpMBvhr760T1TE,1663
+failwin_my_project-0.0.5.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+failwin_my_project-0.0.5.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+failwin_my_project-0.0.5.dist-info/RECORD,,
