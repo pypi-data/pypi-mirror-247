@@ -1,0 +1,10 @@
+odoo/addons/cerrar_ventas_deposito_erroneas/Readme.md,sha256=JMM0bjSNOe_ccZyGcMcfx3URHu3w6ecTtcsz83Ebe3Y,416
+odoo/addons/cerrar_ventas_deposito_erroneas/__init__.py,sha256=Ax4qLxdb9ATk05MF7cSQ0BdpYCpGVYFy9n4U4zODf9o,46
+odoo/addons/cerrar_ventas_deposito_erroneas/__manifest__.py,sha256=cVSjnLv0t7rv7n_eakXNA0MNBO8sjg8EbjjpSFCQObM,1009
+odoo/addons/cerrar_ventas_deposito_erroneas/models/__init__.py,sha256=xRntvoF671Y4LlPHEZokVmL8emr1mq6resX09ebIhvA,64
+odoo/addons/cerrar_ventas_deposito_erroneas/models/ventas_deposito_erroneas.py,sha256=--ADU1DoOnMqZTuotcki_01u2FZIUkbSYacMPjqNdbQ,1610
+odoo/addons/cerrar_ventas_deposito_erroneas/views/ventas_dep_erroneas_boton_view.xml,sha256=9dK_58xqRnIJyHOUkOQ10FR3IcEJz0EZgRSLN2glt6Y,1115
+odoo13_addon_cerrar_ventas_deposito_erroneas-13.0.0.0.1.dist-info/METADATA,sha256=Bksre4xdT6pN9MVQjmAGGUWAjo4JQSwL-p0viAt3_7E,509
+odoo13_addon_cerrar_ventas_deposito_erroneas-13.0.0.0.1.dist-info/WHEEL,sha256=0WPb27lpWF0K4Majm_kVmkl1QxJZxoKxO5GGil8gPB4,81
+odoo13_addon_cerrar_ventas_deposito_erroneas-13.0.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo13_addon_cerrar_ventas_deposito_erroneas-13.0.0.0.1.dist-info/RECORD,,

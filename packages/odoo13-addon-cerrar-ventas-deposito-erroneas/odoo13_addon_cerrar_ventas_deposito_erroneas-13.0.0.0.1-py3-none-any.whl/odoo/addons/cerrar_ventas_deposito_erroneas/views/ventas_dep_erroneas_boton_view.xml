@@ -1,0 +1,27 @@
+<odoo>
+    <record id="venta_dep_erroneas_wizard_view_form" model="ir.ui.view">
+      <field name="name">venta.dep.erroneas.wizard.form</field>
+      <field name="model">venta.dep.erroneas.wizard.descontrol</field>
+      <field name="arch" type="xml">
+        <form string="Cerrar ventas a depósito erróneas">
+          <footer>
+            <button name="cerrar_ventas_dep_erroneas" string="Aceptar" type="object" class="btn-primary"/>
+          </footer>
+       </form>
+      </field>
+    </record>
+    <record id="action_venta_dep_erroneas_wizard" model="ir.actions.act_window">
+        <field name="name">Cerrar transferencias</field>
+        <field name="res_model">venta.dep.erroneas.wizard.descontrol</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="venta_dep_erroneas_wizard_view_form"/>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="main_menu_venta_dep_erroneas"
+        name="Corregir errores venta depóosito"
+        sequence="1"
+        action="action_venta_dep_erroneas_wizard"
+        groups="base.group_user"
+    />
+</odoo>
