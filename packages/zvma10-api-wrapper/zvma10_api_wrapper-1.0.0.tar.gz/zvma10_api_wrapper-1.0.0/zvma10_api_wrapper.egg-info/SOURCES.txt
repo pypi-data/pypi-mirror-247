@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+zvma10/__init__.py
+zvma10/test.py
+zvma10/version.py
+zvma10/zvma.py
+zvma10_api_wrapper.egg-info/PKG-INFO
+zvma10_api_wrapper.egg-info/SOURCES.txt
+zvma10_api_wrapper.egg-info/dependency_links.txt
+zvma10_api_wrapper.egg-info/requires.txt
+zvma10_api_wrapper.egg-info/top_level.txt
