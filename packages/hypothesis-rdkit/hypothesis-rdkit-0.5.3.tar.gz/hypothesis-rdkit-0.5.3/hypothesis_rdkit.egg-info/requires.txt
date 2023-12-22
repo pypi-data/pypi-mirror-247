@@ -1,0 +1,15 @@
+hypothesis
+tqdm
+rdkit>=2022.3.3
+
+[:python_version < "3.9"]
+importlib-resources>=5
+
+[dev]
+black
+isort
+
+[test]
+pytest
+pytest-cov
+pytest-watch
