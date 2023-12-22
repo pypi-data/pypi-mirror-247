@@ -1,0 +1,15 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/config.py,sha256=xRiTkp3pjp1-1EWb3dSrHkkAlRo_G48qXT84Lwyo2nc,127
+src/cranecloud/__init__.py,sha256=qAQNALESmrO_mCXS9lHyFFdq0Y9WfRQRjlIJ615lLzk,526
+src/cranecloud/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cranecloud/commands/apps.py,sha256=MuDQzjOBAru0Be05OyNW5AbIoKKbPm8F7mXuU36crUk,8339
+src/cranecloud/commands/clusters.py,sha256=s1qMKScVLJjuRU2Sigze_S4I6CWnaJE01JcZ3q9Dhms,1381
+src/cranecloud/commands/projects.py,sha256=N_lFDSGK8wzFp8qXI6HPk66sHZnbROUBXO-6V4zC5gM,4336
+src/cranecloud/commands/test_user_management.py,sha256=1lgZVSaWKnd9lZtNIObEcTmQr1F0Am_PxC4_5X_7TrE,1895
+src/cranecloud/commands/user_management.py,sha256=o3IdQTyQaVpFlBVj4jnwmdmB9ynOp8MKpR6wmfj2JOM,3836
+cranecloud-0.0.1.dist-info/LICENSE,sha256=ls1wa6a0bqWXQXg4N0HqFuY_xm6OTvLJrEYdpTUiicQ,1067
+cranecloud-0.0.1.dist-info/METADATA,sha256=7G7rTBORaRhCN9pkvN7F7IuellIw5wRJ6x85IkwVqVw,2843
+cranecloud-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cranecloud-0.0.1.dist-info/entry_points.txt,sha256=_J90ZxAkFAWR-cHj35Q-JLHAUvzxEY5tqmi874nEc7E,50
+cranecloud-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+cranecloud-0.0.1.dist-info/RECORD,,
