@@ -1,0 +1,17 @@
+name: EO-Floods
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pydantic
+  - jupyter
+  - pip:
+    - hydrafloods
+    - geemap
+    - pytest
+    - pydantic_settings
+    - mock
+
+
+
