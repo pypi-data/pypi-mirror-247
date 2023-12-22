@@ -1,0 +1,10 @@
+meshgpt_pytorch/__init__.py,sha256=lWBr6a8dsvZYUxTDxOjhEHeDij7mSEm4kN_2VBfk8sM,304
+meshgpt_pytorch/data.py,sha256=q8HE4a2xoyDqCrVqvxmrjVTtI2qOzwpr7L2b3cBAaPs,7122
+meshgpt_pytorch/meshgpt_pytorch.py,sha256=dfOxIIawyNOWjW7gTcOBCQqPkZ16XfNLOmUWNkrX-VA,49108
+meshgpt_pytorch/trainer.py,sha256=ut4bn1xO69HkhlLpi4ayAjbnLIEEiOqq5SqgLYTef2w,17479
+meshgpt_pytorch/version.py,sha256=KI-q2JbumUPGFDgvLnU6KQbbtcmaMXOw6PB3UKN--9U,23
+meshgpt_pytorch-0.4.21.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+meshgpt_pytorch-0.4.21.dist-info/METADATA,sha256=DsGxtXI8gArfkjXgx5XE-qwuPDOapaiLQXF6PnYqQ3M,1140
+meshgpt_pytorch-0.4.21.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+meshgpt_pytorch-0.4.21.dist-info/top_level.txt,sha256=GoLNXEbRBRuRDTQZMQFPmWLIMIhmaPkb7YT6S4ESDQs,16
+meshgpt_pytorch-0.4.21.dist-info/RECORD,,
