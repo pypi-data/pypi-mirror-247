@@ -1,0 +1,16 @@
+brainrender
+matplotlib
+numpy
+myterial
+rich
+
+[dev]
+pytest
+pytest-cov
+coverage
+tox
+black
+mypy
+pre-commit
+ruff
+setuptools_scm
