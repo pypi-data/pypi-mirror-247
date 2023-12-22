@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ml-liv
+Version: 0.0.1
+Author-email: Gabriel Cavalcante Peres <gabriel.peres@leega.com.br>
+Requires-Python: >=3.8
+Requires-Dist: kfp==1.8.9
+Requires-Dist: google-cloud
