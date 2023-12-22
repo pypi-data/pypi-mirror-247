@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zerorunner-consul
+Version: 0.2
+Summary: Python client for Consul (https://www.consul.io/)
+Home-page: https://github.com/baizunxian/zerorunner-consul
+Author: xiao.bai
+Author-email: 546142369@qq.com
+License: MIT
+Requires-Dist: requests
+Provides-Extra: asyncio
+Requires-Dist: aiohttp; extra == "asyncio"
