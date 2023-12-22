@@ -1,0 +1,17 @@
+Lib Backdoor
+============
+
+Backdoor Attack / Defense Toolkit
+
+
+Installation
+------------
+
+for user, ``pip install lib-backdoor``
+for developer,  ``pip install -v -e .``
+
+Usage
+-----
+
+* Command Line Interface
+  `poison`, show verbose help via `poison -h`

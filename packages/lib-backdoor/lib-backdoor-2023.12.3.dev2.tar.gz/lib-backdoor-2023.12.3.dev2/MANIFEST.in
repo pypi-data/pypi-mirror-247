@@ -1,0 +1,2 @@
+recursive-include src/lbd/data/assets *
+recursive-include src/lbd/config *
