@@ -1,0 +1,2 @@
+[console_scripts]
+pysidian = pysidian.shell.__init__:main
