@@ -1,0 +1,7 @@
+name: fuzz_craft/python
+version: 0.0.0-dev
+extractor: python
+library: true
+dependencies:
+  codeql/python-all: "0.6.3"
+  codeql/ssa: "0.0.4"
