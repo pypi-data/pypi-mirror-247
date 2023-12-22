@@ -1,0 +1,9 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "user",
+    "password": "secret"
+  },
+  "api_key": "your_api_key"
+}
