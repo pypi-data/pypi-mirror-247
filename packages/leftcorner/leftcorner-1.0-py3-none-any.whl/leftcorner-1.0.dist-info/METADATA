@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: leftcorner
+Version: 1.0
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: nltk
+Requires-Dist: svgling
+Requires-Dist: tabulate
+Requires-Dist: dill
+Requires-Dist: pytest
+Requires-Dist: graphviz
+Requires-Dist: path
+
