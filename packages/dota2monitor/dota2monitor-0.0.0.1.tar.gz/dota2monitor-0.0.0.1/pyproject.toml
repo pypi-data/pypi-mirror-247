@@ -1,0 +1,37 @@
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = ['setuptools>=61.0', 'wheel>=0.37.1']
+
+[project]
+name = 'dota2monitor'
+version = '0.0.0.1'
+description = 'Dota2Monitor allows you to use GameState Integration Monitoring to track events happening in Dota 2 matches.'
+readme = 'README.md'
+requires-python = '>=3.6'
+license = {file = 'LICENSE'}
+authors = [
+    {name = 'imbalanceinbalance', email = 'imbalanceinbalance@gmail.com'},
+]
+keywords = ['dota', 'gsi']
+
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+
+dependencies = [
+    'Flask>=3.0.0',
+]
+
+[project.urls]
+'Homepage' = 'https://github.com/imbalanceinbalance/dota2Monitor'
+'Documentation' = 'https://github.com/imbalanceinbalance/dota2Monitor'
+
+[tool.setuptools]
+platforms = ['Linux', 'Windows']
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ['tests', 'tests.*', 'examples']
+
