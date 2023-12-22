@@ -1,0 +1,3 @@
+[console_scripts]
+indeksilo=indeksilo.cli:main
+

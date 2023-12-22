@@ -1,0 +1,10 @@
+LICENSES/AGPL-3.0-or-later.txt,sha256=2KbMMavBa2dIx6IfIWEfWh7DP2fSLKI9faHBm5VJa-4,34020
+indeksilo/__init__.py,sha256=k7keB2tcUCMPiE3X4Jp351CGE0Aol8AJYaVX7u9lX9I,238
+indeksilo/__main__.py,sha256=kWAK1FJDukd_xaOD5Gi2-aj0sdK9atd7z_Baf8rlc98,208
+indeksilo/cli.py,sha256=3OA_EATOidMr-XJLOSpcobJG2wzhR3s-loebwIAgUNg,3320
+indeksilo/indexer.py,sha256=a_llIny73P_3MqDOCd77lF6DjFQCBGrYHFvPxjBRJco,8179
+indeksilo-1.0.0.dist-info/entry_points.txt,sha256=tGeZJuOFeLuULmyYU5QlbO-fwCIrGLmQb0gIDoCFVuo,48
+indeksilo-1.0.0.dist-info/LICENSES/AGPL-3.0-or-later.txt,sha256=2KbMMavBa2dIx6IfIWEfWh7DP2fSLKI9faHBm5VJa-4,34020
+indeksilo-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+indeksilo-1.0.0.dist-info/METADATA,sha256=UswQIrLF2yrNPg8FmdhnbOMGfSSbjKoYY4gVHjxA9ck,8474
+indeksilo-1.0.0.dist-info/RECORD,,
