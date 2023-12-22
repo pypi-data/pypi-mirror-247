@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/aiconfig_extension_gemini/Gemini.py
+src/aiconfig_extension_gemini/__init__.py
+src/aiconfig_extension_gemini.egg-info/PKG-INFO
+src/aiconfig_extension_gemini.egg-info/SOURCES.txt
+src/aiconfig_extension_gemini.egg-info/dependency_links.txt
+src/aiconfig_extension_gemini.egg-info/requires.txt
+src/aiconfig_extension_gemini.egg-info/top_level.txt

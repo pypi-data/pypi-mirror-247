@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aiconfig-extension-gemini
+Version: 0.0.5
+Summary: An extension for using Gemini with aiconfig
+Author: LastMile AI
+Author-email: Ankush Pala <ankush@lastmileai.dev>
+Project-URL: Homepage, https://github.com/lastmile-ai/aiconfig/
+Project-URL: Issues, https://github.com/lastmile-ai/aiconfig/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-generativeai==0.3.1
+Requires-Dist: asyncio
+Requires-Dist: python-aiconfig
+
+# Using Gemini with AIConfig
+
+We are prioritizing the Python library Usage
+
+1. Install `pip install aiconfig-extension-gemini`
+2. Import the extension `import aiconfig_extension_gemini`
+
+And you're all good to go! This extension automatically updates the model parser registry with the model "gemini-pro". Check out the Gemini Cookbook in the aiconfig repo for a full example.
