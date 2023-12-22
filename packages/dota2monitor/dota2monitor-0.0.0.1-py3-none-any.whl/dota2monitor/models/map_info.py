@@ -1,0 +1,15 @@
+class MapInfo:
+    def __init__(self, map_data):
+        self.name = map_data.get('name')
+        self.matchid = map_data.get('matchid')
+        self.game_time = map_data.get('game_time')
+        self.clock_time = map_data.get('clock_time')
+        self.daytime = map_data.get('daytime')
+        self.nightstalker_night = map_data.get('nightstalker_night')
+        self.radiant_score = map_data.get('radiant_score')
+        self.dire_score = map_data.get('dire_score')
+        self.game_state = map_data.get('game_state')
+        self.paused = map_data.get('paused')
+        self.win_team = map_data.get('win_team')
+        self.customgamename = map_data.get('customgamename')
+        self.ward_purchase_cooldown = map_data.get('ward_purchase_cooldown')

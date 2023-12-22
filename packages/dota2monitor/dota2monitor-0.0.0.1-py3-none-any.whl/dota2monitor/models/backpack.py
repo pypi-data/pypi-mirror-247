@@ -1,0 +1,30 @@
+class Backpack:
+    def __init__(self, items):
+        self.slot0 = Item(items.get('slot0', {}))
+        self.slot1 = Item(items.get('slot1', {}))
+        self.slot2 = Item(items.get('slot2', {}))
+        self.slot3 = Item(items.get('slot3', {}))
+        self.slot4 = Item(items.get('slot4', {}))
+        self.slot5 = Item(items.get('slot5', {}))
+        self.slot6 = Item(items.get('slot6', {}))
+        self.slot7 = Item(items.get('slot7', {}))
+        self.slot8 = Item(items.get('slot8', {}))
+        self.stash0 = Item(items.get('stash0', {}))
+        self.stash1 = Item(items.get('stash1', {}))
+        self.stash2 = Item(items.get('stash2', {}))
+        self.stash3 = Item(items.get('stash3', {}))
+        self.stash4 = Item(items.get('stash4', {}))
+        self.stash5 = Item(items.get('stash5', {}))
+        self.teleport0 = Item(items.get('teleport0', {}))
+        self.neutral0 = Item(items.get('neutral0', {}))
+
+class Item:
+    def __init__(self, item_data):
+        self.name = item_data.get('name')
+        self.purchaser = item_data.get('purchaser')
+        self.item_level = item_data.get('item_level')
+        self.can_cast = item_data.get('can_cast')
+        self.cooldown = item_data.get('cooldown')
+        self.passive = item_data.get('passive')
+        self.item_charges = item_data.get('item_charges')
+        self.charges = item_data.get('charges')
