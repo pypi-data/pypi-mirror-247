@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zvma10-api-wrapper
+Version: 1.0.0
+Summary: Python SDK for working with Zerto 10 ZVMA
+Home-page: https://github.com/recklessop/zvma-py-wrapper
+Author: Justin Paul
+Author-email: justin@jpaul.me
+License: LICENSE
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: python-dateutil
+Requires-Dist: posthog
+
+# zvma-py-sdk
+ Python SDK for working with the Zerto ZVMa
