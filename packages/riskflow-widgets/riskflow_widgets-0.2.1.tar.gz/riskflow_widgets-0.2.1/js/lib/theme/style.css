@@ -1,0 +1,41 @@
+.vakata-context {
+ z-index:2999 !important;
+}
+.legendLayer .background {
+    fill: rgba(255, 255, 255, 0.85);
+    stroke: rgba(0, 0, 0, 0.85);
+    stroke-width: 1;
+}
+.legend {
+		display: block;
+		-webkit-padding-start: 2px;
+		-webkit-padding-end: 2px;
+		border-width: initial;
+		border-style: none;
+		border-color: initial;
+		border-image: initial;
+		padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+.widget-box { overflow: visible }
+.widget-text { width: 500px !important; }
+.widget-label { align-self: baseline; min-width:35ex }
+.widget-inline-hbox { align-items: flex-end; }
+.widget-textarea  { width: auto; }
+.widget-tenor-text{ width:140px;margin:0 !important }
+.widget-datepicker { min-width: 140px }
+.widget-select { width: 450px !important; }
+.widget-tenorlistbox {width:140px; margin-bottom:0}
+.flotwrapper { position: relative; width: 800px; margin: auto; margin-top: 20px; font-size: 12pt; }
+.flottitle { color: #888; margin-left: 50px; }
+.flotgraph { position: relative; margin-top: 20px; }
+.flotplot { width: 400px; height: 300px; }
+.handsonplot { overflow: auto; height: 300px; max-width: 300px}
+.handsontable col.rowHeader {  width: 250px; }
+.container { width:95%; }
+.generictree { max-width : 450px; overflow: auto; max-height: 700px; padding : 5px; border-style:outset }
+.genericframe { padding : 5px; border-style:outset }
+.rightframe{ overflow: auto; max-height: 700px }
+.mainframe{ background-image:url('ice.png'); background-repeat:repeat }
