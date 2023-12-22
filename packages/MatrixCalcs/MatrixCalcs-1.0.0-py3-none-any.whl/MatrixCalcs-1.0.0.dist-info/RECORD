@@ -1,0 +1,14 @@
+matrixcalc/Errors.py,sha256=2BhmvUdMlsfwn1kuYNCiuUSjIVTiOv_gCdGCDF8HAmw,206
+matrixcalc/Matrix.py,sha256=nIb7w8SzQl14b4SmDoOCBcS6XQDCDm2HOv_fTIko5sk,5217
+matrixcalc/Row.py,sha256=OWV8zD_ATxqnQ-nQgDGfPHiokvYecaRYDEYSynZz_GI,423
+matrixcalc/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+matrixcalc/app.py,sha256=S_LtE-3RARRHr8ImiUla0ecOZ96OjNI69z2JT0kXUk4,7608
+matrixcalc/command_line.py,sha256=nj2MOQUpqWT3RBRZIvYlPAWpce7vskm_1sDLRIBQUv4,57
+matrixcalc/hooks.py,sha256=t8CcwGuMKDij9AkQE5E4Xt3XCcWNOPQv5QmbmdHmkKY,3441
+matrixcalc/main.py,sha256=61hl6voD-D-IHUCWHgmkSXcw-PcDM2LBUk1OCY6xHzI,218
+MatrixCalcs-1.0.0.dist-info/LICENSE.txt,sha256=tgwET4GHbzUL9eMJBxv8IFfERO_QfSuCeQt4YEnZ2D8,1072
+MatrixCalcs-1.0.0.dist-info/METADATA,sha256=sZxebMwySM77XfxilMCxO4G43a0CRDsxoi7m1LKa0fQ,4298
+MatrixCalcs-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MatrixCalcs-1.0.0.dist-info/entry_points.txt,sha256=tibk5eKJ1SaXvWL7qw0BAhvSWWoPGHqiTn-8PWssu3I,57
+MatrixCalcs-1.0.0.dist-info/top_level.txt,sha256=q9vV4LHAH7_di5HrTOaMMPIQpXpY_ceXx1_Azbk0iQc,11
+MatrixCalcs-1.0.0.dist-info/RECORD,,
