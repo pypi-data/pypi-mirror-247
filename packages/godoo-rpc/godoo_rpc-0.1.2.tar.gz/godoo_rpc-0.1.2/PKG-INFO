@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: godoo-rpc
+Version: 0.1.2
+Summary: Helper Functions around OdooRPC
+Home-page: https://github.com/OpenJKSoftware/gOdoo-rpc
+License: LGPL-3
+Keywords: odoorpc,odoo
+Author: Joshua Kreuder
+Author-email: joshua_kreuder@outlook.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: OdooRPC (>=0.9.0,<0.10.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: pylint-gitlab (>=1.1.0,<2.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/OpenJKSoftware/gOdoo-rpc
+Description-Content-Type: text/markdown
+
+# gOdoo-RPC
+
+Several Abstraction layers around [OdooRPC](https://odoorpc.readthedocs.io/en/latest/).
+
+Made Possible by: [WEMPE Elektronic GmbH](https://wetech.de)
+
+## Features
+
+- Login to Odoo helper functions
+- Importing Images from the Filesystem
+- Import CSV/Json/Excel Data to Odoo via RPC
+- Import res.config.settings
+- import Translations
+- Extend Base.Import feature with Language cols (fieldname:lang:en_US, fieldname:lang:de_DE)
+- Copy Records from Odoo to Odoo via RPC and remap relational Atributes
+
+## Development
+
+### VS Code Devcontainer
+
+This workspace contains a [Vscode devcontainer](https://code.visualstudio.com/docs/remote/containers).
+
+### Bump / Release Version
+
+- Trigger [Version Bump](https://github.com/OpenJKSoftware/gOdoo-rpc/actions/workflows/version-bump.yml) pipeline with appropriate target.
+- Merge the created PullRequest. Name: `:shipit: Bump to Version: <versionnumber>`
+- This will create a Tag on `main`
+- Create a release from this Tag. A Pipeline will automatically push to [Pypi](https://pypi.org/project/gOdoo-rpc/)
+
