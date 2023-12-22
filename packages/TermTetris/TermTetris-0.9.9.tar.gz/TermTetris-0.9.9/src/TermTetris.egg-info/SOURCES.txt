@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/tetris.py
+src/tt_backend.py
+src/tt_panel.py
+src/tt_tetro.py
+src/TermTetris.egg-info/PKG-INFO
+src/TermTetris.egg-info/SOURCES.txt
+src/TermTetris.egg-info/dependency_links.txt
+src/TermTetris.egg-info/entry_points.txt
+src/TermTetris.egg-info/requires.txt
+src/TermTetris.egg-info/top_level.txt
