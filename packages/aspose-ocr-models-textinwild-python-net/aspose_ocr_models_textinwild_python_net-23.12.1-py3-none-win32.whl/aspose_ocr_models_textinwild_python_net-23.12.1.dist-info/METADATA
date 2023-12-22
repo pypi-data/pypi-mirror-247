@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: aspose-ocr-models-textinwild-python-net
+Version: 23.12.1
+Summary: Aspose.OCR for Python is a powerful yet easy-to-use and cost-effective API for extracting text from scanned images, photos, screenshots, PDF documents, and other files.
+Home-page: https://products.aspose.com/ocr/
+Author: Aspose
+License: https://company.aspose.com/legal/eula
+Keywords: OCR, Recognize text, diacritic, Python, Aspose
+Platform: win32
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.5,<3.12
+Description-Content-Type: text/markdown
+
+[Product Page](https://products.aspose.com/ocr/python-net/) | [Documentation](https://docs.aspose.com/ocr/python-net/) | [Demos](https://products.aspose.app/ocr/family) | [Blog](https://blog.aspose.com/categories/aspose.ocr-product-family/) | [API Reference](https://reference.aspose.com/ocr/python-net/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/ocr/16) | [Temporary License](https://purchase.aspose.com/temporary-license)
+
+Try our [Free Online Apps](https://products.aspose.app/ocr/family) demonstrating some of the most popular Aspose.OCR functionality.
+
+**Aspose.OCR.Models.TextInWild for Python via .NET** This extension to Aspose.OCR for Python via .NET adds a specialized recognition model and methods to accurately extract text from street photos, traffic camera images, ID cards, driver licenses, and other images with sparse text and noisy/colored backgrounds. This is useful for improving OCR accuracy in specific business cases:
+
+- Segment and identify road signs and signboards within street images.
+- Locate price tags and interpret the extracted text as prices.
+- Find and aggregate regions of interest on food labels, such as nutritional information or ingredient lists.
+- Identify and analyze car license plates.
+- Extract text from menus and catalogs.
+
+
+Check out the [Landing Pages](https://products.aspose.com/ocr/python-net/) of **Aspose.OCR for Python via .NET** for a more detailed description of the features and possibilities of the library.
+
+##Important considerations:
+
+- This package requires Aspose.OCR for Python via.NET to function properly. It cannot be used separately from the core API.
+- The model only works with Latin letters and numbers.
+
+
+## Get Started
+
+Run ```pip install aspose-ocr-python-net``` and ```pip install aspose-ocr-models-textinwild-python-net``` to fetch the package. If you already have **Aspose.OCR for Python via .NET** and want to get the latest version, please run ```pip install --upgrade aspose-ocr-python-net```.
+
+To learn more about **Aspose.OCR for Python via .NET** and explore the basic requirements and features of the library, check out the following [Aspose.OCR for Python via .NET Documentation](https://docs.aspose.com/ocr/python-net/) pages for other use cases.
+
+### Code snippet
+
+**Aspose.OCR for Python via .NET** is extremely easy to use, regardless of the application's scale and complexity. Let's try to create a very simple application that can extract text from images and output it to the console.
+
+1. Install  the latest version of the *aspose-ocr* package using pip.
+2. Import `aspose.ocr` module into the application.
+3. Create an instance of `AsposeOcr` class.
+4. Create an instance of `OcrInput` class and add one or more images to it.
+5. Extract text from the street photo using `recognize_street_photo` method.
+6. Output the extracted text to the console.
+
+Full code:
+
+```python
+import aspose.ocr as ocr
+
+# Initialize OCR engine
+api = AsposeOcr()
+
+# Initialize OCR input
+input = OcrInput(InputType.SINGLE_IMAGE)
+input.add("1.png")
+input.add("2.jpg")
+
+# Recognize images
+result = api.recognize_street_photo(input)
+
+# Print result
+print(result[0].recognition_text)
+print(result[1].recognition_text)
+```
+
+[Product Page](https://products.aspose.com/ocr/python-net/) | [Documentation](https://docs.aspose.com/ocr/python-net/) | [Demos](https://products.aspose.app/ocr/family) | [Blog](https://blog.aspose.com/categories/aspose.ocr-product-family/) | [API Reference](https://reference.aspose.com/ocr/python-net/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/ocr/16) | [Temporary License](https://purchase.aspose.com/temporary-license)
