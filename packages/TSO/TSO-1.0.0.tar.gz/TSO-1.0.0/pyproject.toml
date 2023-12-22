@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TSO"
+version = "1.0.0"
+dependencies = [
+]
+
+requires-python = ">=3.11"
+authors = [
+  {name = "Kent Madsen", email = "kent.vejrup.madsen@designermadsen.dk"},
+]
+
+description = ""
+readme = "Readme.md"
+license = {file = "License.md"}
+keywords = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/Target-Spectre/Observable"
+Issues = "https://github.com/Target-Spectre/Observable/issues"
