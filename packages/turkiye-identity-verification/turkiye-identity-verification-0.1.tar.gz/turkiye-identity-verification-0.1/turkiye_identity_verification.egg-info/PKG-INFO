@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turkiye-identity-verification
+Version: 0.1
+Summary: Using the Nüfus ve Vatandaşlık İşleri (NVİ), it verifies the information on the Turkish Identity Card.
+Author: Hüseyin Karaoğlan
+Author-email: hkkaraoglan@icloud.com
+License: MIT
+Keywords: nvi,turkiye,identity,verification,verify,turkey,nufus,kimlik,dogrulama,yabanci,tckn,ykn
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+blank
