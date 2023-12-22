@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: leftcorner
+Version: 1.0.1
+Summary: Implementation of the generalized left-corner transformation (Opedal et al. 2023), an efficient method for eliminating left recursion from context-free grammars, and many other utilities for working with context-free grammars.
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: nltk
+Requires-Dist: svgling
+Requires-Dist: tabulate
+Requires-Dist: dill
+Requires-Dist: pytest
+Requires-Dist: graphviz
+Requires-Dist: path
+
