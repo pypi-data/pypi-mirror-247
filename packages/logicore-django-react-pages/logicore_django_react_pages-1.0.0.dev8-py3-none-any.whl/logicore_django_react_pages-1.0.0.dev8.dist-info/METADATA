@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: logicore-django-react-pages
+Version: 1.0.0.dev8
+Summary: Post/Redirect/Get-like approach for React + Django AJAX apps
+Author-email: Andrei Boltachev <andrewboltachev@gmail.com>
+License: Copyright (c) 2012-2022 Scott Chacon and others
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Logicore-project/logicore-django-react-pages
+Project-URL: Bug Tracker, https://github.com/Logicore-project/logicore-django-react-pages/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django <6
+Requires-Dist: logicore-django-react >=1.0.0.dev23
+
+# logicore-django-react-pages
+
+[PRG](https://en.wikipedia.org/wiki/Post/Redirect/Get)-like approach for React + Django AJAX apps
+
+Use together with: [React counterpart](https://github.com/Logicore-project/logicore-react-pages)
+
+and on top of: [Running React and Django on a single port](https://github.com/Logicore-project/logicore-django-react)
+
+### Usage
+
+1. Perform: https://github.com/Logicore-project/logicore-django-react#usage-from-scratch-starting-a-django--react-project-for-development
+
+2. Assuming your main apps' name is `main`
+
+3. Add to `views.py` (as an example):
+
+```python
+from logicore_django_react_pages.views import ApiView
+
+class HomeView(ApiView):
+    url_name = "home"
+    url_path = "/"
+    WRAPPER = "MainWrapper"
+    TEMPLATE = "HomeView"
+    title = "Home"
+
+    def get_data(self, request, *args, **kwargs):
+        return {"name": "World"} 
+```
+
+4. Add to `urls.py`
+```python
+from logicore_django_react.urls import react_reload_and_static_urls, react_html_template_urls
+from main import views # required to register subclasses for ApiView
+from logicore_django_react_pages.views import all_api_urls
+
+urlpatterns = [
+    # ...
+    *all_api_urls(), # in any position
+    # ...
+]
+
+# add static/media endpoints here if needed
+# urlpatterns += static(...)
+
+# lastly, combine with logicore_django_react urls
+urlpatterns = react_reload_and_static_urls + urlpatterns + react_html_template_urls
+```
+
+5. Install & configure ReactJS counterpart: https://github.com/Logicore-project/logicore-react-pages#installation
