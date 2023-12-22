@@ -1,0 +1,13 @@
+colorama
+defusedxml
+jinja2
+openpyxl
+python-dateutil
+pyyaml
+requests
+setuptools
+typing_extensions>=4.1.0
+tqdm
+xhtml2pdf<=0.2.11
+xlrd
+xlsxwriter
