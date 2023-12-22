@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "scule"
+version = "2023.12.0"
+description = ""
+authors = ["Horia Filimonescu <horia.filimonescu+github@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "scule", from = "src" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+requests = "^2.31.0"
+pandas = "^2.1.4"
+html2text = "^2020.1.16"
+openpyxl = "^3.1.2"
+
+
+[tool.poetry.scripts]
+pypi_search = "scule.pypi:search"
+pypi_list = "scule.pypi:list"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 92
+target-version = ['py37', 'py38']
+
+[tool.isort]
+profile = "black"
+line_length = 92
