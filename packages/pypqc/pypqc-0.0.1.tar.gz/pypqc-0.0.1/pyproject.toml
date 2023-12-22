@@ -1,0 +1,18 @@
+[project]
+name = "pypqc"
+version = "0.0.1"
+readme = "README.rst"
+urls = {"Homepage" = "https://github.com/JamesTheAwesomeDude/pypqc"}
+
+[tool.setuptools.packages.find]
+include = ["pqc"]
+namespaces = false
+
+[tool.setuptools.exclude-package-data]
+"pqc" = ["*.c"]
+
+[build-system]
+requires = [
+    'cffi >= 1.14.5',
+    'setuptools >= 49.5.0',
+]
