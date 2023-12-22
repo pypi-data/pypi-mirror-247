@@ -1,0 +1,14 @@
+basex/__init__.py,sha256=H4IvIiND3-mYdnHkBV_IPNk8kvz4lQc6m7gPluVzBNg,173
+basex/ada.py,sha256=sGTi_wf2UXBIuBTzwAIuRsFJOK0kkoke3PKmRDDfYZI,19671
+basex/bender.py,sha256=Q0xwKZIePIP57SlBrTTyCDXkFw5aIRBeLdFbYwhX-tU,6010
+basex/chandler.py,sha256=cylpu2tuar3heAv6bXSlxXNT6py-XZl37A8KRG-32jY,14154
+basex/comments.py,sha256=ReUxOvbep9jvqO0dYCtNcNDxN54QSAD5G1HK428-EmY,8891
+basex/lygia.py,sha256=Wp_TB6IXFaSnqLNeyddDVL9rO9FwHpq_qcC7p7agcw0,39290
+basex/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basex/models/pt_core_news_md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basex/models/pt_core_news_md/setup.py,sha256=g3MfNDtcEmQO2YfV9PNNUCIAUxHAlWVQW81AxnE3n2I,2119
+basex/models/pt_core_news_md/pt_core_news_md/__init__.py,sha256=p9BqiDdyFLZqp5nVB7F4f2f4kXp43tabFLjN0vkyHfw,247
+basextools-0.0.10.dist-info/METADATA,sha256=MA8GQG0-sLYGZkr7YTIqSI6dRp0tLAvbd-N40sY_Hpo,1806
+basextools-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+basextools-0.0.10.dist-info/top_level.txt,sha256=i1bQQUiBX_20Ckh9uHxEipDTJrPkG4MEegQo0Xhu_VA,6
+basextools-0.0.10.dist-info/RECORD,,
