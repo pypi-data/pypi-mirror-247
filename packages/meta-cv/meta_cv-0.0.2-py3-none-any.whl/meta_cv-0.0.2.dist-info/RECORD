@@ -1,0 +1,14 @@
+metacv/__init__.py,sha256=A4etT9QEdIYMZIZP7j5A9nmTqDnaFGjQHNoKrYfITps,52
+metacv/app/__init__.py,sha256=gRzUDlONBqfkmTcgMcHipwnlCAL9wBGlqvAmwgD1qB4,105
+metacv/app/classification.py,sha256=dgs88K4uLJjo42dvOuIsfnYkS42IgT7Irn_y-w2zlxw,100
+metacv/app/detection.py,sha256=vnLGLbkXWGYGphl2VgyZ5EjMi_YSXvRHXWjECwAuJfo,2606
+metacv/app/segment.py,sha256=IQypKkEhqTV1W0IFZNhzivCYckXg-l1JTEX5Ip1mBGA,3972
+metacv/model_zoo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metacv/utils/__init__.py,sha256=qZet64gMJNAAqzUdEqCV5WDk5D2Dbw1Kxlt9Jo6x3m4,23
+metacv/utils/draw.py,sha256=eIIw_pXZeiagvGSwQG_gDdzaDvA3NOMlQyh_CT2l32c,3249
+metacv/utils/general.py,sha256=M-9UmIulicIenerK7AicWIsh-qaVtStubVNc-bfIkTg,4554
+meta_cv-0.0.2.dist-info/METADATA,sha256=Z64j8I8H7Gq1LVuqyd0MPLbc_dDbEf1SkqHZZSp4HK4,347
+meta_cv-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+meta_cv-0.0.2.dist-info/top_level.txt,sha256=t-9Sc3t661FJvHlqIMVwKW3VhQyu6_UnIykaIdUGPH0,7
+meta_cv-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+meta_cv-0.0.2.dist-info/RECORD,,
