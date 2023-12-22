@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: verysimplemodule-pedro-vitor
+Version: 0.0.5
+Summary: My first Python packege
+Author: pedro vitor
+Author-email: pedvitorpassos123@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+
+My first Python package with a sligthy longer description

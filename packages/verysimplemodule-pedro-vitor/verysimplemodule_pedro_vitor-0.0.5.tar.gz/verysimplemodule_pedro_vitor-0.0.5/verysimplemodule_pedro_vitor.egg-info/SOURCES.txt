@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule_pedro_vitor/__init__.py
+verysimplemodule_pedro_vitor/add.py
+verysimplemodule_pedro_vitor/subtract.py
+verysimplemodule_pedro_vitor.egg-info/PKG-INFO
+verysimplemodule_pedro_vitor.egg-info/SOURCES.txt
+verysimplemodule_pedro_vitor.egg-info/dependency_links.txt
+verysimplemodule_pedro_vitor.egg-info/requires.txt
+verysimplemodule_pedro_vitor.egg-info/top_level.txt
+verysimplemodule_pedro_vitor/extra/__init__.py
+verysimplemodule_pedro_vitor/extra/divide.py
+verysimplemodule_pedro_vitor/extra/multiple.py
