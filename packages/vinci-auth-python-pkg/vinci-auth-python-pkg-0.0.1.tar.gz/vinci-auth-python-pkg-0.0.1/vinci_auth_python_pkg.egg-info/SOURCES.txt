@@ -1,0 +1,8 @@
+README.md
+setup.py
+vinci_auth/__init__.py
+vinci_auth/token_retriever.py
+vinci_auth_python_pkg.egg-info/PKG-INFO
+vinci_auth_python_pkg.egg-info/SOURCES.txt
+vinci_auth_python_pkg.egg-info/dependency_links.txt
+vinci_auth_python_pkg.egg-info/top_level.txt
