@@ -1,0 +1,12 @@
+MANIFEST.in
+readme.md
+setup.py
+llm_as_function/__init__.py
+llm_as_function/llm_func.py
+llm_as_function/models.py
+llm_as_function/utils.py
+llm_as_function.egg-info/PKG-INFO
+llm_as_function.egg-info/SOURCES.txt
+llm_as_function.egg-info/dependency_links.txt
+llm_as_function.egg-info/requires.txt
+llm_as_function.egg-info/top_level.txt
