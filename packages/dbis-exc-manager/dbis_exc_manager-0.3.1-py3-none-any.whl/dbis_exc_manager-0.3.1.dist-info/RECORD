@@ -1,0 +1,10 @@
+excmanager/Task.py,sha256=mMGPmO4ws8CzNGU0Sdwc21WT-tmLi5MyE8US2Vdb-4g,3543
+excmanager/Util.py,sha256=yiB4LXrh1Z2LwcHATDy1ZhaQnAn8G0pEl-u4d8GmXcI,10359
+excmanager/Version.py,sha256=bmnG0amMOpE2nPwXf4KZ3oXXTA8ZNJV03uSxSB-HK-8,182
+excmanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excmanager/scorer.py,sha256=EbLH-WRspaSytrPYpAW_6CEHneqIIIZwQK_-CkoizMM,4433
+dbis_exc_manager-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbis_exc_manager-0.3.1.dist-info/METADATA,sha256=ecHewWGHDM3IVQRx8mOgMh-JKmNNtyH7u-cYl3azySY,1698
+dbis_exc_manager-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dbis_exc_manager-0.3.1.dist-info/top_level.txt,sha256=Z8jwKfPC8keRqQF9i3fTgw8Of4dnEGFPnLa-wExTgxk,11
+dbis_exc_manager-0.3.1.dist-info/RECORD,,
