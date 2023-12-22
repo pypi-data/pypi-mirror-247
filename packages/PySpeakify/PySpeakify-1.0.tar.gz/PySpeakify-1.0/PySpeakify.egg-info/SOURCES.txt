@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PySpeakify.egg-info/PKG-INFO
+PySpeakify.egg-info/SOURCES.txt
+PySpeakify.egg-info/dependency_links.txt
+PySpeakify.egg-info/requires.txt
+PySpeakify.egg-info/top_level.txt

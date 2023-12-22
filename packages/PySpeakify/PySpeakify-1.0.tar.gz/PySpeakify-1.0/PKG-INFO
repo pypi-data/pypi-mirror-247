@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: PySpeakify
+Version: 1.0
+Author: Ephiliaa
+Author-email: abinsibin63@gmail.com
+Keywords: talk,python talk,speak,python speak
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyttsx3
+
+PySpeak
+
+Simple Package To Speak In Python
+
+How to use:
+
+```python
+from Pyspeak import talk
+
+
+# only 2 voices are available male and female
+Voice = 1
+# How fast to speak
+Rate = 175
+
+talk.settings(Voice, Rate)
+talk.talk("This is me speaking using pyspeak")
+```
+if user.hasBrain == Yes:
+
+    You can use your brain to figure out how to use this in your code! 
+else:
+    
+    Buy A Brain!
