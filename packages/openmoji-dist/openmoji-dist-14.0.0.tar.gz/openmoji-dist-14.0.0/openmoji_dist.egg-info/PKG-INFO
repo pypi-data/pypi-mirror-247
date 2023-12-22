@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openmoji-dist
+Version: 14.0.0
+Summary: Openmoji files
+Home-page: https://codeberg.org/Joshix/py-openmoji
+License: CC-BY-SA-4.0
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
