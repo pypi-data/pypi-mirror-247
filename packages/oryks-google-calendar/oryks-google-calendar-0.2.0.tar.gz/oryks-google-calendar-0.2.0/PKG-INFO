@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: oryks-google-calendar
+Version: 0.2.0
+Summary: A python library that wraps around the Google calendar API. You can use it to schedule events using google calendar.
+Home-page: https://youtube-wrapper.readthedocs.io/en/latest/index.html
+Author: Lyle Okoth
+Author-email: lyceokoth@gmail.com
+License: MIT
+Keywords: calendar,google-calendar,schedule events
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# google-calendar
+A python library for working with the google calendar.
+
+
