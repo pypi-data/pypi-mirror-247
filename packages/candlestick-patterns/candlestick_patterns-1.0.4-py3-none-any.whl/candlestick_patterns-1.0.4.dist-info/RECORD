@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candlestick_patterns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candlestick_patterns/bullish_patterns/__init__.py,sha256=Q3DHCOnY8SChGfUoO8GRhS7YI--vYL7sNHDyZKs8w88,60
+candlestick_patterns/bullish_patterns/bullish_engulfing_pattern.py,sha256=FIZRZCgqfmgBqG0QJWenSosg0BLV80wCeuIqdIjkpCU,573
+candlestick_patterns/bullish_patterns/hammer_pattern.py,sha256=MmrI2c89C9GRnUUuLnK_qaoGqZwOAfARZ2twOY8gmVo,795
+candlestick_patterns/bullish_patterns/morning_star_pattern.py,sha256=cfxWUrBllEbZUw-FQK_4TrBOojYXSuQdjeYMCPlJZmg,879
+candlestick_patterns-1.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+candlestick_patterns-1.0.4.dist-info/METADATA,sha256=dbRErKQNqG5nhLVJbwmUYjeUlKEWmAaISuPG9IevfHo,1773
+candlestick_patterns-1.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+candlestick_patterns-1.0.4.dist-info/top_level.txt,sha256=Ufe4OiczTkoGyD-h1loWBG4C2wPPzNHbdfxTDejcAkk,30
+candlestick_patterns-1.0.4.dist-info/RECORD,,
