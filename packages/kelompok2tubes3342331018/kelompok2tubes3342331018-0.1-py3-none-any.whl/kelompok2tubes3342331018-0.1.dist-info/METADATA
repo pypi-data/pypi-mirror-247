@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kelompok2tubes3342331018
+Version: 0.1
+Summary: Kelompok 2
+Home-page: https://github.com/syahrulcaem/Informasi_negara
+Author: hanifaslamm
+Author-email: aslamhanif141@gmail.com
+License: MIT
+Keywords: Hello
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+from kelompok233423310 import kelompok2
