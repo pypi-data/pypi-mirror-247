@@ -1,0 +1,9 @@
+LICENSE
+README.md
+mdx_gh_links.py
+pyproject.toml
+mdx_gh_links.egg-info/PKG-INFO
+mdx_gh_links.egg-info/SOURCES.txt
+mdx_gh_links.egg-info/dependency_links.txt
+mdx_gh_links.egg-info/requires.txt
+mdx_gh_links.egg-info/top_level.txt
