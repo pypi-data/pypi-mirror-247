@@ -1,0 +1,11 @@
+python_gpt_po/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_gpt_po/po_translator.py,sha256=i2aP4MqrX4MvGEPG1s0kgEOhKzc90dDg4RNGndW6k8M,10026
+python_gpt_po/version.py,sha256=y-yoIsu82IKhKGXpv9OnLmV_Cy9l3Y7Srm536lFadqc,754
+python_gpt_po/__pycache__/__init__.cpython-312.pyc,sha256=DppKYZJhaN4VMIf2Ani9ifpWBg5AXg5eZCPOOGyjzQs,168
+python_gpt_po/__pycache__/version.cpython-312.pyc,sha256=Ju-Hd51QKEx7_kEmIf9fTUBD_y_mVZaN8ex7zEyM5ew,942
+gpt_po_translator-0.1.7.dist-info/LICENSE,sha256=o7NOxpJdVfJaonQ_FxgfvA9cNAHB1U2T4zabur5rB1k,1063
+gpt_po_translator-0.1.7.dist-info/METADATA,sha256=HQ54O1Ku9tzWXRTbcNvuJ0aUgyIZt_AjmdOVgAf-byE,3539
+gpt_po_translator-0.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gpt_po_translator-0.1.7.dist-info/entry_points.txt,sha256=SLFrW56mc_WnarSOUse6v-5yF5Zy3m9btk4_RhW2v9E,71
+gpt_po_translator-0.1.7.dist-info/top_level.txt,sha256=_F9h9pYWeddSLkVnJGWRaHqqUtErfVB21kJqGuG_ozU,14
+gpt_po_translator-0.1.7.dist-info/RECORD,,
