@@ -1,0 +1,6 @@
+scikit_bloom-0.2.0.dist-info/METADATA,sha256=yWJWaqUFaQB0rWWUiI4CPrcNxz6CzNrzVcu2Jb_quBU,4818
+scikit_bloom-0.2.0.dist-info/WHEEL,sha256=2cdt1dTq7jC4CjLNJmnCsWLVE9Qw7zzCR4t7apFyJGY,104
+skbloom/__init__.py,sha256=avHTyIPqyKKD9Baqpc08Ih0J9R9KM-XQgDLLwc6NTVs,2590
+skbloom/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skbloom/skbloom.cpython-312-darwin.so,sha256=-PnB2wM1NYVBRcnVpU4wjFFRIxZFwlIwkCmV5Gd3aSA,626586
+scikit_bloom-0.2.0.dist-info/RECORD,,
