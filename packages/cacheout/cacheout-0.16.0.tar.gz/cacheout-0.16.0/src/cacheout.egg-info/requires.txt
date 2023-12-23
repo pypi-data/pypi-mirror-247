@@ -1,0 +1,26 @@
+
+[dev]
+black
+build
+coverage
+docformatter
+flake8
+flake8-black
+flake8-bugbear
+flake8-isort
+furo
+invoke
+isort
+mypy
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+sphinx
+sphinx-autodoc-typehints
+tox
+twine
+wheel
+
+[dev:python_version == "3.7"]
+importlib_metadata<5
