@@ -1,0 +1,2 @@
+[console_scripts]
+verbecc-train-models = verbecc.utils:train_models
