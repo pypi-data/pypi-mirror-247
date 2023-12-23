@@ -1,0 +1,3 @@
+[console_scripts]
+hartmann=hartmann.__main__:hartmann
+
