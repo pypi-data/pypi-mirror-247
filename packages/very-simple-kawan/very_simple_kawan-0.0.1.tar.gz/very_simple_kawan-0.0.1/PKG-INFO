@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: very_simple_kawan
+Version: 0.0.1
+Summary: Pacote de teste
+Author: Kawan
+Author-email: kawanevilgenius321@gmai.com
+Keywords: python,primeiro pacote
+Classifier: Development Status :: 3 - Alpha
+
+Pacote de teste para o curso de Python
