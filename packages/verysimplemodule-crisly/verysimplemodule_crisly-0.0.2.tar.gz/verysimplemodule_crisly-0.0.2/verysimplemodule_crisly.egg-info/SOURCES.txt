@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule_crisly/__init__.py
+verysimplemodule_crisly/add.py
+verysimplemodule_crisly/subtract.py
+verysimplemodule_crisly.egg-info/PKG-INFO
+verysimplemodule_crisly.egg-info/SOURCES.txt
+verysimplemodule_crisly.egg-info/dependency_links.txt
+verysimplemodule_crisly.egg-info/requires.txt
+verysimplemodule_crisly.egg-info/top_level.txt
+verysimplemodule_crisly/extra/__init__.py
+verysimplemodule_crisly/extra/divide.py
+verysimplemodule_crisly/extra/multiple.py
