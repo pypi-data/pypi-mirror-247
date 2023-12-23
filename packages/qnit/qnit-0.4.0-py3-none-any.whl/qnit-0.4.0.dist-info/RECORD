@@ -1,0 +1,13 @@
+qnit/__init__.py,sha256=hqzlsqMYNtC6N8hPkzEWgHK2JSLeeABUhqqZQpQZvFo,16120
+qnit/data_types.py,sha256=eEhL1b1xEyCmnOc5-weSH5FElNyevG9Qzig-oHwOn3A,409
+qnit/errors.py,sha256=wJ57xwEQQQiAPwAV-688wPETbMFbRzKdDioJuhWfuh8,695
+qnit/pint_tools.py,sha256=Ica0wIESgIGadivaHhoHPm5qZ1y14YePfBFfl3KCegM,4360
+qnit/pint_units.txt,sha256=8_4pncdiL_oUugH4nnEFEmPDR3cKe8oCB7SRjOV_TLo,1696
+qnit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qnit/quantity_types.py,sha256=57k7dzlcGkPSTkO6g4P5ETw5Ej7xbM-byXUxwuJZyLs,11533
+qnit/unit_collections.py,sha256=vCkaD3PxefJmx7MRNWTlomqdyS6h8xetkz7_IuzOs9U,10134
+qnit/unit_types.py,sha256=PhYKMvn5Q_UoqXhv3v_2TP9Y_AYPHCL3GxKuIaiPPxg,2436
+qnit-0.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+qnit-0.4.0.dist-info/METADATA,sha256=_46mpa6AqSdFkKBNOe0BydeyERjlDBecLT7DVk6zM9U,4490
+qnit-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qnit-0.4.0.dist-info/RECORD,,
