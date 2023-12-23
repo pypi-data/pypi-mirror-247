@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-pf
+Version: 0.2.3
+Summary: Pure-Python module for managing OpenBSD's Packet Filter
+Home-page: http://www.kernel-panic.it/software/py-pf/
+Download-URL: https://github.com/dotpy/py-pf/archive/refs/tags/0.2.3.tar.gz
+Author: Daniele Mazzocchio
+Author-email: danix@kernel-panic.it
+License: OSI-Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: BSD :: OpenBSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Networking :: Firewalls
+License-File: LICENSE.md
