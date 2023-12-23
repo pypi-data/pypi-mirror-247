@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyseg2/__init__.py
+pyseg2/binaryblocks.py
+pyseg2/seg2file.py
+pyseg2/write_obspy_seg2.py
+pyseg2.egg-info/PKG-INFO
+pyseg2.egg-info/SOURCES.txt
+pyseg2.egg-info/dependency_links.txt
+pyseg2.egg-info/requires.txt
+pyseg2.egg-info/top_level.txt
