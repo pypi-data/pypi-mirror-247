@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+mostly_python.egg-info/PKG-INFO
+mostly_python.egg-info/SOURCES.txt
+mostly_python.egg-info/dependency_links.txt
+mostly_python.egg-info/top_level.txt
+mostlyai/__init__.py
