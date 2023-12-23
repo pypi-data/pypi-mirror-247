@@ -1,0 +1,16 @@
+verysimplemodule_alison/__init__.py,sha256=12SPL8eIu-yufhFTZVQ7WlR-Pez1RoWhsqg9Hu_eayY,43
+verysimplemodule_alison/add.py,sha256=gQsCvZVdnkWlfYOWGRYg0DKNewyIlmH4KIaMYaX0nA4,90
+verysimplemodule_alison/subtract.py,sha256=8Kvwt4kvYe-HGQXDznZhme7khfwNDFx4xlmksfqEzAE,100
+verysimplemodule_alison/extra/__init__.py,sha256=jlPp0eNszgaC9tSoJZs3z0p3BtpyfGHhCD1lpvxGxYw,46
+verysimplemodule_alison/extra/divide.py,sha256=Z5c7-L4yrC83Ygu2eTVP1mGztE4UJ9D12q1nSiHCIUg,97
+verysimplemodule_alison/extra/multiple.py,sha256=pjyyjbpjcmJOUN3DgM99BkmvMn3G6XrnP8yD779wdZM,101
+verysimplemodule_alisonVitor/__init__.py,sha256=12SPL8eIu-yufhFTZVQ7WlR-Pez1RoWhsqg9Hu_eayY,43
+verysimplemodule_alisonVitor/add.py,sha256=kG2G06AmsPBdJ5wd0cFVns6E8MtM45s4pwdxtxU9AR0,44
+verysimplemodule_alisonVitor/subtract.py,sha256=x3-OTYfPP8n8Hf2SxvDve5mdiEm3Kn-cV7zFrgwtxF8,49
+verysimplemodule_alisonVitor/extra/__init__.py,sha256=jlPp0eNszgaC9tSoJZs3z0p3BtpyfGHhCD1lpvxGxYw,46
+verysimplemodule_alisonVitor/extra/divide.py,sha256=bm-I7rkQxQzOOF1AgyZ6kGwU0dJGrOu6HuGMoZMZsfs,47
+verysimplemodule_alisonVitor/extra/multiple.py,sha256=XHAcD7d1TiAjqAY3P2zYZq5Ehp6b6dku-2b1dzU_r2g,49
+verysimplemodule_alisonVitor-0.1.8.dist-info/METADATA,sha256=JE6LgLtp5pjVCLIreQai4O7ytpwAZjTMVyQ9Nk73H8o,223
+verysimplemodule_alisonVitor-0.1.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+verysimplemodule_alisonVitor-0.1.8.dist-info/top_level.txt,sha256=Thzxgy4XwPDJsPGLu7ziEm38xfWePbUinuiiHEDz1FY,29
+verysimplemodule_alisonVitor-0.1.8.dist-info/RECORD,,
