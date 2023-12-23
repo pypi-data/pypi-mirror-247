@@ -1,0 +1,10 @@
+compito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compito/__main__.py,sha256=aVZdpxx4Y73yOREOa1IEpwnNcFA7DceRxjm-p4ZocP0,177
+compito/command.py,sha256=c7O04nEMqpJYSw59wa2JkfD2M3YrDJMpOedUNtnjgaA,1247
+compito/command_manager.py,sha256=-Zmvbh1nUa4TqFJ5AsEsYe4ngS3WN8EuJEn8Pr0fSXw,2566
+compito/schedule_manager.py,sha256=ySUmhX_7oq3HLhRt6lwfO8XLMyKbcDgOnpQEK9B3nQo,1074
+compito/scheduler.py,sha256=NiBOq4IoM1Fa1_tUHFnDTgAL_j_oAc7lW4KwFhKoLDE,1443
+compito/utils.py,sha256=uZ_cIUw-ZMqmMEzSJnzsZjyRlommbubGQUBRyjpmUrk,1372
+compito-0.1.0.dist-info/METADATA,sha256=V6OTPGTvXmYHyNwyIbo4VPqx-qV7UKX_hByySI0YOp4,1398
+compito-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+compito-0.1.0.dist-info/RECORD,,
