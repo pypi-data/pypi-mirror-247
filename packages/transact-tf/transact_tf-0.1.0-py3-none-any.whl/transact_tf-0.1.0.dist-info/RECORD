@@ -1,0 +1,10 @@
+transact/__init__.py,sha256=QfH2c8nBItJAwiQbAIYvTV2BVdLNVZvcV0pYWDu2-Kk,90
+transact/test_transact.py,sha256=gCbTMVSfX0CJSkcIxY-EMj-gZ5kkEwxjXAM71ethcD4,123
+transact/transact.py,sha256=146q2s5BG18ihyza5YLxtuzFe9sK4j6wc-l0QRLnkVM,5747
+transact/transact_config.py,sha256=9tWaHGqi9IzgqF5zEkxaes5ATpPWmdaY-tc3Dm_S3oc,1265
+transact/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+transact_tf-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+transact_tf-0.1.0.dist-info/METADATA,sha256=2OQMyrpxic-bnVCBqWrPNvBc7D5DT1HbXz4G7GnYEn4,7404
+transact_tf-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+transact_tf-0.1.0.dist-info/top_level.txt,sha256=4CNbvJfD85E8ImoJHHfFvkW3IK9en2KuzSc6pO-Jd2Y,9
+transact_tf-0.1.0.dist-info/RECORD,,
