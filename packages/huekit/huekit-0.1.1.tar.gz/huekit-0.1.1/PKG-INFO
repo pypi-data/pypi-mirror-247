@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: huekit
+Version: 0.1.1
+Summary: Enables ANSI escape code support for Windows 10 terminal. Has 8-bit ANSI color presets.
+Author-email: AuraPy <zayanarshad@aurapy.co.uk>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# HueKit
+
+Huekit is a simple package which lets you style and color text. Unlike colorama and other python text color-izers, huekit also lets you style text, and has more color variety than colorama.
+
+# How To Use
+
+The following is a code block which will later be explained, showing how to use huekit:
+
+```Python
+from huekit import huekit
+
+print(huekit.color("red") + huekit.bgcolor("blue") + "This text is red (with a blue background)," + huekit.style("bold") + " And this text is bold!")
+```
+
+```from huekit import huekit```: import the library.
+
+```huekit.color("red")"```: this is huekit's color function. For a full list of the avaliable colors, please run ```huekit.colors()```.
+
+```huekit.bgcolor("blue")```: this is huekit's background color function. For a full list of the avaliable background colors, please run ```huekit.bgcolors()```.
+
+```huekit.style("bold")```: this is huekit's style function. For a full list of the avaliable styles, please run ```huekit.styles()```.
+
+# Notes
+
+* ```huekit.color("white")``` resets all effects, doesn't just change the color to white.
+* You can concatenate styles, background colors and colors together.
+
+If you just want to fix the Windows (10) terminal ANSI support, run ```huekit.fix_windows_please()```. It is safe to run this multiple times and run this on other OSes (this won't do anything).
+
+# Warnings
+
+* This has not been tested on Windows versions below Windows 10.
+* When this module is imported, ```fix_windows_please()``` is automatically called.
+
+Be cautious of these factors. These are most probably not going to be fixed.
