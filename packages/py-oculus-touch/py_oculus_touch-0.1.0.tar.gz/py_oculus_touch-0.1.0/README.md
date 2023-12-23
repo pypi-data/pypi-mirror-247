@@ -1,0 +1,616 @@
+# What is it?
+
+This is a python library that allows you to interface with your Oculus Touch controllers and headset. It is a wrapper for the [auto_oculus_touch](https://github.com/rajetic/auto_oculus_touch/) project.
+
+With it, you can read the current state of the controllers and headset, send button presses to the controller, or move the thumbsticks.
+
+# Installation
+
+```bash
+pip install py_oculus_touch
+```
+
+# Example Usage
+
+Below is a short program that will vibrate both controllers for 1 second whenever the X button is pressed while the headset is being worn.
+
+```python
+from py_oculus_touch import OculusTouch, OculusTouchControllerEnum
+
+oculus = OculusTouch()
+
+while True:
+    print("\n")
+
+    wearing = oculus.Wearing()
+    print(f"Headset is {'ON' if wearing else 'OFF'} your head")
+
+    x = oculus.GetPositionX(OculusTouchControllerEnum.Head)
+    y = oculus.GetPositionY(OculusTouchControllerEnum.Head)
+    z = oculus.GetPositionZ(OculusTouchControllerEnum.Head)
+    yaw = oculus.GetYaw(OculusTouchControllerEnum.Head)
+    pitch = oculus.GetPitch(OculusTouchControllerEnum.Head)
+    roll = oculus.GetRoll(OculusTouchControllerEnum.Head)
+    print(
+        f"Headset Position: ({x}, {y}, {z}), Yaw: {yaw}, Pitch: {pitch}, Roll: {roll}"
+    )
+
+    buttons_down: list = oculus.GetButtonsDownList() # Get a list of buttons that are currently held down
+    sensors_touched: list = oculus.GetTouchDownList() # Get a list of capacitive sensors that are currently being touched
+    print(f"These buttons are down: {buttons_down}")
+    print(f"These sensors are touched: {sensors_touched}")
+
+    print("Here's a vibration for fun")
+    oculus.Vibrate(OculusTouchControllerEnum.Left) # Vibrate the left controller
+    oculus.Vibrate(OculusTouchControllerEnum.Right) # Vibrate the right controller
+
+    oculus.PollAndSleep(1.0) # Poll and wait for 1 second
+```
+
+This is a smaple output from the above program:
+
+```
+Headset is ON your head
+Headset Position: (0.002324591390788555, 0.0881958156824112, -0.02958393096923828), Yaw: 0.26628559827804565, Pitch: 32.98610305786133, Roll: -2.244016647338867
+These buttons are down: []
+These sensors are touched: []
+Here's a vibration for fun
+
+
+Headset is ON your head
+Headset Position: (0.0005310606211423874, 0.09536674618721008, 0.0015068724751472473), Yaw: -0.9234217405319214, Pitch: 35.654449462890625, Roll: -3.4883065223693848
+These buttons are down: []
+These sensors are touched: [<OculusTouchButtonEnum.RThumb: 4>, <OculusTouchButtonEnum.LThumb: 1024>]
+Here's a vibration for fun
+
+
+Headset is ON your head
+Headset Position: (3.6899931728839874e-05, 0.09039056301116943, -0.018536627292633057), Yaw: 3.5531980991363525, Pitch: 33.512542724609375, Roll: -5.120441913604736
+These buttons are down: [<OculusTouchButtonEnum.RThumb: 4>, <OculusTouchButtonEnum.LThumb: 1024>]
+These sensors are touched: [<OculusTouchButtonEnum.RThumb: 4>, <OculusTouchButtonEnum.LThumb: 1024>]
+Here's a vibration for fun
+
+
+Headset is ON your head
+Headset Position: (0.009187383577227592, 0.0899086445569992, -0.02320261299610138), Yaw: 5.528964042663574, Pitch: 33.527103424072266, Roll: -5.911553382873535
+These buttons are down: []
+These sensors are touched: [<OculusTouchButtonEnum.A: 1>, <OculusTouchButtonEnum.B: 2>, <OculusTouchButtonEnum.X: 256>, <OculusTouchButtonEnum.Y: 512>, <OculusTouchButtonEnum.LThumb: 1024>]
+Here's a vibration for fun
+```
+
+# API Reference
+
+## InitOculus
+
+Initialize the Oculus API.
+
+### Parameters
+
+- `poll: boolean` (Optional): If true, polls the Oculus API after initializing. Defaults to true.
+
+### Returns
+
+- `number`: Return code from the initialization process.
+
+## Poll
+
+Polls the Oculus Touch API for state updates.
+
+### Parameters
+
+_None_
+
+### Returns
+
+_None_
+
+## Sleep
+
+Blocks the runtime and waits for the specified length. Useful for sleeping between polls.
+
+### Parameters
+
+- `length: number` (Optional): Length of time to sleep in seconds. Defaults to 0.1.
+
+### Returns
+
+- `Promise<void>`: A Promise that resolves after the specified length of time.
+
+## PollAndSleep
+
+Combines the `Poll()` and `Sleep()` functions.
+
+### Parameters
+
+- `length: number` (Optional): Length of time to sleep in seconds. Defaults to 0.1.
+
+### Returns
+
+- `Promise<void>`: A Promise that resolves after the specified length of time.
+
+## Wearing
+
+Checks if the user is wearing the headset.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `boolean`: True if the user is wearing the headset, false otherwise.
+
+## IsPressed
+
+Checks if the specified button was pressed in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+- `button: OculusTouchButtonEnum`: The button to check.
+
+### Returns
+
+- `boolean`: True if the button was pressed, false otherwise.
+
+## IsReleased
+
+Checks if the specified button was released in the current poll.
+
+### Parameters
+
+- `button: OculusTouchButtonEnum`: The button to check.
+
+### Returns
+
+- `boolean`: True if the button was released, false otherwise.
+
+## IsDown
+
+Checks if the specified button is currently held down. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+- `button: OculusTouchButtonEnum`: The button to check.
+
+### Returns
+
+- `boolean`: True if the button is held down, false otherwise.
+
+## IsTouchPressed
+
+Checks if the specified button's capacitor was touched in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+- `sensor: OculusTouchSensorEnum`: The sensor to check.
+
+### Returns
+
+- `boolean`: True if the button's capacitor was touched, false otherwise.
+
+## IsTouchReleased
+
+Checks if the specified button's capacitor was released in the current poll.
+
+### Parameters
+
+- `sensor: OculusTouchSensorEnum`: The sensor to check.
+
+### Returns
+
+- `boolean`: True if the button's capacitor was released, false otherwise.
+
+## IsTouchDown
+
+Checks if the specified button's capacitor is currently being touched. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+- `sensor: OculusTouchSensorEnum`: The sensor to check.
+
+### Returns
+
+- `boolean`: True if the button's capacitor is being touched, false otherwise.
+
+## Reached
+
+Checks whether a specified axis has reached a specified threshold value in between the last poll.
+
+### Parameters
+
+- `axis: OculusTouchAxisEnum`: The axis to check.
+- `value: number`: The threshold value to check against.
+
+### Returns
+
+- `number`: Return code indicating if the axis has reached the threshold. 0 if the threshold wasn't crossed. 1 if the threshold was crossed in the positive direction. -1 if it was crossed in the negative direction.
+
+## GetAxis
+
+Returns the value of the specified axis.
+
+### Parameters
+
+- `axis: OculusTouchAxisEnum`: The axis to query.
+
+### Returns
+
+- `number`: The current value of the specified axis.
+
+## GetButtonsDown
+
+Returns a bitmask of all buttons currently held down. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `number`: Bitmask representing buttons currently held down.
+
+## GetButtonsDownList
+
+Returns a list of all buttons currently held down. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchButtonEnum[]`: List of buttons currently held down.
+
+## GetButtonsReleased
+
+Returns a bitmask of all buttons released in the current poll.
+
+### Parameters
+
+_None_
+
+## Returns
+
+- `number`: Bitmask representing buttons released in the current poll.
+
+## GetButtonsReleasedList
+
+Returns a list of all buttons released in the current poll.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchButtonEnum[]`: List of buttons released in the current poll.
+
+## GetButtonsPressed
+
+Returns a bitmask of all buttons pressed in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `number`: Bitmask representing buttons pressed in the current poll.
+
+## GetButtonsPressedList
+
+Returns a list of all buttons pressed in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchButtonEnum[]`: List of buttons pressed in the current poll.
+
+## GetTouchDown
+
+Returns a bitmask of all buttons whose capacitors are currently being touched. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `number`: Bitmask representing buttons whose capacitors are currently being touched.
+
+## GetTouchDownList
+
+Returns a list of all buttons whose capacitors are currently being touched. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchSensorEnum[]`: List of buttons whose capacitors are currently being touched.
+
+## GetTouchPressed
+
+Returns a bitmask of all buttons whose capacitors were touched in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `number`: Bitmask representing buttons whose capacitors were touched in the current poll.
+
+## GetTouchPressedList
+
+Returns a list of all buttons whose capacitors were touched in the current poll. "Pressed" and "Down" are not the same thing.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchSensorEnum[]`: List of buttons whose capacitors were touched in the current poll.
+
+## GetTouchReleased
+
+Returns a bitmask of all buttons whose capacitors were released in the current poll.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `number`: Bitmask representing buttons whose capacitors were released in the current poll.
+
+## GetTouchReleasedList
+
+Returns a list of all buttons whose capacitors were released in the current poll.
+
+### Parameters
+
+_None_
+
+### Returns
+
+- `OculusTouchSensorEnum[]`: List of buttons whose capacitors were released in the current poll.
+
+## GetTrigger
+
+Returns the value of a specified trigger.
+
+### Parameters
+
+- `hand: OculusTouchHandEnum`: The hand (left or right) of the trigger.
+- `trigger: OculusTouchTriggerEnum`: The trigger (index or hand) to query.
+
+### Returns
+
+- `number`: The value of the specified trigger.
+
+## GetThumbStick
+
+Returns the value of a specified thumbstick's axis.
+
+### Parameters
+
+- `hand: OculusTouchHandEnum`: The hand (left or right) of the thumbstick.
+- `axis: OculusTouchAxisEnum`: The axis (x or y) of the thumbstick to query.
+
+### Returns
+
+- `number`: The value of the specified thumbstick's axis.
+
+## Vibrate
+
+Vibrates a specified controller.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to vibrate.
+- `frequency: OculusTouchVibrationFrequencyEnum` (Optional): The vibration frequency. Default is `OculusTouchVibrationFrequencyEnum.Medium`.
+- `amplitude: number` (Optional): The amplitude of the vibration, range [0, 255]. Default is 128.
+- `length: number` (Optional): The length of the vibration in seconds, 0 for infinite. Default is 1.0.
+
+### Throws
+
+- `Error`: If the amplitude is not in the range [0, 255].
+
+### Returns
+
+_None_
+
+## GetYaw
+
+Returns the yaw of a specified controller. Yaw is rotation around the y-axis.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The yaw (rotation around the y-axis) of the specified controller.
+
+## GetPitch
+
+Returns the pitch of a specified controller. Pitch is rotation around the x-axis.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The pitch (rotation around the x-axis) of the specified controller.
+
+## GetRoll
+
+Returns the roll of a specified controller. Roll is rotation around the z-axis.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The roll (rotation around the z-axis) of the specified controller.
+
+## GetPositionX
+
+Returns the x position of a specified controller.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The x position of the specified controller.
+
+## GetPositionY
+
+Returns the y position of a specified controller.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The y position of the specified controller.
+
+## GetPositionZ
+
+Returns the z position of a specified controller.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller to query.
+
+### Returns
+
+- `number`: The z position of the specified controller.
+
+## SetTrackingOrigin
+
+Sets the tracking origin of the headset. This is the point in space that the headset will consider to be the origin (0, 0, 0).
+
+### Parameters
+
+- `origin: OculusTouchTrackingOriginEnum`: The tracking origin to set.
+
+### Returns
+
+_None_
+
+## ResetFacing
+
+Resets the yaw of a specified controller. Yaw is rotation around the y-axis.
+
+### Parameters
+
+- `controller: OculusTouchControllerEnum`: The controller for which to reset the yaw.
+
+### Returns
+
+_None_
+
+## InitvJoy
+
+Initializes the vJoy driver. This must be called before any vJoy functions can be used.
+
+### Parameters
+
+- `device: number`: The vJoy device number to initialize.
+
+### Throws
+
+- `Error`: If there is an error during initialization.
+
+### Returns
+
+_None_
+
+## SetvJoyAxis
+
+Sets the value of a specified vJoy axis.
+
+### Parameters
+
+- `axis: OculusTouchvJoyDeviceEnum`: The vJoy axis to set.
+- `value: number`: The value to set, range [0.0, 1.0].
+
+### Returns
+
+_None_
+
+## SetvJoyAxisU
+
+Sets the value of a specified vJoy axis using a different range.
+
+### Parameters
+
+- `axis: OculusTouchvJoyDeviceEnum`: The vJoy axis to set.
+- `value: number`: The value to set, range [0.0, 1.0], mapped to [-1.0, 1.0].
+
+### Returns
+
+_None_
+
+## SetvJoyButton
+
+Sets the value of a specified vJoy button.
+
+### Parameters
+
+- `button: OculusTouchButtonEnum`: The vJoy button to set.
+- `value: number`: The value to set, range [0, 1].
+
+### Returns
+
+_None_
+
+## SendRawMouseMove
+
+Sends a raw mouse move event to the host computer.
+
+### Parameters
+
+- `x: number`: The relative movement in the x direction.
+- `y: number`: The relative movement in the y direction.
+- `z: number`: The relative movement in the z direction.
+
+### Returns
+
+_None_
+
+## SendRawMouseButtonDown
+
+Sends a raw mouse button down event to the host computer.
+
+### Parameters
+
+- `button: OculusTouchRawMouseButtonEnum`: The button to press.
+
+### Returns
+
+_None_
+
+## SendRawMouseButtonUp
+
+Sends a raw mouse button up event to the host computer.
+
+### Parameters
+
+- `button: OculusTouchRawMouseButtonEnum`: The button to release.
+
+### Returns
+
+_None_
