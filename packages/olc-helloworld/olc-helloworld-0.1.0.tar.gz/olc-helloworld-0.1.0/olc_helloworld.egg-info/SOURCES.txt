@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+olc_helloworld.egg-info/PKG-INFO
+olc_helloworld.egg-info/SOURCES.txt
+olc_helloworld.egg-info/dependency_links.txt
+olc_helloworld.egg-info/top_level.txt
