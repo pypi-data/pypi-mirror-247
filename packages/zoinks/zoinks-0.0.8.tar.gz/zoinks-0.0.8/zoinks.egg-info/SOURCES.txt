@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+zoinks/__init__.py
+zoinks/__main__.py
+zoinks/exceptions.py
+zoinks/exit_codes.py
+zoinks.egg-info/PKG-INFO
+zoinks.egg-info/SOURCES.txt
+zoinks.egg-info/dependency_links.txt
+zoinks.egg-info/entry_points.txt
+zoinks.egg-info/not-zip-safe
+zoinks.egg-info/requires.txt
+zoinks.egg-info/top_level.txt
