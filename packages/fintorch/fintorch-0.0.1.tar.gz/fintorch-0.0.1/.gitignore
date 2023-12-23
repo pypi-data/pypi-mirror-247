@@ -1,0 +1,17 @@
+# project
+/examples/data
+/examples/config
+
+# Python environments
+**/env/
+**/venv/
+
+# Python distribution files
+**/dist
+
+# Pycharm
+**/.idea/
+**/__pycache__/
+
+# jupyter lab
+**/.ipynb_checkpoints/

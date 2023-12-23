@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fintorch
+Version: 0.0.1
+Summary: Financial deep learning and backtesting and trading pipeline
+Author-email: Sahand Nazarzadeh <sahand.nazarzadeh@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
