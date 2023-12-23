@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: verysimplemodule-anna
+Version: 0.0.5
+Summary: Pacote inicial
+Author: anna
+Author-email: annabeatriz_2019@outlook.com
+Keywords: python,primeiro pacote
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+
+Pacote inicial com contas simples de matematica
