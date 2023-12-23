@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: olc-helloworld
+Version: 0.1.0
+Summary: Simple Hello World Library
+Author: olc-1910
+Author-email: xley.games@gmail.com
+Keywords: python,hello,world,hello world,test
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+A package that allows to print "Hello World!".
