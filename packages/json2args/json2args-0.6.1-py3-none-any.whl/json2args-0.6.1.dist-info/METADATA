@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: json2args
+Version: 0.6.1
+Summary: Read keyword arguments from json file automagically
+Author: Mirko Mälicke
+Author-email: mirko@hydrocode.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: python-dateutil
+Requires-Dist: typing-extensions
+Provides-Extra: data
+Requires-Dist: pandas ; extra == 'data'
+Requires-Dist: polars ; extra == 'data'
+Requires-Dist: pyarrow ; extra == 'data'
+Requires-Dist: xarray ; extra == 'data'
+Requires-Dist: netCDF4 ; extra == 'data'
+Requires-Dist: dask ; extra == 'data'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+# json2args
+Read keyword arguments from json file automagically.
+
+This package is part of the tool-runner stack.
+If you build docker images for tool run based on a Python image,
+this package will help you to parse parametrization files 
+automagically.
