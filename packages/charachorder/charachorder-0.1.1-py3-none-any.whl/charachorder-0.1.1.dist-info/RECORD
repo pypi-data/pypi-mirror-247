@@ -1,0 +1,11 @@
+charachorder/__init__.py,sha256=E6NacMUaPNAUSb-CFBORKTBD1t3kbtrc_eyP5capkns,423
+charachorder/__main__.py,sha256=hAFZgdSnQISG6UuUOjfMOXCEW-ePRrPkh9bQY1ZEO98,242
+charachorder/device.py,sha256=yyjqUCqoi0j1opCBnvdujG7ovAdB-TGtvsUY5jz7dAk,1910
+charachorder/errors.py,sha256=GK533wdoJ3AmUEwuLkQmNmXJOlbfg5TJbEJaB3RtLFA,1123
+charachorder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+charachorder/serial.py,sha256=UVUfVDHnd5zste8ecPT_CC4cDTk6EF3j8p1yoYccsxA,6071
+charachorder-0.1.1.dist-info/LICENSE,sha256=RwQ4Lk94Xs9XzvYGlKqOqF8He1TNgPcswlRmKAjKW0c,1075
+charachorder-0.1.1.dist-info/METADATA,sha256=s3LUB2bftzVT8UjcSLac_LqAq8-Z8yLoDscvSk3q5II,2115
+charachorder-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+charachorder-0.1.1.dist-info/top_level.txt,sha256=BJWyGnoCs6U7-2YhQCWsEP39_X2UqD-o6fdyB0DQ2nE,13
+charachorder-0.1.1.dist-info/RECORD,,
