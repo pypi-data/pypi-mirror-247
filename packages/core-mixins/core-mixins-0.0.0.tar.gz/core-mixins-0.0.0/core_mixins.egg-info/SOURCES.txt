@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+core_mixins.egg-info/PKG-INFO
+core_mixins.egg-info/SOURCES.txt
+core_mixins.egg-info/dependency_links.txt
+core_mixins.egg-info/requires.txt
+core_mixins.egg-info/top_level.txt
+library_name/__init__.py
