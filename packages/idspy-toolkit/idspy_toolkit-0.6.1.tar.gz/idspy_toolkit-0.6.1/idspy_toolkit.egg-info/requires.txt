@@ -1,0 +1,6 @@
+idspy_dictionaries>=34000.2.0
+numpy>=1.22
+h5py>=3.6.0
+
+[test]
+pytest>=7.0.0
