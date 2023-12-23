@@ -1,0 +1,10 @@
+google_workspace_group_manager/__init__.py,sha256=iuna0bEZsnkLa1fsvDoFSNuvI4mw5mFHeGPkVBtsffo,187
+google_workspace_group_manager/config.py,sha256=046cdnPN-M43UtgjyzwHGSuHVi9kzIClUKHoYC49hBI,949
+google_workspace_group_manager/group_manager.py,sha256=ciRRDq2f1vIObIP4Cl0y77tw6ofQCQ9dCbMrDMLU9RQ,3117
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_group_manager.py,sha256=eTpEU88eUmDcHIcqT9JGexxXUSY0lv_iKHxovkLuFfo,3039
+Google_Group_Admin_API-1.0.0.dist-info/LICENSE,sha256=HbuCVWhKa9YOtBHs9w3NPfaVJpejY2dDpBjoRpPAKGM,1081
+Google_Group_Admin_API-1.0.0.dist-info/METADATA,sha256=sY2gKHhYI3Qnz2c6RUehh4MJlnWCrOvF_v6iazmaEo8,3430
+Google_Group_Admin_API-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Google_Group_Admin_API-1.0.0.dist-info/top_level.txt,sha256=n4xa1u22-pQHUpA0IVdfvvgSRwuh69Bg95TMI-k5lGA,37
+Google_Group_Admin_API-1.0.0.dist-info/RECORD,,
