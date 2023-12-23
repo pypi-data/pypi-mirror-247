@@ -1,0 +1,72 @@
+from typing import Optional
+
+from bib2tex.config import COL_ENTRYTYPE, ENCODING, LATEX_INDENT
+
+
+def month_to_number(month: str) -> int:
+    """Convert a three-letter month abbreviation to its numeric representation."""
+    months_mapping = {
+        "jan": 1,
+        "feb": 2,
+        "mar": 3,
+        "apr": 4,
+        "may": 5,
+        "jun": 6,
+        "jul": 7,
+        "aug": 8,
+        "sep": 9,
+        "oct": 10,
+        "nov": 11,
+        "dec": 12,
+    }
+    return months_mapping.get(month.lower(), 0)
+
+
+def sort_list_of_dicts(
+    input_list: list[dict[str, any]],
+    primary_key: str,
+    secondary_key: Optional[str],
+    reverse: bool = True,
+) -> list[dict[str, any]]:
+    """Sort a list of dictionaries based on primary key (and optional secondary key)."""
+    return sorted(
+        input_list,
+        key=lambda x: (
+            x[primary_key],
+            month_to_number(x[secondary_key]) if secondary_key else None,
+        ),
+        reverse=reverse,
+    )
+
+
+def filter_by_key(
+    entries: list[dict[str, any]], key: str, value: str
+) -> list[dict[str, any]]:
+    """Filter a list of dictionaries based on a key-value pair.
+
+    The check is whether the provided value is a substring of the dict's
+    value for the specified key in the entries, not if they are equal.
+    """
+    result = []
+    for entry in entries:
+        if key in entry.keys():
+            if value in str(entry[key]):
+                result.append(entry)
+    return result
+
+
+def filter_entries(
+    entries: list[dict[str, any]], author: str, entrytype: Optional[str], reverse=False
+) -> list[dict[str, any]]:
+    """Filter BibTeX entries for author (and entrytype).
+
+    Entries are returned sorted by year and month. The newest entry
+    will be on top, set reverse to True to have it at the bottom.
+    """
+    result = filter_by_key(entries, "author", author)
+    if entrytype and len(result) > 0:
+        result = filter_by_key(result, COL_ENTRYTYPE, entrytype)
+    # inversion of reverse since the default should be new (top) to old (bottom),
+    # but the functions uses sorted, which sorts in ascending order if not revered
+    # (smaller to larger years).
+    return sort_list_of_dicts(result, "year", None, reverse=not reverse)
