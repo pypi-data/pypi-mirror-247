@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: json-rules-engine
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/MatthewFay/json-rules-engine
+Project-URL: Issues, https://github.com/MatthewFay/json-rules-engine/issues
+Author: Matthew Fay
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# json-rules-engine
+JSON Rules Engine
