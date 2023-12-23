@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Aquaref"
+version = "0.0.1a1"
+description = "WinForms UI Pack"
+authors = ["XiangQinxi <XiangQinxi@outlook.com>"]
+readme = "README.md"
+packages = [
+    { include = "aquaref" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pythonnet = "^3.0.3"
+darkdetect = "^0.8.0"
+aquaref-log = "^0.0.1a1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
