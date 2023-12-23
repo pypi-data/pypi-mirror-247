@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+Calculator_mgaidy.egg-info/PKG-INFO
+Calculator_mgaidy.egg-info/SOURCES.txt
+Calculator_mgaidy.egg-info/dependency_links.txt
+Calculator_mgaidy.egg-info/top_level.txt
+calculator_mgaidy/__init__.py
+calculator_mgaidy/calculator.py
+calculator_mgaidy.egg-info/PKG-INFO
+calculator_mgaidy.egg-info/SOURCES.txt
+calculator_mgaidy.egg-info/dependency_links.txt
+calculator_mgaidy.egg-info/top_level.txt
+tests/test_calculator.py
