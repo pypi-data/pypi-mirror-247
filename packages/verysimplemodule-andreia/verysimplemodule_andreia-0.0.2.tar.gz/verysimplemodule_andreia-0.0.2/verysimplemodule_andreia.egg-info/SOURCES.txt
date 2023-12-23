@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule_andreia/__init__.py
+verysimplemodule_andreia/add.py
+verysimplemodule_andreia/subtract.py
+verysimplemodule_andreia.egg-info/PKG-INFO
+verysimplemodule_andreia.egg-info/SOURCES.txt
+verysimplemodule_andreia.egg-info/dependency_links.txt
+verysimplemodule_andreia.egg-info/requires.txt
+verysimplemodule_andreia.egg-info/top_level.txt
+verysimplemodule_andreia/extra/__init__.py
+verysimplemodule_andreia/extra/divide.py
+verysimplemodule_andreia/extra/multiple.py
