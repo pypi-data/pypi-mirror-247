@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: semirings
+Version: 0.1
+Summary: Semirings are a powerful abstraction for dynamic programming.
+Author: Tim Vieira
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: graphviz
+Requires-Dist: pytest
+Requires-Dist: arsenal
+
