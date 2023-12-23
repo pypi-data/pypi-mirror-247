@@ -1,0 +1,11 @@
+rules/__init__.py,sha256=GMlp6-JivtZUIf9EtgAOQHBPtkwUVEUVPtyPbAzdVkA,471
+rules/flask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rules/flask/views.py,sha256=GoDlVB_6UqoQVc9eYo-XufsLHoWX0FOjaMB20jfcodI,2174
+rules/permissions.py,sha256=0oq-mYBJ34MDB6vBMKkGuoPfs1IUCkuqCkeAP4a__fs,701
+rules/predicates.py,sha256=mvQEjlzKzkBtjCGkGaf79uCMGpEdNugMLIEhUyNEvM4,10246
+rules/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rules/rulesets.py,sha256=vGW3_p4g1XKhKjiv9Al-8RNBSwVq_VPd8BCY6v7LgoI,1027
+flask_rules-0.1.0.dist-info/LICENSE,sha256=XoALj5CQzYlTgAidzMpaUZWSL19L8LYK2jEJCw_s3-s,1094
+flask_rules-0.1.0.dist-info/METADATA,sha256=uMMBXOXmLGwSnJqCniLBlr5aAqdGwDzHNhuUrbr-Eho,1990
+flask_rules-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flask_rules-0.1.0.dist-info/RECORD,,
