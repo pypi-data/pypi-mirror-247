@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: very_simple_kawan-1
+Version: 0.0.5
+Summary: Pacote de teste python
+Author: Kawan S. Dias
+Author-email: kawanevilgenius321@gmai.com
+Keywords: python,primeiro pacote python
+Classifier: Development Status :: 3 - Alpha
+
+Pacote de teste para o curso de PythonDica de uso:                            import very_simple_kawan as pacoteimport very_simple_kawan.extra as extra print(pacote.add(1,2))  print(pacote.sub(1,2))  print(extra.multiply(1,2))  print(extra.divide(1,2))
