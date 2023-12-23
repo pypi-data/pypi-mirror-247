@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vt100logging
+Version: 0.0.1
+Summary: VT100 logging for Python
+Author-email: Grzegorz Grzęda <grzegorz.grzeda@g2labs.pl>
+Project-URL: Homepage, https://github.com/g2labs-grzegorz-grzeda/vt100logging
+Project-URL: Issues, https://github.com/g2labs-grzegorz-grzeda/vt100logging/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# logging-vt100
+Python VT100 flavored logging package
