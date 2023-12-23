@@ -1,0 +1,2 @@
+[console_scripts]
+ivette = run_ivette:main
