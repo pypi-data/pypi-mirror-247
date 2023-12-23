@@ -1,0 +1,295 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: errers
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-4f5ef123-f9b3-4d79-8382-02811e7ecff7
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-1.1.2
+Created: 2023-12-22T22:48:29Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-688fe642f6bd3177d8c5ba5f3f18ecb2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5b8b0696709680d2e0992e8832e7a815
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-44f3167ff36c0dad154d5c6f24044970
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-dd5487825ee6f0705e2152ae01579141
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-67093c4d2ee0a7c2d096b6f011e65b51
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-861e9facbf8cb1ad2da513d53be4cb8f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a830a4b4fb7ddd2bc9cfbf7d9681567b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a2344156fc9113b383cd9f825b50825c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ba8472bd1967fa03e96f0276dbe13a00
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fde643ae1c884972dbfc5b8cac833312
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0925d0500fc175cc0b22141d67a92cef
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-86443b7016b96919d003a8e8af8dee5d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-15032f1d4d414bd51e7364f7041fbf77
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-17db97339cf315483dbe2876ac2c9c5d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f11e8ea822a8a2f3fb2b2d6d12530b58
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-08ba5dac8d915e27a7694856dba0f86b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d7f81255a4027c65a4d3a941a3c2c1bd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7d86609c484072a5c5e10d9181ff9499
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c2ef4bc219949893124c8e8779e784c0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9fef449154e4a4814b75fd7fee810bd5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fd309db775855449406783ead741bc7e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1c99656276fe2c9122c7915460922cd2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ac4876f4793dc2cbca986ac6d7980d21
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-da087a6541cf6c6f0b39be497614805b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e0dc8227c2508d874e540517d340b26d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b3136f7e255c37b0be64543a93bf8486
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c7f8ce6b51417662139d4ceb95b6dda7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-73f1ffaadb2b535549b9ba125f578620
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-470d1fcf0c18196c3172e19196f0fba7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-8ad6625b27792e36efa1e835982ce0aa
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-286e6724f95fe91a46d4dceb989c67f3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c71248c7d11cc9d280be674d1aa1857a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-aadeacdfd004f24d9ae576f2dc679b7c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f801fd4d0a48a4f963ed867b7e1ea1dc
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-688fe642f6bd3177d8c5ba5f3f18ecb2
+FileChecksum: SHA1: 04e3050ea42e92d4b0daf34c0470d356b4a4a219
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./CHANGELOG.rst
+SPDXID: SPDXRef-5b8b0696709680d2e0992e8832e7a815
+FileChecksum: SHA1: 1fdf5482fa1d8736bcca9501d1d905f0d1f89ea4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./CONTRIBUTING.rst
+SPDXID: SPDXRef-44f3167ff36c0dad154d5c6f24044970
+FileChecksum: SHA1: 27073e2c320fbcc1286cc93a5d1b3e100c57ca2c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./MANIFEST.in
+SPDXID: SPDXRef-dd5487825ee6f0705e2152ae01579141
+FileChecksum: SHA1: 2f75d2eb4cbb25b2a64e0aff4da134dac4b31dbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./Makefile
+SPDXID: SPDXRef-67093c4d2ee0a7c2d096b6f011e65b51
+FileChecksum: SHA1: a76a2433c02c947b62999e06aa54225cecb75948
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./README.rst
+SPDXID: SPDXRef-861e9facbf8cb1ad2da513d53be4cb8f
+FileChecksum: SHA1: 0ca72326d5e1f54d482082a89f884ea416d397d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./bundle/README.txt
+SPDXID: SPDXRef-a830a4b4fb7ddd2bc9cfbf7d9681567b
+FileChecksum: SHA1: bbf083dcbe85a274c20833e81385f7204cd06236
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./bundle/bundle.bat
+SPDXID: SPDXRef-a2344156fc9113b383cd9f825b50825c
+FileChecksum: SHA1: 23e6d68230bca4a573b424e35a9e142d8743a7ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./bundle/errers.spec
+SPDXID: SPDXRef-ba8472bd1967fa03e96f0276dbe13a00
+FileChecksum: SHA1: 4637ffd0d80630789ff1de66cf4847430142ebcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./bundle/main.py
+SPDXID: SPDXRef-fde643ae1c884972dbfc5b8cac833312
+FileChecksum: SHA1: 4fa96c778c1d8f10eea772bad75c5ae58d1907e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./pyproject.toml
+SPDXID: SPDXRef-0925d0500fc175cc0b22141d67a92cef
+FileChecksum: SHA1: e388ba50503f9693012c96be8381c02c3f126e37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./setup.py
+SPDXID: SPDXRef-86443b7016b96919d003a8e8af8dee5d
+FileChecksum: SHA1: be9080d5b3921d75dc64095ed3ce5716efc660fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/__init__.py
+SPDXID: SPDXRef-15032f1d4d414bd51e7364f7041fbf77
+FileChecksum: SHA1: 1fe18a82a0d28b0087bb7bef2fd35125bd869b7b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_app.py
+SPDXID: SPDXRef-17db97339cf315483dbe2876ac2c9c5d
+FileChecksum: SHA1: ff6c042dbf5eff29e27f8ec9127c455aec5347d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_cli.py
+SPDXID: SPDXRef-f11e8ea822a8a2f3fb2b2d6d12530b58
+FileChecksum: SHA1: f585892aecbddc5423f7896d9fe2b80f3ffad15b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_engine/__init__.py
+SPDXID: SPDXRef-08ba5dac8d915e27a7694856dba0f86b
+FileChecksum: SHA1: f82f42bdcb44af8f4fabf26a95cac64ff9a0abdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_engine/base.py
+SPDXID: SPDXRef-d7f81255a4027c65a4d3a941a3c2c1bd
+FileChecksum: SHA1: b9468991acdd22dbd3bf5767f070334e2edf62b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_engine/extractor.py
+SPDXID: SPDXRef-7d86609c484072a5c5e10d9181ff9499
+FileChecksum: SHA1: fc0422310558f9a78e1059169f5c2308ee34bb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_engine/latex.py
+SPDXID: SPDXRef-c2ef4bc219949893124c8e8779e784c0
+FileChecksum: SHA1: 348d754b2f6db4007c04ce98227689321e7b1903
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_engine/plain.py
+SPDXID: SPDXRef-9fef449154e4a4814b75fd7fee810bd5
+FileChecksum: SHA1: 2ab8a7d1c1551c815fbeed70e9302a015263714e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_gui.py
+SPDXID: SPDXRef-fd309db775855449406783ead741bc7e
+FileChecksum: SHA1: 86efdcd2cbac9a871db2851bd8208e85bbfb2f39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/_name.py
+SPDXID: SPDXRef-1c99656276fe2c9122c7915460922cd2
+FileChecksum: SHA1: c722dbeb369dccdd4e71178dd8a789b1cddcce1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/Makefile
+SPDXID: SPDXRef-ac4876f4793dc2cbca986ac6d7980d21
+FileChecksum: SHA1: 91bed415c32dc9e99aec6b046f0e64d026dd7276
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/README.txt
+SPDXID: SPDXRef-da087a6541cf6c6f0b39be497614805b
+FileChecksum: SHA1: d3d1bd3f3083a03c7f3d317f7a4c67755e3cfe41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/errers.ai
+SPDXID: SPDXRef-e0dc8227c2508d874e540517d340b26d
+FileChecksum: SHA1: 3d1998960507b1abf84831049afd1e3a7e115eea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/errers.icns
+SPDXID: SPDXRef-b3136f7e255c37b0be64543a93bf8486
+FileChecksum: SHA1: 7187ffa87df07ee5c9e6c3de5def7b1fc541c43d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/errers.ico
+SPDXID: SPDXRef-c7f8ce6b51417662139d4ceb95b6dda7
+FileChecksum: SHA1: a610e74deba74692ea194ca8475d480c42c21265
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/errers.png
+SPDXID: SPDXRef-73f1ffaadb2b535549b9ba125f578620
+FileChecksum: SHA1: 31f20e30e64a535a3f1c0ac04211419ed1184240
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/icon/errers32.png
+SPDXID: SPDXRef-470d1fcf0c18196c3172e19196f0fba7
+FileChecksum: SHA1: a63602fb2bf78d4f106be475a977ae30a1c819b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/rules/__init__.py
+SPDXID: SPDXRef-8ad6625b27792e36efa1e835982ce0aa
+FileChecksum: SHA1: ef5594dad7c54fe778ce11d1093af48f2de8ea39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/errers/rules/standard.py
+SPDXID: SPDXRef-286e6724f95fe91a46d4dceb989c67f3
+FileChecksum: SHA1: 7eb1d719d8a2dbabe1ebca0ddb84f7a93129a4cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./src/pylintrc
+SPDXID: SPDXRef-c71248c7d11cc9d280be674d1aa1857a
+FileChecksum: SHA1: 6c872193ed25717dd0b95cb1afe79696046f0128
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./templates/_version.py
+SPDXID: SPDXRef-aadeacdfd004f24d9ae576f2dc679b7c
+FileChecksum: SHA1: df303128a0485dc3821120d4f9f9e9e1a5deca80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+FileName: ./tests/test_rules.py
+SPDXID: SPDXRef-f801fd4d0a48a4f963ed867b7e1ea1dc
+FileChecksum: SHA1: 3562fd9cd35994a0774e0943d13ea05425f11363
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-MIT-DND
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2023 His Majesty in Right of Canada</text>
+
+LicenseID: LicenseRef-MIT-DND
+LicenseName: NOASSERTION
+ExtractedText: <text>MIT License
+
+Copyright (c) 2023 His Majesty in Right of Canada
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</text>
