@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sm4-utils
+Version: 1.0
+Summary: Simple wrapper over spym package for quick plotting of STM data in RHK's .sm4 format.
+Home-page: https://github.com/hollenlab/sm4_utils
+Author: Ben Campbell
+Author-email: ben.campbell@unh.edu
+License: MIT
+Keywords: STM,spym,sm4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
