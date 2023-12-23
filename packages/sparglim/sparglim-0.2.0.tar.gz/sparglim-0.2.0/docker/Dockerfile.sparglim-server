@@ -1,0 +1,10 @@
+FROM wh1isper/spark-connector-server:3.4.1
+
+ARG SPARGLIM_VERSION
+
+RUN pip install sparglim==${SPARGLIM_VERSION}
+
+ENTRYPOINT [ "tini" ,"--"]
+CMD [ "sparglim-server", "start" ]
+
+# docker buildx build --platform linux/amd64,linux/arm64/v8 -t wh1isper/sparglim-server:latest -f docker/Dockerfile.sparglim-server --push .
