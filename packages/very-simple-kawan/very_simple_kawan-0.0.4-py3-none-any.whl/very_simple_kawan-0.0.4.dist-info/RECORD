@@ -1,0 +1,10 @@
+very_simple_kawan/__init__.py,sha256=xz1zayEpCqvrE8gZ2JJtDIs1IavlI0A9UM0VoAe6nOc,52
+very_simple_kawan/add.py,sha256=dA0Hc65AUmbHyaxb__uDdeVXoPog9m3rgktZvzISQoo,32
+very_simple_kawan/sub.py,sha256=nbfNqUt7PCYY6PS6KZOYKU4UX1vb_JtJtQJASW6d8qs,31
+very_simple_kawan/extra/__init__.py,sha256=YrSEzep7FjIToOqxLwTDbWeltci-5kx0A_qpv8NsqL4,64
+very_simple_kawan/extra/divide.py,sha256=crYThphpYeAvmRfYQeKZ9PMBcp5YRW7V9Suui7MfJ1o,32
+very_simple_kawan/extra/multiply.py,sha256=_edfwom9MThkFOI0rHEcQEyYVOuTijKWfSE_dEvSg-k,34
+very_simple_kawan-0.0.4.dist-info/METADATA,sha256=S-n14fYvoc7Rf5by8itTi3274oMfXTFdaSSu7wAP92M,369
+very_simple_kawan-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+very_simple_kawan-0.0.4.dist-info/top_level.txt,sha256=_52aSioiF7Qxt8kABbN3FAy8MUuzAxqJxfDAGLelctU,18
+very_simple_kawan-0.0.4.dist-info/RECORD,,
