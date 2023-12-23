@@ -1,0 +1,2 @@
+[console_scripts]
+cfport = cfport.cli:main
