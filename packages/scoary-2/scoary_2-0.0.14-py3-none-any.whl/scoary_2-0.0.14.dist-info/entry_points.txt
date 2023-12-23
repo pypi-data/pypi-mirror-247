@@ -1,0 +1,4 @@
+[console_scripts]
+scoary2=scoary.scoary:main
+vcf2scoary=scoary.vcf2scoary:main
+
