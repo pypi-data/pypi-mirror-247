@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: corpus-preprocess
+Version: 0.0.6
+Summary: Utility functions to preprocess Phil. legalese in weasel-based flows.
+Home-page: https://mv3.dev
+Author: Marcelino G. Veloso III
+Author-email: contact@mv3.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: inflect (>=7.0,<8.0)
+Requires-Dist: ipykernel (>=6.27.1,<7.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: roman (>=4.1,<5.0)
+Requires-Dist: spacy[apple] (>=3.7.2,<4.0.0)
+Project-URL: Documentation, https://justmars.github.io/corpus-preprocess
+Project-URL: Repository, https://github.com/justmars/corpus-preprocess
+Description-Content-Type: text/markdown
+
+# corpus-preprocess
+
+![Github CI](https://github.com/justmars/corpus-preprocess/actions/workflows/main.yml/badge.svg)
+
+Utility functions to preprocess Phil. legalese in [weasel](https://github.com/explosion/weasel)-based flows:
+
+1. [lexcat-proj](https://github.com/justmars/lexcat-proj); and
+2. [lexcat-multi](https://github.com/justmars/lexcat-multi)
+
+> [!IMPORTANT]
+> Requires private [corpus-assets](https://github.com/justmars/corpus-assets) folder and sqlite3 db in [citelaws-data](https://github.com/justmars/citelaws-data) to be cloned locally.
+
+```yml
+- corpus-assets: # folder structure
+  - concept: # must be two-level nested patterns.json + q.txt
+  - artifact: # single folder patterns.json + q.txt
+  - text: # each file is a .txt
+```
+
+## Language customization
+
+Assuming familiarity with spacy:
+
+```py
+nlp.tokenizer = customize_tokenizer(nlp, special_token_rules) # custom tokenizer
+ruler = nlp.add_pipe(
+    "span_ruler",
+    config={
+        "spans_key": "ruler",
+        "phrase_matcher_attr": "LOWER",
+        "spans_filter": {"@misc": "spacy.first_longest_spans_filter.v1"}, # longest spans only
+    },
+)
+ruler.add_patterns(patterns)  # created patterns from this library and corpus-assets
+```
+
+> [!NOTE]
+> Loading model with 130k pattern lines takes ~2 min.
+
+## Training data
+
+### Concept spans
+
+```py
+for folder in get_concepts(asset_dir.joinpath("concept")):
+    bn = DocBin()
+    # use q.txt as queries to the db
+    # number of segments per q.txt to fetch
+    docs = apply_concept_q_filter(nlp, db_file, filter_path=folder, max_segments=500)
+    for doc in docs:
+        bn.add(doc)
+    bn.to_disk(asset_dir.joinpath(f"train/{folder.stem}.spacy"))
+```
+
+Each concept_dir contains subtopics:
+
+```yml
+- corpus-assets: # folder structure
+  - concept: # must be two-level nested
+    - political: # main subject category
+        - bill_of_rights: # sub-topic
+            - patterns.json # contains matcher files
+            - q.txt # contains lines which can be used to query the database
+```
+
+Because of this structure, it's possible to train a `textcat_multilabel` component:
+
+```py
+textcat_options = [concept["id"].split("/")[0] for concept in concept_patterns]
+
+@Language.factory(name="add_cats_from_spans")
+class AddTextCatComponent:
+    def __init__(self, nlp: Language, name: str, options: list[str]):
+        self.nlp = nlp
+        self.options = options
+
+    def __call__(self, doc) -> Doc:
+        doc.cats = {op: 0.0 for op in self.options}
+        for span in doc.spans["sc"]:
+            if span.id:  # some spans won't have an id
+                value = self.nlp.vocab.strings[span.id]
+                if "/" in value:  # e.g. political/bill_of_rights
+                    main_topic = value.split("/")[0]  # just political
+                    if main_topic in self.options:
+                        if doc.cats[main_topic] == 0.0:
+                            doc.cats[main_topic] = 1.0
+        return doc
+```
+
+### Non-concept spans
+
+Although patterns from `set_patterns()` are included in the constructed `nlp` object,
+can ensure that a certain of rows (`filter_count`) are fetched from the database that have spans which are labeled
+`title` and/or `serial`, etc.
+
+```py
+for label in {"unit", "ref", "serial", "title", "axiom", "date", "juridical"}:
+    bn = DocBin()
+    docs = apply_label_filter(nlp, db_file, filter_labels={label}, filter_count=1500)
+    for doc in docs:
+        bn.add(doc)
+    bn.to_disk(asset_dir.joinpath(f"train/{label}.spacy"))
+```
+
