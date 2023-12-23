@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DeanWoodward4TestingPythonPackage
+Version: 0.1
+Summary: A simple Python package to say hello
+Home-page: https://github.com/APRLLP/MultiplePackageRepo
+Author: Dean Woodward
+Author-email: dean.woodward@aprllp.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

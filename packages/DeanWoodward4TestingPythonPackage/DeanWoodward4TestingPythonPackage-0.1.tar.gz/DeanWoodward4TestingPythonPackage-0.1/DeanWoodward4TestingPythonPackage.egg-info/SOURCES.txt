@@ -1,0 +1,7 @@
+setup.py
+DeanWoodward4TestingPythonPackage.egg-info/PKG-INFO
+DeanWoodward4TestingPythonPackage.egg-info/SOURCES.txt
+DeanWoodward4TestingPythonPackage.egg-info/dependency_links.txt
+DeanWoodward4TestingPythonPackage.egg-info/top_level.txt
+myPythonPackage/__init__.py
+myPythonPackage/hello.py
