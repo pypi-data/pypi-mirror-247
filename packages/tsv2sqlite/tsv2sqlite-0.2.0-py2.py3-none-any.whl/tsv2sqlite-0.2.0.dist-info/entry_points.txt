@@ -1,0 +1,2 @@
+[console_scripts]
+tsv2sqlite = tsv2sqlite.main:main
