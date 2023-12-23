@@ -1,0 +1,3 @@
+[console_scripts]
+crypto_plus=crypto_plus.cmdline:main
+
