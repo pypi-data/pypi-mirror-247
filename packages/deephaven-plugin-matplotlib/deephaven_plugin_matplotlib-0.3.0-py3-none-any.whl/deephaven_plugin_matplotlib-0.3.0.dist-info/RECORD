@@ -1,0 +1,9 @@
+deephaven/plugin/matplotlib/__init__.py,sha256=MJ3Nz1Nvxf3ENM71_y8xCcAEjszxnNDmOoY__lcQ72o,5787
+deephaven/plugin/matplotlib/deephaven.mplstyle,sha256=eQQnW8X8WVckKPLIasoPHzMyjisT41u7rwzf7wewzak,298
+deephaven/plugin/matplotlib/figure_type.py,sha256=Qt5osjQ-tIIZZwFFKY_4y5LtM78nu79ZUw6W_UPZKUI,3699
+deephaven_plugin_matplotlib-0.3.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+deephaven_plugin_matplotlib-0.3.0.dist-info/METADATA,sha256=MtNcIi-wr88NyJH0IlHIXy9hG6_kkSEDDtSlLDTH2o0,5375
+deephaven_plugin_matplotlib-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+deephaven_plugin_matplotlib-0.3.0.dist-info/entry_points.txt,sha256=x9cyt9iJJQ-JcnEdzt3Qja91KYLe222PHVmihfJG44Q,89
+deephaven_plugin_matplotlib-0.3.0.dist-info/top_level.txt,sha256=yKrv3PBHQAlw61FAN5t-AlBfFqQeuRWEFHFY0G8e_TY,13
+deephaven_plugin_matplotlib-0.3.0.dist-info/RECORD,,
