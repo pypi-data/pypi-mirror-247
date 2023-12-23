@@ -1,0 +1,8 @@
+clidogut.py
+setup.py
+clidogut.egg-info/PKG-INFO
+clidogut.egg-info/SOURCES.txt
+clidogut.egg-info/dependency_links.txt
+clidogut.egg-info/entry_points.txt
+clidogut.egg-info/requires.txt
+clidogut.egg-info/top_level.txt
