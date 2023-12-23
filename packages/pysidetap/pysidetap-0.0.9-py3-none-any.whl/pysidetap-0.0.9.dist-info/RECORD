@@ -1,0 +1,12 @@
+pysidetap/__init__.py,sha256=UAl_ldC8aOZpAGhtTjk0xhp2ayJ1LodrMBXjqSsasKg,65
+pysidetap/__main__.py,sha256=ahxTYdRTfNL6oerebQCvSwY1kbAXQduMoU8o4e1KPhI,64
+pysidetap/execptions.py,sha256=ursJ69LeQsbofzs-SQu19KDyr1ZOgM9qqpSrI5AL1wk,95
+pysidetap/processor.py,sha256=LODfrMpzmgj51_A6M1vGyyg_rgNHW9wOBkSlY9jmmHg,2622
+pysidetap/libs/__init__.py,sha256=ZnUGWoV6CxS4ZYFmobZDzWcwuZNF_-s2rdkI7NAsXWk,41
+pysidetap/libs/operations.py,sha256=y0L7OOGw928yHBj__-wY2JvnlIfQlDP7lsH3EU6PzUA,2635
+pysidetap-0.0.9.dist-info/LICENSE,sha256=r7e06X-E357aAySVpt0lQ0AwSvdtC-knA3l_EuR4Z2I,1054
+pysidetap-0.0.9.dist-info/METADATA,sha256=ejnDv82x4sz_OFmlleAMeHBcfk1rRZg4Tc8JgsUnZVo,7614
+pysidetap-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysidetap-0.0.9.dist-info/entry_points.txt,sha256=NtJNc-W74EiysIzKGzRgz0Hi1zfzpiknhHk1rX4lmMA,55
+pysidetap-0.0.9.dist-info/top_level.txt,sha256=PjPkK-jGjWbOFq_QcQP5a0fUavUWrsdwPA_TDLVEbec,10
+pysidetap-0.0.9.dist-info/RECORD,,
