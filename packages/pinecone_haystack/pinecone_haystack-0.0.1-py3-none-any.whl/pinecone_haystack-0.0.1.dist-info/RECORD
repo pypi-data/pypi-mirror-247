@@ -1,0 +1,8 @@
+pinecone_haystack/__init__.py,sha256=5SOSFegpwsByLxq77pBjpqntT7IQsa9UYJ7dJVJjeUQ,214
+pinecone_haystack/dense_retriever.py,sha256=7TmiCxliK0HYG5hKEANhY04DXXB62uvRI5tZvdE0xc4,2475
+pinecone_haystack/document_store.py,sha256=MMOQjMDNVPZHgsfPdqI1P4t6CAdxm1UG8BCXm0zWAvI,11540
+pinecone_haystack/errors.py,sha256=b9B332cVyR5DaaCsAqup0YEphVtMUQRQv9OjjFOQuyo,232
+pinecone_haystack/filters.py,sha256=ALKA3T5OkzbxaiNpGWe3JHZTd2YXNklOx8cvg38JPII,6065
+pinecone_haystack-0.0.1.dist-info/METADATA,sha256=4cq6e_zf5YjDGiQg7jSvVdB4I4YGr6Y8_Vsfg4JrjJI,1778
+pinecone_haystack-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pinecone_haystack-0.0.1.dist-info/RECORD,,
