@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sdss-bossICC
+Version: 6.0.2
+Summary: The BOSS Instrument Control Computer for APO.
+Home-page: https://github.com/sdss/bossICC
+License: BSD-3-Clause
+Keywords: astronomy,software
+Author: Craig Loomis
+Maintainer: José Sánchez-Gallego
+Maintainer-email: gallegoj@uw.edu
+Requires-Python: >=3.9,<3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Twisted (>=21.7.0,<22.0.0)
+Requires-Dist: astropy (>=4.3.1,<5.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: sdss-actorcore (>=5.0.4,<6.0.0)
+Requires-Dist: sdsstools (>=0.4.13,<0.5.0)
+Project-URL: Repository, https://github.com/sdss/bossICC
+Description-Content-Type: text/markdown
+
+# bossICC
+
+bossICC is the Instrument Control Computer for the BOSS spectrographs. It manages communications between other actors and the BOSS firmware, starting, stopping, and reading out exposures, moving collimators and other spectrograph mechanicals, and monitoring and managing voltages, pressures, and temperatures.
+
+Configuration (e.g. hosts/ports/logging directories) are found in the `python/bossICC/etc/` directory. It should only be run on the `sdss5-boss-icc` virtual machine.
+
+This product also can communicate with the engineering "benchboss" system by running `python python/bossICC/bossICC.py benchboss`.
+
