@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streamlit_parameters
+Version: 0.1.5
+Summary: Streamlit parameter management for page configuration
+Home-page: http://github.com/stonier/streamlit_parameters
+Author: Daniel Stonier
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+License: BSD
+Description: Streamlit parameter management across widgets, session state & the url query string.
+Platform: UNKNOWN
+Provides-Extra: test
