@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pyvyctor/ObjectVector.py
+Pyvyctor/__init__.py
+Pyvyctor/vector2d.py
+Pyvyctor/vector3d.py
+Pyvyctor.egg-info/PKG-INFO
+Pyvyctor.egg-info/SOURCES.txt
+Pyvyctor.egg-info/dependency_links.txt
+Pyvyctor.egg-info/top_level.txt
