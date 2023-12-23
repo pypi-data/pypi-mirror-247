@@ -1,0 +1,11 @@
+embuild/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embuild/__main__.py,sha256=j-FgTBWLZV5kaJKOvzhHerTqFESETE56omfTgnuA_oQ,34
+embuild/embuild.py,sha256=xzHpaGeEI4dYN10hI-wcuF_H499OX5NgI90ioJfehSE,322
+embuild/helpers/check_environment.py,sha256=6ySoCL4YTB6APgrne7LLbq9yhPv6B5cq89yJKKaZKcY,354
+embuild/helpers/run_process.py,sha256=g4Jtp5MdFTiqCBdUMUJUfnW1D-6H9wU7kEbQyU5wVGc,599
+embuild/helpers/verbosity.py,sha256=yXJu3cU16muHi8-YED250qqqjihI7v8Ho7CJVw7igHM,168
+embuild-0.0.5.dist-info/LICENSE,sha256=mF1qCJuqcxQE-IuoTdQf-RYgOyn6Mxu-iDo1nD5UN_k,1079
+embuild-0.0.5.dist-info/METADATA,sha256=Rf8Qc2lOLZXZ2jmBQgy-rBwqA2JSQdHuIQ8Mfe3AXqA,712
+embuild-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+embuild-0.0.5.dist-info/top_level.txt,sha256=fnFkLGXiLw2EJUitXDQovMLt-N-6D89kRywJ6PAm8qY,8
+embuild-0.0.5.dist-info/RECORD,,
