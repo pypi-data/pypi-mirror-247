@@ -1,0 +1,17 @@
+odoo/addons/currency_rate_update_RO_BNR/README.rst,sha256=gQiPnE0d0KHtjC4_kdMdPTp8oGyzZg9uMhklFVVxiyU,3798
+odoo/addons/currency_rate_update_RO_BNR/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/currency_rate_update_RO_BNR/__manifest__.py,sha256=cuj5-eKNZvQZ9pIFl88y6d4g5Tg7KXa9xO3c9tB-mdQ,552
+odoo/addons/currency_rate_update_RO_BNR/i18n/currency_rate_update_RO_BNR.pot,sha256=YFTKYbI-M7E-NM75UklFDglGrQNTPaAZhVhGiA_4VOE,926
+odoo/addons/currency_rate_update_RO_BNR/models/__init__.py,sha256=g_85C273A7cV4ZcHdJciLpOkNSvlY2PlWEzPEERnZfE,48
+odoo/addons/currency_rate_update_RO_BNR/models/res_currency_rate_provider_RO_BNR.py,sha256=XjfQmRFVRFmyh-eqtpXP68rCHo9U1TLuc5tZat30XGw,4036
+odoo/addons/currency_rate_update_RO_BNR/readme/CONTRIBUTORS.rst,sha256=z1owv00T8VkJgneIktMtUKIJaImNRZBWBXnv2GR77b0,306
+odoo/addons/currency_rate_update_RO_BNR/readme/DESCRIPTION.rst,sha256=rSfbUL9CtsfWUxIQcszcIPRnUnZldfFbpfrD7zM1C9Y,80
+odoo/addons/currency_rate_update_RO_BNR/readme/INSTALL.rst,sha256=PauqxDEmspMWo70RPoerK_F68zi5zLrtRSAS0Ogp0BY,289
+odoo/addons/currency_rate_update_RO_BNR/static/description/icon.png,sha256=SWfZQg1fybHtt8OI6oJoE-CGGMC34529PW8N7Al-TSU,61703
+odoo/addons/currency_rate_update_RO_BNR/static/description/index.html,sha256=bjl8mjVOVgMGCvFmhrQPuMZ_hwGhgdo9H1veLrKTlgE,13691
+odoo/addons/currency_rate_update_RO_BNR/tests/__init__.py,sha256=vNXilcBKSLHnHzFxgXUOzwkDQtiY6-QpeShtaiAiUO4,113
+odoo/addons/currency_rate_update_RO_BNR/tests/test_currency_rate_update_ro_bnr.py,sha256=VE_5_jtbeOEIINUq-ra7vDHAQF047oQPPnbpROyUcV0,3136
+odoo_addon_currency_rate_update_RO_BNR-17.0.1.1.0.dist-info/METADATA,sha256=GFO-iSb4_XqVh26gKKTnJVD2HWCMjCopA4DULnOVK9Y,4506
+odoo_addon_currency_rate_update_RO_BNR-17.0.1.1.0.dist-info/WHEEL,sha256=0WPb27lpWF0K4Majm_kVmkl1QxJZxoKxO5GGil8gPB4,81
+odoo_addon_currency_rate_update_RO_BNR-17.0.1.1.0.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_currency_rate_update_RO_BNR-17.0.1.1.0.dist-info/RECORD,,
