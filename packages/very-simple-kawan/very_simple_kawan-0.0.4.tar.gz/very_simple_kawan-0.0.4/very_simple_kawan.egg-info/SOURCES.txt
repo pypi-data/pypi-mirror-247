@@ -1,0 +1,12 @@
+setup.py
+very_simple_kawan/__init__.py
+very_simple_kawan/add.py
+very_simple_kawan/sub.py
+very_simple_kawan.egg-info/PKG-INFO
+very_simple_kawan.egg-info/SOURCES.txt
+very_simple_kawan.egg-info/dependency_links.txt
+very_simple_kawan.egg-info/requires.txt
+very_simple_kawan.egg-info/top_level.txt
+very_simple_kawan/extra/__init__.py
+very_simple_kawan/extra/divide.py
+very_simple_kawan/extra/multiply.py
