@@ -1,0 +1,16 @@
+proto_clip_toolkit/__init__.py,sha256=R-jWe_31ejH2hNypPkeCV-Q96Ua0Aw7VKqMW2KeRdao,26
+proto_clip_toolkit/asr/__init__.py,sha256=lQZzECdljivia8SGziQ80Hhk-JAUsmgyFE9pWtilGfI,61
+proto_clip_toolkit/asr/asr_utils.py,sha256=R7rirBJMWYbh3KXbJJ9D99M-76dMVG05rS3F22t_wAQ,196
+proto_clip_toolkit/asr/transcribe.py,sha256=g7SQb0h3yBLmQvzo-ly_pacWDd7ryc40xA2eWeGvM0Y,4519
+proto_clip_toolkit/asr/transcribe_with_pos.py,sha256=y8rWsRJK-zVDsuYoYoueFsoGg535bSB7oBD_j7VKtN8,5197
+proto_clip_toolkit/pos/__init__.py,sha256=6iSjKy5_nhA9-nYcp4F51SXkHnPW6Jmx7aJcQuyFdjs,51
+proto_clip_toolkit/pos/verb_and_noun_tagger.py,sha256=Qm3fifUd8CrAY6_OO54LpJLYIB8QsZ4VvBFW22wxHEs,2377
+proto_clip_toolkit/utils/__init__.py,sha256=-CkQ_EMwRFqnbyDb4ut4uogoS-_KwtP0pLxsCs2bZdw,27
+proto_clip_toolkit/utils/model_utils.py,sha256=voF4k6zKDDdjjdf8ocSD7XXi0rev3HDAC4Yzbw57L9c,3303
+proto_clip_toolkit/utils/ood_utils.py,sha256=y8lC8U4h5d0NtJOBRikzONAw1zmDVkNYt1jzRdJMWW0,3994
+proto_clip_toolkit/utils/tsne.py,sha256=Pg-9BggEhEjU7QT_z916eh3fD0sUvbxQ8kqIBBoouBQ,6309
+proto_clip_toolkit-1.0.dist-info/LICENSE.txt,sha256=ZnrEEv9Mh3jZvxIxWVdBoCipgh07sYGrrpjH7EwlmcU,1129
+proto_clip_toolkit-1.0.dist-info/METADATA,sha256=ZhImd0F9Re-yULDHGuFi1ALVuRKsYbNTlnCJS6E7tFY,12995
+proto_clip_toolkit-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+proto_clip_toolkit-1.0.dist-info/top_level.txt,sha256=kLqRpjm_SRREKAQXqXNihuooJZeWmtxalB3qtfaffTE,19
+proto_clip_toolkit-1.0.dist-info/RECORD,,
