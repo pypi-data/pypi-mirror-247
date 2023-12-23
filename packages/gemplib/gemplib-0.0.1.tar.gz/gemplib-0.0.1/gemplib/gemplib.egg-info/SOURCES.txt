@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+gemplib/gemplib.egg-info/PKG-INFO
+gemplib/gemplib.egg-info/SOURCES.txt
+gemplib/gemplib.egg-info/dependency_links.txt
+gemplib/gemplib.egg-info/requires.txt
+gemplib/gemplib.egg-info/top_level.txt
+gemplib/shape/_gem.py
+gemplib/shape/point.py
