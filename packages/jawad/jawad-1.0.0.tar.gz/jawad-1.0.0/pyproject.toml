@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jawad"
+authors = [{ name = "Josiah Carberry", email = "josiah_carberry@brown.edu" }]
+description = "My package description"
+readme = "README.md"
+requires-python = ">=3.1"
+license = { file = "LICENSE" }
+classifiers = [
+    "Framework :: Chandler",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+]
+
+version = "1.0.0"

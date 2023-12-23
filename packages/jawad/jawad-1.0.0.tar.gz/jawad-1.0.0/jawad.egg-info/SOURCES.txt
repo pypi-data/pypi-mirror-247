@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+jawad/__init__.py
+jawad/calculator.py
+jawad.egg-info/PKG-INFO
+jawad.egg-info/SOURCES.txt
+jawad.egg-info/dependency_links.txt
+jawad.egg-info/top_level.txt
