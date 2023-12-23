@@ -1,0 +1,12 @@
+pysidian/shell.py,sha256=6Pc0US6S6Aznu7q59aKe46kBXnIx7G_-sy46BG2BXkA,2286
+pysidian/core/__init__.py,sha256=vPMy4Qszl2_gkKwqbXzROZgomok4-8sOpoayXxEa5ck,190
+pysidian/core/app.py,sha256=HRcxWCcrvHejY9OZjWwEnXS5Pi09deaYizBRemQo5FI,850
+pysidian/core/plugin.py,sha256=1aUWwG6JLgT5iYZdWo5hE9-BVZ_6zCNo0p08xrdgZFA,3312
+pysidian/core/utils.py,sha256=Df8zbP_toMerMejo5voJ2Ui1fOSkDZ1SzeK5xfkYFDc,1536
+pysidian/core/vault.py,sha256=X3d0MFAFynGrzE7AqA4N5mDVFIEeaSqejFJWaXzJUGk,4609
+pysidian-1.1.0.dist-info/LICENSE,sha256=Nk5ZGmgXUZnhTvNG0hMbFj5BtZtgH1NTN6JJyuIYTso,1085
+pysidian-1.1.0.dist-info/METADATA,sha256=c0l-QZJLT9BAcjy85EcEu_boc8K1FLt37JekoGTTW0c,282
+pysidian-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysidian-1.1.0.dist-info/entry_points.txt,sha256=z0WNGnogMZxoukpNYMEXARuFd3XmvHPDh5OhlrRwjYQ,49
+pysidian-1.1.0.dist-info/top_level.txt,sha256=l2HFwr8We2pUyP8LmXJij2El0czgP2EiiWXb3GmZM5w,9
+pysidian-1.1.0.dist-info/RECORD,,
