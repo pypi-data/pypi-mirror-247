@@ -1,0 +1,461 @@
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[PaMs](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](500) NOT NULL,
+	[TitleNational] [nvarchar](500) NULL,
+	[IsGroup] [int] NOT NULL,
+	[ListOfSinglePams] [nvarchar](500) NULL,
+	[ShortDescription] [text] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_PaMs] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[PaMs]  WITH NOCHECK ADD  CONSTRAINT [FK_PaMs_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[PaMs] CHECK CONSTRAINT [FK_PaMs_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Table_1](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[GeographicalCoverage] [int] NOT NULL,
+	[GHGAffected] [int] NULL,
+	[QuantifiedObjective] [nvarchar](500) NOT NULL,
+	[AssessmentContribution] [text] NOT NULL,
+	[TypePolicyInstrument] [int] NULL,
+	[OtherPolicyInstrument] [nvarchar](500) NULL,
+	[UnionPolicy] [int] NOT NULL,
+	[UnionPolicyList] [int] NULL,
+	[PaMRelateAirQuality] [int] NULL,
+	[StatusImplementation] [int] NULL,
+	[ImplementationPeriodStart] [int] NULL,
+	[ImplementationPeriodFinish] [int] NULL,
+	[ImplementationPeriodComment] [text] NULL,
+	[ProjectionsScenario] [int] NULL,
+	[Comments] [text] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[partNDC] [int] NOT NULL,
+	[CommentQuantifiedObjective] [text] NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Table_1] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Table_1]  WITH NOCHECK ADD  CONSTRAINT [FK_Table_1_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Table_1] CHECK CONSTRAINT [FK_Table_1_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[SectorObjectives](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Id_SectorObjectives] [nvarchar](500) NOT NULL,
+	[SectorAffected] [int] NULL,
+	[OtherSectors] [nvarchar](500) NULL,
+	[Objective] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[Dimension] [int] NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_SectorObjectives] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[SectorObjectives]  WITH NOCHECK ADD  CONSTRAINT [FK_SectorObjectives_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[SectorObjectives] CHECK CONSTRAINT [FK_SectorObjectives_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[OtherObjectives](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Other] [nvarchar](500) NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[Fk_SectorObjectives] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_OtherObjectives] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[OtherObjectives]  WITH NOCHECK ADD  CONSTRAINT [FK_OtherObjectives_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[OtherObjectives] CHECK CONSTRAINT [FK_OtherObjectives_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[UnionPolicyOther](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[OtherUnionPolicy] [nvarchar](500) NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_UnionPolicyOther] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[UnionPolicyOther]  WITH NOCHECK ADD  CONSTRAINT [FK_UnionPolicyOther_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[UnionPolicyOther] CHECK CONSTRAINT [FK_UnionPolicyOther_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Entities](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Type] [int] NULL,
+	[Name] [nvarchar](500) NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Entities] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Entities]  WITH NOCHECK ADD  CONSTRAINT [FK_Entities_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Entities] CHECK CONSTRAINT [FK_Entities_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Indicators](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Description] [nvarchar](500) NULL,
+	[Unit] [nvarchar](500) NULL,
+	[Year1] [int] NULL,
+	[Year2] [int] NULL,
+	[Year3] [int] NULL,
+	[Year4] [int] NULL,
+	[Value1] [nvarchar](500) NULL,
+	[Value2] [nvarchar](500) NULL,
+	[Value3] [nvarchar](500) NULL,
+	[Value4] [nvarchar](500) NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Indicators] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Indicators]  WITH NOCHECK ADD  CONSTRAINT [FK_Indicators_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Indicators] CHECK CONSTRAINT [FK_Indicators_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Reference](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Reference] [nvarchar](500) NULL,
+	[URL] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Reference] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Reference]  WITH NOCHECK ADD  CONSTRAINT [FK_Reference_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Reference] CHECK CONSTRAINT [FK_Reference_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Table_2](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[PolicyImpacting] [int] NULL,
+	[EUETS_1] [float] NULL,
+	[ESR_1] [float] NULL,
+	[LULUCF_1] [float] NULL,
+	[Total_1] [float] NULL,
+	[EUETS_2] [float] NULL,
+	[ESR_2] [float] NULL,
+	[LULUCF_2] [float] NULL,
+	[Total_2] [float] NULL,
+	[EUETS_3] [float] NULL,
+	[ESR_3] [float] NULL,
+	[LULUCF_3] [float] NULL,
+	[Total_3] [float] NULL,
+	[EUETS_4] [float] NULL,
+	[ESR_4] [float] NULL,
+	[LULUCF_4] [float] NULL,
+	[Total_4] [float] NULL,
+	[Explanation] [text] NULL,
+	[FactorsAffected] [nvarchar](500) NULL,
+	[ExplanationMitigation] [text] NULL,
+	[FactorAffectedPams] [nvarchar](500) NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Table_2] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Table_2]  WITH NOCHECK ADD  CONSTRAINT [FK_Table_2_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Table_2] CHECK CONSTRAINT [FK_Table_2_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Documentation_AnteAssessment](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Reference] [nvarchar](500) NULL,
+	[WebLink] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Documentation_AnteAssessment] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Documentation_AnteAssessment]  WITH NOCHECK ADD  CONSTRAINT [FK_Documentation_AnteAssessment_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Documentation_AnteAssessment] CHECK CONSTRAINT [FK_Documentation_AnteAssessment_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Documentation_PostAssessment](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Reference] [nvarchar](500) NULL,
+	[WebLink] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Documentation_PostAssessment] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Documentation_PostAssessment]  WITH NOCHECK ADD  CONSTRAINT [FK_Documentation_PostAssessment_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Documentation_PostAssessment] CHECK CONSTRAINT [FK_Documentation_PostAssessment_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[GHG_emissions](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Year] [int] NULL,
+	[Value_EU_ETS] [float] NULL,
+	[Value_ESR] [float] NULL,
+	[Value_LULUCF] [float] NULL,
+	[Value_Total] [float] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_GHG_emissions] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[GHG_emissions]  WITH NOCHECK ADD  CONSTRAINT [FK_GHG_emissions_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[GHG_emissions] CHECK CONSTRAINT [FK_GHG_emissions_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[Table_3](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectedCost] [float] NULL,
+	[ProjectedAbsoluteCost] [float] NULL,
+	[ProjectedBenefit] [float] NULL,
+	[ProjectedAbsoluteBenefit] [float] NULL,
+	[ProjectedNetCost] [float] NULL,
+	[ProjectedAbsoluteNetCost] [float] NULL,
+	[ProjectedYear] [int] NULL,
+	[ProjectedReferenceYear] [int] NULL,
+	[ProjectedDescriptionCost] [text] NULL,
+	[ProjectedDescriptionNonGHG] [text] NULL,
+	[RealizedCost] [float] NULL,
+	[RealizedAbsoluteCost] [float] NULL,
+	[RealizedBenefit] [float] NULL,
+	[RealizedAbsoluteBenefit] [float] NULL,
+	[RealizedNetCost] [float] NULL,
+	[RealizedAbsoluteNetCost] [float] NULL,
+	[RealizedYear] [int] NULL,
+	[RealizedReferenceYear] [int] NULL,
+	[RealizedDescriptionCost] [text] NULL,
+	[RealizedDescriptionNonGHG] [text] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[RealizedReferenceYearCurrency] [int] NOT NULL,
+	[ProjectedReferenceYearCurrency] [int] NOT NULL,
+	[RealizedReferenceYearCurrencyOther] [nvarchar](500) NULL,
+	[ProjectedReferenceYearCurrencyOther] [nvarchar](500) NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_Table_3] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[Table_3]  WITH NOCHECK ADD  CONSTRAINT [FK_Table_3_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[Table_3] CHECK CONSTRAINT [FK_Table_3_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[DocumentationCostEstimation_1](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Reference] [nvarchar](500) NULL,
+	[URL] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_DocumentationCostEstimation_1] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[DocumentationCostEstimation_1]  WITH NOCHECK ADD  CONSTRAINT [FK_DocumentationCostEstimation_1_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[DocumentationCostEstimation_1] CHECK CONSTRAINT [FK_DocumentationCostEstimation_1_ReportNet3HistoricReleases]
+GO
+
+
+USE [EnergyCommunity]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [annex_XXIV].[DocumentationCostEstimation_2](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Reference] [nvarchar](500) NULL,
+	[URL] [int] NULL,
+	[Fk_PaMs] [int] NOT NULL,
+	[ReportNet3HistoricReleaseId] [int] NOT NULL,
+CONSTRAINT [PK_DocumentationCostEstimation_2] PRIMARY KEY CLUSTERED
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [annex_XXIV].[DocumentationCostEstimation_2]  WITH NOCHECK ADD  CONSTRAINT [FK_DocumentationCostEstimation_2_ReportNet3HistoricReleases] FOREIGN KEY([ReportNet3HistoricReleaseId])
+REFERENCES [metadata].[ReportNet3HistoricReleases] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [annex_XXIV].[DocumentationCostEstimation_2] CHECK CONSTRAINT [FK_DocumentationCostEstimation_2_ReportNet3HistoricReleases]
+GO
+
