@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69.0.2", "setuptools-scm>=8.0.4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipc-purepy"
+dynamic = ["version"]
+requires-python = ">=3.11"
+authors = [{ name = "Michel Novus", email = "michelnovus@gmail.com" }]
+description = "Allow sent core Python objects between two likely independent Python processes using UNIX sockets."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = [
+    "unix socket",
+    "ipc",
+    "process communication",
+    "simple",
+    "python primitives",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Repository = "https://github.com/michelnovus/ipc-purepy"
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+packages = ["ipc_purepy"]

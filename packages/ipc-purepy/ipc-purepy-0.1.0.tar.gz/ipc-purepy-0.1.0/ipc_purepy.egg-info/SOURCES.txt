@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+ipc_purepy/__init__.py
+ipc_purepy/example.py
+ipc_purepy/ipc.py
+ipc_purepy/serializer.py
+ipc_purepy.egg-info/PKG-INFO
+ipc_purepy.egg-info/SOURCES.txt
+ipc_purepy.egg-info/dependency_links.txt
+ipc_purepy.egg-info/top_level.txt
