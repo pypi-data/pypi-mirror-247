@@ -1,0 +1,10 @@
+kaiju_redis/__init__.py,sha256=kpasGnMVcuT6xled9gjm-KR1aw_MmvbBwpkmpibtupo,111
+kaiju_redis/services.py,sha256=eMOxlSU_ic5RfzNyJ4P8BfCY32ZzRqfScvRFXOQmf_o,16672
+kaiju_redis/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaiju_redis/tests/fixtures.py,sha256=tzmf-UpUofF6lPM5MvYCV0EWrURCi-S43DVoh10GwhQ,4042
+kaiju_redis/tests/test_redis.py,sha256=RN-TLEFJj-l5qGoS2F0R78hwGHOmhxMFebC1B9Dc5Ts,5697
+kaiju_redis-2.1.9.dist-info/LICENSE,sha256=XIlN2qA8UqpBDA-PteoYP4hTU0qBW0G9PRB__khO2zc,610
+kaiju_redis-2.1.9.dist-info/METADATA,sha256=rx_HdLiqcuQ4ybTPLy3vXJ4xWqeWi_mGv6D74_H61s0,2870
+kaiju_redis-2.1.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kaiju_redis-2.1.9.dist-info/top_level.txt,sha256=-4Sc1VXkNcLW_b2uQWx-BICdwMu_NTUwDmt_q_SxB1Q,12
+kaiju_redis-2.1.9.dist-info/RECORD,,
