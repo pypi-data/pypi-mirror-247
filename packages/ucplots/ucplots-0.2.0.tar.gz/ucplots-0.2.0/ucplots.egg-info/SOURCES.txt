@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+tests/__init__.py
+tests/test_ucplotter.py
+ucplots/__init__.py
+ucplots/ucplots.py
+ucplots.egg-info/PKG-INFO
+ucplots.egg-info/SOURCES.txt
+ucplots.egg-info/dependency_links.txt
+ucplots.egg-info/top_level.txt
