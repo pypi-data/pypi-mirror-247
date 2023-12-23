@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "longevity_factors_by_country"
+version = "0.1.6"
+description = "This package provides data on various factors that surround and potentially influence longevity by country. Data includes the average lifespan, healthcare expenditure, by country, education spend, and more."
+authors = ["Anjana Rao"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/QMSS-G5072-2023/rao_anjana"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+pandas = "^2.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = "^1.0.0"
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-theme = "^2.0.0"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
