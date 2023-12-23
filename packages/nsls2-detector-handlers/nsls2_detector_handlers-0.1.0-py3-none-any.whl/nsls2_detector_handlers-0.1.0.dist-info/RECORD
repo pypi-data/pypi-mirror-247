@@ -1,0 +1,17 @@
+nsls2_detector_handlers/__init__.py,sha256=aIprvqtPs580U987NUewwagPZiICBUPGtiqCoQI9SEo,581
+nsls2_detector_handlers/_version.py,sha256=wh9_RapGlEaiobhNR0ZFyvPVoW5pLjCcF6Rz3XluKA4,497
+nsls2_detector_handlers/electrometer.py,sha256=uBSuJ8pDFuypHHZZ_VCKcAOFoxvUUPrnBLh5cRFF9Os,2274
+nsls2_detector_handlers/germ.py,sha256=1HOALPkH0krH3uVURhbCrvCvOj-0BJAMxnFVnH3EjOM,700
+nsls2_detector_handlers/pizzabox.py,sha256=5xRTztTKcf_kKLJf8GXP8JctIrr2iLyLJfJwaKWAwCo,3435
+nsls2_detector_handlers/srx_flyscans.py,sha256=inYDHhP0WLkvUecdCq1_QWoLd8JysG0vOvy-C2pnT_E,405
+nsls2_detector_handlers/webcam.py,sha256=TNE5x5WuKGgWIrdjZqEAvdCQrhHKDWsyHeSq1r1WzpM,337
+nsls2_detector_handlers/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsls2_detector_handlers/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsls2_detector_handlers/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+nsls2_detector_handlers-0.1.0.dist-info/AUTHORS.rst,sha256=wEr3_gLSBU_QuWYwoqyJqOQJhZ8jxsvnRtkikrnWaUk,166
+nsls2_detector_handlers-0.1.0.dist-info/LICENSE,sha256=QXCj41Zt60EKC8lpv8EhaZsLPlM3Aeu_oS2rf7onejM,1538
+nsls2_detector_handlers-0.1.0.dist-info/METADATA,sha256=IUPpipsHHDINzNXZciXTDRtaWw3VVXldT5QE1qFpILI,1127
+nsls2_detector_handlers-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nsls2_detector_handlers-0.1.0.dist-info/entry_points.txt,sha256=_4qF__fMFVThBdtNKXaefK7KdzoWtYllEZRhkBNBNzM,934
+nsls2_detector_handlers-0.1.0.dist-info/top_level.txt,sha256=bDzd5_GwQ2241mLFJoPfU0GCsjhNuoYnOOAFwKkdqlg,24
+nsls2_detector_handlers-0.1.0.dist-info/RECORD,,
