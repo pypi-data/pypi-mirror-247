@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/gen_model_playground.egg-info/PKG-INFO
+src/gen_model_playground.egg-info/SOURCES.txt
+src/gen_model_playground.egg-info/dependency_links.txt
+src/gen_model_playground.egg-info/top_level.txt
