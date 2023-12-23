@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: directory-splitter
+Version: 1.0.0
+Summary: A script to split and extract unique endpoints from a list of URLs.
+Home-page: https://github.com/yourusername/directory-splitter
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+Keywords: directory-splitter url-parser
