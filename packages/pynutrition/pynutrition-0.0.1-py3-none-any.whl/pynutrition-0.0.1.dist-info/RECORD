@@ -1,0 +1,12 @@
+pynutrition/__init__.py,sha256=xBdBqqLDG6WBgLBYsWfsSQLkfPx0vUieGlOWj29ZxKI,235
+pynutrition/add_data.py,sha256=Ki7PnubLUbaZLU7sZQEJ9OiUAN9VnZcxx97ZKOWTSV4,2479
+pynutrition/composition.py,sha256=K9aAyYROAagUBq-DLPB0G8ZpyUxPyUl11W-8a8RjuFM,3160
+pynutrition/diet.py,sha256=bQoHxBGw7K7JT_nXuUUrUxeOPumqmxzkSCN62_-1B3Y,1509
+pynutrition/load_data.py,sha256=VltIoHShp93MMpuCMneWpNOsHfJy9nKWoQXzHP1fCPQ,1981
+pynutrition/nutrients.py,sha256=pGULJaekuFgA3-_3kRi5vHogW0hasb-14jNVcy6i4wI,6841
+pynutrition/utils.py,sha256=o6bwSVGheNT4Nm74sgpjfnrKOO4URxoV35jKwk3v5sQ,2174
+pynutrition/data/gpt_nutrition.csv,sha256=MGHpuHT_5vSLpxW0AtKGEan9CT0BdZ7EDFjVHc9XSF0,3302
+pynutrition-0.0.1.dist-info/METADATA,sha256=t_jTnKKtEOZNxLgUd6Qb5UV6kXrGPcX0mkQQ7CMN040,2633
+pynutrition-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pynutrition-0.0.1.dist-info/licenses/LICENSE,sha256=o4At18lsKMH0DlXcy5x3gykmHpMd71BLKAguoXrhkxY,1067
+pynutrition-0.0.1.dist-info/RECORD,,
