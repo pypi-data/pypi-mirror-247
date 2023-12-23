@@ -1,0 +1,13 @@
+longevity_factors_by_country/.ipynb_checkpoints/DB Connect and File Upload -checkpoint.ipynb,sha256=SmK2imM9ecU6b9iJPo6kLc8rmoo-kHsbmGFmHwTyFRc,72
+longevity_factors_by_country/2011 Longevity Data,sha256=I1_ltPocIpJdbJf3frtc-ufrb-4knjwtZ51Zd5izSKY,2915
+longevity_factors_by_country/2019 Longevity Data,sha256=2gOVrh5qnM7zYabir5MKCHejy4KwdUKYR0T8JcnABEo,3007
+longevity_factors_by_country/__init__.py,sha256=ziem_xkIBc-sr0_y_39eSiTjxdOe-Yz56sngrrfiLgw,208
+longevity_factors_by_country/clean_data.py,sha256=VLxpFwQWwb-IPPgACxo3OEPvDOot7vmvi7pndi-XHCA,4064
+longevity_factors_by_country/database/config.py,sha256=rJ9Ev-TGsAu-FLkKy1VS_u1Lirfa-CN4KXrkF5RC88Y,138
+longevity_factors_by_country/database/create_tables.py,sha256=NTFc6yZV0akcxTKN30cVsbJX1PpMyNWJLzeuxrWqe8o,1888
+longevity_factors_by_country/database/pg_connect.py,sha256=05cXzyRsaIoqrkOg6rPI3LVwbbHZ7QW5r-c83K_gXig,827
+longevity_factors_by_country/longevity_factors_by_country.py,sha256=C27JCJzmgoa5jW20FQQWJpYl--TegWfw2HWqepi_wsI,1681
+longevity_factors_by_country-0.1.6.dist-info/LICENSE,sha256=DJn7KyjgSxOH6_CyiFJgYcA5faqjf-BOpuu6CNU93WU,1069
+longevity_factors_by_country-0.1.6.dist-info/METADATA,sha256=LrwyPcauQxRgff6nN5JonOavlSOx8wq2DapyA0puBck,3847
+longevity_factors_by_country-0.1.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+longevity_factors_by_country-0.1.6.dist-info/RECORD,,
