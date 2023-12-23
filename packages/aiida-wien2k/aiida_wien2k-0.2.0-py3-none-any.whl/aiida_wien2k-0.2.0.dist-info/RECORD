@@ -1,0 +1,11 @@
+aiida_wien2k/__init__.py,sha256=kik81ErpzsrcSO_UQEwsXnJl-EQeJBoe3V68rkUCBsU,66
+aiida_wien2k/calculations/run123_lapw.py,sha256=ayjEruelOqJLM049Om8f1MH8-2Psk_Z3LfnvGSpPrdU,9232
+aiida_wien2k/configs/codes/run123_lapw.yml,sha256=1jxLssR1qy1dXOS8dHgQMUZWcTwEcqNpKW8WUY8nJFI,611
+aiida_wien2k/configs/computers/localhost.yml,sha256=mKg1lwVOZ90tQrcOkXxqw6fVRYu3YDeiIKtUmVtHQw4,259
+aiida_wien2k/parsers/scf123.py,sha256=Gj7PveqAFX7R1NBaj9GfB4JLzafpr4PM98ZRLH1EH88,27431
+aiida_wien2k/workflows/scf123_workchain.py,sha256=LPbeD35MSu4VNBSbV-ezgHHxVOA5yhAGWwa3xoGsv0g,2723
+aiida_wien2k-0.2.0.dist-info/entry_points.txt,sha256=FsfsHet7EGt9eQGjVgYj0bn6BTIPE6d-fHr8rtIjAJo,279
+aiida_wien2k-0.2.0.dist-info/LICENSE,sha256=u_rVaeGA7g8Qnwn6kMjGX_QwahQGKycAXM30H6OeMwQ,1067
+aiida_wien2k-0.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiida_wien2k-0.2.0.dist-info/METADATA,sha256=fnhBl2-z1ZIjkznmubR13ZZ3CZm8eY1hoErkRBQqF1E,2321
+aiida_wien2k-0.2.0.dist-info/RECORD,,
