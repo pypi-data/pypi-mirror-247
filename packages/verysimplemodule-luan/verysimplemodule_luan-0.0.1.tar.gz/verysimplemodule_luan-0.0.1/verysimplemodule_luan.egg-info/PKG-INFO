@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: verysimplemodule-luan
+Version: 0.0.1
+Summary: My first Python package
+Author: Luan
+Author-email: luansilva2357@gmail.com
+Keywords: python,math
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+
+My first Python package with a slightly longer description
