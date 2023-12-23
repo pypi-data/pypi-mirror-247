@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule_alison/__init__.py
+verysimplemodule_alison/add.py
+verysimplemodule_alison/subtract.py
+verysimplemodule_alison.egg-info/PKG-INFO
+verysimplemodule_alison.egg-info/SOURCES.txt
+verysimplemodule_alison.egg-info/dependency_links.txt
+verysimplemodule_alison.egg-info/top_level.txt
+verysimplemodule_alison/extra/__init__.py
+verysimplemodule_alison/extra/divide.py
+verysimplemodule_alison/extra/multiple.py
