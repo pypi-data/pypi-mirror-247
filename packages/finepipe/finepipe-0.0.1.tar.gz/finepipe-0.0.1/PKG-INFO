@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: finepipe
+Version: 0.0.1
+Summary: Financial deep learning, backtesting and trading pipeline
+Project-URL: Homepage, https://github.com/sahandnz/finepipe
+Project-URL: Issues, https://github.com/sahandnz/finepipe/issues
+Author-email: Sahand Nazarzadeh <sahand.nazarzadeh@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: cython==3.0.7
