@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: csttodate
+Version: 0.0.1
+Summary: 模块简介
+Author: Creedassin
+Author-email: 82608372@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl >=3.0.0
+
+<h1>1、模块介绍</h1>
+<p>本模块是为了实现CST数据格式转化为DATE类型而写的。</p>
+<p>转换示例：</p>
+<p>Tue Nov 14 09:35:17 CST 2023 <p>转化为</p> 2023-12-14 09:35:17</p>
+<p>代码调用示例：</p>
+<p>
+import csttodate<br>
+#读取path路径的excel，并完成col列数据转换。excel仅支持xlsx格式，需要使用openpyxl模块。
+<br>read_excel(path,col,save_path)<br>
+res=cst_to_date(cstdate)<br>
+
+</p>
