@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: streamlit_internal_app
+Version: 0.1.0
+Summary: 
+Author: Kacper Wojtasinski
+Author-email: k0wojtasinski@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: streamlit (>=1.29.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# StreamlitInternalApp
+
+## Overview  
+
+This is a Python package to turn functions into internal apps powered by Streamlit. It creates forms based on the function's annotation and allows you to run the function with the form's values. Note that this is early-stage project with limited functionality.  
+
+## Installation
+
+```bash
+pip install streamlitinternalapp
+```
+
+## Usage
+
+![example app](output.gif)
+
+Refer to `/tests/static/example_app.py` for a full example.
+If you have poetry install you can run the example app with `scripts/run_sample_app.sh`, or you can do it with development Docker image.
+
+Refer to `scripts/` directory on how to run unit tests, formatting and linting.
+
