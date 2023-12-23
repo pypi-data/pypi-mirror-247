@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: calculator-mgaidy
+Version: 0.0.7
+Summary: A small example package
+Author-email: Mindaugas <mindaugas9507@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Calculator_mgaidy
+
+## Overview
+
+A basic calculator class that supports arithmetic operations and maintains a history log.
+
+## Installation
+
+You can install the Calculator_mgaidy package using pip:
+
+```
+pip install calculator-mgaidy==0.0.7
+```
+## Attributes
+
+- `memory` (float): The current memory value of the calculator.
+- `logs` (List[str]): A list to store the history log of operations.
+- `precision` (int): The precision to round results to.
+
+## Constants
+
+- `MAX_NUMBER` (float): The maximum allowed absolute value of number in calculations.
+- `MAX_POWER_LEVEL` (int): The maximum allowed power level for exponentiation.
+- `MAX_PRECISION` (int): The maximum allowed power level for exponentiation.
+
+## Methods
+
+Each of the functions below have validations set in place to ensure that inputs and results are allowed values.
+Precision must be more than zero but less than 300. By default 10.
+Numbers maximum allowed absolute value is 1e300. (applies to input and output)
+Power and root inputs must be more than zero but less than 300.
+
+### `set_precision(self, precision: int) -> None`
+
+Set the precision for rounding results.
+
+### `reset_memory(self) -> float`
+
+Reset the calculator memory to zero and clear the history log.
+
+### `print_history_logs(self) -> None`
+
+prints out log of operations since last reset.
+
+### `add(self, number: float) -> float`
+
+Add a number to the calculator memory.
+
+### `subtract(self, number: float) -> float`
+
+Subtract a number from the calculator memory.
+
+### `multiply(self, number: float) -> float`
+
+Multiply the calculator memory by a number.
+
+### `divide(self, number: float) -> float`
+
+Divide the calculator memory by a number.
+
+### `power(self, number: float) -> float`
+
+Raise the calculator memory to the power of a given number.
+
+### `root(self, number: float) -> float`
+
+Calculate the root of the calculator memory with a given exponent.
+
+## Usage Example
+
+```python
+from calculator import Calculator
+
+# Create a calculator instance
+calc = Calculator()
+
+# Perform operations
+result = calc.add(5)
+print(result)  # Output: 5.0
+
+result = calc.multiply(3)
+print(result)  # Output: 15.0
+```
+
+## Development
+
+For development, ensure that you have Python and pip installed. You can set up a virtual environment:
+```python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+## Contributing
+
+Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests.
+
+## Testing
+
+Run the tests to ensure everything is working as expected:
+```python
+pytest
+```
+## License
+
+This project is licensed under the MIT License- see the [LICENSE](LICENSE) file for details.
