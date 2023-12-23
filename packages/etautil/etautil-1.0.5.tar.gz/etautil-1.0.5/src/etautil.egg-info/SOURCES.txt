@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/etautil/__init__.py
+src/etautil/eta.py
+src/etautil/timestring.py
+src/etautil.egg-info/PKG-INFO
+src/etautil.egg-info/SOURCES.txt
+src/etautil.egg-info/dependency_links.txt
+src/etautil.egg-info/top_level.txt
