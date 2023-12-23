@@ -1,0 +1,10 @@
+hpml/__init__.py,sha256=BcXnYY5I8kxbOATKrkhoWsdqDLh4-rltgl4_wtn4E3E,138
+hpml/hpml_compiler.py,sha256=1GkCGbi0ZI9swXlfiF6H4fKD_cADTRp1hHJDozAKjNs,7783
+hpml/preprocessor.py,sha256=S59hKyK6kLlOe8mBAu3ebLyrdxvr1AsmnOcSmDbaFvA,2432
+hpml/utils.py,sha256=Ibrgl8hePOuJWcYWMn4kUjjbcv0ZKxVCzSqcdHzDCcs,1869
+hpml/data/hpml.lang,sha256=PNLMbZReb1_j6Lq6siWqKl7jvfYjg76AxroO_YchTo0,1660
+hpml/data/lexicon.json,sha256=v3BfJJ49N5ecldXFBUGMgXDmMdWyK6nZH-uGT4AccS4,1056
+hpml-1.0.4.dist-info/METADATA,sha256=WFK1wtXS7Bn35uOP8ITwTX56feqvNFpOpjY5lzssy7M,261
+hpml-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hpml-1.0.4.dist-info/top_level.txt,sha256=sfzTe0d5AbBUlAjKfeYK5y-1xkM83ITBnsV8REO-7Vk,5
+hpml-1.0.4.dist-info/RECORD,,
