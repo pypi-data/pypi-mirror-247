@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py-debugs
+Version: 0.1.0
+Summary: This is the simplest module for logging functions.
+Home-page: https://github.io/DDSurok/py-debug
+Author: DDSurok
+Author-email: ddsurok@gmail.com
+Project-URL: GitHub, https://github.io/DDSurok/py-debug
+Keywords: logging log debug
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-debug
+Debug utils for Python
