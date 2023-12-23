@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: verysimplemodule_liedson
+Version: 0.0.2
+Summary: My first Python package
+Author: liedson
+Author-email: fabricoliedson@gamil.com
+Keywords: python,math
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+
+My first Python package with a slightly longer description

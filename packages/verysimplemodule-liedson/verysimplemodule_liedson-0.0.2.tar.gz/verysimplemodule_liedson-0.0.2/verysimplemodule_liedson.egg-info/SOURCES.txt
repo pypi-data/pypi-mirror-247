@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule_liedson/__init__.py
+verysimplemodule_liedson/add.py
+verysimplemodule_liedson/sub.py
+verysimplemodule_liedson.egg-info/PKG-INFO
+verysimplemodule_liedson.egg-info/SOURCES.txt
+verysimplemodule_liedson.egg-info/dependency_links.txt
+verysimplemodule_liedson.egg-info/top_level.txt
+verysimplemodule_liedson/extra/__init__.py
+verysimplemodule_liedson/extra/div.py
+verysimplemodule_liedson/extra/mult.py
