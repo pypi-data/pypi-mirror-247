@@ -1,0 +1,12 @@
+raylibpy/__init__.py,sha256=bmwNPZ_-iJYZjMHjIfpRa9YD1r_LpbmwKyLXpbHFvZA,459196
+raylibpy/easings.py,sha256=RRQ5fF9ofouu6YslK3Lo-Cll6YN3XfDRMnEvMBnkXkc,9327
+raylibpy/bin/32bit/libraylib.5.0.0.dylib,sha256=VwQVSLpzLJzVe8yYDqnE-hgQV0KececcUJb1lDcvWz8,3358488
+raylibpy/bin/32bit/raylib.dll,sha256=4A3UoeuCjHJe_UyFlYMrRzU5YQ1OLR9eYSFPkmZt_e0,1574400
+raylibpy/bin/64bit/libraylib.5.0.0.dylib,sha256=VwQVSLpzLJzVe8yYDqnE-hgQV0KececcUJb1lDcvWz8,3358488
+raylibpy/bin/64bit/libraylib.so.5.0.0,sha256=aLUnYF1SQDqbJBH07ZPOuDWgGCzjgd6-ZAIN6o7c3nY,2300656
+raylibpy/bin/64bit/raylib.dll,sha256=HdJLPLpRQIjRyCypQbidbvbThZ1EJbUd1gmPakmimIU,1821184
+raylib_py-5.0.0.dist-info/LICENSE,sha256=rf_VKMxOFMsxnskwrxXhZkA-0qKXGpnUjVfeb93EDq4,2032
+raylib_py-5.0.0.dist-info/METADATA,sha256=zrbM8FcVqM563r-Oxl6FgUcBy_fsd0IRurdQd11UyzI,6722
+raylib_py-5.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+raylib_py-5.0.0.dist-info/top_level.txt,sha256=ZfLF1KHNJmkSqCr3LnOREsBpeXrfisUb7d-ZkLDhtJ4,9
+raylib_py-5.0.0.dist-info/RECORD,,
