@@ -1,0 +1,11 @@
+spark_metabase_api/__init__.py,sha256=qE0zIdW-YwSXoFOa90o-kEtMTwM0ZKHUTNvixf8GqWc,39
+spark_metabase_api/_helper_methods.py,sha256=3Uaso1p_1vImhcEbcKehJApbM5UceiVv7kVS72l_AnI,15370
+spark_metabase_api/_rest_methods.py,sha256=ioSIDGhUEuYuelnKNoaX6ZByu1mRoec95dlHf_H2P5c,1165
+spark_metabase_api/copy_methods.py,sha256=Jh6mrYz-YZCnuoMTussPbjACJQP0wN9keDSwX3X6uUI,14405
+spark_metabase_api/create_methods.py,sha256=KezgEvGjdgYSr6Xglu3flGmH8t9mtUxK0QQMfWL0QAo,12234
+spark_metabase_api/main_methods.py,sha256=HH2bxgdGi-k8HR8VF_nI2OKR3oiWAdt4UqR8rovtWRU,15544
+spark_metabase_api/modify_methods.py,sha256=xMZC3qTjvGGSXtKedzAAK8B7PQ3jqjaRg3rsZxUbm74,3714
+spark_metabase_api-0.1.4.dist-info/METADATA,sha256=wkS5-wn8InuGZ2sO8F3j7LjPBj7p8zcs0xgUQu5WTsA,1236
+spark_metabase_api-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+spark_metabase_api-0.1.4.dist-info/top_level.txt,sha256=fj2ptI8fkon1uQZOQ17X4ELiORRGE7aRSBHxzrKlXMM,19
+spark_metabase_api-0.1.4.dist-info/RECORD,,
