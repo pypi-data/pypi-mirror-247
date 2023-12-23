@@ -1,0 +1,5 @@
+setup.py
+vecs2pauli.egg-info/PKG-INFO
+vecs2pauli.egg-info/SOURCES.txt
+vecs2pauli.egg-info/dependency_links.txt
+vecs2pauli.egg-info/top_level.txt
