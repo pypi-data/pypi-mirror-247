@@ -1,0 +1,30 @@
+name: cratermakerdocs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jigsaw
+  - jigsawpy
+  - sphinx
+  - sphinx-autosummary-accessors
+  - sphinx-book-theme >= 0.3.0
+  - sphinx-copybutton
+  - sphinx-design
+  - sphinx-inline-tabs
+  - sphinxext-rediraffe
+  - sphinxext-opengraph
+  - nbsphinx
+  - pip>=20.1 
+  - numpy>=1.26
+  - scipy>=1.11.3
+  - xarray>=2023.11
+  - uxarray>=2023.12
+  - cython>=3.0.0
+  - mpas_tools>=0.29
+  - matplotlib>=3.8.2
+  - scikit-build-core>=0.7.0
+  - pytest
+  - gfortran
+  - cmake
+  - ipython
+  - ford
