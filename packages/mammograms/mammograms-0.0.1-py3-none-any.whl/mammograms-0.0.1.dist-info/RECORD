@@ -1,0 +1,14 @@
+mammograms/__init__.py,sha256=LiGq74AmeC4R5EMNklz7CXnpRrnuzPIJO70bC6dVcQ0,67
+mammograms/cases/sfm-benign-0/1-130.dcm,sha256=_jHr-R3c2iVMFuyk1dcwJiAPTR3G5Ptmu8E42KLMTgY,9704514
+mammograms/cases/sfm-benign-0/1-131.dcm,sha256=oykyyTcOD1yHJdmlL_q9vrUscYRdoeHzNBoAUT0U8gA,11972264
+mammograms/cases/sfm-benign-0/1-132.dcm,sha256=ePBgBKUWlluYMlbu9ArmmbilfpKeSFXSmXF6846r7Gk,10947858
+mammograms/cases/sfm-benign-0/1-133.dcm,sha256=m9sbCZMqg28F0CnUmW5ildp7QVnYi1bV3N7dj91IT-w,13780698
+mammograms/cases/sfm-malign-0/1-280.dcm,sha256=ztFZhUF764qRI3twDRfmao3TDAE6N3xIddedpphJpdc,8930654
+mammograms/cases/sfm-malign-0/1-281.dcm,sha256=kPUiuwb2ZBvHOM2GvX5WPoP_MHFXvhRp8Ly7VWSIRAs,10097168
+mammograms/cases/sfm-malign-0/1-282.dcm,sha256=-Wfh88r8aIZXUmMgyZgsQd9P8PKicad8b6pzF-FiS6A,8137396
+mammograms/cases/sfm-malign-0/1-283.dcm,sha256=nx72ncO9lt1Lb75HcEY49MeTDZjrpsODfUCXRknc8CA,10078780
+mammograms/mammograms.py,sha256=-RCwMr_vTXmWW4_nG5uvfmgw9JahTDJTUINFT1puU6g,678
+mammograms/version.py,sha256=gmlPQvKiSLXNkYDRSSuKr4_RfdVMOatoq8Qzax3TUfE,122
+mammograms-0.0.1.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+mammograms-0.0.1.dist-info/METADATA,sha256=HAVfUKUKZHAIPg1iDIMIXfF6wtt7YaNN-CgjG5YfZ0U,1177
+mammograms-0.0.1.dist-info/RECORD,,
