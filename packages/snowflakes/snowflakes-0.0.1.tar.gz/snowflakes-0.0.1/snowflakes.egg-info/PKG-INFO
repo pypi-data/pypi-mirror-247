@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: snowflakes
+Version: 0.0.1
+Summary: The snowflakes module makes snowflakes.
+Home-page: https://github.com/xehivs/snowflakes
+Download-URL: https://github.com/xehivs/snowflakes
+Maintainer: P. Ksieniewicz
+Maintainer-email: pawel.ksieniewicz@pwr.edu.pl
+License: GPL-3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# Snowflakes
