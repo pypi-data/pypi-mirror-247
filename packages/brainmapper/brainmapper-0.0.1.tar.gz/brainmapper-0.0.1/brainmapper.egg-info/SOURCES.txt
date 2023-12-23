@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+.github/workflows/test_and_deploy.yml
+brainmapper/__init__.py
+brainmapper.egg-info/PKG-INFO
+brainmapper.egg-info/SOURCES.txt
+brainmapper.egg-info/dependency_links.txt
+brainmapper.egg-info/requires.txt
+brainmapper.egg-info/top_level.txt
