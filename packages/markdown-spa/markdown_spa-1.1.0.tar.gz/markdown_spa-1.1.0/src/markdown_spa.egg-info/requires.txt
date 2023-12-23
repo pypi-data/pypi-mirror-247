@@ -1,0 +1,9 @@
+markdown
+jinja2
+pygments
+click
+requests
+importlib_metadata
+
+[:platform_system == "Windows"]
+colorama
