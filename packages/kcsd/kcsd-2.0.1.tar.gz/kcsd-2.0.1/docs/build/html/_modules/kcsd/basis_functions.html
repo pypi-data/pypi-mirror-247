@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kcsd.basis_functions &#8212; kCSD-python rc documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for kcsd.basis_functions</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This script is used to generate basis sources for the</span>
+<span class="sd">kCSD method Jan et.al (2012) for 1D,2D and 3D cases.</span>
+<span class="sd">Two &#39;types&#39; are described here, gaussian and step source,</span>
+<span class="sd">These can be easily extended.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+
+<span class="k">def</span> <span class="nf">gauss</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">stdev</span><span class="p">,</span> <span class="n">dim</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Gaussian function</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        Distance array to the point of evaluation</span>
+<span class="sd">    stdev : float</span>
+<span class="sd">        cutoff range</span>
+<span class="sd">    dim : int</span>
+<span class="sd">        dimension of the gaussian function</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : floats or np.arrays</span>
+<span class="sd">        function evaluated</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">d</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">stdev</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span><span class="o">*</span><span class="n">stdev</span><span class="p">)</span><span class="o">**</span><span class="n">dim</span>
+    <span class="k">return</span> <span class="n">Z</span>
+
+
+<div class="viewcode-block" id="step_1D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.step_1D">[docs]</a><span class="k">def</span> <span class="nf">step_1D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">R</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized 1D step function.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        Distance array to the point of evaluation</span>
+<span class="sd">    R : float</span>
+<span class="sd">        cutoff range</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    s : Value of the function (d  &lt;= R) / R</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span>  <span class="o">&lt;=</span> <span class="n">R</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">/</span> <span class="n">R</span> <span class="c1">#normalize with width</span>
+    <span class="k">return</span> <span class="n">s</span></div>
+
+<div class="viewcode-block" id="gauss_1D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_1D">[docs]</a><span class="k">def</span> <span class="nf">gauss_1D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized gaussian 2D scale function</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        Distance array to the point of evaluation</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : (three_std/3)*(1/2*pi)*(exp(-0.5)*stddev**(-2) *(d**2))</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">stdev</span> <span class="o">=</span> <span class="n">three_stdev</span><span class="o">/</span><span class="mi">3</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">gauss</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">stdev</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="gauss_lim_1D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_lim_1D">[docs]</a><span class="k">def</span> <span class="nf">gauss_lim_1D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns gausian 2D function cut off after 3 standard deviations.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        Distance array to the point of evaluation</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : (three_std/3)*(1/2*pi)*(exp(-0.5)*stddev**(-2) *((x-mu)**2)),</span>
+<span class="sd">        cut off = three_stdev</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">gauss_1D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">)</span>
+    <span class="n">Z</span> <span class="o">*=</span> <span class="p">(</span><span class="n">d</span> <span class="o">&lt;</span> <span class="n">three_stdev</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="step_2D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.step_2D">[docs]</a><span class="k">def</span> <span class="nf">step_2D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">R</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized 2D step function.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : float or np.arrays</span>
+<span class="sd">        Distance array to the point of evaluation</span>
+<span class="sd">    R : float</span>
+<span class="sd">        cutoff range</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    s : step function</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">&lt;=</span> <span class="n">R</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="p">(</span><span class="n">R</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">s</span></div>
+
+<div class="viewcode-block" id="gauss_2D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_2D">[docs]</a><span class="k">def</span> <span class="nf">gauss_2D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized gaussian 2D scale function</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">         distance at which we need the function evaluated</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : function</span>
+<span class="sd">        Normalized gaussian 2D function</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">stdev</span> <span class="o">=</span> <span class="n">three_stdev</span><span class="o">/</span><span class="mi">3</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">gauss</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">stdev</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="gauss_lim_2D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_lim_2D">[docs]</a><span class="k">def</span> <span class="nf">gauss_lim_2D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns gausian 2D function cut off after 3 standard deviations.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">         distance at which we need the function evaluated</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : function</span>
+<span class="sd">        Normalized gaussian 2D function cut off after three_stdev</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="p">(</span><span class="n">d</span> <span class="o">&lt;=</span> <span class="n">three_stdev</span><span class="p">)</span><span class="o">*</span><span class="n">gauss_2D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="gauss_3D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_3D">[docs]</a><span class="k">def</span> <span class="nf">gauss_3D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized gaussian 3D scale function</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        distance at which we need the function evaluated</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : funtion</span>
+<span class="sd">        Normalized gaussian 3D function</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">stdev</span> <span class="o">=</span> <span class="n">three_stdev</span><span class="o">/</span><span class="mi">3</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">gauss</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">stdev</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="gauss_lim_3D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.gauss_lim_3D">[docs]</a><span class="k">def</span> <span class="nf">gauss_lim_3D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized gaussian 3D scale function cut off after 3stdev</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        distance at which we need the function evaluated</span>
+<span class="sd">    three_stdev : float</span>
+<span class="sd">        3 * standard deviation of the distribution</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Z : funtion</span>
+<span class="sd">        Normalized gaussian 3D function cutoff three_Stdev</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">gauss_3D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">three_stdev</span><span class="p">)</span>
+    <span class="n">Z</span> <span class="o">=</span> <span class="n">Z</span> <span class="o">*</span> <span class="p">(</span><span class="n">d</span> <span class="o">&lt;</span> <span class="p">(</span><span class="n">three_stdev</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">Z</span></div>
+
+
+<div class="viewcode-block" id="step_3D"><a class="viewcode-back" href="../../DOCUMENTATION.html#kcsd.basis_functions.step_3D">[docs]</a><span class="k">def</span> <span class="nf">step_3D</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">R</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns normalized 3D step function.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : floats or np.arrays</span>
+<span class="sd">        distance at which we need the function evaluated</span>
+<span class="sd">    R : float</span>
+<span class="sd">        cutoff range</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    s : step function in 3D</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">3</span><span class="o">/</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">R</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">d</span> <span class="o">&lt;=</span> <span class="n">R</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">s</span></div>
+
+<span class="n">basis_1D</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;step&quot;</span><span class="p">:</span> <span class="n">step_1D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss&quot;</span><span class="p">:</span> <span class="n">gauss_1D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss_lim&quot;</span><span class="p">:</span> <span class="n">gauss_lim_1D</span><span class="p">,</span>
+<span class="p">}</span>
+
+
+<span class="n">basis_2D</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;step&quot;</span><span class="p">:</span> <span class="n">step_2D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss&quot;</span><span class="p">:</span> <span class="n">gauss_2D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss_lim&quot;</span><span class="p">:</span> <span class="n">gauss_lim_2D</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">basis_3D</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;step&quot;</span><span class="p">:</span> <span class="n">step_3D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss&quot;</span><span class="p">:</span> <span class="n">gauss_3D</span><span class="p">,</span>
+    <span class="s2">&quot;gauss_lim&quot;</span><span class="p">:</span> <span class="n">gauss_lim_3D</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">kCSD-python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../INSTALL.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../DOCUMENTATION.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../TUTORIALS.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../LICENSE.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../AUTHORS.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../AUTHORS.html#contributions">Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../AUTHORS.html#contact">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../AUTHORS.html#contribute">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CITE.html">Citation policy</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019-2023, Chintaluri et al.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

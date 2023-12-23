@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Tutorials &#8212; kCSD-python rc documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="License" href="LICENSE.html" />
+    <link rel="prev" title="Documentation" href="DOCUMENTATION.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="tutorials">
+<h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this heading">¶</a></h1>
+<p>kcsd-python library comes with three extensive tutorials. These
+tutorials can be explored online or installed on your desktop computer
+depending on your usage. To simple test it out try the online version
+first, and if required install the python package.</p>
+<p><strong>Online version</strong></p>
+<p>To play around with the library without any installation, you can run
+the tutorials on Google collaboratory in a web-browser. <strong>Note:</strong> the
+results from a browser are not saved and cannot be retreived. If you
+wish to have the results stored somewhere, please use the desktop
+version.</p>
+<p><strong>Desktop version</strong></p>
+<p>This requires you to install the kCSD-package and additionally to
+install jupyter notebook on your desktop.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Neuroinflab/kCSD-python.git
+<span class="nb">cd</span><span class="w"> </span>kCSD-python
+pip<span class="w"> </span>install<span class="w"> </span>.
+pip<span class="w"> </span>install<span class="w"> </span>jupyterlab
+</pre></div>
+</div>
+<section id="basic-features">
+<h2>Basic Features<a class="headerlink" href="#basic-features" title="Permalink to this heading">¶</a></h2>
+<p>This tutorial showcases, the use of the kCSD-python package in the
+case of the simplest 2D square grid of electrodes. It defines a region
+where can place true current sources, probe it with a grid or
+electrodes, based on these measurements and using the proposed method,
+estimate the CSD. Since we also know the true sources, we can now
+estimate the error in the estimation method as well. To this
+preliminary setup, we add noise to the measurements at the electrodes,
+and repeat the procedure. We also explore the situation when certain
+number of the electrode are broken, and how that would effect the
+reconstructions.</p>
+<p>The tutorial is provided with Google collaboratory, click the button below to
+interact with it in a browser, no installation necessary.</p>
+<p><a class="reference external" href="https://colab.research.google.com/drive/1M7fCR5iZ9c7SAZWWoq9WLfFpk7pCaufd?usp=sharing">Basic tutorial</a></p>
+<p>For a non-interactive static version of this tutorial, see
+<a class="reference external" href="https://github.com/Neuroinflab/kCSD-python/blob/master/tutorials/tutorial_basic.ipynb">Tutorial1</a>.</p>
+</section>
+<section id="advanced-features">
+<h2>Advanced Features<a class="headerlink" href="#advanced-features" title="Permalink to this heading">¶</a></h2>
+<p>This tutorial showcases many more features of the kcsd-python package,
+especially the cases when the electrodes are distributed in 1D
+(laminar probe like), 2D (Neuropixel like), 3D (Utah array like) or on
+a microelectrode arrays (MEA, slice with saline). It is provided with
+buttons and easy clickable interface to enable the user to navigate
+the otherwise dense details. In some ways, it extends on the Basic
+Features tutorial and expands it to the other dimensions. NOTE, the
+user might have to ‘Reset this tutorial’ before using to enable the
+buttons (Kernel&gt;Restart &amp; Run All).</p>
+<p>The tutorial is provided with Google collaboratory, click the button below to
+interact with it in a browser, no installation necessary.</p>
+<p><a class="reference external" href="https://colab.research.google.com/drive/1gIuBJ2XzOGmgnRuxKguHevcYoE6eY_o1?usp=sharing">Advanced tutorial</a></p>
+<p>For a non-interactive static version of this tutorial, see
+<a class="reference external" href="https://github.com/Neuroinflab/kCSD-python/blob/master/tutorials/tutorial_advanced.ipynb">Tutorial2</a>.</p>
+</section>
+<section id="skcsd-tutorial">
+<h2>sKCSD Tutorial<a class="headerlink" href="#skcsd-tutorial" title="Permalink to this heading">¶</a></h2>
+<p>This tutorial showcases the possibility to reconstruct the current sources
+of a single neuron provided the morphology of the said neuron is known.
+This methods has been described extensively here: <a class="reference external" href="https://doi.org/10.7554/eLife.29384">https://doi.org/10.7554/eLife.29384</a></p>
+<p><a class="reference external" href="https://colab.research.google.com/drive/1tjOvC5-OTteiGT_f-MBQ3hqN7P3i1P8e?usp=sharing">sKCSD tutorial</a></p>
+<p>For a non-interactive static version of this tutorial, see
+<a class="reference external" href="https://github.com/Neuroinflab/kCSD-python/blob/master/tutorials/skcsd_tutorial.ipynb">sKCSD Tutorial</a></p>
+</section>
+<section id="more-tutorials">
+<h2>More Tutorials<a class="headerlink" href="#more-tutorials" title="Permalink to this heading">¶</a></h2>
+<p>There are many more ways to test this method some of these can be made
+into tutorials for easier understanding. While we are working on this,
+they will appear here once they reach production level. Please
+watch-out this space in the near future. We also take requests for
+tutorials.</p>
+<p>Do you wish there was a tutorial for your setup? Can you provide us
+with the electrode positions and some sample recordings under open
+license? If so, we might be able to tailor-make a tutorial for you!
+Please get in touch. See Contacts.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">kCSD-python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="INSTALL.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DOCUMENTATION.html">Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-features">Basic Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-features">Advanced Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#skcsd-tutorial">sKCSD Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#more-tutorials">More Tutorials</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AUTHORS.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AUTHORS.html#contributions">Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AUTHORS.html#contact">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AUTHORS.html#contribute">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CITE.html">Citation policy</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="DOCUMENTATION.html" title="previous chapter">Documentation</a></li>
+      <li>Next: <a href="LICENSE.html" title="next chapter">License</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019-2023, Chintaluri et al.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/TUTORIALS.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

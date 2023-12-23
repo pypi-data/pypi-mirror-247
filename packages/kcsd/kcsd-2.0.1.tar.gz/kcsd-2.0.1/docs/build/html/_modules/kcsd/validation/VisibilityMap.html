@@ -1,0 +1,858 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kcsd.validation.VisibilityMap &#8212; kCSD-python rc documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css" />
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for kcsd.validation.VisibilityMap</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;These are useful for VisibilityMap estimates in kCSD</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">gridspec</span>
+
+<span class="kn">from</span> <span class="nn">kcsd</span> <span class="kn">import</span> <span class="n">ValidateKCSD1D</span><span class="p">,</span> <span class="n">ValidateKCSD2D</span><span class="p">,</span> <span class="n">ValidateKCSD3D</span><span class="p">,</span> <span class="n">ValidateMoIKCSD</span>
+<span class="kn">from</span> <span class="nn">kcsd</span> <span class="kn">import</span> <span class="n">csd_profile</span> <span class="k">as</span> <span class="n">CSD</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">Parallel</span><span class="p">,</span> <span class="n">delayed</span>
+    <span class="kn">import</span> <span class="nn">multiprocessing</span>
+    <span class="n">NUM_CORES</span> <span class="o">=</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">cpu_count</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">PARALLEL_AVAILABLE</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="n">PARALLEL_AVAILABLE</span> <span class="o">=</span> <span class="kc">False</span>
+
+
+<div class="viewcode-block" id="VisibilityMap1D"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap1D">[docs]</a><span class="k">class</span> <span class="nc">VisibilityMap1D</span><span class="p">(</span><span class="n">ValidateKCSD1D</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class that produces error map for 1D CSD reconstruction.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="VisibilityMap1D.__init__"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap1D.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">total_ele</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize ErrorMap1D class.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        total_ele: int</span>
+<span class="sd">            Number of electrodes.</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">            Configuration parameters.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">VisibilityMap1D</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span> <span class="o">=</span> <span class="n">total_ele</span></div>
+
+<div class="viewcode-block" id="VisibilityMap1D.calculate_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap1D.calculate_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">calculate_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes reconstructions for n random simulated ground truth profiles and</span>
+<span class="sd">        returns errors of CSD estimation with kCSD method.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            Function to produce csd profile.</span>
+<span class="sd">        n: int</span>
+<span class="sd">            Number of simulations included in reliability map calculations.</span>
+<span class="sd">            Default: 100.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">PARALLEL_AVAILABLE</span><span class="p">:</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">NUM_CORES</span><span class="p">)(</span><span class="n">delayed</span>
+                                             <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">)</span>
+                                             <span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span>
+                                              <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                              <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                              <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">,</span> <span class="n">error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span>
+                                                       <span class="n">noise</span><span class="p">,</span>
+                                                       <span class="n">nr_broken_ele</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                                       <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                                       <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                <span class="n">rms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span>
+                <span class="n">point_error</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap1D.make_reconstruction"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap1D.make_reconstruction">[docs]</a>    <span class="k">def</span> <span class="nf">make_reconstruction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes the whole kCSD reconstruction.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            function to produce csd profile</span>
+<span class="sd">        csd_seed: int</span>
+<span class="sd">            Seed for random generator to choose random CSD profile.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_pos</span><span class="p">,</span> <span class="n">pots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">electrode_config</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ele_lims</span><span class="p">,</span>
+                                              <span class="n">h</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">h</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">,</span>
+                                              <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">)</span>
+
+        <span class="n">k</span><span class="p">,</span> <span class="n">est_csd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">do_kcsd</span><span class="p">(</span><span class="n">pots</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                  <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">)</span>
+        <span class="n">test_csd</span> <span class="o">=</span> <span class="n">csd_profile</span><span class="p">(</span><span class="n">k</span><span class="o">.</span><span class="n">estm_x</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">)</span>
+        <span class="n">rms</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_rms</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_point_error</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap1D.plot_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap1D.plot_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">plot_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_error</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Creates plot of mean error calculated separately for every point of</span>
+<span class="sd">        estimation space</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+<span class="sd">        ele_pos: numpy array</span>
+<span class="sd">            Positions of electrodes.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">mean_err</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid_mean</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Sigmoidal mean point error for random sources&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span>
+                             <span class="n">mean_err</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="n">mean_err</span><span class="p">,</span> <span class="s1">&#39;b.&#39;</span><span class="p">,</span>
+                 <span class="n">label</span><span class="o">=</span><span class="s1">&#39;mean error&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ele_pos</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ele_pos</span><span class="p">)),</span> <span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span>
+                 <span class="n">label</span><span class="o">=</span><span class="s1">&#39;electrodes locations&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Depth [mm]&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;RMS Error&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">mean_err</span></div></div>
+
+
+<div class="viewcode-block" id="VisibilityMap2D"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2D">[docs]</a><span class="k">class</span> <span class="nc">VisibilityMap2D</span><span class="p">(</span><span class="n">ValidateKCSD2D</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class that produces error map for 2D CSD reconstruction.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="VisibilityMap2D.__init__"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2D.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">total_ele</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize ErrorMap2D class.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        total_ele: int</span>
+<span class="sd">            Number of electrodes.</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">            Configuration parameters.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">VisibilityMap2D</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span> <span class="o">=</span> <span class="n">total_ele</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2D.make_reconstruction"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2D.make_reconstruction">[docs]</a>    <span class="k">def</span> <span class="nf">make_reconstruction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes the whole kCSD reconstruction.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            function to produce csd profile</span>
+<span class="sd">        csd_seed: int</span>
+<span class="sd">            Seed for random generator to choose random CSD profile.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_pos</span><span class="p">,</span> <span class="n">pots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">electrode_config</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ele_lims</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">h</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">,</span>
+                                              <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">)</span>
+        <span class="n">k</span><span class="p">,</span> <span class="n">est_csd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">do_kcsd</span><span class="p">(</span><span class="n">pots</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                  <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">)</span>
+        <span class="n">test_csd</span> <span class="o">=</span> <span class="n">csd_profile</span><span class="p">([</span><span class="n">k</span><span class="o">.</span><span class="n">estm_x</span><span class="p">,</span> <span class="n">k</span><span class="o">.</span><span class="n">estm_y</span><span class="p">],</span> <span class="n">csd_seed</span><span class="p">)</span>
+        <span class="n">rms</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_rms</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_point_error</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2D.calculate_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2D.calculate_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">calculate_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes reconstructions for n random simulated ground truth profiles and</span>
+<span class="sd">        returns errors of CSD estimation with kCSD method.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            Function to produce csd profile.</span>
+<span class="sd">        n: int</span>
+<span class="sd">            Number of simulations included in reliability map calculations.</span>
+<span class="sd">            Default: 100.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">PARALLEL_AVAILABLE</span><span class="p">:</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">NUM_CORES</span><span class="p">)(</span><span class="n">delayed</span>
+                                             <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">)</span>
+                                             <span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                              <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                              <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">,</span> <span class="n">error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span>
+                                                       <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                                       <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                                       <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                                       <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                                       <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                <span class="n">rms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span>
+                <span class="n">point_error</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">toc</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">tic</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;time: &#39;</span><span class="p">,</span> <span class="n">toc</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2D.plot_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2D.plot_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">plot_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_error</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Creates plot of mean error calculated separately for every point of</span>
+<span class="sd">        estimation space</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+<span class="sd">        ele_pos: numpy array</span>
+<span class="sd">            Positions of electrodes.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        mean_error: numpy array</span>
+<span class="sd">            Accuracy mask.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_x</span><span class="p">,</span> <span class="n">ele_y</span> <span class="o">=</span> <span class="n">ele_pos</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">ele_pos</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                        <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                        <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">])]</span>
+        <span class="n">mean_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid_mean</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+        <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
+<span class="c1">#        levels = np.linspace(0, 1., 25)</span>
+        <span class="n">im</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">mean_error</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Greys&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">ele_x</span><span class="p">,</span> <span class="n">ele_y</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Depth x [mm]&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Depth y [mm]&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Sigmoidal mean point error&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">mean_error</span></div></div>
+
+
+<div class="viewcode-block" id="VisibilityMap2DMoI"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2DMoI">[docs]</a><span class="k">class</span> <span class="nc">VisibilityMap2DMoI</span><span class="p">(</span><span class="n">ValidateMoIKCSD</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class that produces error map for 2D CSD reconstruction.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="VisibilityMap2DMoI.__init__"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2DMoI.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">total_ele</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize ErrorMap2D class.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        total_ele: int</span>
+<span class="sd">            Number of electrodes.</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">            Configuration parameters.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">VisibilityMap2DMoI</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span> <span class="o">=</span> <span class="n">total_ele</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2DMoI.make_reconstruction"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2DMoI.make_reconstruction">[docs]</a>    <span class="k">def</span> <span class="nf">make_reconstruction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes the whole kCSD reconstruction.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            function to produce csd profile</span>
+<span class="sd">        csd_seed: int</span>
+<span class="sd">            Seed for random generator to choose random CSD profile.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_pos</span><span class="p">,</span> <span class="n">pots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">electrode_config</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ele_lims</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">h</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">,</span>
+                                              <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">)</span>
+        <span class="n">k</span><span class="p">,</span> <span class="n">est_csd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">do_kcsd</span><span class="p">(</span><span class="n">pots</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                  <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">)</span>
+        <span class="n">test_csd</span> <span class="o">=</span> <span class="n">csd_profile</span><span class="p">([</span><span class="n">k</span><span class="o">.</span><span class="n">estm_x</span><span class="p">,</span> <span class="n">k</span><span class="o">.</span><span class="n">estm_y</span><span class="p">],</span> <span class="n">csd_seed</span><span class="p">)</span>
+        <span class="n">rms</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_rms</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_point_error</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2DMoI.calculate_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2DMoI.calculate_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">calculate_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes reconstructions for n random simulated ground truth profiles and</span>
+<span class="sd">        returns errors of CSD estimation with kCSD method.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            Function to produce csd profile.</span>
+<span class="sd">        n: int</span>
+<span class="sd">            Number of simulations included in reliability map calculations.</span>
+<span class="sd">            Default: 100.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">PARALLEL_AVAILABLE</span><span class="p">:</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">NUM_CORES</span><span class="p">)(</span><span class="n">delayed</span>
+                                             <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">)</span>
+                                             <span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                              <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                              <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">,</span> <span class="n">error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span>
+                                                       <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                                       <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                                       <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                                       <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                                       <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                <span class="n">rms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span>
+                <span class="n">point_error</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">toc</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">tic</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;time: &#39;</span><span class="p">,</span> <span class="n">toc</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap2DMoI.plot_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap2DMoI.plot_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">plot_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_error</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Creates plot of mean error calculated separately for every point of</span>
+<span class="sd">        estimation space</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+<span class="sd">        ele_pos: numpy array</span>
+<span class="sd">            Positions of electrodes.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        mean_error: numpy array</span>
+<span class="sd">            Accuracy mask.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_x</span><span class="p">,</span> <span class="n">ele_y</span> <span class="o">=</span> <span class="n">ele_pos</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">ele_pos</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                        <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                        <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">])]</span>
+        <span class="n">mean_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid_mean</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+        <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
+<span class="c1">#        levels = np.linspace(0, 1., 25)</span>
+        <span class="n">im</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">mean_error</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Greys&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">ele_x</span><span class="p">,</span> <span class="n">ele_y</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Depth x [mm]&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;Depth y [mm]&#39;</span><span class="p">)</span>
+        <span class="n">ax1</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Sigmoidal mean point error&#39;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">mean_error</span></div></div>
+
+
+<div class="viewcode-block" id="VisibilityMap3D"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap3D">[docs]</a><span class="k">class</span> <span class="nc">VisibilityMap3D</span><span class="p">(</span><span class="n">ValidateKCSD3D</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class that produces error map for 3D CSD reconstruction.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="VisibilityMap3D.__init__"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap3D.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">total_ele</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize ErrorMap3D class.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        total_ele: int</span>
+<span class="sd">            Number of electrodes.</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">            Configuration parameters.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">VisibilityMap3D</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span> <span class="o">=</span> <span class="n">total_ele</span></div>
+
+<div class="viewcode-block" id="VisibilityMap3D.make_reconstruction"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap3D.make_reconstruction">[docs]</a>    <span class="k">def</span> <span class="nf">make_reconstruction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes the whole kCSD reconstruction.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            function to produce csd profile</span>
+<span class="sd">        csd_seed: int</span>
+<span class="sd">            Seed for random generator to choose random CSD profile.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">ele_pos</span><span class="p">,</span> <span class="n">pots</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">electrode_config</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">csd_seed</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">total_ele</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ele_lims</span><span class="p">,</span>
+                                              <span class="bp">self</span><span class="o">.</span><span class="n">h</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">,</span> <span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="p">)</span>
+        <span class="n">k</span><span class="p">,</span> <span class="n">est_csd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">do_kcsd</span><span class="p">(</span><span class="n">pots</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span>
+                                  <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">)</span>
+        <span class="n">test_csd</span> <span class="o">=</span> <span class="n">csd_profile</span><span class="p">([</span><span class="n">k</span><span class="o">.</span><span class="n">estm_x</span><span class="p">,</span> <span class="n">k</span><span class="o">.</span><span class="n">estm_y</span><span class="p">,</span> <span class="n">k</span><span class="o">.</span><span class="n">estm_z</span><span class="p">],</span> <span class="n">csd_seed</span><span class="p">)</span>
+        <span class="n">rms</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_rms</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_point_error</span><span class="p">(</span><span class="n">test_csd</span><span class="p">,</span> <span class="n">est_csd</span><span class="p">[:,</span> <span class="p">:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap3D.calculate_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap3D.calculate_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">calculate_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csd_profile</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                            <span class="n">nr_broken_ele</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">Rs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                            <span class="n">method</span><span class="o">=</span><span class="s1">&#39;cross-validation&#39;</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Makes reconstructions for n random simulated ground truth profiles and</span>
+<span class="sd">        returns errors of CSD estimation with kCSD method.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        csd_profile: function</span>
+<span class="sd">            Function to produce csd profile.</span>
+<span class="sd">        n: int</span>
+<span class="sd">            Number of simulations included in reliability map calculations.</span>
+<span class="sd">            Default: 5.</span>
+<span class="sd">        noise: float</span>
+<span class="sd">            Determines the level of noise in the data.</span>
+<span class="sd">            Default: 0.</span>
+<span class="sd">        nr_broken_ele: int</span>
+<span class="sd">            How many electrodes are broken (excluded from analysis)</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        Rs: numpy 1D array</span>
+<span class="sd">            Basis source parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        lambdas: numpy 1D array</span>
+<span class="sd">            Regularization parameter for crossvalidation.</span>
+<span class="sd">            Default: None.</span>
+<span class="sd">        method: string</span>
+<span class="sd">            Determines the method of regularization.</span>
+<span class="sd">            Default: cross-validation.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        rms: float</span>
+<span class="sd">            Error of reconstruction.</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">PARALLEL_AVAILABLE</span><span class="p">:</span>
+            <span class="n">err</span> <span class="o">=</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">NUM_CORES</span><span class="p">)(</span><span class="n">delayed</span>
+                                             <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">)</span>
+                                             <span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                              <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                              <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                              <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">err</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rms</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+            <span class="n">point_error</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">,</span> <span class="n">error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">make_reconstruction</span><span class="p">(</span><span class="n">csd_profile</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span>
+                                                       <span class="n">noise</span><span class="o">=</span><span class="n">noise</span><span class="p">,</span>
+                                                       <span class="n">nr_broken_ele</span><span class="o">=</span><span class="n">nr_broken_ele</span><span class="p">,</span>
+                                                       <span class="n">Rs</span><span class="o">=</span><span class="n">Rs</span><span class="p">,</span> <span class="n">lambdas</span><span class="o">=</span><span class="n">lambdas</span><span class="p">,</span>
+                                                       <span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">)</span>
+                <span class="n">rms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span>
+                <span class="n">point_error</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="n">point_error</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">toc</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">tic</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;time: &#39;</span><span class="p">,</span> <span class="n">toc</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span></div>
+
+<div class="viewcode-block" id="VisibilityMap3D.plot_error_map"><a class="viewcode-back" href="../../../DOCUMENTATION.html#kcsd.validation.VisibilityMap.VisibilityMap3D.plot_error_map">[docs]</a>    <span class="k">def</span> <span class="nf">plot_error_map</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_error</span><span class="p">,</span> <span class="n">ele_pos</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Creates plot of mean error calculated separately for every point of</span>
+<span class="sd">        estimation space</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        point_error: numpy array</span>
+<span class="sd">            Error of reconstruction calculated at every point of reconstruction</span>
+<span class="sd">            space.</span>
+<span class="sd">        ele_pos: numpy array</span>
+<span class="sd">            Positions of electrodes.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        mean_error: numpy array</span>
+<span class="sd">            Accuracy mask.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+<span class="c1">#        ele_x, ele_y, ele_z = ele_pos[0], ele_pos[1], ele_pos[2]</span>
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_xlims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                           <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
+                           <span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_ylims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                           <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">]),</span>
+                           <span class="bp">self</span><span class="o">.</span><span class="n">kcsd_zlims</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">kcsd_zlims</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                           <span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">point_error</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">3</span><span class="p">])]</span>
+        <span class="n">mean_error</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigmoid_mean</span><span class="p">(</span><span class="n">point_error</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">))</span>
+        <span class="n">z_steps</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="n">height_ratios</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">z_steps</span><span class="p">)]</span>
+        <span class="n">width_ratios</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">]</span>
+        <span class="n">gs</span> <span class="o">=</span> <span class="n">gridspec</span><span class="o">.</span><span class="n">GridSpec</span><span class="p">(</span><span class="n">z_steps</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">height_ratios</span><span class="o">=</span><span class="n">height_ratios</span><span class="p">,</span>
+                               <span class="n">width_ratios</span><span class="o">=</span><span class="n">width_ratios</span><span class="p">)</span>
+        <span class="n">levels</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+        <span class="n">ind_interest</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">z</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span><span class="nb">complex</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">z_steps</span><span class="o">+</span><span class="mi">2</span><span class="p">)]</span>
+        <span class="n">ind_interest</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ind_interest</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">idx</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">ind_interest</span><span class="p">):</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[</span><span class="n">ii</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+            <span class="n">im</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span><span class="n">x</span><span class="p">[:,</span> <span class="p">:,</span> <span class="n">idx</span><span class="p">],</span> <span class="n">y</span><span class="p">[:,</span> <span class="p">:,</span> <span class="n">idx</span><span class="p">],</span>
+                              <span class="n">mean_error</span><span class="p">[:,</span> <span class="p">:,</span> <span class="n">idx</span><span class="p">],</span> <span class="n">levels</span><span class="o">=</span><span class="n">levels</span><span class="p">,</span>
+                              <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Greys&#39;</span><span class="p">)</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">get_xaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">get_yaxis</span><span class="p">()</span><span class="o">.</span><span class="n">set_visible</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+            <span class="n">title</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">z</span><span class="p">[:,</span> <span class="p">:,</span> <span class="n">idx</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])[:</span><span class="mi">4</span><span class="p">]</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="n">title</span><span class="p">,</span> <span class="n">fontdict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span> <span class="mf">0.8</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="mf">0.8</span><span class="p">})</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_aspect</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
+        <span class="n">cax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">gs</span><span class="p">[:,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">cbar</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im</span><span class="p">,</span> <span class="n">cax</span><span class="o">=</span><span class="n">cax</span><span class="p">,</span> <span class="n">orientation</span><span class="o">=</span><span class="s1">&#39;vertical&#39;</span><span class="p">)</span>
+        <span class="n">cbar</span><span class="o">.</span><span class="n">set_ticks</span><span class="p">(</span><span class="n">levels</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>
+        <span class="n">cbar</span><span class="o">.</span><span class="n">set_ticklabels</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">around</span><span class="p">(</span><span class="n">levels</span><span class="p">[::</span><span class="mi">2</span><span class="p">],</span> <span class="n">decimals</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">mean_error</span></div></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Checking 1D&#39;</span><span class="p">)</span>
+    <span class="n">CSD_PROFILE</span> <span class="o">=</span> <span class="n">CSD</span><span class="o">.</span><span class="n">gauss_1d_mono</span>
+    <span class="n">ELE_LIMS</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">]</span>  <span class="c1"># range of electrodes space</span>
+    <span class="n">TRUE_CSD_XLIMS</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">]</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">VisibilityMap1D</span><span class="p">(</span><span class="n">total_ele</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">h</span><span class="o">=</span><span class="mf">0.25</span><span class="p">,</span> <span class="n">R_init</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">ele_lims</span><span class="o">=</span><span class="n">ELE_LIMS</span><span class="p">,</span>
+                        <span class="n">true_csd_xlims</span><span class="o">=</span><span class="n">TRUE_CSD_XLIMS</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>
+                        <span class="n">src_type</span><span class="o">=</span><span class="s1">&#39;gauss&#39;</span><span class="p">,</span> <span class="n">n_src_init</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">ext_x</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+    <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span> <span class="o">=</span> <span class="n">k</span><span class="o">.</span><span class="n">calculate_error_map</span><span class="p">(</span><span class="n">CSD_PROFILE</span><span class="p">,</span>
+                                             <span class="n">Rs</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">))</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Checking 2D&#39;</span><span class="p">)</span>
+    <span class="n">ELE_LIMS</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.118</span><span class="p">,</span> <span class="mf">0.882</span><span class="p">]</span>
+    <span class="n">CSD_PROFILE</span> <span class="o">=</span> <span class="n">CSD</span><span class="o">.</span><span class="n">gauss_2d_large</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">VisibilityMap2D</span><span class="p">(</span><span class="n">total_ele</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">h</span><span class="o">=</span><span class="mf">50.</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">n_src_init</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+                        <span class="n">ele_lims</span><span class="o">=</span><span class="n">ELE_LIMS</span><span class="p">,</span> <span class="n">true_csd_xlims</span><span class="o">=</span><span class="n">TRUE_CSD_XLIMS</span><span class="p">,</span>
+                        <span class="n">est_xres</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">est_yres</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+    <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">calculate_error_map</span><span class="p">(</span><span class="n">CSD_PROFILE</span><span class="p">,</span>
+                                             <span class="n">Rs</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">),</span>
+                                             <span class="n">lambdas</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="n">n</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Checking 2D MoI&#39;</span><span class="p">)</span>
+    <span class="n">ELE_LIMS</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.118</span><span class="p">,</span> <span class="mf">0.882</span><span class="p">]</span>
+    <span class="n">CSD_PROFILE</span> <span class="o">=</span> <span class="n">CSD</span><span class="o">.</span><span class="n">gauss_2d_large</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">VisibilityMap2DMoI</span><span class="p">(</span><span class="n">total_ele</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">h</span><span class="o">=</span><span class="mf">50.</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">n_src_init</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+                           <span class="n">ele_lims</span><span class="o">=</span><span class="n">ELE_LIMS</span><span class="p">,</span> <span class="n">true_csd_xlims</span><span class="o">=</span><span class="n">TRUE_CSD_XLIMS</span><span class="p">,</span>
+                           <span class="n">est_xres</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">est_yres</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+    <span class="n">rms</span><span class="p">,</span> <span class="n">point_error</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">calculate_error_map</span><span class="p">(</span><span class="n">CSD_PROFILE</span><span class="p">,</span>
+                                             <span class="n">Rs</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">),</span>
+                                             <span class="n">lambdas</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="n">n</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Checking 3D&#39;</span><span class="p">)</span>
+    <span class="n">CSD_PROFILE</span> <span class="o">=</span> <span class="n">CSD</span><span class="o">.</span><span class="n">gauss_3d_small</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">VisibilityMap3D</span><span class="p">(</span><span class="n">total_ele</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">h</span><span class="o">=</span><span class="mf">50.</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">n_src_init</span><span class="o">=</span><span class="mi">729</span><span class="p">)</span>
+    <span class="n">a</span><span class="o">.</span><span class="n">calculate_error_map</span><span class="p">(</span><span class="n">CSD_PROFILE</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">kCSD-python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../INSTALL.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../DOCUMENTATION.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../TUTORIALS.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../LICENSE.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../AUTHORS.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../AUTHORS.html#contributions">Contributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../AUTHORS.html#contact">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../AUTHORS.html#contribute">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CITE.html">Citation policy</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019-2023, Chintaluri et al.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

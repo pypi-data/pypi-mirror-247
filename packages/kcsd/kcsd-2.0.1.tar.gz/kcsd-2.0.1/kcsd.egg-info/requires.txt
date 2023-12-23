@@ -1,0 +1,7 @@
+numpy>=1.19
+scipy>=1.8.0
+matplotlib>=3.6
+
+[docs]
+numpydoc>=1.6.0
+sphinx>=5
