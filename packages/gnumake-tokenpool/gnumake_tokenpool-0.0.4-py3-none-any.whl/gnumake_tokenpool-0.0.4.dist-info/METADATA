@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gnumake-tokenpool
+Version: 0.0.4
+Summary: jobclient and jobserver for the GNU make tokenpool protocol
+Home-page: https://github.com/milahu/gnumake-tokenpool
+Author: Milan Hauth
+Author-email: milahu@gmail.com
+License: MIT
+Keywords: jobclient,jobserver,gnumake,tokenpool,jobqueue,job,queue,gnu,make
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+
