@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: verysimplemodule_andreia
+Version: 0.0.1
+Summary: My first package
+Author: andreia
+Author-email: andreia.st.1010@gmail.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+My Python first package with a slightly longer description
