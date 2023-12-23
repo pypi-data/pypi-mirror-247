@@ -1,0 +1,11 @@
+setup.py
+verysimplemodule_alisonVitor/__init__.py
+verysimplemodule_alisonVitor/add.py
+verysimplemodule_alisonVitor/subtract.py
+verysimplemodule_alisonVitor.egg-info/PKG-INFO
+verysimplemodule_alisonVitor.egg-info/SOURCES.txt
+verysimplemodule_alisonVitor.egg-info/dependency_links.txt
+verysimplemodule_alisonVitor.egg-info/top_level.txt
+verysimplemodule_alisonVitor/extra/__init__.py
+verysimplemodule_alisonVitor/extra/divide.py
+verysimplemodule_alisonVitor/extra/multiple.py
