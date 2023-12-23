@@ -1,0 +1,2 @@
+[console_scripts]
+dcs-interactive = dcs.main:main
