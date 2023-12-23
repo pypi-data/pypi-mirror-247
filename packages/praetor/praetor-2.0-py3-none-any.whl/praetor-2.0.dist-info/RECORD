@@ -1,0 +1,17 @@
+praetor/__init__.py,sha256=GQIDPfLk3E0YePQUuhneerzs2V2V7wXf2uXZdXz2ru0,55
+praetor/add_quality.py,sha256=ububBZiAnjsmerRUYiblzf2saxieG_9mEeGqaCBBv7o,7810
+praetor/convert2prov.py,sha256=OCZJDswVFdhC8M2iwtS3zmfDTjwlRE767hilX89JH7c,7818
+praetor/decorate.py,sha256=COlu70F3fXsqGbVP3ZKeSZ6HgagKbgqwNxndHMmfrpE,9683
+praetor/genBindings.py,sha256=dXGI0nP2CTHL9GOQD1WCnSCmhd726FKUuvgBCQ3mOes,32104
+praetor/get_import_versions.py,sha256=8kHjrk67tK-xKOQlpXWsuSsoNL7sNI0k3Fk5AnKzyzY,1260
+praetor/praetorTemplates.py,sha256=ydvLsz6rf4IWLa34D-tuYitoRNQ-6Cxw1_Ib67mICBQ,10427
+praetor/praetor_settings.py,sha256=lu1wKA4Kdarbt7FnQPouNUJA39ojwLTA776NxsEz1T8,1206
+praetor/python_builtin_wrap_templateGen.py,sha256=7s9L-pJneb5SOSC1VHgejijPmQToTS6OJfLhpBsjOag,4511
+praetor/python_modules.py,sha256=NH6cKSpVkN_s4qfAeKrsRjkWhNJYZClKSeIE2l72WvM,13
+praetor/templateDictionary.py,sha256=SSD3f_SMtIZ_WJp718pyziEv220D8zQ96rBG_CaIoFo,14
+praetor-2.0.data/scripts/add_quality.py,sha256=Mg-ip3KaYSxLdGcXv5e3095hCIwzFG4fXdShMY8t4d0,7797
+praetor-2.0.data/scripts/praetor_run.py,sha256=1GDsNGTAxsjUoYJHwDlofDzw3C7E5dC7ihDbhJFYFxo,5709
+praetor-2.0.dist-info/METADATA,sha256=oIHRZ3fIOetqASqcevroy3G4WUxjFxmw44BhtNXt_Bo,434
+praetor-2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+praetor-2.0.dist-info/top_level.txt,sha256=vPuee4RP2LwL_0QVLIAMA5VSjKbJLF84nA6kJz-cj7A,8
+praetor-2.0.dist-info/RECORD,,
