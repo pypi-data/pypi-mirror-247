@@ -1,0 +1,12 @@
+eval7/__init__.py,sha256=pEivM72fEYCfqKJinHQ9K2sORM5XdJjc-paFnJ2lQnU,445
+eval7/cards.cp37-win32.pyd,sha256=9Gil6x_xWQsExJRkWsqw7IUKvZ26KHhUXJYaI5xtbDU,77824
+eval7/equity.cp37-win32.pyd,sha256=zOdErgdSdsjP0GUgNeDixXHJpBU-ZPaH09iGARmz7-Y,54272
+eval7/evaluate.cp37-win32.pyd,sha256=IRv2rDOFv-ZIYhekcywAjc5GZZQTIvcjSp66sEL2T3w,122368
+eval7/handrange.py,sha256=3Dl1WioATT3q3O9wUdcj-E8uKaGpmsDQd-RsD45ajY4,574
+eval7/rangestring.py,sha256=m_LBT6vhwEqpZNeqFUhPb3OmDkpOpyqv9kxye_yN6Qk,11204
+eval7/xorshift_rand.cp37-win32.pyd,sha256=pNHT6otiMixUatIIW1yU9iaSejXlj9mBQ-5EuaPu9eU,46592
+eval7-0.1.10.dist-info/LICENSE,sha256=zHd3ykEOfBerMzSz3Nqdbmre_EVfW8FqxXvLfiCLsCk,1126
+eval7-0.1.10.dist-info/METADATA,sha256=cJAjIr3oUOYo2Qu9xL0eibGJkT--NTXuK4DheBiOCv0,4451
+eval7-0.1.10.dist-info/WHEEL,sha256=-4e2_5zQjKFRyJsP6SfWXi5m1fmK3VBANPdPzrOxl7c,97
+eval7-0.1.10.dist-info/top_level.txt,sha256=_mtptJ6ymqbmLwNw_9hKywqoVbgKsmaG-88RT5a1rNw,6
+eval7-0.1.10.dist-info/RECORD,,
