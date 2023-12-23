@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: cog-hf-template
+Version: 0.0.13
+Summary: Cog template for Hugging Face.
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: Apache
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cog
+Requires-Dist: torch==2.0.1
+Requires-Dist: torchvision==0.15.2
+Requires-Dist: transformers>=4.33.2
+Requires-Dist: sentencepiece>=0.1.99
+Requires-Dist: accelerate>=0.22.0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: protobuf==3.20.3
+Requires-Dist: Pillow>=10.1.0
+Requires-Dist: bitsandbytes>=0.41.1
+Requires-Dist: sentence-transformers>=2.2.2
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: gcp
+Requires-Dist: google-cloud-storage; extra == "gcp"
+Provides-Extra: cli
+Requires-Dist: fire; extra == "cli"
+Provides-Extra: all
+Requires-Dist: black; extra == "all"
+Requires-Dist: ruff; extra == "all"
+Requires-Dist: google-cloud-storage; extra == "all"
+Requires-Dist: fire; extra == "all"
+
+# cog-huggingface-template
+
+Tools to help deploy Hugging Face models to replicate.
+
+
+## Requirements
+
+- GPU environment
+- [Cog](https://cog.run)
+
+## Installation
+
+### PyPI Install
+
+```
+pip install cog_hf_template
+```
+
+### Dev Install
+
+Clone the repo:
+
+```
+git clone https://github.com/replicate/cog-huggingface-template
+cd cog-huggingface-template
+pip install -e .
+```
+
+Run tests
+
+```
+pip install pytest
+```
+
+```
+pytest -vv tests
+```
+
+## Usage
+
+NOTE (Oct 19) - examples are out of date. Will update soon.
+
+~~For now, see the [examples directory](examples) for a working example.~~
+
+## Mirroring Weights from HF to Replicate Storage
+
+Here's a quick tip on how to mirror weights from Hugging Face to GCP
+
+You can use a minimal install of this package to avoid the extra dependencies...
+
+```
+# required deps for mirroring weights/CLI
+pip install --no-cache huggingface-hub==0.18.0 google-cloud-storage==2.12.0 hf-transfer==0.1.3 fire==0.5.0
+
+# Minimal version of the package
+pip install --no-deps --no-cache --upgrade cog-hf-template
+```
+
+**You will also need pget installed**
+
+```
+curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.0.2/pget" && chmod +x /usr/local/bin/pget
+```
+
+Then you can run the following command to mirror the weights:
+
+```
+cog-hf-template mirror-weights \
+    openai/whisper-large-v3 \
+    your-bucket \
+    --gcp-project-name your-project \
+    --config_save_path whisper_large_v3_config.json
+```
+
+See `cog-hf-template mirror-weights --help` for more details.
+
+In the example above, we mirror [`openai/whisper-large-v3`](https://huggingface.co/openai/whisper-large-v3) to the bucket `your-bucket` in the project `your-project`. We also save the model config to `whisper_large_v3_config.json` so that we can use it later to load the model (as you'll need to know the files to download).
+
+The config looks like this:
+
+```json
+{
+  "hf_model_id": "openai/whisper-large-v3",
+  "task": "automatic-speech-recognition",
+  "gcp_bucket_weights": "gs://your-bucket/openai/whisper-large-v3/1940b900b8d4d8fdf72a31be85a0d223b9488e00",
+  "trust_remote_code": true,
+  "remote_filenames": [
+    ".gitattributes",
+    "README.md",
+    "added_tokens.json",
+    "config.json",
+    "flax_model.msgpack",
+    "generation_config.json",
+    "merges.txt",
+    "model.fp32-00001-of-00002.safetensors",
+    "model.fp32-00002-of-00002.safetensors",
+    "model.safetensors",
+    "model.safetensors.index.fp32.json",
+    "preprocessor_config.json",
+    "pytorch_model.bin",
+    "pytorch_model.bin.index.fp32.json",
+    "pytorch_model.fp32-00001-of-00002.bin",
+    "pytorch_model.fp32-00002-of-00002.bin",
+    "special_tokens_map.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ]
+}
+```
+
+Note the files are accessible through the delivery URLs, and will the `gs://your-bucket` prefix will be replaced by the appropriate prefix before being downloaded.
+
+```python
+import json
+from pathlib import Path
+
+from cog_hf_template.download_utils import maybe_pget_weights
+
+config = json.loads(Path("whisper_large_v3_config.json").read_text())
+maybe_pget_weights(
+    path="whisper_large_v3",
+    remote_path=config["gcp_bucket_weights"],
+    remote_filenames=config["remote_filenames"],
+)
+```
