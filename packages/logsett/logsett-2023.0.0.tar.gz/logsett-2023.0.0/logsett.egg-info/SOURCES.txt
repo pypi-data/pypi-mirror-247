@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+logsett/__init__.py
+logsett/logger_settings.py
+logsett.egg-info/PKG-INFO
+logsett.egg-info/SOURCES.txt
+logsett.egg-info/dependency_links.txt
+logsett.egg-info/requires.txt
+logsett.egg-info/top_level.txt
