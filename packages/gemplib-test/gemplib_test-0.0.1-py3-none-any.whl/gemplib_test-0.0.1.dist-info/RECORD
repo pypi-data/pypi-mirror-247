@@ -1,0 +1,8 @@
+shape/__init__.py,sha256=VHVPuDn2CV429jg_fTXYhxm0_dT7xWkAEi5jszMlqrU,20
+shape/_gem.py,sha256=hQtWXAB2aMkjij0RkB40eOkZuRBWJt9o8Ae124CDWXI,412
+shape/point.py,sha256=wuRV8OPkMK_ZBQOxAR3OfHsUAG3mx0czV5kIPxt8ulA,568
+gemplib_test-0.0.1.dist-info/LICENSE,sha256=cI4B6Ba61wHmOiwJCimxu6oCCBVpXAZz1mLwy69KsII,1538
+gemplib_test-0.0.1.dist-info/METADATA,sha256=W3qKQrSS-oidsTKZ74LgpywMO5T9s-zahvsgT-TEb6c,1460
+gemplib_test-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gemplib_test-0.0.1.dist-info/top_level.txt,sha256=JGmVljENLXNJEQR71ZSFK6T0b9c3xt-OuSMxJ3dR13M,6
+gemplib_test-0.0.1.dist-info/RECORD,,
