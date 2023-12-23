@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule-anna/__init__.py
+verysimplemodule-anna/add.py
+verysimplemodule-anna/subtract.py
+verysimplemodule-anna/extra/__init__.py
+verysimplemodule-anna/extra/divide.py
+verysimplemodule-anna/extra/multiply.py
+verysimplemodule_annagodoy.egg-info/PKG-INFO
+verysimplemodule_annagodoy.egg-info/SOURCES.txt
+verysimplemodule_annagodoy.egg-info/dependency_links.txt
+verysimplemodule_annagodoy.egg-info/requires.txt
+verysimplemodule_annagodoy.egg-info/top_level.txt
