@@ -1,0 +1,3 @@
+[console_scripts]
+pysnapd=pysnapd.__main__:cli
+

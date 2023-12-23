@@ -1,0 +1,10 @@
+pysnapd/__init__.py,sha256=GnPAUPtM961cyE-6MsYlbV7hikDJCP5XgwYnPhrcp-A,48
+pysnapd/__main__.py,sha256=MqPXUNE7YGcGr8ZMukBnvEr7nYsy5usDm8ckbhqOfZo,5734
+pysnapd/config.py,sha256=_6XHvia5IAsScyjqS0GSB0XlHLjCes-CXoH-JhDN_Vc,3165
+pysnapd/manager.py,sha256=NUnj1cf5UJrQOiNhvlCOUM9eG2GvkJ0Kp9KJxHHbV6E,7312
+pysnapd/snap.py,sha256=C2zzDsJ2-AWKl2hPdxoLYUIo01cf84_02wMOtS_wpN8,2076
+pysnapd/utils.py,sha256=ri_iW1kRCDrVhhTKOFFZ4L6mmK-faFR_NLHv4Zj4dow,1054
+pysnapd-1.0.1.dist-info/METADATA,sha256=pBcW4PZ2UW8ctYWV2-FmDTfDH2Gv6KyOtkAK5EPBmlM,563
+pysnapd-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pysnapd-1.0.1.dist-info/entry_points.txt,sha256=dJCilp8QbEQEwlIfswkfV1q2MWKo9HbTFSUTGO-Vfxs,48
+pysnapd-1.0.1.dist-info/RECORD,,
