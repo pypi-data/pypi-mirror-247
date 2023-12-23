@@ -1,0 +1,6 @@
+README.md
+setup.py
+KrakenPythonMarcosRodrigo.egg-info/PKG-INFO
+KrakenPythonMarcosRodrigo.egg-info/SOURCES.txt
+KrakenPythonMarcosRodrigo.egg-info/dependency_links.txt
+KrakenPythonMarcosRodrigo.egg-info/top_level.txt
