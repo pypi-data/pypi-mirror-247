@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pypolestar
+Version: 1.1.0
+Summary: Library to control Polestar
+Home-page: https://github.com/leeyuentuen/pypolestar
+License: MIT
+Author: Tuen Lee
+Author-email: leeyuentuen@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.7.4.post0,<4.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/leeyuentuen/pypolestar/issues
+Project-URL: Changelog, https://github.com/leeyuentuen/pypolestar/blob/master/CHANGELOG.md
+Project-URL: Repository, https://github.com/leeyuentuen/pypolestar
+Description-Content-Type: text/markdown
+
+# pyPolestar
+
+Basic library to access Polestar Automobiles 
