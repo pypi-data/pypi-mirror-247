@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/kriple/prg.py
+src/kriple.egg-info/PKG-INFO
+src/kriple.egg-info/SOURCES.txt
+src/kriple.egg-info/dependency_links.txt
+src/kriple.egg-info/top_level.txt
