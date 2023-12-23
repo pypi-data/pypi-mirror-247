@@ -1,0 +1,11 @@
+abusify_id/.env,sha256=0Btn1Bjsr50Yym4FxsucqUTvqtDec6BvIZ8-MlCPzCI,107
+abusify_id/__init__.py,sha256=b3UxzXyM70vlROf_2txtChp7XBaKI3WnkVfSjulaT0k,216
+abusify_id/abusiveword_detector.py,sha256=ZcXzA3W5P848e9cXsqHG29JeZEeRrj-qas9oWIAbMdo,1913
+abusify_id/abusiveword_filter.py,sha256=G2bEto8cxyIziew3iS_w5U1Fo0oDyZR6Rgo8NuciWH8,1895
+abusify_id/model.pkl,sha256=L659xp9Lkh8rdJtV0Lx-EejOKrY_aWAB9vHaUUe-jfQ,207298
+abusify_id/predict_abusiveness.py,sha256=8vXpYGzIWzmXaCo9XEqN74nlG4kKu5bbzhGH89ratW4,1354
+abusify_id/tfidf_vectorizer.pkl,sha256=wgVXTzn9Iw1PvFhF8sjkzB5Msc7m15xBktrJq3V2KXE,750195
+abusify_id-0.13.dist-info/METADATA,sha256=tMIYKW-Wjm8RA23_UVftyZRN4biuABAatSXYuz5Yspg,2312
+abusify_id-0.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+abusify_id-0.13.dist-info/top_level.txt,sha256=WRQHQwrGmLD5NDhbSVsU1YZMfqq_i7UO5POXcyPPOF8,11
+abusify_id-0.13.dist-info/RECORD,,
