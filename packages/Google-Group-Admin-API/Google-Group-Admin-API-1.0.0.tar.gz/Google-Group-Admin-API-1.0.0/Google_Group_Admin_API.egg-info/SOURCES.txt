@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Google_Group_Admin_API.egg-info/PKG-INFO
+Google_Group_Admin_API.egg-info/SOURCES.txt
+Google_Group_Admin_API.egg-info/dependency_links.txt
+Google_Group_Admin_API.egg-info/requires.txt
+Google_Group_Admin_API.egg-info/top_level.txt
+google_workspace_group_manager/__init__.py
+google_workspace_group_manager/config.py
+google_workspace_group_manager/group_manager.py
+tests/__init__.py
+tests/test_group_manager.py
