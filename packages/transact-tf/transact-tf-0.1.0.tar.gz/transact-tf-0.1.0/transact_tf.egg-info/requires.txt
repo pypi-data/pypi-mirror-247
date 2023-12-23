@@ -1,0 +1,10 @@
+tensorflow>=2.9
+tf-models-official==2.9
+
+[dev]
+check-manifest
+twine
+numpy
+black
+pytest
+typing-extensions
