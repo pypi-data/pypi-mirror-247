@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+snake_me_please/__init__.py
+snake_me_please/converter.py
+snake_me_please.egg-info/PKG-INFO
+snake_me_please.egg-info/SOURCES.txt
+snake_me_please.egg-info/dependency_links.txt
+snake_me_please.egg-info/entry_points.txt
+snake_me_please.egg-info/top_level.txt
