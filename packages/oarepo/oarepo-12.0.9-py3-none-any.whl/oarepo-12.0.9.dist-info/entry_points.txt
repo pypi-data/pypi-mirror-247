@@ -1,0 +1,2 @@
+[invenio_assets.webpack]
+oarepo_ui_theme = oarepo_ui.theme.webpack:theme
