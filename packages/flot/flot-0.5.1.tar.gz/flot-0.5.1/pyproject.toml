@@ -1,0 +1,68 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+
+[project]
+name = "flot"
+version = "0.5.1"
+description = "Flot is a simple tool to easily build multiple packages (wheel and sdist) from a single repo without having to create a subdir or another repo for each package, and by simply listing which files to include."
+authors = [
+    {name = "Philippe Ombredanne", email = "pombredanne@nexb.com"},
+    {name = "Thomas Kluyver", email = "thomas@kluyver.me.uk"},
+]
+maintainers = [
+    {name = "Philippe Ombredanne", email = "pombredanne@nexb.com"},
+]
+dependencies = [
+    "tomli; python_version < '3.11'",
+]
+requires-python = ">=3.8"
+readme = "README.rst"
+license = {text = "BSD-3-Clause AND BSD-2-clause"}
+classifiers = ["Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.optional-dependencies]
+test = [
+	"testpath",
+	"responses",
+	"pytest>=2.7.3",
+	"pytest-cov",
+	"tomli",
+    # Validation
+    "flake8",
+    "black",
+    "isort",
+]
+doc = [
+	"sphinx",
+	"sphinxcontrib_github_alt",
+]
+
+[project.urls]
+Source = "https://github.com/nexB/flot"
+
+[project.scripts]
+flot = "flot:main"
+
+[tool.flot]
+includes=["flot/**/*"]
+metadata_files = ["LICENSE"]
+sdist_extra_includes=[
+    "tests/**/*",
+    "doc/**/*",
+    ".bumpversion.cfg",
+    "tox.ini",
+    "README.rst",
+    ".gitignore",
+]
+
+
+[tool.isort]
+force_single_line = "True"
+line_length = 88
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+skip = "doc,venv,tmp,thirdparty,build,dist"
