@@ -1,0 +1,3 @@
+[console_scripts]
+swiftrank=swiftrank.__main__:cli.meta
+
