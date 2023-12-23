@@ -1,0 +1,2 @@
+[console_scripts]
+zoinks = zoinks.__main__:console_scripts_main
