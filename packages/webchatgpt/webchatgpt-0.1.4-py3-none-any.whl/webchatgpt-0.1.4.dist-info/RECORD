@@ -1,0 +1,11 @@
+WebChatGPT/__init__.py,sha256=fYPtI-j6lR5nguVBfadmsn2bhzss2o2PE-gRJ_U9dJE,203
+WebChatGPT/__main__.py,sha256=q8wRYHD0YaMGQW-CN73tdERxPm_TOwfFi41yxkvK6og,34
+WebChatGPT/console.py,sha256=xx0pMMn8LlBaeGRpBFAtuSYh4HVMsGEf5g7bkzqFhyo,21104
+WebChatGPT/main.py,sha256=-s8ptxS1weRHd7eLFigxTm2EmvaSupC3IhDGCBT-_1c,29356
+WebChatGPT/utils.py,sha256=9weqY9AI9u1cU75vMtP5GLsHtJViaxn_EIjlYG833hg,6697
+webchatgpt-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+webchatgpt-0.1.4.dist-info/METADATA,sha256=kEgWbfRPBuX9To0kJw4OlMCjneO3udTINYyCvR0PaP8,10318
+webchatgpt-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+webchatgpt-0.1.4.dist-info/entry_points.txt,sha256=m52IdwWD5DGXBsiAFfqUX7ww9uwsNvcDsWiXFFyxaXY,55
+webchatgpt-0.1.4.dist-info/top_level.txt,sha256=yEg9O_DjjnER8-cFLoNMmzeFKtqH5BLqz6vAZSFnNq0,11
+webchatgpt-0.1.4.dist-info/RECORD,,
