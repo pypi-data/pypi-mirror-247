@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule_erlanny/__init__.py
+verysimplemodule_erlanny/add.py
+verysimplemodule_erlanny/subtract.py
+verysimplemodule_erlanny.egg-info/PKG-INFO
+verysimplemodule_erlanny.egg-info/SOURCES.txt
+verysimplemodule_erlanny.egg-info/dependency_links.txt
+verysimplemodule_erlanny.egg-info/requires.txt
+verysimplemodule_erlanny.egg-info/top_level.txt
+verysimplemodule_erlanny/extra/__init__.py
+verysimplemodule_erlanny/extra/divide.py
+verysimplemodule_erlanny/extra/multiple.py
