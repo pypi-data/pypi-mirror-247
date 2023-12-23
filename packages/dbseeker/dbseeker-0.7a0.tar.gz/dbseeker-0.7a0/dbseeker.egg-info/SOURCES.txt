@@ -1,0 +1,9 @@
+LICENSE
+README.md
+dbseeker.py
+setup.py
+dbseeker.egg-info/PKG-INFO
+dbseeker.egg-info/SOURCES.txt
+dbseeker.egg-info/dependency_links.txt
+dbseeker.egg-info/requires.txt
+dbseeker.egg-info/top_level.txt
