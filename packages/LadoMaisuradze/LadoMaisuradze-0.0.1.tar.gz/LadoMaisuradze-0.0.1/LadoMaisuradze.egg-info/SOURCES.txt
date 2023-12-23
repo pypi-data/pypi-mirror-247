@@ -1,0 +1,7 @@
+LICENSE.txt
+README.txt
+setup.py
+LadoMaisuradze.egg-info/PKG-INFO
+LadoMaisuradze.egg-info/SOURCES.txt
+LadoMaisuradze.egg-info/dependency_links.txt
+LadoMaisuradze.egg-info/top_level.txt
