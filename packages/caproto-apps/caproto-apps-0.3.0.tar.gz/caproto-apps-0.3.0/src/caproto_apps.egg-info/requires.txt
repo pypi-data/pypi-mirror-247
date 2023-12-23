@@ -1,0 +1,12 @@
+caproto
+fabric
+labjack-ljm
+numpy
+
+[dev]
+black
+pytest
+pytest-asyncio
+build
+twine
+time-machine

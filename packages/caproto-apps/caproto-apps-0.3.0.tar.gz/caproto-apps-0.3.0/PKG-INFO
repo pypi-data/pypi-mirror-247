@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: caproto-apps
+Version: 0.3.0
+Summary: Variety of useful extensions for caproto IOCs.
+Author-email: Mark Wolfman <wolfman@anl.gov>
+Project-URL: Homepage, https://github.com/canismarko/caproto-apps
+Keywords: caproto,controls
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: caproto
+Requires-Dist: fabric
+Requires-Dist: labjack-ljm
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: time-machine; extra == "dev"
