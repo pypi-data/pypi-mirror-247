@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aquaref
+Version: 0.0.1a1
+Summary: WinForms UI Pack
+Author: XiangQinxi
+Author-email: XiangQinxi@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aquaref-log (>=0.0.1a1,<0.0.2)
+Requires-Dist: darkdetect (>=0.8.0,<0.9.0)
+Requires-Dist: pythonnet (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Aquaref
+> 原主项目名`Flater`
+
+---
+
+## 简介
+基于`PythonNet`开发的`WinForms`界面库
+
