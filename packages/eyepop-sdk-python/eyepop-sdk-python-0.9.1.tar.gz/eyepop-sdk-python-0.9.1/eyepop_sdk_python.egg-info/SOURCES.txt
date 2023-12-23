@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+eyepop/__init__.py
+eyepop/endpoint.py
+eyepop/exceptions.py
+eyepop/eyepopsdk.py
+eyepop/jobs.py
+eyepop/syncify.py
+eyepop/visualize.py
+eyepop_sdk_python.egg-info/PKG-INFO
+eyepop_sdk_python.egg-info/SOURCES.txt
+eyepop_sdk_python.egg-info/dependency_links.txt
+eyepop_sdk_python.egg-info/requires.txt
+eyepop_sdk_python.egg-info/top_level.txt
