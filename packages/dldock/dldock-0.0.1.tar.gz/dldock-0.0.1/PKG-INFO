@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dldock
+Version: 0.0.1
+Summary: Shared Library Handler Based on Ctypes
+Author: Sean West
+License: MIT
+Keywords: shared library handler
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## dldock 
+dldock is a simple shared library handler based on ctypes. 
+
+### Installation
+
+```sh
+pip install dldock
+```
+
+### Usage
+
+```py
+from dldock import DlDock
+
+lib_handler = DlDock(lib_path)
+```
