@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+sdeul/__init__.py
+sdeul/cli.py
+sdeul/extraction.py
+sdeul/validation.py
+sdeul.egg-info/PKG-INFO
+sdeul.egg-info/SOURCES.txt
+sdeul.egg-info/dependency_links.txt
+sdeul.egg-info/entry_points.txt
+sdeul.egg-info/requires.txt
+sdeul.egg-info/top_level.txt
