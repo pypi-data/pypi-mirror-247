@@ -1,0 +1,10 @@
+verysimplemodule_erlanny/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+verysimplemodule_erlanny/add.py,sha256=EJioIUpnnkLD5acBN9NHe0P6TdLN72tv2TnUzuxHAOQ,32
+verysimplemodule_erlanny/subtract.py,sha256=ChPakN9whbxYDZoZEXX_jHFp2KTuB5mUaBETAG6tN6Q,37
+verysimplemodule_erlanny/extra/__init__.py,sha256=M_du9zCOOTNyj2WS8o3hJO55FOMK8J-qoCh98DKM4l4,58
+verysimplemodule_erlanny/extra/divide.py,sha256=5_x9lI4X4mbuxxowSxFZ9NUCMxfT573UJyFG9FE01w4,35
+verysimplemodule_erlanny/extra/multiple.py,sha256=avVSn95wGdFM29mzV_UTTrHV5f4l3U1Za36Z8IEcFe4,38
+verysimplemodule_erlanny-0.0.2.dist-info/METADATA,sha256=bHBmTDlK_zuIZwFu41GmJiSd2D9TxnwhvGdSIMxHEPc,299
+verysimplemodule_erlanny-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+verysimplemodule_erlanny-0.0.2.dist-info/top_level.txt,sha256=l6l2V8ykMy0oXTsOLZ-viULGqcG7jx-yaQlEjivTWVM,25
+verysimplemodule_erlanny-0.0.2.dist-info/RECORD,,

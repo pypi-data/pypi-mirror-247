@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: verysimplemodule-erlanny
+Version: 0.0.2
+Summary: Pacote de teste
+Author: Erlanny
+Author-email: erlannyrodrigues@gmail.com
+Keywords: python,primeiro pacote
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: numpy
+
+Pacote de teste para o curso de Python
