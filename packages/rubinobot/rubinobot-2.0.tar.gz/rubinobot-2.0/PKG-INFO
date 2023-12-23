@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: rubinobot
+Version: 2.0
+Summary: Robinobot is a library for building self-robots in Robino based on API
+Home-page: https://github.com/activate-sh
+Author: Amirali Irvany
+Author-email: dev.amirali.irvany@gmail.com
+Keywords: bot,Bot,rubino,rubika,rubinobot
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Rubino
+### A small library for making the Robino robot 
+
+
+## Example
+```python
+from rubino import Client
+from asyncio import run
+
+client = Client('YOUR-AUTH')
+async def main():
+    res = await client.follow('followee_id')
+    print(res)
+
+
+run(main())
+```
+
+
+# Install
+```bash
+<<<<<<< HEAD
+pip install rubinobot
+=======
+pip install rubinobot -U
+>>>>>>> origin/main
+```

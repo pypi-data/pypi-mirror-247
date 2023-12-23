@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rubinobot/__init__.py
+rubinobot/client.py
+rubinobot/methods.py
+rubinobot.egg-info/PKG-INFO
+rubinobot.egg-info/SOURCES.txt
+rubinobot.egg-info/dependency_links.txt
+rubinobot.egg-info/requires.txt
+rubinobot.egg-info/top_level.txt
