@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+idlweb/__init__.py
+idlweb.egg-info/PKG-INFO
+idlweb.egg-info/SOURCES.txt
+idlweb.egg-info/dependency_links.txt
+idlweb.egg-info/requires.txt
+idlweb.egg-info/top_level.txt
